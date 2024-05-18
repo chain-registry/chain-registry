@@ -1,26 +1,17 @@
 import "../styles/globals.css";
 import "@interchain-ui/react/styles";
-import '@interchain-ui/react/globalStyles';
+import "@interchain-ui/react/globalStyles";
 
-import {
-  Box,
-  ThemeProvider,
-  useColorModeValue,
-  useTheme,
-} from "@interchain-ui/react";
+import { Box, ThemeProvider, useColorModeValue } from "@interchain-ui/react";
 import type { AppProps } from "next/app";
 
 function CreateCosmosApp({ Component, pageProps }: AppProps) {
-  const { themeClass } = useTheme();
-
   return (
     <ThemeProvider>
       <Box
-        className={themeClass}
         minHeight="100dvh"
-        backgroundColor={useColorModeValue("$white", "$background")}
+        backgroundColor={useColorModeValue("$white", "$cardBg")}
       >
-        {/* @ts-ignore */}
         <Component {...pageProps} />
       </Box>
     </ThemeProvider>

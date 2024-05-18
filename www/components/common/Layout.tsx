@@ -18,10 +18,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header onMenuButtonClick={() => setShow(true)} />
-      <Box minHeight="78vh">
-        {children}
-      </Box>
+
+      <Box minHeight="78vh">{children}</Box>
+
       <Footer />
+
       <Drawer show={show} onClose={() => setShow(false)}>
         <DrawContent onClose={() => setShow(false)} />
       </Drawer>
@@ -29,9 +30,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
-function DrawContent({
-  onClose = () => {},
-}) {
+function DrawContent({ onClose = () => {} }) {
   return (
     <>
       <Box
@@ -48,11 +47,7 @@ function DrawContent({
         </Link>
         <Box display="flex" flex="1" justifyContent="end">
           <Box attributes={{ onClick: onClose }}>
-            <Icon
-              name="close"
-              size="$5xl"
-              color="$blackAlpha600"
-            />
+            <Icon name="close" size="$5xl" color="$blackAlpha600" />
           </Box>
         </Box>
       </Box>

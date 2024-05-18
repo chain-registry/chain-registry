@@ -1,4 +1,4 @@
-import { Box, Button, Text } from "@interchain-ui/react";
+import { Box, Button, Text, useColorModeValue } from "@interchain-ui/react";
 import Link from "next/link";
 
 import Connect from "./Connect";
@@ -8,7 +8,7 @@ export function Hero() {
     <Box display="flex" my="$14">
       <Box mt="$14" maxWidth="500px">
         <Text
-          color="$purple400"
+          color={useColorModeValue("$purple400", "$purple50")}
           fontSize="$lg"
           fontWeight="$medium"
           attributes={{ display: "block" }}
@@ -35,7 +35,10 @@ export function Hero() {
             marginTop: "$7",
           }}
         >
-          The Chain Registry is a comprehensive and organized resource offering detailed information on Cosmos blockchains, assets, and IBC channels. Designed with community input, it standardizes data to enhance your development experience across diverse projects.
+          The Chain Registry is a comprehensive and organized resource offering
+          detailed information on Cosmos blockchains, assets, and IBC channels.
+          Designed with community input, it standardizes data to enhance your
+          development experience across diverse projects.
         </Text>
         <Link href="/registry" style={{ display: "inline-block" }}>
           <Button intent="tertiary" attributes={{ mt: "$10" }}>
