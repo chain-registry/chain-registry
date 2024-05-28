@@ -1,56 +1,81 @@
-import { Box, Container, Icon, Text } from "@interchain-ui/react";
-import Head from "next/head";
-import Image from "next/image";
+import {
+  Box,
+  Button,
+  Icon,
+  Text,
+  useColorModeValue,
+} from "@interchain-ui/react";
 import Link from "next/link";
 import { useState } from "react";
 
-import logo from "../../images/chain-registry-graphic.svg";
+import { ThemeSwitcher } from "@/components/common/ThemeSwitcher";
+
 import { Drawer, Footer, Header } from ".";
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export function Layout({ children }: { children?: React.ReactNode }) {
   const [show, setShow] = useState(false);
 
   return (
-    <Container maxWidth="64rem" attributes={{ py: "$8" }}>
-      <Head>
-        <title>Chain Registry</title>
-        <meta name="description" content="Your Gateway to the Interchain" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Header onMenuButtonClick={() => setShow(true)} />
+    <>
+      <Box
+        as="main"
+        minHeight="100dvh"
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        backgroundColor={useColorModeValue("$white", "$cardBg")}
+      >
+        <Header onMenuButtonClick={() => setShow(true)} />
 
-      <Box minHeight="78vh">{children}</Box>
+        <Box flex={1}>{children}</Box>
 
-      <Footer />
+        <Footer />
+      </Box>
 
       <Drawer show={show} onClose={() => setShow(false)}>
-        <DrawContent onClose={() => setShow(false)} />
+        <DrawerContent onClose={() => setShow(false)} />
       </Drawer>
-    </Container>
+    </>
   );
 }
 
-function DrawContent({ onClose = () => {} }) {
+function DrawerContent({ onClose = () => {} }) {
   return (
     <>
       <Box
         p="$9"
-        display="flex"
-        alignItems="center"
         borderBottomWidth="1px"
-        borderBottomColor="$gray100"
+        borderBottomColor={useColorModeValue("$gray100", "$divider")}
         borderBottomStyle="solid"
       >
-        <Link href="/">
-          sdfsdfsdfsdfsdf
-          <Image src={logo} alt="Cosmology" width={35} />
-        </Link>
-        <Box display="flex" flex="1" justifyContent="end">
-          <Box attributes={{ onClick: onClose }}>
-            <Icon name="close" size="$5xl" color="$blackAlpha600" />
+        <Box display="flex" justifyContent="space-between" alignItems="center">
+          <Link href="/">
+            <Text as="span" fontSize="$lg" color="$text">
+              Chain registry
+            </Text>
+          </Link>
+
+          <Box
+            flex="1"
+            display="flex"
+            justifyContent="flex-end"
+            alignItems="center"
+            color="$text"
+          >
+            <ThemeSwitcher />
+
+            <Button
+              size="sm"
+              variant="ghost"
+              intent="secondary"
+              onClick={onClose}
+            >
+              <Icon name="close" />
+            </Button>
           </Box>
         </Box>
       </Box>
+
       <Box px="$9">
         <Link href="/components" style={{ display: "block" }}>
           <Text fontSize="$lg" fontWeight="$semibold" attributes={{ py: "$8" }}>
