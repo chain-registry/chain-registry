@@ -21,8 +21,8 @@ export const ChainList = (props: ChainListProps) => {
     Chain["chainId"] | null
   >(null);
 
-  const { openView } = useChain(selectedChainId ?? "cosmoshub-4"); // or juno, osmosis, etc.
-  const { status, client } = useWalletClient();
+  // const { openView } = useChain(selectedChainId ?? "cosmoshub-4"); // or juno, osmosis, etc.
+  // const { status, client } = useWalletClient();
 
   // The scrollable element for your list
   const parentRef = React.useRef(null);
