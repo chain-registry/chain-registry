@@ -21,17 +21,13 @@ const defaultWallets: MainWalletBase[] = [
 
 function ChainRegistryApp({ Component, pageProps }: AppProps) {
   const { themeClass } = useTheme();
-  const [wallets, setWallets] = useState<MainWalletBase[]>(defaultWallets);
-  const [loadingWallets, setLoadingWallet] = useState<boolean>(true);
+  // const [wallets, setWallets] = useState<MainWalletBase[]>(defaultWallets);
+  // const [loadingWallets, setLoadingWallet] = useState<boolean>(true);
 
-  useEffect(() => {
-    setLoadingWallet(false);
-    setWallets(defaultWallets);
-  }, []);
-
-  if (loadingWallets) {
-    return <>Loading...</>;
-  }
+  // useEffect(() => {
+  //   setLoadingWallet(false);
+  //   setWallets(defaultWallets);
+  // }, []);
 
   return (
     <>
