@@ -167,6 +167,25 @@
       "display": "bHUAHUA",
       "symbol": "bHUAHUA",
       "coingeckoId": "backbone-labs-staked-huahua"
+    },
+    {
+      "description": "ashHUAHUA - Burned HUAHUA",
+      "denomUnits": [
+        {
+          "denom": "factory/chihuahua1hplyuj2hzxd75q8686g9vm3uzrrny9ggvt8aza2csupgdp98vg2sp0e3h0/uhuahua.ash",
+          "exponent": 0
+        },
+        {
+          "denom": "ashHUAHUA",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "chihuahua1hplyuj2hzxd75q8686g9vm3uzrrny9ggvt8aza2csupgdp98vg2sp0e3h0",
+      "base": "factory/chihuahua1hplyuj2hzxd75q8686g9vm3uzrrny9ggvt8aza2csupgdp98vg2sp0e3h0/uhuahua.ash",
+      "name": "Burned HUAHUA",
+      "display": "ashHUAHUA",
+      "symbol": "ashHUAHUA"
     }
   ]
 }

@@ -13236,6 +13236,35 @@
       "name": "CosmusCartol",
       "display": "COCA",
       "symbol": "COCA"
+    },
+    {
+      "description": "An alloy of USDT asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
+          "exponent": 0
+        },
+        {
+          "denom": "allUSDT",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek",
+      "base": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
+      "name": "Alloyed USDT",
+      "display": "allUSDT",
+      "symbol": "allUSDT",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Osmosis"
+        }
+      ]
     }
   ]
 }
