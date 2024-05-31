@@ -48,6 +48,9 @@
       },
       {
         "address": "https://shido-rpc.applejuice.256x25.tech:443"
+      },
+      {
+        "address": "https://rpc.shido.indonode.net:443"
       }
     ],
     "rest": [
@@ -59,6 +62,9 @@
       },
       {
         "address": "https://shido-api.applejuice.256x25.tech:443"
+      },
+      {
+        "address": "https://api.shido.indonode.net"
       }
     ],
     "grpc": [
@@ -108,6 +114,12 @@
       "url": "https://explorer.mavnode.io/shido",
       "txPage": "https://explorer.mavnode.io/shido/tx/${txHash}",
       "accountPage": "https://explorer.mavnode.io/shido/account/${accountAddress}"
+    },
+    {
+      "kind": "Indonode",
+      "url": "https://explorer.indonode.net/shido",
+      "txPage": "https://explorer.indonode.net/shido/tx/${txHash}",
+      "accountPage": "https://explorer.indonode.net/shido/account/${accountAddress}"
     }
   ],
   "images": [

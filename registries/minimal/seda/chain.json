@@ -67,6 +67,9 @@
       },
       {
         "address": "https://seda-rpc.applejuice.256x25.tech:443"
+      },
+      {
+        "address": "https://seda-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -102,6 +105,9 @@
       },
       {
         "address": "https://seda-api.applejuice.256x25.tech:443"
+      },
+      {
+        "address": "https://seda-api.bluestake.net"
       }
     ],
     "grpc": [

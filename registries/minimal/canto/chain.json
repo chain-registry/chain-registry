@@ -106,16 +106,6 @@
   },
   "explorers": [
     {
-      "kind": "bigdipper",
-      "url": "https://cosmos.explorer.canto.io",
-      "txPage": "https://cosmos.explorer.canto.io/transactions/${txHash}"
-    },
-    {
-      "kind": "blockscout",
-      "url": "https://evm.explorer.canto.io/",
-      "txPage": "https://evm.explorer.canto.io/tx/${txHash}"
-    },
-    {
       "kind": "ping.pub",
       "url": "https://cosmos-explorers.neobase.one/canto",
       "txPage": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
