@@ -1,43 +1,84 @@
-import { Box, IconButton, Text } from "@interchain-ui/react";
-import Image from "next/image";
+import {
+  Box,
+  Button,
+  Container,
+  Icon,
+  Stack,
+  Text,
+  useColorModeValue,
+} from "@interchain-ui/react";
 import Link from "next/link";
 
-import logo from "../../images/chain-registry-name-logo.svg";
+import { ThemeSwitcher } from "@/components/common/ThemeSwitcher";
+import { ChainRegistryIcon } from "@/components/icons";
 
 export type HeaderProps = {
   onMenuButtonClick?: () => void;
 };
 
-export function Header({
-  onMenuButtonClick = () => {},
-}: HeaderProps) {
+export function Header({ onMenuButtonClick = () => {} }: HeaderProps) {
   return (
-    <Box
-      pb="$8"
-      display="flex"
-      alignItems="center"
-      borderBottomWidth="1px"
-      borderBottomColor="$gray100"
-      borderBottomStyle="solid"
-    >
-      <Box flex="1">
-        <Link href="/">
-          <Image src={logo} alt="Interchain Logo" width={180} />
-        </Link>
+    <Container maxWidth="$containerMd">
+      <Box
+        display="flex"
+        alignItems="center"
+        borderBottomWidth="1px"
+        borderBottomColor={useColorModeValue("$gray100", "$divider")}
+        borderBottomStyle="solid"
+      >
+        <Box flex="1">
+          <Link href="/" aria-label="Chain registry">
+            <Text
+              as="span"
+              fontSize="150px"
+              color="$text"
+              attributes={{
+                display: "flex",
+                height: {
+                  mobile: "$17",
+                  tablet: "$20",
+                },
+              }}
+            >
+              <ChainRegistryIcon />
+            </Text>
+          </Link>
+        </Box>
+
+        <Box display={{ mobile: "none", desktop: "block" }}>
+          <Stack
+            space="$4"
+            attributes={{
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Link href="/registry">
+              <Text
+                fontWeight="$medium"
+                color={useColorModeValue("$purple400", "$purple50")}
+              >
+                Registry
+              </Text>
+            </Link>
+
+            <ThemeSwitcher />
+          </Stack>
+        </Box>
+
+        <Box display={{ mobile: "block", desktop: "none" }}>
+          <Button
+            variant="ghost"
+            intent="secondary"
+            size="sm"
+            onClick={onMenuButtonClick}
+          >
+            <Text as="span" fontSize="$lg">
+              <Icon name="verticalMore" />
+            </Text>
+          </Button>
+        </Box>
       </Box>
-      <Box display={{ mobile: "none", desktop: "block" }}>
-        <Link href="/registry">
-          <Text fontWeight="$medium" color="$purple500">Registry</Text>
-        </Link>
-      </Box>
-      <Box display={{ mobile: "block", desktop: "none" }}>
-        <IconButton
-          icon="verticalMore"
-          variant="ghost"
-          intent="secondary"
-          onClick={onMenuButtonClick}
-        />
-      </Box>
-    </Box>
+    </Container>
   );
 }
