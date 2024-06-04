@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://evmos.org/",
         "twitter": "https://twitter.com/EvmosOrg"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "description": "Tether USDt on Evmos",
@@ -47,7 +46,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/95F4898F70B1E3765715808C57E955034419200A7BB6DDECBEAA5FD3AA3DF7D5",
       "name": "Tether USDt",
       "display": "usdt",
@@ -109,8 +108,7 @@
       "socials": {
         "website": "https://www.neokingdom.org/",
         "twitter": "https://twitter.com/NEOKingdomDAO"
-      },
-      "asset_type": "erc20"
+      }
     },
     {
       "description": "The token of Teledisko DAO.",
@@ -128,7 +126,7 @@
       "name": "Teledisko DAO",
       "display": "berlin",
       "symbol": "BERLIN",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0x1cFc8f1FE8D5668BAFF2724547EcDbd6f013a280",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/berlin.png",
@@ -158,7 +156,7 @@
       "display": "crowdp",
       "address": "0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f",
       "symbol": "CROWDP",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.svg"

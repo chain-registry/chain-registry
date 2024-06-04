@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://persistence.one/",
         "twitter": "https://twitter.com/PersistenceOne"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "description": "PSTAKE Liquid-Staked ATOM",
@@ -77,8 +76,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets.",
@@ -96,7 +94,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
       "name": "pSTAKE Finance",
       "display": "pstake",
@@ -163,7 +161,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/C8A74ABBE2AF892E15680D916A7C22130585CE5704F9B17A10F184A90D53BECA",
       "name": "Cosmos Hub Atom",
       "display": "atom",
@@ -209,7 +207,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/C559977F5797BDC1D74C0836A10C379C991D664166CB60D776A83029852431B4",
       "name": "Tether USDT",
       "display": "usdt",
@@ -255,7 +253,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/B3792E4A62DF4A934EF2DF5968556DB56F5776ED25BDE11188A4F58A7DD406F0",
       "name": "Noble USD Coin",
       "display": "usdc",
@@ -304,7 +302,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/23DC3FF0E4CBB53A1915E4C62507CB7796956E84C68CA49707787CB8BDE90A1E",
       "name": "dYdX",
       "display": "dydx",
@@ -380,8 +378,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkosmo.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "PSTAKE Liquid-Staked DYDX",
@@ -424,8 +421,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkdydx.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "PSTAKE Liquid-Staked STARS",
@@ -468,8 +464,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkstars.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkstars.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -485,7 +480,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/AD8E1D4AC4EA8FC79CC46E33319A3791477D4DEBFC30D5D874074B993422B41B",
       "name": "Stargaze",
       "display": "stars",
@@ -534,7 +529,7 @@
           "exponent": 8
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/5D3B6445EA1D7064C4B1CCB588638589529556E1BCBADF13475021B42EA8C73B",
       "name": "Shade",
       "display": "shd",
@@ -611,8 +606,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkhuahua.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -628,7 +622,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/B597D779FCDD9021263C98A48F1AFA9D2BCCCE980F397CDE5681CCEDE7DEE1A4",
       "name": "Chihuahua",
       "display": "huahua",
@@ -703,8 +697,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkxprt.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkxprt.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

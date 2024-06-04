@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://www.stargaze.zone/",
         "twitter": "https://twitter.com/StargazeZone"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "description": "The native token of ohhNFT.",
@@ -61,8 +60,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "The native meme token of stargaze.",
@@ -90,8 +88,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "ohhNFT LP token.",
@@ -119,8 +116,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Social token for the ohhVAULT.",
@@ -148,8 +144,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "The native coin of Sneaky Productions.",
@@ -177,8 +172,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "LAB - Everything is an Experiment",
@@ -193,7 +187,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/93B1AE0AD5E88242745B245064A2A51DDA1319C18176A966D5F8F9E02ED5373E",
       "name": "LAB",
       "display": "LAB",
@@ -237,7 +231,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/B0263C28B6F44651F4596413B41FDB749EA010BD1220816DAC0ABF9947C1E806",
       "name": "CDT",
       "display": "CDT",
@@ -278,7 +272,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/E94BB144B818CB8061F43E202BEA1E9273B87D6326C8C6F4E6AE71C62FD37854",
       "name": "MBRN",
       "display": "MBRN",

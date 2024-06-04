@@ -26,8 +26,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/chain4energytestnet/images/c4e.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

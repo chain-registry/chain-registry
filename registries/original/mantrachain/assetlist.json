@@ -15,7 +15,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "base": "uom",
       "name": "MANTRA Chain",
       "display": "om",

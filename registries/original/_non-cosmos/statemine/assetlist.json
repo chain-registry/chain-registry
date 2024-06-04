@@ -13,7 +13,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "substrate",
+      "type_asset": "substrate",
       "base": "130",
       "name": "Statemine",
       "display": "usdt",

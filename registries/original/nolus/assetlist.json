@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://nolus.io/",
         "twitter": "https://twitter.com/NolusProtocol"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "description": "axlUSDC transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -53,7 +52,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/7FBDBEEEBA9C50C4BCDF7BF438EAB99E64360833D240B32655C96E319559E911",
       "name": "axlUSDC",
       "display": "usdc",
@@ -109,7 +108,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
       "name": "Osmosis",
       "display": "osmo",
@@ -161,7 +160,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/AF5559D128329B6C753F15481BEC26E533B847A471074703FA4903E7E6F61BA1",
       "name": "Osmosis",
       "display": "stosmo",
@@ -213,7 +212,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/6CDD4663F2F09CD62285E2D45891FC149A3568E316CE3EBBE201A71A78A69388",
       "name": "Atom",
       "display": "atom",
@@ -265,7 +264,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/FCFF8B19C61677F3B78E2A5AE3B4A34A8D23858D16905F253B8438B3AFD07FF8",
       "name": "stATOM",
       "display": "statom",
@@ -317,7 +316,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/A7C4A3FB19E88ABE60416125F9189DA680800F4CDD14E3C10C874E022BEFF04C",
       "name": "WETH",
       "display": "weth",
@@ -372,7 +371,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/84E70F4A34FB2DE135FD3A04FDDF53B7DA4206080AA785C8BAB7F8B26299A221",
       "name": "WBTC",
       "display": "wbtc",
@@ -427,7 +426,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/ADC63C00000CA75F909D2BE3ACB5A9980BED3A73B92746E0FCE6C67414055459",
       "name": "AKT",
       "display": "akt",
@@ -479,7 +478,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/1B03A71B8E6F6EF424411DC9326A8E0D25D096E4D2616425CFAF2AF06F0FE717",
       "name": "AXL",
       "display": "axl",
@@ -531,7 +530,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/4F3E83AB35529435E4BFEA001F5D935E7250133347C4E1010A9C77149EF0394C",
       "name": "JUNO",
       "display": "juno",
@@ -583,7 +582,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/A59A9C955F1AB8B76671B00C1A0482C64A6590352944BB5880E5122358F7E1CE",
       "name": "EVMOS",
       "display": "evmos",
@@ -635,7 +634,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/DAAD372DB7DD45BBCFA4DDD40CA9793E9D265D1530083AB41A8A0C53C3EBE865",
       "name": "stkATOM",
       "display": "stk/atom",
@@ -687,7 +686,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/EA00FFF0335B07B5CD1530B7EB3D2C710620AE5B168C71AFF7B50532D690E107",
       "name": "SCRT",
       "display": "scrt",
@@ -739,7 +738,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/E1BCC0F7B932E654B1A930F72B76C0678D55095387E2A4D8F00E941A8F82EE48",
       "name": "CRO",
       "display": "cro",
@@ -789,7 +788,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/11E3CF372E065ACB1A39C531A3C7E7E03F60B5D0653AD2139D31128ACD2772B5",
       "name": "STARS",
       "display": "stars",
@@ -841,7 +840,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
       "name": "TIA",
       "display": "tia",
@@ -893,7 +892,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/04CA9067228BB51F1C39A506DA00DF07E1496D8308DD21E8EF66AD6169FA722B",
       "name": "STRD",
       "display": "strd",
@@ -945,7 +944,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/3D6BC6E049CAEB905AC97031A42800588C58FB471EBDC7A3530FFCD0C3DC9E09",
       "name": "NTRN",
       "display": "ntrn",
@@ -1001,7 +1000,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/6DF8CF5C976851D152E2C7270B0AB25C4F9D64C0A46513A68D6CBB2662A98DF4",
       "name": "DYDX",
       "display": "dydx",

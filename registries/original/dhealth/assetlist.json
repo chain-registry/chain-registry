@@ -33,8 +33,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

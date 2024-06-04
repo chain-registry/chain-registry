@@ -51,7 +51,7 @@
           ]
         }
       ],
-      "asset_type": "substrate",
+      "type_asset": "substrate",
       "base": "Planck",
       "name": "Polkadot",
       "display": "DOT",

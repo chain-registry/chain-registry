@@ -33,8 +33,7 @@
       "socials": {
         "website": "https://www.kava.io/",
         "twitter": "https://twitter.com/KAVA_CHAIN"
-      },
-      "asset_type": "unknown"
+      }
     },
     {
       "description": "Governance token of Kava Lend Protocol",
@@ -62,8 +61,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg"
         }
-      ],
-      "asset_type": "unknown"
+      ]
     },
     {
       "description": "Governance token of Kava Swap Protocol",
@@ -91,8 +89,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg"
         }
-      ],
-      "asset_type": "unknown"
+      ]
     },
     {
       "description": "The native stablecoin of Kava",
@@ -120,8 +117,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg"
         }
-      ],
-      "asset_type": "unknown"
+      ]
     },
     {
       "denom_units": [
@@ -160,8 +156,7 @@
       ],
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
-      },
-      "asset_type": "erc20"
+      }
     }
   ]
 }

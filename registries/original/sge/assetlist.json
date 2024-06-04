@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sge/images/sge.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

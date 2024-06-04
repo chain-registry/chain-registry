@@ -15,7 +15,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "unknown",
+      "type_asset": "unknown",
       "base": "upenumbra",
       "display": "penumbra",
       "symbol": "UM",

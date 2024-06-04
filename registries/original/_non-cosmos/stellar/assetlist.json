@@ -15,7 +15,7 @@
           "exponent": 7
         }
       ],
-      "asset_type": "evm-base",
+      "type_asset": "evm-base",
       "base": "stroop",
       "name": "Lumen",
       "display": "lumen",

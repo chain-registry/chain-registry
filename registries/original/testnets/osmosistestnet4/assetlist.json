@@ -38,8 +38,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -69,8 +68,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

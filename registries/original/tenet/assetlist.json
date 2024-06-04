@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tenet/images/tenet.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tenet/images/tenet.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

@@ -36,12 +36,11 @@
       "socials": {
         "website": "https://archway.io/",
         "twitter": "https://twitter.com/archwayHQ"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "description": "ERIS liquid staked ARCH",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "archway1fwurjg7ah4v7hhs6xsc3wutqpvmahrfhns285s0lt34tgfdhplxq6m8xg5",
       "denom_units": [
         {
@@ -78,7 +77,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/7CB33A66F90533ED1E168CB3251253C719CF4B04FF1290AFD795F14CA1D67278",
       "name": "Wosmo",
       "display": "WOSMO",
@@ -125,7 +124,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/1BCF1FCAFE3568E234787EDFDA12460BD8931B17FE6A729DCD60FAD845558DA1",
       "name": "Vidulum",
       "display": "vdl",
@@ -161,7 +160,7 @@
     },
     {
       "description": "Astrovault AXV",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n",
       "denom_units": [
         {

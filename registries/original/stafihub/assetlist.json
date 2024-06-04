@@ -26,8 +26,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/fis.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "A liquid staking representation of staked ATOMs",
@@ -63,8 +62,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/ratom.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "A liquid staking representation of staked IRISs",
@@ -100,8 +98,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/riris.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "A liquid staking representation of staked HUAHUAs",
@@ -137,8 +134,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/rhuahua.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "A liquid staking representation of staked SWTHs",
@@ -174,8 +170,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/rswth.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

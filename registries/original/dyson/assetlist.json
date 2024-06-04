@@ -24,8 +24,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -41,7 +40,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
       "name": "Osmosis",
       "display": "osmo",
@@ -90,7 +89,7 @@
           "exponent": 8
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/9BF31153F7E37F687C75A2F310E7A4DB6E0512B065F709B5EB69FE828133AFAC",
       "name": "Wrapped Bitcoin",
       "display": "wbtc",
@@ -142,7 +141,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "description": "Circle's stablecoin on Axelar on Osmosis",
       "base": "ibc/13DF61376C08483555C6D4C9203612086A1B23218EB5EBDBE609EEC7EFF2D82D",
       "name": "USD Coin",

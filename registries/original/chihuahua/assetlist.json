@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "Puppy",
@@ -43,7 +42,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
       "base": "cw20:chihuahua1yl8z39ugle8s02fpwkhh293509q5xcpalmdzc4amvchz8nkexrmsy95gef",
       "name": "Puppy",
@@ -81,8 +80,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Woof",
@@ -107,8 +105,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Tacos",
@@ -133,8 +130,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/tacos.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Weed",
@@ -159,8 +155,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/weed.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Bulldog",
@@ -185,8 +180,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bdog.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "CaneCorso",
@@ -211,8 +205,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/corso.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "BackBone Labs Liquid Staked HUAHUA",
@@ -226,7 +219,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w",
       "base": "cw20:chihuahua1jz5n4aynhpxx7clf2m8hrv9dp5nz83k67fgaxhy4p9dfwl6zssrq3ymr6w",
       "name": "BackBone Labs Liquid Staked HUAHUA",
@@ -255,7 +248,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "address": "chihuahua1hplyuj2hzxd75q8686g9vm3uzrrny9ggvt8aza2csupgdp98vg2sp0e3h0",
       "base": "factory/chihuahua1hplyuj2hzxd75q8686g9vm3uzrrny9ggvt8aza2csupgdp98vg2sp0e3h0/uhuahua.ash",
       "name": "Burned HUAHUA",

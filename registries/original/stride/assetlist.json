@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://stride.zone/",
         "twitter": "https://twitter.com/stride_zone"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "denom_units": [
@@ -70,8 +69,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -108,8 +106,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -146,8 +143,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -184,8 +180,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -222,8 +217,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -259,8 +253,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -297,8 +290,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "Stride's liquid staked DYDX",
@@ -335,8 +327,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "Stride's liquid staked TIA",
@@ -373,8 +364,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "Stride's liquid staked DYM",
@@ -411,8 +401,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdym.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdym.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -449,8 +438,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -486,8 +474,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -524,8 +511,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "Stride's liquid staked SAGA",
@@ -562,8 +548,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

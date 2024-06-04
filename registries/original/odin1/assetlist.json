@@ -32,8 +32,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "GEO token for ODIN Protocol",
@@ -64,8 +63,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "O9W token for ODIN Protocol",
@@ -96,8 +94,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

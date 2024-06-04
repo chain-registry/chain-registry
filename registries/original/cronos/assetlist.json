@@ -39,8 +39,7 @@
       ],
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
-      },
-      "asset_type": "unknown"
+      }
     },
     {
       "description": "Tether USDt on Cronos",
@@ -54,7 +53,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/9106F2626880DF7FAD30621F355423B2A7523D8E2274475F009644D708A90682",
       "name": "Tether USDt",
       "display": "usdt",

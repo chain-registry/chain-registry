@@ -13,7 +13,7 @@
           "exponent": 10
         }
       ],
-      "asset_type": "substrate",
+      "type_asset": "substrate",
       "base": "79228162514264337593543950342",
       "name": "Polkadot",
       "display": "dot",

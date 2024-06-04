@@ -17,7 +17,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "evm-base",
+      "type_asset": "evm-base",
       "base": "attoFIL",
       "name": "Filecoin",
       "display": "fil",
@@ -50,7 +50,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "base": "0x60E1773636CF5E4A227d9AC24F20fEca034ee25A",
       "name": "Wrapped FIL",
       "display": "wfil",

@@ -15,7 +15,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "unknown",
+      "type_asset": "unknown",
       "base": "microlibra",
       "name": "Libra Coin",
       "display": "libra",

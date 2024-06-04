@@ -3,7 +3,7 @@
   "chain_name": "zilliqa",
   "assets": [
     {
-      "asset_type": "evm-base",
+      "type_asset": "evm-base",
       "denom_units": [
         {
           "denom": "wei",

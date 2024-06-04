@@ -39,8 +39,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mises/images/mises.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

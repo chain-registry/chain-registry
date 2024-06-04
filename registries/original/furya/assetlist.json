@@ -38,8 +38,7 @@
       ],
       "socials": {
         "twitter": "https://twitter.com/furyachain"
-      },
-      "asset_type": "sdk.coin"
+      }
     }
   ]
 }

@@ -33,8 +33,7 @@
       "socials": {
         "website": "https://www.sourceprotocol.io/",
         "twitter": "https://twitter.com/sourceprotocol_"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "description": "Source Protocol's SRCX Token Bridged from BNB Through Planq",
@@ -51,7 +50,7 @@
           "exponent": 9
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/FC5A7360EEED0713AE3E83E9D55A69AF873056A172AC495890ACE4582FF9685A",
       "name": "SRCX",
       "display": "srcx",

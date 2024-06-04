@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://canto.io/",
         "twitter": "https://twitter.com/CantoPublic"
-      },
-      "asset_type": "unknown"
+      }
     },
     {
       "description": "Tether USDt on Canto",
@@ -47,7 +46,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/FAFF3F7B2FE30447544A27910DF77069763CF25472BFCF63A9E7C81F0AD545AC",
       "name": "Tether USDt",
       "display": "usdt",

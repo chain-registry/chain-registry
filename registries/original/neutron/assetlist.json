@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://neutron.org/",
         "twitter": "https://twitter.com/Neutron_org"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "description": "IBC uatom through cosmoshub-4 transfer/channel-1",
@@ -50,7 +49,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
       "name": "IBC atom",
       "display": "atom",
@@ -99,7 +98,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
       "name": "USD Coin (Axelar)",
       "display": "axlusdc",
@@ -148,7 +147,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
       "name": "Celestia TIA",
       "display": "tia",
@@ -205,8 +204,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astropepe.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "wstETH on Neutron",
@@ -245,8 +243,7 @@
       ],
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
-      },
-      "asset_type": "sdk.factory"
+      }
     },
     {
       "description": "NBTC on Neutron",
@@ -263,7 +260,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/DDC3C60EE82BF544F1A0C6A983FF500EF1C14DE20071A5E1E7C0FB470E36E920",
       "name": "Nomic NBTC",
       "display": "sat",
@@ -312,7 +309,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
       "name": "DYDX",
       "display": "dydx",
@@ -373,8 +370,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newt.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -409,8 +405,7 @@
       "socials": {
         "website": "https://astroport.fi/",
         "twitter": "https://twitter.com/astroport_fi"
-      },
-      "asset_type": "sdk.factory"
+      }
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -452,8 +447,7 @@
       "socials": {
         "website": "https://astroport.fi/",
         "twitter": "https://twitter.com/astroport_fi"
-      },
-      "asset_type": "sdk.factory"
+      }
     },
     {
       "description": "ASTRO.cw20 on Neutron",
@@ -470,7 +464,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
       "name": "Astroport CW20 token",
       "display": "astro.cw20",
@@ -530,8 +524,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/babycorgi.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "clownmaxxed store of value",
@@ -559,8 +552,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/circus.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Jimmy Neutron Finance",
@@ -588,8 +580,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/jimmy.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Baddest coin on Cosmos",
@@ -617,8 +608,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bad.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "BITCOSMOS",
@@ -646,8 +636,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/bitcosmos.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "What the Fuck",
@@ -675,8 +664,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WTF.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "NLS on Neutron",
@@ -693,7 +681,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/6C9E6701AC217C0FC7D74B0F7A6265B9B4E3C3CDA6E80AADE5F950A8F52F9972",
       "name": "Nolus NLS",
       "display": "nls",
@@ -753,8 +741,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddardntrn.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "The deflationary utility token of the Apollo DAO project",
@@ -786,8 +773,7 @@
       "socials": {
         "website": "https://apollo.farm/",
         "twitter": "https://twitter.com/ApolloDAO"
-      },
-      "asset_type": "sdk.factory"
+      }
     },
     {
       "description": "NEWTROLL",
@@ -815,8 +801,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Retro Game",
@@ -844,8 +829,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "THE FIRST NATIVE GODDARD MEMECOIN ON NEUTRON",
@@ -873,8 +857,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "The first memecoin on osmosis.",
@@ -888,7 +871,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/7DA39F5140741177846FCF3CFAB14450EE7F57B7794E5A94BEF73825D3741958",
       "name": "Wosmo",
       "display": "WOSMO",
@@ -946,8 +929,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/boy.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
@@ -961,7 +943,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/9F8417FBA11E5E01F7F85DDD48C400EB746E95084C11706041663845B4A700A8",
       "name": "Badkid",
       "display": "BADKID",
@@ -1019,8 +1001,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/cartel.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "$ATOM to $1,000 LFG!!",
@@ -1048,11 +1029,10 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ATOM1KLFGc.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "description": "USD Coin on Neutron",
       "denom_units": [
         {
@@ -1128,8 +1108,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WEIRD.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "denom_units": [
@@ -1153,8 +1132,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/TAKUMI.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "name": "Ninja Blaze Token",
@@ -1182,8 +1160,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/NBZ.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     }
   ]
 }

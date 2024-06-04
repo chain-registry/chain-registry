@@ -21,8 +21,7 @@
       "base": "aconst",
       "name": "Archway",
       "display": "const",
-      "symbol": "CONST",
-      "asset_type": "sdk.coin"
+      "symbol": "CONST"
     }
   ]
 }

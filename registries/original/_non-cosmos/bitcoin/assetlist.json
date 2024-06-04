@@ -14,7 +14,7 @@
           "exponent": 8
         }
       ],
-      "asset_type": "bitcoin-like",
+      "type_asset": "bitcoin-like",
       "base": "sat",
       "name": "Bitcoin",
       "display": "btc",

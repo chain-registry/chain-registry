@@ -33,8 +33,7 @@
         "website": "https://unification.com",
         "twitter": "https://twitter.com/UnificationUND"
       },
-      "coingecko_id": "unification",
-      "asset_type": "sdk.coin"
+      "coingecko_id": "unification"
     }
   ]
 }
