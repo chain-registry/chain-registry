@@ -3,22 +3,24 @@ import { writeFileSync } from 'fs';
 import { mkdirpSync as mkdirp } from 'mkdirp';
 import { basename, dirname, join } from "path";
 
-import { assetListDefaultValuesSetter, assetListOperationsOriginal, assetListPropertyRenameMap, assetListValueReplacer, chainPropertyRenameMap, publicDir, registriesDir, registry } from './config';
+import { assetListDefaultValuesSetter, assetListOperationsOriginal, assetListPropertyRenameMap, assetListValueReplacer, chainPropertyRenameMap } from './config';
+import { publicDir, registriesDir, registry } from '../config';
 
 const registryDir = join(registriesDir, 'original')
+console.log('',registryDir);
 
 const options: RegistryBuilderOptions = {
   assetList: {
     camelCase: false,
-    space: 2,
-    propertyRenameMap: assetListPropertyRenameMap,
-    defaultValuesSetter: assetListDefaultValuesSetter,
-    valueReplacer: assetListValueReplacer
+    space: 2
+    // propertyRenameMap: assetListPropertyRenameMap,
+    // defaultValuesSetter: assetListDefaultValuesSetter,
+    // valueReplacer: assetListValueReplacer
   },
   chain: {
     camelCase: false,
     space: 2,
-    propertyRenameMap: chainPropertyRenameMap
+    // propertyRenameMap: chainPropertyRenameMap
   },
   ibcData: {
     camelCase: false,
@@ -26,7 +28,7 @@ const options: RegistryBuilderOptions = {
   },
   ops: {
     assetList: [
-      ...assetListOperationsOriginal,
+      // ...assetListOperationsOriginal,
     ],
     chain: [],
     ibcData: []
@@ -64,7 +66,6 @@ newReg.forEachSchemas(([title, schema])=>{
   mkdirp(dirname(out));
   writeFileSync(out, JSON.stringify(s, null, 2));
 });
-
 
 }
 
