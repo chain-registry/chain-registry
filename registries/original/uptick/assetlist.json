@@ -27,8 +27,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/uptick/images/uptick.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/uptick/images/uptick.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

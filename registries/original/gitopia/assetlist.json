@@ -35,8 +35,7 @@
       "socials": {
         "website": "https://gitopia.com/",
         "twitter": "https://twitter.com/gitopiaDAO"
-      },
-      "asset_type": "sdk.coin"
+      }
     }
   ]
 }

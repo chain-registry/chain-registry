@@ -35,8 +35,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

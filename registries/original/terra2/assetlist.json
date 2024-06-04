@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://www.terra.money/",
         "twitter": "https://twitter.com/terra_money"
-      },
-      "asset_type": "unknown"
+      }
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -47,7 +46,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
       "base": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
       "name": "Astroport CW20 Token",
@@ -81,7 +80,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/8D8A7F7253615E5F76CB6252A1E1BD921D5EDB7BBAAF8913FB1C77FF125D9995",
       "name": "Astroport token",
       "display": "astro",
@@ -126,7 +125,7 @@
           ]
         }
       ],
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k",
       "base": "cw20:terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k",
       "name": "dinheiro",
@@ -153,7 +152,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1sdglum2dt4f3fmq7jrt2phf2tegmnudc7qqqqujkpqcm9ujuxxkqakv5u8",
       "base": "cw20:terra1sdglum2dt4f3fmq7jrt2phf2tegmnudc7qqqqujkpqcm9ujuxxkqakv5u8",
       "name": "real",
@@ -180,7 +179,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1qj5hs3e86qn4vm9dvtgtlkdp550r0rayk9wpay44mfw3gn3tr8nq5jw3dg",
       "base": "cw20:terra1qj5hs3e86qn4vm9dvtgtlkdp550r0rayk9wpay44mfw3gn3tr8nq5jw3dg",
       "name": "escudo",
@@ -207,7 +206,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q",
       "base": "cw20:terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q",
       "name": "alentejo.money",
@@ -224,7 +223,7 @@
     },
     {
       "description": "ERIS liquid staked LUNA.",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
       "denom_units": [
         {
@@ -252,7 +251,7 @@
     },
     {
       "description": "Lion DAO is a community DAO that lives on the Terra blockchain with the mission to reactivate the LUNAtic community and showcase Terra protocols & tooling",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
       "denom_units": [
         {
@@ -280,7 +279,7 @@
     },
     {
       "description": "GEM DAO, building a decentralized, community-owned, low-supply store of value",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1ynvsz80w9xmhdxucv96gkwpxlwvjgsq75xh2f3pf825c4wfmkfxskq6pqv",
       "denom_units": [
         {
@@ -307,7 +306,7 @@
     },
     {
       "description": "Lion Cub DAO is a useless meme community DAO on Terra",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t",
       "denom_units": [
         {
@@ -334,7 +333,7 @@
     },
     {
       "description": "BLUE CUB DAO is a community DAO on Terra",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584",
       "denom_units": [
         {
@@ -361,7 +360,7 @@
     },
     {
       "description": "Liquidity token, NFT, HARVEST FOR VALUE",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra10se906awphtccf4vd83m0ulpmpt9v4msuakmpy0pwvmtxmup3kdq25rayn",
       "denom_units": [
         {
@@ -388,7 +387,7 @@
     },
     {
       "description": "Just a meme coin on Terra",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra19nu4q2y0xe3vza6ve5ymup33uzm049pnrqq5ddeuulmrg279t57qstcces",
       "denom_units": [
         {
@@ -415,7 +414,7 @@
     },
     {
       "description": "BackBone Labs Liquid Staked LUNA",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
       "denom_units": [
         {
@@ -443,7 +442,7 @@
     },
     {
       "description": "Sayve is a revolutionary language learning app in the Web3 era that combines gamification, blockchain technology, and a Metaverse experience to motivate users to learn languages while earning rewards.",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1xp9hrhthzddnl7j5du83gqqr4wmdjm5t0guzg9jp6jwrtpukwfjsjgy4f3",
       "denom_units": [
         {
@@ -493,8 +492,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ampwhalet.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "ERIS Alliance Staked boneWHALE on Terra",
@@ -519,8 +517,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bonewhalet.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "ERIS Liquid Enterprise Staked ROAR",
@@ -545,12 +542,11 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/amproar.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Nico Dao Money",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1e0efrrrj8d55pflme3dmtyuj7klzcef5cfmz6r2jyqz77kk2jz3qa6drg3",
       "denom_units": [
         {
@@ -577,7 +573,7 @@
     },
     {
       "description": "Sailing the Seas DAO is a community DAO built on Enterprise on Terra",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1rc6ssp5rym7a0hg29xpj4cc9e67tl56kg5jyzgl9qrhfxxc2ugvsnrkala",
       "denom_units": [
         {
@@ -604,7 +600,7 @@
     },
     {
       "description": "A community DAO built on Enterprise",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v",
       "denom_units": [
         {
@@ -643,7 +639,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
       "name": "Wrapped Lido Staked Ether",
       "display": "wstETH",
@@ -677,7 +673,7 @@
     },
     {
       "description": "SEUL DAO",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l",
       "denom_units": [
         {
@@ -704,7 +700,7 @@
     },
     {
       "description": "SEUL DAO",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1q328gl40az3cf9x67cgudn8e8w2az9vsmhtkwsgdu7a43rhy5caqc82yr5",
       "denom_units": [
         {
@@ -731,7 +727,7 @@
     },
     {
       "description": "ITO DAO",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1c77xqv746m7ghxayrge79dxr4kcezev8g6cnrfled4f3n4ufj0vs5gz28s",
       "denom_units": [
         {
@@ -758,7 +754,7 @@
     },
     {
       "description": "Chris Armani Token",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1aa7stl3fytvave9xtcexgv0kne4k7ks068dcljkrfj37hy8q270sjadav8",
       "denom_units": [
         {
@@ -785,7 +781,7 @@
     },
     {
       "description": "useless meme coin",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1cl273523kmr2uwjhhznq54je69mted2u3ljffm8kp2ap4z3drdksftwqun",
       "denom_units": [
         {
@@ -812,7 +808,7 @@
     },
     {
       "description": "ado the flower of night",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1w8xk6rtu40st6lvl3yv7ynw5urm2n686u9cchvrzltmnktzwdesqcwy0nu",
       "denom_units": [
         {
@@ -849,7 +845,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/7CB33A66F90533ED1E168CB3251253C719CF4B04FF1290AFD795F14CA1D67278",
       "name": "Wosmo",
       "display": "WOSMO",
@@ -883,7 +879,7 @@
     },
     {
       "description": "DNA DAO",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1epka8wevu90rxlvt6g5x9veevd800a760vtuftc5kqdfmrh47qds9f0m8h",
       "denom_units": [
         {
@@ -910,7 +906,7 @@
     },
     {
       "description": "Bitmos opens doors for BRC20 tokens to thrive alongside established players in the Cosmos Network, revolutionizing decentralized finance (DeFi) for all.",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1sxe8u2hjczlekwfkcq0rs28egt38pg3wqzfx4zcrese4fnvzzupsk9gjkq",
       "denom_units": [
         {
@@ -937,7 +933,7 @@
     },
     {
       "description": "",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra1eh8eq60cjy997w5dc3a6exfzanlaurupav8klx7m9u9ddfgh25mqjwl5vj",
       "denom_units": [
         {
@@ -976,7 +972,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/F709DF4969CD26174C1A53AA95F3D98BE643C1A52C9981487766F96A1811F6A4",
       "name": "Restake DAO Token",
       "display": "rstk",
@@ -1012,7 +1008,7 @@
     },
     {
       "description": "ClonEliteFund invests in Cosmos ecosystem projects, focusing on scalability, security, and interoperability to maximize returns.",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "terra164ssz60yvsxey0ku9mtcaegdeyxwzuwwqyrp238nvflwqve0pvxsra7fa2",
       "denom_units": [
         {
@@ -1060,8 +1056,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/moar.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Tether USDt on Terra",
@@ -1075,7 +1070,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
       "name": "Tether USDt",
       "display": "usdt",
@@ -1127,8 +1122,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ura.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "LUNA-USDC liquidity pool token on URA",
@@ -1150,8 +1144,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ura.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "LUNA-USDT liquidity pool token on URA",
@@ -1173,8 +1166,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/ura.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     }
   ]
 }

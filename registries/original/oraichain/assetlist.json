@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

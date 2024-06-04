@@ -17,7 +17,7 @@
           ]
         }
       ],
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "base": "swth",
       "name": "Carbon",
       "display": "dswth",
@@ -49,7 +49,7 @@
           ]
         }
       ],
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "base": "usc",
       "name": "Carbon USD Coin",
       "display": "dusc",
@@ -112,8 +112,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/bnb.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "bNEO token on Carbon",
@@ -157,8 +156,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/bneo.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/bneo.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "BUSD (BEP-20) token on Carbon",
@@ -204,8 +202,7 @@
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "Carbon Wrapped GLP on Carbon",
@@ -249,8 +246,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/cglp.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/cglp.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "Grouped USD on Carbon",
@@ -280,8 +276,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/carbon-grouped-usd.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/carbon-grouped-usd.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "ETH (Arbitrum) token on Carbon",
@@ -323,8 +318,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "ETH (ERC20) token on Carbon",
@@ -366,8 +360,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "STARS token on Carbon",
@@ -384,7 +377,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/07FA7831E1920D0C87C9388F86B0108677F6ED0C9DE7E4063F05ED675192405C",
       "name": "Stargaze Staking Coin",
       "display": "stars",
@@ -433,7 +426,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5",
       "name": "Terra Staking Coin",
       "display": "luna",
@@ -482,7 +475,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
       "name": "Celestia TIA",
       "display": "tia",
@@ -531,7 +524,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
       "name": "milkTIA",
       "display": "milkTIA",
@@ -577,7 +570,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/3552CECB7BCE1891DB6070D37EC6E954C972B1400141308FCD85FD148BD06DE5",
       "name": "Stride",
       "display": "strd",
@@ -626,7 +619,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/35E771B8682D828173F4B795F6C307780F96DC64D6F914FAE4CC9B4666F66364",
       "name": "Evmos",
       "display": "evmos",
@@ -675,7 +668,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/4E06CF24FEBFB3F5AF645377DCC0B70AA6183BAF6B918B8B6243FCDEB7D38118",
       "name": "IRIS Hub Staking Coin",
       "display": "iris",
@@ -724,7 +717,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/662914D0C1CEBCB070C68F061D035E8B10A07C79AB286E7342C85F3BE74612C5",
       "name": "Kujira",
       "display": "kuji",
@@ -773,7 +766,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
       "name": "Stride Staked OSMO",
       "display": "stosmo",
@@ -822,7 +815,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/92E974290AF9E2BC3AEEEC35305C8FD76AC5A22A74CF8D91270FDF5A1C41E861",
       "name": "Canto",
       "display": "canto",
@@ -871,7 +864,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
       "name": "Cosmos",
       "display": "atom",
@@ -920,7 +913,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
       "name": "Stride Staked ATOM",
       "display": "statom",
@@ -969,7 +962,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
       "name": "Osmosis",
       "display": "osmo",
@@ -1047,8 +1040,7 @@
           },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "USD Coin (BEP-20) token on Carbon",
@@ -1094,8 +1086,7 @@
           },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "ZIL token on Carbon",
@@ -1139,8 +1130,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/zil.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/zil.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

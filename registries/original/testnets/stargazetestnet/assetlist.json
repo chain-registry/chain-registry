@@ -26,8 +26,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

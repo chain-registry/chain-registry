@@ -14,7 +14,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "evm-base",
+      "type_asset": "evm-base",
       "base": "wei",
       "name": "Avalanche",
       "display": "avax",
@@ -33,7 +33,7 @@
     },
     {
       "description": "The wrapped ERC-20 representation of AVAX, the native token of Avalanche.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
       "denom_units": [
         {
@@ -74,7 +74,7 @@
     },
     {
       "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
       "denom_units": [
         {
@@ -119,7 +119,7 @@
     },
     {
       "description": "Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0xc5fa5669e326da8b2c35540257cd48811f40a36b",
       "denom_units": [
         {
@@ -159,7 +159,7 @@
     },
     {
       "description": "Frax is a fractional-algorithmic stablecoin protocol. It aims to provide a highly scalable, decentralized, algorithmic money in place of fixed-supply assets like BTC. Additionally, FXS is the value accrual and governance token of the entire Frax ecosystem.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0x4914886dbb8aad7a7456d471eaab10b06d42348d",
       "denom_units": [
         {
@@ -203,7 +203,7 @@
     },
     {
       "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0xfab550568C688d5d8a52c7d794cb93edc26ec0ec",
       "denom_units": [
         {
@@ -243,7 +243,7 @@
     },
     {
       "description": "Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0xf976ba91b6bb3468c91e4f02e68b37bc64a57e66",
       "denom_units": [
         {

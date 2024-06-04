@@ -22,7 +22,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg"
       },
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "coingecko_id": "bitsong",
       "images": [
         {
@@ -58,8 +58,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "Nicola Fasano a BitSong Music FanToken",
@@ -84,8 +83,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft25B30C386CDDEBD1413D5AE1180956AE9EB3B9F7.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "Delta 9 a BitSong Music FanToken",
@@ -110,8 +108,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft575B10B0CEE2C164D9ED6A96313496F164A9607C.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "FONTI a BitSong Music FanToken",
@@ -136,8 +133,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft56664FC98A2CF5F4FBAC3566D1A11D891AD88305.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "BlackJack a BitSong Music FanToken",
@@ -162,8 +158,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft52EEB0EE509AC546ED92EAC8591F731F213DDD16.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "Rawanne a BitSong Music FanToken",
@@ -188,8 +183,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "Enmoda a BitSong Music FanToken",
@@ -214,8 +208,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft85AE1716C5E39EA6D64BBD7898C3899A7B500626.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "404Deep Records a BitSong Music FanToken",
@@ -240,8 +233,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "N43 a BitSong Music FanToken",
@@ -266,8 +258,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft387C1C279D962ED80C09C1D592A92C4275FD7C5D.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "Puro Lobo a BitSong Music FanToken",
@@ -292,8 +283,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "Vibranium a BitSong Music FanToken",
@@ -318,8 +308,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "Karina a BitSong Music FanToken",
@@ -344,8 +333,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "Luca Testa a BitSong Music FanToken",
@@ -370,8 +358,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "description": "Carolina Marquez a BitSong Music FanToken",
@@ -396,8 +383,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3.png"
         }
-      ],
-      "asset_type": "bitsong"
+      ]
     },
     {
       "deprecated": true,
@@ -415,8 +401,7 @@
       "base": "ft347B1612A2B7659913679CF6CD45B8B130C50A00",
       "name": "[Redacted] Fantoken (ft3...A00)",
       "display": "ft347B1612A2B7659913679CF6CD45B8B130C50A00/6",
-      "symbol": "LDON",
-      "asset_type": "bitsong"
+      "symbol": "LDON"
     }
   ]
 }

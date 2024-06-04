@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://akash.network/",
         "twitter": "https://twitter.com/akashnet_"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "description": "Tether USDt on Akash",
@@ -47,7 +46,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/05DB6975261B805B6F6A157A4386C627F8A70BF8118D411655EFEDCA82BFABA5",
       "name": "Tether USDt",
       "display": "usdt",

@@ -14,7 +14,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "base": "tcony",
       "name": "Test FINSCHIA",
       "display": "tfnsa",

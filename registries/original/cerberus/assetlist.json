@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

@@ -29,8 +29,7 @@
       "socials": {
         "website": "https://pylons.tech",
         "twitter": "https://twitter.com/pylonstech"
-      },
-      "asset_type": "sdk.coin"
+      }
     }
   ]
 }

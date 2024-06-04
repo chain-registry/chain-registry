@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mun/images/mun.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

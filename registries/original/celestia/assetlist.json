@@ -33,8 +33,7 @@
       "socials": {
         "website": "https://celestia.org/",
         "twitter": "https://twitter.com/CelestiaOrg"
-      },
-      "asset_type": "sdk.coin"
+      }
     }
   ]
 }

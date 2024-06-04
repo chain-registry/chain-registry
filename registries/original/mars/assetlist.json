@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://www.marsprotocol.io/",
         "twitter": "https://twitter.com/mars_protocol"
-      },
-      "asset_type": "sdk.coin"
+      }
     }
   ]
 }

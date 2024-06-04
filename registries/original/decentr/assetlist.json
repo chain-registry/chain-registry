@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

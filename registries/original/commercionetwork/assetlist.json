@@ -33,8 +33,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/commercionetwork/images/com.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/commercionetwork/images/com.svg"
         }
-      ],
-      "asset_type": "unknown"
+      ]
     },
     {
       "description": "The cash credit token of Commercio.network",
@@ -67,8 +66,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/commercionetwork/images/ccc.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/commercionetwork/images/ccc.svg"
         }
-      ],
-      "asset_type": "unknown"
+      ]
     }
   ]
 }

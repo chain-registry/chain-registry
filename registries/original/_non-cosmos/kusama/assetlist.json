@@ -32,7 +32,7 @@
           "exponent": 12
         }
       ],
-      "asset_type": "substrate",
+      "type_asset": "substrate",
       "base": "Planck",
       "name": "Kusama",
       "display": "KSM",

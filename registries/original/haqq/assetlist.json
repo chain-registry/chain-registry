@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "The MOBX coin rewards the use of eco-friendly micromobility transportation.",
@@ -56,8 +55,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/mobx.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/mobx.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

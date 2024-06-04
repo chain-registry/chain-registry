@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://cosmos.network",
         "twitter": "https://twitter.com/cosmoshub"
-      },
-      "asset_type": "sdk.coin"
+      }
     },
     {
       "description": "Tether USDt on the Cosmos Hub",
@@ -47,7 +46,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/F04D72CF9B5D9C849BB278B691CDFA2241813327430EC9CDC83F8F4CA4CDC2B0",
       "name": "Tether USDt",
       "display": "usdt",
@@ -90,7 +89,7 @@
           ]
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/4925E6ABA571A44D2BE0286D2D29AF42A294D0FF2BB16490149A1B26EAD33729",
       "name": "Function X",
       "display": "FX",

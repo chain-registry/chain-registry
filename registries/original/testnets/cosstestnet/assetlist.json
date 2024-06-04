@@ -23,8 +23,7 @@
       "base": "ucgas",
       "name": "cgas",
       "display": "cgas",
-      "symbol": "cgas",
-      "asset_type": "sdk.coin"
+      "symbol": "cgas"
     }
   ]
 }

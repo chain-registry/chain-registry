@@ -3,7 +3,7 @@
   "chain_name": "forex",
   "assets": [
     {
-      "asset_type": "unknown",
+      "type_asset": "unknown",
       "denom_units": [
         {
           "denom": "USD",

@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/permtestnet/images/Perm.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

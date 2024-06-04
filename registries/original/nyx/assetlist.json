@@ -26,8 +26,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nyx.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "NYM Token (NYM) is the Nym Network's native utility token, used as the primary means to incentivize mixnet node operators.",
@@ -67,8 +66,7 @@
             "circle": true
           }
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     }
   ]
 }

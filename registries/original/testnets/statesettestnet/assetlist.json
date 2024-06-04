@@ -23,8 +23,7 @@
       "base": "ustate",
       "name": "Stateset",
       "display": "state",
-      "symbol": "STATE",
-      "asset_type": "sdk.coin"
+      "symbol": "STATE"
     }
   ]
 }

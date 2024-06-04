@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "ampWHALE",
@@ -54,8 +53,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ampwhale.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "BackBone Labs Liquid Staked WHALE",
@@ -81,8 +79,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png"
         }
       ],
-      "coingecko_id": "backbone-labs-staked-whale",
-      "asset_type": "sdk.factory"
+      "coingecko_id": "backbone-labs-staked-whale"
     },
     {
       "description": "FABLE",
@@ -107,8 +104,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/fable.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "boneLUNA are autocompounding LUNA tokens",
@@ -124,7 +120,7 @@
       ],
       "base": "ibc/40C29143BF4153B365089E40E437B7AA819672646C45BB0A5F1E10915A0B6708",
       "address": "cw20:terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "name": "boneLuna",
       "display": "bluna",
       "symbol": "bLUNA",
@@ -178,8 +174,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "ASH",
@@ -204,8 +199,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ash.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Tether USDt on Migaloo",
@@ -219,7 +213,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/86A25A8A327164AE7C68A29B6ED745C7EEDC36E260A6666F33A6407BECEC4737",
       "name": "Tether USDt",
       "display": "usdt",
@@ -263,7 +257,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v",
       "base": "cw20:migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v",
       "name": "mUSDC",
@@ -302,8 +296,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "OPHIR is a Cosmos Treasury DAO established on Migaloo.",
@@ -328,8 +321,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "SHARK is the apex price prediction market within Cosmos.",
@@ -354,8 +346,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "lsdSHARK is the liquid staking derivative of SHARK.",
@@ -390,8 +381,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "The native staking token of Terra.",
@@ -441,8 +431,7 @@
       "socials": {
         "website": "https://www.terra.money/",
         "twitter": "https://twitter.com/terra_money"
-      },
-      "asset_type": "ics20"
+      }
     },
     {
       "description": "Rakoff Token",
@@ -457,7 +446,7 @@
         }
       ],
       "base": "ibc/44C29C91F202E20C8E28DFB1FA89B725C54171CD77B8948836C72E7A97E4A018",
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "name": "Rakoff",
       "display": "Rakoff",
       "symbol": "RAKOFF",
@@ -513,8 +502,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/gash.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Restake DAO Token",
@@ -541,8 +529,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.svg"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "description": "Frogztrik NFT Token",
@@ -557,7 +544,7 @@
         }
       ],
       "base": "ibc/B1BD4EF49A2E051EFC85E8C6A932B559CE62F9519E0E83BE29A8F0BDF89BD1D3",
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "name": "Frogztrik NFT Token",
       "display": "frog",
       "symbol": "FROG",
@@ -613,8 +600,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/grac.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
       "denom_units": [
@@ -630,7 +616,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/721B42229246EEDA7A656DB17E494127F91E84AD63E21852737628321892A928",
       "name": "Wind Token",
       "display": "wind",

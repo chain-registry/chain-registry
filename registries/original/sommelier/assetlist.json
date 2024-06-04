@@ -42,8 +42,7 @@
       "socials": {
         "website": "https://www.sommelier.finance/",
         "twitter": "https://twitter.com/sommfinance"
-      },
-      "asset_type": "sdk.coin"
+      }
     }
   ]
 }

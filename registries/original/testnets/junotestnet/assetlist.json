@@ -28,8 +28,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/juno.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "The native token of NEXX GEN AI",
@@ -54,11 +53,10 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/junotestnet/images/nexx.png"
         }
-      ],
-      "asset_type": "sdk.factory"
+      ]
     },
     {
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "denom_units": [
         {
           "denom": "factory/juno12dgadj3wwv5jn0ec7tw5cgvq526nn4gnt2tujlmd57p2ra6k87esl36r9k/ARENA",

@@ -31,8 +31,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt-round.png"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "denom_units": [
@@ -48,7 +47,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/05007A23A23D8B3D286EC4A541189D86C0B76FD769008E4C85EBE977DDA437D3",
       "name": "Axelar AXL Token",
       "display": "axl",
@@ -96,7 +95,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/484532EB74866F3FB8A71F909F7B1B470FE2E66313DA0A1F9EE5B7C5C046D195",
       "name": "Osmosis OSMO Token",
       "display": "osmo",
@@ -144,7 +143,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/57097251ED81A232CE3C9D899E7C8096D6D87EF84BA203E12E424AA4C9B57A64",
       "name": "Noble USDC Token",
       "display": "usdc",
@@ -190,7 +189,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/05314A48723E06A1B1B666066B6BEC89F3708E8854DF2E5E9193387AA9653036",
       "name": "Injective INJ token",
       "display": "INJ",

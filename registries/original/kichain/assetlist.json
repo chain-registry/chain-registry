@@ -28,12 +28,11 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg"
         }
-      ],
-      "asset_type": "sdk.coin"
+      ]
     },
     {
       "description": "ELEVENPARIS loyalty token on KiChain",
-      "asset_type": "cw20",
+      "type_asset": "cw20",
       "address": "ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy",
       "denom_units": [
         {

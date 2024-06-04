@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://www.kyve.network/",
         "twitter": "https://twitter.com/KYVENetwork"
-      },
-      "asset_type": "sdk.coin"
+      }
     }
   ]
 }

@@ -31,12 +31,11 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic.svg"
         }
-      ],
-      "asset_type": "unknown"
+      ]
     },
     {
       "description": "Polygon combines the best of Ethereum and sovereign blockchains into a full-fledged multi-chain system.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
       "denom_units": [
         {
@@ -80,7 +79,7 @@
     },
     {
       "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0x2c852e740B62308c46DD29B982FBb650D063Bd07",
       "denom_units": [
         {

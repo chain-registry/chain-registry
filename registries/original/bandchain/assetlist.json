@@ -32,8 +32,7 @@
       "socials": {
         "website": "https://www.bandprotocol.com/",
         "twitter": "https://twitter.com/BandProtocol"
-      },
-      "asset_type": "sdk.coin"
+      }
     }
   ]
 }

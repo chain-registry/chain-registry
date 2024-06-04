@@ -32,8 +32,7 @@
       "socials": {
         "website": "http://www.bitcanna.io/",
         "twitter": "https://twitter.com/BitCannaGlobal"
-      },
-      "asset_type": "sdk.coin"
+      }
     }
   ]
 }

@@ -14,7 +14,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "ics20",
+      "type_asset": "ics20",
       "base": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
       "name": "Pundi X Token",
       "display": "PUNDIX",
@@ -65,7 +65,7 @@
           "exponent": 18
         }
       ],
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "base": "bsc0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
       "name": "PURSE Token",
       "display": "PURSE",

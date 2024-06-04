@@ -17,7 +17,7 @@
           ]
         }
       ],
-      "asset_type": "evm-base",
+      "type_asset": "evm-base",
       "base": "wei",
       "name": "Matic",
       "display": "matic",
@@ -36,7 +36,7 @@
     },
     {
       "description": "Polygon combines the best of Ethereum and sovereign blockchains into a full-fledged multi-chain system.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
       "denom_units": [
         {
@@ -82,7 +82,7 @@
     },
     {
       "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
       "denom_units": [
         {
@@ -127,7 +127,7 @@
     },
     {
       "description": "Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0xddc9e2891fa11a4cc5c223145e8d14b44f3077c9",
       "denom_units": [
         {
@@ -167,7 +167,7 @@
     },
     {
       "description": "Frax is a fractional-algorithmic stablecoin protocol. It aims to provide a highly scalable, decentralized, algorithmic money in place of fixed-supply assets like BTC. Additionally, FXS is the value accrual and governance token of the entire Frax ecosystem.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0x53adc464b488be8c5d7269b9abbce8ba74195c3a",
       "denom_units": [
         {
@@ -211,7 +211,7 @@
     },
     {
       "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0x750e4c4984a9e0f12978ea6742bc1c5d248f40ed",
       "denom_units": [
         {
@@ -251,7 +251,7 @@
     },
     {
       "description": "Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0xceed2671d8634e3ee65000edbbee66139b132fbf",
       "denom_units": [
         {
@@ -291,7 +291,7 @@
     },
     {
       "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
-      "asset_type": "erc20",
+      "type_asset": "erc20",
       "address": "0x9ceE70895726B0ea14E6019C961dAf32222a7C2f",
       "denom_units": [
         {

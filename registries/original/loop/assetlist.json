@@ -10,7 +10,7 @@
           "exponent": 0
         }
       ],
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "base": "token",
       "name": "Token",
       "display": "token",
@@ -45,7 +45,7 @@
           "exponent": 6
         }
       ],
-      "asset_type": "sdk.coin",
+      "type_asset": "sdk.coin",
       "base": "upoa",
       "name": "POA",
       "display": "poa",
