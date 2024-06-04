@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "berachain",
+  "assets": [
+    {
+      "description": "The native staking token of Berachain.",
+      "denomUnits": [
+        {
+          "denom": "wei",
+          "exponent": 0
+        },
+        {
+          "denom": "bera",
+          "exponent": 18
+        }
+      ],
+      "base": "wei",
+      "display": "bera",
+      "name": "Berachain",
+      "symbol": "BERA",
+      "coingeckoId": "berachain-bera",
+      "assetType": "unknown"
+    }
+  ]
+}

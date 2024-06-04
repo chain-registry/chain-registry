@@ -1,0 +1,35 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "aura1",
+  "assets": [
+    {
+      "description": "The native token of Aura Network",
+      "denomUnits": [
+        {
+          "denom": "uaura",
+          "exponent": 0
+        },
+        {
+          "denom": "aura",
+          "exponent": 6
+        }
+      ],
+      "base": "uaura",
+      "name": "Aura",
+      "display": "aura",
+      "symbol": "AURA",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "aura",
+            "baseDenom": "uaura"
+          },
+          "provider": "Aura"
+        }
+      ],
+      "coingeckoId": "aura-network",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

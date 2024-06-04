@@ -1,15 +1,14 @@
 {
   "$schema": "../chain.schema.json",
-  "chainName": "aura",
-  "status": "live",
+  "chainName": "aura1",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://aura.network/",
   "prettyName": "Aura Network",
-  "chainId": "aura_6322-2",
+  "chainId": "xstaxy-1",
   "bech32Prefix": "aura",
   "daemonName": "aurad",
   "nodeHome": "$HOME/.aura",
-  "preForkChainName": "aura1",
   "keyAlgos": [
     "secp256k1"
   ],
@@ -37,59 +36,94 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/aura-nw/aura",
-    "recommendedVersion": "v0.8.3",
+    "recommendedVersion": "v0.7.3",
     "compatibleVersions": [
-      "v0.8.3"
+      "v0.7.3"
     ],
-    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.8-evmos",
-    "ibcGoVersion": "v7.3.1",
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "v7.3.0",
     "consensus": {
       "type": "cometbft",
-      "version": "aura-nw/cometbft v0.37.4-aura.2"
+      "version": "0.37.2"
     },
-    "cosmwasmVersion": "v0.42.0",
+    "cosmwasmVersion": "0.42.0",
     "cosmwasmEnabled": true,
     "genesis": {
-      "genesisUrl": "https://images.aura.network/aura_6322-2-genesis.tar.gz"
+      "genesisUrl": "https://raw.githubusercontent.com/aura-nw/mainnet-artifacts/main/xstaxy-1/genesis.json"
     },
     "versions": [
       {
-        "name": "v0.8.2",
-        "recommendedVersion": "v0.8.2",
+        "name": "aura_v0.4.4",
+        "recommendedVersion": "aura_v0.4.4",
         "compatibleVersions": [
-          "v0.8.2"
+          "aura_v0.4.4"
         ],
-        "cosmosSdkVersion": "v0.47.8",
-        "ibcGoVersion": "v7.3.1",
-        "consensus": {
-          "type": "cometbft",
-          "version": "0.37.4"
-        },
-        "cosmwasmVersion": "0.42.0",
-        "cosmwasmEnabled": true,
-        "nextVersionName": "ibcupgrade"
+        "nextVersionName": "v0.4.5"
       },
       {
-        "name": "ibcupgrade",
-        "recommendedVersion": "v0.8.3",
+        "name": "v0.4.5",
+        "proposal": 4,
+        "height": 1292226,
+        "recommendedVersion": "aura_v0.4.5",
         "compatibleVersions": [
-          "v0.8.3"
+          "aura_v0.4.5"
         ],
-        "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.8-evmos",
-        "ibcGoVersion": "v7.3.1",
+        "nextVersionName": "v0.7.1"
+      },
+      {
+        "name": "v0.7.1",
+        "proposal": 7,
+        "height": 3666129,
+        "recommendedVersion": "v0.7.1",
+        "compatibleVersions": [
+          "v0.7.1"
+        ],
+        "cosmosSdkVersion": "0.47.4",
         "consensus": {
           "type": "cometbft",
-          "version": "aura-nw/cometbft v0.37.4-aura.2"
+          "version": "0.37.2"
         },
-        "cosmwasmVersion": "v0.42.0",
+        "cosmwasmVersion": "0.41.0",
+        "cosmwasmEnabled": true,
+        "nextVersionName": "v0.7.2"
+      },
+      {
+        "name": "v0.7.2",
+        "proposal": 8,
+        "height": 5329503,
+        "recommendedVersion": "v0.7.2",
+        "compatibleVersions": [
+          "v0.7.2"
+        ],
+        "cosmosSdkVersion": "0.47.4",
+        "ibcGoVersion": "v7.2.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.2"
+        },
+        "cosmwasmVersion": "0.41.0",
+        "cosmwasmEnabled": true,
+        "nextVersionName": "v0.7.3"
+      },
+      {
+        "name": "v0.7.3",
+        "proposal": 9,
+        "height": 4083908,
+        "recommendedVersion": "v0.7.3",
+        "compatibleVersions": [
+          "v0.7.3"
+        ],
+        "cosmosSdkVersion": "0.47.5",
+        "ibcGoVersion": "v7.3.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.2"
+        },
+        "cosmwasmVersion": "0.42.0",
         "cosmwasmEnabled": true,
         "nextVersionName": ""
       }
     ]
-  },
-  "logoURIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",
-    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg"
   },
   "peers": {
     "seeds": [
@@ -396,8 +430,8 @@
     {
       "kind": "aurascan",
       "url": "https://aurascan.io",
-      "txPage": "https://aurascan.io/tx/${txHash}",
-      "accountPage": "https://aurascan.io/address/${accountAddress}"
+      "txPage": "https://aurascan.io/transaction/${txHash}",
+      "accountPage": "https://aurascan.io/account/${accountAddress}"
     },
     {
       "kind": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀 Explorer",
@@ -444,6 +478,9 @@
   ],
   "images": [
     {
+      "imageSync": {
+        "chainName": "aura"
+      },
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg"
     }

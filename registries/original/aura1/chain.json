@@ -1,95 +1,129 @@
 {
   "$schema": "../chain.schema.json",
-  "chainName": "aura",
-  "status": "live",
-  "networkType": "mainnet",
+  "chain_name": "aura1",
+  "status": "killed",
+  "network_type": "mainnet",
   "website": "https://aura.network/",
-  "prettyName": "Aura Network",
-  "chainId": "aura_6322-2",
-  "bech32Prefix": "aura",
-  "daemonName": "aurad",
-  "nodeHome": "$HOME/.aura",
-  "preForkChainName": "aura1",
-  "keyAlgos": [
+  "pretty_name": "Aura Network",
+  "chain_id": "xstaxy-1",
+  "bech32_prefix": "aura",
+  "daemon_name": "aurad",
+  "node_home": "$HOME/.aura",
+  "key_algos": [
     "secp256k1"
   ],
   "slip44": 118,
   "fees": {
-    "feeTokens": [
+    "fee_tokens": [
       {
         "denom": "uaura",
-        "fixedMinGasPrice": 0.001,
-        "lowGasPrice": 0.001,
-        "averageGasPrice": 0.002,
-        "highGasPrice": 0.0025
+        "fixed_min_gas_price": 0.001,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.002,
+        "high_gas_price": 0.0025
       }
     ]
   },
   "staking": {
-    "stakingTokens": [
+    "staking_tokens": [
       {
         "denom": "uaura"
       }
     ],
-    "lockDuration": {
+    "lock_duration": {
       "time": "1209600s"
     }
   },
   "codebase": {
-    "gitRepo": "https://github.com/aura-nw/aura",
-    "recommendedVersion": "v0.8.3",
-    "compatibleVersions": [
-      "v0.8.3"
+    "git_repo": "https://github.com/aura-nw/aura",
+    "recommended_version": "v0.7.3",
+    "compatible_versions": [
+      "v0.7.3"
     ],
-    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.8-evmos",
-    "ibcGoVersion": "v7.3.1",
+    "cosmos_sdk_version": "0.47.5",
+    "ibc_go_version": "v7.3.0",
     "consensus": {
       "type": "cometbft",
-      "version": "aura-nw/cometbft v0.37.4-aura.2"
+      "version": "0.37.2"
     },
-    "cosmwasmVersion": "v0.42.0",
-    "cosmwasmEnabled": true,
+    "cosmwasm_version": "0.42.0",
+    "cosmwasm_enabled": true,
     "genesis": {
-      "genesisUrl": "https://images.aura.network/aura_6322-2-genesis.tar.gz"
+      "genesis_url": "https://raw.githubusercontent.com/aura-nw/mainnet-artifacts/main/xstaxy-1/genesis.json"
     },
     "versions": [
       {
-        "name": "v0.8.2",
-        "recommendedVersion": "v0.8.2",
-        "compatibleVersions": [
-          "v0.8.2"
+        "name": "aura_v0.4.4",
+        "recommended_version": "aura_v0.4.4",
+        "compatible_versions": [
+          "aura_v0.4.4"
         ],
-        "cosmosSdkVersion": "v0.47.8",
-        "ibcGoVersion": "v7.3.1",
-        "consensus": {
-          "type": "cometbft",
-          "version": "0.37.4"
-        },
-        "cosmwasmVersion": "0.42.0",
-        "cosmwasmEnabled": true,
-        "nextVersionName": "ibcupgrade"
+        "next_version_name": "v0.4.5"
       },
       {
-        "name": "ibcupgrade",
-        "recommendedVersion": "v0.8.3",
-        "compatibleVersions": [
-          "v0.8.3"
+        "name": "v0.4.5",
+        "proposal": 4,
+        "height": 1292226,
+        "recommended_version": "aura_v0.4.5",
+        "compatible_versions": [
+          "aura_v0.4.5"
         ],
-        "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.8-evmos",
-        "ibcGoVersion": "v7.3.1",
+        "next_version_name": "v0.7.1"
+      },
+      {
+        "name": "v0.7.1",
+        "proposal": 7,
+        "height": 3666129,
+        "recommended_version": "v0.7.1",
+        "compatible_versions": [
+          "v0.7.1"
+        ],
+        "cosmos_sdk_version": "0.47.4",
         "consensus": {
           "type": "cometbft",
-          "version": "aura-nw/cometbft v0.37.4-aura.2"
+          "version": "0.37.2"
         },
-        "cosmwasmVersion": "v0.42.0",
-        "cosmwasmEnabled": true,
-        "nextVersionName": ""
+        "cosmwasm_version": "0.41.0",
+        "cosmwasm_enabled": true,
+        "next_version_name": "v0.7.2"
+      },
+      {
+        "name": "v0.7.2",
+        "proposal": 8,
+        "height": 5329503,
+        "recommended_version": "v0.7.2",
+        "compatible_versions": [
+          "v0.7.2"
+        ],
+        "cosmos_sdk_version": "0.47.4",
+        "ibc_go_version": "v7.2.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.2"
+        },
+        "cosmwasm_version": "0.41.0",
+        "cosmwasm_enabled": true,
+        "next_version_name": "v0.7.3"
+      },
+      {
+        "name": "v0.7.3",
+        "proposal": 9,
+        "height": 4083908,
+        "recommended_version": "v0.7.3",
+        "compatible_versions": [
+          "v0.7.3"
+        ],
+        "cosmos_sdk_version": "0.47.5",
+        "ibc_go_version": "v7.3.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.2"
+        },
+        "cosmwasm_version": "0.42.0",
+        "cosmwasm_enabled": true,
+        "next_version_name": ""
       }
     ]
-  },
-  "logoURIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",
-    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg"
   },
   "peers": {
     "seeds": [
@@ -122,7 +156,7 @@
         "provider": "MMS"
       }
     ],
-    "persistentPeers": [
+    "persistent_peers": [
       {
         "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
         "address": "auranetwork-mainnet-peer.autostake.com:26966",
@@ -396,54 +430,57 @@
     {
       "kind": "aurascan",
       "url": "https://aurascan.io",
-      "txPage": "https://aurascan.io/tx/${txHash}",
-      "accountPage": "https://aurascan.io/address/${accountAddress}"
+      "tx_page": "https://aurascan.io/transaction/${txHash}",
+      "account_page": "https://aurascan.io/account/${accountAddress}"
     },
     {
       "kind": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀 Explorer",
       "url": "https://exp.utsa.tech/aura",
-      "txPage": "https://exp.utsa.tech/aura/tx/${txHash}",
-      "accountPage": "https://exp.utsa.tech/aura/account/${accountAddress}"
+      "tx_page": "https://exp.utsa.tech/aura/tx/${txHash}",
+      "account_page": "https://exp.utsa.tech/aura/account/${accountAddress}"
     },
     {
       "kind": "🔥STAVR🔥 Explorer",
       "url": "https://explorer.stavr.tech/Aura-Mainnet",
-      "txPage": "https://explorer.stavr.tech/aura-mainnet/tx/${txHash}",
-      "accountPage": "https://explorer.stavr.tech/aura-mainnet/account/${accountAddress}"
+      "tx_page": "https://explorer.stavr.tech/aura-mainnet/tx/${txHash}",
+      "account_page": "https://explorer.stavr.tech/aura-mainnet/account/${accountAddress}"
     },
     {
       "kind": "NodeStake Explorer",
       "url": "https://explorer.nodestake.top/aura",
-      "txPage": "https://explorer.nodestake.top/aura/tx/${txHash}",
-      "accountPage": "https://explorer.nodestake.top/aura/account/${accountAddress}"
+      "tx_page": "https://explorer.nodestake.top/aura/tx/${txHash}",
+      "account_page": "https://explorer.nodestake.top/aura/account/${accountAddress}"
     },
     {
       "kind": "TC Network",
       "url": "https://explorer.tcnetwork.io/aura",
-      "txPage": "https://explorer.tcnetwork.io/aura/transaction/${txHash}",
-      "accountPage": "https://explorer.tcnetwork.io/aura/account/${accountAddress}"
+      "tx_page": "https://explorer.tcnetwork.io/aura/transaction/${txHash}",
+      "account_page": "https://explorer.tcnetwork.io/aura/account/${accountAddress}"
     },
     {
       "kind": "Stake-Take",
       "url": "https://explorer.stake-take.com/aura",
-      "txPage": "https://explorer.stake-take.com/aura/tx/${txHash}",
-      "accountPage": "https://explorer.stake-take.com/aura/account/${accountAddress}"
+      "tx_page": "https://explorer.stake-take.com/aura/tx/${txHash}",
+      "account_page": "https://explorer.stake-take.com/aura/account/${accountAddress}"
     },
     {
       "kind": "Safe Block",
       "url": "https://explorer.safeblock.space/aura",
-      "txPage": "https://explorer.safeblock.space/aura/tx/${txHash}",
-      "accountPage": "https://explorer.safeblock.space/aura/account/${accountAddress}"
+      "tx_page": "https://explorer.safeblock.space/aura/tx/${txHash}",
+      "account_page": "https://explorer.safeblock.space/aura/account/${accountAddress}"
     },
     {
       "kind": "STAKR.space explorer",
       "url": "https://explorer.stakr.space/aura/",
-      "txPage": "https://explorer.stakr.space/aura/tx/${txHash}",
-      "accountPage": "https://explorer.stakr.space/aura/account/${accountAddress}"
+      "tx_page": "https://explorer.stakr.space/aura/tx/${txHash}",
+      "account_page": "https://explorer.stakr.space/aura/account/${accountAddress}"
     }
   ],
   "images": [
     {
+      "image_sync": {
+        "chain_name": "aura"
+      },
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.svg"
     }

@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "initia",
+  "assets": [
+    {
+      "description": "The native token of Initia",
+      "denomUnits": [
+        {
+          "denom": "uinit",
+          "exponent": 0
+        },
+        {
+          "denom": "INIT",
+          "exponent": 6
+        }
+      ],
+      "base": "uinit",
+      "display": "INIT",
+      "name": "Initia",
+      "symbol": "INIT",
+      "assetType": "unknown"
+    }
+  ]
+}

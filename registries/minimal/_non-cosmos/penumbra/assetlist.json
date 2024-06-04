@@ -6,16 +6,12 @@
       "description": "The native token of Penumbra.",
       "denomUnits": [
         {
-          "denom": "penumbra",
-          "exponent": 6
-        },
-        {
-          "denom": "mpenumbra",
-          "exponent": 3
-        },
-        {
           "denom": "upenumbra",
           "exponent": 0
+        },
+        {
+          "denom": "penumbra",
+          "exponent": 6
         }
       ],
       "assetType": "unknown",
