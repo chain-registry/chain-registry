@@ -420,6 +420,25 @@
         }
       ],
       "coingeckoId": "tether"
+    },
+    {
+      "address": "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
+      "base": "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
+      "description": "Whinecoin is an experimental memecoin by the Sommelier Finance team.",
+      "name": "WHINEcoin",
+      "display": "whine",
+      "symbol": "WHINE",
+      "assetType": "erc20",
+      "denomUnits": [
+        {
+          "denom": "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
+          "exponent": 0
+        },
+        {
+          "denom": "whine",
+          "exponent": 6
+        }
+      ]
     }
   ]
 }

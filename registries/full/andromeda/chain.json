@@ -16,7 +16,10 @@
   "fees": {
     "feeTokens": [
       {
-        "denom": "uandr"
+        "denom": "uandr",
+        "lowGasPrice": 0.03,
+        "averageGasPrice": 0.05,
+        "highGasPrice": 0.075
       }
     ]
   },

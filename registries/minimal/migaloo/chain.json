@@ -52,9 +52,6 @@
         "address": "https://rpc.whitewhale.nodestake.top"
       },
       {
-        "address": "https://migaloo.rpc.kjnodes.com"
-      },
-      {
         "address": "https://migaloo-rpc.cosmosrescue.com"
       },
       {
@@ -78,9 +75,6 @@
         "address": "https://api.whitewhale.nodestake.top"
       },
       {
-        "address": "https://migaloo.api.kjnodes.com"
-      },
-      {
         "address": "https://migaloo-api.cosmosrescue.com"
       },
       {
@@ -102,9 +96,6 @@
       },
       {
         "address": "https://grpc.whitewhale.nodestake.top"
-      },
-      {
-        "address": "migaloo.grpc.kjnodes.com:14990"
       },
       {
         "address": "migaloo-grpc.cosmosrescue.com:9090"

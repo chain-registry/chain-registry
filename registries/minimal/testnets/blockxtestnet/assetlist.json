@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "blockxtestnet",
+  "assets": [
+    {
+      "description": "BlockX Native Token",
+      "denomUnits": [
+        {
+          "denom": "abcx",
+          "exponent": 0
+        },
+        {
+          "denom": "bcx",
+          "exponent": 18
+        }
+      ],
+      "base": "abcx",
+      "name": "BCX",
+      "display": "bcx",
+      "symbol": "BCX",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

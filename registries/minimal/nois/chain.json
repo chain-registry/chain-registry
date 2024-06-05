@@ -90,9 +90,6 @@
         "address": "https://nois-rpc.kingnodes.com"
       },
       {
-        "address": "https://nois.rpc.kjnodes.com"
-      },
-      {
         "address": "https://rpc.nois.silentvalidator.com"
       },
       {
@@ -146,9 +143,6 @@
         "address": "https://nois-grpc.kingnodes.com"
       },
       {
-        "address": "nois.grpc.kjnodes.com:15190"
-      },
-      {
         "address": "grpc.nois.silentvalidator.com:443"
       },
       {
@@ -188,9 +182,6 @@
       },
       {
         "address": "https://nois-rest.kingnodes.com"
-      },
-      {
-        "address": "https://nois.api.kjnodes.com"
       },
       {
         "address": "https://api.nois.silentvalidator.com"
