@@ -1,0 +1,31 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "soarchaintestnet",
+  "assets": [
+    {
+      "description": "The native staking coin of the Soarchain-core.",
+      "denomUnits": [
+        {
+          "denom": "utsoar",
+          "exponent": 0,
+          "aliases": [
+            "microtsoar"
+          ]
+        },
+        {
+          "denom": "tsoar",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "utsoar",
+      "display": "tsoar",
+      "name": "tsoar",
+      "symbol": "tsoar",
+      "coingeckoId": "",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

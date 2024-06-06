@@ -3,7 +3,7 @@
   "chainName": "pundix",
   "assets": [
     {
-      "description": "PUNDIX token is the native token that functions within the Pundi X ecosystem, including PundiX Chain and XPOS. PUNDIX has several core use cases, including:\n- Payment for goods and services from merchants through XPOS\n- Gas Fee on PundiX Chain\n- Listing tokens in the XPOS\n- Merchant payments for loyalty programs and ads",
+      "description": "PUNDIX token is the native token that functions within the Pundi X ecosystem.",
       "denomUnits": [
         {
           "denom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
@@ -32,8 +32,7 @@
             "path": "transfer/channel-0/eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38"
           }
         }
-      ],
-      "coingeckoId": "pundi-x-2"
+      ]
     },
     {
       "description": "Purse is the decentralised loyalty program for physical stores and merchants. PURSE token shall serve as governance token of the PURSE Merchant loyalty point platform, the gas fee as well as the transaction fee on PURSE Merchant platform. To launch any merchant loyalty tokens and do transaction on the merchant platform, users and merchants need Purse tokens.",
@@ -62,8 +61,7 @@
           },
           "provider": "Function X"
         }
-      ],
-      "coingeckoId": "pundi-x-purse"
+      ]
     }
   ]
 }

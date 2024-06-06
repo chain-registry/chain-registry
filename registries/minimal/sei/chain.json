@@ -101,6 +101,17 @@
       {
         "address": "sei-grpc.publicnode.com:443"
       }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm-rpc.sei-apis.com"
+      },
+      {
+        "address": "https://seievm-rpc.polkachu.com"
+      },
+      {
+        "address": "https://sei-jsonrpc.lavenderfive.com"
+      }
     ]
   },
   "explorers": [

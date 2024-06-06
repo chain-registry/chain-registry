@@ -1166,6 +1166,41 @@
           }
         }
       ]
+    },
+    {
+      "description": "Whinecoin is an experimental memecoin by the Sommelier Finance team.",
+      "denomUnits": [
+        {
+          "denom": "ibc/9D5DA3720001F91DD76B8F609A93F96688EC8185B54BF9A1A1450EB34FF2D912",
+          "exponent": 0,
+          "aliases": [
+            "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump"
+          ]
+        },
+        {
+          "denom": "whine",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/9D5DA3720001F91DD76B8F609A93F96688EC8185B54BF9A1A1450EB34FF2D912",
+      "name": "WHINEcoin",
+      "display": "whine",
+      "symbol": "WHINE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-71",
+            "path": "transfer/channel-71/ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump"
+          }
+        }
+      ]
     }
   ]
 }
