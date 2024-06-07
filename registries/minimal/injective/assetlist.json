@@ -463,6 +463,24 @@
       ]
     },
     {
+      "description": "Talis governance token",
+      "denomUnits": [
+        {
+          "denom": "factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/Talis",
+          "exponent": 0
+        },
+        {
+          "denom": "Talis",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/Talis",
+      "name": "Talis Token",
+      "display": "Talis",
+      "symbol": "TALIS",
+      "assetType": "sdk.factory"
+    },
+    {
       "description": "Talis revenue sharing token",
       "denomUnits": [
         {

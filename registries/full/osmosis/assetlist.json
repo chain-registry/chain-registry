@@ -18143,12 +18143,10 @@
       "name": "Shitmos",
       "display": "SHITMOS",
       "symbol": "SHITMOS",
-      "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/SHITMOS.png"
-      },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/SHITMOS.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/shitmos.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/shitmos.svg"
         }
       ]
     },

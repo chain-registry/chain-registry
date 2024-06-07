@@ -18,9 +18,9 @@
       {
         "denom": "ustrd",
         "fixedMinGasPrice": 0.0005,
-        "lowGasPrice": 0.0005,
-        "averageGasPrice": 0.001,
-        "highGasPrice": 0.002
+        "lowGasPrice": 0.005,
+        "averageGasPrice": 0.005,
+        "highGasPrice": 0.05
       },
       {
         "denom": "stuatom",

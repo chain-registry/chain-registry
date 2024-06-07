@@ -12,7 +12,7 @@
   "fees": {
     "feeTokens": [
       {
-        "denom": "uswtr",
+        "denom": "aswtr",
         "fixedMinGasPrice": 7
       }
     ]
@@ -20,7 +20,7 @@
   "staking": {
     "stakingTokens": [
       {
-        "denom": "uswtr"
+        "denom": "aswtr"
       }
     ]
   },
