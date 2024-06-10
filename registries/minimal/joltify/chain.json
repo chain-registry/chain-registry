@@ -1,0 +1,75 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "joltify",
+  "networkType": "mainnet",
+  "website": "https://www.joltify.io/",
+  "prettyName": "Joltify",
+  "chainId": "joltify_1729-1",
+  "bech32Prefix": "jolt",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ujolt",
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ujolt"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.5",
+    "cosmwasmVersion": "",
+    "cosmwasmEnabled": false,
+    "ibcGoVersion": "v7.3.0",
+    "icsEnabled": [
+      "ics20-1"
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.png"
+    }
+  ],
+  "description": "Joltify is the First EVM compatible game-changing L1 Public Chain built on the Cosmos SDK for Real-World Assets (RWA) and Beyond.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.joltify.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.joltify.io/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.joltify.io:443"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm.joltify.io/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "big dipper",
+      "url": "https://explorer.joltify.io/joltify",
+      "txPage": "https://explorer.joltify.io/joltify/transactions/${txHash}",
+      "accountPage": "https://explorer.joltify.io/joltify/accounts/${accountAddress}"
+    }
+  ]
+}
