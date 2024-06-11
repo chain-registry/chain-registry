@@ -89,6 +89,9 @@
       },
       {
         "address": "https://rpc.neutron.bronbro.io:443"
+      },
+      {
+        "address": "https://rpc.neutron.quokkastake.io"
       }
     ],
     "rest": [
@@ -115,6 +118,9 @@
       },
       {
         "address": "https://lcd.neutron.bronbro.io:443"
+      },
+      {
+        "address": "https://api.neutron.quokkastake.io"
       }
     ],
     "grpc": [
@@ -141,6 +147,9 @@
       },
       {
         "address": "https://grpc.neutron.bronbro.io:443"
+      },
+      {
+        "address": "rpc.neutron.quokkastake.io:9090"
       }
     ]
   },

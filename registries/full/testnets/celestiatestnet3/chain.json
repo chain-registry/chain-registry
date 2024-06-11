@@ -30,7 +30,7 @@
       "v1.3.0"
     ],
     "genesis": {
-      "genesisUrl": "https://raw.githubusercontent.com/celestiaorg/networks/master/mocha-3/genesis.json"
+      "genesisUrl": "https://raw.githubusercontent.com/celestiaorg/networks/master/mocha-4/genesis.json"
     },
     "versions": [
       {

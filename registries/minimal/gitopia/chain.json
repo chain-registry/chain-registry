@@ -98,9 +98,6 @@
         "address": "https://mainnet-gitopia-rpc.konsortech.xyz"
       },
       {
-        "address": "https://rpc.gitopia.quokkastake.io"
-      },
-      {
         "address": "https://rpc.gitopia.roomit.xyz"
       },
       {
@@ -194,9 +191,6 @@
       },
       {
         "address": "https://mainnet-gitopia-api.konsortech.xyz"
-      },
-      {
-        "address": "https://api.gitopia.quokkastake.io"
       },
       {
         "address": "https://api.gitopia.roomit.xyz"
