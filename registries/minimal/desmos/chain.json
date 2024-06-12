@@ -40,9 +40,6 @@
         "address": "https://rpc.mainnet.desmos.network"
       },
       {
-        "address": "https://desmos-rpc.lavenderfive.com/"
-      },
-      {
         "address": "https://desmos-rpc.ibs.team/"
       },
       {
@@ -66,9 +63,6 @@
         "address": "https://api.mainnet.desmos.network"
       },
       {
-        "address": "https://desmos-api.lavenderfive.com/"
-      },
-      {
         "address": "https://desmos-api.ibs.team/"
       },
       {
@@ -88,9 +82,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "desmos-grpc.lavenderfive.com:443"
-      },
       {
         "address": "https://grpc-desmos.explorer.co.id"
       },

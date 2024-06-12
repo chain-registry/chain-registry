@@ -130,9 +130,6 @@
         "address": "grpc.bitcanna.io:443"
       },
       {
-        "address": "bitcanna-grpc.lavenderfive.com:443"
-      },
-      {
         "address": "bitcanna.grpc.m.stavr.tech:9081"
       },
       {
@@ -205,9 +202,6 @@
       },
       {
         "address": "https://bitcanna.api.kjnodes.com"
-      },
-      {
-        "address": "https://bitcanna-api.lavenderfive.com/"
       },
       {
         "address": "https://bitcanna-api.genznodes.dev"

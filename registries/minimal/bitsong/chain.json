@@ -50,9 +50,6 @@
         "address": "https://rpc.bitsong.quokkastake.io"
       },
       {
-        "address": "https://bitsong-rpc.lavenderfive.com/"
-      },
-      {
         "address": "https://rpc-bitsong.starsquid.io"
       },
       {
@@ -94,9 +91,6 @@
         "address": "http://bitsong.api.nodersteam.com:11017"
       },
       {
-        "address": "https://bitsong-api.lavenderfive.com/"
-      },
-      {
         "address": "https://api-bitsong.starsquid.io"
       },
       {
@@ -124,9 +118,6 @@
     "grpc": [
       {
         "address": "grpc-bitsong-ia.cosmosia.notional.ventures:443"
-      },
-      {
-        "address": "bitsong-grpc.lavenderfive.com:443"
       },
       {
         "address": "bitsong.grpc.nodersteam.com:9111/"

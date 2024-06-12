@@ -289,24 +289,37 @@
       "kind": "mintscan",
       "url": "https://www.mintscan.io/cosmos",
       "txPage": "https://www.mintscan.io/cosmos/transactions/${txHash}",
-      "accountPage": "https://www.mintscan.io/cosmos/accounts/${accountAddress}"
+      "accountPage": "https://www.mintscan.io/cosmos/accounts/${accountAddress}",
+      "validatorPage": "https://www.mintscan.io/cosmos/validators/${validatorAddress}",
+      "proposalPage": "https://www.mintscan.io/cosmos/proposals/${proposalId}",
+      "blockPage": "https://www.mintscan.io/cosmos/blocks/${blockHeight}"
     },
     {
       "kind": "ezstaking",
       "url": "https://ezstaking.app/cosmoshub",
       "txPage": "https://ezstaking.app/cosmoshub/txs/${txHash}",
-      "accountPage": "https://ezstaking.app/cosmoshub/account/${accountAddress}"
+      "accountPage": "https://ezstaking.app/cosmoshub/account/${accountAddress}",
+      "validatorPage": "https://ezstaking.app/cosmoshub/validators/${validatorAddress}",
+      "proposalPage": "https://ezstaking.app/cosmoshub/proposals/${proposalId}",
+      "blockPage": "https://ezstaking.app/cosmoshub/blocks/${blockHeight}"
     },
     {
       "kind": "ping.pub",
       "url": "https://ping.pub/cosmos",
-      "txPage": "https://ping.pub/cosmos/tx/${txHash}"
+      "txPage": "https://ping.pub/cosmos/tx/${txHash}",
+      "accountPage": "https://ping.pub/cosmos/account/${accountAddress}",
+      "validatorPage": "https://ping.pub/cosmos/staking/${validatorAddress}",
+      "proposalPage": "https://ping.pub/cosmos/gov/${proposalId}",
+      "blockPage": "https://ping.pub/cosmos/block/${blockHeight}"
     },
     {
       "kind": "atomscan",
       "url": "https://atomscan.com",
       "txPage": "https://atomscan.com/transactions/${txHash}",
-      "accountPage": "https://atomscan.com/accounts/${accountAddress}"
+      "accountPage": "https://atomscan.com/accounts/${accountAddress}",
+      "validatorPage": "https://atomscan.com/validators/${validatorAddress}",
+      "proposalPage": "https://atomscan.com/votes/${proposalId}",
+      "blockPage": "https://atomscan.com/blocks/${blockHeight}"
     },
     {
       "kind": "unichain",
@@ -316,29 +329,39 @@
     {
       "kind": "TC Network",
       "url": "https://explorer.tcnetwork.io/cosmoshub",
-      "txPage": "https://explorer.tcnetwork.io/cosmoshub/transaction/${txHash}"
+      "txPage": "https://explorer.tcnetwork.io/cosmoshub/transaction/${txHash}",
+      "accountPage": "https://explorer.tcnetwork.io/cosmoshub/account/${accountAddress}",
+      "validatorPage": "https://explorer.tcnetwork.io/cosmoshub/validator/${validatorAddress}",
+      "proposalPage": "https://explorer.tcnetwork.io/cosmoshub/proposal/${proposalId}",
+      "blockPage": "https://explorer.tcnetwork.io/cosmoshub/block/${blockHeight}"
     },
     {
       "kind": "Stakeflow",
       "url": "https://stakeflow.io/cosmos",
-      "accountPage": "https://stakeflow.io/cosmos/accounts/${accountAddress}"
+      "accountPage": "https://stakeflow.io/cosmos/accounts/${accountAddress}",
+      "validatorPage": "https://stakeflow.io/cosmos/validators/${validatorAddress}"
     },
     {
       "kind": "Nodeist Explorer",
-      "url": "https://exp.nodeist.net/cosmos",
-      "txPage": "https://exp.nodeist.net/cosmos/tx/${txHash}"
+      "url": "https://exp.nodeist.net/cosmos"
     },
     {
       "kind": "Inbloc",
       "url": "https://inbloc.org",
       "txPage": "https://inbloc.org/transactions/${txHash}",
-      "accountPage": "https://inbloc.org/account/${accountAddress}"
+      "accountPage": "https://inbloc.org/account/${accountAddress}",
+      "validatorPage": "https://inbloc.org/cosmos/validator/${validatorAddress}",
+      "proposalPage": "https://inbloc.org/cosmos/proposal/${proposalId}",
+      "blockPage": "https://inbloc.org/cosmos/blocks/${blockHeight}"
     },
     {
       "kind": "WhisperNode 🤐",
       "url": "https://mainnet.whispernode.com/cosmos",
       "txPage": "https://mainnet.whispernode.com/cosmos/tx/${txHash}",
-      "accountPage": "https://mainnet.whispernode.com/cosmos/account/${accountAddress}"
+      "accountPage": "https://mainnet.whispernode.com/cosmos/account/${accountAddress}",
+      "validatorPage": "https://mainnet.whispernode.com/cosmos/staking/${validatorAddress}",
+      "proposalPage": "https://mainnet.whispernode.com/cosmos/gov/${proposalId}",
+      "blockPage": "https://mainnet.whispernode.com/cosmos/block/${blockHeight}"
     }
   ],
   "images": [

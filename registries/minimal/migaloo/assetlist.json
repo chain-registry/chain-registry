@@ -503,6 +503,38 @@
           }
         }
       ]
+    },
+    {
+      "description": "ERIS Liquid Alliance Staked GASH",
+      "denomUnits": [
+        {
+          "denom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
+          "exponent": 0
+        },
+        {
+          "denom": "ampGASH",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
+      "name": "ampGASH",
+      "display": "ampGASH",
+      "symbol": "ampGASH",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "chain": {
+            "contract": "migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl"
+          },
+          "provider": "ERIS Protocol",
+          "counterparty": {
+            "chainName": "migaloo",
+            "baseDenom": "factory/migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg/gash",
+            "contract": "migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg"
+          }
+        }
+      ],
+      "assetType": "sdk.factory"
     }
   ]
 }

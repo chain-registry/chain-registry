@@ -33,9 +33,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://teritori-rpc.lavenderfive.com:443"
-      },
-      {
         "address": "https://teritori-rpc.polkachu.com"
       },
       {
@@ -77,9 +74,6 @@
     ],
     "rest": [
       {
-        "address": "https://teritori-api.lavenderfive.com:443"
-      },
-      {
         "address": "https://teritori-api.polkachu.com"
       },
       {
@@ -117,9 +111,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "teritori-grpc.lavenderfive.com:443"
-      },
       {
         "address": "grpc.teritori.nodestake.top:443"
       },

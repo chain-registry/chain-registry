@@ -659,6 +659,15 @@
         },
         "accountPage": {
           "type": "string"
+        },
+        "validatorPage": {
+          "type": "string"
+        },
+        "proposalPage": {
+          "type": "string"
+        },
+        "blockPage": {
+          "type": "string"
         }
       },
       "additionalProperties": false
