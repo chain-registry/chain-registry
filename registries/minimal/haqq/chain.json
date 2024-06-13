@@ -32,7 +32,7 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.5-evmos",
+    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.8-evmos",
     "ibcGoVersion": "7.3.1"
   },
   "apis": {
