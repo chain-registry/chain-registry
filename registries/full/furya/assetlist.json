@@ -19,16 +19,13 @@
       "display": "fury",
       "symbol": "FURY",
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.svg"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/ufury.svg",
-          "theme": {
-            "primaryColorHex": "#eaf143"
-          }
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/furya/images/fury.svg"
         }
       ],
       "coingeckoId": "fanfury",

@@ -705,6 +705,55 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Wrapped Bitcoin on Persistence",
+      "denomUnits": [
+        {
+          "denom": "ibc/CCA9F9B22D39884C09975D45E1869B73A12B87080EE53CB44905CE2C422CA228",
+          "exponent": 0,
+          "aliases": [
+            "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+          ]
+        },
+        {
+          "denom": "wbtc",
+          "exponent": 8
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/CCA9F9B22D39884C09975D45E1869B73A12B87080EE53CB44905CE2C422CA228",
+      "name": "Wrapped Bitcoin",
+      "display": "wbtc",
+      "symbol": "WBTC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
+            "channelId": "channel-4"
+          },
+          "chain": {
+            "channelId": "channel-6",
+            "path": "transfer/channel-6/factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+          }
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/wbtc.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/wbtc.svg"
+      },
+      "images": [
+        {
+          "imageSync": {
+            "chainName": "osmosis",
+            "baseDenom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/wbtc.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/wbtc.svg"
+        }
+      ]
     }
   ]
 }

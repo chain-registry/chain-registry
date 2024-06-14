@@ -27,6 +27,10 @@
           }
         }
       ],
+      "socials": {
+        "website": "https://initia.xyz/",
+        "twitter": "https://twitter.com/initiaFDN"
+      },
       "assetType": "unknown"
     }
   ]

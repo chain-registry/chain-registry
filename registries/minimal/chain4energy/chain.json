@@ -37,6 +37,9 @@
         "address": "https://rpc.c4e.io/"
       },
       {
+        "address": "https://rpc.c4e.mainnet.dteam.tech:443"
+      },
+      {
         "address": "https://rpc.c4e.nodestake.top"
       },
       {
@@ -123,6 +126,9 @@
         "address": "https://lcd.c4e.io/"
       },
       {
+        "address": "https://api.c4e.mainnet.dteam.tech:443"
+      },
+      {
         "address": "https://api.c4e.nodestake.top"
       },
       {
@@ -200,6 +206,9 @@
         "address": "grpc.c4e.nodestake.top:443"
       },
       {
+        "address": "grpc.c4e.mainnet.dteam.tech:30090"
+      },
+      {
         "address": "c4e.grpc.bccnodes.com:443"
       },
       {
@@ -275,6 +284,11 @@
       "kind": "explorer",
       "url": "https://explorer.apeironnodes.com/chain4energy",
       "txPage": "https://explorer.apeironnodes.com/chain4energy/transactions/${txHash}"
+    },
+    {
+      "kind": "DTEAM | Explorer",
+      "url": "https://explorer.mainnet.dteam.tech/chain4energy",
+      "txPage": "https://explorer.mainnet.dteam.tech/chain4energytransactions/${txHash}"
     },
     {
       "kind": "explorer",
