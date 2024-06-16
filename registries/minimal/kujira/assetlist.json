@@ -272,6 +272,55 @@
       "assetType": "sdk.factory"
     },
     {
+      "description": "Quark's auto-compounding AQLA derivative",
+      "denomUnits": [
+        {
+          "denom": "factory/kujira1d9fmsgvu3yvvppvqech2s3dhrqdm5ukngcf82ghcl70edfpwcrlsu6yr0u/urcpt",
+          "exponent": 0
+        },
+        {
+          "denom": "qcAQLA",
+          "exponent": 6
+        }
+      ],
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "baseDenom": "factory/kujira1xe0awk5planmtsmjel5xtx2hzhqdw5p8z66yqd/uaqla",
+            "chainName": "kujira"
+          },
+          "provider": "Quark Protocol",
+          "chain": {
+            "contract": "kujira1d9fmsgvu3yvvppvqech2s3dhrqdm5ukngcf82ghcl70edfpwcrlsu6yr0u"
+          }
+        }
+      ],
+      "base": "factory/kujira1d9fmsgvu3yvvppvqech2s3dhrqdm5ukngcf82ghcl70edfpwcrlsu6yr0u/urcpt",
+      "name": "qcAQLA",
+      "display": "qcAQLA",
+      "symbol": "qcAQLA",
+      "assetType": "sdk.factory"
+    },
+    {
+      "description": "The Aqualibre project's token",
+      "denomUnits": [
+        {
+          "denom": "factory/kujira1xe0awk5planmtsmjel5xtx2hzhqdw5p8z66yqd/uaqla",
+          "exponent": 0
+        },
+        {
+          "denom": "AQLA",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/kujira1xe0awk5planmtsmjel5xtx2hzhqdw5p8z66yqd/uaqla",
+      "name": "AQLA",
+      "display": "AQLA",
+      "symbol": "AQLA",
+      "assetType": "sdk.factory"
+    },
+    {
       "description": "The Revenue & Governance token of Unstake.fi",
       "denomUnits": [
         {

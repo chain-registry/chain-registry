@@ -19826,6 +19826,33 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/grac.png"
         }
       ]
+    },
+    {
+      "description": "A group of french boulanger who wanna bring fun and baguette on cosmos",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bag",
+          "exponent": 0
+        },
+        {
+          "denom": "BAG",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bag",
+      "name": "Baguette",
+      "display": "BAG",
+      "symbol": "BAG",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BAG.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BAG.png"
+        }
+      ]
     }
   ]
 }

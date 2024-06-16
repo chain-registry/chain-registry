@@ -109,6 +109,13 @@
         "lowGasPrice": 0.01,
         "averageGasPrice": 0.015,
         "highGasPrice": 0.03
+      },
+      {
+        "denom": "ibc/BF3B4F53F3694B66E13C23107C84B6485BD2B96296BB7EC680EA77BBA75B4801",
+        "fixedMinGasPrice": 0.002,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.02,
+        "highGasPrice": 0.1
       }
     ]
   },
