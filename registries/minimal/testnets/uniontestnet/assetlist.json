@@ -7,24 +7,17 @@
       "denomUnits": [
         {
           "denom": "muno",
-          "exponent": 0,
-          "aliases": [
-
-          ]
+          "exponent": 0
         },
         {
           "denom": "uno",
-          "exponent": 6,
-          "aliases": [
-
-          ]
+          "exponent": 6
         }
       ],
       "base": "muno",
       "name": "Union",
       "display": "uno",
       "symbol": "UNO",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

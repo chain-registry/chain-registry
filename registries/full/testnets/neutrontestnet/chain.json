@@ -16,26 +16,26 @@
     "feeTokens": [
       {
         "denom": "untrn",
-        "lowGasPrice": 0.02,
-        "averageGasPrice": 0.02,
-        "highGasPrice": 0.02
+        "lowGasPrice": 0.0053,
+        "averageGasPrice": 0.0053,
+        "highGasPrice": 0.0053
       }
     ]
   },
   "codebase": {
     "gitRepo": "https://github.com/neutron-org/neutron",
-    "recommendedVersion": "v3.0.0",
+    "recommendedVersion": "v4.0.0-rc3",
     "compatibleVersions": [
-      "v3.0.0"
+      "v4.0.0-rc3"
     ],
-    "cosmosSdkVersion": "0.47",
+    "cosmosSdkVersion": "0.50",
     "consensus": {
       "type": "cometbft",
-      "version": "0.37.4"
+      "version": "0.38.7"
     },
-    "cosmwasmVersion": "0.45",
+    "cosmwasmVersion": "0.52",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "7.3.2",
+    "ibcGoVersion": "8.2.1",
     "genesis": {
       "genesisUrl": "https://github.com/cosmos/testnets/raw/master/replicated-security/pion-1/pion-1-genesis.json"
     },
@@ -90,7 +90,7 @@
       },
       {
         "name": "v3.0.0",
-        "nextVersionName": "",
+        "nextVersionName": "v4.0.0-rc3",
         "recommendedVersion": "v3.0.0",
         "compatibleVersions": [
           "v3.0.0"
@@ -103,6 +103,22 @@
         "cosmwasmVersion": "0.45",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "7.3.2"
+      },
+      {
+        "name": "v4.0.0-rc3",
+        "nextVersionName": "",
+        "recommendedVersion": "v4.0.0-rc3",
+        "compatibleVersions": [
+          "v4.0.0-rc3"
+        ],
+        "cosmosSdkVersion": "0.50",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.38.7"
+        },
+        "cosmwasmVersion": "0.51",
+        "cosmwasmEnabled": true,
+        "ibcGoVersion": "8.2.1"
       }
     ]
   },

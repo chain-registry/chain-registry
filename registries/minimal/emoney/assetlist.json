@@ -56,7 +56,6 @@
       "name": "e-Money CHF",
       "display": "chf",
       "symbol": "ECHF",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     },
     {
@@ -75,7 +74,6 @@
       "name": "e-Money NOK",
       "display": "nok",
       "symbol": "ENOK",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     },
     {
@@ -94,7 +92,6 @@
       "name": "e-Money DKK",
       "display": "dkk",
       "symbol": "EDKK",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     },
     {
@@ -113,7 +110,6 @@
       "name": "e-Money SEK",
       "display": "sek",
       "symbol": "ESEK",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

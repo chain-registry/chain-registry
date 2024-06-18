@@ -12,10 +12,12 @@
   "properties": {
     "$schema": {
       "type": "string",
+      "minLength": 1,
       "pattern": "^(\\.\\./)+chain\\.schema\\.json$"
     },
     "website": {
       "type": "string",
+      "minLength": 1,
       "format": "uri"
     },
     "slip44": {
@@ -57,6 +59,7 @@
             },
             "time": {
               "type": "string",
+              "minLength": 1,
               "description": "The approximate time for which the staked tokens are locked."
             }
           },
@@ -70,22 +73,26 @@
       "type": "object",
       "properties": {
         "cosmosSdkVersion": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "cosmwasmVersion": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "cosmwasmEnabled": {
           "type": "boolean"
         },
         "ibcGoVersion": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "icsEnabled": {
           "type": "array",
           "description": "List of IBC apps (usually corresponding to a ICS standard) which have been enabled on the network.",
           "items": {
             "type": "string",
+            "minLength": 1,
             "description": "IBC app or ICS standard.",
             "enum": [
               "ics20-1",
@@ -104,11 +111,13 @@
         "properties": {
           "png": {
             "type": "string",
+            "minLength": 1,
             "format": "uri-reference",
             "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.png$"
           },
           "svg": {
             "type": "string",
+            "minLength": 1,
             "format": "uri-reference",
             "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.svg$"
           },
@@ -120,6 +129,7 @@
               },
               "primaryColorHex": {
                 "type": "string",
+                "minLength": 1,
                 "pattern": "^#[0-9a-fA-F]{6}$"
               },
               "darkMode": {
@@ -131,6 +141,7 @@
           },
           "layout": {
             "type": "string",
+            "minLength": 1,
             "enum": [
               "logo",
               "logomark",
@@ -143,6 +154,7 @@
           },
           "textPosition": {
             "type": "string",
+            "minLength": 1,
             "enum": [
               "top",
               "bottom",
@@ -170,6 +182,7 @@
     },
     "description": {
       "type": "string",
+      "minLength": 1,
       "maxLength": 3000
     },
     "apis": {
@@ -224,22 +237,27 @@
       "type": "array",
       "maxContains": 20,
       "items": {
-        "type": "string"
+        "type": "string",
+        "minLength": 1
       }
     },
     "chainName": {
       "type": "string",
+      "minLength": 1,
       "pattern": "[a-z0-9]+"
     },
     "chainId": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "preForkChainName": {
       "type": "string",
+      "minLength": 1,
       "pattern": "[a-z0-9]+"
     },
     "prettyName": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "networkType": {
       "enum": [
@@ -250,10 +268,12 @@
     },
     "bech32Prefix": {
       "type": "string",
+      "minLength": 1,
       "description": "The default prefix for the human-readable part of addresses that identifies the coin type. Must be registered with SLIP-0173. E.g., 'cosmos'"
     },
     "nodeHome": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "keyAlgos": {
       "type": "array",
@@ -273,6 +293,7 @@
       "type": "array",
       "items": {
         "type": "string",
+        "minLength": 1,
         "enum": [
           "ethermint",
           "injective"
@@ -290,7 +311,8 @@
       ],
       "properties": {
         "address": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         }
       },
       "additionalProperties": false
@@ -299,25 +321,32 @@
       "type": "object",
       "properties": {
         "kind": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "url": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "txPage": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "accountPage": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "validatorPage": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "proposalPage": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "blockPage": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         }
       },
       "additionalProperties": false
@@ -331,10 +360,12 @@
       "properties": {
         "chainName": {
           "type": "string",
+          "minLength": 1,
           "description": "The chain name or platform from which the object resides. E.g., 'cosmoshub', 'ethereum', 'forex', or 'nasdaq'"
         },
         "baseDenom": {
           "type": "string",
+          "minLength": 1,
           "description": "The base denom of the asset from which the object originates. E.g., when describing ATOM from Cosmos Hub, specify 'uatom', NOT 'atom' nor 'ATOM'; base units are unique per platform."
         }
       },
@@ -347,7 +378,8 @@
       ],
       "properties": {
         "denom": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "fixedMinGasPrice": {
           "type": "number"
@@ -384,7 +416,8 @@
       ],
       "properties": {
         "denom": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         }
       },
       "additionalProperties": false

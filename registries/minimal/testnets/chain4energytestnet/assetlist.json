@@ -18,7 +18,6 @@
       "name": "Chain4Energy",
       "display": "c4e",
       "symbol": "C4E",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

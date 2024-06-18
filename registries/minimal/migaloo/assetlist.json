@@ -196,8 +196,7 @@
       "base": "cw20:migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v",
       "name": "mUSDC",
       "display": "mUSDC",
-      "symbol": "mUSDC",
-      "coingeckoId": ""
+      "symbol": "mUSDC"
     },
     {
       "description": "GUPPY",

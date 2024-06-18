@@ -120,8 +120,7 @@
           "version": "0.37.2"
         },
         "cosmwasmVersion": "0.42.0",
-        "cosmwasmEnabled": true,
-        "nextVersionName": ""
+        "cosmwasmEnabled": true
       }
     ]
   },

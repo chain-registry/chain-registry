@@ -66,7 +66,6 @@
           "type": "tendermint",
           "version": "0.34"
         },
-        "cosmwasmVersion": "",
         "cosmwasmEnabled": false,
         "ibcGoVersion": "5.0.1",
         "nextVersionName": "v0.2.8"

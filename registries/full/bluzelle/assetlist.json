@@ -61,7 +61,6 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/elt.png"
       },
-      "coingeckoId": "",
       "keywords": [
         "elt"
       ],
@@ -91,7 +90,6 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/g4.png"
       },
-      "coingeckoId": "",
       "keywords": [
         "g4"
       ],

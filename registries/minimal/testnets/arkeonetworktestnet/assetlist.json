@@ -3,7 +3,6 @@
   "chainName": "arkeonetworktestnet",
   "assets": [
     {
-      "description": "",
       "denomUnits": [
         {
           "denom": "uarkeo",

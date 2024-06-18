@@ -18,7 +18,6 @@
       "name": "NYX",
       "display": "nyx",
       "symbol": "NYX",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     },
     {
@@ -37,7 +36,6 @@
       "name": "NYM",
       "display": "nym",
       "symbol": "NYM",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

@@ -11,10 +11,12 @@
   "properties": {
     "$schema": {
       "type": "string",
+      "minLength": 1,
       "pattern": "^(\\.\\./)+assetlist\\.schema\\.json$"
     },
     "chain_name": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "assets": {
       "type": "array",
@@ -42,10 +44,12 @@
         },
         "description": {
           "type": "string",
+          "minLength": 1,
           "description": "[OPTIONAL] A short description of the asset"
         },
         "extended_description": {
           "type": "string",
+          "minLength": 1,
           "description": "[OPTIONAL] A long description of the asset"
         },
         "denom_units": {
@@ -57,6 +61,7 @@
         },
         "type_asset": {
           "type": "string",
+          "minLength": 1,
           "enum": [
             "sdk.coin",
             "cw20",
@@ -75,23 +80,28 @@
         },
         "address": {
           "type": "string",
+          "minLength": 1,
           "description": "[OPTIONAL] The address of the asset. Only required for type_asset : cw20, snip20"
         },
         "base": {
           "type": "string",
+          "minLength": 1,
           "description": "The base unit of the asset. Must be in denom_units."
         },
         "name": {
           "type": "string",
+          "minLength": 1,
           "description": "The project name of the asset. For example Bitcoin.",
           "maxLength": 42
         },
         "display": {
           "type": "string",
+          "minLength": 1,
           "description": "The human friendly unit of the asset. Must be in denom_units."
         },
         "symbol": {
           "type": "string",
+          "minLength": 1,
           "description": "The symbol of an asset. For example BTC."
         },
         "traces": {
@@ -138,11 +148,13 @@
           "properties": {
             "png": {
               "type": "string",
+              "minLength": 1,
               "format": "uri-reference",
               "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.png$"
             },
             "svg": {
               "type": "string",
+              "minLength": 1,
               "format": "uri-reference",
               "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.svg$"
             }
@@ -159,11 +171,13 @@
               },
               "png": {
                 "type": "string",
+                "minLength": 1,
                 "format": "uri-reference",
                 "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.png$"
               },
               "svg": {
                 "type": "string",
+                "minLength": 1,
                 "format": "uri-reference",
                 "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.svg$"
               },
@@ -172,6 +186,7 @@
                 "properties": {
                   "primary_color_hex": {
                     "type": "string",
+                    "minLength": 1,
                     "pattern": "^#[0-9a-fA-F]{6}$"
                   },
                   "circle": {
@@ -191,12 +206,14 @@
         },
         "coingecko_id": {
           "type": "string",
+          "minLength": 1,
           "description": "[OPTIONAL] The coingecko id to fetch asset data from coingecko v3 api. See https://api.coingecko.com/api/v3/coins/list"
         },
         "keywords": {
           "type": "array",
           "items": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "minContains": 1,
           "maxContains": 20
@@ -207,10 +224,12 @@
           "properties": {
             "website": {
               "type": "string",
+              "minLength": 1,
               "format": "uri"
             },
             "twitter": {
               "type": "string",
+              "minLength": 1,
               "format": "uri"
             }
           }
@@ -245,7 +264,8 @@
       ],
       "properties": {
         "denom": {
-          "type": "string"
+          "type": "string",
+          "minLength": 1
         },
         "exponent": {
           "type": "integer"
@@ -253,7 +273,8 @@
         "aliases": {
           "type": "array",
           "items": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "minContains": 1
         }
@@ -269,10 +290,12 @@
       "properties": {
         "chain_name": {
           "type": "string",
+          "minLength": 1,
           "description": "The chain name or platform from which the object resides. E.g., 'cosmoshub', 'ethereum', 'forex', or 'nasdaq'"
         },
         "base_denom": {
           "type": "string",
+          "minLength": 1,
           "description": "The base denom of the asset from which the object originates. E.g., when describing ATOM from Cosmos Hub, specify 'uatom', NOT 'atom' nor 'ATOM'; base units are unique per platform."
         }
       },
@@ -288,6 +311,7 @@
       "properties": {
         "type": {
           "type": "string",
+          "minLength": 1,
           "enum": [
             "ibc"
           ]
@@ -302,14 +326,17 @@
           "properties": {
             "chain_name": {
               "type": "string",
+              "minLength": 1,
               "description": "The name of the counterparty chain. (must match exactly the chain name used in the Chain Registry)"
             },
             "base_denom": {
               "type": "string",
+              "minLength": 1,
               "description": "The base unit of the asset on its source platform. E.g., when describing ATOM from Cosmos Hub, specify 'uatom', NOT 'atom' nor 'ATOM'; base units are unique per platform."
             },
             "channel_id": {
               "type": "string",
+              "minLength": 1,
               "pattern": "^channel-(JEnb|\\d+)$",
               "description": "The counterparty IBC transfer channel(, e.g., 'channel-1')."
             }
@@ -325,11 +352,13 @@
           "properties": {
             "channel_id": {
               "type": "string",
+              "minLength": 1,
               "pattern": "^channel-\\d+$",
               "description": "The chain's IBC transfer channel(, e.g., 'channel-1')."
             },
             "path": {
               "type": "string",
+              "minLength": 1,
               "description": "The port/channel/denom input string that generates the 'ibc/...' denom."
             }
           },
@@ -348,6 +377,7 @@
       "properties": {
         "type": {
           "type": "string",
+          "minLength": 1,
           "enum": [
             "ibc-cw20"
           ]
@@ -363,18 +393,22 @@
           "properties": {
             "chain_name": {
               "type": "string",
+              "minLength": 1,
               "description": "The name of the counterparty chain. (must match exactly the chain name used in the Chain Registry)"
             },
             "base_denom": {
               "type": "string",
+              "minLength": 1,
               "description": "The base unit of the asset on its source platform. E.g., when describing ATOM from Cosmos Hub, specify 'uatom', NOT 'atom' nor 'ATOM'; base units are unique per platform."
             },
             "port": {
               "type": "string",
+              "minLength": 1,
               "description": "The port used to transfer IBC assets; often 'transfer', but sometimes varies, e.g., for outgoing cw20 transfers."
             },
             "channel_id": {
               "type": "string",
+              "minLength": 1,
               "pattern": "^channel-\\d+$",
               "description": "The counterparty IBC transfer channel(, e.g., 'channel-1')."
             }
@@ -391,15 +425,18 @@
           "properties": {
             "port": {
               "type": "string",
+              "minLength": 1,
               "description": "The port used to transfer IBC assets; often 'transfer', but sometimes varies, e.g., for outgoing cw20 transfers."
             },
             "channel_id": {
               "type": "string",
+              "minLength": 1,
               "pattern": "^channel-\\d+$",
               "description": "The chain's IBC transfer channel(, e.g., 'channel-1')."
             },
             "path": {
               "type": "string",
+              "minLength": 1,
               "description": "The port/channel/denom input string that generates the 'ibc/...' denom."
             }
           },
@@ -418,6 +455,7 @@
       "properties": {
         "type": {
           "type": "string",
+          "minLength": 1,
           "enum": [
             "bridge",
             "liquid-stake",
@@ -436,13 +474,16 @@
           "properties": {
             "chain_name": {
               "type": "string",
+              "minLength": 1,
               "description": "The chain or platform from which the asset originates. E.g., 'cosmoshub', 'ethereum', 'forex', or 'nasdaq'"
             },
             "base_denom": {
-              "type": "string"
+              "type": "string",
+              "minLength": 1
             },
             "contract": {
               "type": "string",
+              "minLength": 1,
               "description": "The contract address where the transition takes place, where applicable. E.g., The Ethereum contract that locks up the asset while it's minted on another chain."
             }
           },
@@ -456,6 +497,7 @@
           "properties": {
             "contract": {
               "type": "string",
+              "minLength": 1,
               "description": "The contract address where the transition takes place, where applicable. E.g., The Ethereum contract that locks up the asset while it's minted on another chain."
             }
           },
@@ -463,6 +505,7 @@
         },
         "provider": {
           "type": "string",
+          "minLength": 1,
           "description": "The entity offering the service. E.g., 'Gravity Bridge' [Network] or 'Tether' [Company]."
         }
       },

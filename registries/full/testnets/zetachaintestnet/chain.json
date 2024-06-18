@@ -35,9 +35,6 @@
   "codebase": {
     "gitRepo": "https://github.com/zeta-chain/node",
     "recommendedVersion": "v8.3.3",
-    "compatibleVersions": [
-
-    ],
     "cosmosSdkVersion": "0.46",
     "consensus": {
       "type": "tendermint",
@@ -48,18 +45,23 @@
       "genesisUrl": "https://zetachain-athens.blockpi.network/rpc/v1/public/genesis"
     },
     "versions": [
-
+      {
+        "name": "v8.3.3",
+        "recommendedVersion": "v8.3.3",
+        "cosmosSdkVersion": "0.46",
+        "consensus": {
+          "type": "tendermint",
+          "version": "0.34"
+        },
+        "ibcGoVersion": "v6.1.0"
+      }
     ]
   },
   "peers": {
-    "seeds": [
-
-    ],
     "persistentPeers": [
       {
         "id": "d5519e378247dfb61dfe90652d1fe3e2b3005a5b",
-        "address": "65.109.68.190:16056",
-        "provider": ""
+        "address": "65.109.68.190:16056"
       },
       {
         "id": "f96cf94d5eabaf554c9294e731b3994b4c532f3a",
@@ -88,9 +90,6 @@
         "address": "https://zetachain-testnet-archive.allthatnode.com:1317",
         "provider": "All That Node"
       }
-    ],
-    "grpc": [
-
     ]
   },
   "explorers": [

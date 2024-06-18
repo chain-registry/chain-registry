@@ -49,9 +49,6 @@
       {
         "address": "https://zetachain-testnet-archive.allthatnode.com:1317"
       }
-    ],
-    "grpc": [
-
     ]
   },
   "explorers": [

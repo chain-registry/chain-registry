@@ -37,7 +37,6 @@
       "name": "Stardust STRDST",
       "display": "strdst",
       "symbol": "STRDST",
-      "coingeckoId": "",
       "assetType": "sdk.factory"
     },
     {
@@ -56,7 +55,6 @@
       "name": "Gaze GAZE",
       "display": "GAZE",
       "symbol": "GAZE",
-      "coingeckoId": "",
       "assetType": "sdk.factory"
     },
     {
@@ -75,7 +73,6 @@
       "name": "Branch",
       "display": "BRNCH",
       "symbol": "BRNCH",
-      "coingeckoId": "",
       "assetType": "sdk.factory"
     },
     {
@@ -94,7 +91,6 @@
       "name": "ohhVAULT ohh",
       "display": "OHH",
       "symbol": "OHH",
-      "coingeckoId": "",
       "assetType": "sdk.factory"
     },
     {
@@ -113,7 +109,6 @@
       "name": "Sneaky Productions",
       "display": "sneaky",
       "symbol": "SNEAKY",
-      "coingeckoId": "",
       "assetType": "sdk.factory"
     },
     {
@@ -208,6 +203,41 @@
           "chain": {
             "channelId": "channel-0",
             "path": "transfer/channel-0/factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+      "denomUnits": [
+        {
+          "denom": "ibc/C9C8D88917374F27F03CBCEAF4F1B85F45A62F9F2316CBAADAAC5FDB3675DD3F",
+          "exponent": 0,
+          "aliases": [
+            "uastro"
+          ]
+        },
+        {
+          "denom": "astro",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/C9C8D88917374F27F03CBCEAF4F1B85F45A62F9F2316CBAADAAC5FDB3675DD3F",
+      "name": "Astroport token",
+      "display": "astro",
+      "symbol": "ASTRO",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
+            "channelId": "channel-18"
+          },
+          "chain": {
+            "channelId": "channel-191",
+            "path": "transfer/channel-191/factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
           }
         }
       ]

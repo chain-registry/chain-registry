@@ -7,17 +7,11 @@
       "denomUnits": [
         {
           "denom": "muno",
-          "exponent": 0,
-          "aliases": [
-
-          ]
+          "exponent": 0
         },
         {
           "denom": "uno",
-          "exponent": 6,
-          "aliases": [
-
-          ]
+          "exponent": 6
         }
       ],
       "base": "muno",
@@ -27,7 +21,6 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/uniontestnet/images/union.png"
       },
-      "coingeckoId": "",
       "keywords": [
         "staking"
       ],

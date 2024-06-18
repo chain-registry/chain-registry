@@ -63,6 +63,11 @@
         "id": "5d0bf034d6e6a8b5ee31a2f42f753f1107b3a00e",
         "address": "celestia-testnet-seed.itrocket.net:11656",
         "provider": "🚀ITRocket🚀"
+      },
+      {
+        "id": "de181ebe22ce14483abbb8695bdb43c1169246af",
+        "address": "185.144.99.223:26656",
+        "provider": "CrypTech"
       }
     ]
   },
@@ -83,6 +88,10 @@
       {
         "address": "https://celestia-testnet-rpc.itrocket.net",
         "provider": "🚀ITRocket🚀"
+      },
+      {
+        "address": "https://rpc-celestia-testnet.cryptech.com.ua",
+        "provider": "CrypTech"
       }
     ],
     "rest": [
@@ -101,6 +110,10 @@
       {
         "address": "https://celestia-testnet-api.itrocket.net",
         "provider": "🚀ITRocket🚀"
+      },
+      {
+        "address": "https://api-celestia-testnet.cryptech.com.ua",
+        "provider": "CrypTech"
       }
     ],
     "grpc": [
@@ -115,6 +128,10 @@
       {
         "address": "celestia-testnet-grpc.itrocket.net:11090",
         "provider": "🚀ITRocket🚀"
+      },
+      {
+        "address": "https://grpc-celestia-testnet.cryptech.com.ua",
+        "provider": "CrypTech"
       }
     ]
   },
@@ -129,6 +146,12 @@
       "url": "https://testnet.itrocket.net/celestia",
       "tx_page": "https://testnet.itrocket.net/celestia/tx/${txHash}",
       "account_page": "https://testnet.itrocket.net/celestia/account/${accountAddress}"
+    },
+    {
+      "kind": "CrypTech",
+      "url": "https://explorers.cryptech.com.ua/Celestia-Testnet",
+      "tx_page": "https://explorers.cryptech.com.ua/Celestia-Testnet/tx/${txHash}",
+      "account_page": "https://explorers.cryptech.com.ua/Celestia-Testnet/account/${accountAddress}"
     }
   ]
 }

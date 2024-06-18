@@ -14,8 +14,7 @@
       "base": "token",
       "name": "Token",
       "display": "token",
-      "symbol": "TOKEN",
-      "coingeckoId": ""
+      "symbol": "TOKEN"
     },
     {
       "denomUnits": [
@@ -32,8 +31,7 @@
       "base": "upoa",
       "name": "POA",
       "display": "poa",
-      "symbol": "POA",
-      "coingeckoId": ""
+      "symbol": "POA"
     }
   ]
 }

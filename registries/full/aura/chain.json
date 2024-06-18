@@ -82,8 +82,7 @@
           "version": "aura-nw/cometbft v0.37.4-aura.2"
         },
         "cosmwasmVersion": "v0.42.0",
-        "cosmwasmEnabled": true,
-        "nextVersionName": ""
+        "cosmwasmEnabled": true
       }
     ]
   },

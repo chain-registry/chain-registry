@@ -18,7 +18,6 @@
       "name": "WaveHash",
       "display": "wahax",
       "symbol": "WAHAX",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

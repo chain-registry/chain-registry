@@ -30,21 +30,16 @@
       {
         "address": "https://api-chronic.zenchainlabs.io/"
       }
-    ],
-    "grpc": [
-
     ]
   },
   "explorers": [
     {
       "kind": "skynetexplorers",
-      "url": "https://www.skynetexplorers.com/chronic-token",
-      "txPage": ""
+      "url": "https://www.skynetexplorers.com/chronic-token"
     },
     {
       "kind": "Zenscan.io",
-      "url": "https://www.chronic.zenscan.io",
-      "txPage": ""
+      "url": "https://www.chronic.zenscan.io"
     },
     {
       "kind": "atomscan",

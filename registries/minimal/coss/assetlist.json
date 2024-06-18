@@ -18,7 +18,6 @@
       "name": "CGAS",
       "display": "cgas",
       "symbol": "CGAS",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     },
     {

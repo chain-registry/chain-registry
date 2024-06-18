@@ -13,17 +13,17 @@
     "feeTokens": [
       {
         "denom": "untrn",
-        "lowGasPrice": 0.02,
-        "averageGasPrice": 0.02,
-        "highGasPrice": 0.02
+        "lowGasPrice": 0.0053,
+        "averageGasPrice": 0.0053,
+        "highGasPrice": 0.0053
       }
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.47",
-    "cosmwasmVersion": "0.45",
+    "cosmosSdkVersion": "0.50",
+    "cosmwasmVersion": "0.52",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "7.3.2"
+    "ibcGoVersion": "8.2.1"
   },
   "apis": {
     "rpc": [

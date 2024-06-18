@@ -3,7 +3,6 @@
   "chainName": "celestiatestnet2",
   "assets": [
     {
-      "description": "",
       "denomUnits": [
         {
           "denom": "utia",

@@ -18,7 +18,6 @@
       "name": "Cifer",
       "display": "cif",
       "symbol": "CIF",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

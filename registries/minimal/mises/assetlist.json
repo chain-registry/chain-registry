@@ -21,17 +21,13 @@
         },
         {
           "denom": "mis",
-          "exponent": 6,
-          "aliases": [
-
-          ]
+          "exponent": 6
         }
       ],
       "base": "umis",
       "display": "mis",
       "name": "mises network MIS",
       "symbol": "MIS",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

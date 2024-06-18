@@ -179,8 +179,7 @@
           "version": "v0.37.5"
         },
         "cosmwasmVersion": "v0.45.0",
-        "cosmwasmEnabled": true,
-        "nextVersionName": ""
+        "cosmwasmEnabled": true
       }
     ]
   },

@@ -37,7 +37,6 @@
       "name": "Realio Security Token",
       "display": "rst",
       "symbol": "RST",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

@@ -40,7 +40,6 @@
       "name": "ELT",
       "display": "elt",
       "symbol": "ELT",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     },
     {
@@ -59,7 +58,6 @@
       "name": "G4",
       "display": "g4",
       "symbol": "G4",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

@@ -18,7 +18,6 @@
       "name": "Perm",
       "display": "perm",
       "symbol": "PERM",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

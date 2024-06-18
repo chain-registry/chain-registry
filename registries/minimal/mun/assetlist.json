@@ -18,7 +18,6 @@
       "name": "Mun",
       "display": "mun",
       "symbol": "MUN",
-      "coingeckoId": "",
       "assetType": "sdk.coin"
     }
   ]

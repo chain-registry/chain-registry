@@ -85,8 +85,7 @@
           "version": "v0.37.4"
         },
         "cosmwasmVersion": "v0.41.0",
-        "cosmwasmEnabled": true,
-        "nextVersionName": ""
+        "cosmwasmEnabled": true
       }
     ]
   },
