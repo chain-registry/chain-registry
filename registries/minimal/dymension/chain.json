@@ -123,6 +123,9 @@
       },
       {
         "address": "https://rpc.mainnet.dymension.aviaone.com"
+      },
+      {
+        "address": "https://rpc.archive.dymension.mainnet.dteam.tech:443"
       }
     ],
     "rest": [
@@ -212,6 +215,9 @@
       },
       {
         "address": "https://api.mainnet.dymension.aviaone.com"
+      },
+      {
+        "address": "https://api.archive.dymension.mainnet.dteam.tech:443"
       }
     ],
     "grpc": [
@@ -280,6 +286,9 @@
       },
       {
         "address": "https://grpc.mainnet.dymension.aviaone.com:9092"
+      },
+      {
+        "address": "grpc.archive.dymension.mainnet.dteam.tech:29090"
       }
     ],
     "evmHttpJsonrpc": [
@@ -306,6 +315,9 @@
       },
       {
         "address": "https://dymension-jsonrpc.noders.services"
+      },
+      {
+        "address": "https://evm.archive.dymension.mainnet.dteam.tech:443"
       }
     ]
   },
@@ -369,6 +381,12 @@
       "url": "https://mainnet.whispernode.com/dymension",
       "txPage": "https://mainnet.whispernode.com/dymension/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/dymension/account/${accountAddress}"
+    },
+    {
+      "kind": "DTEAM | Explorer",
+      "url": "https://explorer.mainnet.dteam.tech/dymension",
+      "txPage": "https://explorer.mainnet.dteam.tech/dymension/tx/${txHash}",
+      "accountPage": "https://explorer.mainnet.dteam.tech/dymension/account/${accountAddress}"
     }
   ]
 }

@@ -11306,9 +11306,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/2BF9656CAB0384A31167DB9B0254F0FB1CB4346A229BD7E5CBDCBB911C3740F7",
-      "name": "Teledisko DAO",
+      "name": "Teledisko DAO - Legacy",
       "display": "berlin",
-      "symbol": "BERLIN",
+      "symbol": "BERLIN-legacy",
       "traces": [
         {
           "type": "ibc",
@@ -12219,7 +12219,7 @@
       "description": "The native token of Furya",
       "denomUnits": [
         {
-          "denom": "ibc/42D0FBF9DDC72D7359D309A93A6DF9F6FDEE3987EA1C5B3CDE95C06FCE183F12",
+          "denom": "ibc/E4C60B9F95BF54CC085A5E39F6057ABD4DF92793D330EB884A36530F7E6804DE",
           "exponent": 0,
           "aliases": [
             "ufury"
@@ -12231,7 +12231,7 @@
         }
       ],
       "assetType": "ics20",
-      "base": "ibc/42D0FBF9DDC72D7359D309A93A6DF9F6FDEE3987EA1C5B3CDE95C06FCE183F12",
+      "base": "ibc/E4C60B9F95BF54CC085A5E39F6057ABD4DF92793D330EB884A36530F7E6804DE",
       "name": "furya",
       "display": "fury",
       "symbol": "FURY",
@@ -12241,11 +12241,11 @@
           "counterparty": {
             "chainName": "furya",
             "baseDenom": "ufury",
-            "channelId": "channel-3"
+            "channelId": "channel-8"
           },
           "chain": {
-            "channelId": "channel-8690",
-            "path": "transfer/channel-8690/ufury"
+            "channelId": "channel-74222",
+            "path": "transfer/channel-74222/ufury"
           }
         }
       ]
@@ -14424,6 +14424,108 @@
       ]
     },
     {
+      "description": "Whinecoin is an experimental memecoin by the Sommelier Finance team.",
+      "denomUnits": [
+        {
+          "denom": "ibc/A8C568580D613F16F7E9075EA9FAD69FEBE0CC1F4AF46C60255FEC4459C166F1",
+          "exponent": 0,
+          "aliases": [
+            "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
+            "ibc/9D5DA3720001F91DD76B8F609A93F96688EC8185B54BF9A1A1450EB34FF2D912"
+          ]
+        },
+        {
+          "denom": "whine",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/A8C568580D613F16F7E9075EA9FAD69FEBE0CC1F4AF46C60255FEC4459C166F1",
+      "name": "WHINEcoin",
+      "display": "whine",
+      "symbol": "WHINE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-71",
+            "path": "transfer/channel-71/ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump"
+          }
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "baseDenom": "ibc/9D5DA3720001F91DD76B8F609A93F96688EC8185B54BF9A1A1450EB34FF2D912",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-71/ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump"
+          }
+        }
+      ]
+    },
+    {
+      "description": "A group of french boulanger who wanna bring fun and baguette on cosmos",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bag",
+          "exponent": 0
+        },
+        {
+          "denom": "BAG",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bag",
+      "name": "Baguette",
+      "display": "BAG",
+      "symbol": "BAG"
+    },
+    {
+      "description": "The native token of Furya",
+      "denomUnits": [
+        {
+          "denom": "ibc/42D0FBF9DDC72D7359D309A93A6DF9F6FDEE3987EA1C5B3CDE95C06FCE183F12",
+          "exponent": 0,
+          "aliases": [
+            "ufury"
+          ]
+        },
+        {
+          "denom": "fury",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/42D0FBF9DDC72D7359D309A93A6DF9F6FDEE3987EA1C5B3CDE95C06FCE183F12",
+      "name": "furya",
+      "display": "fury",
+      "symbol": "FURY",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "furya",
+            "baseDenom": "ufury",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-8690",
+            "path": "transfer/channel-8690/ufury"
+          }
+        }
+      ]
+    },
+    {
       "description": "PUNDIX token is the native token that functions within the Pundi X ecosystem, including PundiX Chain and XPOS.",
       "denomUnits": [
         {
@@ -14733,25 +14835,6 @@
           }
         }
       ]
-    },
-    {
-      "description": "A group of french boulanger who wanna bring fun and baguette on cosmos",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bag",
-          "exponent": 0
-        },
-        {
-          "denom": "BAG",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
-      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bag",
-      "name": "Baguette",
-      "display": "BAG",
-      "symbol": "BAG"
     }
   ]
 }

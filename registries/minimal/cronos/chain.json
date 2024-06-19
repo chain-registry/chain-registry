@@ -69,10 +69,9 @@
       "txPage": "https://cronos.org/explorer/tx/${txHash}"
     },
     {
-      "kind": "ezstaking",
-      "url": "https://ezstaking.app/cronos",
-      "txPage": "https://ezstaking.app/cronos/txs/${txHash}",
-      "accountPage": "https://ezstaking.app/cronos/account/${accountAddress}"
+      "kind": "ping.pub",
+      "url": "https://ping.pub/cronos",
+      "txPage": "https://ping.pub/cronos/tx/${txHash}"
     }
   ],
   "images": [

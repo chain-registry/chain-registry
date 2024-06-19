@@ -474,7 +474,9 @@
           "imageSync": {
             "chainName": "noble",
             "baseDenom": "uusdc"
-          }
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
         }
       ]
     }
