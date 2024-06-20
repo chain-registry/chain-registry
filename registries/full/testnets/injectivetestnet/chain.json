@@ -17,7 +17,7 @@
     "feeTokens": [
       {
         "denom": "inj",
-        "fixedMinGasPrice": 500000000,
+        "fixedMinGasPrice": 160000000,
         "lowGasPrice": 500000000,
         "averageGasPrice": 700000000,
         "highGasPrice": 900000000

@@ -39,6 +39,9 @@
         "address": "https://rpc.source.nodestake.top"
       },
       {
+        "address": "https://source.rpc.bccnodes.com/"
+      },
+      {
         "address": "https://source.rpc.moonbridge.team/"
       },
       {
@@ -90,6 +93,9 @@
     "rest": [
       {
         "address": "https://api.source.nodestake.top"
+      },
+      {
+        "address": "https://source.lcd.bccnodes.com/"
       },
       {
         "address": "https://api-source.nodeist.net"
@@ -146,6 +152,9 @@
     "grpc": [
       {
         "address": "source-mainnet-grpc.itrocket.net:32090"
+      },
+      {
+        "address": "source.grpc.bccnodes.com:443"
       },
       {
         "address": "http://source.grpc.m.stavr.tech:9590"

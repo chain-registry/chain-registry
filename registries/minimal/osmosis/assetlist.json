@@ -14835,6 +14835,35 @@
           }
         }
       ]
+    },
+    {
+      "description": "An alloy of BTC asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3/alloyed/allBTC",
+          "exponent": 0
+        },
+        {
+          "denom": "allBTC",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3",
+      "base": "factory/osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3/alloyed/allBTC",
+      "name": "Alloyed BTC",
+      "display": "allBTC",
+      "symbol": "allBTC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Osmosis"
+        }
+      ]
     }
   ]
 }
