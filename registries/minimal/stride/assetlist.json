@@ -445,6 +445,33 @@
           }
         }
       ]
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "staISLM",
+          "exponent": 0
+        },
+        {
+          "denom": "stISLM",
+          "exponent": 18
+        }
+      ],
+      "base": "staISLM",
+      "name": "Stride Staked ISLM",
+      "display": "stISLM",
+      "symbol": "stISLM",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "haqq",
+            "baseDenom": "aISLM"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }

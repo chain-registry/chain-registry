@@ -606,7 +606,12 @@
       ],
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/whine.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/whine.png",
+          "theme": {
+            "primaryColorHex": "#FFFFFF",
+            "backgroundColorHex": "#FFFFFF",
+            "circle": false
+          }
         }
       ],
       "socials": {

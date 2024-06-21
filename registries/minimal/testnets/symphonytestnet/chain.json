@@ -1,0 +1,57 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "symphonytestnet",
+  "networkType": "testnet",
+  "prettyName": "Symphony Testnet",
+  "chainId": "symphony-testnet-1",
+  "bech32Prefix": "symphony",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "note",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "note"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.45",
+    "cosmwasmVersion": "0.30",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.symphonychain.org/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.testnet.symphonychain.org/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.testnet.symphonychain.org/"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/symphony_logo.png"
+    }
+  ]
+}

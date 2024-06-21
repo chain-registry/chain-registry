@@ -1,0 +1,30 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "symphonytestnet",
+  "assets": [
+    {
+      "description": "The native token of Symphony",
+      "denomUnits": [
+        {
+          "denom": "note",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "mld",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "note",
+      "name": "Symphony Testnet",
+      "display": "mld",
+      "symbol": "MLD"
+    }
+  ]
+}
