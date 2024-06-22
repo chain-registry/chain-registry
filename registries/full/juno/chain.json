@@ -40,12 +40,12 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/CosmosContracts/juno",
-    "recommendedVersion": "v22.0.0",
+    "recommendedVersion": "v22.0.1",
     "compatibleVersions": [
-      "v22.0.0"
+      "v22.0.1"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v22.0.0/junod"
+      "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v22.0.1/junod"
     },
     "cosmosSdkVersion": "v0.47.11-0.20240417094812-f556fd956fb1",
     "consensus": {
@@ -234,12 +234,12 @@
         "name": "v22",
         "proposal": 347,
         "height": 15873890,
-        "recommendedVersion": "v22.0.0",
+        "recommendedVersion": "v22.0.1",
         "compatibleVersions": [
-          "v22.0.0"
+          "v22.0.1"
         ],
         "binaries": {
-          "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v22.0.0/junod"
+          "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v22.0.1/junod"
         },
         "cosmosSdkVersion": "v0.47.11-0.20240417094812-f556fd956fb1",
         "consensus": {

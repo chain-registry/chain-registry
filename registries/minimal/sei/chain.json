@@ -29,8 +29,8 @@
     ]
   },
   "codebase": {
-    "ibcGoVersion": "sei-ibc-go/v3 v3.3.0",
-    "cosmosSdkVersion": "sei-cosmos v0.3.13",
+    "ibcGoVersion": "sei-ibc-go/v3 v3.3.1",
+    "cosmosSdkVersion": "sei-cosmos v0.3.19",
     "cosmwasmVersion": "sei-wasmd v0.1.5",
     "cosmwasmEnabled": true
   },

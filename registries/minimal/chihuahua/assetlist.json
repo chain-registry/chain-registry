@@ -212,11 +212,45 @@
           "counterparty": {
             "chainName": "migaloo",
             "baseDenom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
-            "channelId": "channel-39"
+            "channelId": "channel-10"
           },
           "chain": {
-            "channelId": "channel-10",
-            "path": "transfer/channel-10/factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH"
+            "channelId": "channel-39",
+            "path": "transfer/channel-39/factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH"
+          }
+        }
+      ]
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "ibc/DBBDE1753EFA93F09C468DB5E384861BB741D4AA73E9C7032D139BB2C99FDD65",
+          "exponent": 0,
+          "aliases": [
+            "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy"
+          ]
+        },
+        {
+          "denom": "GUPPY",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/DBBDE1753EFA93F09C468DB5E384861BB741D4AA73E9C7032D139BB2C99FDD65",
+      "name": "GUPPY",
+      "display": "GUPPY",
+      "symbol": "GUPPY",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "migaloo",
+            "baseDenom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
+            "channelId": "channel-10"
+          },
+          "chain": {
+            "channelId": "channel-39",
+            "path": "transfer/channel-39/factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy"
           }
         }
       ]

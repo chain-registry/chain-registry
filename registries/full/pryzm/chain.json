@@ -32,16 +32,16 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/pryzm-finance/pryzm-core",
-    "recommendedVersion": "v0.16.0",
+    "recommendedVersion": "v0.17.0",
     "compatibleVersions": [
-      "v0.16.0"
+      "v0.17.0"
     ],
-    "cosmosSdkVersion": "0.47.10",
+    "cosmosSdkVersion": "v0.47.10",
     "consensus": {
-      "type": "tendermint",
-      "version": "0.37.4"
+      "type": "cometbft",
+      "version": "v0.37.5"
     },
-    "ibcGoVersion": "7.4.0",
+    "ibcGoVersion": "v7.4.1",
     "genesis": {
       "genesisUrl": "https://storage.googleapis.com/pryzm-zone/pryzm-1/genesis.json"
     },
@@ -57,7 +57,24 @@
           "type": "tendermint",
           "version": "0.37.4"
         },
-        "ibcGoVersion": "7.4.0"
+        "ibcGoVersion": "7.4.0",
+        "nextVersionName": "v0.17.0"
+      },
+      {
+        "name": "v0.17.0",
+        "proposal": 5,
+        "height": 542700,
+        "recommendedVersion": "v0.17.0",
+        "compatibleVersions": [
+          "v0.17.0"
+        ],
+        "cosmosSdkVersion": "v0.47.10",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.5"
+        },
+        "ibcGoVersion": "7.4.1",
+        "nextVersionName": ""
       }
     ]
   },

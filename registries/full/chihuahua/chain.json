@@ -33,16 +33,16 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/ChihuahuaChain/chihuahua/",
-    "recommendedVersion": "v7",
+    "recommendedVersion": "v7.0.2",
     "compatibleVersions": [
-      "v7"
+      "v7.0.2"
     ],
     "cosmosSdkVersion": "v0.47.8",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.4"
     },
-    "ibcGoVersion": "7.4.0",
+    "ibcGoVersion": "v7.4.0",
     "cosmwasmVersion": "v0.41.0",
     "cosmwasmEnabled": true,
     "cosmwasmPath": "$HOME/.chihuahuad/data/wasm",
@@ -147,6 +147,25 @@
           "version": "v0.37.4"
         },
         "ibcGoVersion": "7.4.0",
+        "cosmwasmVersion": "v0.41.0",
+        "cosmwasmEnabled": true,
+        "cosmwasmPath": "$HOME/.chihuahuad/data/wasm",
+        "nextVersionName": ""
+      },
+      {
+        "name": "v7.0.1",
+        "recommendedVersion": "v7.0.2",
+        "compatibleVersions": [
+          "v7.0.2"
+        ],
+        "proposal": 77,
+        "height": 13250000,
+        "cosmosSdkVersion": "v0.47.8",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.4"
+        },
+        "ibcGoVersion": "v7.4.0",
         "cosmwasmVersion": "v0.41.0",
         "cosmwasmEnabled": true,
         "cosmwasmPath": "$HOME/.chihuahuad/data/wasm",
