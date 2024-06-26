@@ -245,11 +245,6 @@
       "accountPage": "https://ezstaking.app/noble/account/${accountAddress}"
     },
     {
-      "kind": "ping.pub",
-      "url": "https://explore.strange.love/noble-1",
-      "txPage": "https://explore.strange.love/noble-1/tx/${txHash}"
-    },
-    {
       "kind": "Stakeflow",
       "url": "https://stakeflow.io/noble",
       "accountPage": "https://stakeflow.io/noble/accounts/${accountAddress}"

@@ -11,7 +11,7 @@
     "feeTokens": [
       {
         "denom": "uakt",
-        "fixedMinGasPrice": 0,
+        "fixedMinGasPrice": 0.00025,
         "lowGasPrice": 0.00025,
         "averageGasPrice": 0.0025,
         "highGasPrice": 0.025

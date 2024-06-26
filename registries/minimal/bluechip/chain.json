@@ -1,0 +1,41 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "bluechip",
+  "website": "https://www.bluechip.link",
+  "networkType": "mainnet",
+  "prettyName": "BlueChip",
+  "chainId": "bluechip_1",
+  "bech32Prefix": "bcp",
+  "slip44": 118,
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ubluechip",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ubluechip"
+      }
+    ]
+  },
+  "description": "Stake to the BlueChip chain, interact with the creator pools, and subscribe through the creator subscription contracts.",
+  "codebase": {
+    "cosmosSdkVersion": "0.46.7",
+    "cosmwasmEnabled": true
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluechip/images/bluechip.png"
+    }
+  ]
+}

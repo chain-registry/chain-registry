@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "bluechip",
+  "assets": [
+    {
+      "description": "The native staking token of BlueChip.",
+      "denomUnits": [
+        {
+          "denom": "ubluechip",
+          "exponent": 0
+        },
+        {
+          "denom": "bcp",
+          "exponent": 6
+        }
+      ],
+      "base": "ubluechip",
+      "name": "blue chip",
+      "display": "bcp",
+      "symbol": "BCP",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
