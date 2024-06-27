@@ -34,16 +34,16 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/ODIN-PROTOCOL/odin-core",
-    "recommendedVersion": "v0.7.12",
+    "recommendedVersion": "v0.8.3",
     "compatibleVersions": [
-      "v0.7.12"
+      "v0.8.3"
     ],
-    "cosmosSdkVersion": "v0.47.7",
+    "cosmosSdkVersion": "v0.50.7",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.37.4"
+      "version": "v0.38.7"
     },
-    "ibcGoVersion": "v7.3.0",
+    "ibcGoVersion": "v8.2.0",
     "genesis": {
       "genesisUrl": "https://snapshots.polkachu.com/genesis/odin/genesis.json"
     },
@@ -92,6 +92,22 @@
           "version": "v0.37.4"
         },
         "ibcGoVersion": "v7.3.0",
+        "nextVersionName": "v0.8.3"
+      },
+      {
+        "name": "v0.8.3",
+        "proposal": 25,
+        "height": 15076000,
+        "recommendedVersion": "v0.8.3",
+        "compatibleVersions": [
+          "v0.8.3"
+        ],
+        "cosmosSdkVersion": "v0.50.7",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.38.7"
+        },
+        "ibcGoVersion": "v8.2.0",
         "nextVersionName": ""
       }
     ]

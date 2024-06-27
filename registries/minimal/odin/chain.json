@@ -29,8 +29,8 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.47.7",
-    "ibcGoVersion": "v7.3.0"
+    "cosmosSdkVersion": "v0.50.7",
+    "ibcGoVersion": "v8.2.0"
   },
   "apis": {
     "rpc": [

@@ -3,7 +3,7 @@
   "chainName": "celestiatestnet",
   "chainId": "blockspacerace-0",
   "prettyName": "Blockspace Race Testnet",
-  "status": "live",
+  "status": "killed",
   "networkType": "testnet",
   "bech32Prefix": "celestia",
   "daemonName": "celestia-appd",

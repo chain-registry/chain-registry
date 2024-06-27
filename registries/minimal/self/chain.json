@@ -1,0 +1,60 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "self",
+  "website": "https://selfchain.xyz",
+  "networkType": "mainnet",
+  "prettyName": "Self Chain",
+  "chainId": "self-1",
+  "bech32Prefix": "self",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uslf",
+        "fixedMinGasPrice": 0.005,
+        "lowGasPrice": 0.005,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uslf"
+      }
+    ]
+  },
+  "description": "Self Chain Is The First Modular Intent-Centric Access Layer L1 Blockchain And Keyless Wallet Infrastructure Service That Uses MPC-TSS/AA For Multi-Chain Web3 Access.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.selfchain.io:26657"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.selfchain.io"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Self Chain",
+      "url": "https://explorer.selfchain.xyz/selfchain",
+      "txPage": "https://explorer.selfchain.xyz/selfchain/tx/${txHash}",
+      "accountPage": "https://explorer.selfchain.xyz/selfchain/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png"
+    }
+  ]
+}

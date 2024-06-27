@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "self",
+  "assets": [
+    {
+      "description": "The native staking token of Self Chain.",
+      "denomUnits": [
+        {
+          "denom": "uslf",
+          "exponent": 0
+        },
+        {
+          "denom": "slf",
+          "exponent": 6
+        }
+      ],
+      "base": "uslf",
+      "name": "Self",
+      "display": "slf",
+      "symbol": "SLF",
+      "coingeckoId": "self-chain",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

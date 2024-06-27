@@ -827,6 +827,24 @@
       "display": "luna-usdt-lp",
       "symbol": "LUNA-USDT-LP",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "ashLUNA",
+      "denomUnits": [
+        {
+          "denom": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
+          "exponent": 0
+        },
+        {
+          "denom": "ashLUNA",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
+      "name": "ashLUNA",
+      "display": "ashLUNA",
+      "symbol": "ashLUNA",
+      "assetType": "sdk.factory"
     }
   ]
 }

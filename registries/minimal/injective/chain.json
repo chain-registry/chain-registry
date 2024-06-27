@@ -35,7 +35,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://injective-1-public-rpc.mesa.ec1-prod.newmetric.xyz"
+        "address": "https://6d0ff611-9009-4bd1-a7a7-acec7c70d454.injective-1.mesa-rpc.newmetric.xyz"
       },
       {
         "address": "https://rpc.injective.goldenratiostaking.net"
@@ -79,7 +79,7 @@
     ],
     "rest": [
       {
-        "address": "https://injective-1-public-rest.mesa.ec1-prod.newmetric.xyz"
+        "address": "https://6d0ff611-9009-4bd1-a7a7-acec7c70d454.injective-1.mesa-rest.newmetric.xyz"
       },
       {
         "address": "https://api-injective-ia.cosmosia.notional.ventures/"
@@ -123,7 +123,7 @@
     ],
     "grpc": [
       {
-        "address": "k8s-injectiv-publicin-731c880328-0f3d7889b57e31a3.elb.eu-central-1.amazonaws.com:80"
+        "address": "6d0ff611-9009-4bd1-a7a7-acec7c70d454.injective-1.mesa-grpc.newmetric.xyz:80"
       },
       {
         "address": "grpc-injective-ia.cosmosia.notional.ventures:443"
