@@ -1,10 +1,10 @@
 {
-  "$schema": "../assetlist.schema.json",
-  "chainName": "sunrise",
+  "$schema": "../../assetlist.schema.json",
+  "chain_name": "sunrisetestnet",
   "assets": [
     {
       "description": "The native token of the Sunrise network for staking. This token is non transferrable. This token can be retrieved by providing liquidity.",
-      "denomUnits": [
+      "denom_units": [
         {
           "denom": "uvrise",
           "exponent": 0,
@@ -22,7 +22,7 @@
       "name": "Sunrise vRISE",
       "display": "vrise",
       "symbol": "vRISE",
-      "logoURIs": {
+      "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.svg"
       },
@@ -35,12 +35,11 @@
       "socials": {
         "website": "https://sunriselayer.io/",
         "twitter": "https://twitter.com/SunriseLayer"
-      },
-      "assetType": "sdk.coin"
+      }
     },
     {
       "description": "The native token of the Sunrise network for fees.",
-      "denomUnits": [
+      "denom_units": [
         {
           "denom": "urise",
           "exponent": 0,
@@ -58,7 +57,7 @@
       "name": "Sunrise RISE",
       "display": "rise",
       "symbol": "RISE",
-      "logoURIs": {
+      "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/sunrise.svg"
       },
@@ -71,8 +70,7 @@
       "socials": {
         "website": "https://sunriselayer.io/",
         "twitter": "https://twitter.com/SunriseLayer"
-      },
-      "assetType": "sdk.coin"
+      }
     }
   ]
 }

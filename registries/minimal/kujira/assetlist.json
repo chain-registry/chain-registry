@@ -215,6 +215,7 @@
       "name": "Fuzion",
       "display": "fuzn",
       "symbol": "FUZN",
+      "coingeckoId": "fuzion",
       "assetType": "sdk.factory"
     },
     {
@@ -318,6 +319,7 @@
       "name": "AQLA",
       "display": "AQLA",
       "symbol": "AQLA",
+      "coingeckoId": "aqualibre",
       "assetType": "sdk.factory"
     },
     {

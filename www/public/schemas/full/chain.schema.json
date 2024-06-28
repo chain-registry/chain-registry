@@ -413,46 +413,9 @@
             "minProperties": 1,
             "additionalProperties": false
           },
-          "layout": {
-            "type": "string",
-            "minLength": 1,
-            "enum": [
-              "logo",
-              "logomark",
-              "logotype"
-            ],
-            "description": "logomark == icon only; logotype == text only; logo == icon + text."
-          },
           "imageSync": {
             "$ref": "#/$defs/pointer"
-          },
-          "textPosition": {
-            "type": "string",
-            "minLength": 1,
-            "enum": [
-              "top",
-              "bottom",
-              "left",
-              "right",
-              "integrated"
-            ],
-            "description": "Indicates in which position the text is placed, in case the layout is 'icon' type, it's required only in this case."
           }
-        },
-        "if": {
-          "properties": {
-            "layout": {
-              "const": "logo"
-            }
-          },
-          "required": [
-            "layout"
-          ]
-        },
-        "then": {
-          "required": [
-            "text_position"
-          ]
         },
         "anyOf": [
           {

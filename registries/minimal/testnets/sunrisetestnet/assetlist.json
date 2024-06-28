@@ -1,6 +1,6 @@
 {
-  "$schema": "../assetlist.schema.json",
-  "chainName": "sunrise",
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "sunrisetestnet",
   "assets": [
     {
       "description": "The native token of the Sunrise network for staking. This token is non transferrable. This token can be retrieved by providing liquidity.",

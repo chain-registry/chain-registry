@@ -641,6 +641,7 @@
         }
       ],
       "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
       },
       "images": [
@@ -649,7 +650,13 @@
             "chainName": "ethereum",
             "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
           },
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#009393",
+            "backgroundColorHex": "#009393"
+          }
         }
       ],
       "socials": {
@@ -1582,7 +1589,13 @@
             "chainName": "solana",
             "baseDenom": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
           },
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#009393",
+            "backgroundColorHex": "#009393"
+          }
         }
       ]
     },
@@ -1626,7 +1639,12 @@
             "chainName": "solana",
             "baseDenom": "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/whine.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/whine.png",
+          "theme": {
+            "primaryColorHex": "#FFFFFF",
+            "backgroundColorHex": "#FFFFFF",
+            "circle": false
+          }
         }
       ]
     }

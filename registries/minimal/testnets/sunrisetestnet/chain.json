@@ -1,10 +1,9 @@
 {
-  "$schema": "../chain.schema.json",
-  "chainName": "sunrise",
-  "networkType": "mainnet",
-  "website": "https://sunriselayer.io/",
-  "prettyName": "Sunrise",
-  "chainId": "sunrise-1",
+  "$schema": "../../chain.schema.json",
+  "chainName": "sunrisetestnet",
+  "networkType": "testnet",
+  "prettyName": "Sunrise Testnet",
+  "chainId": "sunrise-test",
   "bech32Prefix": "sunrise",
   "keyAlgos": [
     "secp256k1"
@@ -14,10 +13,10 @@
     "feeTokens": [
       {
         "denom": "urise",
-        "fixedMinGasPrice": 0.002,
-        "lowGasPrice": 0.01,
-        "averageGasPrice": 0.02,
-        "highGasPrice": 0.1
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
       }
     ]
   },
@@ -26,10 +25,7 @@
       {
         "denom": "uvrise"
       }
-    ],
-    "lockDuration": {
-      "time": "1209600s"
-    }
+    ]
   },
   "codebase": {
     "cosmosSdkVersion": "0.50.2",
@@ -37,13 +33,19 @@
   },
   "apis": {
     "rpc": [
-
+      {
+        "address": "https://sunrise-test-1.cauchye.net/"
+      }
     ],
     "rest": [
-
+      {
+        "address": "https://sunrise-test-1.cauchye.net:1318"
+      }
     ],
     "grpc": [
-
+      {
+        "address": "https://sunrise-test-1.cauchye.net:9092"
+      }
     ]
   },
   "explorers": [
