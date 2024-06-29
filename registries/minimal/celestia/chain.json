@@ -115,6 +115,9 @@
       },
       {
         "address": "https://celestia-mainnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://rpc.celestia.mainnet.dteam.tech:443"
       }
     ],
     "rest": [
@@ -189,6 +192,9 @@
       },
       {
         "address": "https://celestia-mainnet-api.itrocket.net"
+      },
+      {
+        "address": "https://api.celestia.mainnet.dteam.tech:443"
       }
     ],
     "grpc": [
@@ -251,6 +257,9 @@
       },
       {
         "address": "celestia-mainnet-grpc.itrocket.net:40090"
+      },
+      {
+        "address": "grpc.celestia.mainnet.dteam.tech:28090"
       }
     ]
   },
@@ -301,6 +310,12 @@
       "url": "https://mainnet.itrocket.net/celestia",
       "txPage": "https://mainnet.itrocket.net/celestia/transaction/${txHash}",
       "accountPage": "https://mainnet.itrocket.net/celestia/account/${accountAddress}"
+    },
+    {
+      "kind": "DTEAM | Explorer",
+      "url": "https://explorer.mainnet.dteam.tech/celestia",
+      "txPage": "https://explorer.mainnet.dteam.tech/celestia/transaction/${txHash}",
+      "accountPage": "https://explorer.mainnet.dteam.tech/celestia/account/${accountAddress}"
     }
   ],
   "images": [

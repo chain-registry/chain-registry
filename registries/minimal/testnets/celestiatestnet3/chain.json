@@ -39,6 +39,9 @@
       },
       {
         "address": "https://rpc-celestia-testnet.cryptech.com.ua"
+      },
+      {
+        "address": "https://rpc.celestia.testnet.dteam.tech:443"
       }
     ],
     "rest": [
@@ -56,6 +59,9 @@
       },
       {
         "address": "https://api-celestia-testnet.cryptech.com.ua"
+      },
+      {
+        "address": "https://api.celestia.testnet.dteam.tech:443"
       }
     ],
     "grpc": [
@@ -70,6 +76,9 @@
       },
       {
         "address": "https://grpc-celestia-testnet.cryptech.com.ua"
+      },
+      {
+        "address": "grpc.celestia.testnet.dteam.tech:27090"
       }
     ]
   },
@@ -90,6 +99,12 @@
       "url": "https://explorers.cryptech.com.ua/Celestia-Testnet",
       "txPage": "https://explorers.cryptech.com.ua/Celestia-Testnet/tx/${txHash}",
       "accountPage": "https://explorers.cryptech.com.ua/Celestia-Testnet/account/${accountAddress}"
+    },
+    {
+      "kind": "DTEAM | Explorer",
+      "url": "https://explorer.testnet.dteam.tech/celestia",
+      "txPage": "https://explorer.testnet.dteam.tech/celestia/tx/${txHash}",
+      "accountPage": "https://explorer.testnet.dteam.tech/celestia/account/${accountAddress}"
     }
   ]
 }
