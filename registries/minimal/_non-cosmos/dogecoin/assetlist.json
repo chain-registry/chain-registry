@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "dogecoin",
+  "assets": [
+    {
+      "description": "The native token of Dogecoin.",
+      "denomUnits": [
+        {
+          "denom": "shibe",
+          "exponent": 0
+        },
+        {
+          "denom": "doge",
+          "exponent": 8
+        }
+      ],
+      "assetType": "bitcoin-like",
+      "base": "shibe",
+      "name": "Dogecoin",
+      "display": "doge",
+      "symbol": "DOGE",
+      "coingeckoId": "dogecoin"
+    }
+  ]
+}

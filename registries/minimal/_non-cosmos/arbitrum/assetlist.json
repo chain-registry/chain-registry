@@ -1,5 +1,5 @@
 {
-  "$schema": "../assetlist.schema.json",
+  "$schema": "../../assetlist.schema.json",
   "chainName": "arbitrum",
   "assets": [
     {
@@ -31,12 +31,26 @@
         {
           "denom": "wei",
           "exponent": 0
+        },
+        {
+          "denom": "eth",
+          "exponent": 18
         }
       ],
       "base": "wei",
-      "display": "wei",
+      "display": "eth",
       "name": "Ether",
-      "symbol": "ETH"
+      "symbol": "ETH",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "wei"
+          },
+          "provider": "Arbitrum"
+        }
+      ]
     },
     {
       "assetType": "erc20",
