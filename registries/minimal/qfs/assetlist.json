@@ -1,0 +1,20 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "qfs",
+  "assets": [
+    {
+      "description": "QFS stands for Quantum Financial Systems, the aim is to bridge traditional finance with the crypto ecosystem",
+      "denomUnits": [
+        {
+          "denom": "qfs",
+          "exponent": 0
+        }
+      ],
+      "base": "qfs",
+      "name": "qfs",
+      "display": "qfs",
+      "symbol": "QFS",
+      "assetType": "unknown"
+    }
+  ]
+}

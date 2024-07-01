@@ -1,0 +1,20 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "mtgbp",
+  "assets": [
+    {
+      "description": "MTGBP the stablecoin of the future.",
+      "denomUnits": [
+        {
+          "denom": "mtgbp",
+          "exponent": 0
+        }
+      ],
+      "base": "mtgbp",
+      "name": "mtgbp",
+      "display": "mtgbp",
+      "symbol": "MTGBP",
+      "assetType": "unknown"
+    }
+  ]
+}

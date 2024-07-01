@@ -1,0 +1,64 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "mtgbp",
+  "networkType": "mainnet",
+  "website": "https://mtgbp.com/",
+  "prettyName": "mtgbp",
+  "chainId": "mtgbp-1",
+  "bech32Prefix": "mtgbp",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 1179993441,
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "mtgbp"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "mtgbp",
+        "lowGasPrice": 0.000001,
+        "averageGasPrice": 0.000005,
+        "highGasPrice": 0.0001
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rcp.mtgbp.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.mtgbp.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grcp.mtgbp.com:4090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://blockexplorer.mtgbp.com/mtgbp",
+      "txPage": "https://blockexplorer.mtgbp.com/mtgbp/tx/${txHash}",
+      "accountPage": "https://blockexplorer.mtgbp.com/mtgbp/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mtgbp/images/mtgbp.svg"
+    }
+  ]
+}

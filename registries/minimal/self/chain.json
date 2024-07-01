@@ -38,6 +38,9 @@
     "rest": [
       {
         "address": "https://api.selfchain.io"
+      },
+      {
+        "address": "https://selfchain.api.m.stavr.tech"
       }
     ],
     "grpc": [
@@ -50,6 +53,12 @@
       "url": "https://explorer.selfchain.xyz/selfchain",
       "txPage": "https://explorer.selfchain.xyz/selfchain/tx/${txHash}",
       "accountPage": "https://explorer.selfchain.xyz/selfchain/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Selfchain-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Selfchain-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Selfchain-Mainnet/account/${accountAddress}"
     }
   ],
   "images": [

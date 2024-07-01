@@ -497,7 +497,7 @@
       "symbol": "frxETH",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "synthetic",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "wei"
@@ -540,7 +540,7 @@
       "symbol": "sfrxETH",
       "traces": [
         {
-          "type": "wrapped",
+          "type": "liquid-stake",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x5e8422345238f34275888049021821e8e08caa1f"

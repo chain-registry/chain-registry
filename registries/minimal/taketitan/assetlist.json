@@ -1,0 +1,20 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "taketitan",
+  "assets": [
+    {
+      "description": "Taketitan the future of the asset management industry.",
+      "denomUnits": [
+        {
+          "denom": "ttnc",
+          "exponent": 0
+        }
+      ],
+      "base": "ttnc",
+      "name": "taketitan",
+      "display": "ttnc",
+      "symbol": "TTNC",
+      "assetType": "unknown"
+    }
+  ]
+}
