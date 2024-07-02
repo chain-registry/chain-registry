@@ -989,6 +989,36 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "yum-wei",
+          "exponent": 0,
+          "aliases": [
+            "0xcE682c89C63d2850Cb2ca898E44D6c7c30d897a6"
+          ]
+        },
+        {
+          "denom": "yum",
+          "exponent": 18
+        }
+      ],
+      "base": "yum-wei",
+      "name": "Axelar Wrapped YUM",
+      "display": "yum",
+      "symbol": "YUM.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xcE682c89C63d2850Cb2ca898E44D6c7c30d897a6"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }
