@@ -52,6 +52,9 @@
       },
       {
         "address": "https://ixo-rpc.ibs.team"
+      },
+      {
+        "address": "https://ixo-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -72,6 +75,9 @@
       },
       {
         "address": "https://ixo-api.ibs.team"
+      },
+      {
+        "address": "https://ixo-api.bluestake.net"
       }
     ],
     "grpc": [

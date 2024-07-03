@@ -72,6 +72,9 @@
       },
       {
         "address": "https://bitsong-rpc.noders.services"
+      },
+      {
+        "address": "https://bitsong-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -113,6 +116,9 @@
       },
       {
         "address": "https://bitsong.api.m.stavr.tech"
+      },
+      {
+        "address": "https://bitsong-api.bluestake.net"
       }
     ],
     "grpc": [

@@ -76,6 +76,9 @@
       },
       {
         "address": "https://rpc-comdex.blockval.io"
+      },
+      {
+        "address": "https://comdex-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -120,6 +123,9 @@
       },
       {
         "address": "https://api-comdex.blockval.io"
+      },
+      {
+        "address": "https://comdex-api.bluestake.net"
       }
     ],
     "grpc": [

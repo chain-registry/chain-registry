@@ -74,6 +74,9 @@
       },
       {
         "address": "https://empower-rpc.noders.services"
+      },
+      {
+        "address": "https://empower-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -115,6 +118,9 @@
       },
       {
         "address": "https://empower-api.noders.services"
+      },
+      {
+        "address": "https://empower-api.bluestake.net"
       }
     ],
     "grpc": [

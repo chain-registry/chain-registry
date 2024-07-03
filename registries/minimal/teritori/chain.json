@@ -70,6 +70,9 @@
       },
       {
         "address": "https://teritori-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://teritori-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -108,6 +111,9 @@
       },
       {
         "address": "https://teritori-rest.publicnode.com"
+      },
+      {
+        "address": "https://teritori-api.bluestake.net"
       }
     ],
     "grpc": [

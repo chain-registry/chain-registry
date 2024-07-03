@@ -88,6 +88,9 @@
       },
       {
         "address": "https://source_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://source-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -147,6 +150,9 @@
       },
       {
         "address": "https://source_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://source-api.bluestake.net"
       }
     ],
     "grpc": [

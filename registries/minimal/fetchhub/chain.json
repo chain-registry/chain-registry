@@ -72,6 +72,9 @@
       },
       {
         "address": "https://rpc.fetchhub-4.fetch.aviaone.com"
+      },
+      {
+        "address": "https://fetchai-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -119,6 +122,9 @@
       },
       {
         "address": "https://api.fetchhub-4.fetch.aviaone.com/"
+      },
+      {
+        "address": "https://fetchai-api.bluestake.net"
       }
     ],
     "grpc": [

@@ -85,6 +85,9 @@
       },
       {
         "address": "https://rpc.passage.silentvalidator.com"
+      },
+      {
+        "address": "https://passage-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -138,6 +141,9 @@
       },
       {
         "address": "https://api.passage.silentvalidator.com"
+      },
+      {
+        "address": "https://passage-api.bluestake.net"
       }
     ],
     "grpc": [
