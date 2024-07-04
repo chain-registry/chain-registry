@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg",
+          "theme": {
+            "primaryColorHex": "#e4047c"
+          }
         }
       ],
       "socials": {
@@ -68,7 +71,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -106,7 +112,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -144,7 +153,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -182,7 +194,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -220,7 +235,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -257,7 +275,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -295,7 +316,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -333,7 +357,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdydx.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -371,7 +398,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/sttia.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -409,7 +439,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdym.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdym.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stdym.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -447,7 +480,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stumee.svg",
+          "theme": {
+            "primaryColorHex": "#fbd9e9"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -484,7 +520,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -522,7 +561,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsomm.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -560,7 +602,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stsaga.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -610,7 +655,10 @@
             "baseDenom": "utia"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+          "theme": {
+            "primaryColorHex": "#7c2cfb"
+          }
         }
       ]
     },
@@ -646,7 +694,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stislm.svg",
+          "theme": {
+            "primaryColorHex": "#e40474"
+          }
         }
       ],
       "assetType": "sdk.coin"

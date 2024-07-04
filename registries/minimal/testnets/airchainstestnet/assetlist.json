@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "airchainstestnet",
+  "assets": [
+    {
+      "description": "The native staking token of Airchains Testnet.",
+      "denomUnits": [
+        {
+          "denom": "amf",
+          "exponent": 0
+        },
+        {
+          "denom": "AMF",
+          "exponent": 6
+        }
+      ],
+      "base": "amf",
+      "name": "Airchains",
+      "display": "AMF",
+      "symbol": "AMF",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

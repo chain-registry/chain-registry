@@ -32,14 +32,14 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/Orchestra-Labs/symphony-osmosis",
-    "recommendedVersion": "v15.0.0",
+    "recommendedVersion": "v23.0.5",
     "compatibleVersions": [
-      "v15.0.0"
+      "v23.0.5"
     ],
-    "cosmosSdkVersion": "0.45",
+    "cosmosSdkVersion": "0.47.8",
     "consensus": {
       "type": "tendermint",
-      "version": "0.34"
+      "version": "0.37.4"
     },
     "cosmwasmVersion": "0.30",
     "cosmwasmEnabled": true,
@@ -48,45 +48,17 @@
     },
     "versions": [
       {
-        "name": "v14.0.0-rc1",
-        "recommendedVersion": "v14.0.0-rc1",
+        "name": "v23.0.5-rc1",
+        "recommendedVersion": "v23.0.5-rc1",
         "compatibleVersions": [
-          "v14.0.0-rc1"
+          "v23.0.5-rc1"
         ],
-        "cosmosSdkVersion": "0.45",
+        "cosmosSdkVersion": "0.47.8",
         "consensus": {
           "type": "tendermint",
-          "version": "0.34"
+          "version": "0.37.4"
         },
         "cosmwasmVersion": "0.29",
-        "cosmwasmEnabled": true
-      },
-      {
-        "name": "v15.0.0-rc3",
-        "recommendedVersion": "v15.0.0-rc3",
-        "compatibleVersions": [
-          "v15.0.0-rc3"
-        ],
-        "cosmosSdkVersion": "0.45",
-        "consensus": {
-          "type": "tendermint",
-          "version": "0.34"
-        },
-        "cosmwasmVersion": "0.29",
-        "cosmwasmEnabled": true
-      },
-      {
-        "name": "v15.0.0",
-        "recommendedVersion": "v15.0.0",
-        "compatibleVersions": [
-          "v15.0.0-rc3"
-        ],
-        "cosmosSdkVersion": "0.45",
-        "consensus": {
-          "type": "tendermint",
-          "version": "0.34"
-        },
-        "cosmwasmVersion": "0.30",
         "cosmwasmEnabled": true
       }
     ]
@@ -94,12 +66,8 @@
   "peers": {
     "seeds": [
       {
-        "id": "bb197876fd952d245ef6377e3651c157e3d7ed81",
-        "address": "157.245.26.231:26656"
-      },
-      {
-        "id": "7c2b9e76be5c2142c76b429d9c29e902599ceb44",
-        "address": "157.245.21.183:26656"
+        "id": "10838131d11f546751178df1e1045597aad6366d",
+        "address": "34.41.169.77:26656"
       }
     ],
     "persistentPeers": [
@@ -136,7 +104,7 @@
     ],
     "grpc": [
       {
-        "address": "https://grpc.testnet.symphonychain.org/",
+        "address": "grpc.testnet.symphonychain.org:9090",
         "provider": "Orchestra Labs"
       }
     ]

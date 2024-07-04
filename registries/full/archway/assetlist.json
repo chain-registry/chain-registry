@@ -30,7 +30,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg",
+          "theme": {
+            "primaryColorHex": "#fc4c04"
+          }
         }
       ],
       "socials": {
@@ -62,7 +65,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/amparch.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/amparch.png",
+          "theme": {
+            "primaryColorHex": "#5c84cc"
+          }
         }
       ]
     },
@@ -103,7 +109,10 @@
             "chainName": "osmosis",
             "baseDenom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png",
+          "theme": {
+            "primaryColorHex": "#edd5ee"
+          }
         }
       ],
       "logoURIs": {
@@ -155,7 +164,10 @@
             "baseDenom": "uvdl"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg",
+          "theme": {
+            "primaryColorHex": "#3454bc"
+          }
         }
       ]
     },
@@ -184,7 +196,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/axv.svg",
+          "theme": {
+            "primaryColorHex": "#141434"
+          }
         }
       ],
       "coingeckoId": "astrovault"

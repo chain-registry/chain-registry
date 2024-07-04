@@ -32,34 +32,48 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg",
+          "theme": {
+            "primaryColorHex": "#253545"
+          }
         }
       ]
     },
     {
-      "assetType": "evm-base",
+      "description": "wETH is 'wrapped ETH'",
+      "assetType": "erc20",
       "denomUnits": [
         {
-          "denom": "wei",
+          "denom": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
           "exponent": 0
         },
         {
-          "denom": "eth",
+          "denom": "weth",
           "exponent": 18
         }
       ],
-      "base": "wei",
-      "display": "eth",
-      "name": "Ether",
-      "symbol": "ETH",
+      "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "base": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "display": "weth",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
       "traces": [
         {
-          "type": "additional-mintage",
+          "type": "bridge",
           "counterparty": {
             "chainName": "ethereum",
-            "baseDenom": "wei"
+            "baseDenom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
           },
-          "provider": "Arbitrum"
+          "provider": "Arbitrum Bridge"
+        }
+      ],
+      "images": [
+        {
+          "imageSync": {
+            "chainName": "ethereum",
+            "baseDenom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
         }
       ]
     },

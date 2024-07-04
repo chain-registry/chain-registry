@@ -27,7 +27,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg",
+          "theme": {
+            "primaryColorHex": "#e64942"
+          }
         }
       ],
       "socials": {
@@ -60,7 +63,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg",
+          "theme": {
+            "primaryColorHex": "#7b34ac"
+          }
         }
       ],
       "assetType": "unknown"
@@ -89,7 +95,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg",
+          "theme": {
+            "primaryColorHex": "#544cfc"
+          }
         }
       ],
       "assetType": "unknown"
@@ -118,7 +127,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg",
+          "theme": {
+            "primaryColorHex": "#04d4a3"
+          }
         }
       ],
       "assetType": "unknown"

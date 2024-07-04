@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg",
+          "theme": {
+            "primaryColorHex": "#343434"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -51,7 +54,10 @@
       "symbol": "PUPPY",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/puppyhuahua_logo.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/puppyhuahua_logo.png",
+          "theme": {
+            "primaryColorHex": "#100e0d"
+          }
         }
       ],
       "logoURIs": {
@@ -115,7 +121,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/woof.png",
+          "theme": {
+            "primaryColorHex": "#d9905f"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -141,7 +150,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/tacos.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/tacos.png",
+          "theme": {
+            "primaryColorHex": "#f3bb5b"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -167,7 +179,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/weed.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/weed.png",
+          "theme": {
+            "primaryColorHex": "#43b333"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -193,7 +208,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bdog.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bdog.png",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -219,7 +237,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/corso.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/corso.png",
+          "theme": {
+            "primaryColorHex": "#d9d2d2"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -244,7 +265,10 @@
       "symbol": "bHUAHUA",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bhuahua.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/bhuahua.png",
+          "theme": {
+            "primaryColorHex": "#f2bd3a"
+          }
         }
       ],
       "logoURIs": {
@@ -273,7 +297,10 @@
       "symbol": "ashHUAHUA",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/ashhuahua.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/ashhuahua.png",
+          "theme": {
+            "primaryColorHex": "#f46c0f"
+          }
         }
       ],
       "logoURIs": {
@@ -319,7 +346,10 @@
             "chainName": "migaloo",
             "baseDenom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ampgash.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ampgash.png",
+          "theme": {
+            "primaryColorHex": "#374455"
+          }
         }
       ],
       "logoURIs": {
@@ -365,7 +395,10 @@
             "chainName": "migaloo",
             "baseDenom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png",
+          "theme": {
+            "primaryColorHex": "#d9966e"
+          }
         }
       ],
       "logoURIs": {

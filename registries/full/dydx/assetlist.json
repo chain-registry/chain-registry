@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg",
+          "theme": {
+            "primaryColorHex": "#21212f"
+          }
         },
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx-circle.svg",
@@ -79,7 +82,10 @@
             "baseDenom": "uusdc"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg",
+          "theme": {
+            "primaryColorHex": "#2474cc"
+          }
         }
       ],
       "logoURIs": {

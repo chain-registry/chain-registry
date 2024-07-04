@@ -94,7 +94,10 @@
       "coingeckoId": "bonk",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bonk.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bonk.png",
+          "theme": {
+            "primaryColorHex": "#ee950a"
+          }
         }
       ]
     },
@@ -192,7 +195,10 @@
       "coingeckoId": "basket",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bskt.png",
+          "theme": {
+            "primaryColorHex": "#485573"
+          }
         }
       ],
       "socials": {
@@ -225,7 +231,10 @@
       "coingeckoId": "wormhole",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/w.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/w.png",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ],
       "socials": {
@@ -265,7 +274,10 @@
       "coingeckoId": "msol",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/msol.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/msol.png",
+          "theme": {
+            "primaryColorHex": "#cbebe3"
+          }
         }
       ],
       "socials": {
@@ -305,7 +317,10 @@
       "coingeckoId": "jito-staked-sol",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jitosol.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jitosol.png",
+          "theme": {
+            "primaryColorHex": "#5bb384"
+          }
         }
       ],
       "socials": {
@@ -345,7 +360,10 @@
       "coingeckoId": "blazestake-staked-sol",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bsol.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/bsol.png",
+          "theme": {
+            "primaryColorHex": "#21c3cc"
+          }
         }
       ],
       "socials": {
@@ -384,7 +402,10 @@
       "coingeckoId": "liquid-staking-token",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/lst.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/lst.png",
+          "theme": {
+            "primaryColorHex": "#dbdbdb"
+          }
         }
       ],
       "socials": {
@@ -424,7 +445,10 @@
       "coingeckoId": "edgevana-staked-sol",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/edgesol.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/edgesol.png",
+          "theme": {
+            "primaryColorHex": "#146cfc"
+          }
         }
       ],
       "socials": {
@@ -464,7 +488,10 @@
       "coingeckoId": "helius-staked-sol",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/hsol.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/hsol.png",
+          "theme": {
+            "primaryColorHex": "#e5502a"
+          }
         }
       ],
       "socials": {
@@ -504,7 +531,10 @@
       "coingeckoId": "jupiter-staked-sol",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jupsol.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jupsol.png",
+          "theme": {
+            "primaryColorHex": "#85d79e"
+          }
         }
       ],
       "socials": {
@@ -533,7 +563,10 @@
       "coingeckoId": "dogwifcoin",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/wif.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/wif.png",
+          "theme": {
+            "primaryColorHex": "#a29482"
+          }
         }
       ],
       "socials": {

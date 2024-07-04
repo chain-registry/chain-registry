@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg",
+          "theme": {
+            "primaryColorHex": "#fc4454"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -55,7 +58,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg",
+          "theme": {
+            "primaryColorHex": "#645ca4"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -84,7 +90,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ],
       "assetType": "sdk.coin"

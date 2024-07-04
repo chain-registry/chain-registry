@@ -41,7 +41,10 @@
       "coingeckoId": "tokenize-xchange",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/titan/images/tkx.png",
+          "theme": {
+            "primaryColorHex": "#fc641c"
+          }
         }
       ],
       "keywords": [

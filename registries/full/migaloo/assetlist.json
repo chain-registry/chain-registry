@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg",
+          "theme": {
+            "primaryColorHex": "#1c1c1c"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -78,7 +81,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/bWHALE.png",
+          "theme": {
+            "primaryColorHex": "#d8d8d8"
+          }
         }
       ],
       "coingeckoId": "backbone-labs-staked-whale",
@@ -145,11 +151,14 @@
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/boneluna.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/boneluna.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png",
+          "theme": {
+            "primaryColorHex": "#070707"
+          }
         }
       ]
     },
@@ -176,7 +185,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rac.svg",
+          "theme": {
+            "primaryColorHex": "#2b2434"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -306,7 +318,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/guppy.png",
+          "theme": {
+            "primaryColorHex": "#d9966e"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -332,7 +347,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ophir.png",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -358,7 +376,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png",
+          "theme": {
+            "primaryColorHex": "#062d54"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -394,7 +415,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/lsdshark.png",
+          "theme": {
+            "primaryColorHex": "#0d739c"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -441,7 +465,10 @@
             "baseDenom": "uluna"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg",
+          "theme": {
+            "primaryColorHex": "#f4de6f"
+          }
         }
       ],
       "socials": {
@@ -492,7 +519,10 @@
             "chainName": "terra",
             "baseDenom": "cw20:terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/rakoff.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/rakoff.png",
+          "theme": {
+            "primaryColorHex": "#191717"
+          }
         }
       ]
     },
@@ -517,7 +547,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/gash.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/gash.png",
+          "theme": {
+            "primaryColorHex": "#1d0918"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -545,7 +578,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.svg",
+          "theme": {
+            "primaryColorHex": "#3ccc64"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -592,7 +628,10 @@
             "chainName": "terra",
             "baseDenom": "cw20:terra1wez9puj43v4s25vrex7cv3ut3w75w4h6j5e537sujyuxj0r5ne2qp9uwl9"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/FROG.png",
+          "theme": {
+            "primaryColorHex": "#182615"
+          }
         }
       ]
     },
@@ -617,7 +656,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/grac.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/grac.png",
+          "theme": {
+            "primaryColorHex": "#f5bf09"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -661,7 +703,10 @@
             "chainName": "juno",
             "baseDenom": "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wind.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wind.png",
+          "theme": {
+            "primaryColorHex": "#122b4d"
+          }
         }
       ],
       "logoURIs": {
@@ -738,7 +783,10 @@
       "symbol": "ampGASH",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ampgash.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/ampgash.png",
+          "theme": {
+            "primaryColorHex": "#374455"
+          }
         }
       ],
       "traces": [

@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg",
+          "theme": {
+            "primaryColorHex": "#b7dfbd"
+          }
         }
       ],
       "socials": {
@@ -58,7 +61,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/dust.svg",
+          "theme": {
+            "primaryColorHex": "#c9720c"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -86,7 +92,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/gaze.svg",
+          "theme": {
+            "primaryColorHex": "#b3a584"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -114,7 +123,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/brnch.svg",
+          "theme": {
+            "primaryColorHex": "#70372a"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -142,7 +154,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/ohh.svg",
+          "theme": {
+            "primaryColorHex": "#dcc0c2"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -170,7 +185,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/sneaky.svg",
+          "theme": {
+            "primaryColorHex": "#fbcaca"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -216,6 +234,9 @@
           "imageSync": {
             "chainName": "osmosis",
             "baseDenom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB"
+          },
+          "theme": {
+            "primaryColorHex": "#bcdd76"
           }
         }
       ]
@@ -347,7 +368,10 @@
             "baseDenom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg",
+          "theme": {
+            "primaryColorHex": "#4056e9"
+          }
         }
       ]
     }

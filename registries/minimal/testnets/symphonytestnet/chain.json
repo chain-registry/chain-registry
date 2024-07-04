@@ -28,7 +28,7 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.45",
+    "cosmosSdkVersion": "0.47.8",
     "cosmwasmVersion": "0.30",
     "cosmwasmEnabled": true
   },
@@ -45,7 +45,7 @@
     ],
     "grpc": [
       {
-        "address": "https://grpc.testnet.symphonychain.org/"
+        "address": "grpc.testnet.symphonychain.org:9090"
       }
     ]
   },

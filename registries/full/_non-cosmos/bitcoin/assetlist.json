@@ -25,7 +25,10 @@
       "coingeckoId": "bitcoin",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+          "theme": {
+            "primaryColorHex": "#f4941c"
+          }
         }
       ]
     }

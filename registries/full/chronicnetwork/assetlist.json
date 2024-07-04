@@ -24,7 +24,10 @@
       "coingeckoId": "cht",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cht.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cht.png",
+          "theme": {
+            "primaryColorHex": "#1eb975"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -51,7 +54,10 @@
       "coingeckoId": "cgas",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cgas.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cgas.png",
+          "theme": {
+            "primaryColorHex": "#ecb368"
+          }
         }
       ],
       "assetType": "sdk.coin"

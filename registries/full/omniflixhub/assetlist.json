@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
+          "theme": {
+            "primaryColorHex": "#c33635"
+          }
         }
       ],
       "socials": {
@@ -75,7 +78,10 @@
             "baseDenom": "uatom"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+          "theme": {
+            "primaryColorHex": "#272d45"
+          }
         }
       ],
       "logoURIs": {
@@ -123,7 +129,10 @@
             "baseDenom": "uosmo"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
+          "theme": {
+            "primaryColorHex": "#760dbb"
+          }
         }
       ],
       "logoURIs": {
@@ -171,7 +180,10 @@
             "baseDenom": "uist"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg",
+          "theme": {
+            "primaryColorHex": "#d485e2"
+          }
         }
       ],
       "logoURIs": {
@@ -219,7 +231,10 @@
             "baseDenom": "uusdc"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg",
+          "theme": {
+            "primaryColorHex": "#2474cc"
+          }
         }
       ],
       "logoURIs": {
@@ -272,7 +287,10 @@
             "baseDenom": "uakt"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg",
+          "theme": {
+            "primaryColorHex": "#bc342c"
+          }
         }
       ]
     },
@@ -321,7 +339,10 @@
         },
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.svg",
+          "theme": {
+            "primaryColorHex": "#eedebe"
+          }
         }
       ],
       "logoURIs": {

@@ -33,7 +33,8 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg",
           "theme": {
-            "circle": true
+            "circle": true,
+            "primaryColorHex": "#fba0c1"
           }
         },
         {
@@ -41,7 +42,8 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Darkmatt.svg",
           "theme": {
             "darkMode": true,
-            "circle": true
+            "circle": true,
+            "primaryColorHex": "#342c2c"
           }
         },
         {
@@ -49,7 +51,8 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-WHT.svg",
           "theme": {
             "darkMode": false,
-            "circle": true
+            "circle": true,
+            "primaryColorHex": "#342c2c"
           }
         }
       ],

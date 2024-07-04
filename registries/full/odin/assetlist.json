@@ -58,7 +58,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg",
+          "theme": {
+            "primaryColorHex": "#c3ebf3"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -85,7 +88,10 @@
       "coingeckoId": "doki",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/doki_Logo.png",
+          "theme": {
+            "primaryColorHex": "#2e2d2a"
+          }
         }
       ],
       "socials": {
@@ -115,7 +121,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/MYRK_Logo.png",
+          "theme": {
+            "primaryColorHex": "#0a0707"
+          }
         }
       ],
       "socials": {
@@ -146,7 +155,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ],
       "socials": {

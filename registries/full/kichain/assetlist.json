@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg",
+          "theme": {
+            "primaryColorHex": "#1c04fc"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -55,7 +58,10 @@
       "coingeckoId": "lvn",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/lvn.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/lvn.png",
+          "theme": {
+            "primaryColorHex": "#683480"
+          }
         }
       ]
     }

@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ],
       "socials": {
@@ -61,7 +64,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg",
+          "theme": {
+            "primaryColorHex": "#2c2c2c"
+          }
         }
       ]
     },
@@ -118,7 +124,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg",
+          "theme": {
+            "primaryColorHex": "#342c52"
+          }
         }
       ]
     },
@@ -148,7 +157,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/silk.svg",
+          "theme": {
+            "primaryColorHex": "#3142fc"
+          }
         }
       ]
     },
@@ -178,7 +190,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg",
+          "theme": {
+            "primaryColorHex": "#b8a2dc"
+          }
         }
       ]
     },
@@ -207,7 +222,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.svg",
+          "theme": {
+            "primaryColorHex": "#7b04eb"
+          }
         }
       ]
     },
@@ -235,7 +253,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg",
+          "theme": {
+            "primaryColorHex": "#694c90"
+          }
         }
       ],
       "socials": {
@@ -269,7 +290,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg",
+          "theme": {
+            "primaryColorHex": "#f2b854"
+          }
         }
       ],
       "socials": {
@@ -302,7 +326,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shill.svg",
+          "theme": {
+            "primaryColorHex": "#c49df3"
+          }
         }
       ]
     }

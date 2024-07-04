@@ -22,7 +22,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.svg",
+          "theme": {
+            "primaryColorHex": "#2dfb71"
+          }
         }
       ],
       "coingeckoId": "joltify",
@@ -76,7 +79,10 @@
             "baseDenom": "uatom"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+          "theme": {
+            "primaryColorHex": "#272d45"
+          }
         }
       ]
     },
@@ -121,7 +127,10 @@
             "baseDenom": "uusdc"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg",
+          "theme": {
+            "primaryColorHex": "#2474cc"
+          }
         }
       ]
     }

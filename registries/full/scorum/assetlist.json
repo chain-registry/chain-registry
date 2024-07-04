@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg",
+          "theme": {
+            "primaryColorHex": "#0bc47e"
+          }
         }
       ],
       "socials": {
@@ -58,7 +61,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/sp.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/sp.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/sp.svg",
+          "theme": {
+            "primaryColorHex": "#9421e3"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -82,7 +88,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/gas.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/gas.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/gas.svg",
+          "theme": {
+            "primaryColorHex": "#555555"
+          }
         }
       ],
       "assetType": "sdk.coin"

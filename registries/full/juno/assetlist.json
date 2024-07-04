@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg",
+          "theme": {
+            "primaryColorHex": "#fa7b7b"
+          }
         }
       ],
       "socials": {
@@ -72,7 +75,10 @@
             "baseDenom": "uatom"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+          "theme": {
+            "primaryColorHex": "#272d45"
+          }
         }
       ],
       "logoURIs": {
@@ -106,7 +112,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg",
+          "theme": {
+            "primaryColorHex": "#f87b7b"
+          }
         }
       ]
     },
@@ -135,7 +144,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.svg",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ]
     },
@@ -164,7 +176,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg",
+          "theme": {
+            "primaryColorHex": "#e2877e"
+          }
         }
       ]
     },
@@ -194,7 +209,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg",
+          "theme": {
+            "primaryColorHex": "#070f0e"
+          }
         }
       ]
     },
@@ -223,7 +241,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/block.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/block.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/block.svg",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ]
     },
@@ -251,7 +272,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg",
+          "theme": {
+            "primaryColorHex": "#fae204"
+          }
         }
       ]
     },
@@ -280,7 +304,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/raw.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/raw.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/raw.svg",
+          "theme": {
+            "primaryColorHex": "#f07c92"
+          }
         }
       ]
     },
@@ -307,7 +334,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/asvt.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/asvt.png",
+          "theme": {
+            "primaryColorHex": "#402e5d"
+          }
         }
       ]
     },
@@ -361,7 +391,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/joe.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/joe.png",
+          "theme": {
+            "primaryColorHex": "#f3baaf"
+          }
         }
       ]
     },
@@ -390,7 +423,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dla.svg",
+          "theme": {
+            "primaryColorHex": "#263a70"
+          }
         }
       ]
     },
@@ -419,7 +455,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg",
+          "theme": {
+            "primaryColorHex": "#501cad"
+          }
         }
       ]
     },
@@ -448,7 +487,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/gkey.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/gkey.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/gkey.svg",
+          "theme": {
+            "primaryColorHex": "#521caf"
+          }
         }
       ]
     },
@@ -477,7 +519,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hole.svg",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ]
     },
@@ -506,7 +551,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sejuno.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sejuno.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sejuno.svg",
+          "theme": {
+            "primaryColorHex": "#26363f"
+          }
         }
       ]
     },
@@ -535,7 +583,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bjuno.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bjuno.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bjuno.svg",
+          "theme": {
+            "primaryColorHex": "#254454"
+          }
         }
       ]
     },
@@ -564,7 +615,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg",
+          "theme": {
+            "primaryColorHex": "#1c1c1b"
+          }
         }
       ]
     },
@@ -593,7 +647,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/seasy.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/seasy.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/seasy.svg",
+          "theme": {
+            "primaryColorHex": "#2d2c2d"
+          }
         }
       ]
     },
@@ -620,7 +677,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/muse.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/muse.png",
+          "theme": {
+            "primaryColorHex": "#32255f"
+          }
         }
       ]
     },
@@ -648,7 +708,10 @@
       "coingeckoId": "loop",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/loop.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/loop.png",
+          "theme": {
+            "primaryColorHex": "#2d2c45"
+          }
         }
       ]
     },
@@ -676,7 +739,10 @@
       "coingeckoId": "fanfury",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/fanfury.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/fanfury.png",
+          "theme": {
+            "primaryColorHex": "#14045c"
+          }
         }
       ]
     },
@@ -707,7 +773,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg",
+          "theme": {
+            "primaryColorHex": "#bbc2c6"
+          }
         }
       ],
       "socials": {
@@ -740,7 +809,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.svg",
+          "theme": {
+            "primaryColorHex": "#08d890"
+          }
         }
       ]
     },
@@ -767,7 +839,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/red.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/red.png",
+          "theme": {
+            "primaryColorHex": "#e40404"
+          }
         }
       ]
     },
@@ -794,7 +869,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/blue.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/blue.png",
+          "theme": {
+            "primaryColorHex": "#041ce4"
+          }
         }
       ]
     },
@@ -824,7 +902,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wynd.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wynd.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wynd.svg",
+          "theme": {
+            "primaryColorHex": "#6bcc95"
+          }
         }
       ]
     },
@@ -851,7 +932,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/banana.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/banana.png",
+          "theme": {
+            "primaryColorHex": "#046fc6"
+          }
         }
       ]
     },
@@ -880,7 +964,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.svg",
+          "theme": {
+            "primaryColorHex": "#050505"
+          }
         }
       ]
     },
@@ -907,7 +994,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sgnl.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sgnl.png",
+          "theme": {
+            "primaryColorHex": "#c5c2c2"
+          }
         }
       ]
     },
@@ -934,7 +1024,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/jape.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/jape.png",
+          "theme": {
+            "primaryColorHex": "#ee8179"
+          }
         }
       ]
     },
@@ -961,7 +1054,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/catom.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/catom.png",
+          "theme": {
+            "primaryColorHex": "#25221f"
+          }
         }
       ]
     },
@@ -988,7 +1084,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/howl.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/howl.png",
+          "theme": {
+            "primaryColorHex": "#e30d2c"
+          }
         }
       ]
     },
@@ -1015,7 +1114,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/fox.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/fox.png",
+          "theme": {
+            "primaryColorHex": "#ee5f06"
+          }
         }
       ]
     },
@@ -1042,7 +1144,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/guardian.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/guardian.png",
+          "theme": {
+            "primaryColorHex": "#07d7ac"
+          }
         }
       ]
     },
@@ -1071,7 +1176,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/mnpu.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/mnpu.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/mnpu.svg",
+          "theme": {
+            "primaryColorHex": "#dadbce"
+          }
         }
       ]
     },
@@ -1099,7 +1207,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/kleomedes.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/kleomedes.png",
+          "theme": {
+            "primaryColorHex": "#240454"
+          }
         }
       ]
     },
@@ -1128,7 +1239,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sikoba.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sikoba.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sikoba.svg",
+          "theme": {
+            "primaryColorHex": "#fbfbfb"
+          }
         }
       ]
     },
@@ -1155,7 +1269,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/shibacosmos.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/shibacosmos.png",
+          "theme": {
+            "primaryColorHex": "#eea95d"
+          }
         }
       ]
     },
@@ -1182,7 +1299,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/celestims.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/celestims.png",
+          "theme": {
+            "primaryColorHex": "#0b1d33"
+          }
         }
       ]
     },
@@ -1209,7 +1329,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/watr.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/watr.png",
+          "theme": {
+            "primaryColorHex": "#38b5c5"
+          }
         }
       ]
     },
@@ -1236,7 +1359,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/casa.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/casa.png",
+          "theme": {
+            "primaryColorHex": "#04040c"
+          }
         }
       ]
     },
@@ -1263,7 +1389,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/summit.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/summit.png",
+          "theme": {
+            "primaryColorHex": "#cbdb44"
+          }
         }
       ]
     },
@@ -1290,7 +1419,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/manna.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/manna.png",
+          "theme": {
+            "primaryColorHex": "#299544"
+          }
         }
       ]
     },
@@ -1317,7 +1449,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/empwr.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/empwr.png",
+          "theme": {
+            "primaryColorHex": "#5561aa"
+          }
         }
       ]
     },
@@ -1344,7 +1479,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/middle.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/middle.png",
+          "theme": {
+            "primaryColorHex": "#04040c"
+          }
         }
       ]
     },
@@ -1371,7 +1509,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sunset.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sunset.png",
+          "theme": {
+            "primaryColorHex": "#e0372c"
+          }
         }
       ]
     },
@@ -1398,7 +1539,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/livingtree.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/livingtree.png",
+          "theme": {
+            "primaryColorHex": "#469743"
+          }
         }
       ]
     },
@@ -1425,7 +1569,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/invdrs.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/invdrs.png",
+          "theme": {
+            "primaryColorHex": "#04ccab"
+          }
         }
       ]
     },
@@ -1452,7 +1599,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/apemos.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/apemos.png",
+          "theme": {
+            "primaryColorHex": "#4d5264"
+          }
         }
       ]
     },
@@ -1479,7 +1629,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/osdoge.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/osdoge.png",
+          "theme": {
+            "primaryColorHex": "#f49c4c"
+          }
         }
       ]
     },
@@ -1506,7 +1659,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/doga.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/doga.png",
+          "theme": {
+            "primaryColorHex": "#d6a84f"
+          }
         }
       ]
     },
@@ -1533,7 +1689,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pepe.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pepe.png",
+          "theme": {
+            "primaryColorHex": "#f3c79e"
+          }
         }
       ]
     },
@@ -1560,7 +1719,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/catmos.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/catmos.png",
+          "theme": {
+            "primaryColorHex": "#140c44"
+          }
         }
       ]
     },
@@ -1587,7 +1749,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/spacer.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/spacer.png",
+          "theme": {
+            "primaryColorHex": "#695335"
+          }
         }
       ]
     },
@@ -1614,7 +1779,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/light.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/light.png",
+          "theme": {
+            "primaryColorHex": "#e5e5e5"
+          }
         }
       ]
     },
@@ -1641,7 +1809,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/mille.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/mille.png",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ]
     },
@@ -1668,7 +1839,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/void.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/void.png",
+          "theme": {
+            "primaryColorHex": "#5b2e96"
+          }
         }
       ]
     },
@@ -1695,7 +1869,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/silica.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/silica.png",
+          "theme": {
+            "primaryColorHex": "#21538f"
+          }
         }
       ]
     },
@@ -1722,7 +1899,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pepec.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pepec.png",
+          "theme": {
+            "primaryColorHex": "#e9bc37"
+          }
         }
       ]
     },
@@ -1749,7 +1929,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pltn.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/pltn.png",
+          "theme": {
+            "primaryColorHex": "#040404"
+          }
         }
       ]
     },
@@ -1778,7 +1961,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/yfd.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/yfd.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/yfd.svg",
+          "theme": {
+            "primaryColorHex": "#dc542c"
+          }
         }
       ]
     },
@@ -1803,7 +1989,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nexx.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nexx.png",
+          "theme": {
+            "primaryColorHex": "#040405"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -1829,7 +2018,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dgl.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dgl.png",
+          "theme": {
+            "primaryColorHex": "#dfe0e0"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -1884,7 +2076,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bits.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bits.png",
+          "theme": {
+            "primaryColorHex": "#7bbc43"
+          }
         }
       ]
     },
@@ -1911,7 +2106,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/poil.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/poil.png",
+          "theme": {
+            "primaryColorHex": "#ef6d1d"
+          }
         }
       ]
     },
@@ -1938,7 +2136,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/minerva.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/minerva.png",
+          "theme": {
+            "primaryColorHex": "#744c2f"
+          }
         }
       ]
     },
@@ -1965,7 +2166,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/luno.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/luno.png",
+          "theme": {
+            "primaryColorHex": "#1c1c1c"
+          }
         }
       ]
     },
@@ -1992,7 +2196,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/aten.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/aten.png",
+          "theme": {
+            "primaryColorHex": "#1e1d1d"
+          }
         }
       ]
     },
@@ -2019,7 +2226,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hera.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hera.png",
+          "theme": {
+            "primaryColorHex": "#a9784c"
+          }
         }
       ]
     },
@@ -2046,7 +2256,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bJUNO-bbl.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bJUNO-bbl.png",
+          "theme": {
+            "primaryColorHex": "#d17e7f"
+          }
         }
       ],
       "coingeckoId": "backbone-labs-staked-juno"
@@ -2084,7 +2297,10 @@
             "baseDenom": "uusdc"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg",
+          "theme": {
+            "primaryColorHex": "#2474cc"
+          }
         }
       ],
       "traces": [
@@ -2142,7 +2358,10 @@
             "baseDenom": "factory/migaloo1d0uma9qzcts4fzt7ml39xp44aut5k6qyjfzz4asalnecppppr3rsl52vvv/rstk"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/rstk.svg",
+          "theme": {
+            "primaryColorHex": "#3ccc64"
+          }
         }
       ],
       "logoURIs": {
@@ -2171,7 +2390,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wind.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wind.png",
+          "theme": {
+            "primaryColorHex": "#122b4d"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -2192,7 +2414,10 @@
       "symbol": "AFA",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/afa.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/afa.png",
+          "theme": {
+            "primaryColorHex": "#f3cb0c"
+          }
         }
       ],
       "logoURIs": {
@@ -2220,7 +2445,10 @@
       "images": [
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.svg",
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/arena.png",
+          "theme": {
+            "primaryColorHex": "#dc6c24"
+          }
         }
       ],
       "logoURIs": {

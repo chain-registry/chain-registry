@@ -23,7 +23,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/six/images/six.png",
+          "theme": {
+            "primaryColorHex": "#3b75f3"
+          }
         }
       ],
       "assetType": "sdk.coin"

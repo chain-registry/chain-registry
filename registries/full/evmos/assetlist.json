@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
+          "theme": {
+            "primaryColorHex": "#ec4c34"
+          }
         }
       ],
       "socials": {
@@ -110,7 +113,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/neok.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/neok.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/neok.svg",
+          "theme": {
+            "primaryColorHex": "#7f0f70"
+          }
         }
       ],
       "socials": {
@@ -144,7 +150,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/berlin.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/berlin.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/berlin.svg",
+          "theme": {
+            "primaryColorHex": "#bbce1a"
+          }
         }
       ]
     },
@@ -173,7 +182,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/crowdp.svg",
+          "theme": {
+            "primaryColorHex": "#04fbfb"
+          }
         }
       ]
     }

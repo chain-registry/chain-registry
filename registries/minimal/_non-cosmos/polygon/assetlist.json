@@ -252,6 +252,35 @@
           "provider": "PageDAO"
         }
       ]
+    },
+    {
+      "description": "wETH is 'wrapped ETH'",
+      "assetType": "erc20",
+      "denomUnits": [
+        {
+          "denom": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+          "exponent": 0
+        },
+        {
+          "denom": "weth",
+          "exponent": 18
+        }
+      ],
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "base": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "display": "weth",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "provider": "Polygon PoS Bridge"
+        }
+      ]
     }
   ]
 }

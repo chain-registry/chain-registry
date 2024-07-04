@@ -26,7 +26,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg",
+          "theme": {
+            "primaryColorHex": "#9c1c1c"
+          }
         }
       ],
       "socials": {
@@ -57,7 +60,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oin.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oin.png",
+          "theme": {
+            "primaryColorHex": "#6cdbac"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -109,7 +115,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/popeye.png",
+          "theme": {
+            "primaryColorHex": "#04040a"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -135,7 +144,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SenseiDog.png",
+          "theme": {
+            "primaryColorHex": "#d4d0c7"
+          }
         }
       ],
       "assetType": "sdk.factory"
@@ -177,7 +189,10 @@
             "chainName": "osmosis",
             "baseDenom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wosmo.png",
+          "theme": {
+            "primaryColorHex": "#edd5ee"
+          }
         }
       ],
       "logoURIs": {
@@ -205,7 +220,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/oozaru.png",
+          "theme": {
+            "primaryColorHex": "#2b1619"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -233,7 +251,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/SEIYAN.png",
+          "theme": {
+            "primaryColorHex": "#db1f22"
+          }
         }
       ]
     },
@@ -278,7 +299,10 @@
             "baseDenom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/astro.svg",
+          "theme": {
+            "primaryColorHex": "#4056e9"
+          }
         }
       ],
       "logoURIs": {

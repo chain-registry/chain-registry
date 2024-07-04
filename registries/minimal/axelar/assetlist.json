@@ -1019,6 +1019,87 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "arbitrum-weth-wei",
+          "exponent": 0
+        },
+        {
+          "denom": "arbitrum-weth",
+          "exponent": 18
+        }
+      ],
+      "base": "arbitrum-weth-wei",
+      "name": "Arbitrum axlETH",
+      "display": "arbitrum-weth",
+      "symbol": "axlETH",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "arbitrum",
+            "baseDenom": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "base-weth-wei",
+          "exponent": 0
+        },
+        {
+          "denom": "base-weth",
+          "exponent": 18
+        }
+      ],
+      "base": "base-weth-wei",
+      "name": "Base axlETH",
+      "display": "base-weth",
+      "symbol": "axlETH",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "base",
+            "baseDenom": "0x4200000000000000000000000000000000000006"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "polygon-weth-wei",
+          "exponent": 0
+        },
+        {
+          "denom": "polygon-weth",
+          "exponent": 18
+        }
+      ],
+      "base": "polygon-weth-wei",
+      "name": "Polygon axlETH",
+      "display": "polygon-weth",
+      "symbol": "axlETH",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "polygon",
+            "baseDenom": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }

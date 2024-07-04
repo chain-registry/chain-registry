@@ -23,7 +23,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/terp.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/terp.png",
+          "theme": {
+            "primaryColorHex": "#a2cd9a"
+          }
         }
       ],
       "assetType": "unknown"
@@ -49,7 +52,10 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/thiol.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terpnetwork/images/thiol.png",
+          "theme": {
+            "primaryColorHex": "#060607"
+          }
         }
       ],
       "assetType": "unknown"

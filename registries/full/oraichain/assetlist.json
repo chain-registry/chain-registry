@@ -27,7 +27,8 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.png",
           "theme": {
             "circle": true,
-            "darkMode": true
+            "darkMode": true,
+            "primaryColorHex": "#040404"
           }
         },
         {

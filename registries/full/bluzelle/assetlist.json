@@ -33,7 +33,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/bluzelle.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/bluzelle.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/bluzelle.svg",
+          "theme": {
+            "primaryColorHex": "#708ffc"
+          }
         }
       ],
       "socials": {
@@ -66,7 +69,10 @@
       ],
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/elt.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/elt.png",
+          "theme": {
+            "primaryColorHex": "#0c3ab5"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -95,7 +101,10 @@
       ],
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/g4.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bluzelle/images/g4.png",
+          "theme": {
+            "primaryColorHex": "#ee8828"
+          }
         }
       ],
       "assetType": "sdk.coin"

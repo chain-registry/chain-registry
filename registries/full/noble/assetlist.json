@@ -28,7 +28,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.svg",
+          "theme": {
+            "primaryColorHex": "#a8bbfb"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -59,7 +62,10 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.svg",
+          "theme": {
+            "primaryColorHex": "#04041c"
+          }
         }
       ],
       "assetType": "sdk.coin"
@@ -109,7 +115,10 @@
             "baseDenom": "uatom"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+          "theme": {
+            "primaryColorHex": "#272d45"
+          }
         }
       ]
     },
@@ -150,38 +159,44 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg",
+          "theme": {
+            "primaryColorHex": "#2474cc"
+          }
         }
       ],
       "assetType": "sdk.coin"
     },
     {
-      "description": "USDLR is a fiat-backed stablecoin issued by Stable. Stable pays DeFi protocols who distribute USDLR.",
+      "description": "Ondo US Dollar Yield",
       "denomUnits": [
         {
-          "denom": "uusdlr",
+          "denom": "ausdy",
           "exponent": 0,
           "aliases": [
-            "microusdlr"
+            "attousdy"
           ]
         },
         {
-          "denom": "usdlr",
-          "exponent": 6
+          "denom": "usdy",
+          "exponent": 18
         }
       ],
-      "base": "uusdlr",
-      "display": "usdlr",
-      "name": "USDLR by Stable",
-      "symbol": "USDLR",
+      "base": "ausdy",
+      "display": "usdy",
+      "name": "Ondo US Dollar Yield",
+      "symbol": "USDY",
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.svg"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/usdy.svg",
+          "theme": {
+            "primaryColorHex": "#142c5c"
+          }
         }
       ],
       "assetType": "sdk.coin"
