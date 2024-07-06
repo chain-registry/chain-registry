@@ -33,6 +33,9 @@
     "rpc": [
       {
         "address": "https://rpc.selfchain.io:26657"
+      },
+      {
+        "address": "https://rpc.selfchain.roomit.xyz"
       }
     ],
     "rest": [
@@ -41,10 +44,15 @@
       },
       {
         "address": "https://selfchain.api.m.stavr.tech"
+      },
+      {
+        "address": "https://api.selfchain.roomit.xyz"
       }
     ],
     "grpc": [
-
+      {
+        "address": "grpc.selfchain.roomit.xyz:8443"
+      }
     ]
   },
   "explorers": [
@@ -59,11 +67,20 @@
       "url": "https://explorer.stavr.tech/Selfchain-Mainnet",
       "txPage": "https://explorer.stavr.tech/Selfchain-Mainnet/tx/${txHash}",
       "accountPage": "https://explorer.stavr.tech/Selfchain-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "Roomit",
+      "url": "https://explorer.tendermint.roomit.xyz/selfchain-mainnet",
+      "txPage": "https://explorer.tendermint.roomit.xyz/selfchain-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.tendermint.roomit.xyz/selfchain-mainnet/account/${accountAddress}"
     }
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png"
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/self/images/self.png",
+      "theme": {
+        "primaryColorHex": "#9454f1"
+      }
     }
   ]
 }

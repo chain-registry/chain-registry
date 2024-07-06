@@ -3,7 +3,7 @@
   "chainName": "archwaytestnet",
   "assets": [
     {
-      "description": "The native token of Archway testnetwork",
+      "description": "The native token of Archway Test Network.",
       "denomUnits": [
         {
           "denom": "aconst",
@@ -22,6 +22,37 @@
       "name": "Archway",
       "display": "const",
       "symbol": "CONST",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "archway",
+            "baseDenom": "aarch"
+          },
+          "provider": "Archway Testnet"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg"
+      },
+      "images": [
+        {
+          "imageSync": {
+            "chainName": "archway",
+            "baseDenom": "aarch"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg",
+          "theme": {
+            "primaryColorHex": "#fc4c04"
+          }
+        }
+      ],
+      "socials": {
+        "website": "https://archway.io/",
+        "twitter": "https://twitter.com/archwayHQ"
+      },
       "assetType": "sdk.coin"
     }
   ]

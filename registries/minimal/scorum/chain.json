@@ -65,7 +65,10 @@
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.svg"
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.svg",
+      "theme": {
+        "primaryColorHex": "#242424"
+      }
     }
   ]
 }

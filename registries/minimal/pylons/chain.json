@@ -58,7 +58,10 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pylons/images/pylons.png"
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pylons/images/pylons.png",
+      "theme": {
+        "primaryColorHex": "#ec4424"
+      }
     }
   ]
 }

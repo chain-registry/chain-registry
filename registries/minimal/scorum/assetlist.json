@@ -18,6 +18,7 @@
       "name": "Scorum",
       "display": "scr",
       "symbol": "SCR",
+      "coingeckoId": "scorum",
       "assetType": "sdk.coin"
     },
     {

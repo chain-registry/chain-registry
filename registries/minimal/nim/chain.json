@@ -31,7 +31,10 @@
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg"
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg",
+      "theme": {
+        "primaryColorHex": "#519cea"
+      }
     }
   ],
   "codebase": {

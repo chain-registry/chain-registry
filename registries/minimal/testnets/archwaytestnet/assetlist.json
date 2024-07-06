@@ -3,7 +3,7 @@
   "chainName": "archwaytestnet",
   "assets": [
     {
-      "description": "The native token of Archway testnetwork",
+      "description": "The native token of Archway Test Network.",
       "denomUnits": [
         {
           "denom": "aconst",
@@ -22,6 +22,16 @@
       "name": "Archway",
       "display": "const",
       "symbol": "CONST",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "archway",
+            "baseDenom": "aarch"
+          },
+          "provider": "Archway Testnet"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

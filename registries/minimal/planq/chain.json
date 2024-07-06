@@ -141,7 +141,7 @@
         "address": "https://grpc.planq.nodexcapital.com:443"
       },
       {
-        "address": "https://grpc.planq.roomit.xyz:8443"
+        "address": "grpc.planq.roomit.xyz:8443"
       },
       {
         "address": "https://grpc.planq.hexnodes.co:33090"
@@ -192,6 +192,9 @@
       },
       {
         "address": "https://planq_mainnet_evm.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://evm.planq.roomit.xyz"
       }
     ]
   },
@@ -222,9 +225,9 @@
       "txPage": "https://explorer.tcnetwork.io/planq/transaction/${txHash}"
     },
     {
-      "kind": "RoomIT",
-      "url": "https://explorer.tendermint.roomit.xyz/planq",
-      "txPage": "https://explorer.tendermint.roomit.xyz/planq/transaction/${txHash}"
+      "kind": "Roomit",
+      "url": "https://explorer.tendermint.roomit.xyz/planq-mainnet",
+      "txPage": "https://explorer.tendermint.roomit.xyz/planq-mainnet/transaction/${txHash}"
     },
     {
       "kind": "Kynraze",
@@ -271,7 +274,10 @@
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg"
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg",
+      "theme": {
+        "primaryColorHex": "#d4f3fb"
+      }
     }
   ]
 }

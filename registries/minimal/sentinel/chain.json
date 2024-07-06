@@ -200,7 +200,7 @@
       "accountPage": "https://atomscan.com/sentinel/accounts/${accountAddress}"
     },
     {
-      "kind": "RoomIT",
+      "kind": "Roomit",
       "url": "https://explorer.tendermint.roomit.xyz/sentinel-mainnet",
       "txPage": "https://explorer.tendermint.roomit.xyz/sentinel-mainnet/transactions/${txHash}",
       "accountPage": "https://explorer.tendermint.roomit.xyz/sentinel-mainnet/accounts/${accountAddress}"
@@ -231,7 +231,10 @@
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg"
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg",
+      "theme": {
+        "primaryColorHex": "#10a7ef"
+      }
     }
   ]
 }
