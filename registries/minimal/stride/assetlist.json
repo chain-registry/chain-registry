@@ -3,7 +3,7 @@
   "chainName": "stride",
   "assets": [
     {
-      "description": "The native token of Stride",
+      "description": "Stride is a liquid staking blockchain in the Cosmos ecosystem that allows users to stake any IBC-compatible tokens and receive stTokens in return, providing liquidity while earning staking rewards.",
       "denomUnits": [
         {
           "denom": "ustrd",

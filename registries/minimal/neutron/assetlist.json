@@ -3,7 +3,7 @@
   "chainName": "neutron",
   "assets": [
     {
-      "description": "The native token of Neutron chain.",
+      "description": "Neutron is a smart contract blockchain within the Cosmos ecosystem, leveraging the Cosmos Hub's security to provide cross-chain DeFi applications.",
       "denomUnits": [
         {
           "denom": "untrn",

@@ -3,7 +3,7 @@
   "chainName": "celestia",
   "assets": [
     {
-      "description": "The native token of the Celestia blockchain.",
+      "description": "Celestia is a modular blockchain network focused on data availability, allowing developers to deploy their own customizable blockchains with ease.",
       "denomUnits": [
         {
           "denom": "utia",

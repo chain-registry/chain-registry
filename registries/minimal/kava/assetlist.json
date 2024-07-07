@@ -3,7 +3,7 @@
   "chainName": "kava",
   "assets": [
     {
-      "description": "The native staking and governance token of Kava",
+      "description": "Kava is a decentralized finance (DeFi) platform that provides a range of financial services, including lending, borrowing, and stablecoins, leveraging the Cosmos and Ethereum ecosystems.",
       "denomUnits": [
         {
           "denom": "ukava",

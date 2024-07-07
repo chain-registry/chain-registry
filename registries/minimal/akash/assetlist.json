@@ -3,7 +3,7 @@
   "chainName": "akash",
   "assets": [
     {
-      "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
+      "description": "Akash Network is a decentralized cloud computing marketplace that connects users with unused computing resources, offering a cost-effective alternative to traditional cloud providers.",
       "denomUnits": [
         {
           "denom": "uakt",

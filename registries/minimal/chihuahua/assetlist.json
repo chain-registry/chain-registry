@@ -3,7 +3,7 @@
   "chainName": "chihuahua",
   "assets": [
     {
-      "description": "The native token of Chihuahua Chain",
+      "description": "Chihuahua is a community-driven blockchain project focused on creating a fun and engaging ecosystem with an emphasis on social interactions and community building.",
       "denomUnits": [
         {
           "denom": "uhuahua",

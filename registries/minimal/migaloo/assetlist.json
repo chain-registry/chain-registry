@@ -3,7 +3,7 @@
   "chainName": "migaloo",
   "assets": [
     {
-      "description": "The native token of Migaloo Chain",
+      "description": "Migaloo is a cosmwasm-powered, permissionless blockchain designed to build decentralized applications with a focus on interchain liquidity solutions.",
       "denomUnits": [
         {
           "denom": "uwhale",

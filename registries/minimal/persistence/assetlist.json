@@ -3,7 +3,7 @@
   "chainName": "persistence",
   "assets": [
     {
-      "description": "The XPRT token is primarily a governance token for the Persistence chain.",
+      "description": "Persistence is a blockchain platform designed to facilitate institutional decentralized finance (DeFi) and real-world asset tokenization, integrating with the Cosmos ecosystem.",
       "denomUnits": [
         {
           "denom": "uxprt",

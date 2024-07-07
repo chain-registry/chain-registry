@@ -3,7 +3,7 @@
   "chainName": "axelar",
   "assets": [
     {
-      "description": "The native token of Axelar",
+      "description": "Axelar is a decentralized interoperability network connecting multiple blockchain ecosystems, enabling seamless cross-chain communication and value transfer.",
       "denomUnits": [
         {
           "denom": "uaxl",

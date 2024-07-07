@@ -64,7 +64,7 @@
         "address": "https://mainnet-humans-rpc.konsortech.xyz"
       },
       {
-        "address": "http://135.181.75.235:13657"
+        "address": "http://65.21.46.90:5657"
       },
       {
         "address": "https://rpc.humans-mainnet.stake-take.com/"
@@ -105,7 +105,7 @@
         "address": "https://mainnet-humans-api.konsortech.xyz"
       },
       {
-        "address": "http://135.181.75.235:13317"
+        "address": "http://65.21.46.90:5317"
       },
       {
         "address": "https://api.humans-mainnet.stake-take.com/"
@@ -140,7 +140,7 @@
         "address": "humans.grpc.nodersteam.com:9221"
       },
       {
-        "address": "http://135.181.75.235:13090"
+        "address": "http://65.21.46.90:5090"
       },
       {
         "address": "https://grpc-humans.cosmos-spaces.cloud:1190"

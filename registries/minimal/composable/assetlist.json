@@ -3,7 +3,7 @@
   "chainName": "composable",
   "assets": [
     {
-      "description": "The native staking, governance and revenue sharing token of Picasso.",
+      "description": "Picasso is a blockchain project within the IBC ecosystem that focuses on providing modular and interoperable solutions for decentralized finance (DeFi) and other blockchain applications.",
       "denomUnits": [
         {
           "denom": "ppica",

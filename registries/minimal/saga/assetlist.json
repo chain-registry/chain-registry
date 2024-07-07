@@ -3,7 +3,7 @@
   "chainName": "saga",
   "assets": [
     {
-      "description": "The native staking and governance token of Saga.",
+      "description": "Saga is a blockchain platform focused on providing customizable blockchain solutions with a strong emphasis on security and scalability.",
       "denomUnits": [
         {
           "denom": "usaga",

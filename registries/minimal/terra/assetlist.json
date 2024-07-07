@@ -3,7 +3,7 @@
   "chainName": "terra",
   "assets": [
     {
-      "description": "The native staking token of Terra Classic.",
+      "description": "Terra Classic is the original blockchain platform that powered the UST stablecoin and LUNA token before the launch of Terra 2.0, focusing on stablecoins and DeFi applications.",
       "denomUnits": [
         {
           "denom": "uluna",

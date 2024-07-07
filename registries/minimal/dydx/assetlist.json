@@ -3,7 +3,7 @@
   "chainName": "dydx",
   "assets": [
     {
-      "description": "The native staking token of dYdX Protocol.",
+      "description": "DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.",
       "denomUnits": [
         {
           "denom": "adydx",

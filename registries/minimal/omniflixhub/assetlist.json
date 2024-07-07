@@ -3,7 +3,7 @@
   "chainName": "omniflixhub",
   "assets": [
     {
-      "description": "The native staking token of OmniFlix Hub.",
+      "description": "OmniFlix is a decentralized media platform that enables content creators to distribute, monetize, and manage their digital content using blockchain technology.",
       "denomUnits": [
         {
           "denom": "uflix",

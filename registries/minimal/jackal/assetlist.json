@@ -3,7 +3,7 @@
   "chainName": "jackal",
   "assets": [
     {
-      "description": "The native staking and governance token of Jackal.",
+      "description": "Jackal Network is a decentralized storage platform that aims to provide secure, private, and efficient data storage solutions on the blockchain.",
       "denomUnits": [
         {
           "denom": "ujkl",

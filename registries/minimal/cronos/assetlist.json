@@ -3,7 +3,7 @@
   "chainName": "cronos",
   "assets": [
     {
-      "description": "Cronos Chain - Get Instant DApp Portability with EVM Support",
+      "description": "Cronos is a blockchain platform developed by Crypto.com, designed to support DeFi, NFTs, and decentralized applications with fast and low-cost transactions.",
       "denomUnits": [
         {
           "denom": "basecro",

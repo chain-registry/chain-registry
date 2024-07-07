@@ -3,7 +3,7 @@
   "chainName": "solana",
   "assets": [
     {
-      "description": "Solana (SOL) is the native asset of the Solana blockchain.",
+      "description": "Solana is a high-performance blockchain platform known for its fast transaction speeds, low costs, and scalability, ideal for decentralized applications and crypto projects.",
       "denomUnits": [
         {
           "denom": "Lamport",

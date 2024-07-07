@@ -3,7 +3,7 @@
   "chainName": "binancesmartchain",
   "assets": [
     {
-      "description": "BNB powers the BNB Chain ecosystem and is the native coin of the BNB Beacon Chain and BNB Smart Chain.",
+      "description": "BNB is the native cryptocurrency of the Binance exchange, used to pay for transaction fees and participate in various features and services within the Binance ecosystem.",
       "denomUnits": [
         {
           "denom": "wei",

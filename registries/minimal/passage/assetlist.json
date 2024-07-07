@@ -3,7 +3,7 @@
   "chainName": "passage",
   "assets": [
     {
-      "description": "The native staking and governance token of the Passage chain.",
+      "description": "Passage.io is a decentralized platform that enables users to create, distribute, and monetize immersive virtual experiences and content using blockchain technology.",
       "denomUnits": [
         {
           "denom": "upasg",

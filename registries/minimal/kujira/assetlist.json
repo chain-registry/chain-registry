@@ -3,7 +3,7 @@
   "chainName": "kujira",
   "assets": [
     {
-      "description": "The native staking and governance token of the Kujira chain.",
+      "description": "Kujira is a decentralized finance (DeFi) platform offering a suite of tools and services for managing and optimizing digital assets and investments.",
       "denomUnits": [
         {
           "denom": "ukuji",

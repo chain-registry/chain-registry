@@ -3,7 +3,7 @@
   "chainName": "polygon",
   "assets": [
     {
-      "description": "Polygon (formerly Matic) Network brings massive scale to Ethereum using an adapted version of Plasma with PoS based side chains. Polygon is a well-structured, easy-to-use platform for Ethereum scaling and infrastructure development.",
+      "description": "Polygon, previously known as Matic Network, is a Layer 2 scaling solution for Ethereum that aims to provide faster and cheaper transactions.",
       "denomUnits": [
         {
           "denom": "wei",

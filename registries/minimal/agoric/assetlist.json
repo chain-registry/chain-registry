@@ -3,7 +3,7 @@
   "chainName": "agoric",
   "assets": [
     {
-      "description": "BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.",
+      "description": "Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.",
       "denomUnits": [
         {
           "denom": "ubld",

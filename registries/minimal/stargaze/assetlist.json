@@ -3,7 +3,7 @@
   "chainName": "stargaze",
   "assets": [
     {
-      "description": "The native token of Stargaze",
+      "description": "Stargaze is a decentralized blockchain platform designed specifically for non-fungible tokens (NFTs), enabling creators to mint, trade, and interact with NFTs in a fully decentralized environment.",
       "denomUnits": [
         {
           "denom": "ustars",
