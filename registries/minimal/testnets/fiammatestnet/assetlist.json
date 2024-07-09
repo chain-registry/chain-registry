@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "fiammatestnet",
+  "assets": [
+    {
+      "description": "The native staking token of fiamma.",
+      "denomUnits": [
+        {
+          "denom": "ufia",
+          "exponent": 0
+        },
+        {
+          "denom": "fia",
+          "exponent": 6
+        }
+      ],
+      "base": "ufia",
+      "name": "Fiamma",
+      "display": "fia",
+      "symbol": "FIA",
+      "assetType": "unknown"
+    }
+  ]
+}

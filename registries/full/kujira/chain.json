@@ -138,14 +138,14 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/Team-Kujira/core",
-    "recommendedVersion": "v1.0.2",
+    "recommendedVersion": "v1.1.0",
     "compatibleVersions": [
-      "v1.0.2"
+      "v1.1.0"
     ],
-    "cosmosSdkVersion": "v0.47.8",
+    "cosmosSdkVersion": "v0.47.12",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.37.4"
+      "version": "v0.37.5"
     },
     "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
@@ -244,6 +244,23 @@
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
+        },
+        "cosmwasmVersion": "v0.45.0",
+        "cosmwasmEnabled": true,
+        "nextVersionName": "v1.1.0"
+      },
+      {
+        "name": "v1.1.0",
+        "proposal": 645,
+        "height": 19855000,
+        "recommendedVersion": "v1.1.0",
+        "compatibleVersions": [
+          "v1.1.0"
+        ],
+        "cosmosSdkVersion": "v0.47.12",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.5"
         },
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,

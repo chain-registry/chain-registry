@@ -30,21 +30,19 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/ingenuity-build/quicksilver",
-    "recommendedVersion": "v1.5.7",
+    "recommendedVersion": "v1.6.1",
     "compatibleVersions": [
-      "v1.5.7"
+      "v1.6.1"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/ingenuity-build/quicksilver/releases/download/v1.5.7/quicksilverd-v1.5.7-amd64"
+      "linux/amd64": "https://github.com/ingenuity-build/quicksilver/releases/download/v1.6.1/quicksilverd-v1.6.1-amd64"
     },
     "cosmosSdkVersion": "v0.46.16",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.34.32"
+      "version": "v0.34.33"
     },
-    "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
-    "cosmwasmEnabled": true,
-    "ibcGoVersion": "v5.4.0",
+    "ibcGoVersion": "v6.3.1",
     "genesis": {
       "genesisUrl": "https://github.com/ingenuity-build/mainnet/raw/main/genesis.json"
     },
@@ -339,6 +337,25 @@
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v5.4.0",
+        "nextVersionName": "v1.6.1"
+      },
+      {
+        "name": "v1.6.1",
+        "proposal": 41,
+        "height": 8003500,
+        "recommendedVersion": "v1.6.1",
+        "compatibleVersions": [
+          "v1.6.1"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/ingenuity-build/quicksilver/releases/download/v1.6.1/quicksilverd-v1.6.1-amd64"
+        },
+        "cosmosSdkVersion": "v0.46.16",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.34.33"
+        },
+        "ibcGoVersion": "v6.3.1",
         "nextVersionName": ""
       }
     ]

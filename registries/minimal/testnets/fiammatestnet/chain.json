@@ -1,0 +1,55 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "fiammatestnet",
+  "website": "https://www.fiammachain.io",
+  "networkType": "testnet",
+  "prettyName": "Fiamma Testnet",
+  "chainId": "fiamma-testnet-1",
+  "bech32Prefix": "fiamma",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ufia"
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ufia"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://testnet-rpc.fiammachain.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://testnet-api.fiammachain.io"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://testnet-explorer.fiammachain.io/"
+    }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/fiammatestnet/images/fiamma.svg"
+    }
+  ]
+}

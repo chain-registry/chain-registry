@@ -3,7 +3,7 @@
   "chainName": "sunrisetestnet",
   "networkType": "testnet",
   "prettyName": "Sunrise Testnet",
-  "chainId": "sunrise-test",
+  "chainId": "sunrise-test-0.1",
   "bech32Prefix": "sunrise",
   "keyAlgos": [
     "secp256k1"

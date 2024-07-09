@@ -36,20 +36,20 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/NibiruChain/nibiru",
-    "recommendedVersion": "v1.3.0",
+    "recommendedVersion": "v1.5.0",
     "compatibleVersions": [
-      "v1.3.0"
+      "v1.5.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.3.0/nibid_1.3.0_linux_amd64.tar.gz",
-      "linux/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.3.0/nibid_1.3.0_linux_arm64.tar.gz",
-      "darwin/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.3.0/nibid_1.3.0_darwin_amd64.tar.gz",
-      "darwin/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.3.0/nibid_1.3.0_darwin_arm64.tar.gz"
+      "linux/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.5.0/nibid_1.5.0_linux_amd64.tar.gz",
+      "linux/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.5.0/nibid_1.5.0_linux_arm64.tar.gz",
+      "darwin/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.5.0/nibid_1.5.0_darwin_amd64.tar.gz",
+      "darwin/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.5.0/nibid_1.5.0_darwin_arm64.tar.gz"
     },
-    "cosmosSdkVersion": "v0.47.10",
+    "cosmosSdkVersion": "v0.47.11",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.37.4"
+      "version": "v0.37.5"
     },
     "ibcGoVersion": "v7.3.2",
     "cosmwasmVersion": "v0.44.0",
@@ -225,6 +225,56 @@
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
+        },
+        "ibcGoVersion": "v7.3.2",
+        "cosmwasmVersion": "v0.44.0",
+        "cosmwasmEnabled": true,
+        "nextVersionName": "v1.4.0"
+      },
+      {
+        "name": "v1.4.0",
+        "proposal": 13,
+        "height": 7457147,
+        "recommendedVersion": "v1.4.0",
+        "compatibleVersions": [
+          "v1.4.0"
+        ],
+        "tag": "v1.4.0",
+        "binaries": {
+          "linux/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.4.0/nibid_1.4.0_linux_amd64.tar.gz",
+          "linux/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.4.0/nibid_1.4.0_linux_arm64.tar.gz",
+          "darwin/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.4.0/nibid_1.4.0_darwin_amd64.tar.gz",
+          "darwin/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.4.0/nibid_1.4.0_darwin_arm64.tar.gz"
+        },
+        "cosmosSdkVersion": "v0.47.10",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.4"
+        },
+        "ibcGoVersion": "v7.3.2",
+        "cosmwasmVersion": "v0.44.0",
+        "cosmwasmEnabled": true,
+        "nextVersionName": "v1.5.0"
+      },
+      {
+        "name": "v1.5.0",
+        "proposal": 14,
+        "height": 8375044,
+        "recommendedVersion": "v1.5.0",
+        "compatibleVersions": [
+          "v1.5.0"
+        ],
+        "tag": "v1.5.0",
+        "binaries": {
+          "linux/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.5.0/nibid_1.5.0_linux_amd64.tar.gz",
+          "linux/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.5.0/nibid_1.5.0_linux_arm64.tar.gz",
+          "darwin/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.5.0/nibid_1.5.0_darwin_amd64.tar.gz",
+          "darwin/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.5.0/nibid_1.5.0_darwin_arm64.tar.gz"
+        },
+        "cosmosSdkVersion": "v0.47.11",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.5"
         },
         "ibcGoVersion": "v7.3.2",
         "cosmwasmVersion": "v0.44.0",

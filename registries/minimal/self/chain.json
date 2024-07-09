@@ -36,6 +36,9 @@
       },
       {
         "address": "https://rpc.selfchain.roomit.xyz"
+      },
+      {
+        "address": "https://selfchain_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -47,6 +50,9 @@
       },
       {
         "address": "https://api.selfchain.roomit.xyz"
+      },
+      {
+        "address": "https://selfchain_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -73,6 +79,12 @@
       "url": "https://explorer.tendermint.roomit.xyz/selfchain-mainnet",
       "txPage": "https://explorer.tendermint.roomit.xyz/selfchain-mainnet/tx/${txHash}",
       "accountPage": "https://explorer.tendermint.roomit.xyz/selfchain-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/self",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/self/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/self/account/${accountAddress}"
     }
   ],
   "images": [

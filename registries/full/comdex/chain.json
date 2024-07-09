@@ -28,19 +28,21 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/comdex-official/comdex",
-    "recommendedVersion": "v13.4.0",
+    "recommendedVersion": "v14.1.0",
     "compatibleVersions": [
-      "v13.4.0"
+      "v14.1.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/comdex-official/comdex/releases/download/v13.4.0/comdex-linux-amd64.tar.gz"
+      "linux/amd64": "https://github.com/comdex-official/comdex/releases/download/v14.1.0/comdex-linux-amd64.tar.gz",
+      "darwin/arm64": "https://github.com/comdex-official/comdex/releases/download/v14.1.0/comdex-darwin-arm64.tar.gz"
     },
-    "cosmosSdkVersion": "v0.47.5",
+    "cosmosSdkVersion": "v0.47.9",
     "consensus": {
       "type": "cometbft",
-      "version": "0.37.2"
+      "version": "0.37.5"
     },
-    "cosmwasmVersion": "v0.41.0",
+    "ibcGoVersion": "v7.4.0",
+    "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://comdex-mainnet-genesis.s3.ap-southeast-1.amazonaws.com/genesis.json"
@@ -92,6 +94,28 @@
           "version": "0.37.2"
         },
         "cosmwasmVersion": "v0.41.0",
+        "cosmwasmEnabled": true,
+        "nextVersionName": "v14.1.0"
+      },
+      {
+        "name": "v14.1.0",
+        "proposal": 234,
+        "height": 13730000,
+        "recommendedVersion": "v14.1.0",
+        "compatibleVersions": [
+          "v14.1.0"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/comdex-official/comdex/releases/download/v14.1.0/comdex-linux-amd64.tar.gz",
+          "darwin/arm64": "https://github.com/comdex-official/comdex/releases/download/v14.1.0/comdex-darwin-arm64.tar.gz"
+        },
+        "cosmosSdkVersion": "v0.47.9",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.5"
+        },
+        "ibcGoVersion": "v7.4.0",
+        "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
         "nextVersionName": ""
       }

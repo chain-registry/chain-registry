@@ -1,0 +1,65 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "empetestnet",
+  "chainId": "empe-testnet-2",
+  "website": "https://empe.io",
+  "prettyName": "Empe",
+  "networkType": "testnet",
+  "bech32Prefix": "empe",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uempe",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uempe"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47",
+    "cosmwasmEnabled": false
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-testnet.empe.io/"
+      },
+      {
+        "address": "https://rpc-archive-testnet.empe.io/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd-testnet.empe.io/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-testnet.empe.io:8443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "empe",
+      "url": "https://explorer-testnet.empe.io",
+      "txPage": "https://explorer-testnet.empe.io/transactions/${txHash}"
+    }
+  ]
+}

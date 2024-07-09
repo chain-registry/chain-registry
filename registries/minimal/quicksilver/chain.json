@@ -27,9 +27,7 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.46.16",
-    "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
-    "cosmwasmEnabled": true,
-    "ibcGoVersion": "v5.4.0"
+    "ibcGoVersion": "v6.3.1"
   },
   "description": "Liquid Stake your Cosmos assets with your preferred validator and receive liquid staked assets (qASSETs) that you can use for swapping, pooling, lending, and more, all while your original stake earns staking APY from securing the network.",
   "apis": {

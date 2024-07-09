@@ -4,7 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Sunrise Testnet",
-  "chainId": "sunrise-test",
+  "chainId": "sunrise-test-0.1",
   "bech32Prefix": "sunrise",
   "daemonName": "sunrised",
   "nodeHome": "$HOME/.sunrise",
@@ -32,12 +32,12 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/sunriselayer/sunrise",
-    "recommendedVersion": "v0.1.1",
+    "recommendedVersion": "v0.1.2",
     "compatibleVersions": [
-      "v0.1.1"
+      "v0.1.2"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/sunriselayer/sunrise/releases/download/v0.1.1/sunrised"
+      "linux/amd64": "https://github.com/sunriselayer/sunrise/releases/download/v0.1.2/sunrised"
     },
     "cosmosSdkVersion": "0.50.2",
     "consensus": {
@@ -102,6 +102,25 @@
         "icsEnabled": [
           "ics20-1"
         ]
+      },
+      {
+        "name": "v0.1.2",
+        "recommendedVersion": "v0.1.2",
+        "compatibleVersions": [
+          "v0.1.2"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/sunriselayer/sunrise/releases/download/v0.1.2/sunrised"
+        },
+        "cosmosSdkVersion": "0.50.2",
+        "consensus": {
+          "type": "cometbft",
+          "version": "sunriselayer/sunrise-core v0.0.5-cmt-v0.38.2"
+        },
+        "ibcGoVersion": "8.0.0",
+        "icsEnabled": [
+          "ics20-1"
+        ]
       }
     ]
   },
@@ -115,7 +134,7 @@
     ],
     "persistentPeers": [
       {
-        "id": "27d92a62f64585b995a6a99882cdd3a1a441336d",
+        "id": "89e5866f0c2edd5fd1cc604e0eb173d6111d9bd8",
         "address": "a.sunrise-test-1.cauchye.net:26656",
         "provider": "CauchyE"
       },

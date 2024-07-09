@@ -33,18 +33,19 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/celestiaorg/celestia-app",
-    "recommendedVersion": "v1.9.0",
+    "recommendedVersion": "v1.10.1",
     "compatibleVersions": [
       "v1.3.0",
       "v1.6.0",
       "v1.7.0",
-      "v1.9.0"
+      "v1.9.0",
+      "v1.10.1"
     ],
-    "cosmosSdkVersion": "celestiaorg/cosmos-sdk v1.20.1-sdk-v0.46.16",
-    "ibcGoVersion": "v6.2.1",
+    "cosmosSdkVersion": "celestiaorg/cosmos-sdk v1.23.0-sdk-v0.46.16",
+    "ibcGoVersion": "v6.2.2",
     "consensus": {
       "type": "tendermint",
-      "version": "celestiaorg/celestia-core v1.35.0-tm-v0.34.29"
+      "version": "celestiaorg/celestia-core v1.38.0-tm-v0.34.29"
     },
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/celestiaorg/networks/master/celestia/genesis.json"
@@ -52,15 +53,16 @@
     "versions": [
       {
         "name": "v1.3.0",
-        "recommendedVersion": "v1.9.0",
+        "recommendedVersion": "v1.10.1",
         "compatibleVersions": [
           "v1.3.0",
           "v1.6.0",
           "v1.7.0",
-          "v1.9.0"
+          "v1.9.0",
+          "v1.10.1"
         ],
-        "cosmosSdkVersion": "celestiaorg/cosmos-sdk v1.20.1-sdk-v0.46.16",
-        "ibcGoVersion": "v6.2.1",
+        "cosmosSdkVersion": "celestiaorg/cosmos-sdk v1.23.0-sdk-v0.46.16",
+        "ibcGoVersion": "v6.2.2",
         "consensus": {
           "type": "tendermint",
           "version": "celestiaorg/celestia-core v1.35.0-tm-v0.34.29"

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "empetestnet",
+  "assets": [
+    {
+      "description": "Empe End-to-End Verifiable Data Infrastructure",
+      "denomUnits": [
+        {
+          "denom": "uempe",
+          "exponent": 0
+        },
+        {
+          "denom": "empe",
+          "exponent": 6
+        }
+      ],
+      "base": "uempe",
+      "display": "empe",
+      "name": "EMPE",
+      "symbol": "EMPE",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
