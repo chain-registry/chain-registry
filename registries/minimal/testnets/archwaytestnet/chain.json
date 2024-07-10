@@ -33,7 +33,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "rpc.constantine.archway.io"
+        "address": "https://rpc.constantine.archway.io"
       },
       {
         "address": "https://archway-testnet-rpc.polkachu.com"
@@ -41,7 +41,7 @@
     ],
     "rest": [
       {
-        "address": "https://api.constantine.archway.tech"
+        "address": "https://api.constantine.archway.io"
       }
     ]
   },

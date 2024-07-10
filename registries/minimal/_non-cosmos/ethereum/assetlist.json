@@ -354,7 +354,7 @@
       "symbol": "wstETH",
       "traces": [
         {
-          "type": "wrapped",
+          "type": "liquid-stake",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
@@ -520,7 +520,7 @@
       "coingeckoId": "uniswap"
     },
     {
-      "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+      "description": "USDC (USD Coin) is a stablecoin fully backed by US dollars, providing a transparent and regulated digital dollar solution.",
       "assetType": "erc20",
       "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
       "denomUnits": [
@@ -553,7 +553,7 @@
       "coingeckoId": "usd-coin"
     },
     {
-      "description": "Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
+      "description": "USDT (Tether) is a stablecoin that is pegged to the US dollar, designed to provide stability and liquidity within the cryptocurrency market.",
       "assetType": "erc20",
       "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
       "denomUnits": [
@@ -898,17 +898,7 @@
       "base": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
       "name": "Gelotto",
       "display": "glto",
-      "symbol": "GLTO",
-      "traces": [
-        {
-          "type": "additional-mintage",
-          "counterparty": {
-            "chainName": "juno",
-            "baseDenom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se"
-          },
-          "provider": "Gelotto"
-        }
-      ]
+      "symbol": "GLTO"
     },
     {
       "assetType": "erc20",

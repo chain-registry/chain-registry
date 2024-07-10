@@ -3,7 +3,7 @@
   "chainName": "sentinel",
   "assets": [
     {
-      "description": "DVPN is the native token of the Sentinel Hub.",
+      "description": "Sentinel is a decentralized VPN (dVPN) network that provides private and secure internet access by leveraging blockchain technology.",
       "denomUnits": [
         {
           "denom": "udvpn",

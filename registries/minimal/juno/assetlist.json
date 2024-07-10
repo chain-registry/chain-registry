@@ -128,6 +128,16 @@
       "name": "Racoon",
       "display": "rac",
       "symbol": "RAC",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "migaloo",
+            "baseDenom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac"
+          },
+          "provider": "Racoon"
+        }
+      ],
       "coingeckoId": "racoon"
     },
     {
@@ -279,7 +289,17 @@
       "base": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
       "name": "Gelotto",
       "display": "glto",
-      "symbol": "GLTO"
+      "symbol": "GLTO",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2"
+          },
+          "provider": "Gelotto"
+        }
+      ]
     },
     {
       "description": "Gelotto Year 1 Grand Prize Token",
@@ -452,7 +472,16 @@
       "name": "FURY.legacy",
       "display": "fury",
       "symbol": "FURY.legacy",
-      "coingeckoId": "fanfury"
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "furya",
+            "baseDenom": "ufury"
+          },
+          "provider": "Fanfury"
+        }
+      ]
     },
     {
       "description": "The native token cw20 for PHMN on Juno Chain",

@@ -18,7 +18,8 @@
       "base": "ppica",
       "name": "Pica",
       "display": "pica",
-      "symbol": "PICA"
+      "symbol": "PICA",
+      "coingeckoId": "picasso"
     },
     {
       "denomUnits": [

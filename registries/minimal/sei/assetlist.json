@@ -3,7 +3,7 @@
   "chainName": "sei",
   "assets": [
     {
-      "description": "The native staking token of Sei.",
+      "description": "Sei is a layer-1 blockchain optimized for trading, focusing on providing high throughput, low latency, and efficient execution for decentralized exchanges.",
       "denomUnits": [
         {
           "denom": "usei",

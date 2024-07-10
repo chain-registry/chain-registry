@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "mande",
+  "assets": [
+    {
+      "description": "The native token of Mande Network.",
+      "denomUnits": [
+        {
+          "denom": "amand",
+          "exponent": 0
+        },
+        {
+          "denom": "mand",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "amand",
+      "name": "Mande Network",
+      "display": "mand",
+      "symbol": "MAND",
+      "coingeckoId": "mande-network"
+    }
+  ]
+}

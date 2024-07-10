@@ -38,7 +38,17 @@
       "base": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
       "name": "Astroport CW20 Token",
       "display": "astro.cw20",
-      "symbol": "ASTRO.cw20"
+      "symbol": "ASTRO.cw20",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
+          },
+          "provider": "Astroport"
+        }
+      ]
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",

@@ -3,7 +3,7 @@
   "chainName": "polkadot",
   "assets": [
     {
-      "description": "The native fee, governance, staking, and bonding token of the Polkadot platform.",
+      "description": "Polkadot is a multi-chain blockchain platform that enables interoperability between different blockchains, allowing them to share information and security.",
       "denomUnits": [
         {
           "denom": "Planck",
