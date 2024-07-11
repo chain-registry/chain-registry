@@ -30,15 +30,15 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/public-awesome/stargaze",
-    "recommendedVersion": "v13.0.0",
+    "recommendedVersion": "v14.0.0",
     "compatibleVersions": [
-      "v13.0.0"
+      "v14.0.0"
     ],
-    "cosmosSdkVersion": "v0.47.10",
-    "ibcGoVersion": "v7.3.2",
+    "cosmosSdkVersion": "v0.47.12",
+    "ibcGoVersion": "v7.6.0",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.37.4"
+      "version": "v0.37.6"
     },
     "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
@@ -93,6 +93,24 @@
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
+        },
+        "cosmwasmVersion": "v0.45.0",
+        "cosmwasmEnabled": true,
+        "nextVersionName": "v14"
+      },
+      {
+        "name": "v14",
+        "proposal": 279,
+        "height": 14252867,
+        "recommendedVersion": "v14.0.0",
+        "compatibleVersions": [
+          "v14.0.0"
+        ],
+        "cosmosSdkVersion": "v0.47.12",
+        "ibcGoVersion": "v7.6.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.6"
         },
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,

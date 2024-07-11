@@ -14900,6 +14900,54 @@
           }
         }
       ]
+    },
+    {
+      "description": "The native token of Mande Network.",
+      "denomUnits": [
+        {
+          "denom": "ibc/739D70CB432FE1C6D94AF306B68C14F4CFB0B9EDD1238D3A8718B1B0E84E8547",
+          "exponent": 0,
+          "aliases": [
+            "amand",
+            "ibc/5A26C8DC8DA66F4DD94326E67F94510188F5F7AFE2DB3933A0C823670E56EABF"
+          ]
+        },
+        {
+          "denom": "mand",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/739D70CB432FE1C6D94AF306B68C14F4CFB0B9EDD1238D3A8718B1B0E84E8547",
+      "name": "Mande Network",
+      "display": "mand",
+      "symbol": "MAND",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "mande",
+            "baseDenom": "amand",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-51",
+            "path": "transfer/channel-51/amand"
+          }
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "dymension",
+            "baseDenom": "ibc/5A26C8DC8DA66F4DD94326E67F94510188F5F7AFE2DB3933A0C823670E56EABF",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-19774",
+            "path": "transfer/channel-19774/transfer/channel-51/amand"
+          }
+        }
+      ]
     }
   ]
 }

@@ -130,9 +130,9 @@
   "explorers": [
     {
       "kind": "bigdipper",
-      "url": "https://bigdipper.live/cheqd",
-      "txPage": "https://bigdipper.live/cheqd/transactions/${txHash}",
-      "accountPage": "https://bigdipper.live/cheqd/accounts/${accountAddress}"
+      "url": "https://explorer.cheqd.io",
+      "txPage": "https://explorer.cheqd.io/transactions/${txHash}",
+      "accountPage": "https://explorer.cheqd.io/accounts/${accountAddress}"
     },
     {
       "kind": "ping.pub",

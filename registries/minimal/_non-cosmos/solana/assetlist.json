@@ -438,6 +438,25 @@
           "exponent": 6
         }
       ]
+    },
+    {
+      "description": "Pepe Bruce Jenner",
+      "assetType": "erc20",
+      "address": "ANu4Wuq86WzRU8tykszQUJ66eQzFNfkwap2HcQ5UaFaU",
+      "denomUnits": [
+        {
+          "denom": "ANu4Wuq86WzRU8tykszQUJ66eQzFNfkwap2HcQ5UaFaU",
+          "exponent": 0
+        },
+        {
+          "denom": "pbj",
+          "exponent": 5
+        }
+      ],
+      "base": "ANu4Wuq86WzRU8tykszQUJ66eQzFNfkwap2HcQ5UaFaU",
+      "name": "Pepe Bruce Jenner",
+      "display": "pbj",
+      "symbol": "PBJ"
     }
   ]
 }
