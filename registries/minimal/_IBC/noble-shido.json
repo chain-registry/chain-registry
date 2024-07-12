@@ -2,22 +2,22 @@
   "$schema": "../ibc_data.schema.json",
   "chain1": {
     "chainName": "noble",
-    "clientId": "07-tendermint-105",
-    "connectionId": "connection-97"
+    "clientId": "07-tendermint-106",
+    "connectionId": "connection-99"
   },
   "chain2": {
     "chainName": "shido",
-    "clientId": "07-tendermint-8",
-    "connectionId": "connection-6"
+    "clientId": "07-tendermint-9",
+    "connectionId": "connection-11"
   },
   "channels": [
     {
       "chain1": {
-        "channelId": "channel-84",
+        "channelId": "channel-87",
         "portId": "transfer"
       },
       "chain2": {
-        "channelId": "channel-4",
+        "channelId": "channel-5",
         "portId": "transfer"
       },
       "ordering": "unordered",

@@ -3,7 +3,7 @@
   "chainName": "cifer",
   "assets": [
     {
-      "description": "Decentralized Machine Learning",
+      "description": "Cifer Blockchain Network Built for Decentralized Machine Learning.",
       "denomUnits": [
         {
           "denom": "ucif",

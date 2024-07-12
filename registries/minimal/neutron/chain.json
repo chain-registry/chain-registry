@@ -58,10 +58,10 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "neutron-org/cosmos-sdk v0.47.10-neutron",
-    "cosmwasmVersion": "neutron-org/wasmd v0.45.0",
+    "cosmosSdkVersion": "neutron-org/cosmos-sdk v0.50.7-neutron",
+    "cosmwasmVersion": "neutron-org/wasmd v0.51.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.4.0"
+    "ibcGoVersion": "v8.2.1"
   },
   "description": "The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.",
   "apis": {
@@ -175,10 +175,21 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-black-logo.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-black-logo.svg",
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-raw.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-raw.svg",
       "theme": {
-        "primaryColorHex": "#040404"
+        "primaryColorHex": "#000000",
+        "backgroundColorHex": "#00000000",
+        "circle": false
+      }
+    },
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg",
+      "theme": {
+        "primaryColorHex": "#040404",
+        "backgroundColorHex": "#000000",
+        "circle": true
       }
     }
   ]
