@@ -38,23 +38,17 @@
         "address": "https://rpc2.neutaro.tech:443"
       },
       {
-        "address": "https://rpc-neutaro.blockval.io"
+        "address": "https://rpc3.neutaro.tech:26657"
       }
     ],
     "rest": [
       {
         "address": "https://api2.neutaro.tech:443"
-      },
-      {
-        "address": "https://api-neutaro.blockval.io"
       }
     ],
     "grpc": [
       {
         "address": "https://grpc2.neutaro.tech:443"
-      },
-      {
-        "address": "https://grpc-neutaro.blockval.io"
       }
     ]
   },

@@ -113,13 +113,13 @@
         "address": "https://archway.api.trivium.network:26657"
       },
       {
-        "address": "https://archway-rpc.tienthuattoan.ventures"
-      },
-      {
         "address": "https://archway-rpc.stakeandrelax.net"
       },
       {
         "address": "https://rpc.archway.bronbro.io:443"
+      },
+      {
+        "address": "https://rpc-archway.luckyfriday.io/"
       },
       {
         "address": "https://archway-rpc.noders.services"

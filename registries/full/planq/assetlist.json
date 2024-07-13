@@ -85,6 +85,52 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/srcx.png"
       },
       "assetType": "erc20"
+    },
+    {
+      "description": "MEME Token (MEME) is the native staking token of the MEME Chain",
+      "denomUnits": [
+        {
+          "denom": "ibc/747FF58D3F211497581252CEBE11D7E785FC1E53AC5C29497A361E3830F1AF4A",
+          "exponent": 0
+        },
+        {
+          "denom": "meme",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/747FF58D3F211497581252CEBE11D7E785FC1E53AC5C29497A361E3830F1AF4A",
+      "name": "MEME",
+      "display": "meme",
+      "symbol": "MEME",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg"
+      },
+      "assetType": "ics20",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "meme",
+            "baseDenom": "umeme",
+            "channelId": "channel-11"
+          },
+          "chain": {
+            "channelId": "channel-64",
+            "path": "transfer/channel-64/umeme"
+          }
+        }
+      ],
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg",
+          "imageSync": {
+            "chainName": "meme",
+            "baseDenom": "umeme"
+          }
+        }
+      ]
     }
   ]
 }

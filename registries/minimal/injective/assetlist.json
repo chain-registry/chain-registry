@@ -91,6 +91,24 @@
       "assetType": "sdk.factory"
     },
     {
+      "description": "BackBone Labs Liquid Staked Injective",
+      "denomUnits": [
+        {
+          "denom": "factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ",
+          "exponent": 0
+        },
+        {
+          "denom": "bINJ",
+          "exponent": 18
+        }
+      ],
+      "base": "factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ",
+      "name": "BackBone Labs Liquid Staked Injective",
+      "display": "bINJ",
+      "symbol": "bINJ",
+      "assetType": "sdk.factory"
+    },
+    {
       "description": "The first meme coin on Injective. It’s a dog, but he has nunchucks",
       "denomUnits": [
         {

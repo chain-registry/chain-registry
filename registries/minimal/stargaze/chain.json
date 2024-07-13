@@ -232,7 +232,7 @@
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg",
       "theme": {
-        "primaryColorHex": "#b7dfbd"
+        "primaryColorHex": "#db2777"
       }
     }
   ]
