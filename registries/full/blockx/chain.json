@@ -1,0 +1,27 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "blockx",
+  "status": "live",
+  "networkType": "mainnet",
+  "website": "https://www.blockxnet.com/",
+  "prettyName": "BlockX",
+  "chainId": "blockx_19191-1",
+  "bech32Prefix": "blockx",
+  "nodeHome": "$HOME/.blockxd",
+  "daemonName": "blockxd",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "abcx"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/blockx/images/blockx.png"
+    }
+  ]
+}

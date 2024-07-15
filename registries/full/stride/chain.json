@@ -709,15 +709,19 @@
     }
   ],
   "logoURIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stride-chain-logo.png",
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
   },
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stride-chain-logo.png",
+      "imageSync": {
+        "chainName": "stride",
+        "baseDenom": "ustrd"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg",
       "theme": {
-        "primaryColorHex": "#242424"
+        "primaryColorHex": "#e4047c"
       }
     }
   ]
