@@ -70,6 +70,9 @@
       },
       {
         "address": "https://seda-rpc.bluestake.net:443"
+      },
+      {
+        "address": "https://seda_mainnet_rpc.chain.whenmoonwhenlambo.money:443"
       }
     ],
     "rest": [
@@ -108,6 +111,9 @@
       },
       {
         "address": "https://seda-api.bluestake.net"
+      },
+      {
+        "address": "https://seda_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -158,6 +164,12 @@
       "url": "https://explorer.256x25.tech/seda-mainnet",
       "txPage": "https://explorer.256x25.tech/seda-mainnet/tx/${txHash}",
       "accountPage": "https://explorer.256x25.tech/seda-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/seda",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/seda/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/seda/account/${accountAddress}"
     }
   ],
   "images": [

@@ -37,6 +37,9 @@
       },
       {
         "address": "https://sifchain-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://sifchain_mainnet_rpc.chain.whenmoonwhenlambo.money:443"
       }
     ],
     "rest": [
@@ -54,6 +57,9 @@
       },
       {
         "address": "https://sifchain.api.m.stavr.tech"
+      },
+      {
+        "address": "https://sifchain_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -85,6 +91,12 @@
       "url": "https://explorer.stavr.tech/Sifchain",
       "txPage": "https://explorer.stavr.tech/Sifchain/tx/${txHash}",
       "accountPage": "https://explorer.stavr.tech/Sifchain/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/sifchain",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/sifchain/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/sifchain/account/${accountAddress}"
     }
   ],
   "images": [

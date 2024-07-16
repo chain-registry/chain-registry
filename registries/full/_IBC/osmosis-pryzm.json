@@ -26,6 +26,54 @@
         "status": "live",
         "preferred": true
       }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-76804",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-15",
+        "portId": "icacontroller-reward-uosmo"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-76805",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-16",
+        "portId": "icacontroller-sweep-uosmo"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-79080",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-22",
+        "portId": "icacontroller-delegation-uosmo"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
     }
   ]
 }

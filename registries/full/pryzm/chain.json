@@ -1,6 +1,8 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "pryzm",
+  "website": "https://pryzm.zone",
+  "description": "Trade Your Future Yield, Today",
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Pryzm",
@@ -15,11 +17,53 @@
   "fees": {
     "feeTokens": [
       {
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "fixedMinGasPrice": 0.0025,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.003,
+        "highGasPrice": 0.004
+      },
+      {
+        "denom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
+        "fixedMinGasPrice": 500000000,
+        "lowGasPrice": 500000000,
+        "averageGasPrice": 600000000,
+        "highGasPrice": 700000000
+      },
+      {
+        "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.03,
+        "highGasPrice": 0.04
+      },
+      {
+        "denom": "ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676",
+        "fixedMinGasPrice": 0.002,
+        "lowGasPrice": 0.002,
+        "averageGasPrice": 0.003,
+        "highGasPrice": 0.004
+      },
+      {
+        "denom": "ibc/B8AF5D92165F35AB31F3FC7C7B444B9D240760FA5D406C49D24862BD0284E395",
+        "fixedMinGasPrice": 0.015,
+        "lowGasPrice": 0.015,
+        "averageGasPrice": 0.02,
+        "highGasPrice": 0.03
+      },
+      {
+        "denom": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
+        "fixedMinGasPrice": 0.02,
+        "lowGasPrice": 0.02,
+        "averageGasPrice": 0.03,
+        "highGasPrice": 0.04
+      },
+      {
         "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu",
-        "fixedMinGasPrice": 0,
+        "fixedMinGasPrice": 0.01,
         "lowGasPrice": 0.01,
-        "averageGasPrice": 0.01,
-        "highGasPrice": 0.01
+        "averageGasPrice": 0.015,
+        "highGasPrice": 0.02
       }
     ]
   },
@@ -28,55 +72,39 @@
       {
         "denom": "upryzm"
       }
-    ]
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
   },
   "codebase": {
     "gitRepo": "https://github.com/pryzm-finance/pryzm-core",
-    "recommendedVersion": "v0.17.0",
+    "recommendedVersion": "v0.18.0",
     "compatibleVersions": [
-      "v0.17.0"
+      "v0.18.0"
     ],
-    "cosmosSdkVersion": "v0.47.10",
+    "binaries": {
+      "darwin/amd64": "https://storage.googleapis.com/pryzm-zone/core/0.18.0/pryzmd-0.18.0-darwin-amd64",
+      "darwin/arm64": "https://storage.googleapis.com/pryzm-zone/core/0.18.0/pryzmd-0.18.0-darwin-arm64",
+      "linux/amd64": "https://storage.googleapis.com/pryzm-zone/core/0.18.0/pryzmd-0.18.0-linux-amd64",
+      "linux/arm64": "https://storage.googleapis.com/pryzm-zone/core/0.18.0/pryzmd-0.18.0-linux-arm64"
+    },
+    "goVersion": "1.22",
+    "cosmosSdkVersion": "v0.47.11",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.5"
     },
     "ibcGoVersion": "v7.4.1",
+    "icsEnabled": [
+      "ics20-1",
+      "ics27-1"
+    ],
+    "cosmwasmEnabled": true,
+    "cosmwasmVersion": "v0.45.0",
     "genesis": {
       "genesisUrl": "https://storage.googleapis.com/pryzm-zone/pryzm-1/genesis.json"
-    },
-    "versions": [
-      {
-        "name": "v0.16.0",
-        "recommendedVersion": "v0.16.0",
-        "compatibleVersions": [
-          "v0.16.0"
-        ],
-        "cosmosSdkVersion": "0.47.10",
-        "consensus": {
-          "type": "tendermint",
-          "version": "0.37.4"
-        },
-        "ibcGoVersion": "7.4.0",
-        "nextVersionName": "v0.17.0"
-      },
-      {
-        "name": "v0.17.0",
-        "proposal": 5,
-        "height": 542700,
-        "recommendedVersion": "v0.17.0",
-        "compatibleVersions": [
-          "v0.17.0"
-        ],
-        "cosmosSdkVersion": "v0.47.10",
-        "consensus": {
-          "type": "cometbft",
-          "version": "0.37.5"
-        },
-        "ibcGoVersion": "7.4.1",
-        "nextVersionName": ""
-      }
-    ]
+    }
   },
   "peers": {
     "seeds": [
@@ -157,13 +185,19 @@
       "kind": "Chainscope",
       "url": "https://chainsco.pe/pryzm",
       "txPage": "https://chainsco.pe/pryzm/tx/${txHash}",
-      "accountPage": "https://chainsco.pe/pryzm/address/${accountAddress}"
+      "accountPage": "https://chainsco.pe/pryzm/address/${accountAddress}",
+      "blockPage": "https://chainsco.pe/pryzm/block/${blockHeight}",
+      "proposalPage": "https://chainsco.pe/pryzm/governance/proposal/${proposalId}",
+      "validatorPage": "https://chainsco.pe/pryzm/validator/${validatorAddress}"
     },
     {
       "kind": "PingPub",
       "url": "https://cosmosrun.info/pryzm",
       "txPage": "https://cosmosrun.info/pryzm/tx/${txHash}",
-      "accountPage": "https://cosmosrun.info/pryzm/account/${accountAddress}"
+      "accountPage": "https://cosmosrun.info/pryzm/account/${accountAddress}",
+      "blockPage": "https://cosmosrun.info/pryzm/blocks/${blockHeight}",
+      "proposalPage": "https://cosmosrun.info/pryzm/gov/${proposalId}",
+      "validatorPage": "https://cosmosrun.info/pryzm/staking/${validatorAddress}"
     }
   ],
   "images": [

@@ -39,9 +39,9 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.45.16",
+    "cosmosSdkVersion": "noble-assets/cosmos-sdk v0.45.16-send-restrictions",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v4.5.1",
+    "ibcGoVersion": "v4.6.0",
     "icsEnabled": [
       "ics20-1"
     ]

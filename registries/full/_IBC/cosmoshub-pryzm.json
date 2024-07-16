@@ -26,6 +26,54 @@
         "status": "live",
         "preferred": true
       }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-863",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-8",
+        "portId": "icacontroller-reward-uatom"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-861",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-9",
+        "portId": "icacontroller-sweep-uatom"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-891",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-20",
+        "portId": "icacontroller-delegation-uatom"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
     }
   ]
 }

@@ -26,6 +26,54 @@
         "status": "live",
         "preferred": true
       }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-285",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-10",
+        "portId": "icacontroller-delegation-inj"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-286",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-11",
+        "portId": "icacontroller-reward-inj"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-287",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-12",
+        "portId": "icacontroller-sweep-inj"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
     }
   ]
 }
