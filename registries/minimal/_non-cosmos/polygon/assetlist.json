@@ -61,7 +61,40 @@
       "coingeckoId": "wmatic"
     },
     {
-      "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+      "description": "USDC issued on Polygon.",
+      "assetType": "erc20",
+      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "denomUnits": [
+        {
+          "denom": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "name": "USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Circle"
+        }
+      ],
+      "coingeckoId": "usd-coin"
+    },
+    {
+      "description": "USDC Bridged from Ethereum via Polygon PoS Bridge.",
       "assetType": "erc20",
       "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
       "denomUnits": [
@@ -78,20 +111,20 @@
         }
       ],
       "base": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-      "name": "USD Coin",
+      "name": "Bridged USDC",
       "display": "usdc",
-      "symbol": "USDC",
+      "symbol": "USDC.e",
       "traces": [
         {
-          "type": "additional-mintage",
+          "type": "bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
           },
-          "provider": "Circle"
+          "provider": "Polygon PoS Bridge"
         }
       ],
-      "coingeckoId": "usd-coin"
+      "coingeckoId": "bridged-usdc-polygon-pos-bridge"
     },
     {
       "description": "Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.",

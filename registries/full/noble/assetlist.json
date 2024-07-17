@@ -169,6 +169,7 @@
     },
     {
       "description": "Ondo US Dollar Yield",
+      "extendedDescription": "USDY is a tokenized note secured by short-term US Treasuries and bank demand deposits. USDY is accessible to non-US individual and institutional investors and is transferable onchain 40-50 days after purchase.",
       "denomUnits": [
         {
           "denom": "ausdy",
@@ -199,6 +200,10 @@
           }
         }
       ],
+      "socials": {
+        "website": "https://ondo.finance/usdy",
+        "twitter": "https://x.com/OndoFinance"
+      },
       "assetType": "sdk.coin"
     }
   ]

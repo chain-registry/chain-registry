@@ -55,7 +55,7 @@
       "coingeckoId": "wrapped-avax"
     },
     {
-      "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+      "description": "USDC issued on Avalanche.",
       "assetType": "erc20",
       "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
       "denomUnits": [
@@ -72,7 +72,7 @@
         }
       ],
       "base": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
-      "name": "USD Coin",
+      "name": "USDC",
       "display": "usdc",
       "symbol": "USDC",
       "traces": [
@@ -86,6 +86,39 @@
         }
       ],
       "coingeckoId": "usd-coin"
+    },
+    {
+      "description": "USDC Bridged from Ethereum via Avalanche Bridge.",
+      "assetType": "erc20",
+      "address": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+      "denomUnits": [
+        {
+          "denom": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+      "name": "Bridged USDC",
+      "display": "usdc",
+      "symbol": "USDC.e",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Avalanche Bridge"
+        }
+      ],
+      "coingeckoId": "usd-coin-avalanche-bridged-usdc-e"
     },
     {
       "description": "Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.",

@@ -14948,6 +14948,54 @@
           }
         }
       ]
+    },
+    {
+      "description": "Jacob Haertnellez Turtle. Launched by Jake's Personally appointed TURD Cult Leader...\"NotSeanO'Riley.\" TURD is going to lead the shitcoins of Cosmos! Or Rug You. It will be Jake's Fault. ",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/turd",
+          "exponent": 0
+        },
+        {
+          "denom": "TURD",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/turd",
+      "name": "TURDLE",
+      "display": "TURD",
+      "symbol": "TURD"
+    },
+    {
+      "description": "An alloy of ETH asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH",
+          "exponent": 0
+        },
+        {
+          "denom": "allETH",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm",
+      "base": "factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH",
+      "name": "Alloyed ETH",
+      "display": "allETH",
+      "symbol": "allETH",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "wei"
+          },
+          "provider": "Osmosis"
+        }
+      ]
     }
   ]
 }

@@ -67,6 +67,72 @@
       "display": "0xab19bdaeb37242fa0f30486195f45b9cf5361b78",
       "name": "cGLP",
       "symbol": "cGLP"
+    },
+    {
+      "description": "USDC issued on Arbitrum.",
+      "assetType": "erc20",
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "denomUnits": [
+        {
+          "denom": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "name": "USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Circle"
+        }
+      ],
+      "coingeckoId": "usd-coin"
+    },
+    {
+      "description": "This is a bridged USDC token deployed by Arbitrum Foundation.",
+      "assetType": "erc20",
+      "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+      "denomUnits": [
+        {
+          "denom": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+      "name": "Bridged USDC",
+      "display": "usdc",
+      "symbol": "USDC.e",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Arbitrum Bridge"
+        }
+      ],
+      "coingeckoId": "usd-coin-ethereum-bridged"
     }
   ]
 }
