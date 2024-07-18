@@ -3,6 +3,34 @@
   "chainName": "base",
   "assets": [
     {
+      "description": "Ether (ETH) is the native currency of Base.",
+      "assetType": "evm-base",
+      "denomUnits": [
+        {
+          "denom": "wei",
+          "exponent": 0
+        },
+        {
+          "denom": "eth",
+          "exponent": 18
+        }
+      ],
+      "base": "wei",
+      "display": "eth",
+      "name": "Ether",
+      "symbol": "ETH",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "wei"
+          },
+          "provider": "Base Bridge"
+        }
+      ]
+    },
+    {
       "description": "wETH is 'wrapped ETH'",
       "assetType": "erc20",
       "denomUnits": [
@@ -22,22 +50,22 @@
       "symbol": "WETH",
       "traces": [
         {
-          "type": "bridge",
+          "type": "wrapped",
           "counterparty": {
-            "chainName": "ethereum",
-            "baseDenom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            "chainName": "base",
+            "baseDenom": "wei"
           },
-          "provider": "Base Bridge"
+          "provider": "Base"
         }
       ]
     },
     {
       "description": "USDC issued on Base.",
       "assetType": "erc20",
-      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 ",
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
       "denomUnits": [
         {
-          "denom": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 ",
+          "denom": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
           "exponent": 0,
           "aliases": [
             "uusdc"
@@ -48,7 +76,7 @@
           "exponent": 6
         }
       ],
-      "base": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913 ",
+      "base": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
       "name": "USDC",
       "display": "usdc",
       "symbol": "USDC",

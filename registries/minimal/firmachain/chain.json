@@ -3,7 +3,7 @@
   "chainName": "firmachain",
   "networkType": "mainnet",
   "website": "https://firmachain.org/",
-  "prettyName": "FirmaChain",
+  "prettyName": "FIRMACHAIN",
   "chainId": "colosseum-1",
   "bech32Prefix": "firma",
   "slip44": 7777777,

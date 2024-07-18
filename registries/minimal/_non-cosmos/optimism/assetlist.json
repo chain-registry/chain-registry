@@ -23,6 +23,7 @@
       "coingeckoId": "optimism"
     },
     {
+      "description": "Ether (ETH) is the native currency of Optimism.",
       "assetType": "evm-base",
       "denomUnits": [
         {
@@ -40,9 +41,38 @@
       "symbol": "ETH",
       "traces": [
         {
-          "type": "additional-mintage",
+          "type": "bridge",
           "counterparty": {
             "chainName": "ethereum",
+            "baseDenom": "wei"
+          },
+          "provider": "Optimism Bridge"
+        }
+      ]
+    },
+    {
+      "description": "wETH is 'wrapped ETH'",
+      "assetType": "erc20",
+      "denomUnits": [
+        {
+          "denom": "0x4200000000000000000000000000000000000006",
+          "exponent": 0
+        },
+        {
+          "denom": "weth",
+          "exponent": 18
+        }
+      ],
+      "address": "0x4200000000000000000000000000000000000006",
+      "base": "0x4200000000000000000000000000000000000006",
+      "display": "weth",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "optimism",
             "baseDenom": "wei"
           },
           "provider": "Optimism"

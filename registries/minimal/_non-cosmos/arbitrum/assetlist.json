@@ -26,6 +26,34 @@
       "coingeckoId": "arbitrum"
     },
     {
+      "description": "Ether (ETH) is the native currency of Arbitrum.",
+      "assetType": "evm-base",
+      "denomUnits": [
+        {
+          "denom": "wei",
+          "exponent": 0
+        },
+        {
+          "denom": "eth",
+          "exponent": 18
+        }
+      ],
+      "base": "wei",
+      "display": "eth",
+      "name": "Ether",
+      "symbol": "ETH",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "provider": "Arbitrum Bridge"
+        }
+      ]
+    },
+    {
       "description": "wETH is 'wrapped ETH'",
       "assetType": "erc20",
       "denomUnits": [
@@ -45,12 +73,12 @@
       "symbol": "WETH",
       "traces": [
         {
-          "type": "bridge",
+          "type": "wrapped",
           "counterparty": {
-            "chainName": "ethereum",
-            "baseDenom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            "chainName": "arbitrum",
+            "baseDenom": "wei"
           },
-          "provider": "Arbitrum Bridge"
+          "provider": "Arbitrum"
         }
       ]
     },
