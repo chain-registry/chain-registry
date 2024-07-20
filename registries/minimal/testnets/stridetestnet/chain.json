@@ -3,7 +3,7 @@
   "chainName": "stridetestnet",
   "networkType": "testnet",
   "prettyName": "Stride Testnet",
-  "chainId": "stride-testnet-1",
+  "chainId": "stride-internal-1",
   "bech32Prefix": "stride",
   "keyAlgos": [
     "secp256k1"
