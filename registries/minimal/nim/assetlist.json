@@ -18,7 +18,8 @@
       "base": "anim",
       "name": "NIM Network",
       "display": "nim",
-      "symbol": "NIM"
+      "symbol": "NIM",
+      "coingeckoId": "nim-network"
     }
   ]
 }

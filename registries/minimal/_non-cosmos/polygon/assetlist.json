@@ -314,6 +314,36 @@
           "provider": "Polygon PoS Bridge"
         }
       ]
+    },
+    {
+      "description": "USDT from Ethereum bridged to Polygon via Polygon PoS Bridge.",
+      "assetType": "erc20",
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "denomUnits": [
+        {
+          "denom": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "base": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "name": "Polygon Bridged USDT",
+      "display": "usdt",
+      "symbol": "USDT",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Polygon PoS Bridge"
+        }
+      ],
+      "coingeckoId": "polygon-bridged-usdt-polygon"
     }
   ]
 }

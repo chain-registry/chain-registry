@@ -55,6 +55,9 @@
       },
       {
         "address": "https://ixo-rpc.bluestake.net:443"
+      },
+      {
+        "address": "https://impacthub_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -78,6 +81,9 @@
       },
       {
         "address": "https://ixo-api.bluestake.net"
+      },
+      {
+        "address": "https://impacthub_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -126,6 +132,12 @@
       "url": "https://www.mintscan.io/ixo",
       "txPage": "https://www.mintscan.io/ixo/transactions/${txHash}",
       "accountPage": "https://www.mintscan.io/ixo/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/ixo",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/ixo/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/ixo/account/${accountAddress}"
     }
   ],
   "images": [

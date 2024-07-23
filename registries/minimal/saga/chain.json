@@ -63,6 +63,9 @@
       },
       {
         "address": "https://saga-rpc.lavenderfive.com:443"
+      },
+      {
+        "address": "https://saga-rpc.stakeandrelax.net"
       }
     ],
     "rest": [
@@ -86,6 +89,9 @@
       },
       {
         "address": "https://saga-api.lavenderfive.com:443"
+      },
+      {
+        "address": "https://saga-api.stakeandrelax.net"
       }
     ],
     "grpc": [
@@ -106,6 +112,9 @@
       },
       {
         "address": "https://saga-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "http://saga-grpc.stakeandrelax.net:24990"
       }
     ]
   },

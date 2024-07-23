@@ -14996,6 +14996,35 @@
           "provider": "Osmosis"
         }
       ]
+    },
+    {
+      "description": "An alloy of SOL asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4/alloyed/allSOL",
+          "exponent": 0
+        },
+        {
+          "denom": "allSOL",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4",
+      "base": "factory/osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4/alloyed/allSOL",
+      "name": "Alloyed SOL",
+      "display": "allSOL",
+      "symbol": "allSOL",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Osmosis"
+        }
+      ]
     }
   ]
 }

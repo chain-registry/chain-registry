@@ -130,6 +130,7 @@
       "display": "usdy",
       "name": "Ondo US Dollar Yield",
       "symbol": "USDY",
+      "coingeckoId": "ondo-us-dollar-yield",
       "assetType": "sdk.coin"
     }
   ]

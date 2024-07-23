@@ -60,7 +60,7 @@
         "address": "https://composable.rpc.stakevillage.net:443"
       },
       {
-        "address": "https://composable-rpc.stakeandrelax.net"
+        "address": "https://picasso-rpc.stakeandrelax.net"
       },
       {
         "address": "https://rpc.centauri.bronbro.io:443"
@@ -101,7 +101,7 @@
         "address": "https://composable.api.stakevillage.net"
       },
       {
-        "address": "https://composable-api.stakeandrelax.net"
+        "address": "https://picasso-api.stakeandrelax.net"
       },
       {
         "address": "https://lcd.centauri.bronbro.io:443"
@@ -148,7 +148,7 @@
         "address": "composable.grpc.stakevillage.net:16190"
       },
       {
-        "address": "composable-rpc.stakeandrelax.net:22290"
+        "address": "picasso-rpc.stakeandrelax.net:22290"
       },
       {
         "address": "grpc.composable.validatus.com"

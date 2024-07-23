@@ -114,6 +114,9 @@
       },
       {
         "address": "https://bitcanna.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://bitcanna_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -259,6 +262,9 @@
       },
       {
         "address": "https://bitcanna.api.nodeshub.online"
+      },
+      {
+        "address": "https://bitcanna_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ]
   },
@@ -364,6 +370,12 @@
       "url": "https://explorer.nodeshub.online/bitcanna/",
       "txPage": "https://explorer.nodeshub.online/bitcanna/tx/${txHash}",
       "accountPage": "https://explorer.nodeshub.online/bitcanna/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/bitcanna",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/bitcanna/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/bitcanna/account/${accountAddress}"
     }
   ],
   "images": [

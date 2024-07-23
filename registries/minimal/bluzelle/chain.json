@@ -45,6 +45,9 @@
       },
       {
         "address": "https://c.client.sentry.net.bluzelle.com:26657"
+      },
+      {
+        "address": "https://bluzelle_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -59,6 +62,9 @@
       },
       {
         "address": "https://bluzelle-api.genznodes.dev/"
+      },
+      {
+        "address": "https://bluzelle_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -101,6 +107,12 @@
       "kind": "Nodine.ID",
       "url": "https://explorer.co.id/bluzelle",
       "txPage": "https://explorer.co.id/bluzelle/transaction/${txHash}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/bluzelle",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/bluzelle/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/bluzelle/account/${accountAddress}"
     }
   ],
   "images": [

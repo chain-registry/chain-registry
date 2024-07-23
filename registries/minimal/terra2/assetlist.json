@@ -855,6 +855,58 @@
       "display": "ashLUNA",
       "symbol": "ashLUNA",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+      "denomUnits": [
+        {
+          "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "exponent": 0,
+          "aliases": [
+            "microusdc",
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+      "name": "USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "forex",
+            "baseDenom": "USD"
+          },
+          "provider": "Circle"
+        },
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Circle"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "noble",
+            "baseDenom": "uusdc",
+            "channelId": "channel-30"
+          },
+          "chain": {
+            "channelId": "channel-253",
+            "path": "transfer/channel-253/uusdc"
+          }
+        }
+      ]
     }
   ]
 }

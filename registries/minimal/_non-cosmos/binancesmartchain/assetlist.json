@@ -151,6 +151,36 @@
       "display": "srcx",
       "symbol": "SRCX",
       "coingeckoId": "source-protocol"
+    },
+    {
+      "description": "BUSD-T gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
+      "assetType": "erc20",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "denomUnits": [
+        {
+          "denom": "0x55d398326f99059fF775485246999027B3197955",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "base": "0x55d398326f99059fF775485246999027B3197955",
+      "name": "Binance Bridged USDT",
+      "display": "usdt",
+      "symbol": "USDT",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Binance Bridge"
+        }
+      ],
+      "coingeckoId": "binance-bridged-usdt-bnb-smart-chain"
     }
   ]
 }
