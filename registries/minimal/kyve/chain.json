@@ -29,8 +29,8 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.47.6-kyve-rc0",
-    "ibcGoVersion": "v7.3.0"
+    "cosmosSdkVersion": "v0.50.7-kyve-rc0",
+    "ibcGoVersion": "v8.3.1"
   },
   "description": "Revolutionizing data reliability in the Web3 space, KYVE Network provides fast and easy tooling for data validation, immutability, and retrieval, ensuring trustless data for seamless scalability and eliminating data risks and roadblocks.",
   "apis": {

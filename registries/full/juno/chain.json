@@ -40,21 +40,21 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/CosmosContracts/juno",
-    "recommendedVersion": "v22.0.1",
+    "recommendedVersion": "v23.0.0",
     "compatibleVersions": [
-      "v22.0.1"
+      "v23.0.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v22.0.1/junod"
+      "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v23.0.0/junod"
     },
-    "cosmosSdkVersion": "v0.47.11-0.20240417094812-f556fd956fb1",
+    "cosmosSdkVersion": "v0.47.12",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.37.5"
+      "version": "v0.37.8"
     },
     "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.4.0",
+    "ibcGoVersion": "v7.6.0",
     "genesis": {
       "genesisUrl": "https://download.dimi.sh/juno-phoenix2-genesis.tar.gz"
     },
@@ -249,6 +249,27 @@
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v7.4.0",
+        "nextVersionName": "v23"
+      },
+      {
+        "name": "v23",
+        "proposal": 352,
+        "height": 18032000,
+        "recommendedVersion": "v23.0.0",
+        "compatibleVersions": [
+          "v23.0.0"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v23.0.0/junod"
+        },
+        "cosmosSdkVersion": "v0.47.12",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.8"
+        },
+        "cosmwasmVersion": "v0.45.0",
+        "cosmwasmEnabled": true,
+        "ibcGoVersion": "v7.6.0",
         "nextVersionName": ""
       }
     ]

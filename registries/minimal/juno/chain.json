@@ -36,10 +36,10 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.47.11-0.20240417094812-f556fd956fb1",
+    "cosmosSdkVersion": "v0.47.12",
     "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.4.0"
+    "ibcGoVersion": "v7.6.0"
   },
   "description": "Juno is a completely community owned and operated smart contract platform.",
   "apis": {
