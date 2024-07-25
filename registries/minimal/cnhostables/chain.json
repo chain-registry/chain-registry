@@ -1,0 +1,66 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "cnhostables",
+  "networkType": "mainnet",
+  "website": "https://cnho.io/",
+  "prettyName": "CNHO Stables",
+  "chainId": "cnho_stables-1",
+  "bech32Prefix": "cnho",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ucnho",
+        "fixedMinGasPrice": 0.000005,
+        "lowGasPrice": 0.000001,
+        "averageGasPrice": 0.00001,
+        "highGasPrice": 0.025
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ucnho"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.46.7",
+    "cosmwasmEnabled": false
+  },
+  "description": "CNHO Stables Network is designed to facilitate the real world asset in Cosmos ecosystem.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.cnho.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.cnho.io"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "159.138.232.248:9090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "url": "https://explorer.cnho.io",
+      "txPage": "https://explorer.cnho.io/transaction/${txHash}",
+      "accountPage": "https://explorer.cnho.io/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.svg",
+      "theme": {
+        "primaryColorHex": "#708ffc"
+      }
+    }
+  ]
+}

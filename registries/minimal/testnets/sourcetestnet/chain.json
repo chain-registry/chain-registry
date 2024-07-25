@@ -35,6 +35,12 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://source-testnet-rpc.itrocket.net/"
+      },
+      {
+        "address": "https://source-test.rpc.moonbridge.team/"
+      },
+      {
         "address": "https://source-testnet-rpc.stake-town.com:443"
       },
       {
@@ -45,6 +51,12 @@
       }
     ],
     "rest": [
+      {
+        "address": "https://source-testnet-api.itrocket.net/"
+      },
+      {
+        "address": "https://source-test.api.moonbridge.team/"
+      },
       {
         "address": "https://source-testnet-api.stake-town.com:443"
       },

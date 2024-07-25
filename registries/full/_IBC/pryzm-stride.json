@@ -1,0 +1,31 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "pryzm",
+    "clientId": "07-tendermint-8",
+    "connectionId": "connection-8"
+  },
+  "chain2": {
+    "chainName": "stride",
+    "clientId": "07-tendermint-145",
+    "connectionId": "connection-145"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-23",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-257",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

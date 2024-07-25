@@ -1556,6 +1556,24 @@
       "name": "Arena Token",
       "display": "arena",
       "symbol": "ARENA"
+    },
+    {
+      "description": "ashWIND",
+      "denomUnits": [
+        {
+          "denom": "factory/juno16uprl38e4ljj5ctuha9ehpvp2l93z3d5jmwj2cttt6jkhlrhscpqgglalk/wind.ash",
+          "exponent": 0
+        },
+        {
+          "denom": "ashWIND",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/juno16uprl38e4ljj5ctuha9ehpvp2l93z3d5jmwj2cttt6jkhlrhscpqgglalk/wind.ash",
+      "name": "ashWIND",
+      "display": "ashWIND",
+      "symbol": "ashWIND",
+      "assetType": "sdk.factory"
     }
   ]
 }

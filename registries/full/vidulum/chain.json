@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "vidulum",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://vidulum.app/",
   "prettyName": "Vidulum",

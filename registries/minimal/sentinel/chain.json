@@ -86,6 +86,9 @@
       },
       {
         "address": "https://rpc.noncompliant.network:443"
+      },
+      {
+        "address": "https://rpc-sentinel.chainvibes.com:443"
       }
     ],
     "rest": [
@@ -136,6 +139,9 @@
       },
       {
         "address": "https://api.noncompliant.network:443"
+      },
+      {
+        "address": "https://api-sentinel.chainvibes.com:443"
       }
     ],
     "grpc": [

@@ -33,13 +33,14 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/JackalLabs/canine-chain",
-    "recommendedVersion": "v3.4.0",
+    "recommendedVersion": "v4.0.1",
     "compatibleVersions": [
-      "v3.4.0"
+      "v4.0.0",
+      "v4.0.1"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v3.4.0/canined-Linux",
-      "darwin/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v3.4.0/canined-macOS"
+      "linux/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v4.0.1/canined-Linux",
+      "darwin/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v4.0.1/canined-macOS"
     },
     "genesis": {
       "genesisUrl": "https://cdn.discordapp.com/attachments/1002389406650466405/1034968352591986859/updated_genesis2.json"
@@ -155,6 +156,23 @@
         "binaries": {
           "linux/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v3.4.0/canined-Linux",
           "darwin/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v3.4.0/canined-macOS"
+        },
+        "nextVersionName": "v4"
+      },
+      {
+        "name": "v4",
+        "tag": "V4.0.0",
+        "proposal": 14,
+        "height": 8527000,
+        "recommendedVersion": "v4.0.1",
+        "compatibleVersions": [
+          "v4.0.0",
+          "v4.0.1"
+        ],
+        "cosmwasmEnabled": true,
+        "binaries": {
+          "linux/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v4.0.1/canined-Linux",
+          "darwin/amd64": "https://github.com/JackalLabs/canine-chain/releases/download/v4.0.1/canined-macOS"
         },
         "nextVersionName": ""
       }

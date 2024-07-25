@@ -32,16 +32,16 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/bze-alphateam/bze",
-    "recommendedVersion": "v6.1.0",
+    "recommendedVersion": "v7.0.0",
     "compatibleVersions": [
-      "v6.1.0"
+      "v7.0.0"
     ],
     "binaries": {
-      "darwin/amd64": "https://github.com/bze-alphateam/bze/releases/download/v6.1.0/bze-6.1.0-darwin-amd64.tar.gz",
-      "darwin/arm64": "https://github.com/bze-alphateam/bze/releases/download/v6.1.0/bze-6.1.0-darwin-arm64.tar.gz",
-      "linux/amd64": "https://github.com/bze-alphateam/bze/releases/download/v6.1.0/bze-6.1.0-linux-amd64.tar.gz",
-      "linux/arm64": "https://github.com/bze-alphateam/bze/releases/download/v6.1.0/bze-6.1.0-linux-arm64.tar.gz",
-      "windows/amd64": "https://github.com/bze-alphateam/bze/releases/download/v6.1.0/bze-6.1.0-win64.zip"
+      "darwin/amd64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-darwin-amd64.tar.gz",
+      "darwin/arm64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-darwin-arm64.tar.gz",
+      "linux/amd64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-linux-amd64.tar.gz",
+      "linux/arm64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-linux-arm64.tar.gz",
+      "windows/amd64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-win64.zip"
     },
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/bze-alphateam/bze/main/genesis.json"
@@ -161,6 +161,29 @@
           "windows/amd64": "https://github.com/bze-alphateam/bze/releases/download/v6.1.0/bze-6.1.0-win64.zip"
         },
         "nextVersionName": "v7.0.0"
+      },
+      {
+        "name": "v7.0.0",
+        "recommendedVersion": "v7.0.0",
+        "tag": "v7.0.0",
+        "compatibleVersions": [
+          "v7.0.0"
+        ],
+        "cosmosSdkVersion": "v0.45.16",
+        "ibcGoVersion": "v4.5.1",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.34.27"
+        },
+        "height": 12723000,
+        "binaries": {
+          "darwin/amd64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-darwin-amd64.tar.gz",
+          "darwin/arm64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-darwin-arm64.tar.gz",
+          "linux/amd64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-linux-amd64.tar.gz",
+          "linux/arm64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-linux-arm64.tar.gz",
+          "windows/amd64": "https://github.com/bze-alphateam/bze/releases/download/v7.0.0/bze-7.0.0-win64.zip"
+        },
+        "nextVersionName": "v7.1.0"
       }
     ]
   },

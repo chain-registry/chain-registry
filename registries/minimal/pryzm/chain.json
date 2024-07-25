@@ -61,6 +61,27 @@
         "lowGasPrice": 0.01,
         "averageGasPrice": 0.015,
         "highGasPrice": 0.02
+      },
+      {
+        "denom": "ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858",
+        "fixedMinGasPrice": 10000000000,
+        "lowGasPrice": 10000000000,
+        "averageGasPrice": 12000000000,
+        "highGasPrice": 14000000000
+      },
+      {
+        "denom": "ibc/FA78980867B7E87F382CDA00275C55DDC248CABC7DEE27AC6868CCF97DD5E02F",
+        "fixedMinGasPrice": 0.002,
+        "lowGasPrice": 0.002,
+        "averageGasPrice": 0.003,
+        "highGasPrice": 0.004
+      },
+      {
+        "denom": "ibc/120DC39B61CC121E91525C1D51624E41BBE74C537D7B0BE50BBFF9A00E37B6EE",
+        "fixedMinGasPrice": 10000000000,
+        "lowGasPrice": 10000000000,
+        "averageGasPrice": 12000000000,
+        "highGasPrice": 14000000000
       }
     ]
   },

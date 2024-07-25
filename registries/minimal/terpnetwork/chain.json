@@ -32,7 +32,7 @@
         "address": "https://terp-mainnet-rpc.itrocket.net:443"
       },
       {
-        "address": " https://terp.rpc.nodex.one:443"
+        "address": "https://terp.rpc.nodex.one:443"
       }
     ],
     "rest": [
@@ -43,7 +43,7 @@
         "address": "https://terp-mainnet-api.itrocket.net:443"
       },
       {
-        "address": " https://terp.api.nodex.one:443"
+        "address": "https://terp.api.nodex.one:443"
       },
       {
         "address": "https://terp.api.m.stavr.tech"
@@ -57,7 +57,7 @@
         "address": "terp-mainnet-grpc.itrocket.net:13090"
       },
       {
-        "address": " https://terp.grpc.nodex.one:443"
+        "address": "https://terp.grpc.nodex.one:443"
       }
     ]
   },

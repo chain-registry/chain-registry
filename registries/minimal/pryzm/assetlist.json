@@ -292,6 +292,112 @@
           }
         }
       ]
+    },
+    {
+      "description": "The native staking and governance token of the dYdX chain",
+      "denomUnits": [
+        {
+          "denom": "ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858",
+          "exponent": 0,
+          "aliases": [
+            "adydx"
+          ]
+        },
+        {
+          "denom": "dydx",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858",
+      "name": "dYdX",
+      "display": "dydx",
+      "symbol": "DYDX",
+      "coingeckoId": "dydx-chain",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "dydx",
+            "baseDenom": "adydx",
+            "channelId": "channel-71"
+          },
+          "chain": {
+            "channelId": "channel-24",
+            "path": "transfer/channel-24/adydx"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Stride's liquid staked TIA",
+      "denomUnits": [
+        {
+          "denom": "ibc/FA78980867B7E87F382CDA00275C55DDC248CABC7DEE27AC6868CCF97DD5E02F",
+          "exponent": 0,
+          "aliases": [
+            "stutia"
+          ]
+        },
+        {
+          "denom": "stTIA",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/FA78980867B7E87F382CDA00275C55DDC248CABC7DEE27AC6868CCF97DD5E02F",
+      "name": "Stride Staked TIA",
+      "display": "stTIA",
+      "symbol": "stTIA",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "stride",
+            "baseDenom": "stutia",
+            "channelId": "channel-257"
+          },
+          "chain": {
+            "channelId": "channel-23",
+            "path": "transfer/channel-23/stutia"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Stride's liquid staked DYDX",
+      "denomUnits": [
+        {
+          "denom": "ibc/120DC39B61CC121E91525C1D51624E41BBE74C537D7B0BE50BBFF9A00E37B6EE",
+          "exponent": 0,
+          "aliases": [
+            "stadydx"
+          ]
+        },
+        {
+          "denom": "stDYDX",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/120DC39B61CC121E91525C1D51624E41BBE74C537D7B0BE50BBFF9A00E37B6EE",
+      "name": "Stride Staked DYDX",
+      "display": "stDYDX",
+      "symbol": "stDYDX",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "stride",
+            "baseDenom": "stadydx",
+            "channelId": "channel-257"
+          },
+          "chain": {
+            "channelId": "channel-23",
+            "path": "transfer/channel-23/stadydx"
+          }
+        }
+      ]
     }
   ]
 }

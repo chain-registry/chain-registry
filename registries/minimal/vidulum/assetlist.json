@@ -19,6 +19,16 @@
       "display": "vdl",
       "symbol": "VDL",
       "coingeckoId": "vidulum",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "beezee",
+            "baseDenom": "factory/bze13gzq40che93tgfm9kzmkpjamah5nj0j73pyhqk/uvdl"
+          },
+          "provider": "Vidulum"
+        }
+      ],
       "assetType": "unknown"
     }
   ]

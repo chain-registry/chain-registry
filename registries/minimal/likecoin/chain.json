@@ -88,12 +88,6 @@
   },
   "explorers": [
     {
-      "kind": "mintscan",
-      "url": "https://www.mintscan.io/likecoin",
-      "txPage": "https://www.mintscan.io/likecoin/transactions/${txHash}",
-      "accountPage": "https://www.mintscan.io/likecoin/accounts/${accountAddress}"
-    },
-    {
       "kind": "ezstaking",
       "url": "https://ezstaking.app/likecoin",
       "txPage": "https://ezstaking.app/likecoin/txs/${txHash}",
