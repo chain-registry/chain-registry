@@ -1,0 +1,24 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "metanovaversetestnet",
+  "networkType": "testnet",
+  "website": "https://metanovaverse.com/",
+  "prettyName": "Mnova",
+  "chainId": "mnova_10096-1",
+  "bech32Prefix": "mnova",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "amnv"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/metanovaversetestnet/images/mnova.png"
+    }
+  ]
+}

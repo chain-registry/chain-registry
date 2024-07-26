@@ -37,7 +37,7 @@
         "website": "https://agoric.com/",
         "twitter": "https://twitter.com/agoric"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
@@ -69,7 +69,7 @@
           }
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

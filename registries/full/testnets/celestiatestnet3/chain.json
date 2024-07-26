@@ -25,19 +25,29 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/celestiaorg/celestia-app",
-    "recommendedVersion": "v1.3.0",
+    "recommendedVersion": "v1.11.0",
     "compatibleVersions": [
-      "v1.3.0"
+      "v1.3.0",
+      "v1.6.0",
+      "v1.7.0",
+      "v1.9.0",
+      "v1.10.1",
+      "v1.11.0"
     ],
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/celestiaorg/networks/master/mocha-4/genesis.json"
     },
     "versions": [
       {
-        "name": "v1.3.0",
-        "recommendedVersion": "v1.3.0",
+        "name": "v1.11.0",
+        "recommendedVersion": "v1.11.0",
         "compatibleVersions": [
-          "v1.3.0"
+          "v1.3.0",
+          "v1.6.0",
+          "v1.7.0",
+          "v1.9.0",
+          "v1.10.1",
+          "v1.11.0"
         ]
       }
     ]

@@ -131,16 +131,16 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/Stride-Labs/stride",
-    "recommendedVersion": "v21.0.0",
+    "recommendedVersion": "v23.0.0",
     "compatibleVersions": [
-      "v21.0.0"
+      "v23.0.0"
     ],
     "cosmosSdkVersion": "Stride-Labs/cosmos-sdk v0.47.10-stride-distribution-fix-0",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.4"
     },
-    "ibcGoVersion": "7.3.1",
+    "ibcGoVersion": "7.4.0",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/Stride-Labs/testnet/main/mainnet/genesis.json",
       "icsCcvUrl": "https://raw.githubusercontent.com/Stride-Labs/mainnet/main/ics-instructions/ccv.json"
@@ -358,6 +358,40 @@
           "version": "v0.37.4"
         },
         "ibcGoVersion": "7.3.1",
+        "nextVersionName": "v22"
+      },
+      {
+        "name": "v22",
+        "tag": "v22.0.0",
+        "recommendedVersion": "v22.0.0",
+        "compatibleVersions": [
+          "v22.0.0"
+        ],
+        "proposal": 237,
+        "height": 8681868,
+        "cosmosSdkVersion": "Stride-Labs/cosmos-sdk v0.47.10-stride-distribution-fix-0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.4"
+        },
+        "ibcGoVersion": "7.4.0",
+        "nextVersionName": "v23"
+      },
+      {
+        "name": "v23",
+        "tag": "v23.0.0",
+        "recommendedVersion": "v23.0.0",
+        "compatibleVersions": [
+          "v23.0.0"
+        ],
+        "proposal": 247,
+        "height": 10077001,
+        "cosmosSdkVersion": "Stride-Labs/cosmos-sdk v0.47.10-stride-distribution-fix-0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.4"
+        },
+        "ibcGoVersion": "7.4.0",
         "nextVersionName": ""
       }
     ]

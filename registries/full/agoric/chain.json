@@ -38,14 +38,24 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/Agoric/agoric-sdk/",
-    "recommendedVersion": "agoric-upgrade-15",
-    "goVersion": "1.20.2",
-    "compatibleVersions": [
-      "agoric-upgrade-15"
-    ],
     "genesis": {
       "genesisUrl": "https://main.agoric.net/genesis.json"
-    }
+    },
+    "recommendedVersion": "agoric-upgrade-16",
+    "compatibleVersions": [
+      "agoric-upgrade-16"
+    ],
+    "cosmosSdkVersion": "agoric-labs/cosmos-sdk v0.46.16-alpha.agoric.2.4",
+    "consensus": {
+      "type": "cometbft",
+      "version": "agoric-labs/cometbft v0.34.30-alpha.agoric.1"
+    },
+    "cosmwasmEnabled": false,
+    "ibcGoVersion": "v7.4.0",
+    "icsEnabled": [
+      "ics20-1"
+    ],
+    "goVersion": "1.20.2"
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/Agoric-logo-color.png",

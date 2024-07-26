@@ -31,7 +31,12 @@
     ]
   },
   "codebase": {
-
+    "cosmosSdkVersion": "agoric-labs/cosmos-sdk v0.46.16-alpha.agoric.2.4",
+    "cosmwasmEnabled": false,
+    "ibcGoVersion": "v7.4.0",
+    "icsEnabled": [
+      "ics20-1"
+    ]
   },
   "description": "The Agoric platform makes it safe and seamless to build decentralized apps using your existing JavaScript knowledge.",
   "apis": {

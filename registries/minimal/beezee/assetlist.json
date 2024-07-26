@@ -77,6 +77,24 @@
           }
         }
       ]
+    },
+    {
+      "description": "Crypto2Mars Community Token",
+      "denomUnits": [
+        {
+          "denom": "factory/bze15pqjgk4la0mfphwddce00d05n3th3u66n3ptcv/2MARS",
+          "exponent": 0
+        },
+        {
+          "denom": "C2M",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/bze15pqjgk4la0mfphwddce00d05n3th3u66n3ptcv/2MARS",
+      "name": "Crypto2Mars",
+      "display": "C2M",
+      "symbol": "C2M",
+      "assetType": "sdk.factory"
     }
   ]
 }

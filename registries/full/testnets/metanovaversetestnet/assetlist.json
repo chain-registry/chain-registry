@@ -1,0 +1,32 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "metanovaversetestnet",
+  "assets": [
+    {
+      "description": "MetaNova Verse Native Token",
+      "denomUnits": [
+        {
+          "denom": "amnv",
+          "exponent": 0
+        },
+        {
+          "denom": "mnv",
+          "exponent": 18
+        }
+      ],
+      "base": "amnv",
+      "name": "MNV",
+      "display": "mnv",
+      "symbol": "MNV",
+      "assetType": "sdk.coin",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/metanovaversetestnet/images/mnova.png"
+        }
+      ],
+      "socials": {
+        "website": "https://metanovaverse.com/"
+      }
+    }
+  ]
+}

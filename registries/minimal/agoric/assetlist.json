@@ -19,7 +19,7 @@
       "display": "bld",
       "symbol": "BLD",
       "coingeckoId": "agoric",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
@@ -38,7 +38,7 @@
       "display": "ist",
       "symbol": "IST",
       "coingeckoId": "inter-stable-token",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }
