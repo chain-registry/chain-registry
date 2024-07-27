@@ -2529,6 +2529,35 @@
         }
       ],
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "The token of MCTest",
+      "denomUnits": [
+        {
+          "denom": "factory/kujira1mn2pgkggquqm2m44zqlaq29jxwtad53qkv4xy4/MCTest",
+          "exponent": 0
+        },
+        {
+          "denom": "mctest",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/kujira1mn2pgkggquqm2m44zqlaq29jxwtad53qkv4xy4/MCTest",
+      "name": "MCTEST",
+      "display": "mctest",
+      "symbol": "MC01",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mctest.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/mctest.png",
+          "theme": {
+            "primaryColorHex": "#1a1b1b"
+          }
+        }
+      ],
+      "assetType": "sdk.factory"
     }
   ]
 }

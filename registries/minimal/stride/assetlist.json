@@ -472,6 +472,33 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "stuband",
+          "exponent": 0
+        },
+        {
+          "denom": "stBAND",
+          "exponent": 6
+        }
+      ],
+      "base": "stuband",
+      "name": "Stride Staked BAND",
+      "display": "stBAND",
+      "symbol": "stBAND",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "bandchain",
+            "baseDenom": "uband"
+          },
+          "provider": "Stride"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }

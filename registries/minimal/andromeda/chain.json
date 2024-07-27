@@ -56,9 +56,6 @@
         "address": "https://andromeda-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://andromeda-rpc.stake-town.com:443"
-      },
-      {
         "address": "https://andromeda-rpc.stakerhouse.com:443"
       },
       {
@@ -100,9 +97,6 @@
         "address": "https://andromeda-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://andromeda-api.stake-town.com:443"
-      },
-      {
         "address": "https://andromeda-rest.stakerhouse.com:443"
       },
       {
@@ -142,9 +136,6 @@
       },
       {
         "address": "http://andromedad.grpc.t.stavr.tech:132"
-      },
-      {
-        "address": "andromeda-grpc.stake-town.com:443"
       },
       {
         "address": "andromeda-grpc.stakerhouse.com:443"

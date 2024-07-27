@@ -1685,6 +1685,24 @@
       "symbol": "NAMI",
       "coingeckoId": "nami-protocol",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "The token of MCTest",
+      "denomUnits": [
+        {
+          "denom": "factory/kujira1mn2pgkggquqm2m44zqlaq29jxwtad53qkv4xy4/MCTest",
+          "exponent": 0
+        },
+        {
+          "denom": "mctest",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/kujira1mn2pgkggquqm2m44zqlaq29jxwtad53qkv4xy4/MCTest",
+      "name": "MCTEST",
+      "display": "mctest",
+      "symbol": "MC01",
+      "assetType": "sdk.factory"
     }
   ]
 }

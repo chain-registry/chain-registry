@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "paloma",
+  "assets": [
+    {
+      "description": "The native token of the Paloma chain",
+      "denomUnits": [
+        {
+          "denom": "ugrain",
+          "exponent": 0
+        },
+        {
+          "denom": "grain",
+          "exponent": 6
+        }
+      ],
+      "base": "ugrain",
+      "name": "Grain",
+      "display": "grain",
+      "symbol": "GRAIN",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
