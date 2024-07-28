@@ -5,6 +5,7 @@
   "website": "https://dydx.trade/",
   "networkType": "testnet",
   "prettyName": "dYdX Protocol",
+  "chainType": "cosmos",
   "chainId": "dydx-testnet-4",
   "bech32Prefix": "dydx",
   "daemonName": "dydxprotocold",

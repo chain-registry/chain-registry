@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://canto.io/",
   "prettyName": "Canto",
+  "chainType": "cosmos",
   "chainId": "canto_7700-1",
   "bech32Prefix": "canto",
   "nodeHome": "$HOME/.cantod",

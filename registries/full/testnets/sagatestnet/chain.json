@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Saga Testnet",
+  "chainType": "cosmos",
   "chainId": "ssc-testnet-1",
   "bech32Prefix": "saga",
   "daemonName": "sscd",

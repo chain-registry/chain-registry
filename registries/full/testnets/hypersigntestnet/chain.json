@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Hypersign Testnet",
+  "chainType": "cosmos",
   "chainId": "prajna-1",
   "bech32Prefix": "hid",
   "daemonName": "hid-noded",

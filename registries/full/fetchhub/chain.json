@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Fetch.ai",
+  "chainType": "cosmos",
   "chainId": "fetchhub-4",
   "bech32Prefix": "fetch",
   "daemonName": "fetchd",

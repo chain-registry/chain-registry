@@ -4,6 +4,7 @@
   "status": "killed",
   "networkType": "testnet",
   "prettyName": "Secret Network Testnet",
+  "chainType": "cosmos",
   "chainId": "pulsar-2",
   "bech32Prefix": "secret",
   "daemonName": "secretd",

@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "OKExChain",
+  "chainType": "cosmos",
   "chainId": "exchain-66",
   "bech32Prefix": "ex",
   "daemonName": "exchaind",

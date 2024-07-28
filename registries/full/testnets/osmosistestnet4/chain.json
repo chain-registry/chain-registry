@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Osmosis Testnet",
+  "chainType": "cosmos",
   "chainId": "osmo-test-4",
   "bech32Prefix": "osmo",
   "daemonName": "osmosisd",

@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://aura.network/",
   "prettyName": "Aura Network",
+  "chainType": "cosmos",
   "chainId": "aura_6322-2",
   "bech32Prefix": "aura",
   "daemonName": "aurad",

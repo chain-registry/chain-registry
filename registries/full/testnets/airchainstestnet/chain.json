@@ -5,6 +5,7 @@
   "website": "https://airchains.io/",
   "networkType": "testnet",
   "prettyName": "Airchains Switchyard Testnet",
+  "chainType": "cosmos",
   "chainId": "junction",
   "bech32Prefix": "air",
   "daemonName": "junctiond",

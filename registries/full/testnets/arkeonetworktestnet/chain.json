@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Arkeo Network",
+  "chainType": "cosmos",
   "chainId": "arkeo",
   "bech32Prefix": "tarkeo",
   "daemonName": "arkeod",

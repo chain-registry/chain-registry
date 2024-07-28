@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "e-Money",
+  "chainType": "cosmos",
   "chainId": "emoney-3",
   "bech32Prefix": "emoney",
   "daemonName": "emd",

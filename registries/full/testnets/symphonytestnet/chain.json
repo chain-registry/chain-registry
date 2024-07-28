@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Symphony Testnet",
+  "chainType": "cosmos",
   "chainId": "symphony-testnet-1",
   "bech32Prefix": "symphony",
   "daemonName": "symphonyd",

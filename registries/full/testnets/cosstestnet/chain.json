@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "COSS Testnet",
+  "chainType": "cosmos",
   "chainId": "coss-testnet-1",
   "bech32Prefix": "coss",
   "daemonName": "cossd",

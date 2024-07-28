@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "EntryPoint Testnet",
+  "chainType": "cosmos",
   "chainId": "entrypoint-pubtest-2",
   "bech32Prefix": "entrypoint",
   "daemonName": "entrypointd",

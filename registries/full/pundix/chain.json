@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "pundix",
+  "chainType": "cosmos",
   "chainId": "PUNDIX",
   "website": "https://pundix.com",
   "prettyName": "Pundi X Chain",

@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Pryzm Testnet",
+  "chainType": "cosmos",
   "chainId": "indigo-1",
   "bech32Prefix": "pryzm",
   "daemonName": "pryzmd",

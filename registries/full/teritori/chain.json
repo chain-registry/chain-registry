@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://teritori.com/",
   "prettyName": "Teritori",
+  "chainType": "cosmos",
   "chainId": "teritori-1",
   "daemonName": "teritorid",
   "nodeHome": "$HOME/.teritorid",

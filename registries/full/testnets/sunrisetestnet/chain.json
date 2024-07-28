@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Sunrise Testnet",
+  "chainType": "cosmos",
   "chainId": "sunrise-test-0.1",
   "bech32Prefix": "sunrise",
   "daemonName": "sunrised",

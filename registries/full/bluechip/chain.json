@@ -5,6 +5,7 @@
   "website": "https://www.bluechip.link",
   "networkType": "mainnet",
   "prettyName": "BlueChip",
+  "chainType": "cosmos",
   "chainId": "bluechip-1",
   "bech32Prefix": "bcp",
   "daemonName": "bluechipd",

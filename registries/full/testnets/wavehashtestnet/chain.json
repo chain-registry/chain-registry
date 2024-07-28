@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "wavehash Testnet",
+  "chainType": "cosmos",
   "chainId": "INVALID-ID-wavehashtestnet-testnet-1",
   "bech32Prefix": "wavehash",
   "daemonName": "wavehashd",

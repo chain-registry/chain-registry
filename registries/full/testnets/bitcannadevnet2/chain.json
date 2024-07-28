@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "devnet",
   "prettyName": "BitCanna Devnet-6 SDK v0.46.x",
+  "chainType": "cosmos",
   "chainId": "bitcanna-dev-6",
   "bech32Prefix": "bcna",
   "daemonName": "bcnad",

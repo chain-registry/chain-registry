@@ -5,6 +5,7 @@
   "website": "https://www.babylonchain.io",
   "networkType": "testnet",
   "prettyName": "Babylon Testnet 3",
+  "chainType": "cosmos",
   "chainId": "bbn-test3",
   "preForkChainName": "babylontestnet1",
   "bech32Prefix": "bbn",

@@ -5,6 +5,7 @@
   "networkType": "testnet",
   "website": "https://akash.network/",
   "prettyName": "Sandbox",
+  "chainType": "cosmos",
   "chainId": "sandbox-01",
   "bech32Prefix": "akash",
   "daemonName": "akash",

@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://akash.network/",
   "prettyName": "Akash",
+  "chainType": "cosmos",
   "chainId": "akashnet-2",
   "bech32Prefix": "akash",
   "daemonName": "akash",

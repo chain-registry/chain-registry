@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "celestiatestnet3",
+  "chainType": "cosmos",
   "chainId": "mocha-4",
   "prettyName": "Mocha Testnet",
   "status": "live",

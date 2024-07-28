@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://agoric.com/",
   "prettyName": "Agoric",
+  "chainType": "cosmos",
   "chainId": "agoric-3",
   "bech32Prefix": "agoric",
   "daemonName": "agd",

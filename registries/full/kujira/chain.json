@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "kujira",
+  "chainType": "cosmos",
   "chainId": "kaiyo-1",
   "prettyName": "Kujira",
   "status": "live",

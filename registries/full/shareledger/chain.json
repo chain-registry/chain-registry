@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://www.sharering.network/",
   "prettyName": "Shareledger",
+  "chainType": "cosmos",
   "chainId": "ShareRing-VoyagerNet",
   "bech32Prefix": "shareledger",
   "daemonName": "shareledger",

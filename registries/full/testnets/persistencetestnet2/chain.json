@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "persistencetestnet2",
+  "chainType": "cosmos",
   "chainId": "test-core-2",
   "prettyName": "Persistence Testnet",
   "status": "live",

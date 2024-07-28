@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "celestia",
+  "chainType": "cosmos",
   "chainId": "celestia",
   "prettyName": "Celestia",
   "status": "live",

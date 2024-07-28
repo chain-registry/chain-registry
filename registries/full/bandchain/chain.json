@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://bandprotocol.com/",
   "prettyName": "Band Protocol",
+  "chainType": "cosmos",
   "chainId": "laozi-mainnet",
   "daemonName": "bandd",
   "nodeHome": "$HOME/.band",

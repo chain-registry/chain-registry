@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "LumenX-Test",
+  "chainType": "cosmos",
   "chainId": "lumenx-test",
   "bech32Prefix": "lumen",
   "daemonName": "lumenxd",

@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://haqq.network/",
   "prettyName": "Haqq Network",
+  "chainType": "cosmos",
   "chainId": "haqq_11235-1",
   "bech32Prefix": "haqq",
   "nodeHome": "$HOME/.haqqd",

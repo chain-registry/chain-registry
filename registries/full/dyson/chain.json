@@ -5,6 +5,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Dyson Protocol",
+  "chainType": "cosmos",
   "chainId": "dyson-mainnet-01",
   "bech32Prefix": "dys",
   "nodeHome": "$HOME/.dyson",

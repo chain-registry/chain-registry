@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Xion Testnet",
+  "chainType": "cosmos",
   "chainId": "xion-testnet-1",
   "bech32Prefix": "xion",
   "daemonName": "xiond",

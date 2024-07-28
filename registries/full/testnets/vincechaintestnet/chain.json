@@ -4,6 +4,7 @@
   "status": "killed",
   "networkType": "testnet",
   "prettyName": "VinceChain Testnet",
+  "chainType": "cosmos",
   "chainId": "vince_1903-1",
   "bech32Prefix": "vce",
   "nodeHome": "$HOME/.vinced",

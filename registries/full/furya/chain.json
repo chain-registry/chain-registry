@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://furya.xyz/",
   "prettyName": "furya",
+  "chainType": "cosmos",
   "chainId": "furya-1",
   "daemonName": "furyad",
   "nodeHome": "$HOME/.furyad",

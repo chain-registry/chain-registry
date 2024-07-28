@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://planq.network/",
   "prettyName": "Planq",
+  "chainType": "cosmos",
   "chainId": "planq_7070-2",
   "bech32Prefix": "plq",
   "nodeHome": "$HOME/.planqd",

@@ -5,6 +5,7 @@
   "website": "https://gitopia.com/",
   "networkType": "mainnet",
   "prettyName": "Gitopia",
+  "chainType": "cosmos",
   "chainId": "gitopia",
   "bech32Prefix": "gitopia",
   "daemonName": "gitopiad",

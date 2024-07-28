@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Planq Atlas Testnet",
+  "chainType": "cosmos",
   "chainId": "planq_7077-1",
   "bech32Prefix": "plq",
   "daemonName": "planqd",

@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "cosmoshub",
+  "chainType": "cosmos",
   "chainId": "cosmoshub-4",
   "website": "https://cosmos.network/",
   "prettyName": "Cosmos Hub",

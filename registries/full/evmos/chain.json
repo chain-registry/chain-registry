@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://evmos.org/",
   "prettyName": "Evmos",
+  "chainType": "cosmos",
   "chainId": "evmos_9001-2",
   "bech32Prefix": "evmos",
   "nodeHome": "$HOME/.evmosd",

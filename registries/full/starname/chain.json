@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://www.starname.me/",
   "prettyName": "Starname",
+  "chainType": "cosmos",
   "chainId": "iov-mainnet-ibc",
   "bech32Prefix": "star",
   "slip44": 234,

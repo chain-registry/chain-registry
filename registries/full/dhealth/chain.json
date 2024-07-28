@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://dhealth.com/",
   "prettyName": "dHealth",
+  "chainType": "cosmos",
   "chainId": "dhealth",
   "bech32Prefix": "dh",
   "daemonName": "dhealthd",

@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://omniflix.network/",
   "prettyName": "OmniFlix",
+  "chainType": "cosmos",
   "chainId": "omniflixhub-1",
   "daemonName": "omniflixhubd",
   "nodeHome": "$HOME/.omniflixhub",

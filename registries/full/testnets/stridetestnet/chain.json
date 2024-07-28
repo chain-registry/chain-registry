@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Stride Testnet",
+  "chainType": "cosmos",
   "chainId": "stride-internal-1",
   "bech32Prefix": "stride",
   "daemonName": "strided",

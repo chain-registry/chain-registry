@@ -6,8 +6,7 @@
   "type": "object",
   "required": [
     "chainName",
-    "chainId",
-    "bech32Prefix"
+    "chainType"
   ],
   "properties": {
     "$schema": {
@@ -516,6 +515,33 @@
       "minLength": 1,
       "pattern": "[a-z0-9]+"
     },
+    "chainType": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "cosmos",
+        "eip155",
+        "bip122",
+        "polkadot",
+        "solana",
+        "algorand",
+        "arweave",
+        "ergo",
+        "fil",
+        "hedera",
+        "monero",
+        "reef",
+        "stacks",
+        "starknet",
+        "stellar",
+        "tezos",
+        "vechain",
+        "waves",
+        "xrpl",
+        "unknown"
+      ],
+      "description": "The 'type' of chain as the corresponding CAIP-2 Namespace value. E.G., 'cosmos' or 'eip155'. Namespaces cna be found here: https://github.com/ChainAgnostic/namespaces/tree/main."
+    },
     "chainId": {
       "type": "string",
       "minLength": 1
@@ -793,5 +819,38 @@
       },
       "additionalProperties": false
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "chain_type": {
+            "const": "cosmos"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "bech32_prefix"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "chain_type": {
+            "enum": [
+              "cosmos",
+              "eip155"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "chain_id"
+        ]
+      }
+    }
+  ]
 }

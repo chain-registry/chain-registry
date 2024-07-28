@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://helichain.com/",
   "prettyName": "HeliChain",
+  "chainType": "cosmos",
   "chainId": "helichain",
   "bech32Prefix": "heli",
   "daemonName": "helichaind",

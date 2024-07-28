@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "andromeda1",
+  "chainType": "cosmos",
   "chainId": "andromeda-1",
   "prettyName": "Andromeda",
   "status": "killed",

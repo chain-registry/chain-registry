@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Imversed Testnet",
+  "chainType": "cosmos",
   "chainId": "imversed-test-1",
   "bech32Prefix": "imv",
   "daemonName": "imversed",

@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "okp4testnet",
+  "chainType": "cosmos",
   "chainId": "okp4-nemeton-1",
   "website": "https://okp4.network/",
   "prettyName": "OKP4 Nemeton",

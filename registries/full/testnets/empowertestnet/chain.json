@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "empowertestnet",
+  "chainType": "cosmos",
   "chainId": "circulus-1",
   "prettyName": "Empower Testnet",
   "status": "live",

@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Neutron Testnet",
+  "chainType": "cosmos",
   "chainId": "pion-1",
   "bech32Prefix": "neutron",
   "daemonName": "neutrond",

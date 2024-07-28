@@ -4,6 +4,7 @@
   "status": "killed",
   "networkType": "mainnet",
   "prettyName": "LumenX",
+  "chainType": "cosmos",
   "chainId": "LumenX",
   "bech32Prefix": "lumen",
   "daemonName": "lumenxd",

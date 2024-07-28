@@ -5,6 +5,7 @@
   "networkType": "devnet",
   "website": "https://nibiru.fi/",
   "prettyName": "Nibiru",
+  "chainType": "cosmos",
   "chainId": "nibiru-devnet-1",
   "bech32Prefix": "nibi",
   "daemonName": "nibid",

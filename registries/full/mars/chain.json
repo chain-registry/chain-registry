@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://www.marsprotocol.io/",
   "prettyName": "Mars Hub",
+  "chainType": "cosmos",
   "chainId": "mars-1",
   "bech32Prefix": "mars",
   "daemonName": "marsd",

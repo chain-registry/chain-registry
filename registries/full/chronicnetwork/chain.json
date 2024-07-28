@@ -4,6 +4,7 @@
   "status": "killed",
   "networkType": "mainnet",
   "prettyName": "Chronic Chain",
+  "chainType": "cosmos",
   "chainId": "morocco-1",
   "bech32Prefix": "chronic",
   "daemonName": "chtd",

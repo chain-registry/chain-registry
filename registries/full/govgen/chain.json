@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "govgen",
+  "chainType": "cosmos",
   "chainId": "govgen-1",
   "website": "https://govgen.io/",
   "prettyName": "GovGen",

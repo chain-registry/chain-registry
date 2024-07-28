@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://www.gravitybridge.net/",
   "prettyName": "Gravity Bridge",
+  "chainType": "cosmos",
   "chainId": "gravity-bridge-3",
   "bech32Prefix": "gravity",
   "daemonName": "gravity",

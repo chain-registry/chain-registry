@@ -6,6 +6,7 @@
   "networkType": "testnet",
   "website": "https://www.lavanet.xyz/",
   "prettyName": "Lava Testnet",
+  "chainType": "cosmos",
   "chainId": "lava-testnet-2",
   "bech32Prefix": "lava@",
   "daemonName": "lavad",

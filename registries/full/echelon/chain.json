@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Echelon",
+  "chainType": "cosmos",
   "chainId": "echelon_3000-3",
   "bech32Prefix": "echelon",
   "nodeHome": "$HOME/.echelond",

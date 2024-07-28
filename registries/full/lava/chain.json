@@ -6,6 +6,7 @@
   "website": "https://lavanet.xyz/",
   "updateLink": "https://raw.githubusercontent.com/lavanet/lava/main/chain.schema.json",
   "prettyName": "Lava",
+  "chainType": "cosmos",
   "chainId": "lava-mainnet-1",
   "bech32Prefix": "lava@",
   "daemonName": "lavad",

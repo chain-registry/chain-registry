@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "soarchaintestnet",
+  "chainType": "cosmos",
   "chainId": "soarchaintestnet",
   "prettyName": "Soarchain Testnet",
   "status": "live",

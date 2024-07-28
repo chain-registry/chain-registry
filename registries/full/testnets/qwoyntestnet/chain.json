@@ -5,6 +5,7 @@
   "networkType": "testnet",
   "website": "https://qwoyn.studio/",
   "prettyName": "Qwoyn",
+  "chainType": "cosmos",
   "chainId": "earendel-1",
   "bech32Prefix": "qwoyn",
   "daemonName": "qwoynd",

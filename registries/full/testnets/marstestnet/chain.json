@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Mars Hub Testnet",
+  "chainType": "cosmos",
   "chainId": "ares-1",
   "bech32Prefix": "mars",
   "keyAlgos": [

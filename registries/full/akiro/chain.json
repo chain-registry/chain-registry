@@ -4,6 +4,7 @@
   "status": "killed",
   "networkType": "mainnet",
   "prettyName": "Akiro",
+  "chainType": "cosmos",
   "chainId": "akiro-1",
   "bech32Prefix": "akiro",
   "daemonName": "akirod",

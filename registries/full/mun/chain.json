@@ -5,6 +5,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Mun",
+  "chainType": "cosmos",
   "chainId": "mun-1",
   "bech32Prefix": "mun",
   "daemonName": "mund",

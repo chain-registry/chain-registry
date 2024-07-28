@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "cheqd",
+  "chainType": "cosmos",
   "chainId": "cheqd-testnet-6",
   "bech32Prefix": "cheqd",
   "daemonName": "cheqd-noded",

@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Galactica Protocol Testnet",
+  "chainType": "cosmos",
   "chainId": "galactica_9302-1",
   "bech32Prefix": "gala",
   "daemonName": "galacticad",

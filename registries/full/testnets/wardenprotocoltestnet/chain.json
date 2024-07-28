@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Warden Protocol Buenavista",
+  "chainType": "cosmos",
   "chainId": "buenavista-1",
   "bech32Prefix": "warden",
   "daemonName": "wardend",

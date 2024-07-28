@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "composable",
+  "chainType": "cosmos",
   "chainId": "centauri-1",
   "website": "https://www.picasso.xyz/",
   "prettyName": "Picasso",

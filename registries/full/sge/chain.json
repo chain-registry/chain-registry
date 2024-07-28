@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "SGE",
+  "chainType": "cosmos",
   "chainId": "sgenet-1",
   "bech32Prefix": "sge",
   "daemonName": "sged",

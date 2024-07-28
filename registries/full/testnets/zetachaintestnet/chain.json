@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "ZetaChain Testnet",
+  "chainType": "cosmos",
   "chainId": "athens_7001-1",
   "bech32Prefix": "zeta",
   "daemonName": "zetacored",

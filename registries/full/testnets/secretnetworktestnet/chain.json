@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Secret Network",
+  "chainType": "cosmos",
   "chainId": "pulsar-3",
   "preForkChainName": "secretnetworktestnet2",
   "bech32Prefix": "secret",

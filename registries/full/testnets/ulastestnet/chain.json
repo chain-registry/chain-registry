@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "ULAS",
+  "chainType": "cosmos",
   "chainId": "ulas",
   "bech32Prefix": "ulas",
   "daemonName": "ulasd",

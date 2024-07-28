@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://realio.network/",
   "prettyName": "Realio Network",
+  "chainType": "cosmos",
   "chainId": "realionetwork_3301-1",
   "bech32Prefix": "realio",
   "nodeHome": "$HOME/.realio-network",

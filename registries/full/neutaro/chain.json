@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://neutaro.com/",
   "prettyName": "Neutaro",
+  "chainType": "cosmos",
   "chainId": "Neutaro-1",
   "bech32Prefix": "neutaro",
   "daemonName": "neutaro",

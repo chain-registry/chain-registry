@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Source Testnet",
+  "chainType": "cosmos",
   "chainId": "sourcetest-1",
   "bech32Prefix": "source",
   "daemonName": "sourced",

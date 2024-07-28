@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "CosmWasm Testnet",
+  "chainType": "cosmos",
   "chainId": "malaga-420",
   "bech32Prefix": "wasm",
   "daemonName": "wasmd",

@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Nillion Testnet",
+  "chainType": "cosmos",
   "chainId": "nillion-chain-testnet-1",
   "bech32Prefix": "nillion",
   "daemonName": "nilchaind",

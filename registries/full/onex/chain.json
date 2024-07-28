@@ -5,6 +5,7 @@
   "website": "https://app.onomy.io/",
   "networkType": "mainnet",
   "prettyName": "ONEX",
+  "chainType": "cosmos",
   "chainId": "onex-mainnet-1",
   "bech32Prefix": "onomy",
   "daemonName": "onexd",

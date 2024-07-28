@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Ethos",
+  "chainType": "cosmos",
   "chainId": "ethos_7003-1",
   "bech32Prefix": "ethos",
   "daemonName": "ethosd",

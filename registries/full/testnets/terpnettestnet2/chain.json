@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Terp-Network",
+  "chainType": "cosmos",
   "chainId": "90u-2",
   "bech32Prefix": "terp",
   "daemonName": "terpd",

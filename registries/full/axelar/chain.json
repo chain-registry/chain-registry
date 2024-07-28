@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "axelar",
+  "chainType": "cosmos",
   "chainId": "axelar-dojo-1",
   "prettyName": "Axelar",
   "status": "live",

@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://www.joltify.io/",
   "prettyName": "Joltify",
+  "chainType": "cosmos",
   "chainId": "joltify_1729-1",
   "bech32Prefix": "jolt",
   "daemonName": "jolt",

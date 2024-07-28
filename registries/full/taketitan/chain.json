@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://taketitan.com/",
   "prettyName": "TakeTitan",
+  "chainType": "cosmos",
   "chainId": "taketitan-12",
   "bech32Prefix": "taketitan",
   "daemonName": "ttnc",

@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "kyvetestnet",
+  "chainType": "cosmos",
   "chainId": "kaon-1",
   "prettyName": "KYVE Kaon",
   "status": "live",

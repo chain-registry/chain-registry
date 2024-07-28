@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://www.terra.money/",
   "prettyName": "Terra",
+  "chainType": "cosmos",
   "chainId": "phoenix-1",
   "daemonName": "terrad",
   "nodeHome": "$HOME/.terra",

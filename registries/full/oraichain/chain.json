@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://orai.io/",
   "prettyName": "Oraichain",
+  "chainType": "cosmos",
   "chainId": "Oraichain",
   "bech32Prefix": "orai",
   "daemonName": "oraid",

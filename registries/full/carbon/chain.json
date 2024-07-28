@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Carbon",
+  "chainType": "cosmos",
   "chainId": "carbon-1",
   "bech32Prefix": "swth",
   "daemonName": "carbond",

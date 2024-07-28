@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://wormhole.com",
   "prettyName": "Wormhole Gateway",
+  "chainType": "cosmos",
   "chainId": "wormchain",
   "bech32Prefix": "wormhole",
   "daemonName": "wormchaind",

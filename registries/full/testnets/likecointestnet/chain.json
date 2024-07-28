@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "LikeCoin Testnet",
+  "chainType": "cosmos",
   "chainId": "likecoin-public-testnet-5",
   "bech32Prefix": "like",
   "daemonName": "liked",

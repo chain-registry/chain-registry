@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://sifchain.finance/",
   "prettyName": "Sifchain",
+  "chainType": "cosmos",
   "chainId": "sifchain-1",
   "bech32Prefix": "sif",
   "daemonName": "sifnoded",

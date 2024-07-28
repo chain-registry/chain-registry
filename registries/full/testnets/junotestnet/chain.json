@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Juno Testnet",
+  "chainType": "cosmos",
   "chainId": "uni-6",
   "bech32Prefix": "juno",
   "daemonName": "junod",

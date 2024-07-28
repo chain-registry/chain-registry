@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Perm Testnet",
+  "chainType": "cosmos",
   "chainId": "INVALID-ID-permtestnet-testnet-1",
   "bech32Prefix": "perm",
   "daemonName": "permd",

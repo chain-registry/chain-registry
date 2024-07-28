@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://www.ixo.world/",
   "prettyName": "Impacts Hub",
+  "chainType": "cosmos",
   "chainId": "ixo-5",
   "bech32Prefix": "ixo",
   "daemonName": "ixod",

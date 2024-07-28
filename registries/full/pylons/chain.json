@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://pylons.tech",
   "prettyName": "Pylons",
+  "chainType": "cosmos",
   "chainId": "pylons-mainnet-1",
   "bech32Prefix": "pylo",
   "nodeHome": "$HOME/.pylons",

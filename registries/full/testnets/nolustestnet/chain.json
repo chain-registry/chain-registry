@@ -5,6 +5,7 @@
   "website": "https://nolus.io/",
   "networkType": "testnet",
   "prettyName": "Nolus Testnet",
+  "chainType": "cosmos",
   "chainId": "rila-1",
   "bech32Prefix": "nolus",
   "daemonName": "nolusd",

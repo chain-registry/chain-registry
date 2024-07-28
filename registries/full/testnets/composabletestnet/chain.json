@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Composable Testnet",
+  "chainType": "cosmos",
   "chainId": "banksy-testnet-3",
   "bech32Prefix": "centauri",
   "daemonName": "centaurid",

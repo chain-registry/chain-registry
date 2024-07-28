@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://ununifi.io/",
   "prettyName": "UnUniFi",
+  "chainType": "cosmos",
   "chainId": "ununifi-beta-v1",
   "bech32Prefix": "ununifi",
   "daemonName": "ununifid",

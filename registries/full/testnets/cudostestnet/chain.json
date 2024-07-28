@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Cudos Testnet",
+  "chainType": "cosmos",
   "chainId": "cudos-testnet-public-3",
   "bech32Prefix": "cudos",
   "keyAlgos": [

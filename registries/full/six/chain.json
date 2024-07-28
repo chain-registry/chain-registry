@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "SIX Protocol",
+  "chainType": "cosmos",
   "chainId": "sixnet",
   "bech32Prefix": "6x",
   "daemonName": "sixd",

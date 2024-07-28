@@ -5,6 +5,7 @@
   "website": "https://like.co/",
   "networkType": "mainnet",
   "prettyName": "LikeCoin",
+  "chainType": "cosmos",
   "chainId": "likecoin-mainnet-2",
   "bech32Prefix": "like",
   "daemonName": "liked",

@@ -5,6 +5,7 @@
   "website": "https://xpla.io",
   "networkType": "mainnet",
   "prettyName": "XPLA",
+  "chainType": "cosmos",
   "chainId": "dimension_37-1",
   "bech32Prefix": "xpla",
   "daemonName": "xplad",

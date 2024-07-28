@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://desmos.network/",
   "prettyName": "Desmos",
+  "chainType": "cosmos",
   "chainId": "desmos-mainnet",
   "bech32Prefix": "desmos",
   "daemonName": "desmos",

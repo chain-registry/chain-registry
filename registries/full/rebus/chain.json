@@ -5,6 +5,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Rebus",
+  "chainType": "cosmos",
   "chainId": "reb_1111-1",
   "bech32Prefix": "rebus",
   "daemonName": "rebusd",

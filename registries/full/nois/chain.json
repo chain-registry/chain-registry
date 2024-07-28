@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://nois.network",
   "prettyName": "Nois",
+  "chainType": "cosmos",
   "chainId": "nois-1",
   "bech32Prefix": "nois",
   "daemonName": "noisd",

@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://konstellation.tech/",
   "prettyName": "Konstellation",
+  "chainType": "cosmos",
   "chainId": "darchub",
   "bech32Prefix": "darc",
   "daemonName": "knstld",

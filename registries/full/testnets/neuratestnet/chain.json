@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "neuratestnet",
+  "chainType": "cosmos",
   "chainId": "neura_267-1",
   "bech32Prefix": "neura",
   "prettyName": "Neura Testnet",

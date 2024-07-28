@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "ZetaChain",
+  "chainType": "cosmos",
   "chainId": "zetachain_7000-1",
   "bech32Prefix": "zeta",
   "daemonName": "zetacored",

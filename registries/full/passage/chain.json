@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "passage",
+  "chainType": "cosmos",
   "chainId": "passage-2",
   "preForkChainName": "passage1",
   "prettyName": "Passage",

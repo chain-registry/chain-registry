@@ -4,6 +4,7 @@
   "status": "killed",
   "networkType": "mainnet",
   "prettyName": "Microtick",
+  "chainType": "cosmos",
   "chainId": "microtick-1",
   "bech32Prefix": "micro",
   "daemonName": "mtm",

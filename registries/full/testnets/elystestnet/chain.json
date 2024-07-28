@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Elys Network",
+  "chainType": "cosmos",
   "chainId": "elystestnet-1",
   "bech32Prefix": "elys",
   "daemonName": "elysd",

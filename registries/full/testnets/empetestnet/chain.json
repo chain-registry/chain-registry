@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "empetestnet",
+  "chainType": "cosmos",
   "chainId": "empe-testnet-2",
   "website": "https://empe.io",
   "prettyName": "Empe",

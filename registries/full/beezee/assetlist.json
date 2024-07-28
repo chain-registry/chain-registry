@@ -149,6 +149,62 @@
         }
       ],
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "The native token of Archway network",
+      "denomUnits": [
+        {
+          "denom": "ibc/C00D101A3572A5374E23F11944463D1325319E255D7C824B33AF2F927F532348",
+          "exponent": 0,
+          "aliases": [
+            "aarch"
+          ]
+        },
+        {
+          "denom": "uarch",
+          "exponent": 12
+        },
+        {
+          "denom": "arch",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/C00D101A3572A5374E23F11944463D1325319E255D7C824B33AF2F927F532348",
+      "name": "Archway",
+      "display": "arch",
+      "symbol": "ARCH",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "archway",
+            "baseDenom": "aarch",
+            "channelId": "channel-147"
+          },
+          "chain": {
+            "channelId": "channel-2",
+            "path": "transfer/channel-2/aarch"
+          }
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg"
+      },
+      "images": [
+        {
+          "imageSync": {
+            "chainName": "archway",
+            "baseDenom": "aarch"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg",
+          "theme": {
+            "primaryColorHex": "#fc4c04"
+          }
+        }
+      ]
     }
   ]
 }

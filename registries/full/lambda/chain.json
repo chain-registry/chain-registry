@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Lambda",
+  "chainType": "cosmos",
   "chainId": "lambda_92000-1",
   "bech32Prefix": "lamb",
   "nodeHome": "$HOME/.lambdavm",

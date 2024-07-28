@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Terra Classic",
+  "chainType": "cosmos",
   "chainId": "columbus-5",
   "daemonName": "terrad",
   "nodeHome": "$HOME/.terra",

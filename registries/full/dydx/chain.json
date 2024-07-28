@@ -5,6 +5,7 @@
   "website": "https://dydx.trade/",
   "networkType": "mainnet",
   "prettyName": "dYdX Protocol",
+  "chainType": "cosmos",
   "chainId": "dydx-mainnet-1",
   "bech32Prefix": "dydx",
   "daemonName": "dydxprotocold",

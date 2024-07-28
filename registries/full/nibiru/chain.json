@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://nibiru.fi/",
   "prettyName": "Nibiru",
+  "chainType": "cosmos",
   "chainId": "cataclysm-1",
   "bech32Prefix": "nibi",
   "daemonName": "nibid",

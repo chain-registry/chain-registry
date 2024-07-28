@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://quicksilver.zone/",
   "prettyName": "Quicksilver",
+  "chainType": "cosmos",
   "chainId": "quicksilver-2",
   "daemonName": "quicksilverd",
   "nodeHome": "$HOME/.quicksilverd",

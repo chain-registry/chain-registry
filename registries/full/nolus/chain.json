@@ -5,6 +5,7 @@
   "website": "https://nolus.io/",
   "networkType": "mainnet",
   "prettyName": "Nolus",
+  "chainType": "cosmos",
   "chainId": "pirin-1",
   "bech32Prefix": "nolus",
   "daemonName": "nolusd",

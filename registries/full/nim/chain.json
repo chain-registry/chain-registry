@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://ai.nim.network",
   "prettyName": "Nim Network",
+  "chainType": "cosmos",
   "chainId": "nim_1122-1",
   "bech32Prefix": "nim",
   "slip44": 60,

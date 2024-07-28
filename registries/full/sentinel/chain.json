@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://sentinel.co/",
   "prettyName": "Sentinel",
+  "chainType": "cosmos",
   "chainId": "sentinelhub-2",
   "bech32Prefix": "sent",
   "daemonName": "sentinelhub",

@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "fxcore",
+  "chainType": "cosmos",
   "chainId": "fxcore",
   "website": "https://functionx.io",
   "prettyName": "f(x)Core",

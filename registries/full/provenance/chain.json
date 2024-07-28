@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://provenance.io/",
   "prettyName": "Provenance",
+  "chainType": "cosmos",
   "chainId": "pio-mainnet-1",
   "bech32Prefix": "pb",
   "daemonName": "provenanced",

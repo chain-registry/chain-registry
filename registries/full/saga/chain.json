@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://www.saga.xyz/",
   "prettyName": "Saga",
+  "chainType": "cosmos",
   "chainId": "ssc-1",
   "bech32Prefix": "saga",
   "daemonName": "sscd",

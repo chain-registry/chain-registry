@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://lum.network/",
   "prettyName": "Lum Network",
+  "chainType": "cosmos",
   "chainId": "lum-network-1",
   "bech32Prefix": "lum",
   "daemonName": "lumd",

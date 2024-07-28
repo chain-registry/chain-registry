@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://www.shentu.technology/",
   "prettyName": "Shentu",
+  "chainType": "cosmos",
   "chainId": "shentu-2.2",
   "bech32Prefix": "shentu",
   "daemonName": "shentud",

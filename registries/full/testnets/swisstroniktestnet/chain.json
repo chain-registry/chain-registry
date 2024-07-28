@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "swisstroniktestnet",
+  "chainType": "cosmos",
   "chainId": "swisstronik_1291-1",
   "prettyName": "Swisstronik Testnet",
   "status": "live",

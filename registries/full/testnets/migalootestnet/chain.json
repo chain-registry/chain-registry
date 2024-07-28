@@ -5,6 +5,7 @@
   "networkType": "testnet",
   "website": "https://www.whitewhale.money/",
   "prettyName": "Migaloo Testnet",
+  "chainType": "cosmos",
   "chainId": "narwhal-2",
   "bech32Prefix": "migaloo",
   "daemonName": "migalood",

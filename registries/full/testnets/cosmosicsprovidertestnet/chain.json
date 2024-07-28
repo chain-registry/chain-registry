@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "cosmosicsprovidertestnet",
+  "chainType": "cosmos",
   "chainId": "provider",
   "prettyName": "Cosmos ICS Provider Testnet",
   "status": "live",

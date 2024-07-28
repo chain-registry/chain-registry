@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "finschia",
+  "chainType": "cosmos",
   "chainId": "finschia-2",
   "website": "https://www.finschia.io/",
   "prettyName": "Finschia",

@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "jackaltestnet2",
+  "chainType": "cosmos",
   "chainId": "mesomelas-1",
   "website": "https://jackalprotocol.com",
   "prettyName": "Jackal v4",

@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://qfs.com/",
   "prettyName": "Quantum Financial Systems",
+  "chainType": "cosmos",
   "chainId": "qfs-1",
   "bech32Prefix": "qfs",
   "daemonName": "qfs",

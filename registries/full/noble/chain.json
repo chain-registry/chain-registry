@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "noble",
+  "chainType": "cosmos",
   "chainId": "noble-1",
   "website": "https://nobleassets.xyz/",
   "prettyName": "Noble",

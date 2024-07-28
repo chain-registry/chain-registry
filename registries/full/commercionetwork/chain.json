@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "commercionetwork",
+  "chainType": "cosmos",
   "chainId": "commercio-3",
   "prettyName": "Commercio.network",
   "status": "live",

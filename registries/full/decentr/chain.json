@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "Decentr",
+  "chainType": "cosmos",
   "chainId": "mainnet-3",
   "bech32Prefix": "decentr",
   "daemonName": "decentrd",

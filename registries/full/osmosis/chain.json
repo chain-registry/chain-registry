@@ -6,6 +6,7 @@
   "website": "https://osmosis.zone/",
   "updateLink": "https://raw.githubusercontent.com/osmosis-labs/osmosis/main/chain.schema.json",
   "prettyName": "Osmosis",
+  "chainType": "cosmos",
   "chainId": "osmosis-1",
   "bech32Prefix": "osmo",
   "daemonName": "osmosisd",

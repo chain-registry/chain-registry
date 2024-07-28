@@ -5,6 +5,7 @@
   "website": "https://www.sei.io/",
   "networkType": "mainnet",
   "prettyName": "Sei",
+  "chainType": "cosmos",
   "chainId": "pacific-1",
   "bech32Prefix": "sei",
   "daemonName": "seid",

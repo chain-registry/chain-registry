@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "SIX Fivenet",
+  "chainType": "cosmos",
   "chainId": "fivenet",
   "bech32Prefix": "6x",
   "daemonName": "sixd",

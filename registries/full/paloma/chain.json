@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://palomachain.com/",
   "prettyName": "Paloma",
+  "chainType": "cosmos",
   "chainId": "tumbler",
   "bech32Prefix": "paloma",
   "daemonName": "palomad",

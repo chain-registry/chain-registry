@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Quicksilver Testnet",
+  "chainType": "cosmos",
   "chainId": "rhye-2",
   "bech32Prefix": "quick",
   "daemonName": "quicksilverd",

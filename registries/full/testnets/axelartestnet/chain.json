@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "axelartestnet",
+  "chainType": "cosmos",
   "chainId": "axelar-testnet-lisbon-3",
   "prettyName": "Axelar Testnet",
   "status": "live",

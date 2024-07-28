@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://archway.io/",
   "prettyName": "Archway",
+  "chainType": "cosmos",
   "chainId": "archway-1",
   "bech32Prefix": "archway",
   "daemonName": "archwayd",

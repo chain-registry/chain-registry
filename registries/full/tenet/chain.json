@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://tenet.org/",
   "prettyName": "Tenet",
+  "chainType": "cosmos",
   "chainId": "tenet_1559-1",
   "bech32Prefix": "tenet",
   "nodeHome": "$HOME/.tenetd",

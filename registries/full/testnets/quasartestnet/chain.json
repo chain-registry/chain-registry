@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "testnet",
   "prettyName": "Quasar Testnet",
+  "chainType": "cosmos",
   "chainId": "quasar-test-1",
   "bech32Prefix": "quasar",
   "daemonName": "quasarnoded",

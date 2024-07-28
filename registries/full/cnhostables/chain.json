@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://cnho.io/",
   "prettyName": "CNHO Stables",
+  "chainType": "cosmos",
   "chainId": "cnho_stables-1",
   "bech32Prefix": "cnho",
   "daemonName": "cnho",

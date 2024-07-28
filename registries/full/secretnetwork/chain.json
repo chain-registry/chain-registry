@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://scrt.network/",
   "prettyName": "Secret Network",
+  "chainType": "cosmos",
   "chainId": "secret-4",
   "bech32Prefix": "secret",
   "daemonName": "secretd",

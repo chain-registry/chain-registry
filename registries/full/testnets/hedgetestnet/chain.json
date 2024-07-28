@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "hedgetestnet",
+  "chainType": "cosmos",
   "chainId": "berberis-1",
   "prettyName": "Hedge Testnet",
   "status": "live",

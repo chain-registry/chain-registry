@@ -4,6 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "prettyName": "bostrom",
+  "chainType": "cosmos",
   "chainId": "bostrom",
   "bech32Prefix": "bostrom",
   "daemonName": "cyber",

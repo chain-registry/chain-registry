@@ -5,6 +5,7 @@
   "networkType": "mainnet",
   "website": "https://unification.com/",
   "prettyName": "Unification",
+  "chainType": "cosmos",
   "chainId": "FUND-MainNet-2",
   "bech32Prefix": "und",
   "daemonName": "und",

@@ -5,6 +5,7 @@
   "website": "https://8ball.info/",
   "networkType": "mainnet",
   "prettyName": "8ball",
+  "chainType": "cosmos",
   "chainId": "eightball-1",
   "bech32Prefix": "8ball",
   "daemonName": "8ball",
