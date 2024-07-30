@@ -25,6 +25,36 @@
       "tags": {
         "status": "live"
       }
+    },
+    {
+      "chain1": {
+        "channelId": "*",
+        "portId": "wasm.*"
+      },
+      "chain2": {
+        "channelId": "*",
+        "portId": "icahost"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live"
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "*",
+        "portId": "wasm.*"
+      },
+      "chain2": {
+        "channelId": "*",
+        "portId": "icqhost"
+      },
+      "ordering": "unordered",
+      "version": "icq-1",
+      "tags": {
+        "status": "live"
+      }
     }
   ]
 }

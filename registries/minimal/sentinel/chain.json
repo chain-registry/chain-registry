@@ -61,7 +61,7 @@
         "address": "https://sentinel-rpc.validatornode.com/"
       },
       {
-        "address": "https://rpc.trinityvalidator.com"
+        "address": "https://rpc.trinitystake.io"
       },
       {
         "address": "https://rpc.sentinelgrowthdao.com"
@@ -114,7 +114,7 @@
         "address": "https://sentinel-api.validatornode.com"
       },
       {
-        "address": "https://api.trinityvalidator.com"
+        "address": "https://api.trinitystake.io"
       },
       {
         "address": "https://api.sentinelgrowthdao.com"
