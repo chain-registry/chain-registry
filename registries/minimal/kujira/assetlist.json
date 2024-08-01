@@ -1703,6 +1703,24 @@
       "display": "mctest",
       "symbol": "MC01",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "The token of AUTO",
+      "denomUnits": [
+        {
+          "denom": "factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/uauto",
+          "exponent": 0
+        },
+        {
+          "denom": "auto",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/uauto",
+      "name": "AUTO",
+      "display": "auto",
+      "symbol": "AUTO",
+      "assetType": "sdk.factory"
     }
   ]
 }

@@ -32,16 +32,6 @@
       }
     ]
   },
-  "staking": {
-    "stakingTokens": [
-      {
-        "denom": "ustake"
-      }
-    ],
-    "lockDuration": {
-      "time": "1814400s"
-    }
-  },
   "codebase": {
     "gitRepo": "https://github.com/strangelove-ventures/noble",
     "recommendedVersion": "v5.0.0",

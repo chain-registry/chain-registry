@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "lava",
-  "status": "upcoming",
+  "status": "live",
   "network_type": "mainnet",
   "website": "https://lavanet.xyz/",
   "update_link": "https://raw.githubusercontent.com/lavanet/lava/main/chain.schema.json",
@@ -19,10 +19,10 @@
     "fee_tokens": [
       {
         "denom": "ulava",
-        "fixed_min_gas_price": 1e-9,
-        "low_gas_price": 1e-9,
-        "average_gas_price": 0.00005,
-        "high_gas_price": 0.0001
+        "fixed_min_gas_price": 0.00002,
+        "low_gas_price": 0.00002,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05
       }
     ]
   },
@@ -231,6 +231,10 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://lava.tendermintrpc.lava.build",
+        "provider": "Lava Over Lava"
+      },
+      {
         "address": "https://lava-rpc.w3coins.io:443",
         "provider": "w3coins"
       },
@@ -261,9 +265,21 @@
       {
         "address": "https://lava.rpc-archive.m.stavr.tech:443",
         "provider": "🔥STAVR🔥"
+      },
+      {
+        "address": "https://lava-rpc.stake-town.com:443",
+        "provider": "StakeTown"
+      },
+      {
+        "address": "https://lava.rpc.liveraven.net",
+        "provider": "LiveRaveN"
       }
     ],
     "rest": [
+      {
+        "address": "https://lava.rest.lava.build",
+        "provider": "Lava Over Lava"
+      },
       {
         "address": "https://lava-api.w3coins.io:443",
         "provider": "w3coins"
@@ -287,9 +303,21 @@
       {
         "address": "https://lava.api-archive.m.stavr.tech",
         "provider": "🔥STAVR🔥"
+      },
+      {
+        "address": "https://lava-api.stake-town.com:443",
+        "provider": "StakeTown"
+      },
+      {
+        "address": "https://lava.api.liveraven.net",
+        "provider": "LiveRaveN"
       }
     ],
     "grpc": [
+      {
+        "address": "lava.grpc.lava.build:443",
+        "provider": "Lava Over Lava"
+      },
       {
         "address": "lava-grpc.publicnode.com:443",
         "provider": "Allnodes ⚡️ Nodes & Staking"
@@ -301,10 +329,24 @@
       {
         "address": "lava.grpc-archive.m.stavr.tech:443",
         "provider": "🔥STAVR🔥"
+      },
+      {
+        "address": "lava-grpc.stake-town.com:443",
+        "provider": "StakeTown"
+      },
+      {
+        "address": "lava.grpc.liveraven.net:443",
+        "provider": "LiveRaveN"
       }
     ]
   },
   "explorers": [
+    {
+      "kind": "guru",
+      "url": "https://lava.explorers.guru/",
+      "tx_page": "ttps://lava.explorers.guru/transaction/${txHash}",
+      "account_page": "https://lava.explorers.guru/account/${accountAddress}"
+    },
     {
       "kind": "w3coins",
       "url": "https://lava-explorer.w3coins.io/Lava",

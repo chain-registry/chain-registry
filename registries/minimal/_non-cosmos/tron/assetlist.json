@@ -1,0 +1,55 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "tron",
+  "assets": [
+    {
+      "description": "TRONIX is the mainnet native token of the TRON Protocol issued by TRON DAO, known as TRX.",
+      "denomUnits": [
+        {
+          "denom": "sun",
+          "exponent": 0
+        },
+        {
+          "denom": "trx",
+          "exponent": 6
+        }
+      ],
+      "assetType": "unknown",
+      "base": "sun",
+      "name": "Tronix",
+      "display": "trx",
+      "symbol": "TRX",
+      "coingeckoId": "tron"
+    },
+    {
+      "description": "USDT is the official stablecoin issued by Tether on the TRON network.",
+      "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "denomUnits": [
+        {
+          "denom": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "assetType": "erc20",
+      "base": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "name": "Tether USD",
+      "display": "usdt",
+      "symbol": "USDT",
+      "coingeckoId": "tether",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Tether"
+        }
+      ]
+    }
+  ]
+}

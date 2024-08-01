@@ -944,6 +944,39 @@
         }
       ],
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "Cosmo is the best currency in the universe.",
+      "denomUnits": [
+        {
+          "denom": "factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO",
+          "exponent": 0
+        },
+        {
+          "denom": "COSMO",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO",
+      "name": "Cosmo",
+      "display": "COSMO",
+      "symbol": "COSMO",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/cosmo.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/cosmo.png",
+          "theme": {
+            "primaryColorHex": "#343169"
+          }
+        }
+      ],
+      "socials": {
+        "website": "https://github.com/raphaellafar/Cosmo",
+        "twitter": "https://x.com/CosmoClub84"
+      },
+      "assetType": "sdk.factory"
     }
   ]
 }

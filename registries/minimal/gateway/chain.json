@@ -21,13 +21,6 @@
       }
     ]
   },
-  "staking": {
-    "stakingTokens": [
-      {
-        "denom": "uworm"
-      }
-    ]
-  },
   "codebase": {
     "cosmosSdkVersion": "github.com/wormhole-foundation/cosmos-sdk@v0.45.9-wormhole-2",
     "cosmwasmVersion": "github.com/wormhole-foundation/wasmd@v0.30.0-wormchain-2",

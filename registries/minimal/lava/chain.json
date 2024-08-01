@@ -14,10 +14,10 @@
     "feeTokens": [
       {
         "denom": "ulava",
-        "fixedMinGasPrice": 1e-9,
-        "lowGasPrice": 1e-9,
-        "averageGasPrice": 0.00005,
-        "highGasPrice": 0.0001
+        "fixedMinGasPrice": 0.00002,
+        "lowGasPrice": 0.00002,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.05
       }
     ]
   },
@@ -51,6 +51,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://lava.tendermintrpc.lava.build"
+      },
+      {
         "address": "https://lava-rpc.w3coins.io:443"
       },
       {
@@ -73,9 +76,18 @@
       },
       {
         "address": "https://lava.rpc-archive.m.stavr.tech:443"
+      },
+      {
+        "address": "https://lava-rpc.stake-town.com:443"
+      },
+      {
+        "address": "https://lava.rpc.liveraven.net"
       }
     ],
     "rest": [
+      {
+        "address": "https://lava.rest.lava.build"
+      },
       {
         "address": "https://lava-api.w3coins.io:443"
       },
@@ -93,9 +105,18 @@
       },
       {
         "address": "https://lava.api-archive.m.stavr.tech"
+      },
+      {
+        "address": "https://lava-api.stake-town.com:443"
+      },
+      {
+        "address": "https://lava.api.liveraven.net"
       }
     ],
     "grpc": [
+      {
+        "address": "lava.grpc.lava.build:443"
+      },
       {
         "address": "lava-grpc.publicnode.com:443"
       },
@@ -104,10 +125,22 @@
       },
       {
         "address": "lava.grpc-archive.m.stavr.tech:443"
+      },
+      {
+        "address": "lava-grpc.stake-town.com:443"
+      },
+      {
+        "address": "lava.grpc.liveraven.net:443"
       }
     ]
   },
   "explorers": [
+    {
+      "kind": "guru",
+      "url": "https://lava.explorers.guru/",
+      "txPage": "ttps://lava.explorers.guru/transaction/${txHash}",
+      "accountPage": "https://lava.explorers.guru/account/${accountAddress}"
+    },
     {
       "kind": "w3coins",
       "url": "https://lava-explorer.w3coins.io/Lava",

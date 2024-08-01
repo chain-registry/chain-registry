@@ -17,6 +17,7 @@
       "assetType": "sdk.coin",
       "base": "ulava",
       "name": "Lava",
+      "coingeckoId": "lava-network",
       "display": "lava",
       "symbol": "LAVA"
     }

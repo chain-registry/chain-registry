@@ -28,16 +28,6 @@
       }
     ]
   },
-  "staking": {
-    "stakingTokens": [
-      {
-        "denom": "ustake"
-      }
-    ],
-    "lockDuration": {
-      "time": "1814400s"
-    }
-  },
   "codebase": {
     "cosmosSdkVersion": "noble-assets/cosmos-sdk v0.45.16-send-restrictions",
     "cosmwasmEnabled": false,

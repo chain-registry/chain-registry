@@ -25,13 +25,6 @@
       }
     ]
   },
-  "staking": {
-    "stakingTokens": [
-      {
-        "denom": "uworm"
-      }
-    ]
-  },
   "codebase": {
     "gitRepo": "https://github.com/wormhole-foundation/wormhole",
     "recommendedVersion": "v2.23.0",
