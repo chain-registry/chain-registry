@@ -28,8 +28,8 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.45.16",
-    "cosmwasmVersion": "0.31",
+    "cosmosSdkVersion": "0.47.12",
+    "cosmwasmVersion": "0.45.0",
     "cosmwasmEnabled": true
   },
   "apis": {
@@ -39,6 +39,9 @@
       },
       {
         "address": "https://quasar-testnet-rpc.stakeandrelax.net/"
+      },
+      {
+        "address": "https://quasar-testnet.rpc.kjnodes.com"
       }
     ],
     "rest": [
@@ -47,6 +50,9 @@
       },
       {
         "address": "https://quasar-testnet-api.stakeandrelax.net/"
+      },
+      {
+        "address": "https://quasar-testnet.api.kjnodes.com/"
       }
     ],
     "grpc": [
@@ -55,6 +61,9 @@
       },
       {
         "address": "http://quasar-testnet-grpc.stakeandrelax.net:18290/"
+      },
+      {
+        "address": "quasar-testnet.grpc.kjnodes.com:443"
       }
     ]
   },

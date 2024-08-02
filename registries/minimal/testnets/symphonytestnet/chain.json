@@ -36,16 +36,25 @@
     "rpc": [
       {
         "address": "https://rpc.testnet.symphonychain.org/"
+      },
+      {
+        "address": "https://symphony-testnet-rpc.cogwheel.zone"
       }
     ],
     "rest": [
       {
         "address": "https://lcd.testnet.symphonychain.org/"
+      },
+      {
+        "address": "https://symphony-testnet-api.cogwheel.zone"
       }
     ],
     "grpc": [
       {
         "address": "grpc.testnet.symphonychain.org:9090"
+      },
+      {
+        "address": "symphony-testnet-grpc.cogwheel.zone:443"
       }
     ]
   },

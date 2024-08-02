@@ -21537,6 +21537,86 @@
           }
         }
       ]
+    },
+    {
+      "description": "Cosmo is the best currency in the universe.",
+      "denomUnits": [
+        {
+          "denom": "ibc/4925733868E7999F5822C961ADE9470A7FC5FA4A560BAE1DE102783C3F64C201",
+          "exponent": 0,
+          "aliases": [
+            "factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO"
+          ]
+        },
+        {
+          "denom": "COSMO",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/4925733868E7999F5822C961ADE9470A7FC5FA4A560BAE1DE102783C3F64C201",
+      "name": "Cosmo",
+      "display": "COSMO",
+      "symbol": "COSMO",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO",
+            "channelId": "channel-8"
+          },
+          "chain": {
+            "channelId": "channel-122",
+            "path": "transfer/channel-122/factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO"
+          }
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/cosmo.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/cosmo.png",
+          "theme": {
+            "primaryColorHex": "#343169"
+          }
+        }
+      ],
+      "socials": {
+        "website": "https://github.com/raphaellafar/Cosmo",
+        "twitter": "https://x.com/CosmoClub84"
+      }
+    },
+    {
+      "description": "The Representative factory token for Trump Kemistry",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
+          "exponent": 0
+        },
+        {
+          "denom": "XTRUMP",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl",
+      "base": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
+      "name": "XTRUMP",
+      "display": "XTRUMP",
+      "symbol": "XTRUMP",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XTRUMP.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/XTRUMP.png",
+          "theme": {
+            "primaryColorHex": "#b02b27"
+          }
+        }
+      ]
     }
   ]
 }
