@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "8ball",
-  "status": "live",
+  "status": "killed",
   "website": "https://8ball.info/",
   "networkType": "mainnet",
   "prettyName": "8ball",

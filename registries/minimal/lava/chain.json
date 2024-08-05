@@ -82,6 +82,9 @@
       },
       {
         "address": "https://lava.rpc.liveraven.net"
+      },
+      {
+        "address": "https://lava-mainnet-rpc.autostake.com:443"
       }
     ],
     "rest": [
@@ -111,6 +114,9 @@
       },
       {
         "address": "https://lava.api.liveraven.net"
+      },
+      {
+        "address": "https://lava-mainnet-lcd.autostake.com:443"
       }
     ],
     "grpc": [
@@ -131,6 +137,9 @@
       },
       {
         "address": "lava.grpc.liveraven.net:443"
+      },
+      {
+        "address": "lava-mainnet-grpc.autostake.com:443"
       }
     ]
   },
@@ -138,7 +147,7 @@
     {
       "kind": "guru",
       "url": "https://lava.explorers.guru/",
-      "txPage": "ttps://lava.explorers.guru/transaction/${txHash}",
+      "txPage": "https://lava.explorers.guru/transaction/${txHash}",
       "accountPage": "https://lava.explorers.guru/account/${accountAddress}"
     },
     {

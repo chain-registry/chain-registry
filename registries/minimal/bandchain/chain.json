@@ -66,9 +66,6 @@
         "address": "https://bandprotocol-rpc.highstakes.ch"
       },
       {
-        "address": "https://band-rpc.stake-town.com"
-      },
-      {
         "address": "https://public.stakewolle.com/cosmos/bandchain/rpc"
       },
       {
@@ -110,9 +107,6 @@
         "address": "https://bandprotocol-api.highstakes.ch"
       },
       {
-        "address": "https://band-api.stake-town.com"
-      },
-      {
         "address": "https://public.stakewolle.com/cosmos/bandchain/rest"
       },
       {
@@ -149,9 +143,6 @@
       },
       {
         "address": "band.grpc.kjnodes.com:443"
-      },
-      {
-        "address": "band-grpc.stake-town.com:443"
       },
       {
         "address": "grpc.band.bronbro.io:443"

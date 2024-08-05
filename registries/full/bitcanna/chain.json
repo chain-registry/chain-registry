@@ -749,7 +749,7 @@
       "accountPage": "https://explorer.kalia.network/bitcanna/account/${accountAddress}"
     },
     {
-      "kind": "AVIAONE",
+      "kind": "AviaOne Explorer 🟢",
       "url": "https://mainnet.explorer.aviaone.com/bitcanna",
       "txPage": "https://mainnet.explorer.aviaone.com/bitcanna/tx/${txHash}",
       "accountPage": "https://mainnet.explorer.aviaone.com/bitcanna/account/${accountAddress}"
