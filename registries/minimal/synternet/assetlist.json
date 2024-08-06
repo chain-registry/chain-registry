@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "synternet",
+  "assets": [
+    {
+      "description": "Synternet is a blockchain that powers modular, interoperable data infrastructure across all major chains.",
+      "denomUnits": [
+        {
+          "denom": "usynt",
+          "exponent": 0
+        },
+        {
+          "denom": "SYNT",
+          "exponent": 6
+        }
+      ],
+      "base": "usynt",
+      "name": "Synternet",
+      "display": "SYNT",
+      "symbol": "SYNT",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

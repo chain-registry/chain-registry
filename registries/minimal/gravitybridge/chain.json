@@ -81,6 +81,9 @@
       },
       {
         "address": "https://rpc.g-bridge.bronbro.io:443"
+      },
+      {
+        "address": "https://rpc.gravity-bridge-3.gravity.aviaone.com:443"
       }
     ],
     "rest": [
@@ -116,6 +119,9 @@
       },
       {
         "address": "https://lcd.g-bridge.bronbro.io:443"
+      },
+      {
+        "address": "https://api.gravity-bridge-3.gravity.aviaone.com"
       }
     ],
     "grpc": [
@@ -145,6 +151,9 @@
       },
       {
         "address": "https://grpc.g-bridge.bronbro.io:443"
+      },
+      {
+        "address": "grpc.gravity-bridge-3.gravity.aviaone.com:9200"
       }
     ]
   },
@@ -192,6 +201,12 @@
       "url": "https://explorer.stavr.tech/GravityBridge",
       "txPage": "https://explorer.stavr.tech/GravityBridge/tx/${txHash}",
       "accountPage": "https://explorer.stavr.tech/GravityBridge/accounts/${accountAddress}"
+    },
+    {
+      "kind": "AviaOne 🟢",
+      "url": "https://mainnet.explorer.aviaone.com/gravity-bridge",
+      "txPage": "https://mainnet.explorer.aviaone.com/gravity-bridge/tx/${txHash}",
+      "accountPage": "https://mainnet.explorer.aviaone.com/gravity-bridge/accounts/${accountAddress}"
     }
   ],
   "images": [

@@ -38,9 +38,6 @@
     "compatibleVersions": [
       "v1.1.1"
     ],
-    "binaries": {
-
-    },
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/ArableProtocol/acrechain/main/networks/mainnet/acre_9052-1/genesis.json"
     },
@@ -50,10 +47,7 @@
         "recommendedVersion": "v1.1.1",
         "compatibleVersions": [
           "v1.1.1"
-        ],
-        "binaries": {
-
-        }
+        ]
       }
     ]
   },

@@ -1,0 +1,185 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "routerchain",
+  "chainType": "cosmos",
+  "chainId": "9600",
+  "prettyName": "Router Protocol",
+  "status": "live",
+  "networkType": "mainnet",
+  "website": "https://www.routerprotocol.com/",
+  "bech32Prefix": "router",
+  "daemonName": "routerd",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "route",
+        "fixedMinGasPrice": 0.006,
+        "lowGasPrice": 0.006,
+        "averageGasPrice": 0.006,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "route"
+      }
+    ]
+  },
+  "codebase": {
+    "recommendedVersion": "v2.1.1",
+    "compatibleVersions": [
+      "v2.1.1"
+    ],
+    "cosmosSdkVersion": "v0.47.10",
+    "consensus": {
+      "type": "cometbft",
+      "version": "v0.37.5"
+    },
+    "ibcGoVersion": "v7.4.0",
+    "cosmwasmVersion": "v0.45.0",
+    "cosmwasmEnabled": true,
+    "genesis": {
+      "genesisUrl": "https://sentry.tm.rpc.routerprotocol.com/genesis"
+    },
+    "versions": [
+      {
+        "name": "v2.1.1",
+        "recommendedVersion": "v2.1.1",
+        "compatibleVersions": [
+          "v2.1.1"
+        ],
+        "binaries": {
+          "linux/amd64": "https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.1.1/linux/routerd.tar.gz",
+          "darwin/amd64": "https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.1.1/debian/routerd.tar.gz"
+        },
+        "ibcGoVersion": "v7.4.0",
+        "cosmwasmVersion": "v0.45.0",
+        "cosmwasmEnabled": true
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "49e4a20d999fe27868a67fc72bc6bf0e1424a610",
+        "address": "188.214.133.133:26656",
+        "provider": "Router"
+      },
+      {
+        "id": "e90a88795977f7cc24982d5684f0f5a4581cd672",
+        "address": "185.8.104.157:26656",
+        "provider": "Router"
+      },
+      {
+        "id": "fbb30fa866f318e9e1c48188711526fc69f66d18",
+        "address": "188.214.133.174:26656",
+        "provider": "Router"
+      },
+      {
+        "id": "13a59edcee8ede7afa62ae054f266b44701cedc0",
+        "address": "213.246.45.16:3656",
+        "provider": "genznodes"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "router-mainnet-seed.autostake.com:27336",
+        "provider": "autostake"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "49e4a20d999fe27868a67fc72bc6bf0e1424a610",
+        "address": "188.214.133.133:26656",
+        "provider": "Router"
+      },
+      {
+        "id": "e90a88795977f7cc24982d5684f0f5a4581cd672",
+        "address": "185.8.104.157:26656",
+        "provider": "Router"
+      },
+      {
+        "id": "fbb30fa866f318e9e1c48188711526fc69f66d18",
+        "address": "188.214.133.174:26656",
+        "provider": "Router"
+      },
+      {
+        "id": "13a59edcee8ede7afa62ae054f266b44701cedc0",
+        "address": "213.246.45.16:3656",
+        "provider": "genznodes"
+      },
+      {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "router-mainnet-seed.autostake.com:27336",
+        "provider": "autostake"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://sentry.tm.rpc.routerprotocol.com/",
+        "provider": "Router"
+      },
+      {
+        "address": "https://router-rpc.genznodes.dev/",
+        "provider": "genznodes"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://sentry.lcd.routerprotocol.com/",
+        "provider": "Router"
+      },
+      {
+        "address": "https://router-api.genznodes.dev/",
+        "provider": "genznodes"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "sentry.grpc.routerprotocol.com:9090",
+        "provider": "Router"
+      },
+      {
+        "address": "router-grpc.genznodes.dev:3090",
+        "provider": "genznodes"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Routerscan",
+      "url": "https://routerscan.io/",
+      "txPage": "https://routerscan.io/transactions/${txHash}"
+    },
+    {
+      "kind": "NodeStake Explorer",
+      "url": "https://explorer.nodestake.org/router",
+      "txPage": "https://explorer.nodestake.org/router/tx/${txHash}"
+    },
+    {
+      "kind": "Router Explorer",
+      "url": "https://router.explorers.guru/",
+      "txPage": "https://router.explorers.guru/transaction/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "imageSync": {
+        "chainName": "routerchain",
+        "baseDenom": "route"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg",
+      "theme": {
+        "primaryColorHex": "#cb0766"
+      }
+    }
+  ]
+}

@@ -78,69 +78,30 @@
     "codebase": {
       "type": "object",
       "properties": {
+        "language": {
+          "$ref": "#/$defs/language"
+        },
         "binaries": {
-          "type": "object",
-          "properties": {
-            "linux/amd64": {
-              "type": "string",
-              "minLength": 1,
-              "format": "uri"
-            },
-            "linux/arm64": {
-              "type": "string",
-              "minLength": 1,
-              "format": "uri"
-            },
-            "darwin/amd64": {
-              "type": "string",
-              "minLength": 1,
-              "format": "uri"
-            },
-            "darwin/arm64": {
-              "type": "string",
-              "minLength": 1,
-              "format": "uri"
-            },
-            "windows/amd64": {
-              "type": "string",
-              "minLength": 1,
-              "format": "uri"
-            },
-            "windows/arm64": {
-              "type": "string",
-              "minLength": 1,
-              "format": "uri"
-            }
-          },
-          "additionalProperties": false
+          "$ref": "#/$defs/binaries"
+        },
+        "sdk": {
+          "$ref": "#/$defs/sdk"
         },
         "consensus": {
-          "type": "object",
-          "required": [
-            "type"
-          ],
-          "properties": {
-            "type": {
-              "type": "string",
-              "minLength": 1,
-              "enum": [
-                "tendermint",
-                "cometbft",
-                "sei-tendermint"
-              ]
-            },
-            "version": {
-              "type": "string",
-              "minLength": 1
-            }
-          },
-          "additionalProperties": false
+          "$ref": "#/$defs/consensus"
+        },
+        "cosmwasm": {
+          "$ref": "#/$defs/cosmwasm"
+        },
+        "ibc": {
+          "$ref": "#/$defs/ibc"
         },
         "genesis": {
           "type": "object",
           "required": [
             "genesisUrl"
           ],
+          "additionalProperties": false,
           "properties": {
             "name": {
               "type": "string",
@@ -156,8 +117,7 @@
               "minLength": 1,
               "format": "uri"
             }
-          },
-          "additionalProperties": false
+          }
         },
         "versions": {
           "type": "array",
@@ -185,63 +145,23 @@
                 "type": "number",
                 "description": "Proposal that will officially signal community acceptance of the upgrade."
               },
+              "language": {
+                "$ref": "#/$defs/language"
+              },
+              "sdk": {
+                "$ref": "#/$defs/sdk"
+              },
               "consensus": {
-                "type": "object",
-                "required": [
-                  "type"
-                ],
-                "properties": {
-                  "type": {
-                    "type": "string",
-                    "minLength": 1,
-                    "enum": [
-                      "tendermint",
-                      "cometbft",
-                      "sei-tendermint"
-                    ]
-                  },
-                  "version": {
-                    "type": "string",
-                    "minLength": 1
-                  }
-                },
-                "additionalProperties": false
+                "$ref": "#/$defs/consensus"
+              },
+              "cosmwasm": {
+                "$ref": "#/$defs/cosmwasm"
+              },
+              "ibc": {
+                "$ref": "#/$defs/ibc"
               },
               "binaries": {
-                "type": "object",
-                "properties": {
-                  "linux/amd64": {
-                    "type": "string",
-                    "minLength": 1,
-                    "format": "uri"
-                  },
-                  "linux/arm64": {
-                    "type": "string",
-                    "minLength": 1,
-                    "format": "uri"
-                  },
-                  "darwin/amd64": {
-                    "type": "string",
-                    "minLength": 1,
-                    "format": "uri"
-                  },
-                  "darwin/arm64": {
-                    "type": "string",
-                    "minLength": 1,
-                    "format": "uri"
-                  },
-                  "windows/amd64": {
-                    "type": "string",
-                    "minLength": 1,
-                    "format": "uri"
-                  },
-                  "windows/arm64": {
-                    "type": "string",
-                    "minLength": 1,
-                    "format": "uri"
-                  }
-                },
-                "additionalProperties": false
+                "$ref": "#/$defs/binaries"
               },
               "previousVersionName": {
                 "type": "string",
@@ -257,18 +177,18 @@
                 "type": "string",
                 "minLength": 1
               },
-              "goVersion": {
-                "type": "string",
-                "minLength": 1,
-                "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$",
-                "description": "Minimum accepted go version to build the binary."
-              },
               "compatibleVersions": {
                 "type": "array",
                 "items": {
                   "type": "string",
                   "minLength": 1
                 }
+              },
+              "goVersion": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$",
+                "description": "Minimum accepted go version to build the binary."
               },
               "cosmosSdkVersion": {
                 "type": "string",
@@ -318,18 +238,18 @@
           "type": "string",
           "minLength": 1
         },
-        "goVersion": {
-          "type": "string",
-          "minLength": 1,
-          "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$",
-          "description": "Minimum accepted go version to build the binary."
-        },
         "compatibleVersions": {
           "type": "array",
           "items": {
             "type": "string",
             "minLength": 1
           }
+        },
+        "goVersion": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$",
+          "description": "Minimum accepted go version to build the binary."
         },
         "cosmosSdkVersion": {
           "type": "string",
@@ -747,6 +667,210 @@
         }
       },
       "additionalProperties": false
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri",
+      "minLength": 1,
+      "description": "URL of the code repository."
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Simple version string (e.g., 'v1.0.0')."
+    },
+    "tag": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Detailed version identifier (e.g., 'v1.0.0-a1s2f43g')."
+    },
+    "sdk": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "cosmos",
+            "penumbra",
+            "other"
+          ]
+        },
+        "version": {
+          "$ref": "#/$defs/version"
+        },
+        "repo": {
+          "$ref": "#/$defs/repo"
+        },
+        "tag": {
+          "$ref": "#/$defs/tag"
+        }
+      }
+    },
+    "ibc": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "go",
+            "rust",
+            "other"
+          ]
+        },
+        "version": {
+          "$ref": "#/$defs/version"
+        },
+        "repo": {
+          "$ref": "#/$defs/repo"
+        },
+        "tag": {
+          "$ref": "#/$defs/tag"
+        },
+        "icsEnabled": {
+          "type": "array",
+          "description": "List of IBC apps (usually corresponding to a ICS standard) which have been enabled on the network.",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "description": "IBC app or ICS standard.",
+            "enum": [
+              "ics20-1",
+              "ics27-1",
+              "mauth"
+            ]
+          }
+        }
+      }
+    },
+    "cosmwasm": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "$ref": "#/$defs/version"
+        },
+        "repo": {
+          "$ref": "#/$defs/repo"
+        },
+        "tag": {
+          "$ref": "#/$defs/tag"
+        },
+        "enabled": {
+          "type": "boolean"
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Relative path to the cosmwasm directory. ex. $HOME/.juno/data/wasm",
+          "pattern": "^\\$HOME.*$"
+        }
+      }
+    },
+    "consensus": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "tendermint",
+            "cometbft",
+            "sei-tendermint"
+          ]
+        },
+        "version": {
+          "$ref": "#/$defs/version"
+        },
+        "repo": {
+          "$ref": "#/$defs/repo"
+        },
+        "tag": {
+          "$ref": "#/$defs/tag"
+        }
+      },
+      "additionalProperties": false
+    },
+    "language": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "go",
+            "rust",
+            "solidity",
+            "other"
+          ]
+        },
+        "version": {
+          "$ref": "#/$defs/version"
+        },
+        "repo": {
+          "$ref": "#/$defs/repo"
+        },
+        "tag": {
+          "$ref": "#/$defs/tag"
+        }
+      }
+    },
+    "binaries": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "linux/amd64": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri"
+        },
+        "linux/arm64": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri"
+        },
+        "darwin/amd64": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri"
+        },
+        "darwin/arm64": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri"
+        },
+        "windows/amd64": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri"
+        },
+        "windows/arm64": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri"
+        }
+      }
     },
     "pointer": {
       "type": "object",

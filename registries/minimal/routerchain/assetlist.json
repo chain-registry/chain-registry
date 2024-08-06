@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "routerchain",
+  "assets": [
+    {
+      "description": "The native token of Router Chain",
+      "denomUnits": [
+        {
+          "denom": "route",
+          "exponent": 0
+        },
+        {
+          "denom": "ROUTE",
+          "exponent": 18
+        }
+      ],
+      "base": "route",
+      "name": "Router Chain",
+      "display": "ROUTE",
+      "symbol": "ROUTE",
+      "coingeckoId": "route",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

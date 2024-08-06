@@ -85,6 +85,9 @@
       },
       {
         "address": "https://lava-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://lava-rpc.bluestake.net:443"
       }
     ],
     "rest": [
@@ -117,6 +120,9 @@
       },
       {
         "address": "https://lava-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://lava-api.bluestake.net"
       }
     ],
     "grpc": [

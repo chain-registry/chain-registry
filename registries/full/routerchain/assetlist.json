@@ -1,0 +1,39 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "routerchain",
+  "assets": [
+    {
+      "description": "The native token of Router Chain",
+      "extendedDescription": "Router Chain is a PoS L1 that allows stateful bridging–enabling truly omnichain dapps that can abstract chains from the users and aggregate liquidity across multiple chains.",
+      "denomUnits": [
+        {
+          "denom": "route",
+          "exponent": 0
+        },
+        {
+          "denom": "ROUTE",
+          "exponent": 18
+        }
+      ],
+      "base": "route",
+      "name": "Router Chain",
+      "display": "ROUTE",
+      "symbol": "ROUTE",
+      "coingeckoId": "route",
+      "logoURIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png"
+      },
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png",
+          "theme": {
+            "primaryColorHex": "#cb0766"
+          }
+        }
+      ],
+      "assetType": "sdk.coin"
+    }
+  ]
+}

@@ -66,6 +66,9 @@
       },
       {
         "address": "https://provenance_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://rpc.pio-mainnet-1.provenance.aviaone.com"
       }
     ],
     "rest": [
@@ -98,6 +101,9 @@
       },
       {
         "address": "https://provenance_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://api.pio-mainnet-1.provenance.aviaone.com"
       }
     ],
     "grpc": [
@@ -115,6 +121,9 @@
       },
       {
         "address": "provenance-grpc.panthea.eu:16780"
+      },
+      {
+        "address": "grpc.pio-mainnet-1.provenance.aviaone.com:9231"
       }
     ]
   },
@@ -163,6 +172,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/provenance",
       "txPage": "https://explorer.whenmoonwhenlambo.money/provenance/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/provenance/account/${accountAddress}"
+    },
+    {
+      "kind": "AVIAONE 🟢",
+      "url": "https://mainnet.explorer.aviaone.com/provenance",
+      "txPage": "https://mainnet.explorer.aviaone.com/provenance/tx/${txHash}",
+      "accountPage": "https://mainnet.explorer.aviaone.com/provenance/account/${accountAddress}"
     }
   ],
   "images": [

@@ -41,6 +41,9 @@
       },
       {
         "address": "https://rpc.dhealth.nodestake.org"
+      },
+      {
+        "address": "https://dhealth.rpc.nodeshub.online:443"
       }
     ],
     "rest": [
@@ -49,6 +52,9 @@
       },
       {
         "address": "https://api.dhealth.nodestake.org"
+      },
+      {
+        "address": "https://dhealth.api.nodeshub.online"
       }
     ],
     "grpc": [
@@ -57,6 +63,9 @@
       },
       {
         "address": "https://grpc.dhealth.nodestake.org:443"
+      },
+      {
+        "address": "dhealth.grpc.nodeshub.online"
       }
     ]
   },
@@ -66,6 +75,12 @@
       "url": "https://explorer.nodestake.org/dhealth",
       "txPage": "https://explorer.nodestake.org/dhealth/tx/${txHash}",
       "accountPage": "https://explorer.nodestake.org/dhealth/account/${accountAddress}"
+    },
+    {
+      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️",
+      "url": "https://explorer.nodeshub.online/dhealth/",
+      "txPage": "https://explorer.nodeshub.online/dhealth/tx/${txHash}",
+      "accountPage": "https://explorer.nodeshub.online/dhealth/accounts/${accountAddress}"
     }
   ],
   "images": [

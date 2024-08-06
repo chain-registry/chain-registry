@@ -34,9 +34,6 @@
     "compatibleVersions": [
       "v11.0.0"
     ],
-    "binaries": {
-
-    },
     "genesis": {
       "genesisUrl": "https://github.com/DoraFactory/Dear-Doge/blob/main/config/testnet/genesis.json"
     },
@@ -46,30 +43,21 @@
         "recommendedVersion": "v9.0.1",
         "compatibleVersions": [
           "v9.0.1"
-        ],
-        "binaries": {
-
-        }
+        ]
       },
       {
         "name": "v10.0.1",
         "recommendedVersion": "v10.0.1",
         "compatibleVersions": [
           "v10.0.1"
-        ],
-        "binaries": {
-
-        }
+        ]
       },
       {
         "name": "v11",
         "recommendedVersion": "v11.0.0",
         "compatibleVersions": [
           "v11.0.0"
-        ],
-        "binaries": {
-
-        }
+        ]
       }
     ]
   },

@@ -56,6 +56,9 @@
       },
       {
         "address": "https://ki-rpc.ibs.team/"
+      },
+      {
+        "address": "https://rpc.kichain-2.kichain.aviaone.com"
       }
     ],
     "rest": [
@@ -85,6 +88,9 @@
       },
       {
         "address": "https://ki-api.ibs.team/"
+      },
+      {
+        "address": "https://api.kichain-2.kichain.aviaone.com"
       }
     ],
     "grpc": [
@@ -102,6 +108,9 @@
       },
       {
         "address": "kichain-grpc.lavenderfive.com:443"
+      },
+      {
+        "address": "grpc.kichain-2.kichain.aviaone.com:9230"
       }
     ]
   },
@@ -133,6 +142,12 @@
       "url": "https://atomscan.com/ki-chain",
       "txPage": "https://atomscan.com/ki-chain/transactions/${txHash}",
       "accountPage": "https://atomscan.com/ki-chain/accounts/${accountAddress}"
+    },
+    {
+      "kind": "AVIAONE Explorer 🟢",
+      "url": "https://mainnet.explorer.aviaone.com/kichain",
+      "txPage": "https://mainnet.explorer.aviaone.com/kichain/transactions/${txHash}",
+      "accountPage": "https://mainnet.explorer.aviaone.com/kichain/accounts/${accountAddress}"
     }
   ],
   "images": [

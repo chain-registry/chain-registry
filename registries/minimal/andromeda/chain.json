@@ -79,7 +79,7 @@
     ],
     "rest": [
       {
-        "address": "https://api.andromeda-1.andromeda.aviaone.com/"
+        "address": "https://api.andromeda-1.andromeda.aviaone.com"
       },
       {
         "address": "https://andromeda.api.kjnodes.com"
@@ -123,7 +123,7 @@
         "address": "andromeda-grpc.lavenderfive.com:443"
       },
       {
-        "address": "https://grpc.andromeda-1.andromeda.aviaone.com:9094"
+        "address": "https://grpc.andromeda-1.andromeda.aviaone.com:9108"
       },
       {
         "address": "andromeda.grpc.kjnodes.com:443"
@@ -180,6 +180,11 @@
       "kind": "ping.pub",
       "url": "https://ping.pub/andromeda",
       "txPage": "https://ping.pub/andromeda/tx/${txHash}"
+    },
+    {
+      "kind": "AviaOne Explorer 🟢",
+      "url": "https://mainnet.explorer.aviaone.com/andromeda",
+      "txPage": "https://mainnet.explorer.aviaone.com/andromeda/tx/${txHash}"
     }
   ],
   "images": [

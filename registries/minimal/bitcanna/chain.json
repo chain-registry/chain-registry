@@ -130,7 +130,7 @@
         "address": "grpc.bitcanna-mainnet.hexnodes.one:27090"
       },
       {
-        "address": "grpc.bitcanna-1.bitcanna.aviaone.com:9092"
+        "address": "grpc.bitcanna-1.bitcanna.aviaone.com:9102"
       },
       {
         "address": "bitcanna-mainnet.grpc.l0vd.com:80"
@@ -213,7 +213,7 @@
         "address": "https://bitcanna-api.genznodes.dev"
       },
       {
-        "address": "https://api.bitcanna-1.bitcanna.aviaone.com/"
+        "address": "https://api.bitcanna-1.bitcanna.aviaone.com"
       },
       {
         "address": "https://lcd.bitcanna-mainnet.hexnodes.one"
@@ -376,6 +376,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/bitcanna",
       "txPage": "https://explorer.whenmoonwhenlambo.money/bitcanna/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/bitcanna/account/${accountAddress}"
+    },
+    {
+      "kind": "AviaOne Explorer 🟢",
+      "url": "https://mainnet.explorer.aviaone.com/bitcanna",
+      "txPage": "https://mainnet.explorer.aviaone.com/bitcanna/tx/${txHash}",
+      "accountPage": "https://mainnet.explorer.aviaone.com/bitcanna/account/${accountAddress}"
     }
   ],
   "images": [

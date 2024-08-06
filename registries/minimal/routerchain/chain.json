@@ -1,0 +1,93 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "routerchain",
+  "chainId": "9600",
+  "prettyName": "Router Protocol",
+  "networkType": "mainnet",
+  "website": "https://www.routerprotocol.com/",
+  "bech32Prefix": "router",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "route",
+        "fixedMinGasPrice": 0.006,
+        "lowGasPrice": 0.006,
+        "averageGasPrice": 0.006,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "route"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.47.10",
+    "ibcGoVersion": "v7.4.0",
+    "cosmwasmVersion": "v0.45.0",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://sentry.tm.rpc.routerprotocol.com/"
+      },
+      {
+        "address": "https://router-rpc.genznodes.dev/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://sentry.lcd.routerprotocol.com/"
+      },
+      {
+        "address": "https://router-api.genznodes.dev/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "sentry.grpc.routerprotocol.com:9090"
+      },
+      {
+        "address": "router-grpc.genznodes.dev:3090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Routerscan",
+      "url": "https://routerscan.io/",
+      "txPage": "https://routerscan.io/transactions/${txHash}"
+    },
+    {
+      "kind": "NodeStake Explorer",
+      "url": "https://explorer.nodestake.org/router",
+      "txPage": "https://explorer.nodestake.org/router/tx/${txHash}"
+    },
+    {
+      "kind": "Router Explorer",
+      "url": "https://router.explorers.guru/",
+      "txPage": "https://router.explorers.guru/transaction/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "imageSync": {
+        "chainName": "routerchain",
+        "baseDenom": "route"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg",
+      "theme": {
+        "primaryColorHex": "#cb0766"
+      }
+    }
+  ]
+}

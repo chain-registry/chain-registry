@@ -1,0 +1,52 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "synternettestnet",
+  "chainId": "amber-2",
+  "prettyName": "Amber Public Testnet",
+  "networkType": "testnet",
+  "bech32Prefix": "amber",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uamber",
+        "fixedMinGasPrice": 0.01,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uamber"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-testnet.synternet.com/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-testnet.synternet.com/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Big Dipper",
+      "url": "https://explorer-testnet.synternet.com/",
+      "txPage": "https://explorer-testnet.synternet.com/transactions/${txHash}"
+    }
+  ]
+}
