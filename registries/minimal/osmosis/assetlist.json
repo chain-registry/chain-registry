@@ -15205,6 +15205,38 @@
       "name": "XTRUMP",
       "display": "XTRUMP",
       "symbol": "XTRUMP"
+    },
+    {
+      "description": "TRONIX is the mainnet native token of the TRON Protocol issued by TRON DAO, known as TRX.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x/alloyed/allTRX",
+          "exponent": 0,
+          "aliases": [
+            "sun"
+          ]
+        },
+        {
+          "denom": "trx",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x",
+      "base": "factory/osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x/alloyed/allTRX",
+      "name": "Alloyed TRX",
+      "display": "trx",
+      "symbol": "TRX",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "tron",
+            "baseDenom": "sun"
+          },
+          "provider": "Osmosis"
+        }
+      ]
     }
   ]
 }

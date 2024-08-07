@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "routerchain",
-  "chainId": "9600",
+  "chainId": "router_9600-1",
   "prettyName": "Router Protocol",
   "networkType": "mainnet",
   "website": "https://www.routerprotocol.com/",
@@ -9,7 +9,7 @@
   "keyAlgos": [
     "secp256k1"
   ],
-  "slip44": 118,
+  "slip44": 60,
   "fees": {
     "feeTokens": [
       {

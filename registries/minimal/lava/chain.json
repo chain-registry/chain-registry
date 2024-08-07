@@ -88,6 +88,9 @@
       },
       {
         "address": "https://lava-rpc.bluestake.net:443"
+      },
+      {
+        "address": "https://lava.rpc.stakevillage.net:443"
       }
     ],
     "rest": [
@@ -123,6 +126,9 @@
       },
       {
         "address": "https://lava-api.bluestake.net"
+      },
+      {
+        "address": "https://lava.api.stakevillage.net:443"
       }
     ],
     "grpc": [
@@ -146,6 +152,9 @@
       },
       {
         "address": "lava-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "lava.grpc.stakevillage.net:443"
       }
     ]
   },
@@ -161,6 +170,12 @@
       "url": "https://lava-explorer.w3coins.io/Lava",
       "txPage": "https://lava-explorer.w3coins.io/Lava/tx/${txHash}",
       "accountPage": "https://lava-explorer.w3coins.io/Lava/account/${accountAddress}"
+    },
+    {
+      "kind": "Stake Village",
+      "url": "https://exp.stakevillage.net/lava-mainnet",
+      "txPage": "https://exp.stakevillage.net/lava-mainnet/tx/${txHash}",
+      "accountPage": "https://exp.stakevillage.net/lava-mainnet/account/${accountAddress}"
     }
   ]
 }
