@@ -155,6 +155,9 @@
       },
       {
         "address": "lava.grpc.stakevillage.net:443"
+      },
+      {
+        "address": "grpc.lava-mainnet-1.lava.aviaone.com:9104/"
       }
     ]
   },
@@ -176,6 +179,12 @@
       "url": "https://exp.stakevillage.net/lava-mainnet",
       "txPage": "https://exp.stakevillage.net/lava-mainnet/tx/${txHash}",
       "accountPage": "https://exp.stakevillage.net/lava-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "AVIAONE 🟢",
+      "url": "https://mainnet.explorer.aviaone.com/lava/",
+      "txPage": "https://mainnet.explorer.aviaone.com/lava/tx/${txHash}",
+      "accountPage": "https://mainnet.explorer.aviaone.com/lava/account/${accountAddress}"
     }
   ]
 }

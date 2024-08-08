@@ -6,7 +6,7 @@
   "prettyName": "MANTRA Hongbai Testnet",
   "chainType": "cosmos",
   "chainId": "mantra-hongbai-1",
-  "bech32Prefix": "uom",
+  "bech32Prefix": "mantra",
   "daemonName": "mantrachaind",
   "nodeHome": "$HOME/.mantrachain",
   "keyAlgos": [
@@ -33,9 +33,9 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/MANTRA-Finance",
-    "recommendedVersion": "3.0.0",
+    "recommendedVersion": "1.0.0",
     "compatibleVersions": [
-      "3.0.0"
+      "1.0.0"
     ],
     "cosmosSdkVersion": "0.47.3",
     "consensus": {

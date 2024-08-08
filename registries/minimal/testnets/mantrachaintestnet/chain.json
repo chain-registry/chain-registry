@@ -4,7 +4,7 @@
   "networkType": "testnet",
   "prettyName": "MANTRA Hongbai Testnet",
   "chainId": "mantra-hongbai-1",
-  "bech32Prefix": "uom",
+  "bech32Prefix": "mantra",
   "keyAlgos": [
     "secp256k1"
   ],

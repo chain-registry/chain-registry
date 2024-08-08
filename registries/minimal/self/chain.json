@@ -42,6 +42,9 @@
       },
       {
         "address": "https://selfchain.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://selfchain-mainnet.rpc.stakevillage.net:443"
       }
     ],
     "rest": [
@@ -59,6 +62,9 @@
       },
       {
         "address": "https://selfchain.api.nodeshub.online"
+      },
+      {
+        "address": "https://selfchain-mainnet.api.stakevillage.net"
       }
     ],
     "grpc": [
@@ -67,6 +73,9 @@
       },
       {
         "address": "selfchain.grpc.nodeshub.online"
+      },
+      {
+        "address": "selfchain-mainnet.grpc.stakevillage.net:443"
       }
     ]
   },
@@ -100,6 +109,12 @@
       "url": "https://explorer.nodeshub.online/selfchain/",
       "txPage": "https://explorer.nodeshub.online/selfchain/tx/${txHash}",
       "accountPage": "https://explorer.nodeshub.online/selfchain/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Stake Village",
+      "url": "https://exp.stakevillage.net/selfchain-mainnet",
+      "txPage": "https://exp.stakevillage.net/selfchain-mainnet/tx/${txHash}",
+      "accountPage": "https://exp.stakevillage.net/selfchain-mainnet/accounts/${accountAddress}"
     }
   ],
   "images": [
