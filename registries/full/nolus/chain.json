@@ -37,18 +37,18 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/nolus-protocol/nolus-core",
-    "recommendedVersion": "v0.5.2",
+    "recommendedVersion": "v0.6.2",
     "compatibleVersions": [
-      "v0.5.3"
+      "v0.6.2"
     ],
-    "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.47.8-nolus",
+    "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.50.7-nolus-rc1",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.37.4"
+      "version": "v0.38.10"
     },
-    "cosmwasmVersion": "neutron-org/wasmd v0.45.0",
+    "cosmwasmVersion": "neutron-org/wasmd v0.51.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "7.4.0",
+    "ibcGoVersion": "v8.2.1",
     "icsEnabled": [
       "ics20-1",
       "ics27-1"
@@ -217,6 +217,28 @@
         "cosmwasmVersion": "neutron-org/wasmd v0.45.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "7.4.0",
+        "icsEnabled": [
+          "ics20-1",
+          "ics27-1"
+        ],
+        "nextVersionName": ""
+      },
+      {
+        "name": "v0.6.2",
+        "proposal": 136,
+        "height": 6556000,
+        "recommendedVersion": "v0.6.2",
+        "compatibleVersions": [
+          "v0.6.2"
+        ],
+        "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.50.7-nolus-rc1",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.38.10"
+        },
+        "cosmwasmVersion": "neutron-org/wasmd v0.51.0",
+        "cosmwasmEnabled": true,
+        "ibcGoVersion": "8.2.1",
         "icsEnabled": [
           "ics20-1",
           "ics27-1"

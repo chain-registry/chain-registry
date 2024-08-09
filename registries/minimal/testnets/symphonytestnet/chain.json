@@ -3,7 +3,7 @@
   "chainName": "symphonytestnet",
   "networkType": "testnet",
   "prettyName": "Symphony Testnet",
-  "chainId": "symphony-testnet-1",
+  "chainId": "symphony-testnet-2",
   "bech32Prefix": "symphony",
   "keyAlgos": [
     "secp256k1"
@@ -35,26 +35,17 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.testnet.symphonychain.org/"
-      },
-      {
-        "address": "https://symphony-testnet-rpc.cogwheel.zone"
+        "address": "https://symphony-rpc.kleomedes.network"
       }
     ],
     "rest": [
       {
-        "address": "https://lcd.testnet.symphonychain.org/"
-      },
-      {
-        "address": "https://symphony-testnet-api.cogwheel.zone"
+        "address": "https://symphony-api.kleomedes.network"
       }
     ],
     "grpc": [
       {
-        "address": "grpc.testnet.symphonychain.org:9090"
-      },
-      {
-        "address": "symphony-testnet-grpc.cogwheel.zone:443"
+        "address": "symphony-grpc.kleomedes.network"
       }
     ]
   },

@@ -30,9 +30,9 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.10",
-    "ibcGoVersion": "v7.4.0",
     "cosmwasmVersion": "v0.45.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "ibcGoVersion": "v7.4.0"
   },
   "apis": {
     "rpc": [
@@ -57,6 +57,14 @@
       },
       {
         "address": "router-grpc.genznodes.dev:3090"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://sentry.evm.rpc.routerprotocol.com"
+      },
+      {
+        "address": "https://router-rpc-evm.genznodes.dev"
       }
     ]
   },

@@ -32,10 +32,10 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.47.8-nolus",
-    "cosmwasmVersion": "neutron-org/wasmd v0.45.0",
+    "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.50.7-nolus-rc1",
+    "cosmwasmVersion": "neutron-org/wasmd v0.51.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "7.4.0",
+    "ibcGoVersion": "v8.2.1",
     "icsEnabled": [
       "ics20-1",
       "ics27-1"

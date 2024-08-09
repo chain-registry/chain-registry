@@ -54,17 +54,17 @@
     ]
   },
   "codebase": {
-    "gitRepo": "https://github.com/quasar-finance/quasar-preview",
-    "recommendedVersion": "v1.0.1",
+    "gitRepo": "https://github.com/quasar-finance/quasar",
+    "recommendedVersion": "v2.0.1",
     "compatibleVersions": [
-      "v1.0.1"
+      "v2.0.1"
     ],
-    "cosmosSdkVersion": "v0.45.16",
+    "cosmosSdkVersion": "v0.47.12",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.34.27"
+      "version": "v0.37.6"
     },
-    "cosmwasmVersion": "v0.31.0",
+    "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/quasar-finance/networks/main/quasar-1/definitive-genesis.json"
@@ -100,6 +100,23 @@
           "version": "0.34.27"
         },
         "cosmwasmVersion": "0.31.0",
+        "cosmwasmEnabled": true,
+        "nextVersionName": "v2"
+      },
+      {
+        "name": "v2",
+        "proposal": 42,
+        "height": 7480400,
+        "recommendedVersion": "v2.0.1",
+        "compatibleVersions": [
+          "v2.0.1"
+        ],
+        "cosmosSdkVersion": "v0.47.12",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.6"
+        },
+        "cosmwasmVersion": "0.45.0",
         "cosmwasmEnabled": true,
         "nextVersionName": ""
       }

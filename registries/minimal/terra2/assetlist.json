@@ -142,7 +142,7 @@
       "symbol": "ESCUDOS"
     },
     {
-      "description": "Alem is a local currency for the region of Alentejo in Portugal, sibling of Dinheiros, Reis and Alem, a token of dioalma.protocol.",
+      "description": "Alem is one of the tokens of the seven families of dioalmaprotocol, alem almagem arika danu torus dmt plasma, all seven families use dinheiros reis and escudos, dioalma.protcol the currency of the seven seas.",
       "denomUnits": [
         {
           "denom": "cw20:terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q",
@@ -159,6 +159,120 @@
       "name": "alentejo.money",
       "display": "Alem",
       "symbol": "ALEM"
+    },
+    {
+      "description": "almagem is one of the tokens of the seven families of dioalmaprotocol, alem almagem arika danu torus dmt plasma, all seven families use dinheiros reis and escudos, dioalma.protcol the currency of the seven seas.",
+      "denomUnits": [
+        {
+          "denom": "cw20:terra1en42e2vsvtdsvrcqg5s5e5e4djejjaed6fxmvtpweg3tu33h6k5qkg9c40",
+          "exponent": 0
+        },
+        {
+          "denom": "AMG",
+          "exponent": 6
+        }
+      ],
+      "assetType": "cw20",
+      "address": "terra1en42e2vsvtdsvrcqg5s5e5e4djejjaed6fxmvtpweg3tu33h6k5qkg9c40",
+      "base": "cw20:terra1en42e2vsvtdsvrcqg5s5e5e4djejjaed6fxmvtpweg3tu33h6k5qkg9c40",
+      "name": "almagem",
+      "display": "AMG",
+      "symbol": "AMG"
+    },
+    {
+      "description": "arika is one of the tokens of the seven families of dioalmaprotocol, alem almagem arika danu torus dmt plasma, all seven families use dinheiros reis and escudos, dioalma.protcol the currency of the seven seas.",
+      "denomUnits": [
+        {
+          "denom": "cw20:terra1ysd87nayjuelxj4wvp4wnp9as0mwszzkje6a9z6f3xx2903ghnsq4hm50y",
+          "exponent": 0
+        },
+        {
+          "denom": "ARK",
+          "exponent": 6
+        }
+      ],
+      "assetType": "cw20",
+      "address": "terra1ysd87nayjuelxj4wvp4wnp9as0mwszzkje6a9z6f3xx2903ghnsq4hm50y",
+      "base": "cw20:terra1ysd87nayjuelxj4wvp4wnp9as0mwszzkje6a9z6f3xx2903ghnsq4hm50y",
+      "name": "arika",
+      "display": "ARK",
+      "symbol": "ARK"
+    },
+    {
+      "description": "danu is one of the tokens of the seven families of dioalmaprotocol, alem almagem arika danu torus dmt plasma, all seven families use dinheiros reis and escudos, dioalma.protcol the currency of the seven seas.",
+      "denomUnits": [
+        {
+          "denom": "cw20:terra1vj68f2ntauaj5dfvy5z4tq4we3hsyg363k63js5sae2t7th9aacqan89sr",
+          "exponent": 0
+        },
+        {
+          "denom": "DANU",
+          "exponent": 6
+        }
+      ],
+      "assetType": "cw20",
+      "address": "terra1vj68f2ntauaj5dfvy5z4tq4we3hsyg363k63js5sae2t7th9aacqan89sr",
+      "base": "cw20:terra1vj68f2ntauaj5dfvy5z4tq4we3hsyg363k63js5sae2t7th9aacqan89sr",
+      "name": "danu",
+      "display": "DANU",
+      "symbol": "DANU"
+    },
+    {
+      "description": "torus is one of the tokens of the seven families of dioalmaprotocol, alem almagem arika danu torus dmt plasma, all seven families use dinheiros reis and escudos, dioalma.protcol the currency of the seven seas.",
+      "denomUnits": [
+        {
+          "denom": "cw20:terra1swzpenwh39f8aa7qht34r05f8ew6k2vehvqt2aw4fjy0fgghhheqs9l6h7",
+          "exponent": 0
+        },
+        {
+          "denom": "TRS",
+          "exponent": 6
+        }
+      ],
+      "assetType": "cw20",
+      "address": "terra1swzpenwh39f8aa7qht34r05f8ew6k2vehvqt2aw4fjy0fgghhheqs9l6h7",
+      "base": "cw20:terra1swzpenwh39f8aa7qht34r05f8ew6k2vehvqt2aw4fjy0fgghhheqs9l6h7",
+      "name": "torus",
+      "display": "TRS",
+      "symbol": "TRS"
+    },
+    {
+      "description": "plasma is one of the tokens of the seven families of dioalmaprotocol, alem almagem arika danu torus dmt plasma, all seven families use dinheiros reis and escudos, dioalma.protcol the currency of the seven seas.",
+      "denomUnits": [
+        {
+          "denom": "cw20:terra1mqs6mdx0ak7qvjzs6efhg65g4j5pzwpdkcgdsv5tpekln3qhggrq3qzvdp",
+          "exponent": 0
+        },
+        {
+          "denom": "PLASMA",
+          "exponent": 6
+        }
+      ],
+      "assetType": "cw20",
+      "address": "terra1mqs6mdx0ak7qvjzs6efhg65g4j5pzwpdkcgdsv5tpekln3qhggrq3qzvdp",
+      "base": "cw20:terra1mqs6mdx0ak7qvjzs6efhg65g4j5pzwpdkcgdsv5tpekln3qhggrq3qzvdp",
+      "name": "plasma",
+      "display": "PLASMA",
+      "symbol": "PLASMA"
+    },
+    {
+      "description": "dmt is one of the tokens of the seven families of dioalmaprotocol, alem almagem arika danu torus dmt plasma, all seven families use dinheiros reis and escudos, dioalma.protcol the currency of the seven seas.",
+      "denomUnits": [
+        {
+          "denom": "cw20:terra1xfkkgwxychgrnq0vcp82u32mecrzj8s64s03cxtmf46k6j2n2wssc7rzjf",
+          "exponent": 0
+        },
+        {
+          "denom": "DMT",
+          "exponent": 6
+        }
+      ],
+      "assetType": "cw20",
+      "address": "terra1xfkkgwxychgrnq0vcp82u32mecrzj8s64s03cxtmf46k6j2n2wssc7rzjf",
+      "base": "cw20:terra1xfkkgwxychgrnq0vcp82u32mecrzj8s64s03cxtmf46k6j2n2wssc7rzjf",
+      "name": "dmt",
+      "display": "DMT",
+      "symbol": "DMT"
     },
     {
       "description": "ERIS liquid staked LUNA.",
