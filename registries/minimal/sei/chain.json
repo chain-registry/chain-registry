@@ -29,9 +29,9 @@
     ]
   },
   "codebase": {
-    "ibcGoVersion": "sei-ibc-go/v3 v3.3.1",
-    "cosmosSdkVersion": "sei-cosmos v0.3.24",
-    "cosmwasmVersion": "sei-wasmd v0.1.9",
+    "ibcGoVersion": "sei-ibc-go/v3 v3.3.2",
+    "cosmosSdkVersion": "sei-cosmos v0.3.31",
+    "cosmwasmVersion": "sei-wasmd v0.2.3",
     "cosmwasmEnabled": true
   },
   "description": "Sei is the fastest Layer 1 blockchain, designed to scale with the industry.",

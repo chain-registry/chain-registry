@@ -16,13 +16,13 @@
           "denom": "mld",
           "exponent": 6,
           "aliases": [
-
+            "melody"
           ]
         }
       ],
       "assetType": "sdk.coin",
       "base": "note",
-      "name": "Symphony Testnet",
+      "name": "Melody",
       "display": "mld",
       "symbol": "MLD"
     }
