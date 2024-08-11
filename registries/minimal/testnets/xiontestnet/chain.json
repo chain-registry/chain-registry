@@ -1,9 +1,10 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "xiontestnet",
-  "networkType": "testnet",
-  "prettyName": "Xion Testnet",
   "chainId": "xion-testnet-1",
+  "prettyName": "Xion Testnet",
+  "website": "https://burnt.com",
+  "networkType": "testnet",
   "bech32Prefix": "xion",
   "keyAlgos": [
     "secp256k1"
@@ -13,8 +14,8 @@
     "feeTokens": [
       {
         "denom": "uxion",
-        "fixedMinGasPrice": 0,
-        "lowGasPrice": 0,
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.025,
         "averageGasPrice": 0.025,
         "highGasPrice": 0.04
       }
@@ -28,9 +29,7 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.47.10",
-    "cosmwasmVersion": "0.45.1",
-    "cosmwasmEnabled": true
+
   },
   "apis": {
     "rpc": [
