@@ -991,6 +991,7 @@
       "assetType": "sdk.coin"
     },
     {
+      "assetType": "sdk.coin",
       "denomUnits": [
         {
           "denom": "yum-wei",
@@ -1017,10 +1018,10 @@
           },
           "provider": "Axelar"
         }
-      ],
-      "assetType": "sdk.coin"
+      ]
     },
     {
+      "assetType": "sdk.coin",
       "denomUnits": [
         {
           "denom": "arbitrum-weth-wei",
@@ -1044,10 +1045,10 @@
           },
           "provider": "Axelar"
         }
-      ],
-      "assetType": "sdk.coin"
+      ]
     },
     {
+      "assetType": "sdk.coin",
       "denomUnits": [
         {
           "denom": "base-weth-wei",
@@ -1071,10 +1072,10 @@
           },
           "provider": "Axelar"
         }
-      ],
-      "assetType": "sdk.coin"
+      ]
     },
     {
+      "assetType": "sdk.coin",
       "denomUnits": [
         {
           "denom": "polygon-weth-wei",
@@ -1098,8 +1099,37 @@
           },
           "provider": "Axelar"
         }
+      ]
+    },
+    {
+      "assetType": "sdk.coin",
+      "denomUnits": [
+        {
+          "denom": "op-wei",
+          "exponent": 0,
+          "aliases": [
+            "0x4200000000000000000000000000000000000042"
+          ]
+        },
+        {
+          "denom": "op",
+          "exponent": 18
+        }
       ],
-      "assetType": "sdk.coin"
+      "base": "op-wei",
+      "name": "Optimism",
+      "display": "op",
+      "symbol": "OP",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "optimism",
+            "baseDenom": "0x4200000000000000000000000000000000000042"
+          },
+          "provider": "Axelar"
+        }
+      ]
     }
   ]
 }

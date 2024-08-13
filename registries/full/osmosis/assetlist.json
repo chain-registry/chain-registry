@@ -21673,6 +21673,342 @@
           }
         }
       ]
+    },
+    {
+      "description": "An alloy of OP asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg/alloyed/allOP",
+          "exponent": 0
+        },
+        {
+          "denom": "op",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg",
+      "base": "factory/osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg/alloyed/allOP",
+      "name": "Alloyed OP",
+      "display": "op",
+      "symbol": "allOP",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "optimism",
+            "baseDenom": "0x4200000000000000000000000000000000000042"
+          },
+          "provider": "Osmosis"
+        }
+      ],
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allOP.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allOP.png",
+          "theme": {
+            "primaryColorHex": "#fc0424"
+          }
+        },
+        {
+          "imageSync": {
+            "chainName": "optimism",
+            "baseDenom": "0x4200000000000000000000000000000000000042"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/op.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/op.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#fc0424",
+            "backgroundColorHex": "#fc0424"
+          }
+        }
+      ]
+    },
+    {
+      "description": "CosmoUSD",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo104jtrwcljnxfljhml8mxrw7qetcsdmqvy3sprw/ucosmousd",
+          "exponent": 0,
+          "aliases": [
+            "ucosmousd"
+          ]
+        },
+        {
+          "denom": "CosmoUSD",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/osmo104jtrwcljnxfljhml8mxrw7qetcsdmqvy3sprw/ucosmousd",
+      "name": "CosmoUSD",
+      "display": "CosmoUSD",
+      "symbol": "COSMOUSD",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CosmoUSD.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CosmoUSD.png",
+          "theme": {
+            "primaryColorHex": "#343169"
+          }
+        }
+      ],
+      "socials": {
+        "website": "https://github.com/raphaellafar/Cosmo",
+        "twitter": "https://x.com/CosmoClub84"
+      },
+      "assetType": "sdk.factory"
+    },
+    {
+      "description": "An alloy of SHIB asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a/alloyed/allSHIB",
+          "exponent": 0
+        },
+        {
+          "denom": "shib",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a",
+      "base": "factory/osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a/alloyed/allSHIB",
+      "name": "Alloyed SHIB",
+      "display": "shib",
+      "symbol": "allSHIB",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+          },
+          "provider": "Osmosis"
+        }
+      ],
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSHIB.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSHIB.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#FFA409"
+          }
+        },
+        {
+          "imageSync": {
+            "chainName": "ethereum",
+            "baseDenom": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg",
+          "theme": {
+            "primaryColorHex": "#FFA409",
+            "backgroundColorHex": "#00000000"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of LINK asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw/alloyed/allLINK",
+          "exponent": 0
+        },
+        {
+          "denom": "link",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw",
+      "base": "factory/osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw/alloyed/allLINK",
+      "name": "Alloyed LINK",
+      "display": "link",
+      "symbol": "allLINK",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "provider": "Osmosis"
+        }
+      ],
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allLINK.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allLINK.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#2A5ADA"
+          }
+        },
+        {
+          "imageSync": {
+            "chainName": "ethereum",
+            "baseDenom": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
+          "theme": {
+            "primaryColorHex": "#2c5cdc"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of PEPE asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx/alloyed/allPEPE",
+          "exponent": 0
+        },
+        {
+          "denom": "pepe",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx",
+      "base": "factory/osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx/alloyed/allPEPE",
+      "name": "Alloyed PEPE",
+      "display": "pepe",
+      "symbol": "allPEPE",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
+          },
+          "provider": "Osmosis"
+        }
+      ],
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allPEPE.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#549C44"
+          }
+        },
+        {
+          "imageSync": {
+            "chainName": "ethereum",
+            "baseDenom": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg",
+          "theme": {
+            "primaryColorHex": "#cc3233"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of ARB asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk/alloyed/allARB",
+          "exponent": 0
+        },
+        {
+          "denom": "arb",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk",
+      "base": "factory/osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk/alloyed/allARB",
+      "name": "Alloyed ARB",
+      "display": "arb",
+      "symbol": "allARB",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "arbitrum",
+            "baseDenom": "0x912CE59144191C1204E64559FE8253a0e49E6548"
+          },
+          "provider": "Osmosis"
+        }
+      ],
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allARB.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allARB.png",
+          "theme": {
+            "primaryColorHex": "#9DCCED"
+          }
+        },
+        {
+          "imageSync": {
+            "chainName": "arbitrum",
+            "baseDenom": "0x912CE59144191C1204E64559FE8253a0e49E6548"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.png",
+          "theme": {
+            "primaryColorHex": "#253545"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of DOT asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02/alloyed/allDOT",
+          "exponent": 0
+        },
+        {
+          "denom": "dot",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02",
+      "base": "factory/osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02/alloyed/allDOT",
+      "name": "Alloyed DOT",
+      "display": "dot",
+      "symbol": "allDOT",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "polkadot",
+            "baseDenom": "Planck"
+          },
+          "provider": "Osmosis"
+        }
+      ],
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDOT.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allDOT.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#E6007A"
+          }
+        },
+        {
+          "imageSync": {
+            "chainName": "polkadot",
+            "baseDenom": "Planck"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/dot.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/optimism/images/dot.png",
+          "theme": {
+            "primaryColorHex": "#e4047c",
+            "backgroundColorHex": "#000000"
+          }
+        }
+      ]
     }
   ]
 }

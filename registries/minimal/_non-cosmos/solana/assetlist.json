@@ -457,6 +457,35 @@
       "name": "Pepe Bruce Jenner",
       "display": "pbj",
       "symbol": "PBJ"
+    },
+    {
+      "description": "Unicorn",
+      "assetType": "erc20",
+      "address": "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
+      "denomUnits": [
+        {
+          "denom": "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
+          "exponent": 0
+        },
+        {
+          "denom": "unicorn",
+          "exponent": 6
+        }
+      ],
+      "base": "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
+      "name": "Unicorn",
+      "display": "unicorn",
+      "symbol": "UWU",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "unicorn",
+            "baseDenom": "uwunicorn"
+          },
+          "provider": "Unicorn"
+        }
+      ]
     }
   ]
 }

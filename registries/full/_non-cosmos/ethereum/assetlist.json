@@ -399,7 +399,11 @@
       "coingeckoId": "shiba-inu",
       "images": [
         {
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg",
+          "theme": {
+            "primaryColorHex": "#FFA409",
+            "backgroundColorHex": "#00000000"
+          }
         }
       ]
     },

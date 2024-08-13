@@ -32,8 +32,8 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.5-evmos.2",
-    "ibcGoVersion": "7.4.0"
+    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.12-evmos.2",
+    "ibcGoVersion": "7.6.0"
   },
   "description": "Developers use Evmos as the Ethereum Canary Chain to deploy applications of the future. Get all the functionalities of Ethereum with the power of IBC and Interchain composability.",
   "apis": {

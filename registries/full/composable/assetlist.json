@@ -1717,6 +1717,53 @@
           }
         }
       ]
+    },
+    {
+      "description": "Unicorn from Solana via Picasso IBC",
+      "denomUnits": [
+        {
+          "denom": "ibc/586C150919550F6106711C7557DAAAEAB765DDF05648BAC0D96487AE90394BA1",
+          "exponent": 0,
+          "aliases": [
+            "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z"
+          ]
+        },
+        {
+          "denom": "unicorn",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/586C150919550F6106711C7557DAAAEAB765DDF05648BAC0D96487AE90394BA1",
+      "name": "Unicorn",
+      "display": "unicorn",
+      "symbol": "UWU",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-71",
+            "path": "transfer/channel-71/UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z"
+          }
+        }
+      ],
+      "images": [
+        {
+          "imageSync": {
+            "chainName": "unicorn",
+            "baseDenom": "uwunicorn"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unicorn/images/uwu.png",
+          "theme": {
+            "primaryColorHex": "#D44CE6"
+          }
+        }
+      ]
     }
   ]
 }
