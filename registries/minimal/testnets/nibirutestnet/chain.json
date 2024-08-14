@@ -41,7 +41,7 @@
   "apis": {
     "wss": [
       {
-        "address": "wss://hm-graphql.testnet-1.nibiru.fi/query"
+        "address": "wss://rpc.testnet-1.nibiru.fi/websocket"
       }
     ],
     "rpc": [

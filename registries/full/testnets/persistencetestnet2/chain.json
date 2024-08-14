@@ -73,7 +73,19 @@
         "ibcGoVersion": "v7.2.0",
         "cosmwasmVersion": "0.40",
         "cosmwasmEnabled": true,
-        "nextVersionName": "v8.1.0"
+        "nextVersionName": "v8.1.0",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47"
+        },
+        "cosmwasm": {
+          "version": "0.40",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0"
+        }
       },
       {
         "name": "v8.1.0",
@@ -90,7 +102,19 @@
         "ibcGoVersion": "v7.2.0",
         "cosmwasmVersion": "0.40",
         "cosmwasmEnabled": true,
-        "nextVersionName": "v9"
+        "nextVersionName": "v9",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47"
+        },
+        "cosmwasm": {
+          "version": "0.40",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0"
+        }
       },
       {
         "name": "v9",
@@ -109,7 +133,19 @@
         "ibcGoVersion": "v7.2.0",
         "cosmwasmVersion": "0.40",
         "cosmwasmEnabled": true,
-        "nextVersionName": "v9.1.0"
+        "nextVersionName": "v9.1.0",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47"
+        },
+        "cosmwasm": {
+          "version": "0.40",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0"
+        }
       },
       {
         "name": "v9.1.0",
@@ -136,6 +172,24 @@
         "cosmwasmPath": "$HOME/.persistenceCore/wasm",
         "binaries": {
           "linux/amd64": "https://github.com/persistenceOne/persistenceCore/releases/download/v9.1.1/persistenceCore-v9.1.1-linux-amd64.tar.gz"
+        },
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47",
+          "tag": "v0.47.x-lsm"
+        },
+        "cosmwasm": {
+          "version": "v0.40.2",
+          "path": "$HOME/.persistenceCore/wasm",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0",
+          "icsEnabled": [
+            "ics20-1",
+            "ics27-1"
+          ]
         }
       }
     ]

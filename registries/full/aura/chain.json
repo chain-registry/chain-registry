@@ -68,7 +68,19 @@
         },
         "cosmwasmVersion": "0.42.0",
         "cosmwasmEnabled": true,
-        "nextVersionName": "ibcupgrade"
+        "nextVersionName": "ibcupgrade",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.8"
+        },
+        "cosmwasm": {
+          "version": "0.42.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.3.1"
+        }
       },
       {
         "name": "ibcupgrade",
@@ -83,9 +95,36 @@
           "version": "aura-nw/cometbft v0.37.4-aura.2"
         },
         "cosmwasmVersion": "v0.42.0",
-        "cosmwasmEnabled": true
+        "cosmwasmEnabled": true,
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.8",
+          "tag": "v0.47.8-evmos"
+        },
+        "cosmwasm": {
+          "version": "v0.42.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.3.1"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/evmos/cosmos-sdk",
+      "version": "v0.47.8",
+      "tag": "v0.47.8-evmos"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v7.3.1"
+    },
+    "cosmwasm": {
+      "version": "v0.42.0",
+      "enabled": true
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",

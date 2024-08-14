@@ -49,7 +49,11 @@
           "v0.5.0"
         ],
         "cosmosSdkVersion": "0.44.5",
-        "nextVersionName": "plan_crypto"
+        "nextVersionName": "plan_crypto",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.44.5"
+        }
       },
       {
         "name": "plan_crypto",
@@ -60,9 +64,17 @@
         "compatibleVersions": [
           "v1.0.0"
         ],
-        "cosmosSdkVersion": "0.46.15"
+        "cosmosSdkVersion": "0.46.15",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.46.15"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.15"
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.png",

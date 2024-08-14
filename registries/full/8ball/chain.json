@@ -57,9 +57,23 @@
         "cosmwasmEnabled": true,
         "binaries": {
           "linux/amd64": "https://8ball.info/8ball.tar.gz"
+        },
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.46.7"
+        },
+        "cosmwasm": {
+          "enabled": true
         }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.7"
+    },
+    "cosmwasm": {
+      "enabled": true
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.png",

@@ -67,9 +67,33 @@
         },
         "cosmwasmVersion": "0.42.0",
         "cosmwasmEnabled": true,
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.8"
+        },
+        "cosmwasm": {
+          "version": "0.42.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.3.1"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.8"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v7.3.1"
+    },
+    "cosmwasm": {
+      "version": "0.42.0",
+      "enabled": true
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/aura/images/Aura-logo-2.2.png",

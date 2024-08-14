@@ -86,7 +86,21 @@
         "ics_enabled": [
           "ics20-1"
         ],
-        "next_version_name": "radon"
+        "next_version_name": "radon",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v3.4.0",
+          "ics_enabled": [
+            "ics20-1"
+          ]
+        }
       },
       {
         "name": "radon",
@@ -106,7 +120,22 @@
         "ibc_go_version": "v3.4.0 (fork)",
         "ics_enabled": [
           "ics20-1"
-        ]
+        ],
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v3.4.0",
+          "ics_enabled": [
+            "ics20-1"
+          ],
+          "tag": "v3.4.0(fork)"
+        }
       },
       {
         "name": "v3.0.0",
@@ -122,9 +151,38 @@
         "ibc_go_version": "v3.4.0 (fork)",
         "ics_enabled": [
           "ics20-1"
-        ]
+        ],
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v3.4.0",
+          "ics_enabled": [
+            "ics20-1"
+          ],
+          "tag": "v3.4.0(fork)"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v3.4.0",
+      "ics_enabled": [
+        "ics20-1"
+      ]
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "peers": {
     "persistent_peers": [

@@ -56,7 +56,10 @@
           "v9.0.0"
         ],
         "cosmwasmEnabled": true,
-        "nextVersionName": "v10.0.0"
+        "nextVersionName": "v10.0.0",
+        "cosmwasm": {
+          "enabled": true
+        }
       },
       {
         "name": "v10.0.0",
@@ -65,7 +68,10 @@
           "v10.0.0"
         ],
         "cosmwasmEnabled": true,
-        "nextVersionName": "v11.5.0"
+        "nextVersionName": "v11.5.0",
+        "cosmwasm": {
+          "enabled": true
+        }
       },
       {
         "name": "v11.5.0",
@@ -76,7 +82,10 @@
           "v11.5.2"
         ],
         "cosmwasmEnabled": true,
-        "nextVersionName": "v13.3.0"
+        "nextVersionName": "v13.3.0",
+        "cosmwasm": {
+          "enabled": true
+        }
       },
       {
         "name": "v13.3.0",
@@ -96,7 +105,15 @@
         },
         "cosmwasmVersion": "v0.41.0",
         "cosmwasmEnabled": true,
-        "nextVersionName": "v14.1.0"
+        "nextVersionName": "v14.1.0",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.5"
+        },
+        "cosmwasm": {
+          "version": "v0.41.0",
+          "enabled": true
+        }
       },
       {
         "name": "v14.1.0",
@@ -118,9 +135,33 @@
         "ibcGoVersion": "v7.4.0",
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.9"
+        },
+        "cosmwasm": {
+          "version": "v0.45.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.4.0"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.9"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v7.4.0"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "enabled": true
+    }
   },
   "daemonName": "comdex",
   "nodeHome": "$HOME/.comdex",

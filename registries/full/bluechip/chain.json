@@ -52,9 +52,23 @@
           "v1"
         ],
         "cosmosSdkVersion": "0.46.7",
-        "cosmwasmEnabled": true
+        "cosmwasmEnabled": true,
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.46.7"
+        },
+        "cosmwasm": {
+          "enabled": true
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.7"
+    },
+    "cosmwasm": {
+      "enabled": true
+    }
   },
   "peers": {
     "seeds": [

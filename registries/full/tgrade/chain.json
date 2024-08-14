@@ -49,9 +49,15 @@
         "compatibleVersions": [
           "v2.0.4"
         ],
-        "cosmwasmEnabled": true
+        "cosmwasmEnabled": true,
+        "cosmwasm": {
+          "enabled": true
+        }
       }
-    ]
+    ],
+    "cosmwasm": {
+      "enabled": true
+    }
   },
   "peers": {
     "seeds": [

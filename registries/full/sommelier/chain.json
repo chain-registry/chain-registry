@@ -106,9 +106,25 @@
           "version": "v0.34.28"
         },
         "ibcGoVersion": "v6.2.0",
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.46.14"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v6.2.0"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.46.14"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v6.2.0"
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",

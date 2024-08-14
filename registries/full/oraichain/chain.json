@@ -72,7 +72,11 @@
         "previousVersionName": "v0.40",
         "nextVersionName": ""
       }
-    ]
+    ],
+    "cosmwasm": {
+      "version": "0.30.2",
+      "enabled": true
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai.png",

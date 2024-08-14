@@ -61,7 +61,14 @@
           "version": "0.34.21"
         },
         "cosmwasmVersion": "0.28.0",
-        "nextVersionName": "Volunteer"
+        "nextVersionName": "Volunteer",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.45.9"
+        },
+        "cosmwasm": {
+          "version": "0.28.0"
+        }
       },
       {
         "name": "volunteer",
@@ -75,7 +82,14 @@
           "version": "0.34.27"
         },
         "cosmwasmVersion": "0.33.0",
-        "nextVersionName": "v1_4"
+        "nextVersionName": "v1_4",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.45.16"
+        },
+        "cosmwasm": {
+          "version": "0.33.0"
+        }
       },
       {
         "name": "v1_4",
@@ -90,9 +104,34 @@
         },
         "ibcGoVersion": "v4.5.1",
         "cosmwasmVersion": "v0.33.0",
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45.20",
+          "tag": "v0.45.20-xpla"
+        },
+        "cosmwasm": {
+          "version": "v0.33.0"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v4.5.1"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/xpladev/cosmos-sdk",
+      "version": "v0.45.20",
+      "tag": "v0.45.20-xpla"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v4.5.1"
+    },
+    "cosmwasm": {
+      "version": "v0.33.0"
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png",

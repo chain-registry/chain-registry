@@ -92,9 +92,31 @@
         "icsEnabled": [
           "ics20-1"
         ],
-        "nextVersionName": "v060"
+        "nextVersionName": "v060",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.46"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "5.2.1",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "5.2.1",
+      "icsEnabled": [
+        "ics20-1"
+      ]
+    }
   },
   "peers": {
     "seeds": [

@@ -41,12 +41,12 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/CosmosContracts/juno",
-    "recommendedVersion": "v23.0.0",
+    "recommendedVersion": "v23.1.0",
     "compatibleVersions": [
-      "v23.0.0"
+      "v23.1.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v23.0.0/junod"
+      "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v23.1.0/junod"
     },
     "cosmosSdkVersion": "v0.47.12",
     "consensus": {
@@ -79,7 +79,19 @@
         "cosmwasmVersion": "0.30.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v4.3.0",
-        "nextVersionName": "v14"
+        "nextVersionName": "v14",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.45.14"
+        },
+        "cosmwasm": {
+          "version": "0.30.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v4.3.0"
+        }
       },
       {
         "name": "v14",
@@ -101,7 +113,19 @@
         "cosmwasmVersion": "0.31.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v4.3.0",
-        "nextVersionName": "v15"
+        "nextVersionName": "v15",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.45.15"
+        },
+        "cosmwasm": {
+          "version": "0.31.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v4.3.0"
+        }
       },
       {
         "name": "v15",
@@ -122,7 +146,19 @@
         "cosmwasmVersion": "0.31.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v4.3.1",
-        "nextVersionName": "v16"
+        "nextVersionName": "v16",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.45.16"
+        },
+        "cosmwasm": {
+          "version": "0.31.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v4.3.1"
+        }
       },
       {
         "name": "v16",
@@ -144,7 +180,19 @@
         "cosmwasmVersion": "0.40.2",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v7.2.0",
-        "nextVersionName": "v17"
+        "nextVersionName": "v17",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47.3"
+        },
+        "cosmwasm": {
+          "version": "0.40.2",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0"
+        }
       },
       {
         "name": "v17",
@@ -166,7 +214,19 @@
         "cosmwasmVersion": "0.41.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v7.3.0",
-        "nextVersionName": "v18"
+        "nextVersionName": "v18",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47.5"
+        },
+        "cosmwasm": {
+          "version": "0.41.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.3.0"
+        }
       },
       {
         "name": "v18",
@@ -187,7 +247,19 @@
         "cosmwasmVersion": "0.45.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v7.3.1",
-        "nextVersionName": "v19"
+        "nextVersionName": "v19",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47.5"
+        },
+        "cosmwasm": {
+          "version": "0.45.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.3.1"
+        }
       },
       {
         "name": "v19",
@@ -208,7 +280,19 @@
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v7.3.1",
-        "nextVersionName": "v21"
+        "nextVersionName": "v21",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.6"
+        },
+        "cosmwasm": {
+          "version": "v0.45.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.3.1"
+        }
       },
       {
         "name": "v21",
@@ -229,7 +313,19 @@
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v7.3.1",
-        "nextVersionName": "v22"
+        "nextVersionName": "v22",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.6"
+        },
+        "cosmwasm": {
+          "version": "v0.45.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.3.1"
+        }
       },
       {
         "name": "v22",
@@ -250,18 +346,31 @@
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v7.4.0",
-        "nextVersionName": "v23"
+        "nextVersionName": "v23",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.11",
+          "tag": "v0.47.11-0.20240417094812-f556fd956fb1"
+        },
+        "cosmwasm": {
+          "version": "v0.45.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.4.0"
+        }
       },
       {
         "name": "v23",
         "proposal": 352,
         "height": 18032000,
-        "recommendedVersion": "v23.0.0",
+        "recommendedVersion": "v23.1.0",
         "compatibleVersions": [
-          "v23.0.0"
+          "v23.1.0"
         ],
         "binaries": {
-          "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v23.0.0/junod"
+          "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v23.1.0/junod"
         },
         "cosmosSdkVersion": "v0.47.12",
         "consensus": {
@@ -271,9 +380,33 @@
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v7.6.0",
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.12"
+        },
+        "cosmwasm": {
+          "version": "v0.45.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.6.0"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.12"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v7.6.0"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "enabled": true
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",

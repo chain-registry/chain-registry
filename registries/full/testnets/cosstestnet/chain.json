@@ -45,6 +45,13 @@
     "cosmwasmEnabled": false,
     "genesis": {
       "genesisUrl": "https://github.com/coss-inscription/networks/blob/main/testnet/coss-testnet-1/genesis.json"
+    },
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.2"
+    },
+    "cosmwasm": {
+      "enabled": false
     }
   },
   "peers": {

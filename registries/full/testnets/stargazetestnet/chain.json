@@ -50,9 +50,25 @@
           "version": "0.34"
         },
         "cosmwasmVersion": "0.28",
-        "cosmwasmEnabled": true
+        "cosmwasmEnabled": true,
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.45"
+        },
+        "cosmwasm": {
+          "version": "0.28",
+          "enabled": true
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.28",
+      "enabled": true
+    }
   },
   "peers": {
     "seeds": [

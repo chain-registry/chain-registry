@@ -72,9 +72,36 @@
         "cosmwasmVersion": "v0.41.0",
         "cosmwasmEnabled": true,
         "cosmwasmPath": "$HOME/.dhealth/wasm",
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.4"
+        },
+        "cosmwasm": {
+          "version": "v0.41.0",
+          "path": "$HOME/.dhealth/wasm",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "version": "v0.47.4"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v7.2.0"
+    },
+    "cosmwasm": {
+      "version": "v0.41.0",
+      "path": "$HOME/.dhealth/wasm",
+      "enabled": true
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png",

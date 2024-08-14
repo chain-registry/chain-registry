@@ -48,9 +48,23 @@
           "v1"
         ],
         "cosmosSdkVersion": "v0.46.7",
-        "cosmwasmEnabled": false
+        "cosmwasmEnabled": false,
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.46.7"
+        },
+        "cosmwasm": {
+          "enabled": false
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.46.7"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cnhostables/images/chain.png",

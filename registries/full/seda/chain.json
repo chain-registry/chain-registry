@@ -50,6 +50,14 @@
     "ibcGoVersion": "v8.2.0",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/sedaprotocol/seda-networks/main/mainnet/genesis.json"
+    },
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.5"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v8.2.0"
     }
   },
   "logoURIs": {

@@ -97,7 +97,19 @@
         },
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
-        "nextVersionName": "v14"
+        "nextVersionName": "v14",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.10"
+        },
+        "cosmwasm": {
+          "version": "v0.45.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.3.2"
+        }
       },
       {
         "name": "v14",
@@ -115,9 +127,33 @@
         },
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.12"
+        },
+        "cosmwasm": {
+          "version": "v0.45.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.6.0"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.12"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v7.6.0"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "enabled": true
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",

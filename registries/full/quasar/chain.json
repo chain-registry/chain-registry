@@ -84,7 +84,15 @@
         },
         "cosmwasmVersion": "0.27",
         "cosmwasmEnabled": true,
-        "nextVersionName": "v1"
+        "nextVersionName": "v1",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45.14"
+        },
+        "cosmwasm": {
+          "version": "0.27",
+          "enabled": true
+        }
       },
       {
         "name": "v1",
@@ -101,7 +109,15 @@
         },
         "cosmwasmVersion": "0.31.0",
         "cosmwasmEnabled": true,
-        "nextVersionName": "v2"
+        "nextVersionName": "v2",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45.16"
+        },
+        "cosmwasm": {
+          "version": "0.31.0",
+          "enabled": true
+        }
       },
       {
         "name": "v2",
@@ -118,9 +134,25 @@
         },
         "cosmwasmVersion": "0.45.0",
         "cosmwasmEnabled": true,
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.12"
+        },
+        "cosmwasm": {
+          "version": "0.45.0",
+          "enabled": true
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.12"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "enabled": true
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png"

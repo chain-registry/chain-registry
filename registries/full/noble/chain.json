@@ -71,7 +71,21 @@
         "icsEnabled": [
           "ics20-1"
         ],
-        "nextVersionName": "neon"
+        "nextVersionName": "neon",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v3.4.0",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
       },
       {
         "name": "neon",
@@ -92,7 +106,21 @@
         "icsEnabled": [
           "ics20-1"
         ],
-        "nextVersionName": "radon"
+        "nextVersionName": "radon",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v3.4.0",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
       },
       {
         "name": "radon",
@@ -112,7 +140,21 @@
         "icsEnabled": [
           "ics20-1"
         ],
-        "nextVersionName": "v3.1.0"
+        "nextVersionName": "v3.1.0",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45.15"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v3.4.0",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
       },
       {
         "name": "v3.1.0",
@@ -132,7 +174,21 @@
         "icsEnabled": [
           "ics20-1"
         ],
-        "nextVersionName": "argon"
+        "nextVersionName": "argon",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45.15"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v3.4.0",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
       },
       {
         "name": "argon",
@@ -152,7 +208,21 @@
         "icsEnabled": [
           "ics20-1"
         ],
-        "nextVersionName": "fusion"
+        "nextVersionName": "fusion",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45.16"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v4.5.1",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
       },
       {
         "name": "fusion",
@@ -172,7 +242,21 @@
         "icsEnabled": [
           "ics20-1"
         ],
-        "nextVersionName": "krypton"
+        "nextVersionName": "krypton",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45.16"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v4.5.1",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
       },
       {
         "name": "krypton",
@@ -192,9 +276,40 @@
         "icsEnabled": [
           "ics20-1"
         ],
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.45.16",
+          "tag": "v0.45.16-send-restrictions"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v4.6.0",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/noble-assets/cosmos-sdk",
+      "version": "v0.45.16",
+      "tag": "v0.45.16-send-restrictions"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v4.6.0",
+      "icsEnabled": [
+        "ics20-1"
+      ]
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png",

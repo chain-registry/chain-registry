@@ -59,7 +59,15 @@
           "version": "0.37"
         },
         "ibcGoVersion": "v7.2.0",
-        "nextVersionName": "v1.0.1"
+        "nextVersionName": "v1.0.1",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0"
+        }
       },
       {
         "name": "v1.0.1",
@@ -75,7 +83,15 @@
           "version": "0.37"
         },
         "ibcGoVersion": "v7.2.0",
-        "nextVersionName": "v1.0.2"
+        "nextVersionName": "v1.0.2",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0"
+        }
       },
       {
         "name": "v1.0.2",
@@ -93,9 +109,25 @@
           "version": "0.37"
         },
         "ibcGoVersion": "v7.2.0",
-        "nextVersionName": ""
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0"
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v7.2.0"
+    }
   },
   "peers": {
     "seeds": [

@@ -15247,7 +15247,7 @@
         },
         {
           "denom": "op",
-          "exponent": 18
+          "exponent": 12
         }
       ],
       "assetType": "sdk.coin",
@@ -15297,7 +15297,7 @@
         },
         {
           "denom": "shib",
-          "exponent": 18
+          "exponent": 12
         }
       ],
       "assetType": "sdk.coin",
@@ -15326,7 +15326,7 @@
         },
         {
           "denom": "link",
-          "exponent": 18
+          "exponent": 12
         }
       ],
       "assetType": "sdk.coin",
@@ -15355,7 +15355,7 @@
         },
         {
           "denom": "pepe",
-          "exponent": 18
+          "exponent": 12
         }
       ],
       "assetType": "sdk.coin",
@@ -15384,7 +15384,7 @@
         },
         {
           "denom": "arb",
-          "exponent": 18
+          "exponent": 12
         }
       ],
       "assetType": "sdk.coin",
@@ -15413,7 +15413,7 @@
         },
         {
           "denom": "dot",
-          "exponent": 18
+          "exponent": 10
         }
       ],
       "assetType": "sdk.coin",

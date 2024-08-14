@@ -64,9 +64,23 @@
           "type": "tendermint",
           "version": "0.37"
         },
-        "cosmwasmEnabled": false
+        "cosmwasmEnabled": false,
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47"
+        },
+        "cosmwasm": {
+          "enabled": false
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "peers": {
     "seeds": [

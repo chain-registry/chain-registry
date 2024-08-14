@@ -2587,6 +2587,32 @@
         }
       ],
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "Quark's auto-compounding DYDX derivative",
+      "denomUnits": [
+        {
+          "denom": "factory/kujira1seqq2ekz47uqayshqkg5wqx5vcyrmtwcl9vscnwy2gjh7mz5aapsdfxsd5/urcpt",
+          "exponent": 0
+        },
+        {
+          "denom": "qcDYDX",
+          "exponent": 18
+        }
+      ],
+      "base": "factory/kujira1seqq2ekz47uqayshqkg5wqx5vcyrmtwcl9vscnwy2gjh7mz5aapsdfxsd5/urcpt",
+      "name": "qcDYDX",
+      "display": "qcDYDX",
+      "symbol": "qcDYDX",
+      "logoURIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcdydx.svg"
+      },
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/qcdydx.svg"
+        }
+      ],
+      "assetType": "sdk.factory"
     }
   ]
 }
