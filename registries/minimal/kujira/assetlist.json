@@ -1739,6 +1739,24 @@
       "display": "qcDYDX",
       "symbol": "qcDYDX",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "The Kujira Recovery Token",
+      "denomUnits": [
+        {
+          "denom": "factory/kujira1tsekaqv9vmem0zwskmf90gpf0twl6k57e8vdnq/urkuji",
+          "exponent": 0
+        },
+        {
+          "denom": "rkuji",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/kujira1tsekaqv9vmem0zwskmf90gpf0twl6k57e8vdnq/urkuji",
+      "name": "rKUJI",
+      "display": "rkuji",
+      "symbol": "rKUJI",
+      "assetType": "sdk.factory"
     }
   ]
 }

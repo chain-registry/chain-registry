@@ -33,6 +33,49 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Deenar gold-backed stablecoin",
+      "denomUnits": [
+        {
+          "denom": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+          "exponent": 0
+        },
+        {
+          "denom": "DEEN",
+          "exponent": 6
+        }
+      ],
+      "base": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+      "name": "Deenar",
+      "display": "DEEN",
+      "address": "0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+      "symbol": "DEEN",
+      "assetType": "erc20",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "comex",
+            "baseDenom": "XAU"
+          },
+          "provider": "Deenar"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/deen.svg",
+          "theme": {
+            "primaryColorHex": "#ffbc05",
+            "circle": true
+          }
+        }
+      ]
     }
   ]
 }

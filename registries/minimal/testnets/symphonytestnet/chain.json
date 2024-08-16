@@ -3,7 +3,7 @@
   "chainName": "symphonytestnet",
   "networkType": "testnet",
   "prettyName": "Symphony Testnet",
-  "chainId": "symphony-testnet-2",
+  "chainId": "symphony-testnet-3",
   "bech32Prefix": "symphony",
   "keyAlgos": [
     "secp256k1"
@@ -35,17 +35,17 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://symphony-rpc.kleomedes.network"
+        "address": "https://symphony.test.rpc.nodeshub.online/"
       }
     ],
     "rest": [
       {
-        "address": "https://symphony-api.kleomedes.network"
+        "address": "https://symphony.test.api.nodeshub.online/"
       }
     ],
     "grpc": [
       {
-        "address": "symphony-grpc.kleomedes.network"
+        "address": "https://symphony.test.grpc.nodeshub.online/"
       }
     ]
   },

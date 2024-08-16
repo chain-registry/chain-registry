@@ -105,9 +105,9 @@
     },
     {
       "kind": "ezstaking",
-      "url": "https://ezstaking.app/cronos",
-      "txPage": "https://ezstaking.app/cronos/txs/${txHash}",
-      "accountPage": "https://ezstaking.app/cronos/account/${accountAddress}"
+      "url": "https://ezstaking.app/crypto-org",
+      "txPage": "https://ezstaking.app/crypto-org/txs/${txHash}",
+      "accountPage": "https://ezstaking.app/crypto-org/account/${accountAddress}"
     },
     {
       "kind": "cronos.org",

@@ -73,6 +73,9 @@
       },
       {
         "address": "https://teritori-rpc.bluestake.net:443"
+      },
+      {
+        "address": "https://teritori_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -114,6 +117,9 @@
       },
       {
         "address": "https://teritori-api.bluestake.net"
+      },
+      {
+        "address": "https://teritori_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -191,6 +197,12 @@
       "url": "https://atomscan.com/teritori",
       "txPage": "https://atomscan.com/teritori/transactions/${txHash}",
       "accountPage": "https://atomscan.com/teritori/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/teritori",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/teritori/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/teritori/account/${accountAddress}"
     }
   ],
   "images": [

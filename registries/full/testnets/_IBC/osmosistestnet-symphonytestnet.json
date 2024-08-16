@@ -13,7 +13,7 @@
   "channels": [
     {
       "chain1": {
-        "channelId": "channnel-8686",
+        "channelId": "channel-8686",
         "portId": "transfer"
       },
       "chain2": {

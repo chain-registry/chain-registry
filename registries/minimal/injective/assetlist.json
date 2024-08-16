@@ -653,6 +653,24 @@
           }
         }
       ]
+    },
+    {
+      "description": "DRUGS meme coin",
+      "denomUnits": [
+        {
+          "denom": "inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
+          "exponent": 0
+        },
+        {
+          "denom": "DRUGS",
+          "exponent": 6
+        }
+      ],
+      "base": "inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
+      "name": "DRUGS",
+      "display": "DRUGS",
+      "symbol": "DRUGS",
+      "assetType": "unknown"
     }
   ]
 }

@@ -2,22 +2,22 @@
   "$schema": "../ibc_data.schema.json",
   "chain1": {
     "chainName": "mantrachaintestnet",
-    "clientId": "07-tendermint-3",
-    "connectionId": "connection-3"
+    "clientId": "07-tendermint-6",
+    "connectionId": "connection-6"
   },
   "chain2": {
     "chainName": "nobletestnet",
-    "clientId": "07-tendermint-256",
-    "connectionId": "connection-207"
+    "clientId": "07-tendermint-294",
+    "connectionId": "connection-247"
   },
   "channels": [
     {
       "chain1": {
-        "channelId": "channel-3",
+        "channelId": "channel-6",
         "portId": "transfer"
       },
       "chain2": {
-        "channelId": "channel-174",
+        "channelId": "channel-209",
         "portId": "transfer"
       },
       "ordering": "unordered",

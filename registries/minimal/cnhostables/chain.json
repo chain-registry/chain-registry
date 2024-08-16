@@ -34,11 +34,17 @@
     "rpc": [
       {
         "address": "https://rpc.cnho.io"
+      },
+      {
+        "address": "https://cnhostables_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
       {
         "address": "https://api.cnho.io"
+      },
+      {
+        "address": "https://cnhostables_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -52,6 +58,12 @@
       "url": "https://explorer.cnho.io",
       "txPage": "https://explorer.cnho.io/transaction/${txHash}",
       "accountPage": "https://explorer.cnho.io/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/cnhostables",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/cnhostables/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/cnhostables/account/${accountAddress}"
     }
   ],
   "images": [

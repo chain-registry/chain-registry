@@ -20,6 +20,35 @@
       "symbol": "ISLM",
       "coingeckoId": "islamic-coin",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Deenar gold-backed stablecoin",
+      "denomUnits": [
+        {
+          "denom": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+          "exponent": 0
+        },
+        {
+          "denom": "DEEN",
+          "exponent": 6
+        }
+      ],
+      "base": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+      "name": "Deenar",
+      "display": "DEEN",
+      "address": "0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+      "symbol": "DEEN",
+      "assetType": "erc20",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "comex",
+            "baseDenom": "XAU"
+          },
+          "provider": "Deenar"
+        }
+      ]
     }
   ]
 }
