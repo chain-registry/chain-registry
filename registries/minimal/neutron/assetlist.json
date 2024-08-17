@@ -845,6 +845,28 @@
       "display": "NBZ",
       "symbol": "NBZ",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "Mars Protocol is a cross-collateralized Money Market Protocol on Neutron and Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS",
+          "exponent": 0,
+          "aliases": [
+            "umars"
+          ]
+        },
+        {
+          "denom": "MARS",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS",
+      "name": "Mars Protocol token",
+      "display": "MARS",
+      "symbol": "MARS",
+      "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
+      "assetType": "sdk.factory"
     }
   ]
 }
