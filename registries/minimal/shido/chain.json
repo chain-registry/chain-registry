@@ -51,6 +51,9 @@
       },
       {
         "address": "https://rpc.shido.indonode.net:443"
+      },
+      {
+        "address": "https://rpc-maverick.mavnode.io"
       }
     ],
     "rest": [
@@ -65,6 +68,9 @@
       },
       {
         "address": "https://api.shido.indonode.net"
+      },
+      {
+        "address": "https://api-maverick.mavnode.io"
       }
     ],
     "grpc": [
@@ -76,6 +82,9 @@
       },
       {
         "address": "https://s2.shido-grpc.applejuice.256x25.tech"
+      },
+      {
+        "address": "https://grpc-maverick.mavnode.io"
       }
     ],
     "evmHttpJsonrpc": [
@@ -90,6 +99,9 @@
       },
       {
         "address": "https://s2.shido-evm.applejuice.256x25.tech:443"
+      },
+      {
+        "address": "https://evm-maverick.mavnode.io"
       }
     ]
   },

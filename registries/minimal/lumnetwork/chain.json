@@ -50,9 +50,6 @@
         "address": "https://lum-rpc.stakerhouse.com"
       },
       {
-        "address": "https://lum-rpc.panthea.eu"
-      },
-      {
         "address": "https://lumnetwork_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
@@ -73,9 +70,6 @@
         "address": "https://lum-rest.stakerhouse.com"
       },
       {
-        "address": "https://lum-api.panthea.eu"
-      },
-      {
         "address": "https://lumnetwork_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
@@ -91,9 +85,6 @@
       },
       {
         "address": "lum-grpc.stakerhouse.com:443"
-      },
-      {
-        "address": "lum-grpc.panthea.eu:16770"
       }
     ]
   },

@@ -31,12 +31,12 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/ingenuity-build/quicksilver",
-    "recommendedVersion": "v1.6.2",
+    "recommendedVersion": "v1.6.3",
     "compatibleVersions": [
-      "v1.6.2"
+      "v1.6.3"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/ingenuity-build/quicksilver/releases/download/v1.6.2/quicksilverd-v1.6.1-amd64"
+      "linux/amd64": "https://github.com/ingenuity-build/quicksilver/releases/download/v1.6.3/quicksilverd-v1.6.3-amd64"
     },
     "cosmosSdkVersion": "v0.46.16",
     "consensus": {
@@ -564,6 +564,33 @@
         ],
         "binaries": {
           "linux/amd64": "https://github.com/ingenuity-build/quicksilver/releases/download/v1.6.2/quicksilverd-v1.6.1-amd64"
+        },
+        "cosmosSdkVersion": "v0.46.16",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.34.33"
+        },
+        "ibcGoVersion": "v6.3.1",
+        "nextVersionName": "1.6.3",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.46.16"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v6.3.1"
+        }
+      },
+      {
+        "name": "v1.6.3",
+        "proposal": 43,
+        "height": 8722500,
+        "recommendedVersion": "v1.6.3",
+        "compatibleVersions": [
+          "v1.6.3"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/ingenuity-build/quicksilver/releases/download/v1.6.3/quicksilverd-v1.6.3-amd64"
         },
         "cosmosSdkVersion": "v0.46.16",
         "consensus": {
