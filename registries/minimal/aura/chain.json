@@ -32,8 +32,8 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.8-evmos",
-    "ibcGoVersion": "v7.3.1",
+    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.12-evmos",
+    "ibcGoVersion": "v7.6.0",
     "cosmwasmVersion": "v0.42.0",
     "cosmwasmEnabled": true
   },
