@@ -55,7 +55,7 @@
       "base": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
       "name": "Tether USDt",
       "display": "usdt",
-      "symbol": "USDt",
+      "symbol": "USDTkv",
       "traces": [
         {
           "type": "ibc",
@@ -75,6 +75,53 @@
           "imageSync": {
             "chainName": "kava",
             "baseDenom": "erc20/tether/usdt"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#009393",
+            "backgroundColorHex": "#009393"
+          }
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+      }
+    },
+    {
+      "description": "Tether USDt from Ethereum via Peggy bridge.",
+      "denomUnits": [
+        {
+          "denom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "name": "Tether USDT",
+      "display": "usdt",
+      "symbol": "USDT",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Peggy"
+        }
+      ],
+      "images": [
+        {
+          "imageSync": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
           },
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg",
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
@@ -1029,15 +1076,17 @@
       "description": "DRUGS meme coin",
       "denomUnits": [
         {
-          "denom": "inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
+          "denom": "cw20:inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
           "exponent": 0
         },
         {
           "denom": "DRUGS",
-          "exponent": 6
+          "exponent": 18
         }
       ],
-      "base": "inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
+      "assetType": "cw20",
+      "address": "inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
+      "base": "cw20:inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
       "name": "DRUGS",
       "display": "DRUGS",
       "symbol": "DRUGS",
@@ -1048,8 +1097,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/drugs.png"
         }
-      ],
-      "assetType": "unknown"
+      ]
     }
   ]
 }

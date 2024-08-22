@@ -122,6 +122,9 @@
       },
       {
         "address": "http://37.60.240.43:46657"
+      },
+      {
+        "address": "https://chain4energy_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -202,6 +205,9 @@
       },
       {
         "address": "https://lcd-m-c4e.apeironnodes.com"
+      },
+      {
+        "address": "https://chain4energy_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -356,6 +362,12 @@
       "kind": "Cryptech",
       "url": "https://explorers.cryptech.com.ua/chain4energy",
       "txPage": "https://explorers.cryptech.com.ua/chain4energy/tx/${txHash}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/chain4energy",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/chain4energy/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/chain4energy/account/${accountAddress}"
     }
   ],
   "images": [
