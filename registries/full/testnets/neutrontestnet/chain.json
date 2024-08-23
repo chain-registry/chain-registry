@@ -155,7 +155,7 @@
       },
       {
         "name": "v4.0.0-rc3",
-        "nextVersionName": "",
+        "nextVersionName": "v4.2.1-testnet",
         "recommendedVersion": "v4.0.0-rc3",
         "compatibleVersions": [
           "v4.0.0-rc3"
@@ -164,6 +164,34 @@
         "consensus": {
           "type": "cometbft",
           "version": "0.38.7"
+        },
+        "cosmwasmVersion": "0.51",
+        "cosmwasmEnabled": true,
+        "ibcGoVersion": "8.2.1",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.50"
+        },
+        "cosmwasm": {
+          "version": "0.51",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "8.2.1"
+        }
+      },
+      {
+        "name": "v4.2.1-testnet",
+        "nextVersionName": "",
+        "recommendedVersion": "v4.2.1-testnet",
+        "compatibleVersions": [
+          "v4.2.1-testnet"
+        ],
+        "cosmosSdkVersion": "0.50",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.38.11"
         },
         "cosmwasmVersion": "0.51",
         "cosmwasmEnabled": true,
@@ -191,7 +219,7 @@
       "version": "8.2.1"
     },
     "cosmwasm": {
-      "version": "0.52",
+      "version": "0.51",
       "enabled": true
     }
   },

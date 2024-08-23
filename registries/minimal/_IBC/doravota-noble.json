@@ -1,23 +1,23 @@
 {
   "$schema": "../ibc_data.schema.json",
   "chain1": {
-    "chainName": "neutron",
-    "clientId": "07-tendermint-137",
-    "connectionId": "connection-98"
+    "chainName": "doravota",
+    "clientId": "07-tendermint-23",
+    "connectionId": "connection-29"
   },
   "chain2": {
-    "chainName": "penumbra",
-    "clientId": "07-tendermint-9",
-    "connectionId": "connection-7"
+    "chainName": "noble",
+    "clientId": "07-tendermint-111",
+    "connectionId": "connection-106"
   },
   "channels": [
     {
       "chain1": {
-        "channelId": "channel-4886",
+        "channelId": "channel-14",
         "portId": "transfer"
       },
       "chain2": {
-        "channelId": "channel-6",
+        "channelId": "channel-94",
         "portId": "transfer"
       },
       "ordering": "unordered",
