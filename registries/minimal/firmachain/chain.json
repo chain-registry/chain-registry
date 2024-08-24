@@ -50,6 +50,9 @@
       },
       {
         "address": "https://firmachain.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://firmachain_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -70,6 +73,9 @@
       },
       {
         "address": "https://firmachain.api.nodeshub.online:443"
+      },
+      {
+        "address": "https://firmachain_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -121,6 +127,12 @@
       "url": "https://explorer.nodeshub.online/firmachain/",
       "txPage": "https://explorer.nodeshub.online/firmachain/tx/${txHash}",
       "accountPage": "https://explorer.nodeshub.online/firmachain/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/firmachain",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/firmachain/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/firmachain/account/${accountAddress}"
     }
   ],
   "images": [

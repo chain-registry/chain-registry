@@ -63,6 +63,9 @@
       },
       {
         "address": "https://titan-rpc-hongkong.titanlab.io:443"
+      },
+      {
+        "address": "https://titan-rpc.ibs.team"
       }
     ],
     "rest": [
@@ -77,6 +80,9 @@
       },
       {
         "address": "https://titan-lcd-hongkong.titanlab.io:443"
+      },
+      {
+        "address": "https://titan-api.ibs.team"
       }
     ],
     "grpc": [
