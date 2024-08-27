@@ -37,9 +37,9 @@
   },
   "explorers": [
     {
-      "kind": "Ping.Pub",
-      "url": "https://explorer.celestia-arabica-11.com/arabica-11",
-      "txPage": "https://explorer.celestia-arabica-11.com/arabica-11/tx/${txHash}"
+      "kind": "Celenium",
+      "url": "https://arabica.celenium.io/",
+      "txPage": "https://arabica.celenium.io/tx/${txHash}"
     }
   ]
 }

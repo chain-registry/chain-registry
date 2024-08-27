@@ -994,6 +994,7 @@
     },
     {
       "description": "Cosmo is the best currency in the universe.",
+      "extendedDescription": "We aim to build a decentralized community by leveraging cutting-edge technologies.",
       "denomUnits": [
         {
           "denom": "factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO",

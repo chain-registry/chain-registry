@@ -1,0 +1,61 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "manifesttestnet",
+  "networkType": "testnet",
+  "website": "https://liftedinit.org/",
+  "prettyName": "Manifest Testnet",
+  "chainId": "manifest-ledger-beta",
+  "bech32Prefix": "manifest",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "umfx",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.007,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "upoa"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://nodes.chandrastation.com/rpc/manifest/"
+      },
+      {
+        "address": "https://manifest-beta-rpc.liftedinit.tech/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://nodes.chandrastation.com/api/manifest/"
+      },
+      {
+        "address": "https://manifest-beta-rest.liftedinit.tech/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://manifest-beta-grpc.liftedinit.tech/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Default Explorer",
+      "url": "https://manifest-explorer.vercel.app/",
+      "txPage": "https://manifest-explorer.vercel.app/manifest/tx"
+    }
+  ]
+}
