@@ -22047,6 +22047,158 @@
           }
         }
       ]
+    },
+    {
+      "description": "Fractionalized Bad Kids",
+      "extendedDescription": "Fractionalized Bad Kids NFT Via Fractal.fun",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBAD",
+          "exponent": 0
+        },
+        {
+          "denom": "fBAD",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBAD",
+      "name": "fBAD",
+      "display": "fBAD",
+      "symbol": "fBAD",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fBAD.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fBAD.png",
+          "theme": {
+            "primaryColorHex": "#639BFF"
+          }
+        }
+      ],
+      "keywords": [
+        "nft"
+      ],
+      "socials": {
+        "website": "https://fractal.fun",
+        "twitter": "https://twitter.com/fractaldotfun"
+      }
+    },
+    {
+      "description": "Fractionalized Mad Scientists",
+      "extendedDescription": "Fractionalized Mad Scientists NFT Via Fractal.fun",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fMAD",
+          "exponent": 0
+        },
+        {
+          "denom": "fMAD",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fMAD",
+      "name": "fMAD",
+      "display": "fMAD",
+      "symbol": "fMAD",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fMAD.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fMAD.png",
+          "theme": {
+            "primaryColorHex": "#639BFF"
+          }
+        }
+      ],
+      "keywords": [
+        "nft"
+      ],
+      "socials": {
+        "website": "https://fractal.fun",
+        "twitter": "https://twitter.com/fractaldotfun"
+      }
+    },
+    {
+      "description": "Fractionalized Celestine Sloth Society",
+      "extendedDescription": "Fractionalized Celestine Sloth Society NFT Via Fractal.fun",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fSLOTH",
+          "exponent": 0
+        },
+        {
+          "denom": "fSLOTH",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fSLOTH",
+      "name": "fSLOTH",
+      "display": "fSLOTH",
+      "symbol": "fSLOTH",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fSLOTH.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fSLOTH.png",
+          "theme": {
+            "primaryColorHex": "#639BFF"
+          }
+        }
+      ],
+      "keywords": [
+        "nft"
+      ],
+      "socials": {
+        "website": "https://fractal.fun",
+        "twitter": "https://twitter.com/fractaldotfun"
+      }
+    },
+    {
+      "description": "Fractionalized DAONuts",
+      "extendedDescription": "Fractionalized DAONuts NFT Via Fractal.fun",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fNUT",
+          "exponent": 0
+        },
+        {
+          "denom": "fNUT",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fNUT",
+      "name": "fNUT",
+      "display": "fNUT",
+      "symbol": "fNUT",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fNUT.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/fNUT.png",
+          "theme": {
+            "primaryColorHex": "#639BFF"
+          }
+        }
+      ],
+      "keywords": [
+        "nft"
+      ],
+      "socials": {
+        "website": "https://fractal.fun",
+        "twitter": "https://twitter.com/fractaldotfun"
+      }
     }
   ]
 }

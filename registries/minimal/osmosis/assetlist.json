@@ -15453,6 +15453,82 @@
           }
         }
       ]
+    },
+    {
+      "description": "Fractionalized Bad Kids",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBAD",
+          "exponent": 0
+        },
+        {
+          "denom": "fBAD",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBAD",
+      "name": "fBAD",
+      "display": "fBAD",
+      "symbol": "fBAD"
+    },
+    {
+      "description": "Fractionalized Mad Scientists",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fMAD",
+          "exponent": 0
+        },
+        {
+          "denom": "fMAD",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fMAD",
+      "name": "fMAD",
+      "display": "fMAD",
+      "symbol": "fMAD"
+    },
+    {
+      "description": "Fractionalized Celestine Sloth Society",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fSLOTH",
+          "exponent": 0
+        },
+        {
+          "denom": "fSLOTH",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fSLOTH",
+      "name": "fSLOTH",
+      "display": "fSLOTH",
+      "symbol": "fSLOTH"
+    },
+    {
+      "description": "Fractionalized DAONuts",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fNUT",
+          "exponent": 0
+        },
+        {
+          "denom": "fNUT",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fNUT",
+      "name": "fNUT",
+      "display": "fNUT",
+      "symbol": "fNUT"
     }
   ]
 }

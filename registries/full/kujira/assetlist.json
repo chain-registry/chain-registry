@@ -2531,6 +2531,34 @@
       "assetType": "sdk.factory"
     },
     {
+      "description": "The receipt token of NAMI Protocol",
+      "denomUnits": [
+        {
+          "denom": "factory/kujira18thffdpuz8tm3mwwun4uhks8a2v7ye0jmw3fllqhklma82lqkpms20gh9c/unausd",
+          "exponent": 0
+        },
+        {
+          "denom": "nausd",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/kujira18thffdpuz8tm3mwwun4uhks8a2v7ye0jmw3fllqhklma82lqkpms20gh9c/unausd",
+      "name": "NAUSD",
+      "display": "nausd",
+      "symbol": "NAUSD",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nausd.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nausd.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nausd.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/nausd.svg"
+        }
+      ],
+      "assetType": "sdk.factory"
+    },
+    {
       "description": "The token of MCTest",
       "denomUnits": [
         {

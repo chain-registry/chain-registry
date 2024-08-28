@@ -1,0 +1,72 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "lorenzo",
+  "assets": [
+    {
+      "description": "Native staking token of Lorenzo: LRZ (alrz)",
+      "denomUnits": [
+        {
+          "denom": "alrz",
+          "exponent": 0
+        },
+        {
+          "denom": "LRZ",
+          "exponent": 18
+        }
+      ],
+      "base": "alrz",
+      "name": "LRZ",
+      "display": "LRZ",
+      "symbol": "LRZ",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lorenzo/images/lorenzo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lorenzo/images/lorenzo.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lorenzo/images/lorenzo.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lorenzo/images/lorenzo.svg",
+          "theme": {
+            "primaryColorHex": "#133348"
+          }
+        }
+      ],
+      "socials": {
+        "website": "https://www.lorenzo-protocol.xyz/",
+        "twitter": "https://x.com/LorenzoProtocol"
+      },
+      "assetType": "unknown"
+    },
+    {
+      "description": "Native EVM token of Lorenzo",
+      "denomUnits": [
+        {
+          "denom": "stBTC",
+          "exponent": 0
+        },
+        {
+          "denom": "display_stBTC",
+          "exponent": 18
+        }
+      ],
+      "base": "stBTC",
+      "name": "Lorenzo stBTC",
+      "display": "display_stBTC",
+      "symbol": "stBTC",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lorenzo/images/stBTC.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lorenzo/images/stBTC.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lorenzo/images/stBTC.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lorenzo/images/stBTC.svg",
+          "theme": {
+            "primaryColorHex": "#133348"
+          }
+        }
+      ],
+      "assetType": "unknown"
+    }
+  ]
+}

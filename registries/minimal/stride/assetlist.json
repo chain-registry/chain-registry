@@ -471,6 +471,7 @@
           "provider": "Stride"
         }
       ],
+      "coingeckoId": "stride-staked-islm",
       "assetType": "sdk.coin"
     },
     {

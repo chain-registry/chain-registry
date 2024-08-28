@@ -38,6 +38,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc.sei-apis.com"
+      },
+      {
         "address": "https://sei-rpc.lavenderfive.com:443"
       },
       {
@@ -61,6 +64,9 @@
     ],
     "rest": [
       {
+        "address": "https://rest.sei-apis.com"
+      },
+      {
         "address": "https://sei-api.lavenderfive.com:443"
       },
       {
@@ -83,6 +89,9 @@
       }
     ],
     "grpc": [
+      {
+        "address": "https://grpc.sei-apis.com:443"
+      },
       {
         "address": "https://sei-grpc.lavenderfive.com:443"
       },
@@ -116,10 +125,10 @@
   },
   "explorers": [
     {
-      "kind": "ping.pub",
-      "url": "https://ping.pub/sei",
-      "txPage": "https://ping.pub/sei/tx/${txHash}",
-      "accountPage": "https://ping.pub/sei/account/${accountAddress}"
+      "kind": "blockscout",
+      "url": "https://seitrace.com",
+      "txPage": "https://seitrace.com/tx/${txHash}?chain=pacific-1",
+      "accountPage": "https://seitrace.com/address/${accountAddress}?chain=pacific-1"
     },
     {
       "kind": "mintscan",
@@ -134,7 +143,7 @@
       "accountPage": "https://ezstaking.app/sei/account/${accountAddress}"
     },
     {
-      "kind": "seiscan",
+      "kind": "celatone",
       "url": "https://www.seiscan.app/pacific-1",
       "txPage": "https://www.seiscan.app/pacific-1/txs/${txHash}",
       "accountPage": "https://www.seiscan.app/pacific-1/accounts/${accountAddress}"
