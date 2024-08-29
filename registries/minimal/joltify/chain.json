@@ -49,11 +49,17 @@
     "rpc": [
       {
         "address": "https://rpc.joltify.io"
+      },
+      {
+        "address": "https://joltify_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
       {
         "address": "https://lcd.joltify.io/"
+      },
+      {
+        "address": "https://joltify_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -64,6 +70,9 @@
     "evmHttpJsonrpc": [
       {
         "address": "https://evm.joltify.io/"
+      },
+      {
+        "address": "https://joltify_mainnet_evm.chain.whenmoonwhenlambo.money"
       }
     ]
   },
@@ -73,6 +82,12 @@
       "url": "https://explorer.joltify.io/joltify",
       "txPage": "https://explorer.joltify.io/joltify/transactions/${txHash}",
       "accountPage": "https://explorer.joltify.io/joltify/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/joltify",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/joltify/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/joltify/account/${accountAddress}"
     }
   ]
 }

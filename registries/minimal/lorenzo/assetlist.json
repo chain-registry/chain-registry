@@ -21,7 +21,7 @@
       "assetType": "unknown"
     },
     {
-      "description": "Native EVM token of Lorenzo",
+      "description": "stBTC is the liquid principal token of the Lorenzo protocol, designed to represent staked Bitcoin within the Babylon ecosystem.\n\n",
       "denomUnits": [
         {
           "denom": "stBTC",
@@ -36,6 +36,16 @@
       "name": "Lorenzo stBTC",
       "display": "display_stBTC",
       "symbol": "stBTC",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Lorenzo"
+        }
+      ],
       "assetType": "unknown"
     }
   ]
