@@ -3928,6 +3928,41 @@
       ]
     },
     {
+      "description": "The native token of TON",
+      "denomUnits": [
+        {
+          "denom": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
+          "exponent": 0,
+          "aliases": [
+            "nanoTon"
+          ]
+        },
+        {
+          "denom": "ton",
+          "exponent": 9
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
+      "name": "Toncoin",
+      "display": "ton",
+      "symbol": "TON",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "oraichain",
+            "baseDenom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton",
+            "channelId": "channel-13"
+          },
+          "chain": {
+            "channelId": "channel-216",
+            "path": "transfer/channel-216/factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton"
+          }
+        }
+      ]
+    },
+    {
       "description": "The native token of the Cudos blockchain",
       "denomUnits": [
         {

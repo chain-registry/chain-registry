@@ -867,6 +867,35 @@
       "symbol": "MARS",
       "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "Drop staked ATOM",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+          "exponent": 0
+        },
+        {
+          "denom": "dATOM",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+      "name": "dATOM",
+      "display": "dATOM",
+      "symbol": "dATOM",
+      "coingeckoId": "drop-staked-atom",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "cosmoshub",
+            "baseDenom": "uatom"
+          },
+          "provider": "Drop Protocol"
+        }
+      ],
+      "assetType": "sdk.factory"
     }
   ]
 }

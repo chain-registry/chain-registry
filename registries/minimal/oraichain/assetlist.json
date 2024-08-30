@@ -382,6 +382,37 @@
       "name": "Och",
       "display": "och",
       "symbol": "OCH"
+    },
+    {
+      "description": "The TON native token of Oraichain",
+      "denomUnits": [
+        {
+          "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton",
+          "exponent": 0,
+          "aliases": [
+            "nanoTon"
+          ]
+        },
+        {
+          "denom": "ton",
+          "exponent": 9
+        }
+      ],
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ton",
+            "baseDenom": "nanoton"
+          },
+          "provider": "TON Bridge"
+        }
+      ],
+      "base": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton",
+      "name": "Toncoin",
+      "display": "ton",
+      "symbol": "TON",
+      "assetType": "sdk.factory"
     }
   ]
 }

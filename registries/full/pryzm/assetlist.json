@@ -566,6 +566,53 @@
       ]
     },
     {
+      "description": "Drop Protocol's liquid staked ATOM",
+      "denomUnits": [
+        {
+          "denom": "ibc/EA6E1E8BA2EB9F681C4BD12C8C81A46530A62934F2BD561B120A00F46946CE87",
+          "exponent": 0,
+          "aliases": [
+            "udatom"
+          ]
+        },
+        {
+          "denom": "dATOM",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/EA6E1E8BA2EB9F681C4BD12C8C81A46530A62934F2BD561B120A00F46946CE87",
+      "name": "dATOM",
+      "display": "dATOM",
+      "symbol": "dATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+            "channelId": "channel-4329"
+          },
+          "chain": {
+            "channelId": "channel-6",
+            "path": "transfer/channel-6/factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+          }
+        }
+      ],
+      "logoURIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
+      },
+      "images": [
+        {
+          "imageSync": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
+        }
+      ]
+    },
+    {
       "description": "Pryzm's native liquid staking token for ATOM",
       "denomUnits": [
         {
@@ -1344,6 +1391,90 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted principal token for dATOM with maturity of 31Dec2024",
+      "denomUnits": [
+        {
+          "denom": "p:udatom:31Dec2024",
+          "exponent": 0
+        },
+        {
+          "denom": "pdATOM31Dec2024",
+          "exponent": 6
+        }
+      ],
+      "base": "p:udatom:31Dec2024",
+      "name": "pdAtom (31Dec2024)",
+      "display": "pdATOM31Dec2024",
+      "symbol": "pdATOM-31Dec2024",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted principal token for dATOM with maturity of 30Jun2025",
+      "denomUnits": [
+        {
+          "denom": "p:udatom:30Jun2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pdATOM30Jun2025",
+          "exponent": 6
+        }
+      ],
+      "base": "p:udatom:30Jun2025",
+      "name": "pdAtom (30Jun2025)",
+      "display": "pdATOM30Jun2025",
+      "symbol": "pdATOM-30Jun2025",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted principal token for dATOM with maturity of 31Dec2025",
+      "denomUnits": [
+        {
+          "denom": "p:udatom:31Dec2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pdATOM31Dec2025",
+          "exponent": 6
+        }
+      ],
+      "base": "p:udatom:31Dec2025",
+      "name": "pdAtom (31Dec2025)",
+      "display": "pdATOM31Dec2025",
+      "symbol": "pdATOM-31Dec2025",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/pdAtom.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted yield token for ATOM with maturity of 30Sep2024",
       "denomUnits": [
         {
@@ -1927,6 +2058,90 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ystDydx.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ystDydx.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted yield token for dATOM with maturity of 31Dec2024",
+      "denomUnits": [
+        {
+          "denom": "y:udatom:31Dec2024",
+          "exponent": 0
+        },
+        {
+          "denom": "ydATOM31Dec2024",
+          "exponent": 6
+        }
+      ],
+      "base": "y:udatom:31Dec2024",
+      "name": "ydAtom (31Dec2024)",
+      "display": "ydATOM31Dec2024",
+      "symbol": "ydATOM-31Dec2024",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted yield token for dATOM with maturity of 30Jun2025",
+      "denomUnits": [
+        {
+          "denom": "y:udatom:30Jun2025",
+          "exponent": 0
+        },
+        {
+          "denom": "ydATOM30Jun2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:udatom:30Jun2025",
+      "name": "ydAtom (30Jun2025)",
+      "display": "ydATOM30Jun2025",
+      "symbol": "ydATOM-30Jun2025",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted yield token for dATOM with maturity of 31Dec2025",
+      "denomUnits": [
+        {
+          "denom": "y:udatom:31Dec2025",
+          "exponent": 0
+        },
+        {
+          "denom": "ydATOM31Dec2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:udatom:31Dec2025",
+      "name": "ydAtom (31Dec2025)",
+      "display": "ydATOM31Dec2025",
+      "symbol": "ydATOM-31Dec2025",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/ydAtom.svg"
         }
       ],
       "assetType": "sdk.coin"
@@ -2535,6 +2750,62 @@
       "name": "TIA / USDC LP",
       "display": "lp:21:tia-usdc",
       "symbol": "TIA-USDC-LP",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's LP token for dATOM Yield pool",
+      "denomUnits": [
+        {
+          "denom": "lp:22:udatom",
+          "exponent": 0
+        },
+        {
+          "denom": "lp:22:datom",
+          "exponent": 6
+        }
+      ],
+      "base": "lp:22:udatom",
+      "name": "dATOM Yield LP",
+      "display": "lp:22:datom",
+      "symbol": "dATOM-YIELD-LP",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's LP token for dATOM Boost pool",
+      "denomUnits": [
+        {
+          "denom": "lp:23:udatomypt-uatom",
+          "exponent": 0
+        },
+        {
+          "denom": "lp:23:datomypt-atom",
+          "exponent": 6
+        }
+      ],
+      "base": "lp:23:udatomypt-uatom",
+      "name": "dATOM Boost LP",
+      "display": "lp:23:datomypt-atom",
+      "symbol": "dATOM-BOOST-LP",
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pryzm/images/lp.svg"

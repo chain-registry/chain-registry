@@ -33,6 +33,10 @@
           }
         }
       ],
+      "socials": {
+        "website": "https://www.routerprotocol.com/",
+        "twitter": "https://x.com/routerprotocol"
+      },
       "assetType": "sdk.coin"
     }
   ]

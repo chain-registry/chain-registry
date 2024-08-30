@@ -62,6 +62,32 @@
       "display": "tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP",
       "symbol": "NPP",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Ether is the native fee token of the Ethereum network.",
+      "denomUnits": [
+        {
+          "denom": "wei",
+          "exponent": 0
+        },
+        {
+          "denom": "gwei",
+          "exponent": 9
+        },
+        {
+          "denom": "eth",
+          "exponent": 18,
+          "aliases": [
+            "ether"
+          ]
+        }
+      ],
+      "base": "wei",
+      "name": "Ether",
+      "display": "eth",
+      "symbol": "ETH",
+      "coingeckoId": "ethereum",
+      "assetType": "sdk.coin"
     }
   ]
 }

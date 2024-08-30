@@ -1305,6 +1305,48 @@
         "twitter": "https://x.com/mars_protocol"
       },
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "Drop staked ATOM",
+      "extendedDescription": "Drop protocol token for the interchain liquidity",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+          "exponent": 0
+        },
+        {
+          "denom": "dATOM",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+      "name": "dATOM",
+      "display": "dATOM",
+      "symbol": "dATOM",
+      "coingeckoId": "drop-staked-atom",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "cosmoshub",
+            "baseDenom": "uatom"
+          },
+          "provider": "Drop Protocol"
+        }
+      ],
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
+        }
+      ],
+      "logoURIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/dATOM.svg"
+      },
+      "socials": {
+        "website": "https://www.drop.money/",
+        "twitter": "https://x.com/Dropdotmoney"
+      },
+      "assetType": "sdk.factory"
     }
   ]
 }

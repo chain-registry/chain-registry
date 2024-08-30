@@ -1,0 +1,28 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "ton",
+  "assets": [
+    {
+      "description": "Toncoin ($TON) is the native cryptocurrency of the TON (The Open Network) blockchain.",
+      "denomUnits": [
+        {
+          "denom": "nanoton",
+          "exponent": 0,
+          "aliases": [
+            "nanoTon"
+          ]
+        },
+        {
+          "denom": "ton",
+          "exponent": 9
+        }
+      ],
+      "assetType": "unknown",
+      "base": "nanoton",
+      "name": "Toncoin",
+      "display": "ton",
+      "symbol": "TON",
+      "coingeckoId": "the-open-network"
+    }
+  ]
+}

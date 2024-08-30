@@ -117,7 +117,7 @@
           "version": "0.34"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v3.4.0 (fork)",
+        "ibcGoVersion": "v3.4.0",
         "icsEnabled": [
           "ics20-1"
         ],
@@ -133,8 +133,7 @@
           "version": "v3.4.0",
           "icsEnabled": [
             "ics20-1"
-          ],
-          "tag": "v3.4.0(fork)"
+          ]
         }
       },
       {
@@ -148,7 +147,7 @@
           "version": "0.34"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v3.4.0 (fork)",
+        "ibcGoVersion": "v3.4.0",
         "icsEnabled": [
           "ics20-1"
         ],
@@ -164,8 +163,7 @@
           "version": "v3.4.0",
           "icsEnabled": [
             "ics20-1"
-          ],
-          "tag": "v3.4.0(fork)"
+          ]
         }
       }
     ],
