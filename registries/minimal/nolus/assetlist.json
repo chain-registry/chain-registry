@@ -742,6 +742,44 @@
           }
         }
       ]
+    },
+    {
+      "description": "dATOM transferred from the Neutron mainnet that is supported on the Nolus chain",
+      "denomUnits": [
+        {
+          "denom": "ibc/EB08474FFC49B6BB2F03F7D9B08697138F4DA53347CA1AB718C8BCFBB58C1B2B",
+          "exponent": 0,
+          "aliases": [
+            "udatom"
+          ]
+        },
+        {
+          "denom": "dATOM",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/EB08474FFC49B6BB2F03F7D9B08697138F4DA53347CA1AB718C8BCFBB58C1B2B",
+      "name": "dATOM",
+      "display": "dATOM",
+      "symbol": "dATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom",
+            "channelId": "channel-44"
+          },
+          "chain": {
+            "channelId": "channel-3839",
+            "path": "transfer/channel-3839/factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
+          }
+        }
+      ]
     }
   ]
 }

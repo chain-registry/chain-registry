@@ -14,10 +14,10 @@
     "feeTokens": [
       {
         "denom": "route",
-        "fixedMinGasPrice": 0.006,
-        "lowGasPrice": 0.006,
-        "averageGasPrice": 0.006,
-        "highGasPrice": 0.01
+        "fixedMinGasPrice": 7,
+        "lowGasPrice": 7,
+        "averageGasPrice": 7,
+        "highGasPrice": 10
       }
     ]
   },

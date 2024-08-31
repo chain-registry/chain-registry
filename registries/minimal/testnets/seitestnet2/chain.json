@@ -24,15 +24,41 @@
     "rpc": [
       {
         "address": "https://sei-testnet-2-rpc.brocha.in"
+      },
+      {
+        "address": "https://rpc-testnet-sei.stingray.plus"
       }
     ],
     "rest": [
       {
         "address": "https://sei-testnet-2-rest.brocha.in"
+      },
+      {
+        "address": "https://api-testnet-sei.stingray.plus"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc-testnet-sei.stingray.plus"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm-rpc-testnet-sei.stingray.plus"
       }
     ]
   },
   "explorers": [
+    {
+      "kind": "blockscout",
+      "url": "https://seitrace.com/?chain=atlantic-2",
+      "txPage": "https://seitrace.com/tx/${txHash}?chain=atlantic-2"
+    },
+    {
+      "kind": "celatone",
+      "url": "https://www.seiscan.app/atlantic-2",
+      "txPage": "https://www.seiscan.app/atlantic-2/txs/${txHash}"
+    },
     {
       "kind": "explorers.guru",
       "url": "https://testnet.sei.explorers.guru",
