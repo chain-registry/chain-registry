@@ -64,7 +64,7 @@
         "address": "https://rpc.trinitystake.io"
       },
       {
-        "address": "https://rpc.sentinelgrowthdao.com"
+        "address": "https://rpc.sentineldao.com"
       },
       {
         "address": "https://public.stakewolle.com/cosmos/sentinel/rpc"
@@ -117,7 +117,7 @@
         "address": "https://api.trinitystake.io"
       },
       {
-        "address": "https://api.sentinelgrowthdao.com"
+        "address": "https://api.sentineldao.com"
       },
       {
         "address": "https://public.stakewolle.com/cosmos/sentinel/rest"

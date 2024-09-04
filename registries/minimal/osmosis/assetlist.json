@@ -57,9 +57,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
-      "name": "USD Coin (Axelar)",
+      "name": "USDC (Ethereum via Axelar)",
       "display": "usdc",
-      "symbol": "USDC.axl",
+      "symbol": "USDC.eth.axl",
       "traces": [
         {
           "type": "synthetic",
@@ -108,9 +108,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
-      "name": "Ether",
+      "name": "Ethereum (Axelar)",
       "display": "weth",
-      "symbol": "ETH",
+      "symbol": "ETH.axl",
       "traces": [
         {
           "type": "wrapped",
@@ -159,9 +159,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-      "name": "Wrapped Bitcoin (Axelar)",
+      "name": "Wrapped Bitcoin (Ethereum via Axelar)",
       "display": "wbtc",
-      "symbol": "WBTC.axl",
+      "symbol": "WBTC.eth.axl",
       "traces": [
         {
           "type": "bridge",
@@ -210,9 +210,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
-      "name": "Tether USD (Axelar)",
+      "name": "Tether USD (Ethereum via Axelar)",
       "display": "usdt",
-      "symbol": "USDT.axl",
+      "symbol": "USDT.eth.axl",
       "traces": [
         {
           "type": "synthetic",
@@ -670,9 +670,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
-      "name": "Wrapped Polkadot (Axelar)",
+      "name": "Polkadot (Moonbeam via Axelar)",
       "display": "dot",
-      "symbol": "moonbeam.DOT.axl",
+      "symbol": "DOT.glmr.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1633,10 +1633,18 @@
       ],
       "assetType": "ics20",
       "base": "ibc/E7B35499CFBEB0FF5778127ABA4FB2C4B79A6B8D3D831D4379C4048C238796BD",
-      "name": "Vidulum",
+      "name": "Vidulum (Vidulum)",
       "display": "vdl",
-      "symbol": "VDL",
+      "symbol": "VDL.vdl",
       "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "beezee",
+            "baseDenom": "factory/bze13gzq40che93tgfm9kzmkpjamah5nj0j73pyhqk/uvdl"
+          },
+          "provider": "Vidulum"
+        },
         {
           "type": "ibc",
           "counterparty": {
@@ -2396,10 +2404,18 @@
       ],
       "assetType": "ics20",
       "base": "ibc/6BDB4C8CCD45033F9604E4B93ED395008A753E01EECD6992E7D1EA23D9D3B788",
-      "name": "Racoon",
+      "name": "Racoon (Juno)",
       "display": "rac",
-      "symbol": "juno.RAC",
+      "symbol": "RAC.juno",
       "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "migaloo",
+            "baseDenom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac"
+          },
+          "provider": "Racoon"
+        },
         {
           "type": "ibc-cw20",
           "counterparty": {
@@ -2486,7 +2502,7 @@
       "base": "ibc/C9B0D48FD2C5B91135F118FF2484551888966590D7BDC20F6A87308DBA670796",
       "name": "Wrapped Bitcoin (Gravity Bridge)",
       "display": "gwbtc",
-      "symbol": "WBTC.grv",
+      "symbol": "WBTC.eth.grv",
       "traces": [
         {
           "type": "bridge",
@@ -2537,7 +2553,7 @@
       "base": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
       "name": "Ether (Gravity Bridge)",
       "display": "gweth",
-      "symbol": "WETH.grv",
+      "symbol": "ETH.grv",
       "traces": [
         {
           "type": "wrapped",
@@ -2588,7 +2604,7 @@
       "base": "ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E",
       "name": "USDC (Gravity Bridge)",
       "display": "gusdc",
-      "symbol": "USDC.grv",
+      "symbol": "USDC.eth.grv",
       "traces": [
         {
           "type": "synthetic",
@@ -2690,7 +2706,7 @@
       "base": "ibc/71B441E27F1BBB44DD0891BCD370C2794D404D60A4FFE5AECCD9B1E28BC89805",
       "name": "Tether USD (Gravity Bridge)",
       "display": "gusdt",
-      "symbol": "USDT.grv",
+      "symbol": "USDT.eth.grv",
       "traces": [
         {
           "type": "synthetic",
@@ -3166,9 +3182,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
-      "name": "Chainlink",
+      "name": "Chainlink (Axelar)",
       "display": "link",
-      "symbol": "LINK",
+      "symbol": "LINK.axl",
       "traces": [
         {
           "type": "bridge",
@@ -3424,9 +3440,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/19305E20681911F14D1FB275E538CDE524C3BF88CF9AE5D5F78F4D4DA05E85B2",
-      "name": "Shiba Inu",
+      "name": "Shiba Inu (Axelar)",
       "display": "shib",
-      "symbol": "SHIB",
+      "symbol": "SHIB.axl",
       "traces": [
         {
           "type": "bridge",
@@ -3679,7 +3695,7 @@
       "base": "ibc/AD185F62399F770CCCE8A36A180A77879FF6C26A0398BD3D2A74E087B0BFA121",
       "name": "LVN",
       "display": "lvn",
-      "symbol": "kichain.LVN",
+      "symbol": "LVN.ki",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -3765,10 +3781,18 @@
       ],
       "assetType": "ics20",
       "base": "ibc/52C57FCA7D6854AA178E7A183DDBE4EF322B904B1D719FC485F6FFBC1F72A19E",
-      "name": "Gelotto",
+      "name": "Gelotto (Juno)",
       "display": "glto",
-      "symbol": "GLTO",
+      "symbol": "GLTO.juno",
       "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2"
+          },
+          "provider": "Gelotto"
+        },
         {
           "type": "ibc-cw20",
           "counterparty": {
@@ -3923,41 +3947,6 @@
           "chain": {
             "channelId": "channel-216",
             "path": "transfer/channel-216/orai"
-          }
-        }
-      ]
-    },
-    {
-      "description": "The native token of TON",
-      "denomUnits": [
-        {
-          "denom": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
-          "exponent": 0,
-          "aliases": [
-            "nanoTon"
-          ]
-        },
-        {
-          "denom": "ton",
-          "exponent": 9
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
-      "name": "Toncoin",
-      "display": "ton",
-      "symbol": "TON",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "oraichain",
-            "baseDenom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton",
-            "channelId": "channel-13"
-          },
-          "chain": {
-            "channelId": "channel-216",
-            "path": "transfer/channel-216/factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton"
           }
         }
       ]
@@ -4975,8 +4964,16 @@
       "base": "ibc/7CE5F388D661D82A0774E47B5129DA51CC7129BD1A70B5FA6BCEBB5B0A2FAEAF",
       "name": "FURY.legacy",
       "display": "fury",
-      "symbol": "FURY.legacy",
+      "symbol": "FURY.juno",
       "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "furya",
+            "baseDenom": "ufury"
+          },
+          "provider": "Fanfury"
+        },
         {
           "type": "ibc-cw20",
           "counterparty": {
@@ -5615,9 +5612,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A",
-      "name": "USD Coin (Polygon)",
+      "name": "USDC (Ethereum) (Polygon via Axelar)",
       "display": "polygon-usdc",
-      "symbol": "polygon.USDC.axl",
+      "symbol": "USDC.e.matic.axl",
       "traces": [
         {
           "type": "synthetic",
@@ -5628,12 +5625,12 @@
           "provider": "Circle"
         },
         {
-          "type": "additional-mintage",
+          "type": "bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
           },
-          "provider": "Circle"
+          "provider": "Polygon PoS Bridge"
         },
         {
           "type": "bridge",
@@ -5676,7 +5673,7 @@
       "base": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
       "name": "USD Coin (Avalanche)",
       "display": "avalanche-usdc",
-      "symbol": "avalanche.USDC.axl",
+      "symbol": "USDC.avax.axl",
       "traces": [
         {
           "type": "synthetic",
@@ -5712,6 +5709,49 @@
           "chain": {
             "channelId": "channel-208",
             "path": "transfer/channel-208/avalanche-uusdc"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Mars Protocol token (pre-migration)",
+      "denomUnits": [
+        {
+          "denom": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
+          "exponent": 0,
+          "aliases": [
+            "umars"
+          ]
+        },
+        {
+          "denom": "MARS.old",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
+      "name": "Mars Protocol token (Mars Hub)",
+      "display": "MARS.old",
+      "symbol": "MARS.mars",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS"
+          },
+          "provider": "Mars Hub"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "mars",
+            "baseDenom": "umars",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-557",
+            "path": "transfer/channel-557/umars"
           }
         }
       ]
@@ -7103,9 +7143,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/10E5E5B06D78FFBB61FD9F89209DEE5FD4446ED0550CBB8E3747DA79E10D9DC6",
-      "name": "Arbitrum",
+      "name": "Arbitrum (Axelar)",
       "display": "arb",
-      "symbol": "ARB",
+      "symbol": "ARB.axl",
       "traces": [
         {
           "type": "bridge",
@@ -7221,9 +7261,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/E47F4E97C534C95B942729E1B25DBDE111EA791411CFF100515050BEA0AC0C6B",
-      "name": "Pepe",
+      "name": "Pepe (Axelar)",
       "display": "pepe",
-      "symbol": "PEPE",
+      "symbol": "PEPE.axl",
       "traces": [
         {
           "type": "bridge",
@@ -7393,7 +7433,7 @@
       "symbol": "sfrxETH",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "synthetic",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "wei"
@@ -7401,7 +7441,7 @@
           "provider": "Frax"
         },
         {
-          "type": "wrapped",
+          "type": "liquid-stake",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x5e8422345238f34275888049021821e8e08caa1f"
@@ -7449,7 +7489,7 @@
       "base": "ibc/B2BD584CD2A0A9CE53D4449667E26160C7D44A9C41AF50F602C201E5B3CCA46C",
       "name": "Wrapped Lido Staked Ether (Axelar)",
       "display": "wsteth",
-      "symbol": "wstETH.axl",
+      "symbol": "wstETH.eth.axl",
       "traces": [
         {
           "type": "liquid-stake",
@@ -7460,7 +7500,7 @@
           "provider": "Lido"
         },
         {
-          "type": "wrapped",
+          "type": "liquid-stake",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
@@ -7919,9 +7959,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/6B2B19D874851F631FF0AF82C38A20D4B82F438C7A22F41EDA33568345397244",
-      "name": "Polkadot",
+      "name": "Polkadot (Picasso)",
       "display": "dot",
-      "symbol": "DOT",
+      "symbol": "DOT.pica",
       "traces": [
         {
           "type": "bridge",
@@ -7929,7 +7969,7 @@
             "chainName": "polkadot",
             "baseDenom": "Planck"
           },
-          "provider": "Polkadot Relay"
+          "provider": "Polkadot Parachain"
         },
         {
           "type": "ibc",
@@ -8170,9 +8210,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-      "name": "Tether USD",
+      "name": "Tether USD (Kava)",
       "display": "usdt",
-      "symbol": "USDT",
+      "symbol": "USDT.kava",
       "traces": [
         {
           "type": "synthetic",
@@ -8401,9 +8441,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/1E43D59E565D41FB4E54CA639B838FFD5BCFC20003D330A56CB1396231AA1CBA",
-      "name": "Solana",
+      "name": "Solana (Wormhole)",
       "display": "wormhole/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA/8",
-      "symbol": "SOL",
+      "symbol": "SOL.wh",
       "traces": [
         {
           "type": "wrapped",
@@ -8501,9 +8541,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/2108F2D81CBE328F371AD0CEF56691B18A86E08C3651504E42487D9EE92DDE9C",
-      "name": "Tether USD (Wormhole)",
+      "name": "Tether USD (Ethereum via Wormhole)",
       "display": "wormhole/8iuAc6DSeLvi2JDUtwJxLytsZT8R19itXebZsNReLLNi/6",
-      "symbol": "USDT.wh",
+      "symbol": "USDT.eth.wh",
       "traces": [
         {
           "type": "synthetic",
@@ -8716,9 +8756,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/6B99DB46AA9FF47162148C1726866919E44A6A5E0274B90912FD17E19A337695",
-      "name": "USD Coin (Wormhole)",
+      "name": "USDC (Ethereum via Wormhole)",
       "display": "wormhole/GGh9Ufn1SeDGrhzEkMyRKt5568VbbxZK2yvWNsd6PbXt/6",
-      "symbol": "USDC.wh",
+      "symbol": "USDC.eth.wh",
       "traces": [
         {
           "type": "synthetic",
@@ -8770,9 +8810,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/62F82550D0B96522361C89B0DA1119DE262FBDFB25E5502BC5101B5C0D0DBAAC",
-      "name": "Wrapped Ether (Wormhole)",
+      "name": "Ethereum (Wormhole)",
       "display": "wormhole/5BWqpR48Lubd55szM5i62zK7TFkddckhbT48yy6mNbDp/8",
-      "symbol": "wETH.wh",
+      "symbol": "ETH.wh",
       "traces": [
         {
           "type": "wrapped",
@@ -9605,7 +9645,7 @@
           "provider": "Lido"
         },
         {
-          "type": "wrapped",
+          "type": "liquid-stake",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
@@ -9613,12 +9653,12 @@
           "provider": "Lido"
         },
         {
-          "type": "additional-mintage",
+          "type": "bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
           },
-          "provider": "Lido"
+          "provider": "Lido wstETH Cosmos Bridge"
         },
         {
           "type": "ibc",
@@ -10144,7 +10184,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/DDF1CD4CDC14AE2D6A3060193624605FF12DEE71CF1F8C19EEF35E9447653493",
-      "name": "RAC",
+      "name": "Racoon",
       "display": "RAC",
       "symbol": "RAC",
       "traces": [
@@ -10327,7 +10367,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/6FD2938076A4C1BB3A324A676E76B0150A4443DAE0E002FB62AC0E6B604B1519",
-      "name": "PURSE Token (Function X)",
+      "name": "PURSE Token",
       "display": "PURSE",
       "symbol": "PURSE",
       "traces": [
@@ -11051,16 +11091,8 @@
       "base": "ibc/072E5B3D6F278B3E6A9C51D7EAD1A737148609512C5EBE8CBCB5663264A0DDB7",
       "name": "Gelotto (Injective)",
       "display": "glto",
-      "symbol": "injective.GLTO",
+      "symbol": "GLTO",
       "traces": [
-        {
-          "type": "additional-mintage",
-          "counterparty": {
-            "chainName": "juno",
-            "baseDenom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se"
-          },
-          "provider": "Gelotto"
-        },
         {
           "type": "bridge",
           "counterparty": {
@@ -11154,10 +11186,18 @@
       ],
       "assetType": "ics20",
       "base": "ibc/C25A2303FE24B922DAFFDCE377AC5A42E5EF746806D32E2ED4B610DE85C203F7",
-      "name": "Astroport CW20 Token",
+      "name": "Astroport token (Terra)",
       "display": "astro.cw20",
-      "symbol": "ASTRO.cw20",
+      "symbol": "ASTRO.terra",
       "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
+          },
+          "provider": "Astroport"
+        },
         {
           "type": "ibc-cw20",
           "counterparty": {
@@ -11213,9 +11253,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/F08DE332018E8070CC4C68FE06E04E254F527556A614F5F8F9A68AF38D367E45",
-      "name": "Solana USD Coin (Wormhole)",
+      "name": "USDC (Solana via Wormhole)",
       "display": "wormhole/HJk1XMDRNUbRrpKkNZYui7SwWDMjXZAsySzqgyNcQoU3/6",
-      "symbol": "solana.USDC.wh",
+      "symbol": "USDC.sol.wh",
       "traces": [
         {
           "type": "synthetic",
@@ -11879,7 +11919,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/B84F8CC583A54DA8173711C0B66B22FDC1954FEB1CA8DBC66C89919DAFE02000",
-      "name": "Gelotto BEAST (Peggy)",
+      "name": "Gelotto BEAST",
       "display": "beast",
       "symbol": "BEAST",
       "traces": [
@@ -12682,7 +12722,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/A23E590BA7E0D808706FB5085A449B3B9D6864AE4DDE7DAF936243CEBB2A3D43",
-      "name": "Ethereum",
+      "name": "Ethereum (Picasso)",
       "display": "eth",
       "symbol": "ETH.pica",
       "traces": [
@@ -12730,7 +12770,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/37DFAFDA529FF7D513B0DB23E9728DF9BF73122D38D46824C78BB7F91E6A736B",
-      "name": "Dai",
+      "name": "Dai Stablecoin (Picasso)",
       "display": "dai",
       "symbol": "DAI.pica",
       "traces": [
@@ -12786,7 +12826,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/5435437A8C9416B650DDA49C338B63CCFC6465123B715F6BAA9B1B2071E27913",
-      "name": "Frax Shares",
+      "name": "Frax Share (Picasso)",
       "display": "fxs",
       "symbol": "FXS.pica",
       "traces": [
@@ -12834,7 +12874,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/9A8CBC029002DC5170E715F93FBF35011FFC9796371F59B1F3C3094AE1B453A9",
-      "name": "Frax",
+      "name": "Frax (Picasso)",
       "display": "frax",
       "symbol": "FRAX.pica",
       "traces": [
@@ -12890,9 +12930,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/078AD6F581E8115CDFBD8FFA29D8C71AFE250CE952AFF80040CBC64868D44AD3",
-      "name": "Tether (Ethereum)",
+      "name": "Tether USD (Ethereum) (Picasso)",
       "display": "usdt",
-      "symbol": "USDT.pica",
+      "symbol": "USDT.eth.pica",
       "traces": [
         {
           "type": "synthetic",
@@ -12946,7 +12986,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/0EFA07F312E05258A56AE1DD600E39B9151CF7A91C8A94EEBCF4F03ECFE5DD98",
-      "name": "Staked FRAX",
+      "name": "Staked FRAX (Picasso)",
       "display": "sfrax",
       "symbol": "sFRAX.pica",
       "traces": [
@@ -13010,12 +13050,12 @@
       ],
       "assetType": "ics20",
       "base": "ibc/688E70EF567E5D4BA1CF4C54BAD758C288BC1A6C8B0B12979F911A2AE95E27EC",
-      "name": "Frax Ether",
+      "name": "Frax Ether (Picasso)",
       "display": "frxeth",
       "symbol": "frxETH.pica",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "synthetic",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "wei"
@@ -13066,12 +13106,12 @@
       ],
       "assetType": "ics20",
       "base": "ibc/F17CCB4F07948CC2D8B72952C2D0A84F2B763962F698774BB121B872AE4611B5",
-      "name": "Frax Staked Ether",
+      "name": "Staked Frax Ether (Picasso)",
       "display": "sfrxeth",
       "symbol": "sfrxETH.pica",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "synthetic",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "wei"
@@ -13079,7 +13119,7 @@
           "provider": "Frax"
         },
         {
-          "type": "wrapped",
+          "type": "liquid-stake",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x5e8422345238f34275888049021821e8e08caa1f"
@@ -13640,7 +13680,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/5B5BFCC8A9F0D554A4245117F7798E85BE25B6C73DBFA2D6F369BD9DD6CACC6D",
-      "name": "Pepe",
+      "name": "Pepe (Picasso)",
       "display": "pepe",
       "symbol": "PEPE.pica",
       "traces": [
@@ -13688,7 +13728,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/080CE38C1E49595F2199E88BE7281F93FAEEF3FE354EECED0640625E8311C9CF",
-      "name": "Curve DAO",
+      "name": "Curve DAO (Picasso)",
       "display": "crv",
       "symbol": "CRV.pica",
       "traces": [
@@ -13736,7 +13776,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/39AAE0F5F918B731BEF1E02E9BAED33C242805F668B0A941AC509FB569FE51CB",
-      "name": "Renzo Restaked ETH",
+      "name": "Renzo Restaked ETH (Picasso)",
       "display": "ezeth",
       "symbol": "ezETH.pica",
       "traces": [
@@ -13792,7 +13832,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/BFFE212A23384C4EB055CF6F95A1F5EC1BE0F9BD286FAA66C3748F0444E67D63",
-      "name": "Ethena USDe",
+      "name": "Ethena USDe (Picasso)",
       "display": "usde",
       "symbol": "USDe.pica",
       "traces": [
@@ -13848,7 +13888,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/257FF64F160106F6EE43CEE7C761DA64C1346221895373CC810FFA1BFAC5A7CD",
-      "name": "Ethena",
+      "name": "Ethena (Picasso)",
       "display": "ena",
       "symbol": "ENA.pica",
       "traces": [
@@ -13896,7 +13936,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/8D0FFEA4EDB04E3C1738C9599B66AE49683E0540FC4C1214AC84534C200D818B",
-      "name": "ether.fi Staked ETH",
+      "name": "ether.fi Staked ETH (Picasso)",
       "display": "eeth",
       "symbol": "eETH.pica",
       "traces": [
@@ -13952,7 +13992,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/D09BB89B2187EF13EF006B44510749B0F02FD0B34F8BB55C70D812A1FF6148C7",
-      "name": "Dinero Staked ETH",
+      "name": "Dinero Staked ETH (Picasso)",
       "display": "pxeth",
       "symbol": "pxETH.pica",
       "traces": [
@@ -14008,7 +14048,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/63551E7BB24008F0AFC1CB051A423A5104F781F035F8B1A191264B7086A0A0F6",
-      "name": "crvUSD",
+      "name": "crvUSD (Picasso)",
       "display": "crvusd",
       "symbol": "crvUSD.pica",
       "traces": [
@@ -14120,9 +14160,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/0233A3F2541FD43DBCA569B27AF886E97F5C03FC0305E4A8A3FAC6AC26249C7A",
-      "name": "Tether",
+      "name": "Tether USD (Solana) (Picasso)",
       "display": "usdt",
-      "symbol": "solana.USDT.pica",
+      "symbol": "USDT.sol.pica",
       "traces": [
         {
           "type": "synthetic",
@@ -14183,7 +14223,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/B83F9E20B4A07FA8846880000BD9D8985D89567A090F5E9390C64E81C39B4607",
-      "name": "Edgevana Staked SOL",
+      "name": "Edgevana Staked SOL (Picasso)",
       "display": "edgesol",
       "symbol": "edgeSOL.pica",
       "traces": [
@@ -14238,7 +14278,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/F618D130A2B8203D169811658BD0361F18DC2453085965FA0E5AEB8018DD54EE",
-      "name": "Liquid Staking Token",
+      "name": "Liquid Staking Token (Picasso)",
       "display": "lst",
       "symbol": "LST.pica",
       "traces": [
@@ -14293,7 +14333,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/9A83BDF4C8C5FFDDE735533BC8CD4363714A6474AED1C2C492FB003BB77C7982",
-      "name": "Jito Staked SOL",
+      "name": "Jito Staked SOL (Picasso)",
       "display": "jitosol",
       "symbol": "jitoSOL.pica",
       "traces": [
@@ -14349,9 +14389,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/0F9E9277B61A78CB31014D541ACA5BF6AB06DFC4524C4C836490B131DAAECD78",
-      "name": "Wrapped Solana",
+      "name": "Solana (Picasso)",
       "display": "wsol",
-      "symbol": "wSOL.pica",
+      "symbol": "SOL.pica",
       "traces": [
         {
           "type": "wrapped",
@@ -14402,9 +14442,9 @@
       "assetType": "sdk.coin",
       "address": "osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek",
       "base": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
-      "name": "Alloyed USDT",
+      "name": "Tether USD",
       "display": "allUSDT",
-      "symbol": "allUSDT",
+      "symbol": "USDT",
       "traces": [
         {
           "type": "synthetic",
@@ -14506,15 +14546,1480 @@
       "assetType": "sdk.coin",
       "address": "osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3",
       "base": "factory/osmo1z6r6qdknhgsc0zeracktgpcxf43j6sekq07nw8sxduc9lg0qjjlqfu25e3/alloyed/allBTC",
-      "name": "Alloyed BTC",
+      "name": "Bitcoin",
       "display": "allBTC",
-      "symbol": "allBTC",
+      "symbol": "BTC",
       "traces": [
         {
           "type": "synthetic",
           "counterparty": {
             "chainName": "bitcoin",
             "baseDenom": "sat"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "N43 a BitSong Music FanToken",
+      "denomUnits": [
+        {
+          "denom": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58",
+          "exponent": 0,
+          "aliases": [
+            "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D"
+          ]
+        },
+        {
+          "denom": "n43",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58",
+      "name": "N43 Fantoken",
+      "display": "n43",
+      "symbol": "N43",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "bitsong",
+            "baseDenom": "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-73",
+            "path": "transfer/channel-73/ft387C1C279D962ED80C09C1D592A92C4275FD7C5D"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Rakoff Token is the Meme Token for Terra Classic",
+      "denomUnits": [
+        {
+          "denom": "ibc/46579C587A0B8CF8B0A1FF6B0EFA2082F11876578E47FC81A9CAAD31F424AF98",
+          "exponent": 0,
+          "aliases": [
+            "cw20:terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2"
+          ]
+        },
+        {
+          "denom": "rakoff",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/46579C587A0B8CF8B0A1FF6B0EFA2082F11876578E47FC81A9CAAD31F424AF98",
+      "name": "Rakoff Token",
+      "display": "rakoff",
+      "symbol": "RAKOFF",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chainName": "terra",
+            "baseDenom": "cw20:terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2",
+            "port": "wasm.terra19pfxzj9580h7rjd6z6sn5x2se76vgrc0etltr79g9z3t82jzp4hq63qguc",
+            "channelId": "channel-108"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-78488",
+            "path": "transfer/channel-78488/cw20:terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2"
+          }
+        }
+      ]
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "ibc/64E62451C9A5682FF3047429C6E4714A02CDC0C35DE35CAB01E18D1188004CEB",
+          "exponent": 0,
+          "aliases": [
+            "arbitrum-weth-wei"
+          ]
+        },
+        {
+          "denom": "arbitrum-weth",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/64E62451C9A5682FF3047429C6E4714A02CDC0C35DE35CAB01E18D1188004CEB",
+      "name": "Wrapped Ether (Arbitrum via Axelar)",
+      "display": "arbitrum-weth",
+      "symbol": "ETH.arb.axl",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "wei"
+          },
+          "provider": "Ethereum"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "provider": "Arbitrum Bridge"
+        },
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "arbitrum",
+            "baseDenom": "wei"
+          },
+          "provider": "Arbitrum"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "arbitrum",
+            "baseDenom": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "axelar",
+            "baseDenom": "arbitrum-weth-wei",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-208",
+            "path": "transfer/channel-208/arbitrum-weth-wei"
+          }
+        }
+      ]
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "ibc/D7D6DEF2A4F7ED0A6F5F0E266C1B2C9726E82F67EBBE49BBB47B3DEC289F8D7B",
+          "exponent": 0,
+          "aliases": [
+            "base-weth-wei"
+          ]
+        },
+        {
+          "denom": "base-weth",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/D7D6DEF2A4F7ED0A6F5F0E266C1B2C9726E82F67EBBE49BBB47B3DEC289F8D7B",
+      "name": "Wrapped Ether (Base via Axelar)",
+      "display": "base-weth",
+      "symbol": "ETH.base.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "wei"
+          },
+          "provider": "Base Bridge"
+        },
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "base",
+            "baseDenom": "wei"
+          },
+          "provider": "Base"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "base",
+            "baseDenom": "0x4200000000000000000000000000000000000006"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "axelar",
+            "baseDenom": "base-weth-wei",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-208",
+            "path": "transfer/channel-208/base-weth-wei"
+          }
+        }
+      ]
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "ibc/F9EB60AC212DBF05F4C5ED0FDE03BB9F08309B0EE9899A406AD4B904CF84968E",
+          "exponent": 0,
+          "aliases": [
+            "polygon-weth-wei"
+          ]
+        },
+        {
+          "denom": "polygon-weth",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/F9EB60AC212DBF05F4C5ED0FDE03BB9F08309B0EE9899A406AD4B904CF84968E",
+      "name": "Wrapped Ether (Polygon via Axelar)",
+      "display": "polygon-weth",
+      "symbol": "ETH.matic.axl",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "wei"
+          },
+          "provider": "Ethereum"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "provider": "Polygon PoS Bridge"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "polygon",
+            "baseDenom": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "axelar",
+            "baseDenom": "polygon-weth-wei",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-208",
+            "path": "transfer/channel-208/polygon-weth-wei"
+          }
+        }
+      ]
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "ibc/245C3CA604AAB4BB9EEA5E86F23F52D59253D8722C8FC9C4E3E69F77C5CD3D2F",
+          "exponent": 0,
+          "aliases": [
+            "staISLM"
+          ]
+        },
+        {
+          "denom": "stISLM",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/245C3CA604AAB4BB9EEA5E86F23F52D59253D8722C8FC9C4E3E69F77C5CD3D2F",
+      "name": "Stride Staked ISLM",
+      "display": "stISLM",
+      "symbol": "stISLM",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "haqq",
+            "baseDenom": "aISLM"
+          },
+          "provider": "Stride"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "stride",
+            "baseDenom": "staISLM",
+            "channelId": "channel-5"
+          },
+          "chain": {
+            "channelId": "channel-326",
+            "path": "transfer/channel-326/staISLM"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The native token of Mande Network.",
+      "denomUnits": [
+        {
+          "denom": "ibc/739D70CB432FE1C6D94AF306B68C14F4CFB0B9EDD1238D3A8718B1B0E84E8547",
+          "exponent": 0,
+          "aliases": [
+            "amand",
+            "ibc/5A26C8DC8DA66F4DD94326E67F94510188F5F7AFE2DB3933A0C823670E56EABF"
+          ]
+        },
+        {
+          "denom": "mand",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/739D70CB432FE1C6D94AF306B68C14F4CFB0B9EDD1238D3A8718B1B0E84E8547",
+      "name": "Mande Network",
+      "display": "mand",
+      "symbol": "MAND",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "mande",
+            "baseDenom": "amand",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-51",
+            "path": "transfer/channel-51/amand"
+          }
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "dymension",
+            "baseDenom": "ibc/5A26C8DC8DA66F4DD94326E67F94510188F5F7AFE2DB3933A0C823670E56EABF",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-19774",
+            "path": "transfer/channel-19774/transfer/channel-51/amand"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The native token of Neutaro",
+      "denomUnits": [
+        {
+          "denom": "ibc/DAED51CBD967A3BE0C467687970AFD97B202AFE4A1718B36936F49178AFE0133",
+          "exponent": 0,
+          "aliases": [
+            "uneutaro"
+          ]
+        },
+        {
+          "denom": "neutaro",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/DAED51CBD967A3BE0C467687970AFD97B202AFE4A1718B36936F49178AFE0133",
+      "name": "Neutaro",
+      "display": "neutaro",
+      "symbol": "NTMPI",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "neutaro",
+            "baseDenom": "uneutaro",
+            "channelId": "channel-4"
+          },
+          "chain": {
+            "channelId": "channel-79092",
+            "path": "transfer/channel-79092/uneutaro"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Pepe Bruce Jenner",
+      "denomUnits": [
+        {
+          "denom": "ibc/E0D6A7FFAE26FA90C8F1AA3461A5A21E74DB154F183EAE56C96769F48F81FCA2",
+          "exponent": 0,
+          "aliases": [
+            "ANu4Wuq86WzRU8tykszQUJ66eQzFNfkwap2HcQ5UaFaU",
+            "wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/AbYYFgqSQEhe7NyXfo6w75GT7fCanVd9wNg4E9Df2puP",
+            "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/AbYYFgqSQEhe7NyXfo6w75GT7fCanVd9wNg4E9Df2puP"
+          ]
+        },
+        {
+          "denom": "wormhole/AbYYFgqSQEhe7NyXfo6w75GT7fCanVd9wNg4E9Df2puP/6",
+          "exponent": 6,
+          "aliases": [
+            "pbj",
+            "PBJ"
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/E0D6A7FFAE26FA90C8F1AA3461A5A21E74DB154F183EAE56C96769F48F81FCA2",
+      "name": "Pepe Bruce Jenner",
+      "display": "wormhole/AbYYFgqSQEhe7NyXfo6w75GT7fCanVd9wNg4E9Df2puP/6",
+      "symbol": "PBJ",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "ANu4Wuq86WzRU8tykszQUJ66eQzFNfkwap2HcQ5UaFaU"
+          },
+          "provider": "Wormhole"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "gateway",
+            "baseDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/AbYYFgqSQEhe7NyXfo6w75GT7fCanVd9wNg4E9Df2puP",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-2186",
+            "path": "transfer/channel-2186/factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/AbYYFgqSQEhe7NyXfo6w75GT7fCanVd9wNg4E9Df2puP"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Ondo US Dollar Yield",
+      "denomUnits": [
+        {
+          "denom": "ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373",
+          "exponent": 0,
+          "aliases": [
+            "attousdy",
+            "ausdy"
+          ]
+        },
+        {
+          "denom": "usdy",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373",
+      "name": "Ondo US Dollar Yield",
+      "display": "usdy",
+      "symbol": "USDY",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "noble",
+            "baseDenom": "ausdy",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-750",
+            "path": "transfer/channel-750/ausdy"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Jacob Haertnellez Turtle. Launched by Jake's Personally appointed TURD Cult Leader...\"NotSeanO'Riley.\" TURD is going to lead the shitcoins of Cosmos! Or Rug You. It will be Jake's Fault. ",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/turd",
+          "exponent": 0
+        },
+        {
+          "denom": "TURD",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/turd",
+      "name": "TURDLE",
+      "display": "TURD",
+      "symbol": "TURD"
+    },
+    {
+      "description": "FIRMACHAIN adds a signing and verifying e-contract function to the blockchain. Unlocking new limits of electronic contracts with blockchain technology, FIRMACHAIN seeks to resolve all the social and legal issues (contracts, notarial, etc.) with written contracts through the use of electronic contracts based on FIRMACHAIN’s data blockchain.",
+      "denomUnits": [
+        {
+          "denom": "ibc/E43ABCC7E80E99E4E6E1226AE5695DDE0F83CB5C257CD04D47C36B8B90C1C839",
+          "exponent": 0,
+          "aliases": [
+            "ufct"
+          ]
+        },
+        {
+          "denom": "fct",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/E43ABCC7E80E99E4E6E1226AE5695DDE0F83CB5C257CD04D47C36B8B90C1C839",
+      "name": "FIRMACHAIN",
+      "display": "fct",
+      "symbol": "FCT",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "firmachain",
+            "baseDenom": "ufct",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-79241",
+            "path": "transfer/channel-79241/ufct"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of ETH asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH",
+          "exponent": 0
+        },
+        {
+          "denom": "allETH",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm",
+      "base": "factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH",
+      "name": "Ethereum",
+      "display": "allETH",
+      "symbol": "ETH",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "wei"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of SOL asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4/alloyed/allSOL",
+          "exponent": 0
+        },
+        {
+          "denom": "allSOL",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4",
+      "base": "factory/osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4/alloyed/allSOL",
+      "name": "Solana",
+      "display": "allSOL",
+      "symbol": "SOL",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "Lava Network is a modular data network designed to provide fast, reliable, and scalable access to blockchain data for developers and users.",
+      "denomUnits": [
+        {
+          "denom": "ibc/1AEF145C549D4F9847C79E49710B198C294C7F4A107F4610DEE8E725FFC4B378",
+          "exponent": 0,
+          "aliases": [
+            "ulava"
+          ]
+        },
+        {
+          "denom": "lava",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/1AEF145C549D4F9847C79E49710B198C294C7F4A107F4610DEE8E725FFC4B378",
+      "name": "Lava",
+      "display": "lava",
+      "symbol": "LAVA",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "lava",
+            "baseDenom": "ulava",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-76971",
+            "path": "transfer/channel-76971/ulava"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The native token of Penumbra.",
+      "denomUnits": [
+        {
+          "denom": "ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372",
+          "exponent": 0,
+          "aliases": [
+            "upenumbra"
+          ]
+        },
+        {
+          "denom": "penumbra",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372",
+      "name": "Penumbra",
+      "display": "penumbra",
+      "symbol": "UM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "penumbra",
+            "baseDenom": "upenumbra",
+            "channelId": "channel-4"
+          },
+          "chain": {
+            "channelId": "channel-79703",
+            "path": "transfer/channel-79703/upenumbra"
+          }
+        }
+      ]
+    },
+    {
+      "description": "TRONIX is the mainnet native token of the TRON Protocol issued by TRON DAO, known as TRX.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/TRX.rt",
+          "exponent": 0
+        },
+        {
+          "denom": "trx",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9",
+      "base": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/TRX.rt",
+      "name": "Tron (Router)",
+      "display": "trx",
+      "symbol": "TRX.rt",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "tron",
+            "baseDenom": "sun"
+          },
+          "provider": "Router"
+        }
+      ]
+    },
+    {
+      "description": "A synthetic version of USDT issued by Router, which can be unwrapped to USDT on several chains.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/USDT.rt",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9",
+      "base": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/USDT.rt",
+      "name": "Tether USD (Ethereum via Router)",
+      "display": "usdt",
+      "symbol": "USDT.eth.rt",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "forex",
+            "baseDenom": "USD"
+          },
+          "provider": "Tether"
+        },
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Router"
+        }
+      ]
+    },
+    {
+      "description": "Cosmo is the best currency in the universe.",
+      "denomUnits": [
+        {
+          "denom": "ibc/4925733868E7999F5822C961ADE9470A7FC5FA4A560BAE1DE102783C3F64C201",
+          "exponent": 0,
+          "aliases": [
+            "factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO"
+          ]
+        },
+        {
+          "denom": "COSMO",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/4925733868E7999F5822C961ADE9470A7FC5FA4A560BAE1DE102783C3F64C201",
+      "name": "Cosmo",
+      "display": "COSMO",
+      "symbol": "COSMO",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO",
+            "channelId": "channel-8"
+          },
+          "chain": {
+            "channelId": "channel-122",
+            "path": "transfer/channel-122/factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO"
+          }
+        }
+      ]
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "ibc/603140E681973C7A3A33B06B1D377AAD0F6AC376119735CECC04C9184A1AB080",
+          "exponent": 0,
+          "aliases": [
+            "stuband"
+          ]
+        },
+        {
+          "denom": "stBAND",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/603140E681973C7A3A33B06B1D377AAD0F6AC376119735CECC04C9184A1AB080",
+      "name": "Stride Staked BAND",
+      "display": "stBAND",
+      "symbol": "stBAND",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "bandchain",
+            "baseDenom": "uband"
+          },
+          "provider": "Stride"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "stride",
+            "baseDenom": "stuband",
+            "channelId": "channel-5"
+          },
+          "chain": {
+            "channelId": "channel-326",
+            "path": "transfer/channel-326/stuband"
+          }
+        }
+      ]
+    },
+    {
+      "description": "COOK is the governance token for Start.Cooking, the premier token factory on Cosmos.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/COOK",
+          "exponent": 0
+        },
+        {
+          "denom": "COOK",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/COOK",
+      "name": "COOK",
+      "display": "COOK",
+      "symbol": "COOK"
+    },
+    {
+      "description": "TRONIX is the mainnet native token of the TRON Protocol issued by TRON DAO, known as TRX.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x/alloyed/allTRX",
+          "exponent": 0,
+          "aliases": [
+            "sun"
+          ]
+        },
+        {
+          "denom": "trx",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x",
+      "base": "factory/osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x/alloyed/allTRX",
+      "name": "Tron",
+      "display": "trx",
+      "symbol": "TRX",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "tron",
+            "baseDenom": "sun"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "The native token of Router Chain",
+      "denomUnits": [
+        {
+          "denom": "ibc/3F8F00094F0F79D17750FF69C5F09B078084018570AAF4F1C92C86D3F73E6488",
+          "exponent": 0,
+          "aliases": [
+            "route"
+          ]
+        },
+        {
+          "denom": "ROUTE",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/3F8F00094F0F79D17750FF69C5F09B078084018570AAF4F1C92C86D3F73E6488",
+      "name": "Router Protocol",
+      "display": "ROUTE",
+      "symbol": "ROUTE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "routerchain",
+            "baseDenom": "route",
+            "channelId": "channel-7"
+          },
+          "chain": {
+            "channelId": "channel-79180",
+            "path": "transfer/channel-79180/route"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of OP asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg/alloyed/allOP",
+          "exponent": 0
+        },
+        {
+          "denom": "op",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg",
+      "base": "factory/osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg/alloyed/allOP",
+      "name": "Optimism",
+      "display": "op",
+      "symbol": "OP",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "optimism",
+            "baseDenom": "0x4200000000000000000000000000000000000042"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "ibc/14A291DD362798D6805B7ABCB8D09AEEE02176108F89FA09AA43EA2EE096A2A9",
+          "exponent": 0,
+          "aliases": [
+            "0x4200000000000000000000000000000000000042",
+            "op-wei"
+          ]
+        },
+        {
+          "denom": "op",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/14A291DD362798D6805B7ABCB8D09AEEE02176108F89FA09AA43EA2EE096A2A9",
+      "name": "Optimism (Axelar)",
+      "display": "op",
+      "symbol": "OP.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "optimism",
+            "baseDenom": "0x4200000000000000000000000000000000000042"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "axelar",
+            "baseDenom": "op-wei",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-208",
+            "path": "transfer/channel-208/op-wei"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of SHIB asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a/alloyed/allSHIB",
+          "exponent": 0
+        },
+        {
+          "denom": "shib",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a",
+      "base": "factory/osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a/alloyed/allSHIB",
+      "name": "Shiba Inu",
+      "display": "shib",
+      "symbol": "SHIB",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of ARB asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk/alloyed/allARB",
+          "exponent": 0
+        },
+        {
+          "denom": "arb",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk",
+      "base": "factory/osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk/alloyed/allARB",
+      "name": "Arbitrum",
+      "display": "arb",
+      "symbol": "ARB",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "arbitrum",
+            "baseDenom": "0x912CE59144191C1204E64559FE8253a0e49E6548"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of LINK asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw/alloyed/allLINK",
+          "exponent": 0
+        },
+        {
+          "denom": "link",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw",
+      "base": "factory/osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw/alloyed/allLINK",
+      "name": "Chainlink",
+      "display": "link",
+      "symbol": "LINK",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of PEPE asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx/alloyed/allPEPE",
+          "exponent": 0
+        },
+        {
+          "denom": "pepe",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx",
+      "base": "factory/osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx/alloyed/allPEPE",
+      "name": "Pepe",
+      "display": "pepe",
+      "symbol": "PEPE",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of DOT asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02/alloyed/allDOT",
+          "exponent": 0
+        },
+        {
+          "denom": "dot",
+          "exponent": 10
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02",
+      "base": "factory/osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02/alloyed/allDOT",
+      "name": "Polkadot",
+      "display": "dot",
+      "symbol": "DOT",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "polkadot",
+            "baseDenom": "Planck"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "Unicorn from Solana via Picasso IBC",
+      "denomUnits": [
+        {
+          "denom": "ibc/C91210281CEB708DC6E41A47FC9EC298F45712273DD58C682BEBAD00DCB59DC2",
+          "exponent": 0,
+          "aliases": [
+            "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
+            "ibc/586C150919550F6106711C7557DAAAEAB765DDF05648BAC0D96487AE90394BA1"
+          ]
+        },
+        {
+          "denom": "unicorn",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/C91210281CEB708DC6E41A47FC9EC298F45712273DD58C682BEBAD00DCB59DC2",
+      "name": "Unicorn (Picasso)",
+      "display": "unicorn",
+      "symbol": "UWU.pica",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "unicorn",
+            "baseDenom": "uwunicorn"
+          },
+          "provider": "Unicorn"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-71",
+            "path": "transfer/channel-71/UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z"
+          }
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "baseDenom": "ibc/586C150919550F6106711C7557DAAAEAB765DDF05648BAC0D96487AE90394BA1",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-71/UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Deenar gold-backed stablecoin",
+      "denomUnits": [
+        {
+          "denom": "ibc/108604FDBE97DAEF128FD4ECFEB2A8AFC2D04A7162C97EAA2FD5BCB0869D0BBC",
+          "exponent": 0,
+          "aliases": [
+            "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE"
+          ]
+        },
+        {
+          "denom": "DEEN",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/108604FDBE97DAEF128FD4ECFEB2A8AFC2D04A7162C97EAA2FD5BCB0869D0BBC",
+      "name": "Deenar",
+      "display": "DEEN",
+      "symbol": "DEEN",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "comex",
+            "baseDenom": "XAU"
+          },
+          "provider": "Deenar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "haqq",
+            "baseDenom": "erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-1575",
+            "path": "transfer/channel-1575/erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE"
+          }
+        }
+      ]
+    },
+    {
+      "description": "CosmoUSD",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo104jtrwcljnxfljhml8mxrw7qetcsdmqvy3sprw/ucosmousd",
+          "exponent": 0,
+          "aliases": [
+            "ucosmousd"
+          ]
+        },
+        {
+          "denom": "CosmoUSD",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/osmo104jtrwcljnxfljhml8mxrw7qetcsdmqvy3sprw/ucosmousd",
+      "name": "CosmoUSD",
+      "display": "CosmoUSD",
+      "symbol": "COSMOUSD"
+    },
+    {
+      "description": "The Representative factory token for Trump Kemistry",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
+          "exponent": 0
+        },
+        {
+          "denom": "XTRUMP",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl",
+      "base": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
+      "name": "XTRUMP",
+      "display": "XTRUMP",
+      "symbol": "XTRUMP"
+    },
+    {
+      "description": "Tether USDt from Ethereum via Peggy bridge.",
+      "denomUnits": [
+        {
+          "denom": "ibc/2AD3C64D19ADFBB522CD738B58F421102143F827C1CAFF574A8BF0B81017D53D",
+          "exponent": 0,
+          "aliases": [
+            "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7"
+          ]
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/2AD3C64D19ADFBB522CD738B58F421102143F827C1CAFF574A8BF0B81017D53D",
+      "name": "Tether USD (Ethereum) (Injective)",
+      "display": "usdt",
+      "symbol": "USDT.eth.inj",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "forex",
+            "baseDenom": "USD"
+          },
+          "provider": "Tether"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Peggy"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "channelId": "channel-8"
+          },
+          "chain": {
+            "channelId": "channel-122",
+            "path": "transfer/channel-122/peggy0xdAC17F958D2ee523a2206206994597C13D831ec7"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Fractionalized Bad Kids",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBAD",
+          "exponent": 0
+        },
+        {
+          "denom": "fBAD",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBAD",
+      "name": "fBAD",
+      "display": "fBAD",
+      "symbol": "fBAD"
+    },
+    {
+      "description": "Fractionalized Mad Scientists",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fMAD",
+          "exponent": 0
+        },
+        {
+          "denom": "fMAD",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fMAD",
+      "name": "fMAD",
+      "display": "fMAD",
+      "symbol": "fMAD"
+    },
+    {
+      "description": "Fractionalized Celestine Sloth Society",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fSLOTH",
+          "exponent": 0
+        },
+        {
+          "denom": "fSLOTH",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fSLOTH",
+      "name": "fSLOTH",
+      "display": "fSLOTH",
+      "symbol": "fSLOTH"
+    },
+    {
+      "description": "Fractionalized DAONuts",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fNUT",
+          "exponent": 0
+        },
+        {
+          "denom": "fNUT",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fNUT",
+      "name": "fNUT",
+      "display": "fNUT",
+      "symbol": "fNUT"
+    },
+    {
+      "description": "Mars Protocol is a cross-collateralized Money Market Protocol on Neutron and Osmosis",
+      "denomUnits": [
+        {
+          "denom": "ibc/B67DF59507B3755EEDE0866C449445BD54B4DA82CCEBA89D775E53DC35664255",
+          "exponent": 0,
+          "aliases": [
+            "umars"
+          ]
+        },
+        {
+          "denom": "MARS",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/B67DF59507B3755EEDE0866C449445BD54B4DA82CCEBA89D775E53DC35664255",
+      "name": "Mars Protocol token",
+      "display": "MARS",
+      "symbol": "MARS",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS",
+            "channelId": "channel-10"
+          },
+          "chain": {
+            "channelId": "channel-874",
+            "path": "transfer/channel-874/factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The native token of TON",
+      "denomUnits": [
+        {
+          "denom": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
+          "exponent": 0,
+          "aliases": [
+            "nanoTon"
+          ]
+        },
+        {
+          "denom": "ton",
+          "exponent": 9
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/905889A7F0B94F1CE1506D9BADF13AE9141E4CBDBCD565E1DFC7AE418B3E3E98",
+      "name": "TON (The Open Network) (Oraichain)",
+      "display": "ton",
+      "symbol": "TON.orai",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ton",
+            "baseDenom": "nanoton"
+          },
+          "provider": "Oraichain Labs TON Bridge"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "oraichain",
+            "baseDenom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton",
+            "channelId": "channel-13"
+          },
+          "chain": {
+            "channelId": "channel-216",
+            "path": "transfer/channel-216/factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of TON asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo12lnwf54yd30p6amzaged2atln8k0l32n7ncxf04ctg7u7ymnsy7qkqgsw4/alloyed/allTON",
+          "exponent": 0
+        },
+        {
+          "denom": "ton",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo12lnwf54yd30p6amzaged2atln8k0l32n7ncxf04ctg7u7ymnsy7qkqgsw4",
+      "base": "factory/osmo12lnwf54yd30p6amzaged2atln8k0l32n7ncxf04ctg7u7ymnsy7qkqgsw4/alloyed/allTON",
+      "name": "TON (The Open Network)",
+      "display": "ton",
+      "symbol": "TON",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ton",
+            "baseDenom": "nanoton"
           },
           "provider": "Osmosis"
         }
@@ -14867,703 +16372,22 @@
       ]
     },
     {
-      "description": "N43 a BitSong Music FanToken",
+      "description": "USDC supplied on Mars looped using Membrane by a vault",
       "denomUnits": [
         {
-          "denom": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58",
-          "exponent": 0,
-          "aliases": [
-            "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D"
-          ]
-        },
-        {
-          "denom": "n43",
-          "exponent": 6
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58",
-      "name": "N43 FanToken",
-      "display": "n43",
-      "symbol": "N43",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "bitsong",
-            "baseDenom": "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D",
-            "channelId": "channel-0"
-          },
-          "chain": {
-            "channelId": "channel-73",
-            "path": "transfer/channel-73/ft387C1C279D962ED80C09C1D592A92C4275FD7C5D"
-          }
-        }
-      ]
-    },
-    {
-      "description": "The native token of Mande Network.",
-      "denomUnits": [
-        {
-          "denom": "ibc/739D70CB432FE1C6D94AF306B68C14F4CFB0B9EDD1238D3A8718B1B0E84E8547",
-          "exponent": 0,
-          "aliases": [
-            "amand",
-            "ibc/5A26C8DC8DA66F4DD94326E67F94510188F5F7AFE2DB3933A0C823670E56EABF"
-          ]
-        },
-        {
-          "denom": "mand",
-          "exponent": 18
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/739D70CB432FE1C6D94AF306B68C14F4CFB0B9EDD1238D3A8718B1B0E84E8547",
-      "name": "Mande Network",
-      "display": "mand",
-      "symbol": "MAND",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "mande",
-            "baseDenom": "amand",
-            "channelId": "channel-0"
-          },
-          "chain": {
-            "channelId": "channel-51",
-            "path": "transfer/channel-51/amand"
-          }
-        },
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "dymension",
-            "baseDenom": "ibc/5A26C8DC8DA66F4DD94326E67F94510188F5F7AFE2DB3933A0C823670E56EABF",
-            "channelId": "channel-2"
-          },
-          "chain": {
-            "channelId": "channel-19774",
-            "path": "transfer/channel-19774/transfer/channel-51/amand"
-          }
-        }
-      ]
-    },
-    {
-      "description": "Jacob Haertnellez Turtle. Launched by Jake's Personally appointed TURD Cult Leader...\"NotSeanO'Riley.\" TURD is going to lead the shitcoins of Cosmos! Or Rug You. It will be Jake's Fault. ",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/turd",
+          "denom": "factory/osmo1vf6e300hv2qe7r5rln8deft45ewgyytjnwfrdfcv5rgzrfy0s6cswjqf9r/mars-usdc-looped",
           "exponent": 0
         },
         {
-          "denom": "TURD",
+          "denom": "loopedUSDCmars",
           "exponent": 6
         }
       ],
       "assetType": "sdk.coin",
-      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
-      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/turd",
-      "name": "TURDLE",
-      "display": "TURD",
-      "symbol": "TURD"
-    },
-    {
-      "description": "An alloy of ETH asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH",
-          "exponent": 0
-        },
-        {
-          "denom": "allETH",
-          "exponent": 18
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm",
-      "base": "factory/osmo1k6c8jln7ejuqwtqmay3yvzrg3kueaczl96pk067ldg8u835w0yhsw27twm/alloyed/allETH",
-      "name": "Alloyed ETH",
-      "display": "allETH",
-      "symbol": "allETH",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "ethereum",
-            "baseDenom": "wei"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of SOL asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4/alloyed/allSOL",
-          "exponent": 0
-        },
-        {
-          "denom": "allSOL",
-          "exponent": 9
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4",
-      "base": "factory/osmo1n3n75av8awcnw4jl62n3l48e6e4sxqmaf97w5ua6ddu4s475q5qq9udvx4/alloyed/allSOL",
-      "name": "Alloyed SOL",
-      "display": "allSOL",
-      "symbol": "allSOL",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "solana",
-            "baseDenom": "Lamport"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "COOK is the governance token for Start.Cooking, the premier token factory on Cosmos.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/COOK",
-          "exponent": 0
-        },
-        {
-          "denom": "COOK",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
-      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/COOK",
-      "name": "COOK",
-      "display": "COOK",
-      "symbol": "COOK"
-    },
-    {
-      "description": "The native token of Penumbra.",
-      "denomUnits": [
-        {
-          "denom": "ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372",
-          "exponent": 0,
-          "aliases": [
-            "upenumbra"
-          ]
-        },
-        {
-          "denom": "penumbra",
-          "exponent": 6
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/0FA9232B262B89E77D1335D54FB1E1F506A92A7E4B51524B400DC69C68D28372",
-      "name": "Penumbra",
-      "display": "penumbra",
-      "symbol": "UM",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "penumbra",
-            "baseDenom": "upenumbra",
-            "channelId": "channel-4"
-          },
-          "chain": {
-            "channelId": "channel-79703",
-            "path": "transfer/channel-79703/upenumbra"
-          }
-        }
-      ]
-    },
-    {
-      "description": "TRONIX is the mainnet native token of the TRON Protocol issued by TRON DAO, known as TRX.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/TRX.rt",
-          "exponent": 0
-        },
-        {
-          "denom": "trx",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9",
-      "base": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/TRX.rt",
-      "name": "Tronix",
-      "display": "trx",
-      "symbol": "TRX",
-      "traces": [
-        {
-          "type": "bridge",
-          "counterparty": {
-            "chainName": "tron",
-            "baseDenom": "sun"
-          },
-          "provider": "Router"
-        }
-      ]
-    },
-    {
-      "description": "A synthetic version of USDT issued by Router, which can be unwrapped to USDT on several chains.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/USDT.rt",
-          "exponent": 0
-        },
-        {
-          "denom": "usdt",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9",
-      "base": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/USDT.rt",
-      "name": "Tether USD",
-      "display": "usdt",
-      "symbol": "USDT",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "ethereum",
-            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
-          },
-          "provider": "Router"
-        }
-      ]
-    },
-    {
-      "description": "Cosmo is the best currency in the universe.",
-      "denomUnits": [
-        {
-          "denom": "ibc/4925733868E7999F5822C961ADE9470A7FC5FA4A560BAE1DE102783C3F64C201",
-          "exponent": 0,
-          "aliases": [
-            "factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO"
-          ]
-        },
-        {
-          "denom": "COSMO",
-          "exponent": 6
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/4925733868E7999F5822C961ADE9470A7FC5FA4A560BAE1DE102783C3F64C201",
-      "name": "Cosmo",
-      "display": "COSMO",
-      "symbol": "COSMO",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "injective",
-            "baseDenom": "factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO",
-            "channelId": "channel-8"
-          },
-          "chain": {
-            "channelId": "channel-122",
-            "path": "transfer/channel-122/factory/inj1je6n5sr4qtx2lhpldfxndntmgls9hf38ncmcez/COSMO"
-          }
-        }
-      ]
-    },
-    {
-      "description": "The Representative factory token for Trump Kemistry",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
-          "exponent": 0
-        },
-        {
-          "denom": "XTRUMP",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl",
-      "base": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
-      "name": "XTRUMP",
-      "display": "XTRUMP",
-      "symbol": "XTRUMP"
-    },
-    {
-      "description": "TRONIX is the mainnet native token of the TRON Protocol issued by TRON DAO, known as TRX.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x/alloyed/allTRX",
-          "exponent": 0,
-          "aliases": [
-            "sun"
-          ]
-        },
-        {
-          "denom": "trx",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x",
-      "base": "factory/osmo14mafhhp337yjj2aujplawz0tks6jd2lel4hkwz4agyzhvvztzaqsqzjq8x/alloyed/allTRX",
-      "name": "Alloyed TRX",
-      "display": "trx",
-      "symbol": "TRX",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "tron",
-            "baseDenom": "sun"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of OP asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg/alloyed/allOP",
-          "exponent": 0
-        },
-        {
-          "denom": "op",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg",
-      "base": "factory/osmo1nufyzqlm8qhu2w7lm0l4rrax0ec8rsk69mga4tel8eare7c7ljaqpk2lyg/alloyed/allOP",
-      "name": "Alloyed OP",
-      "display": "op",
-      "symbol": "allOP",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "optimism",
-            "baseDenom": "0x4200000000000000000000000000000000000042"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "CosmoUSD",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo104jtrwcljnxfljhml8mxrw7qetcsdmqvy3sprw/ucosmousd",
-          "exponent": 0,
-          "aliases": [
-            "ucosmousd"
-          ]
-        },
-        {
-          "denom": "CosmoUSD",
-          "exponent": 6
-        }
-      ],
-      "base": "factory/osmo104jtrwcljnxfljhml8mxrw7qetcsdmqvy3sprw/ucosmousd",
-      "name": "CosmoUSD",
-      "display": "CosmoUSD",
-      "symbol": "COSMOUSD",
-      "assetType": "sdk.factory"
-    },
-    {
-      "description": "An alloy of SHIB asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a/alloyed/allSHIB",
-          "exponent": 0
-        },
-        {
-          "denom": "shib",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a",
-      "base": "factory/osmo1f588gk9dazpsueevdl2w6wfkmfmhg5gdvg2uerdlzl0atkasqhsq59qc6a/alloyed/allSHIB",
-      "name": "Alloyed SHIB",
-      "display": "shib",
-      "symbol": "allSHIB",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "ethereum",
-            "baseDenom": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of LINK asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw/alloyed/allLINK",
-          "exponent": 0
-        },
-        {
-          "denom": "link",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw",
-      "base": "factory/osmo18zdw5yvs6gfp95rp74qqwug9yduw2fyr8kplk2xgs726s9axc5usa2vpgw/alloyed/allLINK",
-      "name": "Alloyed LINK",
-      "display": "link",
-      "symbol": "allLINK",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "ethereum",
-            "baseDenom": "0x514910771af9ca656af840dff83e8264ecf986ca"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of PEPE asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx/alloyed/allPEPE",
-          "exponent": 0
-        },
-        {
-          "denom": "pepe",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx",
-      "base": "factory/osmo1nnlxegt0scm9qkzys9c874t0ntapv4epfjy2w49c0xdrp3dr0v4ssmelzx/alloyed/allPEPE",
-      "name": "Alloyed PEPE",
-      "display": "pepe",
-      "symbol": "allPEPE",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "ethereum",
-            "baseDenom": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of ARB asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk/alloyed/allARB",
-          "exponent": 0
-        },
-        {
-          "denom": "arb",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk",
-      "base": "factory/osmo1p7x454ex08s4f9ztmm7wfv7lvtgdkfztj2u7v7fezfcauy85q35qmqrdpk/alloyed/allARB",
-      "name": "Alloyed ARB",
-      "display": "arb",
-      "symbol": "allARB",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "arbitrum",
-            "baseDenom": "0x912CE59144191C1204E64559FE8253a0e49E6548"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of DOT asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02/alloyed/allDOT",
-          "exponent": 0
-        },
-        {
-          "denom": "dot",
-          "exponent": 10
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02",
-      "base": "factory/osmo1r53fx9fvcdzncrs7zkn4gw5vfelx5gk8k5wc6wqha2jpkh992rusr5tk02/alloyed/allDOT",
-      "name": "Alloyed DOT",
-      "display": "dot",
-      "symbol": "allDOT",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "polkadot",
-            "baseDenom": "Planck"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "Mars Protocol token (pre-migration)",
-      "denomUnits": [
-        {
-          "denom": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
-          "exponent": 0,
-          "aliases": [
-            "umars"
-          ]
-        },
-        {
-          "denom": "MARS.old",
-          "exponent": 6
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
-      "name": "Mars Hub",
-      "display": "MARS.old",
-      "symbol": "MARS.old",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "mars",
-            "baseDenom": "umars",
-            "channelId": "channel-1"
-          },
-          "chain": {
-            "channelId": "channel-557",
-            "path": "transfer/channel-557/umars"
-          }
-        }
-      ]
-    },
-    {
-      "description": "Mars Protocol is a cross-collateralized Money Market Protocol on Neutron and Osmosis",
-      "denomUnits": [
-        {
-          "denom": "ibc/B67DF59507B3755EEDE0866C449445BD54B4DA82CCEBA89D775E53DC35664255",
-          "exponent": 0,
-          "aliases": [
-            "umars"
-          ]
-        },
-        {
-          "denom": "MARS",
-          "exponent": 6
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/B67DF59507B3755EEDE0866C449445BD54B4DA82CCEBA89D775E53DC35664255",
-      "name": "Mars Hub",
-      "display": "MARS",
-      "symbol": "MARS",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "neutron",
-            "baseDenom": "factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS",
-            "channelId": "channel-10"
-          },
-          "chain": {
-            "channelId": "channel-874",
-            "path": "transfer/channel-874/factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS"
-          }
-        }
-      ]
-    },
-    {
-      "description": "Fractionalized Bad Kids",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBAD",
-          "exponent": 0
-        },
-        {
-          "denom": "fBAD",
-          "exponent": 9
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
-      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBAD",
-      "name": "fBAD",
-      "display": "fBAD",
-      "symbol": "fBAD"
-    },
-    {
-      "description": "Fractionalized Mad Scientists",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fMAD",
-          "exponent": 0
-        },
-        {
-          "denom": "fMAD",
-          "exponent": 9
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
-      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fMAD",
-      "name": "fMAD",
-      "display": "fMAD",
-      "symbol": "fMAD"
-    },
-    {
-      "description": "Fractionalized Celestine Sloth Society",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fSLOTH",
-          "exponent": 0
-        },
-        {
-          "denom": "fSLOTH",
-          "exponent": 9
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
-      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fSLOTH",
-      "name": "fSLOTH",
-      "display": "fSLOTH",
-      "symbol": "fSLOTH"
-    },
-    {
-      "description": "Fractionalized DAONuts",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fNUT",
-          "exponent": 0
-        },
-        {
-          "denom": "fNUT",
-          "exponent": 9
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
-      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fNUT",
-      "name": "fNUT",
-      "display": "fNUT",
-      "symbol": "fNUT"
+      "base": "factory/osmo1vf6e300hv2qe7r5rln8deft45ewgyytjnwfrdfcv5rgzrfy0s6cswjqf9r/mars-usdc-looped",
+      "name": "Mars Looped USDC",
+      "display": "loopedUSDCmars",
+      "symbol": "loopedUSDCmars"
     }
   ]
 }

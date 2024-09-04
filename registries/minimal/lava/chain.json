@@ -194,6 +194,12 @@
       "url": "https://mainnet.explorer.aviaone.com/lava/",
       "txPage": "https://mainnet.explorer.aviaone.com/lava/tx/${txHash}",
       "accountPage": "https://mainnet.explorer.aviaone.com/lava/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Lava-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Lava-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Lava-Mainnet/account/${accountAddress}"
     }
   ]
 }

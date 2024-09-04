@@ -11,7 +11,10 @@
   "nodeHome": "$HOME/.routerd",
   "daemonName": "routerd",
   "keyAlgos": [
-    "secp256k1"
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
   ],
   "slip44": 60,
   "fees": {

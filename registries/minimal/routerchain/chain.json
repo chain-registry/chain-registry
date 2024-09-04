@@ -7,7 +7,10 @@
   "website": "https://www.routerprotocol.com/",
   "bech32Prefix": "router",
   "keyAlgos": [
-    "secp256k1"
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
   ],
   "slip44": 60,
   "fees": {

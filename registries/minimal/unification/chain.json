@@ -32,9 +32,9 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "0.46.15",
+    "cosmosSdkVersion": "0.47.13",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "5.3.1"
+    "ibcGoVersion": "7.7.0"
   },
   "images": [
     {
@@ -48,7 +48,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc1.unification.io:443"
+        "address": "https://rpc.unification.io:443"
       },
       {
         "address": "https://rpc.unification.chainmasters.ninja/"
@@ -73,10 +73,10 @@
   },
   "explorers": [
     {
-      "kind": "bigdipper",
-      "url": "https://explorer.unification.io/",
-      "txPage": "https://explorer.unification.io/transactions/${txHash}",
-      "accountPage": "https://explorer.unification.io/accounts/${accountAddress}"
+      "kind": "ping.pub",
+      "url": "https://explorer.unification.io/u",
+      "txPage": "https://explorer.unification.io/u/tx/${txHash}",
+      "accountPage": "https://explorer.unification.io/u/account/${accountAddress}"
     },
     {
       "kind": "ping.pub",

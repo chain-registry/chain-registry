@@ -29,7 +29,9 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg",
           "theme": {
-            "primaryColorHex": "#242424"
+            "circle": true,
+            "primaryColorHex": "#E59636",
+            "backgroundColorHex": "#000000"
           }
         }
       ],
