@@ -21,7 +21,8 @@
       "display": "SOL",
       "symbol": "SOL",
       "logoURIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg"
       },
       "coingeckoId": "solana",
       "images": [
@@ -70,7 +71,8 @@
         }
       ],
       "logoURIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg"
       },
       "coingeckoId": "wrapped-solana",
       "images": [
@@ -79,7 +81,12 @@
             "chainName": "solana",
             "baseDenom": "Lamport"
           },
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png",
+          "theme": {
+            "circle": true,
+            "backgroundColorHex": "#000000"
+          }
         }
       ]
     },
@@ -172,6 +179,7 @@
         }
       ],
       "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
       },
       "images": [
@@ -180,7 +188,12 @@
             "chainName": "ethereum",
             "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
           },
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#2775CA"
+          }
         }
       ]
     },

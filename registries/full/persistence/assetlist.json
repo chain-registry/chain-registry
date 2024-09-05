@@ -157,7 +157,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg",
           "theme": {
-            "primaryColorHex": "#111111"
+            "primaryColorHex": "#050505"
           }
         }
       ]
@@ -303,16 +303,17 @@
             "chainName": "noble",
             "baseDenom": "uusdc"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
           "theme": {
-            "primaryColorHex": "#2474cc"
+            "circle": true,
+            "primaryColorHex": "#2775CA"
           }
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
       }
     },
     {
@@ -551,7 +552,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg",
           "theme": {
-            "primaryColorHex": "#b7dfbd"
+            "primaryColorHex": "#db2777"
           }
         }
       ],

@@ -69,6 +69,9 @@
       },
       {
         "address": "https://rpc-realio.blockval.io"
+      },
+      {
+        "address": "https://realio_rio_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -104,6 +107,9 @@
       },
       {
         "address": "https://api-realio.blockval.io"
+      },
+      {
+        "address": "https://realio_rio_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -156,6 +162,9 @@
       },
       {
         "address": "https://realio-jsonrpc.noders.services"
+      },
+      {
+        "address": "https://realio_rio_mainnet_evm.chain.whenmoonwhenlambo.money"
       }
     ]
   },
@@ -195,6 +204,12 @@
       "url": "https://explorer.declab.pro/realio",
       "txPage": "https://explorer.declab.pro/realio/tx/${txHash}",
       "accountPage": "https://explorer.declab.pro/realio/account/{$accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/realio",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/realio/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/realio/account/${accountAddress}"
     }
   ],
   "images": [

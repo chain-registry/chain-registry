@@ -8,7 +8,7 @@
   "chainType": "cosmos",
   "chainId": "quasar-1",
   "bech32Prefix": "quasar",
-  "daemonName": "quasarnoded",
+  "daemonName": "quasard",
   "nodeHome": "$HOME/.quasarnode",
   "keyAlgos": [
     "secp256k1"
@@ -55,16 +55,16 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/quasar-finance/quasar",
-    "recommendedVersion": "v2.0.1",
+    "recommendedVersion": "v3.0.0",
     "compatibleVersions": [
-      "v2.0.1"
+      "v3.0.0"
     ],
-    "cosmosSdkVersion": "v0.47.12",
+    "cosmosSdkVersion": "v0.50.9",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.6"
     },
-    "cosmwasmVersion": "v0.45.0",
+    "cosmwasmVersion": "v0.53.0",
     "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/quasar-finance/networks/main/quasar-1/definitive-genesis.json"
@@ -134,7 +134,7 @@
         },
         "cosmwasmVersion": "0.45.0",
         "cosmwasmEnabled": true,
-        "nextVersionName": "",
+        "nextVersionName": "v3",
         "sdk": {
           "type": "cosmos",
           "version": "v0.47.12"
@@ -143,14 +143,39 @@
           "version": "0.45.0",
           "enabled": true
         }
+      },
+      {
+        "name": "v3",
+        "proposal": 45,
+        "height": 7982200,
+        "recommendedVersion": "v3.0.0",
+        "compatibleVersions": [
+          "v3.0.0"
+        ],
+        "cosmosSdkVersion": "v0.50.9",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.38.11"
+        },
+        "cosmwasmVersion": "v0.53.0",
+        "cosmwasmEnabled": true,
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.50.9"
+        },
+        "cosmwasm": {
+          "version": "v0.53.0",
+          "enabled": true
+        }
       }
     ],
     "sdk": {
       "type": "cosmos",
-      "version": "v0.47.12"
+      "version": "v0.50.9"
     },
     "cosmwasm": {
-      "version": "v0.45.0",
+      "version": "v0.53.0",
       "enabled": true
     }
   },

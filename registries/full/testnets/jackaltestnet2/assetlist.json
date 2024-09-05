@@ -35,6 +35,9 @@
           "imageSync": {
             "chainName": "jackal",
             "baseDenom": "ujkl"
+          },
+          "theme": {
+            "primaryColorHex": "#dbdbcb"
           }
         }
       ],

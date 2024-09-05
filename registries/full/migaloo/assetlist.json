@@ -156,6 +156,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "terra2",
+            "baseDenom": "cw20:terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/bLUNA.png",
           "theme": {
             "primaryColorHex": "#070707"
@@ -845,7 +849,10 @@
             "chainName": "injective",
             "baseDenom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/syn.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/syn.png",
+          "theme": {
+            "primaryColorHex": "#04a2fc"
+          }
         }
       ],
       "logoURIs": {

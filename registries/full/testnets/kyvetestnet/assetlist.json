@@ -39,6 +39,9 @@
           "imageSync": {
             "chainName": "kyve",
             "baseDenom": "ukyve"
+          },
+          "theme": {
+            "primaryColorHex": "#335350"
           }
         }
       ],

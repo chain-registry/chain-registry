@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "dhealthtestnet",
+  "assets": [
+    {
+      "description": "The native token of dHealth testnet.",
+      "denomUnits": [
+        {
+          "denom": "utdhp",
+          "exponent": 0
+        },
+        {
+          "denom": "tdhp",
+          "exponent": 6
+        }
+      ],
+      "base": "utdhp",
+      "name": "Digital Health Point Testnet",
+      "display": "tdhp",
+      "symbol": "tDHP",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

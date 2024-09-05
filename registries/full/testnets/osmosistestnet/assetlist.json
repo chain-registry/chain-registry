@@ -402,6 +402,7 @@
         }
       ],
       "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
       },
       "images": [
@@ -410,7 +411,12 @@
             "chainName": "nobletestnet",
             "baseDenom": "uusdc"
           },
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+          "theme": {
+            "circle": true,
+            "primaryColorHex": "#2775CA"
+          }
         }
       ]
     },
@@ -516,6 +522,9 @@
           "imageSync": {
             "chainName": "kyve",
             "baseDenom": "ukyve"
+          },
+          "theme": {
+            "primaryColorHex": "#335350"
           }
         }
       ]
@@ -822,7 +831,10 @@
             "baseDenom": "uixo"
           },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg",
+          "theme": {
+            "primaryColorHex": "#2c4484"
+          }
         }
       ]
     },

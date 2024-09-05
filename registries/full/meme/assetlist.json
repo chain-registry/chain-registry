@@ -77,6 +77,9 @@
           "imageSync": {
             "chainName": "planq",
             "baseDenom": "aplanq"
+          },
+          "theme": {
+            "primaryColorHex": "#d4f3fb"
           }
         }
       ]

@@ -563,7 +563,11 @@
             "chainName": "ethereum",
             "baseDenom": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
           },
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg",
+          "theme": {
+            "primaryColorHex": "#FFA409",
+            "backgroundColorHex": "#00000000"
+          }
         }
       ],
       "assetType": "sdk.coin"

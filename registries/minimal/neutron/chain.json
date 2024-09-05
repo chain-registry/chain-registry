@@ -191,6 +191,10 @@
         "backgroundColorHex": "#000000",
         "circle": true
       }
+    },
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-black-logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-black-logo.svg"
     }
   ]
 }

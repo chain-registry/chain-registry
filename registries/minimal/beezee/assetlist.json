@@ -134,6 +134,44 @@
           }
         }
       ]
+    },
+    {
+      "description": "USDC from Noble",
+      "denomUnits": [
+        {
+          "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+      "name": "USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "noble",
+            "baseDenom": "uusdc",
+            "channelId": "channel-95"
+          },
+          "chain": {
+            "channelId": "channel-3",
+            "path": "transfer/channel-3/uusdc"
+          }
+        }
+      ]
     }
   ]
 }

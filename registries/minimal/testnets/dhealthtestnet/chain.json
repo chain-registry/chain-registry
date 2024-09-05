@@ -1,0 +1,53 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "dhealthtestnet",
+  "chainId": "dhealth-testnet-2",
+  "prettyName": "dHealth Testnet",
+  "networkType": "testnet",
+  "bech32Prefix": "tdh02",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utdhp",
+        "fixedMinGasPrice": 0.01,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.03,
+        "highGasPrice": 0.035
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "utdhp"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "cosmos/cosmos-sdk v0.47.4",
+    "cosmwasmVersion": "v0.41.0",
+    "cosmwasmEnabled": true
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-testnet.dhealth.dev"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd-testnet.dhealth.dev"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+
+  ]
+}
