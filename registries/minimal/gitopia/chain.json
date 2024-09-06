@@ -32,8 +32,8 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.46.13",
-    "ibcGoVersion": "5.3.1",
+    "cosmosSdkVersion": "v0.47.13",
+    "ibcGoVersion": "7.6.0",
     "icsEnabled": [
       "ics20-1"
     ]

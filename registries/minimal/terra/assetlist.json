@@ -4096,7 +4096,7 @@
       "symbol": "TRIT"
     },
     {
-      "description": "Rakoff Token is the Meme Token for Terra Classic",
+      "description": "Juris Protocol is the Lending Platform for the Terra Ecosystem.",
       "assetType": "cw20",
       "address": "terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2",
       "denomUnits": [
@@ -4105,14 +4105,14 @@
           "exponent": 0
         },
         {
-          "denom": "rakoff",
+          "denom": "juris",
           "exponent": 6
         }
       ],
       "base": "cw20:terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2",
-      "name": "Rakoff Token",
-      "display": "rakoff",
-      "symbol": "RAKOFF"
+      "name": "Juris Protocol",
+      "display": "juris",
+      "symbol": "JURIS"
     },
     {
       "description": "Tadpole Frogztrik Token meme",

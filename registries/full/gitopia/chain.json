@@ -40,16 +40,16 @@
     "genesis": {
       "genesisUrl": "https://github.com/gitopia/mainnet/raw/master/genesis.tar.gz"
     },
-    "recommendedVersion": "v3.3.0",
+    "recommendedVersion": "v4.0.0",
     "compatibleVersions": [
-      "v3.3.0"
+      "v4.0.0"
     ],
-    "cosmosSdkVersion": "v0.46.13",
+    "cosmosSdkVersion": "v0.47.13",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.34.28"
+      "version": "v0.37.6"
     },
-    "ibcGoVersion": "5.3.1",
+    "ibcGoVersion": "7.6.0",
     "icsEnabled": [
       "ics20-1"
     ],
@@ -170,7 +170,7 @@
         "icsEnabled": [
           "ics20-1"
         ],
-        "nextVersionName": "",
+        "nextVersionName": "v4",
         "sdk": {
           "type": "cosmos",
           "version": "v0.46.13"
@@ -182,15 +182,45 @@
             "ics20-1"
           ]
         }
+      },
+      {
+        "name": "v4",
+        "recommendedVersion": "v4.0.0",
+        "compatibleVersions": [
+          "v4.0.0"
+        ],
+        "proposal": 31,
+        "height": 24330422,
+        "cosmosSdkVersion": "v0.47.13",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.6"
+        },
+        "ibcGoVersion": "7.6.0",
+        "icsEnabled": [
+          "ics20-1"
+        ],
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.13"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "7.6.0",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
       }
     ],
     "sdk": {
       "type": "cosmos",
-      "version": "v0.46.13"
+      "version": "v0.47.13"
     },
     "ibc": {
       "type": "go",
-      "version": "5.3.1",
+      "version": "7.6.0",
       "icsEnabled": [
         "ics20-1"
       ]

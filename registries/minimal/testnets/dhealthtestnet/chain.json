@@ -44,7 +44,9 @@
       }
     ],
     "grpc": [
-
+      {
+        "address": "rpc-testnet.dhealth.dev:9090"
+      }
     ]
   },
   "explorers": [
