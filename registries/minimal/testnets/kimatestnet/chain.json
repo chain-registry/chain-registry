@@ -1,0 +1,42 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "kimatestnet",
+  "networkType": "testnet",
+  "prettyName": "Kima",
+  "chainId": "kima_testnet",
+  "bech32Prefix": "kima",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uKIMA",
+        "fixedMinGasPrice": 0.025
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-testnet.kima.finance/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-testnet.kima.finance"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "kima",
+      "url": "https://explorer-testnet.kima.finance/",
+      "txPage": "https://explorer-testnet.kima.finance/transactions/${txHash}"
+    }
+  ]
+}
