@@ -25,6 +25,78 @@
       "name": "Melody",
       "display": "mld",
       "symbol": "MLD"
+    },
+    {
+      "description": "Harmonized USD",
+      "denomUnits": [
+        {
+          "denom": "uusd",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "husd",
+          "exponent": 6,
+          "aliases": [
+            "harmony USD"
+          ]
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "uusd",
+      "name": "Harmony USD",
+      "display": "husd",
+      "symbol": "HUSD"
+    },
+    {
+      "description": "Harmonized HKD",
+      "denomUnits": [
+        {
+          "denom": "ukhd",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "hkhd",
+          "exponent": 6,
+          "aliases": [
+            "harmony HKD"
+          ]
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "ukhd",
+      "name": "Harmony HKD",
+      "display": "hkhd",
+      "symbol": "HKHD"
+    },
+    {
+      "description": "Harmonized VND",
+      "denomUnits": [
+        {
+          "denom": "uvnd",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "hvnd",
+          "exponent": 6,
+          "aliases": [
+            "harmony VND"
+          ]
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "uvnd",
+      "name": "Harmony VND",
+      "display": "hvnd",
+      "symbol": "HVND"
     }
   ]
 }

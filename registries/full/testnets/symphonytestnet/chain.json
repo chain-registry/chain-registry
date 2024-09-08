@@ -32,7 +32,7 @@
     ]
   },
   "codebase": {
-    "gitRepo": "https://github.com/Orchestra-Labs/symphony-osmosis",
+    "gitRepo": "https://github.com/Orchestra-Labs/symphony",
     "recommendedVersion": "v23.0.5",
     "compatibleVersions": [
       "v23.0.5"
