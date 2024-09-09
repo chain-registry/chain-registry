@@ -974,6 +974,7 @@
     },
     {
       "description": "nRide Token",
+      "extendedDescription": "nRide is developing a uber-like ride-hailing protocol, leveraging cosmwasm smart-contracts for payment, driver registration and text-messaging between the rider and the driver, to create a trustless public transportation environment for any cab or taxi company to use.",
       "assetType": "cw20",
       "address": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
       "denomUnits": [
@@ -1002,7 +1003,11 @@
             "primaryColorHex": "#050505"
           }
         }
-      ]
+      ],
+      "socials": {
+        "website": "https://www.nride.com",
+        "twitter": "https://twitter.com/nRide12"
+      }
     },
     {
       "description": "Signal Art and Gaming on Juno",

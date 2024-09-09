@@ -55,7 +55,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://public-rpc-testnet2.lavanet.xyz:443/rpc/"
+        "address": "https://lav1.tendermintrpc.lava.build:443"
       },
       {
         "address": "http://lava.rpc.t.stavr.tech:198"
@@ -69,7 +69,7 @@
     ],
     "rest": [
       {
-        "address": "https://public-rpc-testnet2.lavanet.xyz:443/rest/"
+        "address": "https://lav1.lava.build/"
       },
       {
         "address": "https://lava.api.t.stavr.tech"
