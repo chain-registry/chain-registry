@@ -38,21 +38,21 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/lavanet/lava",
-    "recommendedVersion": "v2.2.0",
+    "recommendedVersion": "v3.1.0",
     "compatibleVersions": [
-      "v2.2.0"
+      "v3.1.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/lavanet/lava/releases/download/v2.2.0/lavad-v2.2.0-linux-amd64"
+      "linux/amd64": "https://github.com/lavanet/lava/releases/download/v3.1.0/lavad-v3.1.0-linux-amd64"
     },
     "goVersion": "1.20",
-    "cosmosSdkVersion": "lavanet/cosmos-sdk v0.47.10-lava-cosmos",
+    "cosmosSdkVersion": "lavanet/cosmos-sdk v0.47.13-lava-cosmos",
     "consensus": {
       "type": "cometbft",
       "version": "0.37.4"
     },
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v7.3.1",
+    "ibcGoVersion": "v7.4.0",
     "icsEnabled": [
       "ics20-1"
     ],
@@ -63,12 +63,12 @@
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/lavanet/cosmos-sdk",
-      "version": "v0.47.10",
-      "tag": "v0.47.10-lava-cosmos"
+      "version": "v0.47.13",
+      "tag": "v0.47.13-lava-cosmos"
     },
     "ibc": {
       "type": "go",
-      "version": "v7.3.1",
+      "version": "v7.4.0",
       "icsEnabled": [
         "ics20-1"
       ]

@@ -34,9 +34,9 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/strangelove-ventures/noble",
-    "recommendedVersion": "v5.0.0",
+    "recommendedVersion": "v6.0.0",
     "compatibleVersions": [
-      "v5.0.0"
+      "v6.0.0"
     ],
     "cosmosSdkVersion": "noble-assets/cosmos-sdk v0.45.16-send-restrictions",
     "consensus": {
@@ -265,6 +265,42 @@
         "recommendedVersion": "v5.0.0",
         "compatibleVersions": [
           "v5.0.0"
+        ],
+        "cosmosSdkVersion": "noble-assets/cosmos-sdk v0.45.16-send-restrictions",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.34.27"
+        },
+        "cosmwasmEnabled": false,
+        "ibcGoVersion": "v4.6.0",
+        "icsEnabled": [
+          "ics20-1"
+        ],
+        "nextVersionName": "xenon",
+        "sdk": {
+          "type": "cosmos",
+          "repo": "https://github.com/noble-assets/cosmos-sdk",
+          "version": "v0.45.16",
+          "tag": "v0.45.16-send-restrictions"
+        },
+        "cosmwasm": {
+          "enabled": false
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v4.6.0",
+          "icsEnabled": [
+            "ics20-1"
+          ]
+        }
+      },
+      {
+        "name": "xenon",
+        "tag": "v6.0.0",
+        "height": 11110000,
+        "recommendedVersion": "v6.0.0",
+        "compatibleVersions": [
+          "v6.0.0"
         ],
         "cosmosSdkVersion": "noble-assets/cosmos-sdk v0.45.16-send-restrictions",
         "consensus": {

@@ -41,19 +41,19 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/CosmosContracts/juno",
-    "recommendedVersion": "v23.1.0",
+    "recommendedVersion": "v24.0.0",
     "compatibleVersions": [
-      "v23.1.0"
+      "v24.0.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v23.1.0/junod"
+      "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v24.0.0/junod"
     },
     "cosmosSdkVersion": "v0.47.12",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.8"
     },
-    "cosmwasmVersion": "v0.45.0",
+    "cosmwasmVersion": "v0.46.0",
     "cosmwasmEnabled": true,
     "ibcGoVersion": "v7.6.0",
     "genesis": {
@@ -380,13 +380,46 @@
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
         "ibcGoVersion": "v7.6.0",
-        "nextVersionName": "",
+        "nextVersionName": "v24",
         "sdk": {
           "type": "cosmos",
           "version": "v0.47.12"
         },
         "cosmwasm": {
           "version": "v0.45.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.6.0"
+        }
+      },
+      {
+        "name": "v24",
+        "proposal": 354,
+        "height": 19022500,
+        "recommendedVersion": "v24.0.0",
+        "compatibleVersions": [
+          "v24.0.0"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/CosmosContracts/juno/releases/download/v24.0.0/junod"
+        },
+        "cosmosSdkVersion": "v0.47.12",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.8"
+        },
+        "cosmwasmVersion": "v0.46.0",
+        "cosmwasmEnabled": true,
+        "ibcGoVersion": "v7.6.0",
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.12"
+        },
+        "cosmwasm": {
+          "version": "v0.46.0",
           "enabled": true
         },
         "ibc": {
@@ -404,7 +437,7 @@
       "version": "v7.6.0"
     },
     "cosmwasm": {
-      "version": "v0.45.0",
+      "version": "v0.46.0",
       "enabled": true
     }
   },

@@ -132,11 +132,11 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/Stride-Labs/stride",
-    "recommendedVersion": "v23.0.0",
+    "recommendedVersion": "v24.0.0",
     "compatibleVersions": [
-      "v23.0.0"
+      "v24.0.0"
     ],
-    "cosmosSdkVersion": "Stride-Labs/cosmos-sdk v0.47.10-stride-distribution-fix-0",
+    "cosmosSdkVersion": "v0.47.10-stride-distribution-fix-0-mempool-verbose-error-1",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.4"
@@ -503,13 +503,40 @@
           "type": "go",
           "version": "7.4.0"
         }
+      },
+      {
+        "name": "v24",
+        "tag": "v24.0.0",
+        "recommendedVersion": "v24.0.0",
+        "compatibleVersions": [
+          "v24.0.0"
+        ],
+        "proposal": 249,
+        "height": 10755701,
+        "cosmosSdkVersion": "v0.47.10-stride-distribution-fix-0-mempool-verbose-error-1",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.4"
+        },
+        "ibcGoVersion": "7.4.0",
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "repo": "https://github.com/Stride-Labs/cosmos-sdk",
+          "version": "v0.47.10",
+          "tag": "v0.47.10-stride-distribution-fix-0-mempool-verbose-error-1"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "7.4.0"
+        }
       }
     ],
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/Stride-Labs/cosmos-sdk",
       "version": "v0.47.10",
-      "tag": "v0.47.10-stride-distribution-fix-0"
+      "tag": "v0.47.10-stride-distribution-fix-0-mempool-verbose-error-1"
     },
     "ibc": {
       "type": "go",

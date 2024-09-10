@@ -32,9 +32,9 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "lavanet/cosmos-sdk v0.47.10-lava-cosmos",
+    "cosmosSdkVersion": "lavanet/cosmos-sdk v0.47.13-lava-cosmos",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v7.3.1",
+    "ibcGoVersion": "v7.4.0",
     "icsEnabled": [
       "ics20-1"
     ]

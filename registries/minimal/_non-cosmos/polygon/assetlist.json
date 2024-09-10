@@ -10,18 +10,19 @@
           "exponent": 0
         },
         {
-          "denom": "matic",
+          "denom": "pol",
           "exponent": 18,
           "aliases": [
-            "polygon"
+            "polygon",
+            "matic"
           ]
         }
       ],
       "assetType": "evm-base",
       "base": "wei",
-      "name": "Matic",
-      "display": "matic",
-      "symbol": "MATIC",
+      "name": "Polygon",
+      "display": "pol",
+      "symbol": "POL",
       "coingeckoId": "matic-network"
     },
     {

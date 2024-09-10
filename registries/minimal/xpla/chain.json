@@ -29,9 +29,9 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "xpladev/cosmos-sdk v0.45.20-xpla",
-    "ibcGoVersion": "v4.5.1",
-    "cosmwasmVersion": "v0.33.0"
+    "cosmosSdkVersion": "v0.47.13-xpla",
+    "ibcGoVersion": "v7.7.0",
+    "cosmwasmVersion": "v0.46.0"
   },
   "apis": {
     "rpc": [

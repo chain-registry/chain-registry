@@ -16388,6 +16388,42 @@
       "name": "Mars Looped USDC",
       "display": "loopedUSDCmars",
       "symbol": "loopedUSDCmars"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1xu0gk9aggv79597xwazyfzaggv2pze9z7cq3p9p72tkkux9a7xaqufa792/BVT",
+          "exponent": 0
+        },
+        {
+          "denom": "BVT0",
+          "exponent": 18
+        }
+      ],
+      "description": "Banana Vault Token - Peelworks Factory II",
+      "assetType": "sdk.coin",
+      "base": "factory/osmo1xu0gk9aggv79597xwazyfzaggv2pze9z7cq3p9p72tkkux9a7xaqufa792/BVT",
+      "name": "Peelworks Factory",
+      "display": "BVT0",
+      "symbol": "BVT0"
+    },
+    {
+      "description": "Banana Vault Token - Banana Beach (🍹,🌴) II",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo16nxtnrnl7lctvnhhpcxqmmpv63n93zgg0ukaveyc0jl4dtad79cs53c3an/BVT",
+          "exponent": 0
+        },
+        {
+          "denom": "BVT1",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/osmo16nxtnrnl7lctvnhhpcxqmmpv63n93zgg0ukaveyc0jl4dtad79cs53c3an/BVT",
+      "name": "Banana Beach",
+      "display": "BVT1",
+      "symbol": "BVT1"
     }
   ]
 }

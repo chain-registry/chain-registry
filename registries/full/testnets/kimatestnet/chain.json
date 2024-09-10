@@ -17,7 +17,10 @@
     "feeTokens": [
       {
         "denom": "uKIMA",
-        "fixedMinGasPrice": 0.025
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
       }
     ]
   },

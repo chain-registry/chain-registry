@@ -38,13 +38,13 @@
     "compatibleVersions": [
       "v1.4.0"
     ],
-    "cosmosSdkVersion": "xpladev/cosmos-sdk v0.45.20-xpla",
+    "cosmosSdkVersion": "v0.47.13-xpla",
     "consensus": {
       "type": "cometbft",
-      "version": "0.34.29"
+      "version": "v0.37.5"
     },
-    "ibcGoVersion": "v4.5.1",
-    "cosmwasmVersion": "v0.33.0",
+    "ibcGoVersion": "v7.7.0",
+    "cosmwasmVersion": "v0.46.0",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/xpladev/mainnet/main/dimension_37-1/genesis.json"
     },
@@ -104,7 +104,7 @@
         },
         "ibcGoVersion": "v4.5.1",
         "cosmwasmVersion": "v0.33.0",
-        "nextVersionName": "",
+        "nextVersionName": "v1_5",
         "sdk": {
           "type": "cosmos",
           "repo": "https://github.com/xpladev/cosmos-sdk",
@@ -118,20 +118,80 @@
           "type": "go",
           "version": "v4.5.1"
         }
+      },
+      {
+        "name": "v1_5",
+        "recommendedVersion": "v1.5.0",
+        "compatibleVersions": [
+          "v1.5.0"
+        ],
+        "proposal": 65,
+        "height": 10085200,
+        "cosmosSdkVersion": "v0.47.10-xpla",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.5"
+        },
+        "ibcGoVersion": "v7.4.0",
+        "cosmwasmVersion": "v0.45.0",
+        "nextVersionName": "v1_6",
+        "sdk": {
+          "type": "cosmos",
+          "repo": "https://github.com/xpladev/cosmos-sdk",
+          "version": "v0.47.10",
+          "tag": "v0.47.10-xpla"
+        },
+        "cosmwasm": {
+          "version": "v0.45.0"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.4.0"
+        }
+      },
+      {
+        "name": "v1_6",
+        "recommendedVersion": "v1.6.0",
+        "compatibleVersions": [
+          "v1.6.0"
+        ],
+        "proposal": 66,
+        "height": 10491710,
+        "cosmosSdkVersion": "v0.47.13-xpla",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.5"
+        },
+        "ibcGoVersion": "v7.7.0",
+        "cosmwasmVersion": "v0.46.0",
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "repo": "https://github.com/xpladev/cosmos-sdk",
+          "version": "v0.47.13",
+          "tag": "v0.47.13-xplaa"
+        },
+        "cosmwasm": {
+          "version": "v0.46.0"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.7.0"
+        }
       }
     ],
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/xpladev/cosmos-sdk",
-      "version": "v0.45.20",
-      "tag": "v0.45.20-xpla"
+      "version": "v0.47.13",
+      "tag": "v0.47.13-xpla"
     },
     "ibc": {
       "type": "go",
-      "version": "v4.5.1"
+      "version": "v7.7.0"
     },
     "cosmwasm": {
-      "version": "v0.33.0"
+      "version": "v0.46.0"
     }
   },
   "logoURIs": {

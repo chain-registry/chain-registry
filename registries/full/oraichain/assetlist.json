@@ -19,7 +19,8 @@
       "display": "ORAI",
       "symbol": "ORAI",
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.svg"
       },
       "coingeckoId": "oraichain-token",
       "socials": {
@@ -29,17 +30,18 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.svg",
           "theme": {
             "circle": true,
-            "darkMode": true,
-            "primaryColorHex": "#040404"
+            "primaryColorHex": "#000000",
+            "backgroundColorHex": "#FFFFFF"
           }
         },
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.svg",
           "theme": {
-            "circle": true,
+            "circle": false,
             "darkMode": true,
             "primaryColorHex": "#FFFFFF"
           }
@@ -48,7 +50,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai.svg",
           "theme": {
-            "circle": true,
+            "circle": false,
             "darkMode": false,
             "primaryColorHex": "#000000"
           }
