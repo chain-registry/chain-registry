@@ -1,0 +1,73 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "unificationtestnet",
+  "networkType": "testnet",
+  "website": "https://unification.com/",
+  "prettyName": "Unification Testnet",
+  "chainId": "FUND-TestNet-2",
+  "bech32Prefix": "und",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 5555,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "nund",
+        "fixedMinGasPrice": 25,
+        "lowGasPrice": 100,
+        "averageGasPrice": 200,
+        "highGasPrice": 300
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "nund"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "cosmosSdkVersion": "0.47.13",
+    "cosmwasmEnabled": false,
+    "ibcGoVersion": "7.7.0"
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg",
+      "theme": {
+        "primaryColorHex": "#2279c0"
+      }
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-testnet.unification.io:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-testnet.unification.io"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-testnet.unification.io:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://explorer-testnet.unification.io/u",
+      "txPage": "https://explorer-testnet.unification.io/u/tx/${txHash}",
+      "accountPage": "https://explorer-testnet.unification.io/u/account/${accountAddress}"
+    }
+  ]
+}

@@ -40,9 +40,6 @@
         "address": "https://migaloo-rpc.polkachu.com:443"
       },
       {
-        "address": "https://migaloo-rpc.lavenderfive.com"
-      },
-      {
         "address": "https://rpc-migaloo.cosmos-spaces.cloud"
       },
       {
@@ -60,9 +57,6 @@
         "address": "https://migaloo-api.polkachu.com:443"
       },
       {
-        "address": "https://migaloo-api.lavenderfive.com"
-      },
-      {
         "address": "https://api-migaloo.cosmos-spaces.cloud"
       },
       {
@@ -78,9 +72,6 @@
     "grpc": [
       {
         "address": "migaloo-grpc.polkachu.com:20790"
-      },
-      {
-        "address": "migaloo-grpc.lavenderfive.com:443"
       },
       {
         "address": "whitewhale-mainnet-grpc.autostake.com:443"

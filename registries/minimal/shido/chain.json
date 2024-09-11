@@ -35,7 +35,7 @@
     "cosmosSdkVersion": "v0.47.4",
     "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.3.0"
+    "ibcGoVersion": "v7.4.0"
   },
   "description": "Developers use Shido as the Ethereum and Wasm Chain to deploy applications of the future. Get all the functionalities of Ethereum and Wasm with the power of IBC and Interchain composability.",
   "apis": {

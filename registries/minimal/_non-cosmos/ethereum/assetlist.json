@@ -1308,6 +1308,39 @@
       "name": "Yum",
       "display": "yum",
       "symbol": "YUM"
+    },
+    {
+      "description": "Avail is a web3 infrastructure layer that allows modular execution layers to scale and interoperate in a trust minimized way.",
+      "assetType": "erc20",
+      "address": "0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+      "denomUnits": [
+        {
+          "denom": "0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+          "exponent": 0,
+          "aliases": [
+            "avail-wei",
+            "avail"
+          ]
+        },
+        {
+          "denom": "AVAIL",
+          "exponent": 18
+        }
+      ],
+      "base": "0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+      "name": "Avail",
+      "display": "AVAIL",
+      "symbol": "AVAIL",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "avail",
+            "baseDenom": "avail"
+          },
+          "provider": "Avail Bridge"
+        }
+      ]
     }
   ]
 }

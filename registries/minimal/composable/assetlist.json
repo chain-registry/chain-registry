@@ -53,7 +53,7 @@
       "symbol": "KSM",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "picasso",
             "baseDenom": "4",
@@ -62,7 +62,8 @@
           "chain": {
             "channelId": "channel-2",
             "path": "transfer/channel-2/4"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -88,7 +89,7 @@
       "symbol": "DOT",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "picasso",
             "baseDenom": "79228162514264337593543950342",
@@ -97,7 +98,8 @@
           "chain": {
             "channelId": "channel-2",
             "path": "transfer/channel-2/transfer/channel-15/79228162514264337593543950342"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -123,7 +125,7 @@
       "symbol": "USDT",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "picasso",
             "baseDenom": "130",
@@ -132,7 +134,8 @@
           "chain": {
             "channelId": "channel-2",
             "path": "transfer/channel-2/130"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -158,7 +161,7 @@
       "symbol": "TNKR",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "picasso",
             "baseDenom": "2125",
@@ -167,7 +170,8 @@
           "chain": {
             "channelId": "channel-2",
             "path": "transfer/channel-2/2125"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -193,7 +197,7 @@
       "symbol": "ETH",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "wei",
@@ -202,7 +206,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/wei"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -228,7 +233,7 @@
       "symbol": "DAI",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x6b175474e89094c44da98b954eedeac495271d0f",
@@ -237,7 +242,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x6b175474e89094c44da98b954eedeac495271d0f"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -263,7 +269,7 @@
       "symbol": "FXS",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
@@ -272,7 +278,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -298,7 +305,7 @@
       "symbol": "FRAX",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x853d955acef822db058eb8505911ed77f175b99e",
@@ -307,7 +314,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x853d955acef822db058eb8505911ed77f175b99e"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -333,7 +341,7 @@
       "symbol": "frxETH",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x5e8422345238f34275888049021821e8e08caa1f",
@@ -342,7 +350,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x5e8422345238f34275888049021821e8e08caa1f"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -368,7 +377,7 @@
       "symbol": "sfrxETH",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xac3e018457b222d93114458476f3e3416abbe38f",
@@ -377,7 +386,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0xac3e018457b222d93114458476f3e3416abbe38f"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -403,7 +413,7 @@
       "symbol": "sFRAX",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32",
@@ -412,7 +422,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -438,7 +449,7 @@
       "symbol": "USDT",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
@@ -447,7 +458,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0xdac17f958d2ee523a2206206994597c13d831ec7"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -473,7 +485,7 @@
       "symbol": "CRV",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xd533a949740bb3306d119cc777fa900ba034cd52",
@@ -482,7 +494,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0xd533a949740bb3306d119cc777fa900ba034cd52"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -508,7 +521,7 @@
       "symbol": "wBTC",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
@@ -517,7 +530,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -543,7 +557,7 @@
       "symbol": "stETH",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
@@ -552,7 +566,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -578,7 +593,7 @@
       "symbol": "rETH",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xae78736cd615f374d3085123a210448e74fc6393",
@@ -587,7 +602,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0xae78736cd615f374d3085123a210448e74fc6393"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -613,7 +629,7 @@
       "symbol": "crvUSD",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
@@ -622,7 +638,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0xf939e0a03fb07f59a73314e73794be0e57ac1b4e"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -648,7 +665,7 @@
       "symbol": "pxETH",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x04c154b66cb340f3ae24111cc767e0184ed00cc6",
@@ -657,7 +674,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x04c154b66cb340f3ae24111cc767e0184ed00cc6"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -683,7 +701,7 @@
       "symbol": "eETH",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
@@ -692,7 +710,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x35fa164735182de50811e8e2e824cfb9b6118ac2"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -718,7 +737,7 @@
       "symbol": "ENA",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x57e114b691db790c35207b2e685d4a43181e6061",
@@ -727,7 +746,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x57e114b691db790c35207b2e685d4a43181e6061"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -753,7 +773,7 @@
       "symbol": "USDe",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
@@ -762,7 +782,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -788,7 +809,7 @@
       "symbol": "ezETH",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
@@ -797,7 +818,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0xbf5495efe5db9ce00f80364c8b423567e58d2110"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -823,7 +845,7 @@
       "symbol": "PEPE",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
@@ -832,7 +854,8 @@
           "chain": {
             "channelId": "channel-52",
             "path": "transfer/channel-52/0x6982508145454ce325ddbe47a25d4ec3d2311933"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -866,7 +889,7 @@
           "provider": "Solana"
         },
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "So11111111111111111111111111111111111111112",
@@ -875,7 +898,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/So11111111111111111111111111111111111111112"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -898,7 +922,7 @@
       "symbol": "mSOL",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
@@ -907,7 +931,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -930,7 +955,7 @@
       "symbol": "jitoSOL",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
@@ -939,7 +964,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -962,7 +988,7 @@
       "symbol": "bSOL",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
@@ -971,7 +997,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -994,7 +1021,7 @@
       "symbol": "LST",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
@@ -1003,7 +1030,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -1026,7 +1054,7 @@
       "symbol": "edgeSOL",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt",
@@ -1035,7 +1063,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -1058,7 +1087,7 @@
       "symbol": "hSOL",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
@@ -1067,7 +1096,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -1090,7 +1120,7 @@
       "symbol": "jupSOL",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
@@ -1099,7 +1129,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -1122,7 +1153,7 @@
       "symbol": "WIF",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
@@ -1131,7 +1162,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -1154,7 +1186,7 @@
       "symbol": "USDT",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
@@ -1163,7 +1195,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -1189,7 +1222,7 @@
       "symbol": "WHINE",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
@@ -1198,7 +1231,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     },
@@ -1224,7 +1258,7 @@
       "symbol": "UWU",
       "traces": [
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
@@ -1233,7 +1267,8 @@
           "chain": {
             "channelId": "channel-71",
             "path": "transfer/channel-71/UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z"
-          }
+          },
+          "provider": "Picasso"
         }
       ]
     }

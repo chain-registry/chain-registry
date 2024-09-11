@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "avail",
+  "assets": [
+    {
+      "description": "Avail is a web3 infrastructure layer that allows modular execution layers to scale and interoperate in a trust minimized way.",
+      "assetType": "unknown",
+      "denomUnits": [
+        {
+          "denom": "avail",
+          "exponent": 0
+        },
+        {
+          "denom": "AVAIL",
+          "exponent": 18
+        }
+      ],
+      "base": "avail",
+      "name": "Avail",
+      "display": "AVAIL",
+      "symbol": "AVAIL",
+      "coingeckoId": "avail"
+    }
+  ]
+}
