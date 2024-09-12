@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "thorchain",
+  "assets": [
+    {
+      "description": "The native token of THORChain",
+      "denomUnits": [
+        {
+          "denom": "rune",
+          "exponent": 0
+        },
+        {
+          "denom": "RUNE",
+          "exponent": 8
+        }
+      ],
+      "base": "rune",
+      "name": "THORChain RUNE",
+      "display": "RUNE",
+      "symbol": "RUNE",
+      "coingeckoId": "thorchain",
+      "assetType": "unknown"
+    }
+  ]
+}

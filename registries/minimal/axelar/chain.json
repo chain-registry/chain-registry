@@ -104,6 +104,9 @@
       },
       {
         "address": "https://axelar-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://axelar.drpc.org"
       }
     ],
     "rest": [

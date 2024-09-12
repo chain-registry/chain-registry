@@ -140,6 +140,9 @@
       },
       {
         "address": "https://cosmos-rpc.stakeandrelax.net"
+      },
+      {
+        "address": "https://cosmos-hub.drpc.org"
       }
     ],
     "rest": [

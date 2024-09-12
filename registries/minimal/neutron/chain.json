@@ -92,6 +92,9 @@
       },
       {
         "address": "https://rpc.neutron.quokkastake.io"
+      },
+      {
+        "address": "https://neutron.drpc.org"
       }
     ],
     "rest": [
