@@ -48,7 +48,8 @@
           },
           "provider": "Deenar"
         }
-      ]
+      ],
+      "coingeckoId": "deenar-gold"
     }
   ]
 }

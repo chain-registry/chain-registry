@@ -363,6 +363,24 @@
       "display": "WOLFSHIT",
       "symbol": "WOLFSHIT",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "Native token of the Underworld.",
+      "denomUnits": [
+        {
+          "denom": "factory/stars1t6fyr84hn6lyjdvk3e3c697cptfn5cwat2jxqyzuvuesaypznslshy6x9v/vlt",
+          "exponent": 0
+        },
+        {
+          "denom": "VLT",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars1t6fyr84hn6lyjdvk3e3c697cptfn5cwat2jxqyzuvuesaypznslshy6x9v/vlt",
+      "name": "VLT",
+      "display": "VLT",
+      "symbol": "VAULT",
+      "assetType": "sdk.factory"
     }
   ]
 }
