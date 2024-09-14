@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "internetcomputer",
+  "assets": [
+    {
+      "description": "The native token of Internet Computer",
+      "denomUnits": [
+        {
+          "denom": "e8s",
+          "exponent": 0
+        },
+        {
+          "denom": "ICP",
+          "exponent": 8
+        }
+      ],
+      "assetType": "unknown",
+      "base": "e8s",
+      "name": "Internet Computer",
+      "display": "ICP",
+      "symbol": "ICP",
+      "coingeckoId": "internet-computer"
+    }
+  ]
+}

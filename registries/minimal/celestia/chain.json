@@ -29,7 +29,7 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "celestiaorg/cosmos-sdk v1.23.0-sdk-v0.46.16",
+    "cosmosSdkVersion": "celestiaorg/cosmos-sdk v1.24.1-sdk-v0.46.16",
     "ibcGoVersion": "v6.2.1"
   },
   "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
