@@ -63,6 +63,9 @@
       },
       {
         "address": "https://oraichain-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://orai-rpc.imdev.app"
       }
     ],
     "rest": [
@@ -145,6 +148,12 @@
       "url": "https://explorer.stavr.tech/Orai-Mainnet",
       "txPage": "https://explorer.stavr.tech/Orai-Mainnet/transactions/${txHash}",
       "accountPage": "https://explorer.stavr.tech/Orai-Mainnet/accounts/${accountAddress}"
+    },
+    {
+      "kind": "imORAI ORAIchain Explorer",
+      "url": "https://explorer.imdev.app/oraichain",
+      "txPage": "https://explorer.imdev.app/oraichain/tx/${txHash}",
+      "accountPage": "https://explorer.imdev.app/oraichain/account/${accountAddress}"
     }
   ],
   "images": [

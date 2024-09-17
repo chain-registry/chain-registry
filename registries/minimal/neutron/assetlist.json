@@ -121,7 +121,7 @@
           },
           "chain": {
             "channelId": "channel-35",
-            "path": "transfer/channel-35"
+            "path": "transfer/channel-35/utia"
           }
         }
       ]

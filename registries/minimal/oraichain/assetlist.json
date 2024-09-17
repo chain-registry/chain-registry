@@ -90,10 +90,7 @@
       "denomUnits": [
         {
           "denom": "ibc/49D820DFDE9F885D7081725A58202ABA2F465CAEE4AFBC683DFB79A8E013E83E",
-          "exponent": 0,
-          "aliases": [
-            "cw20:orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49"
-          ]
+          "exponent": 0
         },
         {
           "denom": "inj",
@@ -101,8 +98,7 @@
         }
       ],
       "assetType": "ics20",
-      "address": "orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49",
-      "base": "cw20:orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49",
+      "base": "ibc/49D820DFDE9F885D7081725A58202ABA2F465CAEE4AFBC683DFB79A8E013E83E",
       "traces": [
         {
           "type": "ibc",
@@ -120,6 +116,35 @@
       "name": "Injective",
       "display": "inj",
       "symbol": "INJ"
+    },
+    {
+      "description": "The Wrapped INJ token for the Oraichain.",
+      "assetType": "sdk.coin",
+      "address": "orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49",
+      "denomUnits": [
+        {
+          "denom": "cw20:orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49",
+          "exponent": 0
+        },
+        {
+          "denom": "inj",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49",
+      "name": "Injective",
+      "display": "inj",
+      "symbol": "INJ",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "oraichain",
+            "baseDenom": "ibc/49D820DFDE9F885D7081725A58202ABA2F465CAEE4AFBC683DFB79A8E013E83E"
+          },
+          "provider": "Oraichain"
+        }
+      ]
     },
     {
       "description": "The USDT token is the cw20 token for the Oraichain.",

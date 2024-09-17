@@ -377,7 +377,7 @@
           },
           "chain": {
             "channelId": "channel-0",
-            "path": "transfer/channel-6994/utia"
+            "path": "transfer/channel-0/transfer/channel-6994/utia"
           }
         }
       ]
@@ -404,15 +404,18 @@
       "symbol": "milkTIA",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chainName": "osmosis",
-            "baseDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+            "baseDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
+            "channelId": "channel-188"
           },
-          "provider": "MilkyWay"
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
+          }
         }
-      ],
-      "coingeckoId": "milkyway-staked-tia"
+      ]
     },
     {
       "description": "STRD token on Carbon",
