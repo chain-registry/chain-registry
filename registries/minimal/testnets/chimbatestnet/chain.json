@@ -1,5 +1,5 @@
 {
-  "$schema": "../chain.schema.json",
+  "$schema": "../../chain.schema.json",
   "chainName": "chimbatestnet",
   "networkType": "testnet",
   "website": "https://chimba.ooo/",

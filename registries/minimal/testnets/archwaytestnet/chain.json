@@ -1,5 +1,5 @@
 {
-  "$schema": "../chain.schema.json",
+  "$schema": "../../chain.schema.json",
   "chainName": "archwaytestnet",
   "chainId": "constantine-3",
   "prettyName": "Archway Testnet",

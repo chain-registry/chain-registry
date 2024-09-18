@@ -6,7 +6,7 @@
   "networkType": "mainnet",
   "prettyName": "BlueChip",
   "chainType": "cosmos",
-  "chainId": "bluechip-1",
+  "chainId": "bluechip-2",
   "bech32Prefix": "bcp",
   "daemonName": "bluechipd",
   "nodeHome": "$HOME/.bluechip",
@@ -39,7 +39,7 @@
     "compatibleVersions": [
       "v1"
     ],
-    "cosmosSdkVersion": "0.46.7",
+    "cosmosSdkVersion": "0.47.11",
     "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://github.com/Bluechip23/bluechip/blob/main/genesis.json"
@@ -51,11 +51,11 @@
         "compatibleVersions": [
           "v1"
         ],
-        "cosmosSdkVersion": "0.46.7",
+        "cosmosSdkVersion": "0.47.11",
         "cosmwasmEnabled": true,
         "sdk": {
           "type": "cosmos",
-          "version": "0.46.7"
+          "version": "0.47.11"
         },
         "cosmwasm": {
           "enabled": true
@@ -64,7 +64,7 @@
     ],
     "sdk": {
       "type": "cosmos",
-      "version": "0.46.7"
+      "version": "0.47.11"
     },
     "cosmwasm": {
       "enabled": true
@@ -76,7 +76,7 @@
     ],
     "persistentPeers": [
       {
-        "id": "3x4pynlp86prhcmtns742kgsgu7pjtzjpk8d93",
+        "id": "8cc3f0821599561159a6157617820f1770c447d7",
         "address": "http://67.28.8.88:26659/",
         "provider": "CryptoDungeon"
       }

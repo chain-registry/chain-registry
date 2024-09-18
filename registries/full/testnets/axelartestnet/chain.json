@@ -1,5 +1,5 @@
 {
-  "$schema": "../chain.schema.json",
+  "$schema": "../../chain.schema.json",
   "chainName": "axelartestnet",
   "chainType": "cosmos",
   "chainId": "axelar-testnet-lisbon-3",

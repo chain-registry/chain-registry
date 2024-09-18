@@ -1,5 +1,5 @@
 {
-  "$schema": "../chain.schema.json",
+  "$schema": "../../chain.schema.json",
   "chainName": "terpnettestnet2",
   "networkType": "testnet",
   "prettyName": "Terp-Network",

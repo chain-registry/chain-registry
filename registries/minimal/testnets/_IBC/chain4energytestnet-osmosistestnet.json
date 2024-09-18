@@ -1,5 +1,5 @@
 {
-  "$schema": "../ibc_data.schema.json",
+  "$schema": "../../ibc_data.schema.json",
   "chain1": {
     "chainName": "chain4energytestnet",
     "clientId": "07-tendermint-18",

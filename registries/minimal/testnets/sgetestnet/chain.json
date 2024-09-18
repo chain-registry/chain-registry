@@ -1,5 +1,5 @@
 {
-  "$schema": "../chain.schema.json",
+  "$schema": "../../chain.schema.json",
   "chainName": "sgetestnet",
   "chainId": "sge-network-3",
   "prettyName": "SGE Testnet",

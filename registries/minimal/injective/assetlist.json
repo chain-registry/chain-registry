@@ -683,7 +683,7 @@
       ]
     },
     {
-      "description": "DRUGS meme coin",
+      "description": "CW20 DRUGS meme coin",
       "denomUnits": [
         {
           "denom": "cw20:inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
@@ -697,9 +697,37 @@
       "assetType": "cw20",
       "address": "inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
       "base": "cw20:inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
+      "name": "cw20 DRUGS",
+      "display": "DRUGS",
+      "symbol": "DRUGS",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "factory/inj1sklcy2px26jj73ffs2f7fmxw77zsts66prrqxr/DRUGS"
+          },
+          "provider": "Drugs"
+        }
+      ]
+    },
+    {
+      "description": "Distributing happiness, is a serious business",
+      "denomUnits": [
+        {
+          "denom": "factory/inj1sklcy2px26jj73ffs2f7fmxw77zsts66prrqxr/DRUGS",
+          "exponent": 0
+        },
+        {
+          "denom": "DRUGS",
+          "exponent": 9
+        }
+      ],
+      "base": "factory/inj1sklcy2px26jj73ffs2f7fmxw77zsts66prrqxr/DRUGS",
       "name": "DRUGS",
       "display": "DRUGS",
-      "symbol": "DRUGS"
+      "symbol": "DRUGS",
+      "assetType": "sdk.factory"
     }
   ]
 }

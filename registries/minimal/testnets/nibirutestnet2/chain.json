@@ -1,5 +1,5 @@
 {
-  "$schema": "../chain.schema.json",
+  "$schema": "../../chain.schema.json",
   "chainName": "nibirutestnet2",
   "networkType": "testnet",
   "website": "https://nibiru.fi/",

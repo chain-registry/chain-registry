@@ -37,23 +37,23 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/haqq-network/haqq",
-    "recommendedVersion": "v1.7.7",
+    "recommendedVersion": "v1.8.0",
     "compatibleVersions": [
-      "v1.7.7"
+      "v1.8.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.7.7/haqq_1.7.7_linux_amd64.tar.gz",
-      "linux/arm64": "https://github.com/haqq-network/haqq/releases/download/v1.7.7/haqq_1.7.7_linux_arm64.tar.gz",
-      "darwin/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.7.7/haqq_1.7.7_darwin_amd64.tar.gz",
-      "darwin/arm64": "https://github.com/haqq-network/haqq/releases/download/v1.7.7/haqq_1.7.7_darwin_arm64.tar.gz",
-      "windows/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.7.7/haqq_1.7.7_windows_amd64.zip"
+      "linux/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_linux_amd64.tar.gz",
+      "linux/arm64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_linux_arm64.tar.gz",
+      "darwin/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_darwin_amd64.tar.gz",
+      "darwin/arm64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_darwin_arm64.tar.gz",
+      "windows/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_windows_amd64.zip"
     },
-    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.8-evmos",
+    "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.12-evmos.2",
     "consensus": {
       "type": "cometbft",
-      "version": "v0.37.4"
+      "version": "v0.37.9"
     },
-    "ibcGoVersion": "7.3.1",
+    "ibcGoVersion": "7.4.0",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/haqq-network/mainnet/master/genesis.json"
     },
@@ -699,7 +699,7 @@
           "darwin/arm64": "https://github.com/haqq-network/haqq/releases/download/v1.7.7/haqq_1.7.7_linux_arm64.tar.gz",
           "windows/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.7.7/haqq_1.7.7_windows_amd64.zip"
         },
-        "nextVersionName": "",
+        "nextVersionName": "v1.7.8",
         "sdk": {
           "type": "cosmos",
           "repo": "https://github.com/evmos/cosmos-sdk",
@@ -710,17 +710,85 @@
           "type": "go",
           "version": "7.3.1"
         }
+      },
+      {
+        "name": "v1.7.8",
+        "tag": "v1.7.8",
+        "recommendedVersion": "v1.7.8",
+        "compatibleVersions": [
+          "v1.7.8"
+        ],
+        "proposal": 38,
+        "height": 12380500,
+        "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.8-evmos",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.4"
+        },
+        "ibcGoVersion": "7.3.1",
+        "binaries": {
+          "linux/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.7.8/haqq_1.7.8_linux_amd64.tar.gz",
+          "linux/arm64": "https://github.com/haqq-network/haqq/releases/download/v1.7.8/haqq_1.7.8_linux_arm64.tar.gz",
+          "darwin/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.7.8/haqq_1.7.8_darwin_amd64.tar.gz",
+          "darwin/arm64": "https://github.com/haqq-network/haqq/releases/download/v1.7.8/haqq_1.7.8_darwin_arm64.tar.gz",
+          "windows/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.7.8/haqq_1.7.8_windows_amd64.zip"
+        },
+        "nextVersionName": "v1.8.0",
+        "sdk": {
+          "type": "cosmos",
+          "repo": "https://github.com/evmos/cosmos-sdk",
+          "version": "v0.47.8",
+          "tag": "v0.47.8-evmos"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "7.3.1"
+        }
+      },
+      {
+        "name": "v1.8.0",
+        "tag": "v1.8.0",
+        "recommendedVersion": "v1.8.0",
+        "compatibleVersions": [
+          "v1.8.0"
+        ],
+        "proposal": 39,
+        "height": 13035000,
+        "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.12-evmos.2",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.9"
+        },
+        "ibcGoVersion": "7.4.0",
+        "binaries": {
+          "linux/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_linux_amd64.tar.gz",
+          "linux/arm64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_linux_arm64.tar.gz",
+          "darwin/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_darwin_amd64.tar.gz",
+          "darwin/arm64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_darwin_arm64.tar.gz",
+          "windows/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.8.0/haqq_1.8.0_windows_amd64.zip"
+        },
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "repo": "https://github.com/evmos/cosmos-sdk",
+          "version": "v0.47.12",
+          "tag": "v0.47.12-evmos.2"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "7.4.0"
+        }
       }
     ],
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/evmos/cosmos-sdk",
-      "version": "v0.47.8",
-      "tag": "v0.47.8-evmos"
+      "version": "v0.47.12",
+      "tag": "v0.47.12-evmos.2"
     },
     "ibc": {
       "type": "go",
-      "version": "7.3.1"
+      "version": "7.4.0"
     }
   },
   "logoURIs": {

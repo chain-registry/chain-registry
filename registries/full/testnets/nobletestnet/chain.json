@@ -1,5 +1,5 @@
 {
-  "$schema": "../chain.schema.json",
+  "$schema": "../../chain.schema.json",
   "chainName": "nobletestnet",
   "chainType": "cosmos",
   "chainId": "grand-1",
