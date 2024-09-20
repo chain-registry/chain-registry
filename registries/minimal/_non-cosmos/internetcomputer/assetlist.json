@@ -20,6 +20,25 @@
       "display": "ICP",
       "symbol": "ICP",
       "coingeckoId": "internet-computer"
+    },
+    {
+      "description": "A multi-chain bitcoin twin, trustlessly created by chain-key cryptography and Internet Computer smart contracts that directly hold raw bitcoin.",
+      "denomUnits": [
+        {
+          "denom": "uckBTC",
+          "exponent": 0
+        },
+        {
+          "denom": "ckBTC",
+          "exponent": 8
+        }
+      ],
+      "assetType": "unknown",
+      "base": "uckBTC",
+      "name": "Chain-key Bitcoin",
+      "display": "ckBTC",
+      "symbol": "ckBTC",
+      "coingeckoId": "chain-key-bitcoin"
     }
   ]
 }

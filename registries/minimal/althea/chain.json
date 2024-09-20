@@ -48,7 +48,7 @@
         "address": "https://althea.api.m.stavr.tech"
       },
       {
-        "address": "https://althea-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/althea"
       }
     ],
     "rpc": [
@@ -59,12 +59,12 @@
         "address": "https://althea.rpc.m.stavr.tech"
       },
       {
-        "address": "https://althea-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/althea"
       }
     ],
     "grpc": [
       {
-        "address": "https://althea-grpc.lavenderfive.com:443"
+        "address": "althea.lavenderfive.com:443"
       }
     ]
   }

@@ -59,7 +59,7 @@
         "address": "https://rpc-gravitybridge-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://gravitybridge-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/gravitybridge"
       },
       {
         "address": "https://rpc.gravity.bh.rocks/"
@@ -97,7 +97,7 @@
         "address": "https://gravity-api.polkachu.com"
       },
       {
-        "address": "https://gravitybridge-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/gravitybridge"
       },
       {
         "address": "https://api.gravity.bh.rocks/"
@@ -135,7 +135,7 @@
         "address": "gravity-grpc.polkachu.com:14290"
       },
       {
-        "address": "gravitybridge-grpc.lavenderfive.com:443"
+        "address": "gravitybridge.lavenderfive.com:443"
       },
       {
         "address": "https://gravity-grpc.ramuchi.tech:10090"

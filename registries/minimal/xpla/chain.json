@@ -42,7 +42,7 @@
         "address": "https://xpla.rpc.m.stavr.tech"
       },
       {
-        "address": "https://xpla-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/xpla"
       },
       {
         "address": "https://xpla-rpc.publicnode.com:443"
@@ -59,7 +59,7 @@
         "address": "https://xpla.api.m.stavr.tech"
       },
       {
-        "address": "https://xpla-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/xpla"
       },
       {
         "address": "https://xpla-rest.publicnode.com"

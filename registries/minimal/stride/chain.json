@@ -140,7 +140,7 @@
         "address": "https://stride-rpc.onivalidator.com"
       },
       {
-        "address": "https://stride-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/stride"
       },
       {
         "address": "https://rpc.stride.silentvalidator.com/"
@@ -193,7 +193,7 @@
         "address": "https://api-stride.cosmos-spaces.cloud"
       },
       {
-        "address": "https://stride-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/stride"
       },
       {
         "address": "https://api.stride.silentvalidator.com/"
@@ -243,7 +243,7 @@
         "address": "stride-grpc.polkachu.com:12290"
       },
       {
-        "address": "stride-grpc.lavenderfive.com:443"
+        "address": "stride.lavenderfive.com:443"
       },
       {
         "address": "http://stride.grpc.m.stavr.tech:9986"

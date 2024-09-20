@@ -130,6 +130,70 @@
       "display": "AXV",
       "symbol": "AXV",
       "coingeckoId": "astrovault"
+    },
+    {
+      "description": "Wrapped ARCH",
+      "assetType": "cw20",
+      "address": "archway1msc3fa4e2mh73y760qmjd3wfkzr98nl26f36xgt2xnhuw6ay3scs42zeue",
+      "denomUnits": [
+        {
+          "denom": "cw20:archway1msc3fa4e2mh73y760qmjd3wfkzr98nl26f36xgt2xnhuw6ay3scs42zeue",
+          "exponent": 0
+        },
+        {
+          "denom": "wARCH",
+          "exponent": 18
+        }
+      ],
+      "base": "cw20:archway1msc3fa4e2mh73y760qmjd3wfkzr98nl26f36xgt2xnhuw6ay3scs42zeue",
+      "name": "Wrapped ARCH",
+      "display": "wARCH",
+      "symbol": "wARCH",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "archway",
+            "baseDenom": "aarch"
+          },
+          "provider": "Archway"
+        }
+      ]
+    },
+    {
+      "description": "Circle's USDC Noble on Archway ",
+      "denomUnits": [
+        {
+          "denom": "ibc/43897B9739BD63E3A08A88191999C632E052724AB96BD4C74AE31375C991F48D",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/43897B9739BD63E3A08A88191999C632E052724AB96BD4C74AE31375C991F48D",
+      "name": "USDC (Noble)",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "noble",
+            "baseDenom": "uusdc",
+            "channelId": "channel-12"
+          },
+          "chain": {
+            "channelId": "channel-29",
+            "path": "transfer/channel-29/uusdc"
+          }
+        }
+      ]
     }
   ]
 }

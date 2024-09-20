@@ -42,7 +42,7 @@
         "address": "https://zetachain-mainnet-archive.allthatnode.com:26657"
       },
       {
-        "address": "https://zetachain-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/zetachain"
       },
       {
         "address": "https://rpc.zetachain.nodestake.org"
@@ -52,6 +52,9 @@
       },
       {
         "address": "https://zetachain.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://zeta-chain.drpc.org"
       }
     ],
     "rest": [
@@ -62,7 +65,7 @@
         "address": "https://zetachain-mainnet-archive.allthatnode.com:1317"
       },
       {
-        "address": "https://zetachain-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/zetachain"
       },
       {
         "address": "https://api.zetachain.nodestake.org"
@@ -76,7 +79,7 @@
     ],
     "grpc": [
       {
-        "address": "https://zetachain-grpc.lavenderfive.com:443"
+        "address": "zetachain.lavenderfive.com:443"
       },
       {
         "address": "https://grpc.zetachain.nodestake.org:443"

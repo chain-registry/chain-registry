@@ -44,7 +44,7 @@
         "address": "https://somm.rpc.m.stavr.tech"
       },
       {
-        "address": "https://sommelier-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/sommelier"
       },
       {
         "address": "https://sommelier-mainnet-rpc.autostake.com:443"
@@ -67,7 +67,7 @@
         "address": "https://som.api.m.stavr.tech"
       },
       {
-        "address": "https://sommelier-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/sommelier"
       },
       {
         "address": "https://sommelier-mainnet-lcd.autostake.com:443"
@@ -84,7 +84,7 @@
         "address": "somm.grpc.m.stavr.tech:114"
       },
       {
-        "address": "sommelier-grpc.lavenderfive.com:443"
+        "address": "sommelier.lavenderfive.com:443"
       },
       {
         "address": "sommelier-mainnet-grpc.autostake.com:443"

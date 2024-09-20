@@ -70,7 +70,7 @@
         "address": "https://rpc.novel.remedy.tm.p2p.org"
       },
       {
-        "address": "https://neutron-rpc.lavenderfive.com"
+        "address": "https://rpc.lavenderfive.com:443/neutron"
       },
       {
         "address": "https://rpc-neutron.whispernode.com"
@@ -102,7 +102,7 @@
         "address": "https://api.novel.remedy.tm.p2p.org"
       },
       {
-        "address": "https://neutron-api.lavenderfive.com"
+        "address": "https://rest.lavenderfive.com:443/neutron"
       },
       {
         "address": "https://lcd-neutron.whispernode.com"
@@ -134,7 +134,7 @@
         "address": "neutron-grpc-pub.rpc.p2p.world:3001"
       },
       {
-        "address": "neutron-grpc.lavenderfive.com:443"
+        "address": "neutron.lavenderfive.com:443"
       },
       {
         "address": "grpc-neutron.whispernode.com:443"

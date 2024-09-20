@@ -30,6 +30,9 @@
       },
       {
         "address": "https://cronos-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://cronos.drpc.org"
       }
     ],
     "rest": [

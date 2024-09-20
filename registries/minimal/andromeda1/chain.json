@@ -44,7 +44,7 @@
         "address": "https://andro.rpc.m.stavr.tech/"
       },
       {
-        "address": "https://andromeda-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/andromeda"
       },
       {
         "address": "https://andromeda-mainnet-rpc.autostake.com:443"
@@ -79,7 +79,7 @@
         "address": "https://andro.api.m.stavr.tech"
       },
       {
-        "address": "https://andromeda-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/andromeda"
       },
       {
         "address": "https://andromeda-mainnet-lcd.autostake.com:443"
@@ -102,7 +102,7 @@
     ],
     "grpc": [
       {
-        "address": "andromeda-grpc.lavenderfive.com:443"
+        "address": "andromeda.lavenderfive.com:443"
       },
       {
         "address": "https://grpc.andromeda-1.andromeda.aviaone.com:9094"

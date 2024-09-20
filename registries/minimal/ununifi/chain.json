@@ -49,10 +49,10 @@
         "address": "https://rpc.ununifi.nodestake.top"
       },
       {
-        "address": "https://ununifi-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/ununifi"
       },
       {
-        "address": "https://ununifi-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/ununifi"
       },
       {
         "address": "https://ununifi-rpc.genznodes.dev"
@@ -69,7 +69,7 @@
         "address": "https://api.ununifi.nodestake.top"
       },
       {
-        "address": "https://ununifi-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/ununifi"
       },
       {
         "address": "https://ununifi-api.genznodes.dev"
@@ -92,7 +92,7 @@
         "address": "https://grpc-ununifi.nodeist.net"
       },
       {
-        "address": "https://ununifi-grpc.lavenderfive.com:443"
+        "address": "ununifi.lavenderfive.com:443"
       },
       {
         "address": "ununifi-grpc.genznodes.dev:54090"

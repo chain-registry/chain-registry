@@ -49,7 +49,7 @@
         "address": "https://rpc.kichain.chaintools.tech/"
       },
       {
-        "address": "https://kichain-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/kichain"
       },
       {
         "address": "http://ki-chain.statesync.nodersteam.com:14657"
@@ -84,7 +84,7 @@
         "address": "https://kichain-api.polkachu.com"
       },
       {
-        "address": "https://kichain-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/kichain"
       },
       {
         "address": "https://ki-api.ibs.team/"
@@ -107,7 +107,7 @@
         "address": "kichain-grpc.polkachu.com:13590"
       },
       {
-        "address": "kichain-grpc.lavenderfive.com:443"
+        "address": "kichain.lavenderfive.com:443"
       },
       {
         "address": "grpc.kichain-2.kichain.aviaone.com:9230"

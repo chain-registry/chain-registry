@@ -46,7 +46,7 @@
         "address": "https://rpc-cosmoshub.whispernode.com:443"
       },
       {
-        "address": "https://cosmoshub-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/cosmoshub"
       },
       {
         "address": "https://rpc-cosmoshub.ecostake.com"
@@ -153,7 +153,7 @@
         "address": "https://rest.cosmoshub.goldenratiostaking.net"
       },
       {
-        "address": "https://cosmoshub-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/cosmoshub"
       },
       {
         "address": "https://api-cosmoshub.pupmos.network"
@@ -233,7 +233,7 @@
     ],
     "grpc": [
       {
-        "address": "cosmoshub-grpc.lavenderfive.com:443"
+        "address": "cosmoshub.lavenderfive.com:443"
       },
       {
         "address": "grpc-cosmoshub-ia.cosmosia.notional.ventures:443"

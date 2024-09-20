@@ -45,7 +45,7 @@
         "address": "https://rpc-passage.ecostake.com"
       },
       {
-        "address": "https://passage-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/passage"
       },
       {
         "address": "https://rpc-passage-ia.cosmosia.notional.ventures/"
@@ -101,7 +101,7 @@
         "address": "https://rest-passage.ecostake.com"
       },
       {
-        "address": "https://passage-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/passage"
       },
       {
         "address": "https://api-passage.cosmos-spaces.cloud"
@@ -151,7 +151,7 @@
         "address": "grpc-passage-ia.cosmosia.notional.ventures:443"
       },
       {
-        "address": "passage-grpc.lavenderfive.com:443"
+        "address": "passage.lavenderfive.com:443"
       },
       {
         "address": "passage-grpc.polkachu.com:15690"

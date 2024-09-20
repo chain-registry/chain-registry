@@ -61,7 +61,7 @@
         "address": "https://aura-rpc.tienthuattoan.ventures"
       },
       {
-        "address": "https://aura-rpc.lavenderfive.com"
+        "address": "https://rpc.lavenderfive.com:443/aura"
       },
       {
         "address": "https://aura-rpc.staketab.org:443"
@@ -114,7 +114,7 @@
         "address": "https://aura-api.tienthuattoan.ventures"
       },
       {
-        "address": "https://aura-api.lavenderfive.com"
+        "address": "https://rest.lavenderfive.com:443/aura"
       },
       {
         "address": "https://aura-rest.staketab.org"
@@ -170,7 +170,7 @@
         "address": "aura-grpc.tienthuattoan.ventures:9090"
       },
       {
-        "address": "aura-grpc.lavenderfive.com:443"
+        "address": "aura.lavenderfive.com:443"
       },
       {
         "address": "services.staketab.com:9021"

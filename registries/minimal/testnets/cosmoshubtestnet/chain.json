@@ -2,7 +2,7 @@
   "$schema": "../../chain.schema.json",
   "chainName": "cosmoshubtestnet",
   "chainId": "theta-testnet-001",
-  "prettyName": "Cosmos Hub Public Testnet",
+  "prettyName": "[DEPRECATED] Cosmos Hub Public Testnet, will be sunset 2024-12-01",
   "networkType": "testnet",
   "bech32Prefix": "cosmos",
   "keyAlgos": [

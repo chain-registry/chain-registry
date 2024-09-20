@@ -42,7 +42,7 @@
         "address": "https://rpc-evmos.ecostake.com"
       },
       {
-        "address": "https://evmos-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/evmos"
       },
       {
         "address": "https://tendermint.bd.evmos.org:26657"
@@ -112,6 +112,9 @@
       },
       {
         "address": "https://rpc.evmos.citizenweb3.com:443"
+      },
+      {
+        "address": "https://evmos.drpc.org"
       }
     ],
     "rest": [
@@ -119,7 +122,7 @@
         "address": "https://rest.bd.evmos.org:1317"
       },
       {
-        "address": "https://evmos-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/evmos"
       },
       {
         "address": "https://api-evmos-ia.cosmosia.notional.ventures/"
@@ -190,7 +193,7 @@
         "address": "grpc-evmos-ia.cosmosia.notional.ventures:443"
       },
       {
-        "address": "evmos-grpc.lavenderfive.com:443"
+        "address": "evmos.lavenderfive.com:443"
       },
       {
         "address": "grpc.evmos.nodestake.top:443"

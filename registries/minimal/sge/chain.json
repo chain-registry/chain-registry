@@ -34,7 +34,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://sge-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/sge"
       },
       {
         "address": "https://sge-rpc.polkachu.com/"
@@ -78,7 +78,7 @@
     ],
     "rest": [
       {
-        "address": "https://sge-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/sge"
       },
       {
         "address": "https://sge-api.polkachu.com/"
@@ -122,7 +122,7 @@
     ],
     "grpc": [
       {
-        "address": "sge-grpc.lavenderfive.com:443"
+        "address": "sge.lavenderfive.com:443"
       },
       {
         "address": "https://grpc.sge.nodestake.top/"

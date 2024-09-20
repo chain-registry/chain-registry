@@ -189,8 +189,8 @@
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg"
       },
       "images": [
         {
@@ -198,8 +198,8 @@
             "chainName": "archway",
             "baseDenom": "aarch"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg",
           "theme": {
             "primaryColorHex": "#fc4c04"
           }

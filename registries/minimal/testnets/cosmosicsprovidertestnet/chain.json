@@ -28,8 +28,8 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.47.16-ics-lsm",
-    "ibcGoVersion": "v7.6.0"
+    "cosmosSdkVersion": "v0.50.9-lsm",
+    "ibcGoVersion": "v8.5.1"
   },
   "apis": {
     "rpc": [
@@ -79,7 +79,7 @@
     {
       "kind": "Mintscan",
       "url": "https://mintscan.io/ics-testnet-provider",
-      "txPage": "https://mintscan.io/ics-testnet-provider/txs/${txHash}"
+      "txPage": "https://mintscan.io/ics-testnet-provider/tx/${txHash}"
     },
     {
       "kind": "Ping.pub",

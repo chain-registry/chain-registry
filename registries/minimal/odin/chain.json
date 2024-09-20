@@ -41,7 +41,7 @@
         "address": "https://odin.rpc.m.stavr.tech:443"
       },
       {
-        "address": "https://odin-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/odin"
       },
       {
         "address": "https://odin-mainnet-rpc.autostake.com:443"
@@ -55,7 +55,7 @@
         "address": "https://odin.api.m.stavr.tech"
       },
       {
-        "address": "https://odin-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/odin"
       },
       {
         "address": "https://odin-mainnet-lcd.autostake.com:443"
@@ -63,7 +63,7 @@
     ],
     "grpc": [
       {
-        "address": "odin-grpc.lavenderfive.com:443"
+        "address": "odin.lavenderfive.com:443"
       },
       {
         "address": "odin.grpc.m.stavr.tech:122"

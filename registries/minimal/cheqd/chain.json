@@ -35,7 +35,7 @@
         "address": "https://rpc.cheqd.net"
       },
       {
-        "address": "https://cheqd-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/cheqd"
       },
       {
         "address": "https://cheqd.rpc.m.stavr.tech:443"
@@ -70,7 +70,7 @@
         "address": "https://api.cheqd.net"
       },
       {
-        "address": "https://cheqd-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/cheqd"
       },
       {
         "address": "https://cheqd.api.m.stavr.tech"
@@ -108,7 +108,7 @@
         "address": "cheqd.grpc.m.stavr.tech:9337"
       },
       {
-        "address": "cheqd-grpc.lavenderfive.com:443"
+        "address": "cheqd.lavenderfive.com:443"
       },
       {
         "address": "cheqd-mainnet-grpc.autostake.com:443"

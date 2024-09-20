@@ -30,7 +30,7 @@
     ],
     "grpc": [
       {
-        "address": "idep-grpc.lavenderfive.com:443"
+        "address": "idep.lavenderfive.com:443"
       }
     ]
   },

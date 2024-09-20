@@ -42,7 +42,7 @@
         "address": "https://rpc-quicksilver-ia.cosmosia.notional.ventures:443"
       },
       {
-        "address": "https://quicksilver-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/quicksilver"
       },
       {
         "address": "https://rpc-quicksilver.cosmos-spaces.cloud"
@@ -107,7 +107,7 @@
         "address": "https://api-quicksilver-ia.cosmosia.notional.ventures:443"
       },
       {
-        "address": "https://quicksilver-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/quicksilver"
       },
       {
         "address": "https://api-quicksilver.cosmos-spaces.cloud"
@@ -169,7 +169,7 @@
         "address": "grpc-quicksilver-ia.cosmosia.notional.ventures:443"
       },
       {
-        "address": "quicksilver-grpc.lavenderfive.com:443"
+        "address": "quicksilver.lavenderfive.com:443"
       },
       {
         "address": "quicksilver.grpc.nodersteam.com:9161"

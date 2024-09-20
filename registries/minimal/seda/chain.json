@@ -48,7 +48,7 @@
         "address": "https://seda-rpc.synergynodes.com/"
       },
       {
-        "address": "https://seda-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/seda"
       },
       {
         "address": "https://seda-rpc.kleomedes.network/"
@@ -92,7 +92,7 @@
         "address": "https://seda-api.synergynodes.com/"
       },
       {
-        "address": "https://seda-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/seda"
       },
       {
         "address": "https://seda-api.kleomedes.network/"
@@ -133,7 +133,7 @@
         "address": "seda.grpc.kjnodes.com:443"
       },
       {
-        "address": "https://seda-grpc.lavenderfive.com"
+        "address": "seda.lavenderfive.com:443"
       },
       {
         "address": "seda-mainnet-grpc.autostake.com:443"

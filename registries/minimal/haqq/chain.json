@@ -50,7 +50,7 @@
         "address": "https://haqq-rpc.publicnode.com:443"
       },
       {
-        "address": "https://haqq-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/haqq"
       },
       {
         "address": "https://rpc-haqq.sr20de.xyz:443"
@@ -60,6 +60,9 @@
       },
       {
         "address": "https://haqq-rpc.noders.services"
+      },
+      {
+        "address": "https://haqq.drpc.org"
       }
     ],
     "rest": [
@@ -76,7 +79,7 @@
         "address": "https://haqq-rest.publicnode.com"
       },
       {
-        "address": "https://haqq-api.lavenderfive.com"
+        "address": "https://rest.lavenderfive.com:443/haqq"
       },
       {
         "address": "https://mainnet-haqq-api.konsortech.xyz"
@@ -108,7 +111,7 @@
         "address": "haqq-grpc.publicnode.com:443"
       },
       {
-        "address": "https://haqq-grpc.lavenderfive.com"
+        "address": "haqq.lavenderfive.com:443"
       },
       {
         "address": "mainnet-haqq-grpc.konsortech.xyz:11090"
@@ -137,7 +140,7 @@
         "address": "https://haqq-evm.publicnode.com"
       },
       {
-        "address": "https://haqq-jsonrpc.lavenderfive.com"
+        "address": "https://jsonrpc.lavenderfive.com:443/haqq"
       },
       {
         "address": "https://mainnet-haqq-evm.konsortech.xyz"

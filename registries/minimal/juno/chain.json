@@ -60,7 +60,7 @@
         "address": "https://juno-rpc.polkachu.com"
       },
       {
-        "address": "https://juno-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/juno"
       },
       {
         "address": "https://rpc-juno.pupmos.network"
@@ -140,7 +140,7 @@
         "address": "https://rest-juno.ecostake.com"
       },
       {
-        "address": "https://juno-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/juno"
       },
       {
         "address": "https://juno.api.m.stavr.tech"
@@ -217,7 +217,7 @@
         "address": "grpc-juno-ia.cosmosia.notional.ventures:443"
       },
       {
-        "address": "juno-grpc.lavenderfive.com:443"
+        "address": "juno.lavenderfive.com:443"
       },
       {
         "address": "juno-grpc.polkachu.com:12690"

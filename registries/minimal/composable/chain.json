@@ -45,7 +45,7 @@
         "address": "https://picasso-rpc.cogwheel.zone:443"
       },
       {
-        "address": "https://picasso-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/picasso"
       },
       {
         "address": "https://composable-rpc.genznodes.dev"
@@ -86,7 +86,7 @@
         "address": "https://picasso-api.cogwheel.zone:443"
       },
       {
-        "address": "https://picasso-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/picasso"
       },
       {
         "address": "https://composable-api.genznodes.dev"
@@ -130,7 +130,7 @@
         "address": "https://picasso-grpc.cogwheel.zone:443"
       },
       {
-        "address": "https://picasso-grpc.lavenderfive.com:443"
+        "address": "picasso.lavenderfive.com:443"
       },
       {
         "address": "composable-grpc.genznodes.dev:53090"

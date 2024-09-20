@@ -50,6 +50,9 @@
       },
       {
         "address": "https://kava-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://kava.drpc.org"
       }
     ],
     "rest": [

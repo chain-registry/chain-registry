@@ -52,7 +52,7 @@
         "address": "https://rpc-chihuahua-ia.cosmosia.notional.ventures"
       },
       {
-        "address": "https://chihuahua-rpc.lavenderfive.com"
+        "address": "https://rpc.lavenderfive.com:443/chihuahua"
       },
       {
         "address": "https://rpc.huahua.bh.rocks"
@@ -96,7 +96,7 @@
         "address": "https://chihuahua-api.polkachu.com"
       },
       {
-        "address": "https://chihuahua-api.lavenderfive.com"
+        "address": "https://rest.lavenderfive.com:443/chihuahua"
       },
       {
         "address": "https://chihuahua-api.kleomedes.network"
@@ -128,7 +128,7 @@
         "address": "chihuahua-grpc.polkachu.com:12990"
       },
       {
-        "address": "chihuahua-grpc.lavenderfive.com:443"
+        "address": "chihuahua.lavenderfive.com:443"
       },
       {
         "address": "chihua.grpc.m.stavr.tech:108"

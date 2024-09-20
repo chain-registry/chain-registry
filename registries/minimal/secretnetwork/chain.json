@@ -43,7 +43,7 @@
         "address": "https://scrt.public-rpc.com"
       },
       {
-        "address": "https://secretnetwork-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/secretnetwork"
       },
       {
         "address": "https://1rpc.io/scrt-rpc"
@@ -63,7 +63,7 @@
     ],
     "rest": [
       {
-        "address": "https://secretnetwork-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/secretnetwork"
       },
       {
         "address": "http://secretnetwork-mainnet-lcd.autostake.com:1317"
@@ -86,7 +86,7 @@
     ],
     "grpc": [
       {
-        "address": "secretnetwork-grpc.lavenderfive.com:443"
+        "address": "secretnetwork.lavenderfive.com:443"
       },
       {
         "address": "secretnetwork-mainnet-grpc.autostake.com:9090"

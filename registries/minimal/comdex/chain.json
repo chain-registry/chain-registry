@@ -49,7 +49,7 @@
         "address": "https://rpc.comdex.chaintools.tech/"
       },
       {
-        "address": "https://comdex-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/comdex"
       },
       {
         "address": "https://rpc-comdex.cosmos-spaces.cloud"
@@ -96,7 +96,7 @@
         "address": "https://comdex.api.m.stavr.tech"
       },
       {
-        "address": "https://comdex-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/comdex"
       },
       {
         "address": "https://api-comdex.cosmos-spaces.cloud"
@@ -146,7 +146,7 @@
         "address": "grpc-comdex.cosmos-spaces.cloud:2300"
       },
       {
-        "address": "comdex-grpc.lavenderfive.com:443"
+        "address": "comdex.lavenderfive.com:443"
       },
       {
         "address": "comdex-mainnet-lcd.autostake.com:443"

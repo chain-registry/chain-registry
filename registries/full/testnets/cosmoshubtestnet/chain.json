@@ -3,7 +3,7 @@
   "chainName": "cosmoshubtestnet",
   "chainType": "cosmos",
   "chainId": "theta-testnet-001",
-  "prettyName": "Cosmos Hub Public Testnet",
+  "prettyName": "[DEPRECATED] Cosmos Hub Public Testnet, will be sunset 2024-12-01",
   "status": "live",
   "networkType": "testnet",
   "bech32Prefix": "cosmos",

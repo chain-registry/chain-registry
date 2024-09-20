@@ -55,7 +55,7 @@
         "address": "https://rpc.nibiru.nodestake.org"
       },
       {
-        "address": "https://nibiru-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/nibiru"
       },
       {
         "address": "https://rpc.nibiru.silentvalidator.com"
@@ -102,7 +102,7 @@
         "address": "https://api.nibiru.silentvalidator.com"
       },
       {
-        "address": "https://nibiru-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/nibiru"
       },
       {
         "address": "https://nibiru.api.liveraven.net"
@@ -149,7 +149,7 @@
         "address": "grpc.nibiru.silentvalidator.com:443"
       },
       {
-        "address": "https://nibiru-grpc.lavenderfive.com:443"
+        "address": "nibiru.lavenderfive.com:443"
       },
       {
         "address": "nibiru.grpc.liveraven.net:443"

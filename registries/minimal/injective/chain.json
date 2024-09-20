@@ -44,7 +44,7 @@
         "address": "https://injective-rpc.polkachu.com"
       },
       {
-        "address": "https://injective-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/injective"
       },
       {
         "address": "https://rpc-injective-ia.cosmosia.notional.ventures/"
@@ -91,7 +91,7 @@
         "address": "https://injective-api.polkachu.com"
       },
       {
-        "address": "https://injective-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/injective"
       },
       {
         "address": "https://lcd-injective.whispernode.com:443"
@@ -135,7 +135,7 @@
         "address": "grpc-injective-ia.cosmosia.notional.ventures:443"
       },
       {
-        "address": "injective-grpc.lavenderfive.com:443"
+        "address": "injective.lavenderfive.com:443"
       },
       {
         "address": "injective-grpc.polkachu.com:14390"

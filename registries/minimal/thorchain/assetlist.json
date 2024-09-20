@@ -19,7 +19,7 @@
       "display": "RUNE",
       "symbol": "RUNE",
       "coingeckoId": "thorchain",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

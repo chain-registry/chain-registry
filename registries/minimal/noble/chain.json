@@ -43,7 +43,7 @@
         "address": "https://noble-rpc.polkachu.com"
       },
       {
-        "address": "https://noble-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/noble"
       }
     ],
     "rest": [
@@ -51,7 +51,7 @@
         "address": "https://noble-api.polkachu.com"
       },
       {
-        "address": "https://noble-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/noble"
       }
     ],
     "grpc": [
@@ -59,7 +59,7 @@
         "address": "noble-grpc.polkachu.com:21590"
       },
       {
-        "address": "https://noble-grpc.lavenderfive.com:443"
+        "address": "noble.lavenderfive.com:443"
       }
     ]
   },

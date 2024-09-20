@@ -32,7 +32,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://terra2-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/terra2"
       },
       {
         "address": "https://terra-rpc.polkachu.com"
@@ -99,7 +99,7 @@
     ],
     "grpc": [
       {
-        "address": "terra2-grpc.lavenderfive.com:443"
+        "address": "terra2.lavenderfive.com:443"
       },
       {
         "address": "terra-grpc.polkachu.com:11790"

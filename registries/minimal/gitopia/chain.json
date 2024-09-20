@@ -53,7 +53,7 @@
         "address": "https://gitopia-rpc.polkachu.com:443"
       },
       {
-        "address": "https://gitopia-rpc.lavenderfive.com"
+        "address": "https://rpc.lavenderfive.com:443/gitopia"
       },
       {
         "address": "https://rpc.gitopia.nodestake.top:443"
@@ -145,7 +145,7 @@
         "address": "https://gitopia-api.polkachu.com:443"
       },
       {
-        "address": "https://gitopia-api.lavenderfive.com"
+        "address": "https://rest.lavenderfive.com:443/gitopia"
       },
       {
         "address": "https://api.gitopia.nodestake.top:443"
@@ -249,7 +249,7 @@
         "address": "services.staketab.com:9410"
       },
       {
-        "address": "https://gitopia-grpc.lavenderfive.com:443"
+        "address": "gitopia.lavenderfive.com:443"
       },
       {
         "address": "https://grpc.gitopia.nodestake.top:443"

@@ -305,7 +305,7 @@
         "address": "https://tm-api.carbon.network"
       },
       {
-        "address": "https://carbon-rpc.lavenderfive.com"
+        "address": "https://rpc.lavenderfive.com:443/carbon"
       },
       {
         "address": "https://carbon-mainnet-rpc.autostake.com:443"
@@ -319,7 +319,7 @@
         "address": "https://api.carbon.network"
       },
       {
-        "address": "https://carbon-api.lavenderfive.com"
+        "address": "https://rest.lavenderfive.com:443/carbon"
       },
       {
         "address": "https://carbon-mainnet-lcd.autostake.com:443"
@@ -330,7 +330,7 @@
     ],
     "grpc": [
       {
-        "address": "https://carbon-grpc.lavenderfive.com:443"
+        "address": "carbon.lavenderfive.com:443"
       },
       {
         "address": "carbon-mainnet-grpc.autostake.com:443"

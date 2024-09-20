@@ -56,7 +56,7 @@
         "address": "https://qwoyn-rpc-archive.staketab.org:443"
       },
       {
-        "address": "https://qwoyn-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/qwoyn"
       },
       {
         "address": "https://rpc-qwoyn.mzonder.com:443"
@@ -79,7 +79,7 @@
         "address": "https://grpc-qwoyn.theamsolutions.info:443"
       },
       {
-        "address": "https://qwoyn-grpc.lavenderfive.com:443"
+        "address": "qwoyn.lavenderfive.com:443"
       },
       {
         "address": "grpc-qwoyn.mzonder.com:443"
@@ -102,7 +102,7 @@
         "address": "https://qwoyn-rest-archive.staketab.org"
       },
       {
-        "address": "https://qwoyn-api.lavenderfive.com"
+        "address": "https://rest.lavenderfive.com:443/qwoyn"
       },
       {
         "address": "https://api-qwoyn.mzonder.com"

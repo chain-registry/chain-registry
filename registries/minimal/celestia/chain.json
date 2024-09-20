@@ -48,7 +48,7 @@
         "address": "https://rpc.celestia.nodestake.top"
       },
       {
-        "address": "https://celestia-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/celestia"
       },
       {
         "address": "https://rpc-celestia-01.stakeflow.io"
@@ -137,7 +137,7 @@
         "address": "https://api.celestia.nodestake.top"
       },
       {
-        "address": "https://celestia-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/celestia"
       },
       {
         "address": "https://api-celestia-01.stakeflow.io"
@@ -205,7 +205,7 @@
         "address": "celestia-mainnet-grpc.autostake.com:443"
       },
       {
-        "address": "https://celestia-grpc.lavenderfive.com:443"
+        "address": "celestia.lavenderfive.com:443"
       },
       {
         "address": "celestia.grpc.nodersteam.com:9690"

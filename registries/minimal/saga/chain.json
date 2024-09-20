@@ -62,7 +62,7 @@
         "address": "https://rpc.saga.bronbro.io:443"
       },
       {
-        "address": "https://saga-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/saga"
       },
       {
         "address": "https://saga-rpc.stakeandrelax.net"
@@ -88,7 +88,7 @@
         "address": "https://lcd.saga.bronbro.io:443"
       },
       {
-        "address": "https://saga-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/saga"
       },
       {
         "address": "https://saga-api.stakeandrelax.net"
@@ -111,7 +111,7 @@
         "address": "grpc.saga.bronbro.io:443"
       },
       {
-        "address": "https://saga-grpc.lavenderfive.com:443"
+        "address": "saga.lavenderfive.com:443"
       },
       {
         "address": "http://saga-grpc.stakeandrelax.net:24990"

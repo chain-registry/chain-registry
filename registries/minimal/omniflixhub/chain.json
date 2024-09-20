@@ -46,7 +46,7 @@
         "address": "https://rpc-omniflixhub-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://omniflixhub-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/omniflixhub"
       },
       {
         "address": "https://rpc.omniflix.silentvalidator.com/"
@@ -90,7 +90,7 @@
         "address": "https://api-omniflixhub-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://omniflixhub-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/omniflixhub"
       },
       {
         "address": "https://api-omniflixhub.cosmos-spaces.cloud"
@@ -140,7 +140,7 @@
         "address": "grpc-omniflixhub-ia.cosmosia.notional.ventures:443"
       },
       {
-        "address": "omniflixhub-grpc.lavenderfive.com:443"
+        "address": "omniflixhub.lavenderfive.com:443"
       },
       {
         "address": "grpc-omniflixhub.cosmos-spaces.cloud:2230"

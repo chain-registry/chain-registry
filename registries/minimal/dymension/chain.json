@@ -53,7 +53,7 @@
         "address": "https://dymension-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://dymension-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/dymension"
       },
       {
         "address": "https://dymension-rpc.kynraze.com"
@@ -129,6 +129,9 @@
       },
       {
         "address": "https://rpc.archive.dymension.mainnet.dteam.tech:443"
+      },
+      {
+        "address": "https://dymension.drpc.org"
       }
     ],
     "rest": [
@@ -145,7 +148,7 @@
         "address": "https://dymension-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://dymension-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/dymension"
       },
       {
         "address": "https://dymension-api.kynraze.com"
@@ -237,7 +240,7 @@
         "address": "dymension.mainnet.grpc.noders.team:42090"
       },
       {
-        "address": "https://dymension-grpc.lavenderfive.com:443"
+        "address": "dymension.lavenderfive.com:443"
       },
       {
         "address": "dymension-grpc.kynraze.com:77"

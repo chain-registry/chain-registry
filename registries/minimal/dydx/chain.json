@@ -52,7 +52,7 @@
         "address": "https://dydx-mainnet-full-rpc.public.blastapi.io"
       },
       {
-        "address": "https://dydx-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/dydx"
       },
       {
         "address": "https://dydx-mainnet-rpc.autostake.com:443"
@@ -99,7 +99,7 @@
         "address": "https://dydx-rest.kingnodes.com:443"
       },
       {
-        "address": "https://dydx-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/dydx"
       },
       {
         "address": "https://dydx-mainnet-lcd.autostake.com:443"
@@ -152,7 +152,7 @@
         "address": "https://dydx-grpc.kingnodes.com:443"
       },
       {
-        "address": "https://dydx-grpc.lavenderfive.com"
+        "address": "dydx.lavenderfive.com:443"
       },
       {
         "address": "dydx-mainnet-grpc.autostake.com:443"

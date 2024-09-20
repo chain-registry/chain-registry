@@ -45,7 +45,7 @@
         "address": "https://cudos-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://cudos-rpc.lavenderfive.com"
+        "address": "https://rpc.lavenderfive.com:443/cudos"
       },
       {
         "address": "https://cudos-rpc.publicnode.com:443"
@@ -65,7 +65,7 @@
         "address": "https://cudos-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://cudos-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/cudos"
       },
       {
         "address": "https://cudos-rest.publicnode.com"
@@ -79,7 +79,7 @@
         "address": "cudos-mainnet-grpc.autostake.com:443"
       },
       {
-        "address": "cudos-grpc.lavenderfive.com:443"
+        "address": "cudos.lavenderfive.com:443"
       },
       {
         "address": "cudos-grpc.publicnode.com:443"

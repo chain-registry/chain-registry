@@ -118,7 +118,7 @@
         "address": "https://rpc.pryzm.zone"
       },
       {
-        "address": "https://pryzm-rpc.lavenderfive.com"
+        "address": "https://rpc.lavenderfive.com:443/pryzm"
       },
       {
         "address": "https://pryzm-mainnet-rpc.autostake.com:443"
@@ -129,7 +129,7 @@
         "address": "https://api.pryzm.zone"
       },
       {
-        "address": "https://pryzm-api.lavenderfive.com"
+        "address": "https://rest.lavenderfive.com:443/pryzm"
       },
       {
         "address": "https://pryzm-mainnet-lcd.autostake.com:443"
@@ -140,7 +140,7 @@
         "address": "https://grpc.pryzm.zone"
       },
       {
-        "address": "https://pryzm-grpc.lavenderfive.com"
+        "address": "pryzm.lavenderfive.com:443"
       },
       {
         "address": "pryzm-mainnet-grpc.autostake.com:443"

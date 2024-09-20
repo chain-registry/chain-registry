@@ -41,7 +41,7 @@
         "address": "https://lum.rpc.m.stavr.tech:443"
       },
       {
-        "address": "https://lumnetwork-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/lumnetwork"
       },
       {
         "address": "https://lum-rpc.ibs.team"
@@ -58,7 +58,7 @@
         "address": "https://rest.node0.mainnet.lum.network"
       },
       {
-        "address": "https://lumnetwork-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/lumnetwork"
       },
       {
         "address": "https://lum.api.m.stavr.tech"
@@ -75,7 +75,7 @@
     ],
     "grpc": [
       {
-        "address": "lumnetwork-grpc.lavenderfive.com:443"
+        "address": "lumnetwork.lavenderfive.com:443"
       },
       {
         "address": "lum.grpc.m.stavr.tech:2277"

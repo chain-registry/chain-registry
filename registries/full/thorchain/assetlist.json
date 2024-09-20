@@ -23,7 +23,13 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/rune.svg"
       },
       "coingeckoId": "thorchain",
-      "assetType": "unknown"
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/rune.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/thorchain/images/rune.svg"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }

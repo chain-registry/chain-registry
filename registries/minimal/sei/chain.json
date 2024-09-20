@@ -41,7 +41,7 @@
         "address": "https://rpc.sei-apis.com"
       },
       {
-        "address": "https://sei-rpc.lavenderfive.com:443"
+        "address": "https://rpc.lavenderfive.com:443/sei"
       },
       {
         "address": "https://sei-rpc.polkachu.com"
@@ -67,7 +67,7 @@
         "address": "https://rest.sei-apis.com"
       },
       {
-        "address": "https://sei-api.lavenderfive.com:443"
+        "address": "https://rest.lavenderfive.com:443/sei"
       },
       {
         "address": "https://sei-api.polkachu.com"
@@ -93,7 +93,7 @@
         "address": "https://grpc.sei-apis.com:443"
       },
       {
-        "address": "https://sei-grpc.lavenderfive.com:443"
+        "address": "sei.lavenderfive.com:443"
       },
       {
         "address": "https://sei-grpc.polkachu.com:11990"
@@ -119,7 +119,7 @@
         "address": "https://seievm-rpc.polkachu.com"
       },
       {
-        "address": "https://sei-jsonrpc.lavenderfive.com"
+        "address": "https://jsonrpc.lavenderfive.com:443/sei"
       }
     ]
   },

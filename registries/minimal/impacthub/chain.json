@@ -48,7 +48,7 @@
         "address": "https://rpc-ixo-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://impacthub-rpc.lavenderfive.com/"
+        "address": "https://rpc.lavenderfive.com:443/impacthub"
       },
       {
         "address": "https://ixo-rpc.ibs.team"
@@ -74,7 +74,7 @@
         "address": "https://api-ixo-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://impacthub-api.lavenderfive.com/"
+        "address": "https://rest.lavenderfive.com:443/impacthub"
       },
       {
         "address": "https://ixo-api.ibs.team"
@@ -94,7 +94,7 @@
         "address": "ixo.grpc.m.stavr.tech:2010"
       },
       {
-        "address": "impacthub-grpc.lavenderfive.com:443"
+        "address": "impacthub.lavenderfive.com:443"
       }
     ]
   },

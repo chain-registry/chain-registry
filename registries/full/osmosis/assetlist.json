@@ -5726,7 +5726,8 @@
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.svg"
       },
       "images": [
         {
@@ -5737,9 +5738,10 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.png",
           "theme": {
             "circle": true,
-            "darkMode": true,
-            "primaryColorHex": "#040404"
-          }
+            "primaryColorHex": "#000000",
+            "backgroundColorHex": "#FFFFFF"
+          },
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-token.svg"
         },
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.png",
@@ -11650,8 +11652,8 @@
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg"
       },
       "images": [
         {
@@ -11659,8 +11661,8 @@
             "chainName": "archway",
             "baseDenom": "aarch"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/arch.svg",
           "theme": {
             "primaryColorHex": "#fc4c04"
           }
@@ -21158,7 +21160,7 @@
         }
       ],
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/rakoff.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/juris.png"
       },
       "images": [
         {
@@ -21166,10 +21168,7 @@
             "chainName": "terra",
             "baseDenom": "cw20:terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/rakoff.png",
-          "theme": {
-            "primaryColorHex": "#191717"
-          }
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/juris.png"
         }
       ]
     },
@@ -21888,8 +21887,20 @@
           }
         },
         {
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSOL_circle.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSOL_circle.png",
+          "theme": {
+            "circle": false,
+            "backgroundColorHex": "#00000000"
+          }
+        },
+        {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSOL.svg",
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSOL.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/allSOL.png",
+          "theme": {
+            "circle": false,
+            "backgroundColorHex": "#00000000"
+          }
         }
       ]
     },
@@ -22081,8 +22092,8 @@
         }
       ],
       "logoURIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.rt.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.rt.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.rt.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.rt.svg"
       },
       "images": [
         {

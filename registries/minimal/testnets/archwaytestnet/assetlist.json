@@ -33,6 +33,99 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Wrapped CONST (Archway Testnet token)",
+      "assetType": "cw20",
+      "address": "archway1dz6h2smr432gvzruklk3lps7ak2ca7cngdge4vym93wehkkypwpqgwr2q2",
+      "denomUnits": [
+        {
+          "denom": "cw20:archway1dz6h2smr432gvzruklk3lps7ak2ca7cngdge4vym93wehkkypwpqgwr2q2",
+          "exponent": 0
+        },
+        {
+          "denom": "wARCH",
+          "exponent": 18
+        }
+      ],
+      "base": "cw20:archway1dz6h2smr432gvzruklk3lps7ak2ca7cngdge4vym93wehkkypwpqgwr2q2",
+      "name": "Wrapped ARCH",
+      "display": "wARCH",
+      "symbol": "wARCH",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "archwaytestnet",
+            "baseDenom": "aconst"
+          },
+          "provider": "Archway"
+        }
+      ]
+    },
+    {
+      "description": "Circle's USDC Noble Testnet (Grand) on Archway Testnet",
+      "denomUnits": [
+        {
+          "denom": "ibc/34F8D3402273FFA5278AE5757D81CE151ACFD4B19C494C0EE372A7229714824F",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/34F8D3402273FFA5278AE5757D81CE151ACFD4B19C494C0EE372A7229714824F",
+      "name": "USDC (Noble)",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "nobletestnet",
+            "baseDenom": "uusdc",
+            "channelId": "channel-215"
+          },
+          "chain": {
+            "channelId": "channel-500",
+            "path": "transfer/channel-500/uusdc"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Wrapped USDC (Noble Testnet Grand)",
+      "assetType": "cw20",
+      "address": "archway172vetupqnkgdc7dp3gwqpvk5ljmgzyj2gs4ag2fdmp0s2rucxxsqh0nqeu",
+      "denomUnits": [
+        {
+          "denom": "cw20:archway172vetupqnkgdc7dp3gwqpvk5ljmgzyj2gs4ag2fdmp0s2rucxxsqh0nqeu",
+          "exponent": 0
+        },
+        {
+          "denom": "wUSDC",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:archway172vetupqnkgdc7dp3gwqpvk5ljmgzyj2gs4ag2fdmp0s2rucxxsqh0nqeu",
+      "name": "Wrapped USDC",
+      "display": "wUSDC",
+      "symbol": "wUSDC",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "archwaytestnet",
+            "baseDenom": "ibc/34F8D3402273FFA5278AE5757D81CE151ACFD4B19C494C0EE372A7229714824F"
+          },
+          "provider": "Archway"
+        }
+      ]
     }
   ]
 }

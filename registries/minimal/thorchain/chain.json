@@ -4,11 +4,12 @@
   "networkType": "mainnet",
   "website": "https://thorchain.org/",
   "prettyName": "THORChain",
-  "chainId": "thorchain-mainnet-v1",
+  "chainId": "thorchain-1",
   "bech32Prefix": "thor",
   "slip44": 931,
   "codebase": {
-
+    "cosmosSdkVersion": "v0.45.16",
+    "cosmwasmEnabled": false
   },
   "apis": {
     "rpc": [
