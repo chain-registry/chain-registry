@@ -45,9 +45,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-juno.whispernode.com:443"
-      },
-      {
         "address": "https://rpc-juno.itastakers.com"
       },
       {
@@ -189,9 +186,6 @@
       },
       {
         "address": "https://juno-api.stake-town.com"
-      },
-      {
-        "address": "https://lcd-juno.whispernode.com:443"
       },
       {
         "address": "https://juno-api.stakeandrelax.net"

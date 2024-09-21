@@ -65,9 +65,6 @@
         "address": "https://rpc.stargaze.silentvalidator.com/"
       },
       {
-        "address": "https://rpc-stargaze.whispernode.com:443"
-      },
-      {
         "address": "https://stargaze-mainnet-rpc.autostake.com:443"
       },
       {
@@ -128,9 +125,6 @@
       },
       {
         "address": "https://stargaze-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://lcd-stargaze.whispernode.com:443"
       },
       {
         "address": "https://stargaze-api.ramuchi.tech"

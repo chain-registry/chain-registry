@@ -55,9 +55,6 @@
         "address": "https://rpc-comdex.cosmos-spaces.cloud"
       },
       {
-        "address": "https://rpc-comdex.whispernode.com:443"
-      },
-      {
         "address": "https://comdex-mainnet-rpc.autostake.com:443"
       },
       {
@@ -103,9 +100,6 @@
       },
       {
         "address": "https://comdex-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://lcd-comdex.whispernode.com:443"
       },
       {
         "address": "https://comdex-api.w3coins.io"

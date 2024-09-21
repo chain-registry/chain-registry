@@ -145,9 +145,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-kujira.whispernode.com:443"
-      },
-      {
         "address": "https://rpc.kaiyo.kujira.setten.io"
       },
       {
@@ -203,9 +200,6 @@
       }
     ],
     "rest": [
-      {
-        "address": "https://lcd-kujira.whispernode.com:443"
-      },
       {
         "address": "https://lcd.kaiyo.kujira.setten.io"
       },
@@ -285,9 +279,6 @@
       },
       {
         "address": "kujira-grpc.publicnode.com:443"
-      },
-      {
-        "address": "grpc-kujira.whispernode.com:443"
       }
     ]
   },

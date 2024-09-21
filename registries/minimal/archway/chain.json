@@ -68,9 +68,6 @@
         "address": "https://rpc-archway.theamsolutions.info"
       },
       {
-        "address": "https://rpc-archway.whispernode.com:443"
-      },
-      {
         "address": "https://archway-rpc.w3coins.io"
       },
       {
@@ -149,9 +146,6 @@
       },
       {
         "address": "https://rest-archway.theamsolutions.info"
-      },
-      {
-        "address": "https://lcd-archway.whispernode.com:443"
       },
       {
         "address": "https://rest.lavenderfive.com:443/archway"

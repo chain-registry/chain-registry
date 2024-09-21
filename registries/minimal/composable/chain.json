@@ -51,9 +51,6 @@
         "address": "https://composable-rpc.genznodes.dev"
       },
       {
-        "address": "https://rpc-picasso.whispernode.com:443"
-      },
-      {
         "address": "https://picasso-rpc.stake-town.com"
       },
       {
@@ -90,9 +87,6 @@
       },
       {
         "address": "https://composable-api.genznodes.dev"
-      },
-      {
-        "address": "https://api-picasso.whispernode.com:443"
       },
       {
         "address": "https://picasso-api.stake-town.com"
@@ -161,9 +155,6 @@
       },
       {
         "address": "composable.grpc.m.stavr.tech:9907"
-      },
-      {
-        "address": "grpc-picasso.whispernode.com:443"
       }
     ]
   },

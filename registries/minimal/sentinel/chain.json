@@ -40,9 +40,6 @@
         "address": "https://rpc-sentinel-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://rpc-sentinel.whispernode.com:443"
-      },
-      {
         "address": "https://rpc.sentinel.chaintools.tech/"
       },
       {
@@ -97,9 +94,6 @@
       },
       {
         "address": "https://api-sentinel-ia.cosmosia.notional.ventures/"
-      },
-      {
-        "address": "https://lcd-sentinel.whispernode.com:443"
       },
       {
         "address": "https://api.sentinel.quokkastake.io"

@@ -74,9 +74,6 @@
         "address": "https://gitopia-rpc.genznodes.dev"
       },
       {
-        "address": "https://rpc-gitopia.whispernode.com:443"
-      },
-      {
         "address": "https://gitopia.rpc.liveraven.net"
       },
       {
@@ -167,9 +164,6 @@
       },
       {
         "address": "https://gitopia-api.genznodes.dev"
-      },
-      {
-        "address": "https://lcd-gitopia.whispernode.com:443"
       },
       {
         "address": "https://gitopia.api.liveraven.net"

@@ -46,9 +46,6 @@
         "address": "https://rpc-assetmantle-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://rpc-assetmantle.whispernode.com:443"
-      },
-      {
         "address": "https://rpc.mantle.paranorm.pro:443"
       },
       {
@@ -73,9 +70,6 @@
       },
       {
         "address": "https://assetmantle-api.polkachu.com"
-      },
-      {
-        "address": "https://lcd-assetmantle.whispernode.com:443"
       },
       {
         "address": "https://api.mantle.paranorm.pro:443"

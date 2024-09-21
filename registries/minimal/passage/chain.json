@@ -66,9 +66,6 @@
         "address": "https://rpc-passage.d-stake.xyz"
       },
       {
-        "address": "https://rpc-passage.whispernode.com:443"
-      },
-      {
         "address": "https://passage-mainnet-rpc.autostake.com:443"
       },
       {
@@ -123,9 +120,6 @@
       },
       {
         "address": "https://passage-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://lcd-passage.whispernode.com:443"
       },
       {
         "address": "https://passage-rest.stakerhouse.com"

@@ -54,6 +54,9 @@
       },
       {
         "address": "https://rpc-maverick.mavnode.io"
+      },
+      {
+        "address": "https://rpc.kenseishido.com"
       }
     ],
     "rest": [
@@ -71,6 +74,9 @@
       },
       {
         "address": "https://api-maverick.mavnode.io"
+      },
+      {
+        "address": "https://api.kenseishido.com"
       }
     ],
     "grpc": [
@@ -85,6 +91,9 @@
       },
       {
         "address": "https://grpc-maverick.mavnode.io"
+      },
+      {
+        "address": "https://grpc.kenseishido.com"
       }
     ],
     "evmHttpJsonrpc": [
@@ -102,6 +111,9 @@
       },
       {
         "address": "https://evm-maverick.mavnode.io"
+      },
+      {
+        "address": "https://evm.kenseishido.com"
       }
     ]
   },

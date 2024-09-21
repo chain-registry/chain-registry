@@ -64,9 +64,6 @@
         "address": "https://quasar-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc-quasar.whispernode.com:443"
-      },
-      {
         "address": "https://quasar-rpc.enigma-validator.com"
       },
       {
@@ -103,9 +100,6 @@
       },
       {
         "address": "https://quasar-api.polkachu.com"
-      },
-      {
-        "address": "https://lcd-quasar.whispernode.com:443"
       },
       {
         "address": "https://api-quasar.cosmos-spaces.cloud"

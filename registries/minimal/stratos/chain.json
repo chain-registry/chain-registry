@@ -32,18 +32,12 @@
         "address": "http://stratos.rpc.nodersteam.com:26657/"
       },
       {
-        "address": "https://rpc-stratos.whispernode.com:443"
-      },
-      {
         "address": "https://stratos-rpc.noders.services:443"
       }
     ],
     "rest": [
       {
         "address": "https://rest.thestratos.org"
-      },
-      {
-        "address": "https://lcd-stratos.whispernode.com:443"
       },
       {
         "address": "https://stratos-api.noders.services:443"
@@ -99,12 +93,6 @@
       "url": "https://explorer.tcnetwork.io/stratos",
       "txPage": "https://explorer.tcnetwork.io/stratos/transaction/${txHash}",
       "accountPage": "https://explorer.tcnetwork.io/stratos/account/${accountAddress}"
-    },
-    {
-      "kind": "WhisperNode 🤐",
-      "url": "https://mainnet.whispernode.com/stratos",
-      "txPage": "https://mainnet.whispernode.com/stratos/tx/${txHash}",
-      "accountPage": "https://mainnet.whispernode.com/stratos/account/${accountAddress}"
     }
   ],
   "images": [
