@@ -50,6 +50,9 @@
       },
       {
         "address": "https://migaloo-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://migaloo-rpc.publicnode.com:443"
       }
     ],
     "rest": [
@@ -67,6 +70,9 @@
       },
       {
         "address": "https://migaloo-api.highstakes.ch"
+      },
+      {
+        "address": "https://migaloo-rest.publicnode.com"
       }
     ],
     "grpc": [
@@ -81,6 +87,14 @@
       },
       {
         "address": "https://grpc.whitewhale.nodestake.top"
+      },
+      {
+        "address": "migaloo-grpc.publicnode.com:443"
+      }
+    ],
+    "grpcWeb": [
+      {
+        "address": "https://migaloo-grpc-web.publicnode.com"
       }
     ]
   },

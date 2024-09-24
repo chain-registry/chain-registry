@@ -17,7 +17,7 @@
         "portId": "transfer"
       },
       "chain2": {
-        "channelId": "channel-1",
+        "channelId": "channel-2",
         "portId": "transfer"
       },
       "ordering": "unordered",

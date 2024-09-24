@@ -1,0 +1,67 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "bitbadges",
+  "networkType": "mainnet",
+  "website": "https://bitbadges.io/",
+  "prettyName": "BitBadges",
+  "chainId": "bitbadges-1",
+  "bech32Prefix": "cosmos",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ubadge",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.00025,
+        "averageGasPrice": 0.0025,
+        "highGasPrice": 0.025
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ustake"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.50.8",
+    "ibcGoVersion": "v8.3.2"
+  },
+  "description": "BitBadges is the all-in-one, multi-chain platform for building your digital identity.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://134.122.12.165:26657"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://134.122.12.165:1317"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/bitbadges",
+      "txPage": "https://www.mintscan.io/bitbadges/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/bitbadges/accounts/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://explorer.bitbadges.io/BitBadges%20Mainnet",
+      "txPage": "https://explorer.bitbadges.io/BitBadges%20Mainnet/txs/${txHash}",
+      "accountPage": "https://explorer.bitbadges.io/BitBadBitBadges%20Mainnetges/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/bitbadgeslogo.png"
+    }
+  ]
+}

@@ -16312,11 +16312,11 @@
           ]
         }
       ],
+      "assetType": "sdk.coin",
       "base": "factory/osmo13gu58hzw3e9aqpj25h67m7snwcjuccd7v4p55w/brnz",
       "name": "Branez",
       "display": "factory/osmo13gu58hzw3e9aqpj25h67m7snwcjuccd7v4p55w/brnz",
-      "symbol": "BRNZ",
-      "assetType": "sdk.factory"
+      "symbol": "BRNZ"
     },
     {
       "description": "ashLAB - Burned LAB",
@@ -16428,7 +16428,7 @@
     },
     {
       "description": "Avail is a web3 infrastructure layer that allows modular execution layers to scale and interoperate in a trust minimized way.",
-      "assetType": "erc20",
+      "assetType": "sdk.coin",
       "address": "osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9",
       "denomUnits": [
         {
@@ -16455,6 +16455,153 @@
           "counterparty": {
             "chainName": "ethereum",
             "baseDenom": "0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8"
+          },
+          "provider": "Router"
+        }
+      ]
+    },
+    {
+      "description": "Fractionalized Pixel Wizards",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fWIZ",
+          "exponent": 0
+        },
+        {
+          "denom": "fWIZ",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fWIZ",
+      "name": "fWIZ",
+      "display": "fWIZ",
+      "symbol": "fWIZ"
+    },
+    {
+      "description": "Fractionalized Pixel Witches",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fWITCH",
+          "exponent": 0
+        },
+        {
+          "denom": "fWITCH",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fWITCH",
+      "name": "fWITCH",
+      "display": "fWITCH",
+      "symbol": "fWITCH"
+    },
+    {
+      "description": "Fractionalized Cryptonium Maker",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCRYPTONIUM",
+          "exponent": 0
+        },
+        {
+          "denom": "fCRYPTONIUM",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCRYPTONIUM",
+      "name": "fCRYPTONIUM",
+      "display": "fCRYPTONIUM",
+      "symbol": "fCRYPTONIUM"
+    },
+    {
+      "description": "Fractionalized Geckies",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fGECK",
+          "exponent": 0
+        },
+        {
+          "denom": "fGECK",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fGECK",
+      "name": "fGECK",
+      "display": "fGECK",
+      "symbol": "fGECK"
+    },
+    {
+      "description": "Fractionalized Atlas DAO",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fATLAS",
+          "exponent": 0
+        },
+        {
+          "denom": "fATLAS",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fATLAS",
+      "name": "fATLAS",
+      "display": "fATLAS",
+      "symbol": "fATLAS"
+    },
+    {
+      "description": "Fractionalized Rekt Bulls",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBULLS",
+          "exponent": 0
+        },
+        {
+          "denom": "fBULLS",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fBULLS",
+      "name": "fBULLS",
+      "display": "fBULLS",
+      "symbol": "fBULLS"
+    },
+    {
+      "description": "Roostock BTC bridged via Router.",
+      "assetType": "sdk.coin",
+      "address": "osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/BTC.rt",
+          "exponent": 0,
+          "aliases": [
+            "0x542FDA317318eBf1d3DeAF76E0B632741a7e677d",
+            "sat"
+          ]
+        },
+        {
+          "denom": "rbtc",
+          "exponent": 18
+        }
+      ],
+      "base": "factory/osmo1myv2g72h8dan7n4hx7stt3mmust6ws03zh6gxc7vz4hpmgp5z3lq9aunm9/BTC.rt",
+      "name": "Rootstock Smart Bitcoin",
+      "display": "rbtc",
+      "symbol": "RBTC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "rootstock",
+            "baseDenom": "0x542FDA317318eBf1d3DeAF76E0B632741a7e677d"
           },
           "provider": "Router"
         }
