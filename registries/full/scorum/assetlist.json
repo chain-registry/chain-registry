@@ -40,37 +40,6 @@
       "assetType": "sdk.coin"
     },
     {
-      "description": "Scorum Power used for internal mechanics and staking",
-      "denomUnits": [
-        {
-          "denom": "nsp",
-          "exponent": 0
-        },
-        {
-          "denom": "sp",
-          "exponent": 9
-        }
-      ],
-      "base": "nsp",
-      "name": "Scorum Power",
-      "display": "sp",
-      "symbol": "SP",
-      "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/sp.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/sp.svg"
-      },
-      "images": [
-        {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/sp.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/sp.svg",
-          "theme": {
-            "primaryColorHex": "#9421e3"
-          }
-        }
-      ],
-      "assetType": "sdk.coin"
-    },
-    {
       "description": "Virtual(non-transferable) coin used to pay gas",
       "denomUnits": [
         {

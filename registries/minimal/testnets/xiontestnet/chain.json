@@ -38,6 +38,9 @@
       },
       {
         "address": "https://xion-testnet-rpc.polkachu.com"
+      },
+      {
+        "address": "https://burnt-testnet-rpc.itrocket.net"
       }
     ],
     "rest": [
@@ -46,6 +49,9 @@
       },
       {
         "address": "https://xion-testnet-api.polkachu.com"
+      },
+      {
+        "address": "https://burnt-testnet-api.itrocket.net"
       }
     ],
     "grpc": [
@@ -54,12 +60,23 @@
       },
       {
         "address": "xion-testnet-grpc.polkachu.com:22390"
+      },
+      {
+        "address": "burnt-testnet-grpc.itrocket.net:443"
       }
     ]
   },
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
+    }
+  ],
+  "explorers": [
+    {
+      "kind": "ITRocket",
+      "url": "https://testnet.itrocket.net/burnt",
+      "txPage": "https://testnet.itrocket.net/burnt/tx/${txHash}",
+      "accountPage": "https://testnet.itrocket.net/burnt/account/${accountAddress}"
     }
   ]
 }

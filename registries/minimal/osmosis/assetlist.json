@@ -16606,6 +16606,38 @@
           "provider": "Router"
         }
       ]
+    },
+    {
+      "description": "Chain-key Bitcoin bridged via Omnity Network.",
+      "address": "osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-icrc-ckBTC",
+          "exponent": 0,
+          "aliases": [
+            "uckBTC"
+          ]
+        },
+        {
+          "denom": "ckBTC",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/osmo10c4y9csfs8q7mtvfg4p9gd8d0acx0hpc2mte9xqzthd7rd3348tsfhaesm/sICP-icrc-ckBTC",
+      "name": "Chain-key Bitcoin",
+      "display": "ckBTC",
+      "symbol": "ckBTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "internetcomputer",
+            "baseDenom": "uckBTC"
+          },
+          "provider": "Omnity Network"
+        }
+      ]
     }
   ]
 }

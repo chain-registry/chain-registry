@@ -26,7 +26,10 @@
       "denomUnits": [
         {
           "denom": "uckBTC",
-          "exponent": 0
+          "exponent": 0,
+          "aliases": [
+            "sat"
+          ]
         },
         {
           "denom": "ckBTC",
@@ -38,6 +41,16 @@
       "name": "Chain-key Bitcoin",
       "display": "ckBTC",
       "symbol": "ckBTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Omnity Network"
+        }
+      ],
       "coingeckoId": "chain-key-bitcoin"
     }
   ]

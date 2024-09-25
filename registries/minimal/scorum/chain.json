@@ -24,7 +24,7 @@
   "staking": {
     "stakingTokens": [
       {
-        "denom": "nsp"
+        "denom": "nscr"
       }
     ]
   },

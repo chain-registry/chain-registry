@@ -675,13 +675,29 @@
         "name": "v2.49.0",
         "proposal": 370,
         "height": 62330851,
-        "recommendedVersion": "v2.49.0",
+        "recommendedVersion": "v2.49.2",
         "compatibleVersions": [
-          "v2.49.0"
+          "v2.49.0",
+          "v2.49.1",
+          "v2.49.2"
         ],
         "binaries": {
-          "linux/amd64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.49.0/carbond-mainnet.linux-amd64.tar.gz",
-          "linux/arm64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.49.0/carbond-mainnet.linux-arm64.tar.gz"
+          "linux/amd64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.49.2/carbond-mainnet.linux-amd64.tar.gz",
+          "linux/arm64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.49.2/carbond-mainnet.linux-arm64.tar.gz"
+        },
+        "nextVersionName": "v2.50.0"
+      },
+      {
+        "name": "v2.50.0",
+        "proposal": 371,
+        "height": 62927771,
+        "recommendedVersion": "v2.50.0",
+        "compatibleVersions": [
+          "v2.50.0"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.50.0/carbond-mainnet.linux-amd64.tar.gz",
+          "linux/arm64": "https://github.com/Switcheo/carbon-bootstrap/releases/download/v2.50.0/carbond-mainnet.linux-arm64.tar.gz"
         },
         "nextVersionName": ""
       }
