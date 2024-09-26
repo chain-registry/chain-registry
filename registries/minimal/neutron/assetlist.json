@@ -896,6 +896,27 @@
         }
       ],
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "SinGarden token",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/sin",
+          "exponent": 0,
+          "aliases": [
+            "uSIN"
+          ]
+        },
+        {
+          "denom": "SIN",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/sin",
+      "name": "SIN",
+      "display": "SIN",
+      "symbol": "SIN",
+      "assetType": "sdk.factory"
     }
   ]
 }

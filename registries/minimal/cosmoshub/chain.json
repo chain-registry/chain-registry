@@ -37,6 +37,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://cosmoshub.tendermintrpc.lava.build:443"
+      },
+      {
         "address": "https://cosmos-rpc.quickapi.com:443"
       },
       {
@@ -147,6 +150,9 @@
     ],
     "rest": [
       {
+        "address": "https://cosmoshub.lava.build:443"
+      },
+      {
         "address": "https://cosmos-lcd.quickapi.com:443"
       },
       {
@@ -232,6 +238,9 @@
       }
     ],
     "grpc": [
+      {
+        "address": "cosmoshub.grpc.lava.build"
+      },
       {
         "address": "cosmoshub.lavenderfive.com:443"
       },

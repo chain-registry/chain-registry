@@ -62,6 +62,11 @@
         "address": "https://rest.unification.chainmasters.ninja/"
       }
     ],
+    "wss": [
+      {
+        "address": "wss://wss.unification.io"
+      }
+    ],
     "grpc": [
       {
         "address": "grpc.unification.io:443"

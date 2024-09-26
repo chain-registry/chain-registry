@@ -21,7 +21,7 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.50",
-    "cosmwasmVersion": "0.52",
+    "cosmwasmVersion": "0.51",
     "cosmwasmEnabled": true,
     "ibcGoVersion": "8.2.1"
   },
