@@ -35,9 +35,9 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/zeta-chain/node",
-    "recommendedVersion": "v19.1.7",
+    "recommendedVersion": "v20.0.0",
     "compatibleVersions": [
-      "v19.1.7"
+      "v20.0.0"
     ],
     "cosmosSdkVersion": "v0.47.10",
     "consensus": {
@@ -217,6 +217,30 @@
         "compatibleVersions": [
           "v19.1.1",
           "v19.1.7"
+        ],
+        "cosmosSdkVersion": "v0.47.10",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.4"
+        },
+        "ibcGoVersion": "v7.4.0",
+        "nextVersionName": "v20",
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.10"
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.4.0"
+        }
+      },
+      {
+        "name": "20",
+        "proposal": 37,
+        "height": 5089400,
+        "recommendedVersion": "v20.0.0",
+        "compatibleVersions": [
+          "v20.0.0"
         ],
         "cosmosSdkVersion": "v0.47.10",
         "consensus": {

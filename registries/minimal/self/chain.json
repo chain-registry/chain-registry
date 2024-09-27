@@ -45,6 +45,9 @@
       },
       {
         "address": "https://selfchain-mainnet.rpc.stakevillage.net:443"
+      },
+      {
+        "address": "https://selfchain-mainnet-rpc.autostake.com:443"
       }
     ],
     "rest": [
@@ -65,6 +68,9 @@
       },
       {
         "address": "https://selfchain-mainnet.api.stakevillage.net"
+      },
+      {
+        "address": "https://selfchain-mainnet-lcd.autostake.com:443"
       }
     ],
     "grpc": [
@@ -76,6 +82,9 @@
       },
       {
         "address": "selfchain-mainnet.grpc.stakevillage.net:443"
+      },
+      {
+        "address": "selfchain-mainnet-grpc.autostake.com:443"
       }
     ]
   },
