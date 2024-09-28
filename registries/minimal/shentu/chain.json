@@ -2,7 +2,7 @@
   "$schema": "../chain.schema.json",
   "chainName": "shentu",
   "networkType": "mainnet",
-  "website": "https://www.shentu.technology/",
+  "website": "https://www.shentu.org/",
   "prettyName": "Shentu",
   "chainId": "shentu-2.2",
   "bech32Prefix": "shentu",
@@ -28,7 +28,7 @@
     ]
   },
   "codebase": {
-    "ibcGoVersion": "v4.2.1",
+    "ibcGoVersion": "v7.4.0",
     "icsEnabled": [
       "ics20-1"
     ]
@@ -36,7 +36,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://shenturpc.noopsbycertik.com/"
+        "address": "https://rpc.shentu.org:443"
       },
       {
         "address": "https://shentu-rpc.polkachu.com"
@@ -65,7 +65,7 @@
     ],
     "rest": [
       {
-        "address": "https://rest.noopsbycertik.com/"
+        "address": "https://rest.shentu.org/"
       },
       {
         "address": "https://shentu-api.polkachu.com"
@@ -96,6 +96,9 @@
       }
     ],
     "grpc": [
+      {
+        "address": "grpc.shentu.org:443"
+      },
       {
         "address": "shentu-grpc.polkachu.com:14090"
       },
@@ -140,8 +143,8 @@
     },
     {
       "kind": "Shentu Explorer",
-      "url": "https://explorer.shentu.technology/?net=shentu-2.2",
-      "txPage": "https://explorer.shentu.technology/transactions/${txHash}?net=shentu-2.2"
+      "url": "https://explorer.shentu.org/?chain=shentu-2.2",
+      "txPage": "https://explorer.shentu.org/transactions/${txHash}?chain=shentu-2.2"
     },
     {
       "kind": "ping.pub",
