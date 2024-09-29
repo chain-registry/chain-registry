@@ -40,6 +40,9 @@
       },
       {
         "address": "https://dora-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://doravota-mainnet-rpc.itrocket.net:443"
       }
     ],
     "rest": [
@@ -51,6 +54,9 @@
       },
       {
         "address": "https://dora-rest.publicnode.com"
+      },
+      {
+        "address": "https://doravota-mainnet-api.itrocket.net"
       }
     ],
     "grpc": [
@@ -59,6 +65,9 @@
       },
       {
         "address": "dora-grpc.publicnode.com:443"
+      },
+      {
+        "address": "doravota-mainnet-grpc.itrocket.net:443"
       }
     ]
   },
@@ -72,6 +81,16 @@
       "kind": "lesnik | UTSA Ping Pub",
       "url": "https://exp.utsa.tech/dora/staking",
       "txPage": "https://exp.utsa.tech/dora/tx/${txHash}"
+    },
+    {
+      "kind": "ITRocket Ping Pub",
+      "url": "https://mainnet.itrocket.net/doravota/staking",
+      "txPage": "https://mainnet.itrocket.net/doravota/tx/${txHash}"
+    },
+    {
+      "kind": "Explorers",
+      "url": "https://dora.explorers.guru",
+      "txPage": "https://dora.explorers.guru/transaction/${txHash}"
     }
   ]
 }
