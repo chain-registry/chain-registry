@@ -1,0 +1,69 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "kimanetwork",
+  "website": "https://www.kima.network/",
+  "networkType": "mainnet",
+  "prettyName": "Kima Network",
+  "chainId": "kima_network",
+  "bech32Prefix": "kima",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uKIMA",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uKIMA"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg"
+    }
+  ],
+  "apis": {
+    "wss": [
+      {
+        "address": "wss://rpc.kima.network/query"
+      }
+    ],
+    "rpc": [
+      {
+        "address": "https://rpc.kima.network/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.kima.network"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.kima.network"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Kima Network Explorer",
+      "url": "https://explorer.kima.network/",
+      "txPage": "https://explorer.kima.network/transactions/${txHash}"
+    }
+  ]
+}

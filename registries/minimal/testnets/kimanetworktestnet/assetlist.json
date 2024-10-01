@@ -1,0 +1,34 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "kimanetworktestnet",
+  "assets": [
+    {
+      "description": "Kima is an asset-agnostic interoperability infrastructure that connects blockchain networks and legacy financial systems, enabling secure, scalable cross-chain transactions and seamless communication across ecosystems.",
+      "denomUnits": [
+        {
+          "denom": "uKIMA",
+          "exponent": 0
+        },
+        {
+          "denom": "KIMA",
+          "exponent": 6
+        }
+      ],
+      "base": "uKIMA",
+      "name": "KIMA",
+      "display": "KIMA",
+      "symbol": "KIMA",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "kimanetwork",
+            "baseDenom": "uKIMA"
+          },
+          "provider": "Kima Network"
+        }
+      ],
+      "assetType": "sdk.coin"
+    }
+  ]
+}

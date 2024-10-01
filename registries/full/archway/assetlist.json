@@ -299,6 +299,48 @@
           }
         }
       ]
+    },
+    {
+      "description": "Wrapped USDC (Noble)",
+      "assetType": "cw20",
+      "address": "archway1gaf9nw7n8v5lpjz9caxjpps006kxfcrzcuc8y5qp4clslhven2ns2g0ule",
+      "denomUnits": [
+        {
+          "denom": "cw20:archway1gaf9nw7n8v5lpjz9caxjpps006kxfcrzcuc8y5qp4clslhven2ns2g0ule",
+          "exponent": 0
+        },
+        {
+          "denom": "wUSDC",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:archway1gaf9nw7n8v5lpjz9caxjpps006kxfcrzcuc8y5qp4clslhven2ns2g0ule",
+      "name": "Wrapped USDC",
+      "display": "wUSDC",
+      "symbol": "wUSDC",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "archway",
+            "baseDenom": "ibc/43897B9739BD63E3A08A88191999C632E052724AB96BD4C74AE31375C991F48D"
+          },
+          "provider": "Archway"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wUsdc-noble.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wUsdc-noble.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wUsdc-noble.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/wUsdc-noble.svg",
+          "theme": {
+            "primaryColorHex": "#000000"
+          }
+        }
+      ]
     }
   ]
 }

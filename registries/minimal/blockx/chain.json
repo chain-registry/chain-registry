@@ -13,11 +13,17 @@
     "rpc": [
       {
         "address": "https://rpc-blockx.nodeist.net"
+      },
+      {
+        "address": "https://blockx_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
       {
         "address": "https://api-blockx.nodeist.net"
+      },
+      {
+        "address": "https://blockx_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ]
   },
@@ -31,6 +37,12 @@
       "kind": "Nodeist Explorer",
       "url": "https://explorer.ist/blockx/",
       "txPage": "https://explorer.ist/blockx/tx/${txHash}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/blockx",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/blockx/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/blockx/account/${accountAddress}"
     }
   ],
   "staking": {

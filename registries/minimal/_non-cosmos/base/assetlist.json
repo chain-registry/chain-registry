@@ -124,6 +124,36 @@
         }
       ],
       "coingeckoId": "bridged-usd-coin-base"
+    },
+    {
+      "description": "Coinbase Wrapped BTC ('cbBTC') is an ERC20 token that is backed 1:1 by Bitcoin (BTC) held by Coinbase. cbBTC is built to be seamlessly compatible with DeFi applications, giving customers the option to tap into DeFi and unlock financial utility.",
+      "assetType": "erc20",
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "denomUnits": [
+        {
+          "denom": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+          "exponent": 0
+        },
+        {
+          "denom": "cbbtc",
+          "exponent": 8
+        }
+      ],
+      "base": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "name": "Coinbase Wrapped BTC",
+      "display": "cbbtc",
+      "symbol": "cbBTC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Base Bridge"
+        }
+      ],
+      "coingeckoId": "coinbase-wrapped-btc"
     }
   ]
 }
