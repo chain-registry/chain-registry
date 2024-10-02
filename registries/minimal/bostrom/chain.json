@@ -3,6 +3,7 @@
   "chainName": "bostrom",
   "networkType": "mainnet",
   "prettyName": "bostrom",
+  "chainType": "cosmos",
   "chainId": "bostrom",
   "bech32Prefix": "bostrom",
   "slip44": 118,
@@ -24,7 +25,10 @@
     ]
   },
   "codebase": {
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "cosmwasm": {
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

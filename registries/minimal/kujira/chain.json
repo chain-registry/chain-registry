@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "kujira",
+  "chainType": "cosmos",
   "chainId": "kaiyo-1",
   "prettyName": "Kujira",
   "networkType": "mainnet",
@@ -137,9 +138,14 @@
     "cosmosSdkVersion": "v0.47.12",
     "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.12"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "enabled": true
+    }
   },
   "description": "A decentralized ecosystem for protocols, builders and web3 users seeking sustainable FinTech.",
   "apis": {

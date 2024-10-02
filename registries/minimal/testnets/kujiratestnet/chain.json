@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "kujiratestnet",
+  "chainType": "cosmos",
   "chainId": "harpoon-4",
   "prettyName": "Kujira Harpoon",
   "networkType": "testnet",

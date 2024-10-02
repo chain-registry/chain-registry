@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "sgetestnet",
+  "chainType": "cosmos",
   "chainId": "sge-network-3",
   "prettyName": "SGE Testnet",
   "networkType": "testnet",

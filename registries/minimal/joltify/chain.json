@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.joltify.io/",
   "prettyName": "Joltify",
+  "chainType": "cosmos",
   "chainId": "joltify_1729-1",
   "bech32Prefix": "jolt",
   "keyAlgos": [
@@ -30,10 +31,13 @@
   "codebase": {
     "cosmosSdkVersion": "v0.47.5",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v7.3.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.5"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "images": [
     {

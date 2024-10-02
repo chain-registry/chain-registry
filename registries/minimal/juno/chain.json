@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.junonetwork.io/",
   "prettyName": "Juno",
+  "chainType": "cosmos",
   "chainId": "juno-1",
   "bech32Prefix": "juno",
   "keyAlgos": [
@@ -39,7 +40,14 @@
     "cosmosSdkVersion": "v0.47.12",
     "cosmwasmVersion": "v0.46.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.6.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.12"
+    },
+    "cosmwasm": {
+      "version": "v0.46.0",
+      "enabled": true
+    }
   },
   "description": "Juno is a completely community owned and operated smart contract platform.",
   "apis": {

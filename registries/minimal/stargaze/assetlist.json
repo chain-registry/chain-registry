@@ -381,6 +381,42 @@
       "display": "VLT",
       "symbol": "VAULT",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "Bonded GopLend STARS",
+      "denomUnits": [
+        {
+          "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglSTARS",
+          "exponent": 0
+        },
+        {
+          "denom": "bglSTARS",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglSTARS",
+      "name": "bglSTARS",
+      "display": "bglSTARS",
+      "symbol": "bglSTARS",
+      "assetType": "sdk.factory"
+    },
+    {
+      "description": "Bonded GopLend USDC",
+      "denomUnits": [
+        {
+          "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
+          "exponent": 0
+        },
+        {
+          "denom": "bglUSDC",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
+      "name": "bglUSDC",
+      "display": "bglUSDC",
+      "symbol": "bglUSDC",
+      "assetType": "sdk.factory"
     }
   ]
 }

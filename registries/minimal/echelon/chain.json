@@ -3,6 +3,7 @@
   "chainName": "echelon",
   "networkType": "mainnet",
   "prettyName": "Echelon",
+  "chainType": "cosmos",
   "chainId": "echelon_3000-3",
   "bech32Prefix": "echelon",
   "slip44": 60,

@@ -3,6 +3,7 @@
   "chainName": "irisnet",
   "networkType": "mainnet",
   "prettyName": "IRISnet",
+  "chainType": "cosmos",
   "chainId": "irishub-1",
   "bech32Prefix": "iaa",
   "keyAlgos": [

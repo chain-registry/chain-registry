@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "blockxtestnet",
+  "chainType": "cosmos",
   "chainId": "blockx_19077-1",
   "prettyName": "BlockX-Atlantis-Testnet",
   "website": "https://www.blockxnet.com/",

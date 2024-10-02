@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://haqq.network/",
   "prettyName": "Haqq Network",
+  "chainType": "cosmos",
   "chainId": "haqq_11235-1",
   "bech32Prefix": "haqq",
   "keyAlgos": [
@@ -33,7 +34,12 @@
   },
   "codebase": {
     "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.12-evmos.2",
-    "ibcGoVersion": "7.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/evmos/cosmos-sdk",
+      "version": "v0.47.12",
+      "tag": "v0.47.12-evmos.2"
+    }
   },
   "apis": {
     "rpc": [

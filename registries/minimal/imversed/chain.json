@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://imversed.network/",
   "prettyName": "Imversed",
+  "chainType": "cosmos",
   "chainId": "imversed_5555555-1",
   "bech32Prefix": "imv",
   "keyAlgos": [

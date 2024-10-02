@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://sommelier.finance/",
   "prettyName": "Sommelier",
+  "chainType": "cosmos",
   "chainId": "sommelier-3",
   "bech32Prefix": "somm",
   "keyAlgos": [
@@ -29,7 +30,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.46.14",
-    "ibcGoVersion": "v6.2.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.46.14"
+    }
   },
   "description": "Automated vaults find best-in-class yields while mitigating risk.",
   "apis": {

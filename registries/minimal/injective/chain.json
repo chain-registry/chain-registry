@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://injective.com/",
   "prettyName": "Injective",
+  "chainType": "cosmos",
   "chainId": "injective-1",
   "bech32Prefix": "inj",
   "extraCodecs": [

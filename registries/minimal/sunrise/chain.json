@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://sunriselayer.io/",
   "prettyName": "Sunrise",
+  "chainType": "cosmos",
   "chainId": "sunrise-1",
   "bech32Prefix": "sunrise",
   "keyAlgos": [
@@ -33,7 +34,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.50.2",
-    "ibcGoVersion": "8.0.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.2"
+    }
   },
   "apis": {
     "rpc": [

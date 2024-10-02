@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://odinprotocol.io/",
   "prettyName": "Odin Protocol",
+  "chainType": "cosmos",
   "chainId": "odin-mainnet-freya",
   "bech32Prefix": "odin",
   "keyAlgos": [
@@ -30,7 +31,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.50.7",
-    "ibcGoVersion": "v8.3.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.7"
+    }
   },
   "apis": {
     "rpc": [

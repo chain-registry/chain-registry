@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://planq.network/",
   "prettyName": "Planq",
+  "chainType": "cosmos",
   "chainId": "planq_7070-2",
   "bech32Prefix": "plq",
   "keyAlgos": [
@@ -30,7 +31,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.46.3",
-    "ibcGoVersion": "5.0.2"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.46.3"
+    }
   },
   "apis": {
     "rpc": [

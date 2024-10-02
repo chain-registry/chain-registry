@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://mises.site",
   "prettyName": "Mises",
+  "chainType": "cosmos",
   "chainId": "mainnet",
   "bech32Prefix": "mises",
   "keyAlgos": [

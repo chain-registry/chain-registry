@@ -3,6 +3,7 @@
   "chainName": "crescent",
   "networkType": "mainnet",
   "prettyName": "Crescent",
+  "chainType": "cosmos",
   "chainId": "crescent-1",
   "bech32Prefix": "cre",
   "keyAlgos": [

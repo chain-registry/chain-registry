@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://galaxychain.zone/",
   "prettyName": "Galaxy",
+  "chainType": "cosmos",
   "chainId": "galaxy-1",
   "bech32Prefix": "galaxy",
   "slip44": 118,

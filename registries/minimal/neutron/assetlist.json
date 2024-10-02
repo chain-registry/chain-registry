@@ -917,6 +917,27 @@
       "display": "SIN",
       "symbol": "SIN",
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "CryptoGopniks token",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/GOP",
+          "exponent": 0,
+          "aliases": [
+            "uGOP"
+          ]
+        },
+        {
+          "denom": "GOP",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/GOP",
+      "name": "GOP",
+      "display": "GOP",
+      "symbol": "GOP",
+      "assetType": "sdk.factory"
     }
   ]
 }

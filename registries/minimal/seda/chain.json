@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.seda.xyz/",
   "prettyName": "SEDA",
+  "chainType": "cosmos",
   "chainId": "seda-1",
   "bech32Prefix": "seda",
   "keyAlgos": [
@@ -30,7 +31,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.50.5",
-    "ibcGoVersion": "v8.2.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.5"
+    }
   },
   "description": "SEDA is a standard for modular data transport and querying. Any data type, for all networks.",
   "apis": {

@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "gitopiatestnet",
+  "chainType": "cosmos",
   "chainId": "gitopia-janus-testnet-2",
   "prettyName": "Gitopia Testnet",
   "networkType": "testnet",

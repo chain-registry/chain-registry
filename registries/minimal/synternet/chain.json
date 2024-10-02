@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "synternet",
+  "chainType": "cosmos",
   "chainId": "synternet-1",
   "website": "https://www.synternet.com/",
   "prettyName": "Synternet",
@@ -29,7 +30,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.11",
-    "ibcGoVersion": "v7.1.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.11"
+    }
   },
   "description": "Synternet is the backbone of the Data Layer, a protocol serving as the customizable execution layer between all blockchains. It enables builders to See, Interpret and Act on any data from any chain, supercharging their applications.",
   "apis": {

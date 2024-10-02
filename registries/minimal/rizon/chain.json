@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://rizon.world/",
   "prettyName": "Rizon",
+  "chainType": "cosmos",
   "chainId": "titan-1",
   "bech32Prefix": "rizon",
   "keyAlgos": [

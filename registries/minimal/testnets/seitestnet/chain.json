@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "seitestnet",
+  "chainType": "cosmos",
   "chainId": "atlantic-1",
   "prettyName": "Sei Atlantic",
   "networkType": "testnet",

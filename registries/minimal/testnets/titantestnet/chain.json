@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://titanlab.io/",
   "prettyName": "Titan Testnet",
+  "chainType": "cosmos",
   "chainId": "titan_18889-1",
   "bech32Prefix": "titan",
   "keyAlgos": [
@@ -33,13 +34,17 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.47.6-titan.4",
-    "ibcGoVersion": "7.3.0",
     "cosmwasmVersion": "0.45.0",
     "cosmwasmEnabled": true,
-    "icsEnabled": [
-      "ics20-1",
-      "ics27-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47.6",
+      "tag": "0.47.6-titan.4"
+    },
+    "cosmwasm": {
+      "version": "0.45.0",
+      "enabled": true
+    }
   },
   "images": [
     {

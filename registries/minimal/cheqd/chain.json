@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.cheqd.io/",
   "prettyName": "Cheqd",
+  "chainType": "cosmos",
   "chainId": "cheqd-mainnet-1",
   "bech32Prefix": "cheqd",
   "slip44": 118,
@@ -27,7 +28,12 @@
   },
   "codebase": {
     "cosmosSdkVersion": "cheqd/cosmos-sdk v0.47.10-height-mismatch",
-    "ibcGoVersion": "v7.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cheqd/cosmos-sdk",
+      "version": "v0.47.10",
+      "tag": "v0.47.10-height-mismatch"
+    }
   },
   "apis": {
     "rpc": [

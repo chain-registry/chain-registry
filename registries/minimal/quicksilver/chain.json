@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://quicksilver.zone/",
   "prettyName": "Quicksilver",
+  "chainType": "cosmos",
   "chainId": "quicksilver-2",
   "bech32Prefix": "quick",
   "slip44": 118,
@@ -27,7 +28,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.46.16",
-    "ibcGoVersion": "v6.3.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.46.16"
+    }
   },
   "description": "Liquid Stake your Cosmos assets with your preferred validator and receive liquid staked assets (qASSETs) that you can use for swapping, pooling, lending, and more, all while your original stake earns staking APY from securing the network.",
   "apis": {

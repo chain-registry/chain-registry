@@ -3,6 +3,7 @@
   "chainName": "fetchhubtestnet",
   "networkType": "testnet",
   "prettyName": "Fetch.ai Testnet",
+  "chainType": "cosmos",
   "chainId": "dorado-1",
   "bech32Prefix": "fetch",
   "slip44": 118,

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://mande.network",
   "prettyName": "Mande Network",
+  "chainType": "cosmos",
   "chainId": "mande_18071918-1",
   "bech32Prefix": "mande",
   "slip44": 60,

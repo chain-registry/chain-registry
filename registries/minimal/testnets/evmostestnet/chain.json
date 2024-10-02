@@ -3,6 +3,7 @@
   "chainName": "evmostestnet",
   "networkType": "testnet",
   "prettyName": "Evmos Testnet",
+  "chainType": "cosmos",
   "chainId": "evmos_9000-4",
   "bech32Prefix": "evmos",
   "keyAlgos": [
@@ -31,7 +32,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.46",
-    "ibcGoVersion": "v6.1.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46"
+    }
   },
   "apis": {
     "rpc": [

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://dhealth.com/",
   "prettyName": "dHealth",
+  "chainType": "cosmos",
   "chainId": "dhealth",
   "bech32Prefix": "dh",
   "keyAlgos": [
@@ -30,9 +31,18 @@
   },
   "codebase": {
     "cosmosSdkVersion": "cosmos/cosmos-sdk v0.47.4",
-    "ibcGoVersion": "v7.2.0",
     "cosmwasmVersion": "v0.41.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "version": "v0.47.4"
+    },
+    "cosmwasm": {
+      "version": "v0.41.0",
+      "path": "$HOME/.dhealth/wasm",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

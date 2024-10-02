@@ -3,6 +3,7 @@
   "chainName": "entrypointtestnet",
   "networkType": "testnet",
   "prettyName": "EntryPoint Testnet",
+  "chainType": "cosmos",
   "chainId": "entrypoint-pubtest-2",
   "bech32Prefix": "entrypoint",
   "keyAlgos": [
@@ -27,7 +28,11 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.47.4"
+    "cosmosSdkVersion": "0.47.4",
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47.4"
+    }
   },
   "apis": {
     "rpc": [

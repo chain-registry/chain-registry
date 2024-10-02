@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://www.whitewhale.money/",
   "prettyName": "Migaloo Testnet",
+  "chainType": "cosmos",
   "chainId": "narwhal-2",
   "bech32Prefix": "migaloo",
   "keyAlgos": [
@@ -31,7 +32,15 @@
   "codebase": {
     "cosmosSdkVersion": "0.45",
     "cosmwasmVersion": "0.28",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.28",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "prettyName": "Nomic Testnet",
   "website": "https://nomic.io/",
+  "chainType": "cosmos",
   "chainId": "nomic-testnet-6",
   "bech32Prefix": "nomic",
   "slip44": 118,

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.regen.network/",
   "prettyName": "Regen",
+  "chainType": "cosmos",
   "chainId": "regen-1",
   "bech32Prefix": "regen",
   "keyAlgos": [
@@ -29,11 +30,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.46",
-    "ibcGoVersion": "5.2",
-    "icsEnabled": [
-      "ics20-1",
-      "ics27-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46"
+    }
   },
   "description": "Regen Network, a platform to originate and invest in high-integrity carbon and biodiversity credits from ecological regeneration projects.",
   "apis": {

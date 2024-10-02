@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "archwaytestnet",
+  "chainType": "cosmos",
   "chainId": "constantine-3",
   "prettyName": "Archway Testnet",
   "networkType": "testnet",

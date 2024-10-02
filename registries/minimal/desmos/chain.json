@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://desmos.network/",
   "prettyName": "Desmos",
+  "chainType": "cosmos",
   "chainId": "desmos-mainnet",
   "bech32Prefix": "desmos",
   "keyAlgos": [
@@ -30,9 +31,19 @@
   },
   "codebase": {
     "cosmosSdkVersion": "desmos-labs/cosmos-sdk v0.47.10-desmos",
-    "ibcGoVersion": "v7.4.0",
     "cosmwasmVersion": "v0.45.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/desmos-labs/cosmos-sdk",
+      "version": "v0.47.10",
+      "tag": "v0.47.10-desmos"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "path": "$HOME/.desmos/data/wasm",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

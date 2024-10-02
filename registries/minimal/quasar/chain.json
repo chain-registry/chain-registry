@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.quasar.fi/",
   "prettyName": "Quasar",
+  "chainType": "cosmos",
   "chainId": "quasar-1",
   "bech32Prefix": "quasar",
   "keyAlgos": [
@@ -52,7 +53,15 @@
   "codebase": {
     "cosmosSdkVersion": "v0.50.9",
     "cosmwasmVersion": "v0.53.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.9"
+    },
+    "cosmwasm": {
+      "version": "v0.53.0",
+      "enabled": true
+    }
   },
   "description": "Quasar is the first decentralized asset management (D.A.M.) platform enabled by IBC. A secure, permissionless, composable, and diversified interchain DeFi experience is finally here.",
   "apis": {

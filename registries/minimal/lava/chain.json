@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://lavanet.xyz/",
   "prettyName": "Lava",
+  "chainType": "cosmos",
   "chainId": "lava-mainnet-1",
   "bech32Prefix": "lava@",
   "keyAlgos": [
@@ -34,10 +35,15 @@
   "codebase": {
     "cosmosSdkVersion": "lavanet/cosmos-sdk v0.47.13-lava-cosmos",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v7.4.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/lavanet/cosmos-sdk",
+      "version": "v0.47.13",
+      "tag": "v0.47.13-lava-cosmos"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "images": [
     {

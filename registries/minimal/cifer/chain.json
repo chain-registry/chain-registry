@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://cifer.ai/",
   "prettyName": "Cifer",
+  "chainType": "cosmos",
   "chainId": "cifer-2",
   "bech32Prefix": "cife",
   "slip44": 118,

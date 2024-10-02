@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "solana",
+  "chainType": "solana",
   "website": "https://solana.com/",
   "networkType": "mainnet",
   "prettyName": "Solana Mainnet Beta",

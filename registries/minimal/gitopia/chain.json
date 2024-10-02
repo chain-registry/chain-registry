@@ -4,6 +4,7 @@
   "website": "https://gitopia.com/",
   "networkType": "mainnet",
   "prettyName": "Gitopia",
+  "chainType": "cosmos",
   "chainId": "gitopia",
   "bech32Prefix": "gitopia",
   "keyAlgos": [
@@ -33,10 +34,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.13",
-    "ibcGoVersion": "7.6.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.13"
+    }
   },
   "images": [
     {

@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://stargaze.zone/",
   "prettyName": "Stargaze Testnet",
+  "chainType": "cosmos",
   "chainId": "elgafar-1",
   "bech32Prefix": "stars",
   "slip44": 118,
@@ -20,7 +21,15 @@
   "codebase": {
     "cosmosSdkVersion": "0.45",
     "cosmwasmVersion": "0.28",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.28",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

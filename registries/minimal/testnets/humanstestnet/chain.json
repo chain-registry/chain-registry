@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "humanstestnet",
+  "chainType": "cosmos",
   "chainId": "testnet-1",
   "prettyName": "Humans AI Testnet",
   "networkType": "testnet",

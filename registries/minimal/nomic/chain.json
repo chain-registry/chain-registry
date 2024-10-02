@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "prettyName": "Nomic",
   "website": "https://nomic.io/",
+  "chainType": "cosmos",
   "chainId": "nomic-stakenet-3",
   "bech32Prefix": "nomic",
   "slip44": 118,

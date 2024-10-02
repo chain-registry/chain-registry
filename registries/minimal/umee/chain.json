@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.ux.xyz",
   "prettyName": "UX Chain",
+  "chainType": "cosmos",
   "chainId": "umee-1",
   "bech32Prefix": "umee",
   "slip44": 118,
@@ -29,7 +30,14 @@
     "cosmosSdkVersion": "0.47",
     "cosmwasmVersion": "0.43",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "7.3.2"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47"
+    },
+    "cosmwasm": {
+      "version": "0.43",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "stafihub",
+  "chainType": "cosmos",
   "chainId": "stafihub-1",
   "website": "https://stafihub.io/",
   "prettyName": "StaFi Hub",
@@ -33,10 +34,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.46",
-    "ibcGoVersion": "5.2.1",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46"
+    }
   },
   "apis": {
     "rpc": [

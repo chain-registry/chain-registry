@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "cosmoshubtestnet",
+  "chainType": "cosmos",
   "chainId": "theta-testnet-001",
   "prettyName": "[DEPRECATED] Cosmos Hub Public Testnet, will be sunset 2024-12-01",
   "networkType": "testnet",

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://bluzelle.com/",
   "prettyName": "Bluzelle",
+  "chainType": "cosmos",
   "chainId": "bluzelle-9",
   "bech32Prefix": "bluzelle",
   "keyAlgos": [
@@ -33,7 +34,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.45.11",
-    "ibcGoVersion": "v3.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45.11"
+    }
   },
   "apis": {
     "rpc": [

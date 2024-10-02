@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://odinprotocol.io/",
   "prettyName": "Odin Protocol",
+  "chainType": "cosmos",
   "chainId": "odin-mainnet-freya",
   "bech32Prefix": "odin",
   "keyAlgos": [

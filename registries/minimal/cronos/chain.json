@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://cronos.org",
   "prettyName": "Cronos",
+  "chainType": "cosmos",
   "chainId": "cronosmainnet_25-1",
   "bech32Prefix": "crc",
   "keyAlgos": [

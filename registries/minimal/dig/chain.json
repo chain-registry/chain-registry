@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://digchain.org/",
   "prettyName": "Dig Chain",
+  "chainType": "cosmos",
   "chainId": "dig-1",
   "bech32Prefix": "dig",
   "keyAlgos": [

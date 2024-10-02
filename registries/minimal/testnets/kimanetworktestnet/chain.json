@@ -4,6 +4,7 @@
   "website": "https://www.kima.network/",
   "networkType": "testnet",
   "prettyName": "Kima Network Testnet",
+  "chainType": "cosmos",
   "chainId": "kima_testnet",
   "bech32Prefix": "kima",
   "keyAlgos": [

@@ -3,6 +3,7 @@
   "chainName": "point",
   "networkType": "mainnet",
   "prettyName": "Point Network",
+  "chainType": "cosmos",
   "chainId": "point_10687-1",
   "bech32Prefix": "point",
   "slip44": 60,

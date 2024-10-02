@@ -578,6 +578,60 @@
         }
       ],
       "assetType": "sdk.factory"
+    },
+    {
+      "description": "Bonded GopLend STARS",
+      "extendedDescription": "bglSTARS (Bonded GopLend STARS) is issued in exchange for STARS for the deposit period. These tokens are liquid and generate income in the amount of the set APR on the platform",
+      "denomUnits": [
+        {
+          "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglSTARS",
+          "exponent": 0
+        },
+        {
+          "denom": "bglSTARS",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglSTARS",
+      "name": "bglSTARS",
+      "display": "bglSTARS",
+      "symbol": "bglSTARS",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/bglSTARS.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/bglSTARS.png"
+        }
+      ],
+      "assetType": "sdk.factory"
+    },
+    {
+      "description": "Bonded GopLend USDC",
+      "extendedDescription": "bglUSDC (Bonded GopLend USDC) is issued in exchange for USDC for the deposit period. These tokens are liquid and generate income in the amount of the set APR on the platform",
+      "denomUnits": [
+        {
+          "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
+          "exponent": 0
+        },
+        {
+          "denom": "bglUSDC",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
+      "name": "bglUSDC",
+      "display": "bglUSDC",
+      "symbol": "bglUSDC",
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/bglUSDC.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/bglUSDC.png"
+        }
+      ],
+      "assetType": "sdk.factory"
     }
   ]
 }

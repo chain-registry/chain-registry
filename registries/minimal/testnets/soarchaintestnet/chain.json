@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "soarchaintestnet",
+  "chainType": "cosmos",
   "chainId": "soarchaintestnet",
   "prettyName": "Soarchain Testnet",
   "networkType": "testnet",
@@ -31,7 +32,14 @@
     "cosmosSdkVersion": "0.45.5",
     "cosmwasmVersion": "0.27",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "3.0.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45.5"
+    },
+    "cosmwasm": {
+      "version": "0.27",
+      "enabled": true
+    }
   },
   "images": [
     {

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://vidulum.app/",
   "prettyName": "Vidulum",
+  "chainType": "cosmos",
   "chainId": "vidulum-1",
   "bech32Prefix": "vdl",
   "keyAlgos": [

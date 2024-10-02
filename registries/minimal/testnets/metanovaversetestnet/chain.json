@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://metanovaverse.com/",
   "prettyName": "Mnova",
+  "chainType": "cosmos",
   "chainId": "mnova_10096-1",
   "bech32Prefix": "mnova",
   "keyAlgos": [

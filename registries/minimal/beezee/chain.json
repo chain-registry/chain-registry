@@ -3,6 +3,7 @@
   "chainName": "beezee",
   "networkType": "mainnet",
   "prettyName": "BeeZee",
+  "chainType": "cosmos",
   "chainId": "beezee-1",
   "bech32Prefix": "bze",
   "keyAlgos": [

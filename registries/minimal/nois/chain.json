@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://nois.network",
   "prettyName": "Nois",
+  "chainType": "cosmos",
   "chainId": "nois-1",
   "bech32Prefix": "nois",
   "keyAlgos": [
@@ -34,7 +35,15 @@
   "codebase": {
     "cosmosSdkVersion": "v0.45.15",
     "cosmwasmVersion": "v0.31.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45.15"
+    },
+    "cosmwasm": {
+      "version": "v0.31.0",
+      "enabled": true
+    }
   },
   "images": [
     {

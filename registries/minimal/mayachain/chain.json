@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://mayaprotocol.com/",
   "prettyName": "Maya Protocol",
+  "chainType": "cosmos",
   "chainId": "mayachain-mainnet-v1",
   "bech32Prefix": "maya",
   "slip44": 931,

@@ -4,6 +4,7 @@
   "website": "https://rootstock.io/",
   "networkType": "mainnet",
   "prettyName": "Rootstock",
+  "chainType": "eip155",
   "chainId": "30",
   "slip44": 137,
   "fees": {

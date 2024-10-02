@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://unification.com/",
   "prettyName": "Unification",
+  "chainType": "cosmos",
   "chainId": "FUND-MainNet-2",
   "bech32Prefix": "und",
   "keyAlgos": [
@@ -34,7 +35,13 @@
   "codebase": {
     "cosmosSdkVersion": "0.47.13",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "7.7.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47.13"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "images": [
     {

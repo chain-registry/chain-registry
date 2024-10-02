@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://cvn.io/",
   "prettyName": "ConsciousDAO",
+  "chainType": "cosmos",
   "chainId": "cvn_2032-1",
   "bech32Prefix": "cvn",
   "keyAlgos": [

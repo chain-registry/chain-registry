@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.blockxnet.com/",
   "prettyName": "BlockX",
+  "chainType": "cosmos",
   "chainId": "blockx_19191-1",
   "bech32Prefix": "blockx",
   "keyAlgos": [

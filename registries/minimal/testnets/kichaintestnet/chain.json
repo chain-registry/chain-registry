@@ -3,6 +3,7 @@
   "chainName": "kichaintestnet",
   "networkType": "testnet",
   "prettyName": "Ki",
+  "chainType": "cosmos",
   "chainId": "kichain-t-4",
   "bech32Prefix": "tki",
   "keyAlgos": [

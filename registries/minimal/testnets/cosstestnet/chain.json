@@ -3,6 +3,7 @@
   "chainName": "cosstestnet",
   "networkType": "testnet",
   "prettyName": "COSS Testnet",
+  "chainType": "cosmos",
   "chainId": "coss-testnet-1",
   "bech32Prefix": "coss",
   "keyAlgos": [
@@ -29,7 +30,14 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.50.2",
-    "cosmwasmEnabled": false
+    "cosmwasmEnabled": false,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.2"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "apis": {
     "rpc": [

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://stride.zone/",
   "prettyName": "Stride",
+  "chainType": "cosmos",
   "chainId": "stride-1",
   "bech32Prefix": "stride",
   "keyAlgos": [
@@ -128,7 +129,12 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.10-stride-distribution-fix-0-mempool-verbose-error-1",
-    "ibcGoVersion": "7.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/Stride-Labs/cosmos-sdk",
+      "version": "v0.47.10",
+      "tag": "v0.47.10-stride-distribution-fix-0-mempool-verbose-error-1"
+    }
   },
   "description": "Stride is a blockchain that provides liquidity for staked tokens. Using Stride, you can earn both taking and DeFi yields across the Cosmos IBC ecosystem.",
   "apis": {

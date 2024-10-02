@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.loop.fans/",
   "prettyName": "Loop",
+  "chainType": "cosmos",
   "chainId": "loop-1",
   "bech32Prefix": "loop",
   "keyAlgos": [
@@ -30,10 +31,9 @@
   },
   "codebase": {
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.3.1",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "cosmwasm": {
+      "enabled": true
+    }
   },
   "images": [
     {

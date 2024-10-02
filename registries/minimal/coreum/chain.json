@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.coreum.com",
   "prettyName": "Coreum",
+  "chainType": "cosmos",
   "chainId": "coreum-mainnet-1",
   "bech32Prefix": "core",
   "keyAlgos": [
@@ -34,7 +35,15 @@
   "codebase": {
     "cosmosSdkVersion": "0.47",
     "cosmwasmVersion": "0.44",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47"
+    },
+    "cosmwasm": {
+      "version": "0.44",
+      "enabled": true
+    }
   },
   "images": [
     {

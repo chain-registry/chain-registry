@@ -4,6 +4,7 @@
   "website": "https://selfchain.xyz",
   "networkType": "mainnet",
   "prettyName": "Self Chain",
+  "chainType": "cosmos",
   "chainId": "self-1",
   "bech32Prefix": "self",
   "keyAlgos": [

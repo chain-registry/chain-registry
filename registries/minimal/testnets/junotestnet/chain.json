@@ -3,6 +3,7 @@
   "chainName": "junotestnet",
   "networkType": "testnet",
   "prettyName": "Juno Testnet",
+  "chainType": "cosmos",
   "chainId": "uni-6",
   "bech32Prefix": "juno",
   "keyAlgos": [
@@ -30,7 +31,14 @@
     "cosmosSdkVersion": "0.45",
     "cosmwasmVersion": "0.31",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "4.3.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.31",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

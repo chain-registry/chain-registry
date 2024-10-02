@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://cnho.io/",
   "prettyName": "CNHO Stables",
+  "chainType": "cosmos",
   "chainId": "cnho_stables-1",
   "bech32Prefix": "cnho",
   "slip44": 118,
@@ -27,7 +28,14 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.46.7",
-    "cosmwasmEnabled": false
+    "cosmwasmEnabled": false,
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.46.7"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "description": "CNHO Stables Network is designed to facilitate the real world asset in Cosmos ecosystem.",
   "apis": {

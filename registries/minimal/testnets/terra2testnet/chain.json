@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://www.terra.money/",
   "prettyName": "Terra 2.0",
+  "chainType": "cosmos",
   "chainId": "pisco-1",
   "bech32Prefix": "terra",
   "slip44": 330,

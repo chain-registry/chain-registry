@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://www.uptickproject.com/",
   "prettyName": "Uptick",
+  "chainType": "cosmos",
   "chainId": "uptick_7000-2",
   "bech32Prefix": "uptick",
   "keyAlgos": [
@@ -24,7 +25,11 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.46.5"
+    "cosmosSdkVersion": "0.46.5",
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.5"
+    }
   },
   "apis": {
     "rpc": [

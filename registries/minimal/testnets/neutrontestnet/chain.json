@@ -3,6 +3,7 @@
   "chainName": "neutrontestnet",
   "networkType": "testnet",
   "prettyName": "Neutron Testnet",
+  "chainType": "cosmos",
   "chainId": "pion-1",
   "bech32Prefix": "neutron",
   "keyAlgos": [
@@ -23,7 +24,14 @@
     "cosmosSdkVersion": "0.50",
     "cosmwasmVersion": "0.51",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "8.2.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50"
+    },
+    "cosmwasm": {
+      "version": "0.51",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

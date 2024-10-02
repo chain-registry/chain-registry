@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.kava.io/",
   "prettyName": "Kava",
+  "chainType": "cosmos",
   "chainId": "kava_2222-10",
   "bech32Prefix": "kava",
   "slip44": 459,

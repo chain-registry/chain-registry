@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://humans.ai/",
   "prettyName": "Humans.ai",
+  "chainType": "cosmos",
   "chainId": "humans_1089-1",
   "bech32Prefix": "human",
   "keyAlgos": [
@@ -32,7 +33,11 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.46.11"
+    "cosmosSdkVersion": "0.46.11",
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.11"
+    }
   },
   "apis": {
     "rpc": [

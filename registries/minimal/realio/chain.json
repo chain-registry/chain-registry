@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://realio.network/",
   "prettyName": "Realio Network",
+  "chainType": "cosmos",
   "chainId": "realionetwork_3301-1",
   "bech32Prefix": "realio",
   "keyAlgos": [
@@ -33,7 +34,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.46.12",
-    "ibcGoVersion": "v6.1.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.46.12"
+    }
   },
   "apis": {
     "rpc": [

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://nymtech.net/",
   "prettyName": "Nym",
+  "chainType": "cosmos",
   "chainId": "nyx",
   "bech32Prefix": "n",
   "slip44": 118,
@@ -36,7 +37,10 @@
     }
   },
   "codebase": {
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "cosmwasm": {
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

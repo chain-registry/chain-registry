@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "kyve",
+  "chainType": "cosmos",
   "chainId": "kyve-1",
   "prettyName": "KYVE",
   "networkType": "mainnet",
@@ -30,7 +31,11 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.50.7-kyve-rc0",
-    "ibcGoVersion": "v8.3.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.7",
+      "tag": "v0.50.7-kyve-rc0"
+    }
   },
   "description": "Revolutionizing data reliability in the Web3 space, KYVE Network provides fast and easy tooling for data validation, immutability, and retrieval, ensuring trustless data for seamless scalability and eliminating data risks and roadblocks.",
   "apis": {

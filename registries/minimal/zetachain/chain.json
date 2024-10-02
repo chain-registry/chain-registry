@@ -3,6 +3,7 @@
   "chainName": "zetachain",
   "networkType": "mainnet",
   "prettyName": "ZetaChain",
+  "chainType": "cosmos",
   "chainId": "zetachain_7000-1",
   "bech32Prefix": "zeta",
   "keyAlgos": [
@@ -31,7 +32,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.10",
-    "ibcGoVersion": "v7.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.10"
+    }
   },
   "apis": {
     "rpc": [

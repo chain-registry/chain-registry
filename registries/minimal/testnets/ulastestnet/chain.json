@@ -3,6 +3,7 @@
   "chainName": "ulastestnet",
   "networkType": "testnet",
   "prettyName": "ULAS",
+  "chainType": "cosmos",
   "chainId": "ulas",
   "bech32Prefix": "ulas",
   "codebase": {

@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "persistence",
+  "chainType": "cosmos",
   "chainId": "core-1",
   "prettyName": "Persistence",
   "networkType": "mainnet",
@@ -33,13 +34,19 @@
   },
   "codebase": {
     "cosmosSdkVersion": "persistenceOne/cosmos-sdk v0.47.10-lsm-rc0",
-    "ibcGoVersion": "v7.4.0",
-    "icsEnabled": [
-      "ics20-1",
-      "ics27-1"
-    ],
     "cosmwasmVersion": "v0.45.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/persistenceOne/cosmos-sdk",
+      "version": "v0.47.10",
+      "tag": "v0.47.10-lsm-rc0"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "path": "$HOME/.persistenceCore/wasm",
+      "enabled": true
+    }
   },
   "description": "Persistence is an app chain for Liquid Staking powering an ecosystem of DeFi applications focused on unlocking the liquidity of staked assets.",
   "apis": {

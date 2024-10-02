@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://ununifi.io/",
   "prettyName": "UnUniFi",
+  "chainType": "cosmos",
   "chainId": "ununifi-beta-v1",
   "bech32Prefix": "ununifi",
   "keyAlgos": [
@@ -35,10 +36,16 @@
     "cosmosSdkVersion": "ununifi/cosmos-sdk v0.47.3-custom-bank-1",
     "cosmwasmVersion": "v0.40.1",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.3.1",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/ununifi/cosmos-sdk",
+      "version": "v0.47.3",
+      "tag": "v0.47.3-custom-bank-1"
+    },
+    "cosmwasm": {
+      "version": "v0.40.1",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

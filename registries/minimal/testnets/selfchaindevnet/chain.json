@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "selfchaindevnet",
+  "chainType": "cosmos",
   "chainId": "self-dev-1",
   "prettyName": "Devnet 1",
   "networkType": "testnet",

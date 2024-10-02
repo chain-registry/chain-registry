@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "celestia",
+  "chainType": "cosmos",
   "chainId": "celestia",
   "prettyName": "Celestia",
   "networkType": "mainnet",
@@ -30,7 +31,12 @@
   },
   "codebase": {
     "cosmosSdkVersion": "celestiaorg/cosmos-sdk v1.24.1-sdk-v0.46.16",
-    "ibcGoVersion": "v6.2.1"
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/celestiaorg/cosmos-sdk",
+      "version": "v1.24.1",
+      "tag": "v1.24.1-sdk-v0.46.16"
+    }
   },
   "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
   "apis": {

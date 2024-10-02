@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.marsprotocol.io/",
   "prettyName": "Mars Hub",
+  "chainType": "cosmos",
   "chainId": "mars-1",
   "bech32Prefix": "mars",
   "keyAlgos": [
@@ -32,10 +33,14 @@
     "cosmosSdkVersion": "0.46.7",
     "cosmwasmVersion": "0.30.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "6.1.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.7"
+    },
+    "cosmwasm": {
+      "version": "0.30.0",
+      "enabled": true
+    }
   },
   "description": "Lend, borrow and earn with an autonomous credit protocol in the Cosmos universe. Open to all, closed to none.",
   "apis": {

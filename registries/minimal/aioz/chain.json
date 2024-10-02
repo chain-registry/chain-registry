@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://aioz.network/",
   "prettyName": "AIOZ Network",
+  "chainType": "cosmos",
   "chainId": "aioz_168-1",
   "bech32Prefix": "aioz",
   "keyAlgos": [

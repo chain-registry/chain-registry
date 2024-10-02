@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.terra.money/",
   "prettyName": "Terra",
+  "chainType": "cosmos",
   "chainId": "phoenix-1",
   "bech32Prefix": "terra",
   "slip44": 330,

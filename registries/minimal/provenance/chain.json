@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://provenance.io/",
   "prettyName": "Provenance",
+  "chainType": "cosmos",
   "chainId": "pio-mainnet-1",
   "bech32Prefix": "pb",
   "keyAlgos": [
@@ -32,11 +33,14 @@
     "cosmosSdkVersion": "0.46.13",
     "cosmwasmVersion": "0.30",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "6.2.0",
-    "icsEnabled": [
-      "ics20-1",
-      "ics27-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.13"
+    },
+    "cosmwasm": {
+      "version": "0.30",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

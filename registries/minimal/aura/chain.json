@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://aura.network/",
   "prettyName": "Aura Network",
+  "chainType": "cosmos",
   "chainId": "aura_6322-2",
   "bech32Prefix": "aura",
   "keyAlgos": [
@@ -33,9 +34,18 @@
   },
   "codebase": {
     "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.12-evmos",
-    "ibcGoVersion": "v7.6.0",
     "cosmwasmVersion": "v0.42.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/evmos/cosmos-sdk",
+      "version": "v0.47.12",
+      "tag": "v0.47.12-evmos"
+    },
+    "cosmwasm": {
+      "version": "v0.42.0",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

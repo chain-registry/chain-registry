@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://shido.io/",
   "prettyName": "Shido",
+  "chainType": "cosmos",
   "chainId": "shido_9008-1",
   "bech32Prefix": "shido",
   "keyAlgos": [
@@ -35,7 +36,14 @@
     "cosmosSdkVersion": "v0.47.4",
     "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.4"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "enabled": true
+    }
   },
   "description": "Developers use Shido as the Ethereum and Wasm Chain to deploy applications of the future. Get all the functionalities of Ethereum and Wasm with the power of IBC and Interchain composability.",
   "apis": {

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://lum.network/",
   "prettyName": "Lum Network",
+  "chainType": "cosmos",
   "chainId": "lum-network-1",
   "bech32Prefix": "lum",
   "keyAlgos": [
@@ -30,7 +31,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.11",
-    "ibcGoVersion": "v7.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.11"
+    }
   },
   "apis": {
     "rpc": [

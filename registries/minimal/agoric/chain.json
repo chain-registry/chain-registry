@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://agoric.com/",
   "prettyName": "Agoric",
+  "chainType": "cosmos",
   "chainId": "agoric-3",
   "bech32Prefix": "agoric",
   "slip44": 564,
@@ -33,10 +34,15 @@
   "codebase": {
     "cosmosSdkVersion": "agoric-labs/cosmos-sdk v0.46.16-alpha.agoric.2.4",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v7.4.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/agoric-labs/cosmos-sdk",
+      "version": "v0.46.16",
+      "tag": "v0.46.16-alpha.agoric.2.4"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "description": "The Agoric platform makes it safe and seamless to build decentralized apps using your existing JavaScript knowledge.",
   "apis": {

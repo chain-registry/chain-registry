@@ -3,6 +3,7 @@
   "chainName": "sourcetestnet",
   "networkType": "testnet",
   "prettyName": "Source Testnet",
+  "chainType": "cosmos",
   "chainId": "sourcetest-1",
   "bech32Prefix": "source",
   "keyAlgos": [
@@ -30,7 +31,15 @@
   "codebase": {
     "cosmosSdkVersion": "0.45",
     "cosmwasmVersion": "0.30",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.30",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

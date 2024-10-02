@@ -3,6 +3,7 @@
   "chainName": "uniontestnet",
   "networkType": "testnet",
   "prettyName": "Union Testnet",
+  "chainType": "cosmos",
   "chainId": "union-testnet-8",
   "bech32Prefix": "union",
   "keyAlgos": [

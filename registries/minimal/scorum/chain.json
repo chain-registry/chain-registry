@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://scorum.com/",
   "prettyName": "Scorum Network",
+  "chainType": "cosmos",
   "chainId": "scorum-1",
   "bech32Prefix": "scorum",
   "keyAlgos": [

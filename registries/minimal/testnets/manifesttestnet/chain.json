@@ -5,6 +5,7 @@
   "website": "https://liftedinit.org/",
   "prettyName": "Manifest Testnet",
   "chainId": "manifest-ledger-beta",
+  "chainType": "cosmos",
   "bech32Prefix": "manifest",
   "slip44": 118,
   "fees": {

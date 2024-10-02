@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "finschiatestnet",
+  "chainType": "cosmos",
   "chainId": "ebony-2",
   "website": "https://www.finschia.io/",
   "prettyName": "Ebony",
@@ -35,10 +36,17 @@
     "cosmosSdkVersion": "github.com/Finschia/finschia-sdk@v0.48.1",
     "cosmwasmVersion": "github.com/Finschia/wasmd@v0.2.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v4.3.1",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/Finschia/finschia-sdk",
+      "version": "v0.48.1"
+    },
+    "cosmwasm": {
+      "version": "v0.2.0",
+      "path": "$HOME/.finschia/wasm/wasm",
+      "enabled": true,
+      "repo": "https://github.com/Finschia/wasmd"
+    }
   },
   "apis": {
     "rpc": [

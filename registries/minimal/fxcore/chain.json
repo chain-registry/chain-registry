@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "fxcore",
+  "chainType": "cosmos",
   "chainId": "fxcore",
   "website": "https://functionx.io",
   "prettyName": "f(x)Core",
@@ -33,7 +34,11 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.13",
-    "ibcGoVersion": "v7.6.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.13",
+      "tag": "v0.47.13"
+    }
   },
   "apis": {
     "rpc": [

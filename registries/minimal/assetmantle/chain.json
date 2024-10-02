@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://assetmantle.one/",
   "prettyName": "AssetMantle",
+  "chainType": "cosmos",
   "chainId": "mantle-1",
   "bech32Prefix": "mantle",
   "slip44": 118,

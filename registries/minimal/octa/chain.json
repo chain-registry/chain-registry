@@ -3,6 +3,7 @@
   "chainName": "octa",
   "networkType": "mainnet",
   "prettyName": "Octa",
+  "chainType": "cosmos",
   "chainId": "octa",
   "bech32Prefix": "octa",
   "keyAlgos": [

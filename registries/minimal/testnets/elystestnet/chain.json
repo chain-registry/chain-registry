@@ -3,6 +3,7 @@
   "chainName": "elystestnet",
   "networkType": "testnet",
   "prettyName": "Elys Network",
+  "chainType": "cosmos",
   "chainId": "elystestnet-1",
   "bech32Prefix": "elys",
   "keyAlgos": [
@@ -46,8 +47,14 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47",
-    "ibcGoVersion": "v7.3.0",
-    "cosmwasmEnabled": false
+    "cosmwasmEnabled": false,
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "apis": {
     "rpc": [

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://bandprotocol.com/",
   "prettyName": "Band Protocol",
+  "chainType": "cosmos",
   "chainId": "laozi-mainnet",
   "bech32Prefix": "band",
   "slip44": 494,
@@ -33,7 +34,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.45.16",
-    "ibcGoVersion": "v4.3.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45.16"
+    }
   },
   "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
   "apis": {

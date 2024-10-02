@@ -4,6 +4,7 @@
   "website": "https://ethereum.org/",
   "networkType": "mainnet",
   "prettyName": "Ethereum Mainnet",
+  "chainType": "eip155",
   "chainId": "1",
   "slip44": 60,
   "fees": {

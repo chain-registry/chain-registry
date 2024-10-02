@@ -3,6 +3,7 @@
   "chainName": "lumenx",
   "networkType": "mainnet",
   "prettyName": "LumenX",
+  "chainType": "cosmos",
   "chainId": "LumenX",
   "bech32Prefix": "lumen",
   "keyAlgos": [

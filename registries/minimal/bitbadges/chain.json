@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "bitbadges",
+  "chainType": "cosmos",
   "networkType": "mainnet",
   "website": "https://bitbadges.io/",
   "prettyName": "BitBadges",
@@ -27,7 +28,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.50.8",
-    "ibcGoVersion": "v8.3.2"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.8"
+    }
   },
   "description": "BitBadges is the all-in-one, multi-chain platform for building your digital identity.",
   "apis": {

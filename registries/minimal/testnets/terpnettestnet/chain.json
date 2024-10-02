@@ -3,6 +3,7 @@
   "chainName": "terpnettestnet",
   "networkType": "testnet",
   "prettyName": "Terp-Network",
+  "chainType": "cosmos",
   "chainId": "90u-4",
   "bech32Prefix": "terp",
   "keyAlgos": [

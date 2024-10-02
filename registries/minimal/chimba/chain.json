@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://chimba.ooo/",
   "prettyName": "Chimba",
+  "chainType": "cosmos",
   "chainId": "chimba",
   "bech32Prefix": "chimba",
   "fees": {

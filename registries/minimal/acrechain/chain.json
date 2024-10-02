@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://arable.finance/",
   "prettyName": "Acrechain",
+  "chainType": "cosmos",
   "chainId": "acre_9052-1",
   "bech32Prefix": "acre",
   "keyAlgos": [

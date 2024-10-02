@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "celestiatestnet",
+  "chainType": "cosmos",
   "chainId": "blockspacerace-0",
   "prettyName": "Blockspace Race Testnet",
   "networkType": "testnet",

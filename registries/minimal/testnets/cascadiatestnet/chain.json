@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://cascadia.foundation/",
   "prettyName": "Cascadia",
+  "chainType": "cosmos",
   "chainId": "cascadia_6102-1",
   "bech32Prefix": "cascadia",
   "keyAlgos": [
@@ -34,7 +35,15 @@
   "codebase": {
     "cosmosSdkVersion": "0.46.10",
     "cosmwasmVersion": "0.30",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.10"
+    },
+    "cosmwasm": {
+      "version": "0.30",
+      "enabled": true
+    }
   },
   "images": [
     {

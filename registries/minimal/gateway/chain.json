@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://wormhole.com",
   "prettyName": "Wormhole Gateway",
+  "chainType": "cosmos",
   "chainId": "wormchain",
   "bech32Prefix": "wormhole",
   "keyAlgos": [
@@ -25,10 +26,18 @@
     "cosmosSdkVersion": "github.com/wormhole-foundation/cosmos-sdk@v0.45.9-wormhole-2",
     "cosmwasmVersion": "github.com/wormhole-foundation/wasmd@v0.30.0-wormchain-2",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "4.2.2",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/wormhole-foundation/cosmos-sdk",
+      "version": "v0.45.9",
+      "tag": "v0.45.9-wormhole-2"
+    },
+    "cosmwasm": {
+      "repo": "https://github.com/wormhole-foundation/wasmd",
+      "version": "v0.30.0",
+      "tag": "v0.30.0-wormchain-2",
+      "enabled": true
+    }
   },
   "images": [
     {

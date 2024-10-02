@@ -4,6 +4,7 @@
   "networkType": "devnet",
   "website": "https://www.ixo.world/",
   "prettyName": "ixo",
+  "chainType": "cosmos",
   "chainId": "devnet-1",
   "bech32Prefix": "ixo",
   "keyAlgos": [

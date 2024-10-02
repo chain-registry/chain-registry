@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://orai.io/",
   "prettyName": "Oraichain",
+  "chainType": "cosmos",
   "chainId": "Oraichain",
   "bech32Prefix": "orai",
   "keyAlgos": [
@@ -30,7 +31,11 @@
   },
   "codebase": {
     "cosmwasmVersion": "0.30.2",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "cosmwasm": {
+      "version": "0.30.2",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

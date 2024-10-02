@@ -3,6 +3,7 @@
   "chainName": "tucanatestnet",
   "networkType": "testnet",
   "prettyName": "Tucana Testnet",
+  "chainType": "cosmos",
   "chainId": "tucana_712-1",
   "bech32Prefix": "tuc",
   "keyAlgos": [
@@ -32,7 +33,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.50.8",
-    "ibcGoVersion": "v8.3.2"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.8"
+    }
   },
   "apis": {
     "rpc": [

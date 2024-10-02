@@ -3,6 +3,7 @@
   "chainName": "cryptoorgchain",
   "networkType": "mainnet",
   "prettyName": "Cronos POS Chain",
+  "chainType": "cosmos",
   "chainId": "crypto-org-chain-mainnet-1",
   "bech32Prefix": "cro",
   "website": "https://cronos-pos.org/",

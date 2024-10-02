@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "dhealthtestnet",
+  "chainType": "cosmos",
   "chainId": "dhealth-testnet-2",
   "prettyName": "dHealth Testnet",
   "networkType": "testnet",
@@ -30,7 +31,17 @@
   "codebase": {
     "cosmosSdkVersion": "cosmos/cosmos-sdk v0.47.4",
     "cosmwasmVersion": "v0.41.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "version": "v0.47.4"
+    },
+    "cosmwasm": {
+      "version": "v0.41.0",
+      "path": "$HOME/.dhealth/wasm",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

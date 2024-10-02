@@ -3,6 +3,7 @@
   "chainName": "pryzmtestnet",
   "networkType": "testnet",
   "prettyName": "Pryzm Testnet",
+  "chainType": "cosmos",
   "chainId": "indigo-1",
   "bech32Prefix": "pryzm",
   "keyAlgos": [
@@ -29,7 +30,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.47",
-    "ibcGoVersion": "7.3.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47"
+    }
   },
   "apis": {
     "rpc": [

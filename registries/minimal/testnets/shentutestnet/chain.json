@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://www.shentu.org/",
   "prettyName": "Yulei",
+  "chainType": "cosmos",
   "chainId": "yulei-2.1",
   "bech32Prefix": "shentu",
   "keyAlgos": [
@@ -28,10 +29,7 @@
     ]
   },
   "codebase": {
-    "ibcGoVersion": "v7.4.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+
   },
   "apis": {
     "rpc": [

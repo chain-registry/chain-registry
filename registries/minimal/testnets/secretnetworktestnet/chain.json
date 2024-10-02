@@ -3,6 +3,7 @@
   "chainName": "secretnetworktestnet",
   "networkType": "testnet",
   "prettyName": "Secret Network",
+  "chainType": "cosmos",
   "chainId": "pulsar-3",
   "bech32Prefix": "secret",
   "keyAlgos": [

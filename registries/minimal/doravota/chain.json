@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "doravota",
+  "chainType": "cosmos",
   "chainId": "vota-ash",
   "prettyName": "Dora Vota",
   "networkType": "mainnet",

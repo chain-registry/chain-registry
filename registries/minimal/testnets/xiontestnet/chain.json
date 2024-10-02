@@ -5,6 +5,7 @@
   "prettyName": "Xion Testnet",
   "website": "https://burnt.com",
   "networkType": "testnet",
+  "chainType": "cosmos",
   "bech32Prefix": "xion",
   "keyAlgos": [
     "secp256k1"

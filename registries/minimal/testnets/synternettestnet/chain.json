@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "synternettestnet",
+  "chainType": "cosmos",
   "chainId": "amber-2",
   "prettyName": "Amber Public Testnet",
   "networkType": "testnet",

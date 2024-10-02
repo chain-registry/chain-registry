@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://furya.xyz/",
   "prettyName": "furya",
+  "chainType": "cosmos",
   "chainId": "furya-1",
   "bech32Prefix": "furya",
   "slip44": 118,

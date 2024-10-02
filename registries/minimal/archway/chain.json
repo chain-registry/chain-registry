@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://archway.io/",
   "prettyName": "Archway",
+  "chainType": "cosmos",
   "chainId": "archway-1",
   "bech32Prefix": "archway",
   "keyAlgos": [
@@ -33,9 +34,16 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.11",
-    "ibcGoVersion": "v7.4.0",
     "cosmwasmVersion": "v0.45.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.11"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "enabled": true
+    }
   },
   "description": "An incentivized L1 blockchain that allows developers to capture the value their dapps create, enabling sustainable economic models.",
   "apis": {

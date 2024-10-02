@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://www.lavanet.xyz/",
   "prettyName": "Lava",
+  "chainType": "cosmos",
   "chainId": "lava-testnet-1",
   "bech32Prefix": "lava@",
   "keyAlgos": [
@@ -35,10 +36,14 @@
     "cosmosSdkVersion": "0.45",
     "cosmwasmVersion": "0.30",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v7.2.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.30",
+      "enabled": false
+    }
   },
   "images": [
     {

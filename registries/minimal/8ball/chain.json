@@ -4,6 +4,7 @@
   "website": "https://8ball.info/",
   "networkType": "mainnet",
   "prettyName": "8ball",
+  "chainType": "cosmos",
   "chainId": "eightball-1",
   "bech32Prefix": "8ball",
   "keyAlgos": [
@@ -30,7 +31,14 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.46.7",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.7"
+    },
+    "cosmwasm": {
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

@@ -3,6 +3,7 @@
   "chainName": "symphonytestnet",
   "networkType": "testnet",
   "prettyName": "Symphony Testnet",
+  "chainType": "cosmos",
   "chainId": "symphony-testnet-3",
   "bech32Prefix": "symphony",
   "keyAlgos": [
@@ -30,7 +31,15 @@
   "codebase": {
     "cosmosSdkVersion": "0.47.8",
     "cosmwasmVersion": "0.30",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47.8"
+    },
+    "cosmwasm": {
+      "version": "0.30",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

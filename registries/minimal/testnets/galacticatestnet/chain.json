@@ -3,6 +3,7 @@
   "chainName": "galacticatestnet",
   "networkType": "testnet",
   "prettyName": "Galactica Protocol Testnet",
+  "chainType": "cosmos",
   "chainId": "galactica_9302-1",
   "bech32Prefix": "gala",
   "keyAlgos": [
@@ -29,7 +30,14 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.46",
-    "cosmwasmEnabled": false
+    "cosmwasmEnabled": false,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "apis": {
     "rpc": [

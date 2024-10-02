@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "routerchain",
+  "chainType": "cosmos",
   "chainId": "router_9600-1",
   "prettyName": "Router Protocol",
   "networkType": "mainnet",
@@ -35,7 +36,15 @@
     "cosmosSdkVersion": "v0.47.10",
     "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.10"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "path": "$HOME/.routerd/wasm",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [
@@ -47,6 +56,9 @@
       },
       {
         "address": "https://router.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://router-mainnet-rpc.autostake.com:443"
       }
     ],
     "rest": [
@@ -58,6 +70,9 @@
       },
       {
         "address": "https://router.api.nodeshub.online"
+      },
+      {
+        "address": "https://router-mainnet-lcd.autostake.com:443"
       }
     ],
     "grpc": [
@@ -69,6 +84,9 @@
       },
       {
         "address": "router.grpc.nodeshub.online"
+      },
+      {
+        "address": "router-mainnet-grpc.autostake.com:443"
       }
     ],
     "evmHttpJsonrpc": [

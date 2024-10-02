@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "passage",
+  "chainType": "cosmos",
   "chainId": "passage-2",
   "prettyName": "Passage",
   "networkType": "mainnet",
@@ -30,8 +31,14 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.45.16",
-    "ibcGoVersion": "v4.4.2",
-    "cosmwasmVersion": "v0.31.0"
+    "cosmwasmVersion": "v0.31.0",
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45.16"
+    },
+    "cosmwasm": {
+      "version": "v0.31.0"
+    }
   },
   "apis": {
     "rpc": [

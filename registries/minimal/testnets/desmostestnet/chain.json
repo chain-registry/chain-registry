@@ -3,6 +3,7 @@
   "chainName": "desmostestnet",
   "networkType": "testnet",
   "prettyName": "Desmos Testnet",
+  "chainType": "cosmos",
   "chainId": "morpheus-apollo-3",
   "bech32Prefix": "desmos",
   "keyAlgos": [

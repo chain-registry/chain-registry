@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://aura.network/",
   "prettyName": "Aura Network",
+  "chainType": "cosmos",
   "chainId": "xstaxy-1",
   "bech32Prefix": "aura",
   "keyAlgos": [
@@ -33,9 +34,16 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.47.5",
-    "ibcGoVersion": "v7.3.0",
     "cosmwasmVersion": "0.42.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47.5"
+    },
+    "cosmwasm": {
+      "version": "0.42.0",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

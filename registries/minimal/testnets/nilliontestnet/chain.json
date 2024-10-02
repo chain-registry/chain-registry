@@ -3,6 +3,7 @@
   "chainName": "nilliontestnet",
   "networkType": "testnet",
   "prettyName": "Nillion Testnet",
+  "chainType": "cosmos",
   "chainId": "nillion-chain-testnet-1",
   "bech32Prefix": "nillion",
   "keyAlgos": [
@@ -29,7 +30,13 @@
   "codebase": {
     "cosmosSdkVersion": "v0.50.6",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "5.3.2"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.6"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "apis": {
     "rpc": [

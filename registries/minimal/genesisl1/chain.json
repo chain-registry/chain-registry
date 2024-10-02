@@ -3,6 +3,7 @@
   "chainName": "genesisl1",
   "networkType": "mainnet",
   "prettyName": "GenesisL1",
+  "chainType": "cosmos",
   "chainId": "genesis_29-2",
   "bech32Prefix": "genesis",
   "slip44": 118,
@@ -24,7 +25,11 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.46.15"
+    "cosmosSdkVersion": "0.46.15",
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46.15"
+    }
   },
   "apis": {
     "rpc": [

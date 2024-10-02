@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://osmosis.zone/",
   "prettyName": "Osmosis",
+  "chainType": "cosmos",
   "chainId": "osmosis-1",
   "bech32Prefix": "osmo",
   "keyAlgos": [
@@ -35,10 +36,18 @@
     "cosmosSdkVersion": "osmosis-labs/cosmos-sdk v0.47.5-v25-osmo-1",
     "cosmwasmVersion": "osmosis-labs/wasmd v0.45.0-osmo",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.4.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/osmosis-labs/cosmos-sdk",
+      "version": "v0.47.5",
+      "tag": "v0.47.5-v25-osmo-1"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "repo": "https://github.com/osmosis-labs/wasmd",
+      "tag": "v0.45.0-osmo",
+      "enabled": true
+    }
   },
   "images": [
     {

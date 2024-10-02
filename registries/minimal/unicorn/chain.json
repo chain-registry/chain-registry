@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://unicorn.meme/",
   "prettyName": "Unicorn",
+  "chainType": "cosmos",
   "chainId": "unicorn-420",
   "bech32Prefix": "unicorn",
   "slip44": 118,

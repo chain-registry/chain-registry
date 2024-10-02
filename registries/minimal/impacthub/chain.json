@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.ixo.world/",
   "prettyName": "Impacts Hub",
+  "chainType": "cosmos",
   "chainId": "ixo-5",
   "bech32Prefix": "ixo",
   "keyAlgos": [
@@ -31,7 +32,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.45.16",
-    "ibcGoVersion": "v4.4.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45.16"
+    }
   },
   "apis": {
     "rpc": [

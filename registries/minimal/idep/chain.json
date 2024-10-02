@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.idep.network/",
   "prettyName": "IDEP",
+  "chainType": "cosmos",
   "chainId": "Antora",
   "bech32Prefix": "idep",
   "keyAlgos": [

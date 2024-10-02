@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://comdex.one/",
   "prettyName": "Comdex",
+  "chainType": "cosmos",
   "chainId": "comdex-1",
   "bech32Prefix": "comdex",
   "slip44": 118,
@@ -27,9 +28,16 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.9",
-    "ibcGoVersion": "v7.4.0",
     "cosmwasmVersion": "v0.45.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.9"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0",
+      "enabled": true
+    }
   },
   "keyAlgos": [
     "secp256k1"

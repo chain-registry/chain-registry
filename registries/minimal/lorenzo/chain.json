@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.lorenzo-protocol.xyz/",
   "prettyName": "Lorenzo Protocol",
+  "chainType": "cosmos",
   "chainId": "lorenzo_8329-1",
   "bech32Prefix": "lrz",
   "keyAlgos": [

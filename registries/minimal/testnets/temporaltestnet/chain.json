@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "temporaltestnet",
+  "chainType": "cosmos",
   "chainId": "temporal-test-2",
   "prettyName": "Temporal Testnet",
   "networkType": "testnet",

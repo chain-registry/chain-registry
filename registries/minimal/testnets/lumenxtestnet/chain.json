@@ -3,6 +3,7 @@
   "chainName": "lumenxtestnet",
   "networkType": "testnet",
   "prettyName": "LumenX-Test",
+  "chainType": "cosmos",
   "chainId": "lumenx-test",
   "bech32Prefix": "lumen",
   "keyAlgos": [
@@ -28,9 +29,7 @@
     ]
   },
   "codebase": {
-    "icsEnabled": [
-      "ics20-1"
-    ]
+
   },
   "apis": {
     "rpc": [

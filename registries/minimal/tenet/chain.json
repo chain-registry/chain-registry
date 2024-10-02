@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://tenet.org/",
   "prettyName": "Tenet",
+  "chainType": "cosmos",
   "chainId": "tenet_1559-1",
   "bech32Prefix": "tenet",
   "keyAlgos": [
@@ -33,7 +34,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.46",
-    "ibcGoVersion": "6.1.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46"
+    }
   },
   "apis": {
     "rpc": [

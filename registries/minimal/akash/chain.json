@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://akash.network/",
   "prettyName": "Akash",
+  "chainType": "cosmos",
   "chainId": "akashnet-2",
   "bech32Prefix": "akash",
   "slip44": 118,
@@ -27,7 +28,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.45.16",
-    "ibcGoVersion": "v4.6.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45.16"
+    }
   },
   "description": "Akash is open-source Supercloud that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.",
   "apis": {

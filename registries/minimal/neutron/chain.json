@@ -3,6 +3,7 @@
   "chainName": "neutron",
   "networkType": "mainnet",
   "prettyName": "Neutron",
+  "chainType": "cosmos",
   "chainId": "neutron-1",
   "bech32Prefix": "neutron",
   "website": "https://neutron.org/",
@@ -61,7 +62,17 @@
     "cosmosSdkVersion": "neutron-org/cosmos-sdk v0.50.7-neutron",
     "cosmwasmVersion": "neutron-org/wasmd v0.51.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v8.2.1"
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/neutron-org/cosmos-sdk",
+      "version": "v0.50.7",
+      "tag": "v0.50.7-neutron"
+    },
+    "cosmwasm": {
+      "version": "v0.51.0",
+      "repo": "https://github.com/neutron-org/wasmd",
+      "enabled": true
+    }
   },
   "description": "The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.",
   "apis": {

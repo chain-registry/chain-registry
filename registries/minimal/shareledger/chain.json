@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.sharering.network/",
   "prettyName": "Shareledger",
+  "chainType": "cosmos",
   "chainId": "ShareRing-VoyagerNet",
   "bech32Prefix": "shareledger",
   "keyAlgos": [
@@ -32,10 +33,14 @@
     "cosmosSdkVersion": "0.45",
     "cosmwasmVersion": "0.27",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "3.0.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.27",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

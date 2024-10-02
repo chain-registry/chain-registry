@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://arkhadian.com/",
   "prettyName": "Arkhadian",
+  "chainType": "cosmos",
   "chainId": "arkh",
   "bech32Prefix": "arkh",
   "keyAlgos": [

@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "govgen",
+  "chainType": "cosmos",
   "chainId": "govgen-1",
   "website": "https://govgen.io/",
   "prettyName": "GovGen",
@@ -29,7 +30,11 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.45.16"
+    "cosmosSdkVersion": "v0.45.16",
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45.16"
+    }
   },
   "description": "GovGen is a governance-only chain separate from the proposed AtomOne hub chain. GovGen aims to gauge the sentiment of those who voted “NO” or “NO_WITH_VETO” on Cosmos Hub proposal 848 regarding the potential future of AtomOne. Through the native, non-transferable GOVGEN governance-only token, this community can come together to discuss, debate, submit proposals, and help shape the future of AtomOne in a fully decentralized community-driven initiative.",
   "apis": {

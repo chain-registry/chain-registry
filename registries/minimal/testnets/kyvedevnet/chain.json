@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "kyvedevnet",
+  "chainType": "cosmos",
   "chainId": "korellia-2",
   "prettyName": "KYVE Korellia",
   "networkType": "devnet",

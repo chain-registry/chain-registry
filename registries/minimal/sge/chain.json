@@ -3,6 +3,7 @@
   "chainName": "sge",
   "networkType": "mainnet",
   "prettyName": "SGE",
+  "chainType": "cosmos",
   "chainId": "sgenet-1",
   "bech32Prefix": "sge",
   "keyAlgos": [
@@ -29,7 +30,12 @@
   },
   "codebase": {
     "cosmosSdkVersion": "sge-network/cosmos-sdk v0.47.9-0.20240409081440-054c8c413d45",
-    "ibcGoVersion": "v7.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/sge-network/cosmos-sdk",
+      "version": "v0.47.9",
+      "tag": "v0.47.9-0.20240409081440-054c8c413d45"
+    }
   },
   "apis": {
     "rpc": [

@@ -3,6 +3,7 @@
   "chainName": "mythos",
   "networkType": "mainnet",
   "prettyName": "Mythos",
+  "chainType": "cosmos",
   "chainId": "mythos_7001-1",
   "bech32Prefix": "mythos",
   "keyAlgos": [

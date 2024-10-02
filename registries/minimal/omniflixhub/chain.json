@@ -4,13 +4,20 @@
   "networkType": "mainnet",
   "website": "https://omniflix.network/",
   "prettyName": "OmniFlix",
+  "chainType": "cosmos",
   "chainId": "omniflixhub-1",
   "bech32Prefix": "omniflix",
   "slip44": 118,
   "codebase": {
     "cosmosSdkVersion": "v0.47.10",
-    "ibcGoVersion": "v7.4.0",
-    "cosmwasmVersion": "v0.45.0"
+    "cosmwasmVersion": "v0.45.0",
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.10"
+    },
+    "cosmwasm": {
+      "version": "v0.45.0"
+    }
   },
   "fees": {
     "feeTokens": [

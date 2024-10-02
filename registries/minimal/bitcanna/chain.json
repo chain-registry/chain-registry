@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.bitcanna.io/",
   "prettyName": "BitCanna",
+  "chainType": "cosmos",
   "chainId": "bitcanna-1",
   "bech32Prefix": "bcna",
   "keyAlgos": [
@@ -30,7 +31,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.11",
-    "ibcGoVersion": "v7.4.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.11"
+    }
   },
   "apis": {
     "rpc": [

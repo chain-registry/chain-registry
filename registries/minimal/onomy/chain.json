@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://onomy.io/",
   "prettyName": "Onomy",
+  "chainType": "cosmos",
   "chainId": "onomy-mainnet-1",
   "bech32Prefix": "onomy",
   "keyAlgos": [
@@ -29,7 +30,12 @@
   },
   "codebase": {
     "cosmosSdkVersion": "onomyprotocol/onomy-sdk v0.45.16-onomy-dev",
-    "ibcGoVersion": "v4.4.2"
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/onomyprotocol/onomy-sdk",
+      "version": "v0.45.16",
+      "tag": "v0.45.16-onomy-dev"
+    }
   },
   "apis": {
     "rpc": [

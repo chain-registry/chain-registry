@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "tron",
+  "chainType": "unknown",
   "website": "https://tron.network/",
   "networkType": "mainnet",
   "prettyName": "Tron",

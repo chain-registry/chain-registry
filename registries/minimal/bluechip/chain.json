@@ -4,6 +4,7 @@
   "website": "https://www.bluechip.link",
   "networkType": "mainnet",
   "prettyName": "BlueChip",
+  "chainType": "cosmos",
   "chainId": "bluechip-2",
   "bech32Prefix": "bcp",
   "slip44": 118,
@@ -31,7 +32,14 @@
   "description": "Stake to the BlueChip chain, interact with the creator pools, and subscribe through the creator subscription contracts.",
   "codebase": {
     "cosmosSdkVersion": "0.47.11",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47.11"
+    },
+    "cosmwasm": {
+      "enabled": true
+    }
   },
   "images": [
     {

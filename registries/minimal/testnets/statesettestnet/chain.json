@@ -3,6 +3,7 @@
   "chainName": "statesettestnet",
   "networkType": "testnet",
   "prettyName": "Stateset Testnet",
+  "chainType": "cosmos",
   "chainId": "stateset-1-testnet",
   "bech32Prefix": "stateset",
   "keyAlgos": [

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://mtgbp.com/",
   "prettyName": "mtgbp",
+  "chainType": "cosmos",
   "chainId": "mtgbp-1",
   "bech32Prefix": "mtgbp",
   "keyAlgos": [

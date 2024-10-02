@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "seidevnet3",
+  "chainType": "cosmos",
   "chainId": "sei-devnet-3",
   "prettyName": "Sei Devnet 3",
   "networkType": "devnet",

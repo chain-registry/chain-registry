@@ -3,6 +3,7 @@
   "chainName": "logos",
   "networkType": "mainnet",
   "prettyName": "Logos",
+  "chainType": "cosmos",
   "chainId": "logos_7002-1",
   "bech32Prefix": "logos",
   "keyAlgos": [

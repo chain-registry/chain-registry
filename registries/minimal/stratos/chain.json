@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.thestratos.org",
   "prettyName": "Stratos",
+  "chainType": "cosmos",
   "chainId": "stratos-1",
   "bech32Prefix": "st",
   "keyAlgos": [

@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "axelar",
+  "chainType": "cosmos",
   "chainId": "axelar-dojo-1",
   "prettyName": "Axelar",
   "networkType": "mainnet",
@@ -30,9 +31,18 @@
   },
   "codebase": {
     "cosmosSdkVersion": "axelarnetwork/cosmos-sdk v0.45.17-0.20240321205000-47c0c80e20ca",
-    "ibcGoVersion": "v4.6.0",
     "cosmwasmVersion": "v0.33.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/axelarnetwork/cosmos-sdk",
+      "version": "v0.45.17",
+      "tag": "v0.45.17-0.20240321205000-47c0c80e20ca"
+    },
+    "cosmwasm": {
+      "version": "v0.33.0",
+      "enabled": true
+    }
   },
   "description": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click.",
   "apis": {

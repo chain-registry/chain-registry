@@ -3,6 +3,7 @@
   "chainName": "cudos",
   "networkType": "mainnet",
   "prettyName": "Cudos",
+  "chainType": "cosmos",
   "chainId": "cudos-1",
   "bech32Prefix": "cudos",
   "website": "https://www.cudos.org/",

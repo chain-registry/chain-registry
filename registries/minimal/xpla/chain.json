@@ -4,6 +4,7 @@
   "website": "https://xpla.io",
   "networkType": "mainnet",
   "prettyName": "XPLA",
+  "chainType": "cosmos",
   "chainId": "dimension_37-1",
   "bech32Prefix": "xpla",
   "keyAlgos": [
@@ -30,8 +31,16 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.13-xpla",
-    "ibcGoVersion": "v7.7.0",
-    "cosmwasmVersion": "v0.46.0"
+    "cosmwasmVersion": "v0.46.0",
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/xpladev/cosmos-sdk",
+      "version": "v0.47.13",
+      "tag": "v0.47.13-xpla"
+    },
+    "cosmwasm": {
+      "version": "v0.46.0"
+    }
   },
   "apis": {
     "rpc": [

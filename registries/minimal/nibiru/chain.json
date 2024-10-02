@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://nibiru.fi/",
   "prettyName": "Nibiru",
+  "chainType": "cosmos",
   "chainId": "cataclysm-1",
   "bech32Prefix": "nibi",
   "keyAlgos": [
@@ -33,9 +34,16 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.11",
-    "ibcGoVersion": "v7.3.2",
     "cosmwasmVersion": "v0.44.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.11"
+    },
+    "cosmwasm": {
+      "version": "v0.44.0",
+      "enabled": true
+    }
   },
   "description": "A Web3 hub ushering in the next era of money",
   "apis": {

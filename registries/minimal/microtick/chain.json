@@ -3,6 +3,7 @@
   "chainName": "microtick",
   "networkType": "mainnet",
   "prettyName": "Microtick",
+  "chainType": "cosmos",
   "chainId": "microtick-1",
   "bech32Prefix": "micro",
   "slip44": 118,

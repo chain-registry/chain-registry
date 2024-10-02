@@ -3,6 +3,7 @@
   "chainName": "sixtestnet",
   "networkType": "testnet",
   "prettyName": "SIX Fivenet",
+  "chainType": "cosmos",
   "chainId": "fivenet",
   "bech32Prefix": "6x",
   "keyAlgos": [
@@ -28,7 +29,11 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.45"
+    "cosmosSdkVersion": "0.45",
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    }
   },
   "apis": {
     "rpc": [

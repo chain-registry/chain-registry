@@ -4,6 +4,7 @@
   "networkType": "testnet",
   "website": "https://qwoyn.studio/",
   "prettyName": "Qwoyn",
+  "chainType": "cosmos",
   "chainId": "earendel-1",
   "bech32Prefix": "qwoyn",
   "keyAlgos": [
@@ -26,11 +27,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.47.3",
-    "ibcGoVersion": "7.0.1",
-    "icsEnabled": [
-      "ics20-1",
-      "ics27-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47.3"
+    }
   },
   "apis": {
     "rpc": [

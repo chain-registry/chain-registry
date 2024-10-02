@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://tgrade.finance/",
   "prettyName": "Tgrade",
+  "chainType": "cosmos",
   "chainId": "tgrade-mainnet-1",
   "bech32Prefix": "tgrade",
   "keyAlgos": [
@@ -29,7 +30,10 @@
     ]
   },
   "codebase": {
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "cosmwasm": {
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

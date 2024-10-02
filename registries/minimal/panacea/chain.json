@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://medibloc.com/en/",
   "prettyName": "Medibloc",
+  "chainType": "cosmos",
   "chainId": "panacea-3",
   "bech32Prefix": "panacea",
   "keyAlgos": [

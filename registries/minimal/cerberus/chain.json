@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://cerberus.zone/",
   "prettyName": "Cerberus",
+  "chainType": "cosmos",
   "chainId": "cerberus-chain-1",
   "bech32Prefix": "cerberus",
   "slip44": 118,

@@ -4,6 +4,7 @@
   "website": "https://like.co/",
   "networkType": "mainnet",
   "prettyName": "LikeCoin",
+  "chainType": "cosmos",
   "chainId": "likecoin-mainnet-2",
   "bech32Prefix": "like",
   "keyAlgos": [
@@ -34,10 +35,13 @@
   "codebase": {
     "cosmosSdkVersion": "0.46",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "6.3.0",
-    "icsEnabled": [
-      "ics20-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.46"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "apis": {
     "rpc": [

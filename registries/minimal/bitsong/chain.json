@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://bitsong.io/",
   "prettyName": "BitSong",
+  "chainType": "cosmos",
   "chainId": "bitsong-2b",
   "bech32Prefix": "bitsong",
   "slip44": 639,
@@ -11,7 +12,14 @@
     "cosmosSdkVersion": "v0.45.16",
     "cosmwasmVersion": "v0.33.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v4.4.2"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45.16"
+    },
+    "cosmwasm": {
+      "version": "v0.33.0",
+      "enabled": true
+    }
   },
   "fees": {
     "feeTokens": [

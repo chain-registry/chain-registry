@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "deardogetestnet",
+  "chainType": "cosmos",
   "chainId": "deardoge-testnet",
   "prettyName": "Dear Doge Testnet",
   "networkType": "testnet",

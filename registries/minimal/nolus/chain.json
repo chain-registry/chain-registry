@@ -4,6 +4,7 @@
   "website": "https://nolus.io/",
   "networkType": "mainnet",
   "prettyName": "Nolus",
+  "chainType": "cosmos",
   "chainId": "pirin-1",
   "bech32Prefix": "nolus",
   "keyAlgos": [
@@ -35,11 +36,17 @@
     "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.50.7-nolus-rc1",
     "cosmwasmVersion": "neutron-org/wasmd v0.51.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v8.2.1",
-    "icsEnabled": [
-      "ics20-1",
-      "ics27-1"
-    ]
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/nolus-protocol/cosmos-sdk",
+      "version": "v0.50.7",
+      "tag": "v0.50.7-nolus-rc1"
+    },
+    "cosmwasm": {
+      "version": "v0.51.0",
+      "repo": "https://github.com/neutron-org/wasmd",
+      "enabled": true
+    }
   },
   "description": "Elevate your game with up to 3x equity. Dive into a world of minimized risks and unlock the full potential of your assets.",
   "apis": {

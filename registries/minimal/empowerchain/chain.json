@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "empowerchain",
+  "chainType": "cosmos",
   "chainId": "empowerchain-1",
   "prettyName": "EmpowerChain",
   "networkType": "mainnet",
@@ -29,7 +30,11 @@
   },
   "codebase": {
     "cosmwasmVersion": "0.45",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "cosmwasm": {
+      "version": "0.45",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

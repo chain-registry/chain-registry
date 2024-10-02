@@ -3,6 +3,7 @@
   "chainName": "bitcannadevnet",
   "networkType": "testnet",
   "prettyName": "BitCanna Devnet-1",
+  "chainType": "cosmos",
   "chainId": "bitcanna-dev-1",
   "bech32Prefix": "bcna",
   "keyAlgos": [

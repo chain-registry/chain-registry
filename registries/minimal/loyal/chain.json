@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://www.joinloyal.com/",
   "prettyName": "Loyal",
+  "chainType": "cosmos",
   "chainId": "loyal-main-02",
   "bech32Prefix": "loyal",
   "keyAlgos": [

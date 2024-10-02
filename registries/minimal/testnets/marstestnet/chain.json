@@ -3,6 +3,7 @@
   "chainName": "marstestnet",
   "networkType": "testnet",
   "prettyName": "Mars Hub Testnet",
+  "chainType": "cosmos",
   "chainId": "ares-1",
   "bech32Prefix": "mars",
   "keyAlgos": [
@@ -28,9 +29,7 @@
     ]
   },
   "codebase": {
-    "icsEnabled": [
-      "ics20-1"
-    ]
+
   },
   "apis": {
     "rpc": [

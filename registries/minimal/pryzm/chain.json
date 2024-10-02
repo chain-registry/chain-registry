@@ -5,6 +5,7 @@
   "description": "Trade Your Future Yield, Today",
   "networkType": "mainnet",
   "prettyName": "Pryzm",
+  "chainType": "cosmos",
   "chainId": "pryzm-1",
   "bech32Prefix": "pryzm",
   "keyAlgos": [
@@ -104,13 +105,16 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.13",
-    "ibcGoVersion": "v7.4.1",
-    "icsEnabled": [
-      "ics20-1",
-      "ics27-1"
-    ],
     "cosmwasmEnabled": true,
-    "cosmwasmVersion": "v0.46.0"
+    "cosmwasmVersion": "v0.46.0",
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.13"
+    },
+    "cosmwasm": {
+      "version": "v0.46.0",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://palomachain.com/",
   "prettyName": "Paloma",
+  "chainType": "cosmos",
   "chainId": "tumbler",
   "bech32Prefix": "paloma",
   "keyAlgos": [
@@ -27,7 +28,10 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.50.6",
-    "ibcGoVersion": "v8.2.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.6"
+    }
   },
   "apis": {
     "rpc": [

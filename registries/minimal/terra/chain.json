@@ -3,6 +3,7 @@
   "chainName": "terra",
   "networkType": "mainnet",
   "prettyName": "Terra Classic",
+  "chainType": "cosmos",
   "chainId": "columbus-5",
   "bech32Prefix": "terra",
   "slip44": 330,

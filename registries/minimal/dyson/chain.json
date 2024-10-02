@@ -4,6 +4,7 @@
   "website": "https://dysonprotocol.com/",
   "networkType": "mainnet",
   "prettyName": "Dyson Protocol",
+  "chainType": "cosmos",
   "chainId": "dyson-mainnet-01",
   "bech32Prefix": "dys",
   "slip44": 118,

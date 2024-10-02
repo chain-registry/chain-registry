@@ -3,6 +3,7 @@
   "chainName": "sagatestnet",
   "networkType": "testnet",
   "prettyName": "Saga Testnet",
+  "chainType": "cosmos",
   "chainId": "ssc-testnet-1",
   "bech32Prefix": "saga",
   "keyAlgos": [
@@ -29,7 +30,14 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.47",
-    "cosmwasmEnabled": false
+    "cosmwasmEnabled": false,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
   },
   "apis": {
     "rpc": [

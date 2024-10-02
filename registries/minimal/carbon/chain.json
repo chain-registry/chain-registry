@@ -3,6 +3,7 @@
   "chainName": "carbon",
   "networkType": "mainnet",
   "prettyName": "Carbon",
+  "chainType": "cosmos",
   "chainId": "carbon-1",
   "bech32Prefix": "swth",
   "website": "https://www.carbon.network/",

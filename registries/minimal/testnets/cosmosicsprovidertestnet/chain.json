@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "cosmosicsprovidertestnet",
+  "chainType": "cosmos",
   "chainId": "provider",
   "prettyName": "Cosmos ICS Provider Testnet",
   "networkType": "testnet",
@@ -29,7 +30,11 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.50.9-lsm",
-    "ibcGoVersion": "v8.5.1"
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.9",
+      "tag": "v0.50.9-lsm"
+    }
   },
   "apis": {
     "rpc": [

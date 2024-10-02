@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "ton",
+  "chainType": "unknown",
   "website": "https://ton.tg/",
   "networkType": "mainnet",
   "prettyName": "TON (The Open Network)",

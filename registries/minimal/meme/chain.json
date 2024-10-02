@@ -3,6 +3,7 @@
   "chainName": "meme",
   "networkType": "mainnet",
   "prettyName": "MEME",
+  "chainType": "cosmos",
   "chainId": "meme-1",
   "bech32Prefix": "meme",
   "keyAlgos": [

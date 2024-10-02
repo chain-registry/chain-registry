@@ -3,6 +3,7 @@
   "chainName": "permtestnet",
   "networkType": "testnet",
   "prettyName": "Perm Testnet",
+  "chainType": "cosmos",
   "chainId": "INVALID-ID-permtestnet-testnet-1",
   "bech32Prefix": "perm",
   "keyAlgos": [
@@ -30,7 +31,14 @@
     "cosmosSdkVersion": "0.45",
     "cosmwasmVersion": "0.30",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "4.3.0"
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.30",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

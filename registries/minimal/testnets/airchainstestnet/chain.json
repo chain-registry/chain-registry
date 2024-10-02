@@ -4,6 +4,7 @@
   "website": "https://airchains.io/",
   "networkType": "testnet",
   "prettyName": "Airchains Switchyard Testnet",
+  "chainType": "cosmos",
   "chainId": "junction",
   "bech32Prefix": "air",
   "keyAlgos": [
@@ -29,7 +30,11 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.50.3"
+    "cosmosSdkVersion": "0.50.3",
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.3"
+    }
   },
   "images": [
     {

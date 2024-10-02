@@ -4,6 +4,7 @@
   "networkType": "mainnet",
   "website": "https://teritori.com/",
   "prettyName": "Teritori",
+  "chainType": "cosmos",
   "chainId": "teritori-1",
   "bech32Prefix": "tori",
   "slip44": 118,
@@ -25,10 +26,18 @@
     ]
   },
   "codebase": {
-    "ibcGoVersion": "v7.3.1",
     "cosmosSdkVersion": "v0.47.6",
     "cosmwasmVersion": "v0.41.0",
-    "cosmwasmEnabled": true
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.6"
+    },
+    "cosmwasm": {
+      "version": "v0.41.0",
+      "path": "$HOME/.teritorid/data/wasm",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [
