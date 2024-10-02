@@ -43,9 +43,9 @@ const options: RegistryBuilderOptions = {
       '/chain_name',
       '/chain_type',
       // codebase
-      '/codebase/cosmos_sdk_version',
-      '/codebase/cosmwasm_enabled',
-      '/codebase/cosmwasm_version',
+      '/codebase/cosmos_sdk_version', // deprecate soon
+      '/codebase/cosmwasm_enabled', // deprecate soon
+      '/codebase/cosmwasm_version', // deprecate soon
       '/codebase/sdk',
       '/codebase/cosmwasm',
       // END codebase
