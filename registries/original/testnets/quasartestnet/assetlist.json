@@ -23,7 +23,8 @@
       "base": "uqsr",
       "name": "Quasar",
       "display": "qsr",
-      "symbol": "QSR"
+      "symbol": "QSR",
+      "type_asset": "sdk.coin"
     },
     {
       "denom_units": [
@@ -39,7 +40,8 @@
       "base": "uayy",
       "name": "AYY",
       "display": "ayy",
-      "symbol": "AYY"
+      "symbol": "AYY",
+      "type_asset": "sdk.coin"
     },
     {
       "denom_units": [
@@ -55,7 +57,8 @@
       "base": "uoro",
       "name": "oro",
       "display": "oro",
-      "symbol": "ORO"
+      "symbol": "ORO",
+      "type_asset": "sdk.coin"
     }
   ]
 }

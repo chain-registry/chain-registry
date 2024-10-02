@@ -19,7 +19,7 @@
       "display": "luna",
       "symbol": "LUNA",
       "coingeckoId": "terra-luna-2",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

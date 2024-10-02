@@ -142,7 +142,7 @@
       "name": "AstroPepe",
       "display": "ASTROPEPE",
       "symbol": "ASTROPEPE",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "wstETH on Neutron",
@@ -170,7 +170,7 @@
           "provider": "Lido wstETH Cosmos Bridge"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "NBTC on Neutron",
@@ -262,7 +262,7 @@
       "display": "newt",
       "symbol": "NEWT",
       "coingeckoId": "newt",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -284,7 +284,7 @@
       "display": "astro",
       "symbol": "ASTRO",
       "coingeckoId": "astroport-fi",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -315,7 +315,7 @@
           "provider": "Astroport"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ASTRO.cw20 on Neutron",
@@ -373,7 +373,7 @@
       "name": "Baby Corgi",
       "display": "corgi",
       "symbol": "CORGI",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "clownmaxxed store of value",
@@ -394,7 +394,7 @@
       "name": "AtomEconomicZone69JaeKwonInu",
       "display": "circus",
       "symbol": "CIRCUS",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Jimmy Neutron Finance",
@@ -415,7 +415,7 @@
       "name": "jimmy",
       "display": "jimmy",
       "symbol": "JIMMY",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Baddest coin on Cosmos",
@@ -436,7 +436,7 @@
       "name": "Badcoin",
       "display": "bad",
       "symbol": "BAD",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "BITCOSMOS",
@@ -534,7 +534,7 @@
       "name": "Goddard",
       "display": "goddard",
       "symbol": "GODRD",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The deflationary utility token of the Apollo DAO project",
@@ -555,7 +555,7 @@
       "name": "Apollo DAO",
       "display": "apollo",
       "symbol": "APOLLO",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "NEWTROLL",
@@ -576,7 +576,7 @@
       "name": "Newtroll",
       "display": "newtroll",
       "symbol": "NTRL",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Retro Game",
@@ -597,7 +597,7 @@
       "name": "Retro",
       "display": "retro",
       "symbol": "RETRO",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "THE FIRST NATIVE GODDARD MEMECOIN ON NEUTRON",
@@ -618,7 +618,7 @@
       "name": "Goddard",
       "display": "goddard",
       "symbol": "GODDARD",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The first memecoin on osmosis.",
@@ -724,7 +724,7 @@
       "name": "cartel",
       "display": "cartel",
       "symbol": "CARTEL",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "$ATOM to $1,000 LFG!!",
@@ -745,7 +745,7 @@
       "name": "ATOM1KLFG",
       "display": "ATOM1KLFG",
       "symbol": "ATOM1KLFG",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "assetType": "ics20",
@@ -803,7 +803,7 @@
       "name": "WEIRD",
       "display": "WEIRD",
       "symbol": "WEIRD",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -823,7 +823,7 @@
       "name": "Takumi Asano",
       "display": "takumi",
       "symbol": "TAKUMI",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "name": "Ninja Blaze Token",
@@ -844,7 +844,7 @@
       "base": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
       "display": "NBZ",
       "symbol": "NBZ",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Mars Protocol is a cross-collateralized Money Market Protocol on Neutron and Osmosis.",
@@ -866,7 +866,7 @@
       "display": "MARS",
       "symbol": "MARS",
       "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Drop staked ATOM",
@@ -895,7 +895,7 @@
           "provider": "Drop Protocol"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "SinGarden token",
@@ -916,7 +916,7 @@
       "name": "SIN",
       "display": "SIN",
       "symbol": "SIN",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "CryptoGopniks token",
@@ -937,7 +937,7 @@
       "name": "GOP",
       "display": "GOP",
       "symbol": "GOP",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

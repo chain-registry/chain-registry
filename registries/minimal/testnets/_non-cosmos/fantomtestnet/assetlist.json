@@ -14,11 +14,11 @@
           "exponent": 18
         }
       ],
+      "assetType": "evm-base",
       "base": "wei",
       "name": "Fantom",
       "display": "ftm",
-      "symbol": "FTM",
-      "assetType": "unknown"
+      "symbol": "FTM"
     },
     {
       "description": "ERC20 wrapped version of FTM",

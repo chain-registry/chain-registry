@@ -14,7 +14,7 @@
       "name": "qfs",
       "display": "qfs",
       "symbol": "QFS",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

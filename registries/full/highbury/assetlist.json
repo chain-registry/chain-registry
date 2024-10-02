@@ -32,7 +32,7 @@
           }
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Governance token of Jinx Wallet and Fury Lend Protocol",
@@ -63,7 +63,7 @@
           }
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Governance token of Fury Swap Protocol",
@@ -94,7 +94,7 @@
           }
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

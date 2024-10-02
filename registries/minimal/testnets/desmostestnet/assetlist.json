@@ -19,7 +19,7 @@
       "display": "daric",
       "symbol": "DARIC",
       "coingeckoId": "desmos",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

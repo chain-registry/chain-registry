@@ -18,7 +18,7 @@
       "name": "Secret Network",
       "display": "scrt",
       "symbol": "SCRT",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

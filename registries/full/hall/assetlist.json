@@ -30,7 +30,7 @@
         "website": "https://coinhall.org/",
         "twitter": "https://twitter.com/coinhall_org"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -28,7 +28,7 @@
           "provider": "Neura"
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

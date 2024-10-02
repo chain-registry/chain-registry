@@ -37,7 +37,7 @@
           }
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The cash credit token of Commercio.network",
@@ -74,7 +74,7 @@
           }
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

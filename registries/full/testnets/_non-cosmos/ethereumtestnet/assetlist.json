@@ -21,6 +21,7 @@
           ]
         }
       ],
+      "assetType": "evm-base",
       "base": "wei",
       "name": "Ether",
       "display": "eth",
@@ -33,8 +34,7 @@
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth.svg"
         }
-      ],
-      "assetType": "unknown"
+      ]
     },
     {
       "description": "wETH is 'wrapped ETH'",

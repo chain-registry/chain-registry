@@ -14,6 +14,7 @@
           "exponent": 18
         }
       ],
+      "assetType": "evm-base",
       "base": "wei",
       "name": "Avalanche",
       "display": "avax",
@@ -28,8 +29,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png",
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.svg"
         }
-      ],
-      "assetType": "unknown"
+      ]
     },
     {
       "description": "The wrapped ERC-20 representation of AVAX, the native token of Avalanche.",

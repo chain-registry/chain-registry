@@ -17,12 +17,12 @@
           ]
         }
       ],
+      "assetType": "evm-base",
       "base": "wei",
       "name": "Matic",
       "display": "matic",
       "symbol": "MATIC",
-      "coingeckoId": "matic-network",
-      "assetType": "unknown"
+      "coingeckoId": "matic-network"
     },
     {
       "description": "Polygon combines the best of Ethereum and sovereign blockchains into a full-fledged multi-chain system.",

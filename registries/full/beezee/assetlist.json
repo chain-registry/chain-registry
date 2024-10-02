@@ -64,7 +64,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "OSMO from Osmosis",
@@ -148,7 +148,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native token of Archway network",

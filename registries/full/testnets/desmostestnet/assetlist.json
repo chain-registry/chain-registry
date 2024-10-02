@@ -29,7 +29,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/desmos/images/dsm.svg"
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

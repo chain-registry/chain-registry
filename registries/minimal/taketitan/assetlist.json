@@ -14,7 +14,7 @@
       "name": "taketitan",
       "display": "ttnc",
       "symbol": "TTNC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

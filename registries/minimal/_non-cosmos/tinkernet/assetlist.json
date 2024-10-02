@@ -14,12 +14,12 @@
           "exponent": 12
         }
       ],
+      "assetType": "substrate",
       "base": "Planck",
       "name": "Tinkernet",
       "display": "TNKR",
       "symbol": "TNKR",
-      "coingeckoId": "tinkernet",
-      "assetType": "unknown"
+      "coingeckoId": "tinkernet"
     }
   ]
 }

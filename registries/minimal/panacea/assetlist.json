@@ -19,7 +19,7 @@
       "display": "med",
       "symbol": "MED",
       "coingeckoId": "medibloc",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

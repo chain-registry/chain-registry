@@ -19,7 +19,7 @@
       "display": "lamb",
       "symbol": "LAMB",
       "coingeckoId": "lambda",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -31,7 +31,7 @@
         "website": "https://namada.net/",
         "twitter": "https://twitter.com/namada"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

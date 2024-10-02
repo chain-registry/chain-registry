@@ -38,7 +38,7 @@
       "display": "vdl",
       "symbol": "VDL",
       "coingeckoId": "vidulum",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "OSMO from Osmosis",
@@ -94,7 +94,7 @@
       "name": "Crypto2Mars",
       "display": "C2M",
       "symbol": "C2M",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native token of Archway network",

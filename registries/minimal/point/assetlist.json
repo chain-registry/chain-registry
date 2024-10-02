@@ -19,7 +19,7 @@
       "display": "point",
       "symbol": "POINT",
       "coingeckoId": "point-network",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

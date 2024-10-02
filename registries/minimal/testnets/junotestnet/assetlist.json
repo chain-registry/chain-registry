@@ -37,7 +37,7 @@
       "name": "NEXX GEN AI",
       "display": "nexx",
       "symbol": "NEXX",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "assetType": "sdk.coin",

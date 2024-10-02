@@ -14,6 +14,7 @@
           "exponent": 18
         }
       ],
+      "assetType": "evm-base",
       "base": "wei",
       "name": "Fantom",
       "display": "ftm",
@@ -25,8 +26,7 @@
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png"
         }
-      ],
-      "assetType": "unknown"
+      ]
     },
     {
       "description": "ERC20 wrapped version of FTM",

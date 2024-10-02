@@ -35,7 +35,7 @@
         "website": "https://www.lorenzo-protocol.xyz/",
         "twitter": "https://x.com/LorenzoProtocol"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "stBTC is the liquid principal token of the Lorenzo protocol, designed to represent staked Bitcoin within the Babylon ecosystem.\n\n",
@@ -81,7 +81,7 @@
         "website": "https://www.lorenzo-protocol.xyz/",
         "twitter": "https://x.com/LorenzoProtocol"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

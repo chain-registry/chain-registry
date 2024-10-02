@@ -23,7 +23,7 @@
       "display": "aioz",
       "symbol": "AIOZ",
       "coingeckoId": "aioz-network",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

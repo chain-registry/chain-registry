@@ -37,7 +37,7 @@
       "name": "ampWHALE",
       "display": "ampWHALE",
       "symbol": "ampWHALE",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "BackBone Labs Liquid Staked WHALE",
@@ -56,7 +56,7 @@
       "display": "bWHALE",
       "symbol": "bWHALE",
       "coingeckoId": "backbone-labs-staked-whale",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "FABLE",
@@ -74,7 +74,7 @@
       "name": "FABLE",
       "display": "fable",
       "symbol": "FABLE",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "boneLUNA are autocompounding LUNA tokens",
@@ -127,7 +127,7 @@
       "name": "Racoon",
       "display": "RAC",
       "symbol": "RAC",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ASH",
@@ -145,7 +145,7 @@
       "name": "ASH",
       "display": "ASH",
       "symbol": "ASH",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Tether USDt on Migaloo",
@@ -214,7 +214,7 @@
       "name": "GUPPY",
       "display": "GUPPY",
       "symbol": "GUPPY",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "OPHIR is a Cosmos Treasury DAO established on Migaloo.",
@@ -232,7 +232,7 @@
       "name": "OPHIR",
       "display": "OPHIR",
       "symbol": "OPHIR",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "SHARK is the apex price prediction market within Cosmos.",
@@ -250,7 +250,7 @@
       "name": "SHARK",
       "display": "SHARK",
       "symbol": "SHARK",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "lsdSHARK is the liquid staking derivative of SHARK.",
@@ -278,7 +278,7 @@
           "provider": "Shark Protocol"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native staking token of Terra.",
@@ -292,6 +292,7 @@
           "exponent": 6
         }
       ],
+      "assetType": "ics20",
       "base": "ibc/4627AD2524E3E0523047E35BB76CC90E37D9D57ACF14F0FCBCEB2480705F3CB8",
       "name": "Luna",
       "display": "luna",
@@ -310,8 +311,7 @@
           }
         }
       ],
-      "coingeckoId": "terra-luna-2",
-      "assetType": "ics20"
+      "coingeckoId": "terra-luna-2"
     },
     {
       "description": "Rakoff Token",
@@ -363,7 +363,7 @@
       "name": "GASH",
       "display": "gash",
       "symbol": "GASH",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Restake DAO Token",
@@ -381,7 +381,7 @@
       "name": "RESTAKE",
       "display": "rstk",
       "symbol": "RSTK",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Frogztrik NFT Token",
@@ -433,7 +433,7 @@
       "name": "Gaming RAC Token",
       "display": "GRAC",
       "symbol": "GRAC",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -533,7 +533,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [

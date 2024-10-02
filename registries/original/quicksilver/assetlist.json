@@ -39,7 +39,8 @@
       "socials": {
         "website": "https://quicksilver.zone/",
         "twitter": "https://twitter.com/quicksilverzone"
-      }
+      },
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked STARS",
@@ -85,7 +86,8 @@
             "primary_color_hex": "#fc944c"
           }
         }
-      ]
+      ],
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked ATOM",
@@ -131,7 +133,8 @@
             "primary_color_hex": "#fc944c"
           }
         }
-      ]
+      ],
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked REGEN",
@@ -177,7 +180,8 @@
             "primary_color_hex": "#fc944c"
           }
         }
-      ]
+      ],
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked OSMO",
@@ -223,7 +227,8 @@
             "primary_color_hex": "#fc944c"
           }
         }
-      ]
+      ],
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked SOMM",
@@ -269,7 +274,8 @@
             "primary_color_hex": "#fc944c"
           }
         }
-      ]
+      ],
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked JUNO",
@@ -315,7 +321,8 @@
             "primary_color_hex": "#fc944c"
           }
         }
-      ]
+      ],
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked DYDX",
@@ -361,7 +368,8 @@
             "primary_color_hex": "#fc944c"
           }
         }
-      ]
+      ],
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked SAGA",
@@ -407,7 +415,8 @@
             "primary_color_hex": "#f9924b"
           }
         }
-      ]
+      ],
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Quicksilver Liquid Staked BLD",
@@ -453,7 +462,8 @@
             "primary_color_hex": "#fc944c"
           }
         }
-      ]
+      ],
+      "type_asset": "sdk.coin"
     },
     {
       "description": "Noble USDC via dYdX Protocol",

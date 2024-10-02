@@ -69,7 +69,7 @@
       "name": "Neokingdom DAO",
       "display": "neok",
       "symbol": "NEOK",
-      "assetType": "erc20"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The legacy token of Teledisko DAO.",

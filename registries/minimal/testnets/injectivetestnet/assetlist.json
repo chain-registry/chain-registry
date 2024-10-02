@@ -19,7 +19,7 @@
       "display": "INJ",
       "symbol": "INJ",
       "coingeckoId": "injective-protocol",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

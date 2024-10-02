@@ -18,7 +18,7 @@
       "name": "Babylon BBN",
       "display": "bbn",
       "symbol": "BBN",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

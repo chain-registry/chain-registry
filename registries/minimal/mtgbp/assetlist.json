@@ -14,7 +14,7 @@
       "name": "mtgbp",
       "display": "mtgbp",
       "symbol": "MTGBP",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

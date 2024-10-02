@@ -866,7 +866,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/osmosistestnet/images/willyz.svg"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The yield token for ATOM denominated vaults on Amulet Protocol",

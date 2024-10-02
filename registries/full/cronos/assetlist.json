@@ -41,7 +41,7 @@
       "logoURIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Tether USDt on Cronos",

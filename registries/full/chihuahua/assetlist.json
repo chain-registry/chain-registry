@@ -99,7 +99,7 @@
         "website": "https://baddog.lol/",
         "twitter": "https://x.com/chihuahuawifhat"
       },
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Woof",
@@ -128,7 +128,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Tacos",
@@ -157,7 +157,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Weed",
@@ -186,7 +186,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Bulldog",
@@ -215,7 +215,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "CaneCorso",
@@ -244,7 +244,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "BackBone Labs Liquid Staked HUAHUA",

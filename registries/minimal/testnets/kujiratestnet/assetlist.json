@@ -36,7 +36,7 @@
       "name": "Fuzion",
       "display": "fuzn",
       "symbol": "FUZN",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

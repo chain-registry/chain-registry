@@ -52,7 +52,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kujiratestnet/images/fuzn.png"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

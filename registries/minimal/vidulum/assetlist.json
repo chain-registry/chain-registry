@@ -29,7 +29,7 @@
           "provider": "Vidulum"
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -123,7 +123,7 @@
         "website": "https://www.neokingdom.org/",
         "twitter": "https://twitter.com/NEOKingdomDAO"
       },
-      "assetType": "erc20"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The legacy token of Teledisko DAO.",

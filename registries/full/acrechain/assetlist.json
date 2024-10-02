@@ -36,7 +36,7 @@
         "website": "https://arable.finance/",
         "twitter": "https://twitter.com/ArableProtocol"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Overcollateralized stable coin for Arable derivatives v1",
@@ -72,7 +72,7 @@
         "website": "https://arable.finance/",
         "twitter": "https://twitter.com/ArableProtocol"
       },
-      "assetType": "erc20"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Ciento Exchange Token",
@@ -103,7 +103,7 @@
           }
         }
       ],
-      "assetType": "erc20"
+      "assetType": "sdk.coin"
     }
   ]
 }

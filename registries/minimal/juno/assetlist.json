@@ -1261,7 +1261,7 @@
       "name": "NEXX GEN AI",
       "display": "nexx",
       "symbol": "NEXX",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -1279,7 +1279,7 @@
       "name": "Licorice",
       "display": "dgl",
       "symbol": "DGL",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ERIS liquid staked JUNO",
@@ -1521,7 +1521,7 @@
       "name": "Wind Token",
       "display": "wind",
       "symbol": "WIND",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Airdrop For All [AFA - New Name on Cosmos Ecosystem, A4A - Old Name on TurtleNetwork] is a token from turtleNetwork towards cosmos ecosystem.",
@@ -1573,7 +1573,7 @@
       "name": "ashWIND",
       "display": "ashWIND",
       "symbol": "ashWIND",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

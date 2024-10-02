@@ -18,7 +18,7 @@
       "name": "MYT",
       "display": "MYT",
       "symbol": "MYT",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

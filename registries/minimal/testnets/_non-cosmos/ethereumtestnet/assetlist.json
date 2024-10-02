@@ -21,12 +21,12 @@
           ]
         }
       ],
+      "assetType": "evm-base",
       "base": "wei",
       "name": "Ether",
       "display": "eth",
       "symbol": "ETH",
-      "coingeckoId": "ethereum",
-      "assetType": "unknown"
+      "coingeckoId": "ethereum"
     },
     {
       "description": "wETH is 'wrapped ETH'",

@@ -19,7 +19,7 @@
       "display": "ulas",
       "symbol": "ULAS",
       "coingeckoId": "ulas",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

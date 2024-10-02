@@ -19,7 +19,7 @@
       "display": "CACAO",
       "symbol": "CACAO",
       "coingeckoId": "cacao",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native revenue sharing token of Maya Protocol",
@@ -37,7 +37,7 @@
       "name": "Maya",
       "display": "MAYA",
       "symbol": "MAYA",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

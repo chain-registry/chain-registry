@@ -162,6 +162,7 @@
           "exponent": 12
         }
       ],
+      "assetType": "substrate",
       "base": "2125",
       "name": "Tinkernet",
       "display": "TNKR",
@@ -187,8 +188,7 @@
       ],
       "logoURIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/tinkernet/images/tnkr.svg"
-      },
-      "assetType": "unknown"
+      }
     }
   ]
 }

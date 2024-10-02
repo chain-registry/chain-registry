@@ -42,7 +42,7 @@
         "website": "https://www.ankr.com",
         "twitter": "https://x.com/ankr"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -224,7 +224,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "wstETH on Neutron",
@@ -264,7 +264,7 @@
       "logoURIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
       },
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "NBTC on Neutron",
@@ -401,7 +401,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -440,7 +440,7 @@
         "website": "https://astroport.fi/",
         "twitter": "https://twitter.com/astroport_fi"
       },
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -483,7 +483,7 @@
         "website": "https://astroport.fi/",
         "twitter": "https://twitter.com/astroport_fi"
       },
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ASTRO.cw20 on Neutron",
@@ -564,7 +564,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "clownmaxxed store of value",
@@ -596,7 +596,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Jimmy Neutron Finance",
@@ -628,7 +628,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Baddest coin on Cosmos",
@@ -660,7 +660,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "BITCOSMOS",
@@ -808,7 +808,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The deflationary utility token of the Apollo DAO project",
@@ -841,7 +841,7 @@
         "website": "https://apollo.farm/",
         "twitter": "https://twitter.com/ApolloDAO"
       },
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "NEWTROLL",
@@ -870,7 +870,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/newtroll.svg"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Retro Game",
@@ -899,7 +899,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/retro.svg"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "THE FIRST NATIVE GODDARD MEMECOIN ON NEUTRON",
@@ -928,7 +928,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/goddard.svg"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The first memecoin on osmosis.",
@@ -1086,7 +1086,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "$ATOM to $1,000 LFG!!",
@@ -1118,7 +1118,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "assetType": "ics20",
@@ -1205,7 +1205,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -1233,7 +1233,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "name": "Ninja Blaze Token",
@@ -1265,7 +1265,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Mars Protocol is a cross-collateralized Money Market Protocol on Neutron and Osmosis.",
@@ -1305,7 +1305,7 @@
         "website": "https://marsprotocol.io/",
         "twitter": "https://x.com/mars_protocol"
       },
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Drop staked ATOM",
@@ -1347,7 +1347,7 @@
         "website": "https://www.drop.money/",
         "twitter": "https://x.com/Dropdotmoney"
       },
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "SinGarden token",
@@ -1379,7 +1379,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "CryptoGopniks token",
@@ -1411,7 +1411,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -19,7 +19,7 @@
       "display": "luna",
       "symbol": "LUNA",
       "coingeckoId": "terra-luna-2",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -464,7 +464,7 @@
       "name": "ERIS Alliance Staked ampWHALE",
       "display": "ampWHALEt",
       "symbol": "ampWHALEt",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ERIS Alliance Staked boneWHALE on Terra",
@@ -482,7 +482,7 @@
       "name": "ERIS Alliance Staked boneWHALE",
       "display": "boneWHALEt",
       "symbol": "boneWHALEt",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ERIS Liquid Enterprise Staked ROAR",
@@ -500,7 +500,7 @@
       "name": "ERIS Amplified ROAR",
       "display": "ampROAR",
       "symbol": "ampROAR",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Nico Dao Money",
@@ -864,7 +864,7 @@
       "name": "ERIS MOAR",
       "display": "MOAR",
       "symbol": "MOAR",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Tether USDt on Terra",
@@ -914,7 +914,7 @@
       "name": "ATOM-LUNA LP Token URA",
       "display": "atom-luna-lp",
       "symbol": "ATOM-LUNA-LP",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "LUNA-USDC liquidity pool token on URA",
@@ -932,7 +932,7 @@
       "name": "LUNA-USDC LP Token URA",
       "display": "luna-usdc-lp",
       "symbol": "LUNA-USDC-LP",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "LUNA-USDT liquidity pool token on URA",
@@ -950,7 +950,7 @@
       "name": "LUNA-USDT LP Token URA",
       "display": "luna-usdt-lp",
       "symbol": "LUNA-USDT-LP",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ashLUNA",
@@ -968,7 +968,7 @@
       "name": "ashLUNA",
       "display": "ashLUNA",
       "symbol": "ashLUNA",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",

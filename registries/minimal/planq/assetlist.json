@@ -51,7 +51,7 @@
           "provider": "DeltaSwap.io"
         }
       ],
-      "assetType": "erc20"
+      "assetType": "sdk.coin"
     },
     {
       "description": "MEME Token (MEME) is the native staking token of the MEME Chain",

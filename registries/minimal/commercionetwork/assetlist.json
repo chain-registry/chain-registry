@@ -24,7 +24,7 @@
       "display": "commercio",
       "name": "Commercio",
       "symbol": "COM",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The cash credit token of Commercio.network",
@@ -48,7 +48,7 @@
       "display": "ccc",
       "name": "Commercio Cash Credit",
       "symbol": "CCC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

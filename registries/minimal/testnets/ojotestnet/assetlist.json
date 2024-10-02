@@ -18,7 +18,7 @@
       "name": "ojo",
       "display": "ojo",
       "symbol": "OJO",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

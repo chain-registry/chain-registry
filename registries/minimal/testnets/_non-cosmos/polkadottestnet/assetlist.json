@@ -51,12 +51,12 @@
           ]
         }
       ],
+      "assetType": "substrate",
       "base": "Planck",
       "name": "Polkadot",
       "display": "DOT",
       "symbol": "DOT",
-      "coingeckoId": "polkadot",
-      "assetType": "unknown"
+      "coingeckoId": "polkadot"
     }
   ]
 }

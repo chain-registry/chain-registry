@@ -18,7 +18,7 @@
       "name": "Terp Network Native Token",
       "display": "terp",
       "symbol": "TERP",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Thiol Gas Token (Thiols) is the Terp Network's native utility token, used as the primary means to govern, secure the blockchain & incentivize participants.",
@@ -36,7 +36,7 @@
       "name": "Thiol Terp Gas Token",
       "display": "thiol",
       "symbol": "THIOL",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -30,7 +30,7 @@
       "logoURIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/cacao.svg"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native revenue sharing token of Maya Protocol",
@@ -56,7 +56,7 @@
       "logoURIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mayachain/images/maya.svg"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

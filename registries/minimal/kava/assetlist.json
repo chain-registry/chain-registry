@@ -19,7 +19,7 @@
       "display": "kava",
       "symbol": "KAVA",
       "coingeckoId": "kava",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Governance token of Kava Lend Protocol",
@@ -38,7 +38,7 @@
       "display": "HARD",
       "symbol": "HARD",
       "coingeckoId": "kava-lend",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Governance token of Kava Swap Protocol",
@@ -57,7 +57,7 @@
       "display": "SWP",
       "symbol": "SWP",
       "coingeckoId": "kava-swap",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native stablecoin of Kava",
@@ -76,7 +76,7 @@
       "display": "USDX",
       "symbol": "USDX",
       "coingeckoId": "usdx",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -104,7 +104,7 @@
           "provider": "Tether"
         }
       ],
-      "assetType": "erc20"
+      "assetType": "sdk.coin"
     }
   ]
 }

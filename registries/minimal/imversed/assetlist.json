@@ -19,7 +19,7 @@
       "display": "imv",
       "symbol": "IMV",
       "coingeckoId": "imv",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

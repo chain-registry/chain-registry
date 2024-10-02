@@ -20,12 +20,12 @@
           ]
         }
       ],
+      "assetType": "substrate",
       "base": "Wei",
       "name": "Glimmer",
       "display": "GLMR",
       "symbol": "GLMR",
-      "coingeckoId": "moonbeam",
-      "assetType": "unknown"
+      "coingeckoId": "moonbeam"
     },
     {
       "description": "An ERC-20 representation of GLMR, the native token of Moonbeam.",

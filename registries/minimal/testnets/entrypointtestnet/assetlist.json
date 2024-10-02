@@ -38,6 +38,7 @@
           "exponent": 6
         }
       ],
+      "assetType": "ics20",
       "base": "ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5",
       "name": "Cosmos",
       "display": "atom",
@@ -55,8 +56,7 @@
             "path": "transfer/channel-0/transfer/channel-4156/uatom"
           }
         }
-      ],
-      "assetType": "ics20"
+      ]
     }
   ]
 }

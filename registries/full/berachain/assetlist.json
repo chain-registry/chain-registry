@@ -28,7 +28,7 @@
         }
       ],
       "coingeckoId": "berachain-bera",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

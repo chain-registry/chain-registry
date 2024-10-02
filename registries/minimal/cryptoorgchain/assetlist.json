@@ -19,7 +19,7 @@
       "display": "cro",
       "symbol": "CRO",
       "coingeckoId": "crypto-com-chain",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Synthetic XLM pegged 1:1 by Crypto.com",
@@ -50,7 +50,7 @@
           "provider": "Crypto.com"
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native token of Stellar network, transferred via Solo Machine.",
@@ -67,6 +67,7 @@
           "exponent": 7
         }
       ],
+      "assetType": "ics20",
       "base": "ibc/34A1D4BF5FFCDB912F64FE71D54426D56970F873F1279983B69C713B3A62D10D",
       "name": "Lumen (Solo Machine)",
       "display": "lumen",
@@ -84,8 +85,7 @@
             "path": "transfer/channel-46/baseXLM"
           }
         }
-      ],
-      "assetType": "ics20"
+      ]
     }
   ]
 }

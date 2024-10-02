@@ -56,7 +56,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/amATOM.svg"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

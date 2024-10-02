@@ -31,7 +31,7 @@
         "website": "https://www.prysm.network/",
         "twitter": "https://twitter.com/PrysmNetwork"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

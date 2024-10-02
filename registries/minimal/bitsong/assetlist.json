@@ -37,7 +37,7 @@
       "name": "Adam Clay FanToken",
       "display": "clay",
       "symbol": "CLAY",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Nicola Fasano a BitSong Music FanToken",
@@ -55,7 +55,7 @@
       "name": "Nicola Fasano Fantoken",
       "display": "fasano",
       "symbol": "FASANO",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Delta 9 a BitSong Music FanToken",
@@ -73,7 +73,7 @@
       "name": "Delta 9 Fantoken",
       "display": "d9x",
       "symbol": "D9X",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "FONTI a BitSong Music FanToken",
@@ -91,7 +91,7 @@
       "name": "FONTI Fantoken",
       "display": "fonti",
       "symbol": "FONTI",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "BlackJack a BitSong Music FanToken",
@@ -109,7 +109,7 @@
       "name": "BlackJack Fantoken",
       "display": "bjks",
       "symbol": "BJKS",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Rawanne a BitSong Music FanToken",
@@ -127,7 +127,7 @@
       "name": "Rawanne Fantoken",
       "display": "rwne",
       "symbol": "RWNE",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Enmoda a BitSong Music FanToken",
@@ -145,7 +145,7 @@
       "name": "Enmoda Fantoken",
       "display": "enmoda",
       "symbol": "ENMODA",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "404Deep Records a BitSong Music FanToken",
@@ -163,7 +163,7 @@
       "name": "404Deep Records Fantoken",
       "display": "404dr",
       "symbol": "404DR",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "N43 a BitSong Music FanToken",
@@ -181,7 +181,7 @@
       "name": "N43 Fantoken",
       "display": "n43",
       "symbol": "N43",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Puro Lobo a BitSong Music FanToken",
@@ -199,7 +199,7 @@
       "name": "Puro Lobo Fantoken",
       "display": "lobo",
       "symbol": "LOBO",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Vibranium a BitSong Music FanToken",
@@ -217,7 +217,7 @@
       "name": "Vibranium Fantoken",
       "display": "vibra",
       "symbol": "VIBRA",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Karina a BitSong Music FanToken",
@@ -235,7 +235,7 @@
       "name": "Karina Fantoken",
       "display": "karina",
       "symbol": "KARINA",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Luca Testa a BitSong Music FanToken",
@@ -253,7 +253,7 @@
       "name": "Luca Testa Fantoken",
       "display": "testa",
       "symbol": "TESTA",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Carolina Marquez a BitSong Music FanToken",
@@ -271,7 +271,7 @@
       "name": "Carolina Marquez Fantoken",
       "display": "cmqz",
       "symbol": "CMQZ",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     },
     {
       "description": "[Redacted] a BitSong Music FanToken",
@@ -289,7 +289,7 @@
       "name": "[Redacted] Fantoken (ft3...A00)",
       "display": "ft347B1612A2B7659913679CF6CD45B8B130C50A00/6",
       "symbol": "LDON",
-      "assetType": "bitsong"
+      "assetType": "sdk.coin"
     }
   ]
 }

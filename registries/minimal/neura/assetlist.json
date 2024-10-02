@@ -29,7 +29,7 @@
         }
       ],
       "coingeckoId": "ankr",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

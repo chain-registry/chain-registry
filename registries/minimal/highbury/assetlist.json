@@ -19,7 +19,7 @@
       "display": "fury",
       "symbol": "FURY",
       "coingeckoId": "fanfury",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Governance token of Jinx Wallet and Fury Lend Protocol",
@@ -37,7 +37,7 @@
       "name": "Jinx",
       "display": "JINX",
       "symbol": "JINX",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Governance token of Fury Swap Protocol",
@@ -55,7 +55,7 @@
       "name": "Jinxy",
       "display": "JINXY",
       "symbol": "JINXy",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

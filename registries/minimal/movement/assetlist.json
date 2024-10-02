@@ -18,7 +18,7 @@
       "display": "move",
       "name": "Movement",
       "symbol": "MOVE",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

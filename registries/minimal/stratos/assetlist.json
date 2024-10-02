@@ -23,7 +23,7 @@
       "display": "stos",
       "symbol": "STOS",
       "coingeckoId": "stratos",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

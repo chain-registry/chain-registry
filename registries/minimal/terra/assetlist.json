@@ -32,7 +32,7 @@
       "display": "luna",
       "symbol": "LUNC",
       "coingeckoId": "terra-luna",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The USD stablecoin of Terra Classic.",
@@ -64,7 +64,7 @@
       "display": "ust",
       "symbol": "USTC",
       "coingeckoId": "terrausd",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The KRW stablecoin of Terra Classic.",
@@ -95,7 +95,7 @@
       "name": "TerraClassicKRW",
       "display": "krt",
       "symbol": "KRTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The governance token of the White Whale protocol on Terra.",
@@ -3468,7 +3468,7 @@
       "display": "aut",
       "name": "TerraClassicAUD",
       "symbol": "AUTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The CAD stablecoin of Terra Classic.",
@@ -3499,7 +3499,7 @@
       "display": "cat",
       "name": "TerraClassicCAD",
       "symbol": "CATC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The CHF stablecoin of Terra Classic.",
@@ -3530,7 +3530,7 @@
       "display": "cht",
       "name": "TerraClassicCHF",
       "symbol": "CHTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The CNY stablecoin of Terra Classic.",
@@ -3561,7 +3561,7 @@
       "display": "cnt",
       "name": "TerraClassicCNY",
       "symbol": "CNTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The DKK stablecoin of Terra Classic.",
@@ -3592,7 +3592,7 @@
       "display": "dkt",
       "name": "TerraClassicDKK",
       "symbol": "DKTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The EUR stablecoin of Terra Classic.",
@@ -3623,7 +3623,7 @@
       "display": "eut",
       "name": "TerraClassicEUR",
       "symbol": "EUTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The GBP stablecoin of Terra Classic.",
@@ -3654,7 +3654,7 @@
       "display": "gbt",
       "name": "TerraClassicGBP",
       "symbol": "GBTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The HKD stablecoin of Terra Classic.",
@@ -3685,7 +3685,7 @@
       "display": "hkt",
       "name": "TerraClassicHKD",
       "symbol": "HKTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The IDR stablecoin of Terra Classic.",
@@ -3716,7 +3716,7 @@
       "display": "idt",
       "name": "TerraClassicIDR",
       "symbol": "IDTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The INR stablecoin of Terra Classic.",
@@ -3747,7 +3747,7 @@
       "display": "int",
       "name": "TerraClassicINR",
       "symbol": "INTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The JPY stablecoin of Terra Classic.",
@@ -3778,7 +3778,7 @@
       "display": "jpt",
       "name": "TerraClassicJPY",
       "symbol": "JPTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The MNT stablecoin of Terra Classic.",
@@ -3809,7 +3809,7 @@
       "display": "mnt",
       "name": "TerraClassicMNT",
       "symbol": "MNTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The MYR stablecoin of Terra Classic.",
@@ -3840,7 +3840,7 @@
       "display": "myt",
       "name": "TerraClassicMYR",
       "symbol": "MYTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The NOK stablecoin of Terra Classic.",
@@ -3871,7 +3871,7 @@
       "display": "not",
       "name": "TerraClassicNOK",
       "symbol": "NOTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The PHP stablecoin of Terra Classic.",
@@ -3902,7 +3902,7 @@
       "display": "pht",
       "name": "TerraClassicPHP",
       "symbol": "PHTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The SDR stablecoin of Terra Classic.",
@@ -3933,7 +3933,7 @@
       "display": "sdt",
       "name": "TerraClassicSDR",
       "symbol": "SDTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The SEK stablecoin of Terra Classic.",
@@ -3964,7 +3964,7 @@
       "display": "set",
       "name": "TerraClassicSEK",
       "symbol": "SETC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The SGD stablecoin of Terra Classic.",
@@ -3995,7 +3995,7 @@
       "display": "sgt",
       "name": "TerraClassicSGD",
       "symbol": "SGTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The THB stablecoin of Terra Classic.",
@@ -4026,7 +4026,7 @@
       "display": "tht",
       "name": "TerraClassicTHB",
       "symbol": "THTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The TWD stablecoin of Terra Classic.",
@@ -4057,7 +4057,7 @@
       "display": "twt",
       "name": "TerraClassicTWD",
       "symbol": "TWTC",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [

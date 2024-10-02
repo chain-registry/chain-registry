@@ -56,7 +56,7 @@
       "name": "Chihuahuawifhat",
       "display": "achihuahuawifhat",
       "symbol": "BADDOG",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Woof",
@@ -74,7 +74,7 @@
       "name": "WOOF",
       "display": "WOOF",
       "symbol": "WOOF",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Tacos",
@@ -92,7 +92,7 @@
       "name": "TACOS",
       "display": "TACOS",
       "symbol": "TACOS",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Weed",
@@ -110,7 +110,7 @@
       "name": "WEED",
       "display": "WEED",
       "symbol": "WEED",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Bulldog",
@@ -128,7 +128,7 @@
       "name": "BDOG",
       "display": "BDOG",
       "symbol": "BDOG",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "CaneCorso",
@@ -146,7 +146,7 @@
       "name": "CORSO",
       "display": "CORSO",
       "symbol": "CORSO",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "BackBone Labs Liquid Staked HUAHUA",

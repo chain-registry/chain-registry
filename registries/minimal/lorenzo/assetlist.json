@@ -18,7 +18,7 @@
       "name": "LRZ",
       "display": "LRZ",
       "symbol": "LRZ",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "stBTC is the liquid principal token of the Lorenzo protocol, designed to represent staked Bitcoin within the Babylon ecosystem.\n\n",
@@ -46,7 +46,7 @@
           "provider": "Lorenzo"
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

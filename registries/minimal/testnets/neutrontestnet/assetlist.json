@@ -36,7 +36,7 @@
       "name": "amATOM (Testnet)",
       "display": "amATOM",
       "symbol": "amATOM",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -18,7 +18,7 @@
       "name": "Fiamma",
       "display": "fia",
       "symbol": "FIA",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

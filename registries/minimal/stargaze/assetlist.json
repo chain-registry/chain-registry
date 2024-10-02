@@ -37,7 +37,7 @@
       "name": "Stardust STRDST",
       "display": "strdst",
       "symbol": "STRDST",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native meme token of stargaze.",
@@ -55,7 +55,7 @@
       "name": "Gaze GAZE",
       "display": "GAZE",
       "symbol": "GAZE",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ohhNFT LP token.",
@@ -73,7 +73,7 @@
       "name": "Branch",
       "display": "BRNCH",
       "symbol": "BRNCH",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Social token for the ohhVAULT.",
@@ -91,7 +91,7 @@
       "name": "ohhVAULT ohh",
       "display": "OHH",
       "symbol": "OHH",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native coin of Sneaky Productions.",
@@ -109,7 +109,7 @@
       "name": "Sneaky Productions",
       "display": "sneaky",
       "symbol": "SNEAKY",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "LAB - Everything is an Experiment",
@@ -258,7 +258,7 @@
       "name": "PLEB",
       "display": "PLEB",
       "symbol": "PLEB",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "KINGSHIT",
@@ -276,7 +276,7 @@
       "name": "KINGSHIT",
       "display": "KINGSHIT",
       "symbol": "KINGSHIT",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "BOTZ",
@@ -294,7 +294,7 @@
       "name": "BOTZ",
       "display": "BOTZ",
       "symbol": "BOTZ",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "COCKS",
@@ -312,7 +312,7 @@
       "name": "COCKS",
       "display": "COCKS",
       "symbol": "COCKS",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The Representative factory token for Trump Kemistry",
@@ -362,7 +362,7 @@
       "name": "WOLFSHIT",
       "display": "WOLFSHIT",
       "symbol": "WOLFSHIT",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Native token of the Underworld.",
@@ -380,7 +380,7 @@
       "name": "VLT",
       "display": "VLT",
       "symbol": "VAULT",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Bonded GopLend STARS",
@@ -398,7 +398,7 @@
       "name": "bglSTARS",
       "display": "bglSTARS",
       "symbol": "bglSTARS",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Bonded GopLend USDC",
@@ -416,7 +416,7 @@
       "name": "bglUSDC",
       "display": "bglUSDC",
       "symbol": "bglUSDC",
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

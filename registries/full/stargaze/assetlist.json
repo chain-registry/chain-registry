@@ -68,7 +68,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native meme token of stargaze.",
@@ -99,7 +99,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ohhNFT LP token.",
@@ -130,7 +130,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Social token for the ohhVAULT.",
@@ -161,7 +161,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native coin of Sneaky Productions.",
@@ -192,7 +192,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "LAB - Everything is an Experiment",
@@ -400,7 +400,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/pleb.png"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "KINGSHIT",
@@ -426,7 +426,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/kingshit.png"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "BOTZ",
@@ -452,7 +452,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/botz.png"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "COCKS",
@@ -478,7 +478,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/cocks.png"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The Representative factory token for Trump Kemistry",
@@ -551,7 +551,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/wolfshit.png"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Native token of the Underworld.",
@@ -577,7 +577,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/vault.png"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Bonded GopLend STARS",
@@ -604,7 +604,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/bglSTARS.png"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Bonded GopLend USDC",
@@ -631,7 +631,7 @@
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/bglUSDC.png"
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

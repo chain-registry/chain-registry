@@ -117,6 +117,7 @@
           "exponent": 12
         }
       ],
+      "assetType": "substrate",
       "base": "2125",
       "name": "Tinkernet",
       "display": "TNKR",
@@ -130,8 +131,7 @@
           },
           "provider": "Tinkernet Parachain"
         }
-      ],
-      "assetType": "unknown"
+      ]
     }
   ]
 }

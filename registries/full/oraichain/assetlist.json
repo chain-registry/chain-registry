@@ -70,6 +70,7 @@
           "exponent": 6
         }
       ],
+      "assetType": "ics20",
       "base": "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78",
       "name": "ATOM",
       "display": "atom",
@@ -104,8 +105,7 @@
             "primaryColorHex": "#272d45"
           }
         }
-      ],
-      "assetType": "ics20"
+      ]
     },
     {
       "description": "The OSMO native token of Oraichain.",
@@ -119,6 +119,7 @@
           "exponent": 6
         }
       ],
+      "assetType": "ics20",
       "base": "ibc/9C4DCD21B48231D0BC2AC3D1B74A864746B37E4292694C93C617324250D002FC",
       "name": "OSMO",
       "display": "osmo",
@@ -153,8 +154,7 @@
             "primaryColorHex": "#760dbb"
           }
         }
-      ],
-      "assetType": "ics20"
+      ]
     },
     {
       "description": "The INJ token for the Oraichain.",
@@ -207,7 +207,7 @@
     },
     {
       "description": "The Wrapped INJ token for the Oraichain.",
-      "assetType": "sdk.coin",
+      "assetType": "cw20",
       "address": "orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49",
       "denomUnits": [
         {
@@ -721,7 +721,7 @@
           }
         }
       ],
-      "assetType": "sdk.factory"
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -14,12 +14,12 @@
           "exponent": 18
         }
       ],
+      "assetType": "evm-base",
       "base": "wei",
       "name": "Avalanche",
       "display": "avax",
       "symbol": "AVAX",
-      "coingeckoId": "avalanche-2",
-      "assetType": "unknown"
+      "coingeckoId": "avalanche-2"
     },
     {
       "description": "The wrapped ERC-20 representation of AVAX, the native token of Avalanche.",

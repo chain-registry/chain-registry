@@ -37,7 +37,7 @@
         "website": "https://www.kava.io/",
         "twitter": "https://twitter.com/KAVA_CHAIN"
       },
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Governance token of Kava Lend Protocol",
@@ -69,7 +69,7 @@
           }
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "Governance token of Kava Swap Protocol",
@@ -101,7 +101,7 @@
           }
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "description": "The native stablecoin of Kava",
@@ -133,7 +133,7 @@
           }
         }
       ],
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     },
     {
       "denomUnits": [
@@ -180,7 +180,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
       },
-      "assetType": "erc20"
+      "assetType": "sdk.coin"
     }
   ]
 }

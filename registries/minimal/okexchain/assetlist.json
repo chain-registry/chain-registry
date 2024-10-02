@@ -19,7 +19,7 @@
       "display": "okt",
       "symbol": "OKT",
       "coingeckoId": "oec-token",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

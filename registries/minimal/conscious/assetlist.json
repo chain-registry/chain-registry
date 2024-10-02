@@ -19,7 +19,7 @@
       "display": "cvnt",
       "symbol": "CVN",
       "coingeckoId": "consciousdao",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

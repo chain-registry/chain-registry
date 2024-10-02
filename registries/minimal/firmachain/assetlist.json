@@ -19,7 +19,7 @@
       "display": "fct",
       "symbol": "FCT",
       "coingeckoId": "firmachain",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }

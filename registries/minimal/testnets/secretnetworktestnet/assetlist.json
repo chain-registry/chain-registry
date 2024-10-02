@@ -19,7 +19,7 @@
       "display": "scrt",
       "symbol": "SCRT",
       "coingeckoId": "secret",
-      "assetType": "unknown"
+      "assetType": "sdk.coin"
     }
   ]
 }
