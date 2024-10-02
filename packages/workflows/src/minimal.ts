@@ -41,11 +41,14 @@ const options: RegistryBuilderOptions = {
       '/bech32_prefix',
       '/chain_id',
       '/chain_name',
-      '/codebase/cosmos_sdk_version',
-      '/codebase/cosmwasm_enabled',
-      '/codebase/cosmwasm_version',
-      '/codebase/ibc_go_version',
-      '/codebase/ics_enabled',
+      '/chain_type',
+      // codebase
+      '/codebase/cosmos_sdk_version', // deprecate soon
+      '/codebase/cosmwasm_enabled', // deprecate soon
+      '/codebase/cosmwasm_version', // deprecate soon
+      '/codebase/sdk',
+      '/codebase/cosmwasm',
+      // END codebase
       '/description',
       '/explorers',
       '/extra_codecs',
