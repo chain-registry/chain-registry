@@ -20,7 +20,10 @@
   "fees": {
     "feeTokens": [
       {
-        "denom": "wei"
+        "denom": "wei",
+        "lowGasPrice": 1000000000,
+        "averageGasPrice": 1200000000,
+        "highGasPrice": 1600000000
       }
     ]
   },

@@ -938,6 +938,27 @@
       "display": "GOP",
       "symbol": "GOP",
       "assetType": "sdk.coin"
+    },
+    {
+      "assetType": "sdk.coin",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron129ukd5cwahcjkccujz87rjemjukff7jf6sau72qrhva677xgz9gs4m4jeq/uarena",
+          "exponent": 0,
+          "aliases": [
+            "uarena"
+          ]
+        },
+        {
+          "denom": "arena",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron129ukd5cwahcjkccujz87rjemjukff7jf6sau72qrhva677xgz9gs4m4jeq/uarena",
+      "name": "Arena Token",
+      "display": "arena",
+      "symbol": "ARENA",
+      "description": "The governance token of the Arena DAO"
     }
   ]
 }

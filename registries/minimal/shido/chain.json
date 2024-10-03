@@ -55,7 +55,7 @@
         "address": "https://shidochain_mainnet_rpc.chain.whenmoonwhenlambo.money"
       },
       {
-        "address": "https://s2.shido-rpc.applejuice.256x25.tech:443"
+        "address": "https://rest.shido.256x25.tech:443"
       },
       {
         "address": "https://rpc.shido.indonode.net:443"
@@ -75,7 +75,7 @@
         "address": "https://shidochain_mainnet_api.chain.whenmoonwhenlambo.money"
       },
       {
-        "address": "https://s2.shido-api.applejuice.256x25.tech:443"
+        "address": "https://rpc.shido.256x25.tech:443"
       },
       {
         "address": "https://api.shido.indonode.net"
@@ -95,9 +95,6 @@
         "address": "https://grpc-web.shidoscan.com"
       },
       {
-        "address": "https://s2.shido-grpc.applejuice.256x25.tech"
-      },
-      {
         "address": "https://grpc-maverick.mavnode.io"
       },
       {
@@ -113,9 +110,6 @@
       },
       {
         "address": "https://shidochain_mainnet_evm.chain.whenmoonwhenlambo.money"
-      },
-      {
-        "address": "https://s2.shido-evm.applejuice.256x25.tech:443"
       },
       {
         "address": "https://evm-maverick.mavnode.io"
@@ -139,7 +133,7 @@
       "accountPage": "https://explorer.whenmoonwhenlambo.money/shido/account/${accountAddress}"
     },
     {
-      "kind": "Apple juice 🧃",
+      "kind": "256x25",
       "url": "https://explorer.256x25.tech/shido",
       "txPage": "https://explorer.256x25.tech/shido/tx/${txHash}",
       "accountPage": "https://explorer.256x25.tech//shido/account/${accountAddress}"

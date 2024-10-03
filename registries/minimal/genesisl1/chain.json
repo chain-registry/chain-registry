@@ -35,6 +35,9 @@
     "rpc": [
       {
         "address": "https://26657.genesisl1.org"
+      },
+      {
+        "address": "https://genesisl1-rpc.zenode.app"
       }
     ],
     "rest": [

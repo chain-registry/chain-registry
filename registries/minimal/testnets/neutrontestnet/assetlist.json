@@ -37,6 +37,27 @@
       "display": "amATOM",
       "symbol": "amATOM",
       "assetType": "sdk.coin"
+    },
+    {
+      "assetType": "sdk.coin",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron1r3slyjlf7g76mz3na6gh7c8ek62rhssrzf60uh0emyw3x94rppyqfcs0pk/uarena",
+          "exponent": 0,
+          "aliases": [
+            "uarena"
+          ]
+        },
+        {
+          "denom": "arena",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron1r3slyjlf7g76mz3na6gh7c8ek62rhssrzf60uh0emyw3x94rppyqfcs0pk/uarena",
+      "name": "Arena Token",
+      "display": "arena",
+      "symbol": "ARENA",
+      "description": "The governance token of the Arena DAO on Neutron testnet"
     }
   ]
 }
