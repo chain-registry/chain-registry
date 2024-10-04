@@ -49,10 +49,6 @@
       "type": "cometbft",
       "version": "v0.37.6"
     },
-    "ibcGoVersion": "7.6.0",
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "versions": [
       {
         "name": "v2",
@@ -72,10 +68,6 @@
           "type": "tendermint",
           "version": "0.34"
         },
-        "ibcGoVersion": "5.0.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v3",
         "sdk": {
           "type": "cosmos",
@@ -106,10 +98,6 @@
           "type": "cometbft",
           "version": "0.34"
         },
-        "ibcGoVersion": "5.3.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v3.2.0",
         "sdk": {
           "type": "cosmos",
@@ -136,10 +124,6 @@
           "type": "cometbft",
           "version": "v0.34.28"
         },
-        "ibcGoVersion": "5.3.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v3.3.0",
         "sdk": {
           "type": "cosmos",
@@ -166,10 +150,6 @@
           "type": "cometbft",
           "version": "v0.34.28"
         },
-        "ibcGoVersion": "5.3.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v4",
         "sdk": {
           "type": "cosmos",
@@ -196,10 +176,6 @@
           "type": "cometbft",
           "version": "v0.37.6"
         },
-        "ibcGoVersion": "7.6.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

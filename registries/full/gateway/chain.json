@@ -31,14 +31,11 @@
     "cosmosSdkVersion": "github.com/wormhole-foundation/cosmos-sdk@v0.45.9-wormhole-2",
     "consensus": {
       "type": "tendermint",
-      "version": "github.com/tendermint/tendermint@v0.34.24"
+      "version": "v0.34.24",
+      "repo": "https://github.com/tendermint/tendermint"
     },
     "cosmwasmVersion": "github.com/wormhole-foundation/wasmd@v0.30.0-wormchain-2",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "4.2.2",
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "genesis": {
       "name": "v1",
       "genesisUrl": "https://github.com/wormhole-foundation/wormhole/blob/main/wormchain/mainnet/genesis.json"

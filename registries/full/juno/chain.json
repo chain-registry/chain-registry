@@ -55,7 +55,6 @@
     },
     "cosmwasmVersion": "v0.46.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.6.0",
     "genesis": {
       "genesisUrl": "https://download.dimi.sh/juno-phoenix2-genesis.tar.gz"
     },
@@ -74,11 +73,11 @@
         "cosmosSdkVersion": "0.45.14",
         "consensus": {
           "type": "tendermint",
-          "version": "informalsystems/tendermint v0.34.26"
+          "version": "v0.34.26",
+          "repo": "https://github.com/informalsystems/tendermint"
         },
         "cosmwasmVersion": "0.30.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v4.3.0",
         "nextVersionName": "v14",
         "sdk": {
           "type": "cosmos",
@@ -108,11 +107,11 @@
         "cosmosSdkVersion": "0.45.15",
         "consensus": {
           "type": "cometbft",
-          "version": "mev-cometbft v0.34.27-mev.18"
+          "version": "v0.34.27",
+          "tag": "v0.34.27-mev.18"
         },
         "cosmwasmVersion": "0.31.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v4.3.0",
         "nextVersionName": "v15",
         "sdk": {
           "type": "cosmos",
@@ -141,11 +140,11 @@
         "cosmosSdkVersion": "0.45.16",
         "consensus": {
           "type": "cometbft",
-          "version": "mev-cometbft v0.34.27-mev.18"
+          "version": "v0.34.27",
+          "tag": "v0.34.27-mev.18"
         },
         "cosmwasmVersion": "0.31.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v4.3.1",
         "nextVersionName": "v16",
         "sdk": {
           "type": "cosmos",
@@ -179,7 +178,6 @@
         },
         "cosmwasmVersion": "0.40.2",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.2.0",
         "nextVersionName": "v17",
         "sdk": {
           "type": "cosmos",
@@ -213,7 +211,6 @@
         },
         "cosmwasmVersion": "0.41.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.3.0",
         "nextVersionName": "v18",
         "sdk": {
           "type": "cosmos",
@@ -246,7 +243,6 @@
         },
         "cosmwasmVersion": "0.45.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.3.1",
         "nextVersionName": "v19",
         "sdk": {
           "type": "cosmos",
@@ -279,7 +275,6 @@
         },
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.3.1",
         "nextVersionName": "v21",
         "sdk": {
           "type": "cosmos",
@@ -312,7 +307,6 @@
         },
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.3.1",
         "nextVersionName": "v22",
         "sdk": {
           "type": "cosmos",
@@ -345,7 +339,6 @@
         },
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.4.0",
         "nextVersionName": "v23",
         "sdk": {
           "type": "cosmos",
@@ -379,7 +372,6 @@
         },
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.6.0",
         "nextVersionName": "v24",
         "sdk": {
           "type": "cosmos",
@@ -412,7 +404,6 @@
         },
         "cosmwasmVersion": "v0.46.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.6.0",
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

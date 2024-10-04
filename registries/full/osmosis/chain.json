@@ -49,14 +49,12 @@
     "cosmosSdkVersion": "osmosis-labs/cosmos-sdk v0.47.5-v25-osmo-1",
     "consensus": {
       "type": "cometbft",
-      "version": "osmosis-labs/cometbft v0.37.4-v25-osmo-2"
+      "version": "v0.37.4",
+      "repo": "https://github.com/osmosis-labs/cometbft",
+      "tag": "v25-osmo-2"
     },
     "cosmwasmVersion": "osmosis-labs/wasmd v0.45.0-osmo",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.4.0",
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "binaries": {
       "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v25.0.0/osmosisd-25.0.0-linux-amd64",
       "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v25.0.0/osmosisd-25.0.0-linux-arm64"

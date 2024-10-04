@@ -43,7 +43,6 @@
     },
     "cosmwasmVersion": "0.29",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "5.3.2",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/ingenuity-build/testnets/main/rhye-2/genesis.json"
     },
@@ -61,7 +60,6 @@
         },
         "cosmwasmVersion": "0.29",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "5.3.2",
         "sdk": {
           "type": "cosmos",
           "version": "0.46"

@@ -42,7 +42,6 @@
       "type": "cometbft",
       "version": "0.37"
     },
-    "ibcGoVersion": "v7.2.0",
     "genesis": {
       "genesisUrl": "https://rpc.testnet.swisstronik.com/genesis"
     },
@@ -58,7 +57,6 @@
           "type": "cometbft",
           "version": "0.37"
         },
-        "ibcGoVersion": "v7.2.0",
         "nextVersionName": "v1.0.1",
         "sdk": {
           "type": "cosmos",
@@ -82,7 +80,6 @@
           "type": "cometbft",
           "version": "0.37"
         },
-        "ibcGoVersion": "v7.2.0",
         "nextVersionName": "v1.0.2",
         "sdk": {
           "type": "cosmos",
@@ -108,7 +105,6 @@
           "type": "cometbft",
           "version": "0.37"
         },
-        "ibcGoVersion": "v7.2.0",
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

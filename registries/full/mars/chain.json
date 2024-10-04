@@ -49,10 +49,6 @@
     },
     "cosmwasmVersion": "0.30.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "6.1.0",
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "genesis": {
       "genesisUrl": "https://github.com/mars-protocol/networks/raw/main/mars-1/genesis.json"
     },
@@ -73,10 +69,6 @@
         },
         "cosmwasmVersion": "0.30.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "6.1.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "sdk": {
           "type": "cosmos",
           "version": "0.46.7"

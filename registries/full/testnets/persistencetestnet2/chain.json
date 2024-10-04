@@ -70,7 +70,6 @@
           "type": "tendermint",
           "version": "0.37"
         },
-        "ibcGoVersion": "v7.2.0",
         "cosmwasmVersion": "0.40",
         "cosmwasmEnabled": true,
         "nextVersionName": "v8.1.0",
@@ -99,7 +98,6 @@
           "type": "tendermint",
           "version": "0.37"
         },
-        "ibcGoVersion": "v7.2.0",
         "cosmwasmVersion": "0.40",
         "cosmwasmEnabled": true,
         "nextVersionName": "v9",
@@ -130,7 +128,6 @@
           "type": "tendermint",
           "version": "0.37"
         },
-        "ibcGoVersion": "v7.2.0",
         "cosmwasmVersion": "0.40",
         "cosmwasmEnabled": true,
         "nextVersionName": "v9.1.0",
@@ -157,12 +154,7 @@
           "v9.1.1",
           "v9.1.0"
         ],
-        "cosmosSdkVersion": "v0.47.x-lsm",
-        "ibcGoVersion": "v7.2.0",
-        "icsEnabled": [
-          "ics20-1",
-          "ics27-1"
-        ],
+        "cosmosSdkVersion": "v0.47.0-lsm",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -175,8 +167,8 @@
         },
         "sdk": {
           "type": "cosmos",
-          "version": "v0.47.x",
-          "tag": "v0.47.x-lsm"
+          "version": "v0.47.0",
+          "tag": "v0.47.0-lsm"
         },
         "cosmwasm": {
           "version": "v0.40.2",

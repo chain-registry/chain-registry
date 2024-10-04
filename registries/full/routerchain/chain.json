@@ -48,7 +48,6 @@
     "cosmwasmVersion": "v0.45.0",
     "cosmwasmEnabled": true,
     "cosmwasmPath": "$HOME/.routerd/wasm",
-    "ibcGoVersion": "v7.4.0",
     "binaries": {
       "linux/amd64": "https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.1.6/linux/routerd.tar.gz",
       "darwin/amd64": "https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.1.6/debian/routerd.tar.gz"
@@ -67,7 +66,6 @@
           "linux/amd64": "https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.1.1/linux/routerd.tar.gz",
           "darwin/amd64": "https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.1.1/debian/routerd.tar.gz"
         },
-        "ibcGoVersion": "v7.4.0",
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
         "nextVersionName": "2.1.1-nitro-to-2.1.6",
@@ -97,7 +95,6 @@
         "cosmwasmVersion": "v0.45.0",
         "cosmwasmEnabled": true,
         "cosmwasmPath": "$HOME/.routerd/wasm",
-        "ibcGoVersion": "v7.4.0",
         "binaries": {
           "linux/amd64": "https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.1.6/linux/routerd.tar.gz",
           "darwin/amd64": "https://raw.githubusercontent.com/router-protocol/router-chain-binary-release/v2.1.6/debian/routerd.tar.gz"

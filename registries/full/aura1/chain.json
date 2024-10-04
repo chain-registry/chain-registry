@@ -42,7 +42,6 @@
       "v0.7.3"
     ],
     "cosmosSdkVersion": "0.47.5",
-    "ibcGoVersion": "v7.3.0",
     "consensus": {
       "type": "cometbft",
       "version": "0.37.2"
@@ -105,7 +104,6 @@
           "v0.7.2"
         ],
         "cosmosSdkVersion": "0.47.4",
-        "ibcGoVersion": "v7.2.0",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.2"
@@ -135,7 +133,6 @@
           "v0.7.3"
         ],
         "cosmosSdkVersion": "0.47.5",
-        "ibcGoVersion": "v7.3.0",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.2"

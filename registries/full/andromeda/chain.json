@@ -41,7 +41,6 @@
       "v0.1.1-patch"
     ],
     "cosmosSdkVersion": "v0.47.8",
-    "ibcGoVersion": "v7.4.0",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.4"
@@ -61,7 +60,6 @@
           "andromeda-1-v0.1.0"
         ],
         "cosmosSdkVersion": "v0.47.5",
-        "ibcGoVersion": "v7.3.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -92,7 +90,6 @@
           "v0.1.1-patch"
         ],
         "cosmosSdkVersion": "v0.47.8",
-        "ibcGoVersion": "v7.4.0",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"

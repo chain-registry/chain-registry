@@ -1,0 +1,36 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "mantle",
+  "assets": [
+    {
+      "description": "Ignition introduces $FBTC, an omnichain Bitcoin asset pegged 1:1 to BTC, aimed at elevating Bitcoin�s accessibility and utility, paving the way for a low-friction and interoperable future.",
+      "assetType": "erc20",
+      "address": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+      "denomUnits": [
+        {
+          "denom": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+          "exponent": 0
+        },
+        {
+          "denom": "fbtc",
+          "exponent": 8
+        }
+      ],
+      "base": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+      "name": "Fire Bitcoin",
+      "display": "fbtc",
+      "symbol": "FBTC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Ignition"
+        }
+      ],
+      "coingeckoId": "ignition-fbtc"
+    }
+  ]
+}

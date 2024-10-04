@@ -44,10 +44,6 @@
       "version": "v0.34.27"
     },
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v4.6.0",
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "genesis": {
       "name": "v1.0.0",
       "genesisUrl": "https://raw.githubusercontent.com/strangelove-ventures/noble-networks/main/mainnet/noble-1/genesis.json"
@@ -67,10 +63,6 @@
           "version": "v0.34"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v3.4.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "neon",
         "sdk": {
           "type": "cosmos",
@@ -102,10 +94,6 @@
           "version": "v0.34"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v3.4.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "radon",
         "sdk": {
           "type": "cosmos",
@@ -136,10 +124,6 @@
           "version": "v0.34.27"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v3.4.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v3.1.0",
         "sdk": {
           "type": "cosmos",
@@ -170,10 +154,6 @@
           "version": "v0.34.27"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v3.4.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "argon",
         "sdk": {
           "type": "cosmos",
@@ -204,10 +184,6 @@
           "version": "v0.34.27"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v4.5.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "fusion",
         "sdk": {
           "type": "cosmos",
@@ -238,10 +214,6 @@
           "version": "v0.34.27"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v4.5.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "krypton",
         "sdk": {
           "type": "cosmos",
@@ -272,10 +244,6 @@
           "version": "v0.34.27"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v4.6.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "xenon",
         "sdk": {
           "type": "cosmos",
@@ -308,10 +276,6 @@
           "version": "v0.34.27"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v4.6.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

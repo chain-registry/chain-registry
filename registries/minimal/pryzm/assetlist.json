@@ -575,6 +575,34 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's native liquid staking token for TIA",
+      "denomUnits": [
+        {
+          "denom": "c:utia",
+          "exponent": 0
+        },
+        {
+          "denom": "ctia",
+          "exponent": 6
+        }
+      ],
+      "base": "c:utia",
+      "name": "cTia",
+      "display": "ctia",
+      "symbol": "cTIA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "celestia",
+            "baseDenom": "utia"
+          },
+          "provider": "Pryzm"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted principal token for ATOM with maturity of 30Sep2024",
       "denomUnits": [
         {
@@ -1004,6 +1032,42 @@
       "name": "pdAtom (31Dec2025)",
       "display": "pdATOM31Dec2025",
       "symbol": "pdATOM-31Dec2025",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted principal token for TIA with maturity of 31Dec2024",
+      "denomUnits": [
+        {
+          "denom": "p:utia:31Dec2024",
+          "exponent": 0
+        },
+        {
+          "denom": "pTIA31Dec2024",
+          "exponent": 6
+        }
+      ],
+      "base": "p:utia:31Dec2024",
+      "name": "pTia (31Dec2024)",
+      "display": "pTIA31Dec2024",
+      "symbol": "pTIA-31Dec2024",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted principal token for TIA with maturity of 31Dec2025",
+      "denomUnits": [
+        {
+          "denom": "p:utia:31Dec2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pTIA31Dec2025",
+          "exponent": 6
+        }
+      ],
+      "base": "p:utia:31Dec2025",
+      "name": "pTia (31Dec2025)",
+      "display": "pTIA31Dec2025",
+      "symbol": "pTIA-31Dec2025",
       "assetType": "sdk.coin"
     },
     {
@@ -1439,6 +1503,42 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted yield token for TIA with maturity of 31Dec2024",
+      "denomUnits": [
+        {
+          "denom": "y:utia:31Dec2024",
+          "exponent": 0
+        },
+        {
+          "denom": "yTIA31Dec2024",
+          "exponent": 6
+        }
+      ],
+      "base": "y:utia:31Dec2024",
+      "name": "yTia (31Dec2024)",
+      "display": "yTIA31Dec2024",
+      "symbol": "yTIA-31Dec2024",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted yield token for TIA with maturity of 31Dec2025",
+      "denomUnits": [
+        {
+          "denom": "y:utia:31Dec2025",
+          "exponent": 0
+        },
+        {
+          "denom": "yTIA31Dec2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:utia:31Dec2025",
+      "name": "yTia (31Dec2025)",
+      "display": "yTIA31Dec2025",
+      "symbol": "yTIA-31Dec2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's LP token for USDC / USDC.axl pool",
       "denomUnits": [
         {
@@ -1814,6 +1914,42 @@
       "name": "stTIA Boost LP",
       "display": "lp:20:sttiaypt-tia",
       "symbol": "stTIA-BOOST-LP",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's LP token for TIA Yield pool",
+      "denomUnits": [
+        {
+          "denom": "lp:24:utia",
+          "exponent": 0
+        },
+        {
+          "denom": "lp:24:tia",
+          "exponent": 6
+        }
+      ],
+      "base": "lp:24:utia",
+      "name": "TIA Yield LP",
+      "display": "lp:24:tia",
+      "symbol": "TIA-YIELD-LP",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's LP token for TIA Boost pool",
+      "denomUnits": [
+        {
+          "denom": "lp:25:utiaypt-utia",
+          "exponent": 0
+        },
+        {
+          "denom": "lp:25:tiaypt-tia",
+          "exponent": 6
+        }
+      ],
+      "base": "lp:25:utiaypt-utia",
+      "name": "TIA Boost LP",
+      "display": "lp:25:tiaypt-tia",
+      "symbol": "TIA-BOOST-LP",
       "assetType": "sdk.coin"
     },
     {

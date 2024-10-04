@@ -30,7 +30,6 @@
           "v1.132.0"
         ],
         "cosmosSdkVersion": "v0.45.1",
-        "ibcGoVersion": "v2.0.3",
         "cosmwasmEnabled": false,
         "sdk": {
           "type": "cosmos",
@@ -48,7 +47,6 @@
           "v1.133.0"
         ],
         "cosmosSdkVersion": "v0.45.1",
-        "ibcGoVersion": "v2.0.3",
         "cosmwasmEnabled": false,
         "sdk": {
           "type": "cosmos",
@@ -66,7 +64,6 @@
           "v1.134.0"
         ],
         "cosmosSdkVersion": "v0.45.1",
-        "ibcGoVersion": "v2.0.3",
         "cosmwasmEnabled": false,
         "sdk": {
           "type": "cosmos",
@@ -84,7 +81,6 @@
           "v1.134.1"
         ],
         "cosmosSdkVersion": "v0.45.1",
-        "ibcGoVersion": "v2.0.3",
         "cosmwasmEnabled": false,
         "sdk": {
           "type": "cosmos",

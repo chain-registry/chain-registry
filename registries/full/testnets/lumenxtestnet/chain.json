@@ -32,9 +32,6 @@
     ]
   },
   "codebase": {
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "ibc": {
       "type": "go",
       "icsEnabled": [

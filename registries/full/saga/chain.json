@@ -47,13 +47,10 @@
     "cosmosSdkVersion": "osmosis-labs/cosmos-sdk v0.47.5",
     "consensus": {
       "type": "cometbft",
-      "version": "osmosis-labs/cometbft v0.37.2"
+      "version": "v0.37.2",
+      "repo": "https://github.com/osmosis-labs/cometbft"
     },
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v7.3.1",
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "language": {
       "type": "go",
       "version": "1.21"

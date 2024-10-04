@@ -43,10 +43,11 @@
       "v0.9.3"
     ],
     "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.12-evmos",
-    "ibcGoVersion": "v7.6.0",
     "consensus": {
       "type": "cometbft",
-      "version": "aura-nw/cometbft v0.37.4-aura.2"
+      "version": "v0.37.4",
+      "repo": "https://github.com/aura-nw/cometbft",
+      "tag": "v0.37.4-aura.2"
     },
     "cosmwasmVersion": "v0.42.0",
     "cosmwasmEnabled": true,
@@ -61,7 +62,6 @@
           "v0.8.2"
         ],
         "cosmosSdkVersion": "v0.47.8",
-        "ibcGoVersion": "v7.3.1",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.4"
@@ -89,10 +89,11 @@
           "v0.8.3"
         ],
         "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.8-evmos",
-        "ibcGoVersion": "v7.3.1",
         "consensus": {
           "type": "cometbft",
-          "version": "aura-nw/cometbft v0.37.4-aura.2"
+          "version": "v0.37.4",
+          "repo": "https://github.com/aura-nw/cometbft",
+          "tag": "v0.37.4-aura.2"
         },
         "cosmwasmVersion": "v0.42.0",
         "cosmwasmEnabled": true,
@@ -119,10 +120,11 @@
           "v0.9.3"
         ],
         "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.12-evmos",
-        "ibcGoVersion": "v7.6.0",
         "consensus": {
           "type": "cometbft",
-          "version": "aura-nw/cometbft v0.37.4-aura.2"
+          "version": "v0.37.4",
+          "repo": "https://github.com/aura-nw/cometbft",
+          "tag": "v0.37.4-aura.2"
         },
         "cosmwasmVersion": "v0.42.0",
         "cosmwasmEnabled": true,

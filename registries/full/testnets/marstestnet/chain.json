@@ -30,9 +30,6 @@
     ]
   },
   "codebase": {
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/mars-protocol/networks/main/ares-1/genesis.json"
     },

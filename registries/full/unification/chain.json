@@ -53,7 +53,6 @@
       "version": "0.37.5"
     },
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "7.7.0",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/unification-com/mainnet/master/latest/genesis.json"
     },
@@ -68,10 +67,6 @@
           "version": "0.34.21"
         },
         "cosmosSdkVersion": "0.45.9",
-        "ibcGoVersion": "3.1.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "cosmwasmEnabled": false,
         "nextVersionName": "v1.7.0",
         "sdk": {
@@ -99,10 +94,6 @@
           "version": "0.34.26"
         },
         "cosmosSdkVersion": "0.45.14",
-        "ibcGoVersion": "3.4.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "cosmwasmEnabled": false,
         "nextVersionName": "v1.8.2",
         "sdk": {
@@ -130,10 +121,6 @@
           "version": "0.34.29"
         },
         "cosmosSdkVersion": "0.46.15",
-        "ibcGoVersion": "5.3.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "cosmwasmEnabled": false,
         "recommendedVersion": "v1.8.2",
         "nextVersionName": "v1.9.0",
@@ -165,10 +152,6 @@
           "version": "0.34.29"
         },
         "cosmosSdkVersion": "0.46.16",
-        "ibcGoVersion": "5.3.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "cosmwasmEnabled": false,
         "nextVersionName": "v1.10.1",
         "recommendedVersion": "v1.9.0",
@@ -200,10 +183,6 @@
           "version": "0.37.5"
         },
         "cosmosSdkVersion": "0.47.13",
-        "ibcGoVersion": "7.7.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "cosmwasmEnabled": false,
         "recommendedVersion": "v1.10.1",
         "compatibleVersions": [

@@ -54,7 +54,6 @@
       "type": "tendermint",
       "version": "0.34"
     },
-    "ibcGoVersion": "6.1.0",
     "versions": [
       {
         "name": "pxv1",

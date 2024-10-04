@@ -44,7 +44,6 @@
     },
     "cosmwasmVersion": "0.27",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "3.0.1",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/soar-robotics/testnet-validator-onboard/main/release/genesis.json"
     },

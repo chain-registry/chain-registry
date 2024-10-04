@@ -47,7 +47,6 @@
       "type": "cometbft",
       "version": "v0.38.6"
     },
-    "ibcGoVersion": "v8.2.0",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/sedaprotocol/seda-networks/main/mainnet/genesis.json"
     },

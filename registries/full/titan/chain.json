@@ -46,13 +46,8 @@
       "type": "cometbft",
       "version": "0.37.4"
     },
-    "ibcGoVersion": "7.3.0",
     "cosmwasmVersion": "0.45.0",
     "cosmwasmEnabled": true,
-    "icsEnabled": [
-      "ics20-1",
-      "ics27-1"
-    ],
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/titantkx/titan-mainnet/main/public/genesis.json"
     },
@@ -70,13 +65,8 @@
           "type": "cometbft",
           "version": "0.37.4"
         },
-        "ibcGoVersion": "7.3.0",
         "cosmwasmVersion": "0.45.0",
         "cosmwasmEnabled": true,
-        "icsEnabled": [
-          "ics20-1",
-          "ics27-1"
-        ],
         "sdk": {
           "type": "cosmos",
           "version": "0.47.6",

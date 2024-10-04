@@ -54,7 +54,6 @@
     },
     "cosmwasmVersion": "v0.44.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.3.1",
     "sdk": {
       "type": "cosmos",
       "version": "v0.47.7"
@@ -87,7 +86,6 @@
         "cosmosSdkVersion": "v0.45.5",
         "cosmwasmVersion": "v0.44.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.3.1",
         "cosmwasmPath": "$HOME/.nibid/data/wasm",
         "sdk": {
           "type": "cosmos",
@@ -130,7 +128,6 @@
         },
         "cosmwasmVersion": "v0.44.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.3.1",
         "sdk": {
           "type": "cosmos",
           "version": "v0.47.7"

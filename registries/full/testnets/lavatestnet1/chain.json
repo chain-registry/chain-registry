@@ -48,10 +48,6 @@
     },
     "cosmwasmVersion": "0.30",
     "cosmwasmEnabled": false,
-    "ibcGoVersion": "v7.2.0",
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "genesis": {
       "name": "v0.3.0",
       "genesisUrl": "https://raw.githubusercontent.com/lavanet/lava-config/main/testnet-1/genesis_json/genesis.json"
@@ -134,10 +130,6 @@
           "version": "0.34"
         },
         "cosmwasmEnabled": false,
-        "ibcGoVersion": "v7.2.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "sdk": {
           "type": "cosmos",
           "version": "0.45"

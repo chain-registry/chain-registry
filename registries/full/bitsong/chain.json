@@ -23,7 +23,6 @@
     "cosmosSdkVersion": "v0.45.16",
     "cosmwasmVersion": "v0.33.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v4.4.2",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json"
     },
@@ -37,7 +36,6 @@
         "cosmosSdkVersion": "0.45.11",
         "cosmwasmVersion": "0.29.2",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v3.3.1",
         "nextVersionName": "v0.15.0",
         "sdk": {
           "type": "cosmos",
@@ -63,7 +61,6 @@
         "cosmosSdkVersion": "0.45.16",
         "cosmwasmVersion": "0.33.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v4.4.2",
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

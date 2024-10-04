@@ -43,7 +43,6 @@
       "type": "cometbft",
       "version": "v0.34.33"
     },
-    "ibcGoVersion": "v6.3.1",
     "genesis": {
       "genesisUrl": "https://github.com/ingenuity-build/mainnet/raw/main/genesis.json"
     },
@@ -61,7 +60,6 @@
         },
         "cosmwasmVersion": "0.29",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "5.2.0",
         "nextVersionName": "v1.2.10",
         "sdk": {
           "type": "cosmos",
@@ -94,7 +92,6 @@
         },
         "cosmwasmVersion": "0.29",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "5.2.0",
         "nextVersionName": "v1.2.13",
         "sdk": {
           "type": "cosmos",
@@ -127,7 +124,6 @@
         },
         "cosmwasmVersion": "0.29",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "5.2.1",
         "nextVersionName": "v1.2.15",
         "sdk": {
           "type": "cosmos",
@@ -161,7 +157,6 @@
         },
         "cosmwasmVersion": "0.29",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "5.3.1",
         "nextVersionName": "v1.2.17",
         "sdk": {
           "type": "cosmos",
@@ -194,7 +189,6 @@
         },
         "cosmwasmVersion": "v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "5.3.2",
         "nextVersionName": "v1.4.5",
         "sdk": {
           "type": "cosmos",
@@ -228,7 +222,6 @@
         },
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v5.3.2",
         "nextVersionName": "v1.4.6",
         "sdk": {
           "type": "cosmos",
@@ -263,7 +256,6 @@
         },
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v5.3.2",
         "nextVersionName": "v1.4.7",
         "sdk": {
           "type": "cosmos",
@@ -298,7 +290,6 @@
         },
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v5.3.2",
         "nextVersionName": "v1.5.0",
         "sdk": {
           "type": "cosmos",
@@ -333,7 +324,6 @@
         },
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v5.3.2",
         "nextVersionName": "v1.5.1",
         "sdk": {
           "type": "cosmos",
@@ -369,7 +359,6 @@
         },
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v5.3.2",
         "nextVersionName": "v1.5.3",
         "sdk": {
           "type": "cosmos",
@@ -404,7 +393,6 @@
         },
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v5.3.2",
         "nextVersionName": "v1.5.4",
         "sdk": {
           "type": "cosmos",
@@ -439,7 +427,6 @@
         },
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v5.3.2",
         "nextVersionName": "v1.5.5",
         "sdk": {
           "type": "cosmos",
@@ -475,7 +462,6 @@
         },
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v5.4.0",
         "nextVersionName": "v1.5.6",
         "sdk": {
           "type": "cosmos",
@@ -510,7 +496,6 @@
         },
         "cosmwasmVersion": "notional-labs/wasmd v0.29.0-sdk46.0.20221114145317-d6e67fd50956",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v5.4.0",
         "nextVersionName": "v1.6.1",
         "sdk": {
           "type": "cosmos",
@@ -543,7 +528,6 @@
           "type": "cometbft",
           "version": "v0.34.33"
         },
-        "ibcGoVersion": "v6.3.1",
         "nextVersionName": "v1.6.2",
         "sdk": {
           "type": "cosmos",
@@ -570,7 +554,6 @@
           "type": "cometbft",
           "version": "v0.34.33"
         },
-        "ibcGoVersion": "v6.3.1",
         "nextVersionName": "1.6.3",
         "sdk": {
           "type": "cosmos",
@@ -597,7 +580,6 @@
           "type": "cometbft",
           "version": "v0.34.33"
         },
-        "ibcGoVersion": "v6.3.1",
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

@@ -43,7 +43,6 @@
       "type": "cometbft",
       "version": "v0.37.5"
     },
-    "ibcGoVersion": "v7.7.0",
     "cosmwasmVersion": "v0.46.0",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/xpladev/mainnet/main/dimension_37-1/genesis.json"
@@ -102,7 +101,6 @@
           "type": "cometbft",
           "version": "0.34.29"
         },
-        "ibcGoVersion": "v4.5.1",
         "cosmwasmVersion": "v0.33.0",
         "nextVersionName": "v1_5",
         "sdk": {
@@ -132,7 +130,6 @@
           "type": "cometbft",
           "version": "0.37.5"
         },
-        "ibcGoVersion": "v7.4.0",
         "cosmwasmVersion": "v0.45.0",
         "nextVersionName": "v1_6",
         "sdk": {
@@ -162,7 +159,6 @@
           "type": "cometbft",
           "version": "v0.37.5"
         },
-        "ibcGoVersion": "v7.7.0",
         "cosmwasmVersion": "v0.46.0",
         "nextVersionName": "",
         "sdk": {

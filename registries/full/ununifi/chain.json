@@ -51,10 +51,6 @@
     },
     "cosmwasmVersion": "v0.40.1",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.3.1",
-    "icsEnabled": [
-      "ics20-1"
-    ],
     "genesis": {
       "name": "beta-v1",
       "genesisUrl": "https://raw.githubusercontent.com/UnUniFi/network/main/launch/ununifi-beta-v1/genesis.json"
@@ -76,10 +72,6 @@
         },
         "cosmwasmVersion": "0.40",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "7.0.0",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v2_1",
         "sdk": {
           "type": "cosmos",
@@ -115,10 +107,6 @@
         },
         "cosmwasmVersion": "0.40",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "7.0.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v2_2",
         "sdk": {
           "type": "cosmos",
@@ -154,10 +142,6 @@
         },
         "cosmwasmVersion": "v0.40.1",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.0.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v3",
         "sdk": {
           "type": "cosmos",
@@ -194,10 +178,6 @@
         },
         "cosmwasmVersion": "v0.40.1",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.0.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v3_1",
         "sdk": {
           "type": "cosmos",
@@ -234,10 +214,6 @@
         },
         "cosmwasmVersion": "v0.40.1",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.0.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v3_2_1",
         "sdk": {
           "type": "cosmos",
@@ -274,10 +250,6 @@
         },
         "cosmwasmVersion": "v0.40.1",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.0.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v3_2_2",
         "sdk": {
           "type": "cosmos",
@@ -315,10 +287,6 @@
         },
         "cosmwasmVersion": "v0.40.1",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.0.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v4",
         "sdk": {
           "type": "cosmos",
@@ -355,10 +323,6 @@
         },
         "cosmwasmVersion": "v0.40.1",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.0.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v4_0_1",
         "sdk": {
           "type": "cosmos",
@@ -395,10 +359,6 @@
         },
         "cosmwasmVersion": "v0.40.1",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.0.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "v4_0_2",
         "sdk": {
           "type": "cosmos",
@@ -435,10 +395,6 @@
         },
         "cosmwasmVersion": "v0.40.1",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.3.1",
-        "icsEnabled": [
-          "ics20-1"
-        ],
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

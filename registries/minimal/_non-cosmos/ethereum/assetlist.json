@@ -1375,6 +1375,36 @@
           "provider": "Monerium"
         }
       ]
+    },
+    {
+      "description": "LBTC is liquid, yield-bearing, natively cross-chain, and 1:1 backed by bitcoin.",
+      "assetType": "erc20",
+      "address": "0x8236a87084f8B84306f72007F36F2618A5634494",
+      "denomUnits": [
+        {
+          "denom": "0x8236a87084f8B84306f72007F36F2618A5634494",
+          "exponent": 0
+        },
+        {
+          "denom": "lbtc",
+          "exponent": 8
+        }
+      ],
+      "base": "0x8236a87084f8B84306f72007F36F2618A5634494",
+      "name": "Lombard Staked Bitcoin",
+      "display": "lbtc",
+      "symbol": "LBTC",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Lombard"
+        }
+      ],
+      "coingeckoId": "lombard-staked-btc"
     }
   ]
 }

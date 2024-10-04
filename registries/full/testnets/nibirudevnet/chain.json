@@ -54,7 +54,6 @@
     },
     "cosmwasmVersion": "v0.44.0",
     "cosmwasmEnabled": true,
-    "ibcGoVersion": "v7.3.1",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/NibiruChain/Networks/main/Testnet/nibiru-devnet-1/genesis.json"
     },
@@ -74,7 +73,6 @@
         "cosmosSdkVersion": "v0.45.5",
         "cosmwasmVersion": "v0.44.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.3.1",
         "cosmwasmPath": "$HOME/.nibid/data/wasm",
         "binaries": {
           "linux/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.0.0/nibid_1.0.0_linux_amd64.tar.gz",
@@ -117,7 +115,6 @@
         },
         "cosmwasmVersion": "v0.44.0",
         "cosmwasmEnabled": true,
-        "ibcGoVersion": "v7.3.1",
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

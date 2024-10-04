@@ -48,7 +48,6 @@
       "type": "cometbft",
       "version": "v0.34.31"
     },
-    "ibcGoVersion": "v4.6.0",
     "cosmwasmVersion": "v0.33.0",
     "cosmwasmEnabled": true,
     "genesis": {
@@ -94,7 +93,6 @@
           "type": "cometbft",
           "version": "v0.34.31"
         },
-        "ibcGoVersion": "v4.5.1",
         "cosmwasmVersion": "v0.33.0",
         "cosmwasmEnabled": true,
         "nextVersionName": "v1.0",
@@ -129,7 +127,6 @@
           "type": "cometbft",
           "version": "v0.34.31"
         },
-        "ibcGoVersion": "v4.6.0",
         "cosmwasmVersion": "v0.33.0",
         "cosmwasmEnabled": true,
         "nextVersionName": "",

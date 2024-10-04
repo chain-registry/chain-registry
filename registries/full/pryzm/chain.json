@@ -123,11 +123,6 @@
       "type": "cometbft",
       "version": "v0.37.5"
     },
-    "ibcGoVersion": "v7.4.1",
-    "icsEnabled": [
-      "ics20-1",
-      "ics27-1"
-    ],
     "cosmwasmEnabled": true,
     "cosmwasmVersion": "v0.46.0",
     "genesis": {
