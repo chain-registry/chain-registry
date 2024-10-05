@@ -1,0 +1,72 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "bouachain",
+  "chainType": "cosmos",
+  "website": "https://bouachain.com",
+  "networkType": "mainnet",
+  "prettyName": "Bouachain",
+  "chainId": "bouachain",
+  "bech32Prefix": "boua",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ubouacoin",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.0006,
+        "averageGasPrice": 0.012,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ubouacoin"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.bouachain.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.bouachain.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.bouachain.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bouachain",
+      "url": "https://bouascan.com",
+      "txPage": "https://bouascan.com/bouachain/tx/${txHash}",
+      "accountPage": "https://bouascan.com/bouachain/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bouachain/images/bouachain.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bouachain/images/bouachain.svg",
+      "theme": {
+        "primaryColorHex": "#000000"
+      }
+    }
+  ]
+}

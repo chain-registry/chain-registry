@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "bouachain",
+  "assets": [
+    {
+      "description": "The native token of the Bouachain blockchain, used for transaction fees, staking, and governance.",
+      "denomUnits": [
+        {
+          "denom": "ubouacoin",
+          "exponent": 0
+        },
+        {
+          "denom": "bouacoin",
+          "exponent": 8
+        }
+      ],
+      "base": "ubouacoin",
+      "name": "BOUACOIN",
+      "display": "bouacoin",
+      "symbol": "BOUA",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
