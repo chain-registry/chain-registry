@@ -56,7 +56,7 @@
     "cosmwasmEnabled": false,
     "genesis": {
       "name": "fotan-1.0",
-      "genesisUrl": "https://raw.githubusercontent.com/likecoin/mainnet/982c14399089950a59d3ebbedcbbc7ead6040457/genesis.json"
+      "genesisUrl": "https://raw.githubusercontent.com/likecoin/mainnet/master/genesis.json"
     },
     "versions": [
       {

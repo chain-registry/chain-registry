@@ -41,7 +41,7 @@
     "cosmosSdkVersion": "v0.47.4",
     "cosmwasmEnabled": false,
     "genesis": {
-      "genesisUrl": "https://raw.githubusercontent.com/dydxopsdao/networks/main/dydx-mainnet-1/genesis.json"
+      "genesisUrl": "https://raw.githubusercontent.com/dydxprotocol/v4-testnets/main/dydx-testnet-4/genesis.json"
     },
     "versions": [
       {

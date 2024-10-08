@@ -38,6 +38,7 @@
         "name",
         "symbol"
       ],
+      "additionalProperties": false,
       "properties": {
         "deprecated": {
           "type": "boolean",
@@ -185,8 +186,7 @@
           "minLength": 1,
           "description": "[OPTIONAL] The coingecko id to fetch asset data from coingecko v3 api. See https://api.coingecko.com/api/v3/coins/list"
         }
-      },
-      "additionalProperties": false
+      }
     },
     "denomUnit": {
       "type": "object",

@@ -51,7 +51,7 @@
       "version": "v0.34.28"
     },
     "genesis": {
-      "genesisUrl": "https://raw.githubusercontent.com/PeggyJV/sommelier/main/contrib/mainnet/sommelier-2/genesis.json"
+      "genesisUrl": "https://raw.githubusercontent.com/PeggyJV/sommelier/main/contrib/mainnet/sommelier-3/genesis.json"
     },
     "versions": [
       {
