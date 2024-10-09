@@ -427,11 +427,6 @@
       "type": "string",
       "minLength": 1
     },
-    "updateLink": {
-      "type": "string",
-      "minLength": 1,
-      "format": "uri"
-    },
     "networkType": {
       "enum": [
         "mainnet",

@@ -4,7 +4,6 @@
   "status": "live",
   "networkType": "mainnet",
   "website": "https://osmosis.zone/",
-  "updateLink": "https://raw.githubusercontent.com/osmosis-labs/osmosis/main/chain.schema.json",
   "prettyName": "Osmosis",
   "chainType": "cosmos",
   "chainId": "osmosis-1",
