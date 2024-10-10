@@ -11,7 +11,7 @@
   </a>
    <a href="https://github.com/cosmology-tech/chain-registry/blob/main/LICENSE"><img height="20" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
    <a href="https://www.npmjs.com/package/chain-registry"><img height="20" src="https://img.shields.io/npm/dt/chain-registry"></a>
-   <a href="https://www.npmjs.com/package/chain-registry"><img height="20" src="https://img.shields.io/github/package-json/v/cosmology-tech/chain-registry?filename=packages%2Fchain-registry%2Fpackage.json"></a>
+   <a href="https://www.npmjs.com/package/chain-registry"><img height="20" src="https://img.shields.io/github/package-json/v/cosmology-tech/chain-registry?filename=v2%2Fpackages%2Fchain-registry%2Fpackage.json"></a>
 </p>
 
 The JSON Store for the [chain registry](https://github.com/cosmology-tech/chain-registry), which is the npm package for the Official Cosmos [chain registry](https://github.com/cosmos/chain-registry)
