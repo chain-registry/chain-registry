@@ -1,0 +1,84 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "int3face",
+  "chainType": "cosmos",
+  "chainId": "int3face-1",
+  "prettyName": "Int3face",
+  "networkType": "mainnet",
+  "website": "https://int3face.io/",
+  "bech32Prefix": "int3",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uint3",
+        "fixedMinGasPrice": 0.0025,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uint3"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "github.com/cosmos/cosmos-sdk v0.50.8",
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "version": "v0.50.8",
+      "tag": "v0.50.8"
+    },
+    "cosmwasm": {
+      "version": "v0.50.0",
+      "enabled": true
+    }
+  },
+  "description": "Int3face is a cross-chain bridge that connects the Cosmos ecosystem with other blockchains.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.mainnet.int3face.zone"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.mainnet.int3face.zone"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://int3face.zone/explorer",
+      "txPage": "https://int3face.zone/explorer/tx/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "imageSync": {
+        "chainName": "int3face",
+        "baseDenom": "uint3"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png",
+      "theme": {
+        "primaryColorHex": "#040404"
+      }
+    },
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3face-chain-logo.png",
+      "theme": {
+        "primaryColorHex": "#040404",
+        "circle": false
+      }
+    }
+  ]
+}

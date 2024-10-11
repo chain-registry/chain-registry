@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "bitcoincash",
+  "assets": [
+    {
+      "description": "Bitcoin Cash (BCH) is a digital coin designed for quick and cost-effective transactions.",
+      "denomUnits": [
+        {
+          "denom": "sat",
+          "exponent": 0
+        },
+        {
+          "denom": "bch",
+          "exponent": 8
+        }
+      ],
+      "assetType": "bitcoin-like",
+      "base": "sat",
+      "name": "Bitcoin Cash",
+      "display": "bch",
+      "symbol": "BCH",
+      "coingeckoId": "bitcoin-cash"
+    }
+  ]
+}

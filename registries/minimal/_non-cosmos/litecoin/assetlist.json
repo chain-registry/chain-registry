@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "litecoin",
+  "assets": [
+    {
+      "description": "The currency of Litecoin.",
+      "denomUnits": [
+        {
+          "denom": "litoshi",
+          "exponent": 0
+        },
+        {
+          "denom": "ltc",
+          "exponent": 8
+        }
+      ],
+      "assetType": "bitcoin-like",
+      "base": "litoshi",
+      "name": "Litecoin",
+      "display": "ltc",
+      "symbol": "LTC",
+      "coingeckoId": "litecoin"
+    }
+  ]
+}

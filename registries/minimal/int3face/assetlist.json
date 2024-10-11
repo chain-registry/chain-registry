@@ -1,0 +1,136 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "int3face",
+  "assets": [
+    {
+      "description": "Int3face blockchain native token",
+      "denomUnits": [
+        {
+          "denom": "uint3",
+          "exponent": 0
+        },
+        {
+          "denom": "int3",
+          "exponent": 6
+        }
+      ],
+      "base": "uint3",
+      "name": "Int3face Token",
+      "display": "int3",
+      "symbol": "INT3",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Bitcoin on Int3face",
+      "denomUnits": [
+        {
+          "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
+          "exponent": 0
+        },
+        {
+          "denom": "btc",
+          "exponent": 8
+        }
+      ],
+      "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
+      "name": "Bitcoin",
+      "display": "btc",
+      "symbol": "BTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Int3face"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Bitcoin-Cash on Int3face",
+      "denomUnits": [
+        {
+          "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch",
+          "exponent": 0
+        },
+        {
+          "denom": "bch",
+          "exponent": 8
+        }
+      ],
+      "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch",
+      "name": "Bitcoin Cash",
+      "display": "bch",
+      "symbol": "BCH",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcoincash",
+            "baseDenom": "sat"
+          },
+          "provider": "Int3face"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Dogecoin on Int3face",
+      "denomUnits": [
+        {
+          "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge",
+          "exponent": 0
+        },
+        {
+          "denom": "doge",
+          "exponent": 8
+        }
+      ],
+      "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge",
+      "name": "Dogecoin",
+      "display": "doge",
+      "symbol": "DOGE",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "dogecoin",
+            "baseDenom": "shibe"
+          },
+          "provider": "Int3face"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Litecoin on Int3face",
+      "denomUnits": [
+        {
+          "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc",
+          "exponent": 0
+        },
+        {
+          "denom": "ltc",
+          "exponent": 8
+        }
+      ],
+      "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc",
+      "name": "Litecoin",
+      "display": "ltc",
+      "symbol": "LTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "litecoin",
+            "baseDenom": "litoshi"
+          },
+          "provider": "Int3face"
+        }
+      ],
+      "assetType": "sdk.coin"
+    }
+  ]
+}
