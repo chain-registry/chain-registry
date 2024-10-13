@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "epix",
+  "assets": [
+    {
+      "description": "The EPIX coin, the lifeblood of the Epix network, providing the utility that powers every interaction and transaction within the ecosystem.",
+      "denomUnits": [
+        {
+          "denom": "aepix",
+          "exponent": 0
+        },
+        {
+          "denom": "epix",
+          "exponent": 18
+        }
+      ],
+      "base": "aepix",
+      "name": "Epix",
+      "display": "epix",
+      "symbol": "EPIX",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
