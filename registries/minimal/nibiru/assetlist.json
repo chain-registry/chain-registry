@@ -26,6 +26,34 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Liquid Staked Nibiru (Eris)",
+      "denomUnits": [
+        {
+          "denom": "tf/nibi1udqqx30cw8nwjxtl4l28ym9hhrp933zlq8dqxfjzcdhvl8y24zcqpzmh8m/ampNIBI",
+          "exponent": 0
+        },
+        {
+          "denom": "stNIBI",
+          "exponent": 6
+        }
+      ],
+      "base": "tf/nibi1udqqx30cw8nwjxtl4l28ym9hhrp933zlq8dqxfjzcdhvl8y24zcqpzmh8m/ampNIBI",
+      "name": "Liquid Staked Nibiru (Eris)",
+      "display": "stNIBI",
+      "symbol": "stNIBI",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "nibiru",
+            "baseDenom": "unibi"
+          },
+          "provider": "Eris Protocol"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "uoprek",
       "denomUnits": [
         {
