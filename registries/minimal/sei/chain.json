@@ -71,6 +71,9 @@
       },
       {
         "address": "https://sei-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://sei.drpc.org"
       }
     ],
     "rest": [

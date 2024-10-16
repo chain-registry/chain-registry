@@ -3,7 +3,7 @@
   "chainName": "persistence",
   "assets": [
     {
-      "description": "Persistence is a blockchain platform designed to facilitate institutional decentralized finance (DeFi) and real-world asset tokenization, integrating with the Cosmos ecosystem.",
+      "description": "Persistence One is building a Bitcoin Cross-chain Swaps solution, enabling fast, zero-slippage secure swaps across Bitcoin Layer 2s.",
       "denomUnits": [
         {
           "denom": "uxprt",

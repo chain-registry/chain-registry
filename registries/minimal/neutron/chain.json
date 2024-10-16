@@ -78,6 +78,12 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc-voidara.neutron-1.neutron.org"
+      },
+      {
+        "address": "https://rpc-pulsarix.neutron-1.neutron.org"
+      },
+      {
         "address": "https://rpc.novel.remedy.tm.p2p.org"
       },
       {

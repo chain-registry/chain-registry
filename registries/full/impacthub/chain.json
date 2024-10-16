@@ -4,7 +4,7 @@
   "status": "live",
   "networkType": "mainnet",
   "website": "https://www.ixo.world/",
-  "prettyName": "Impacts Hub",
+  "prettyName": "Impact Hub",
   "chainType": "cosmos",
   "chainId": "ixo-5",
   "bech32Prefix": "ixo",

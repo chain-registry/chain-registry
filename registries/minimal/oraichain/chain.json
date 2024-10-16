@@ -30,10 +30,14 @@
     ]
   },
   "codebase": {
-    "cosmwasmVersion": "0.30.2",
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45.16"
+    },
+    "cosmwasmVersion": "0.33.0",
     "cosmwasmEnabled": true,
     "cosmwasm": {
-      "version": "0.30.2",
+      "version": "0.33.0",
       "enabled": true
     }
   },
@@ -71,6 +75,9 @@
       },
       {
         "address": "https://orai-rpc.imdev.app"
+      },
+      {
+        "address": "https://orai-rpc.owallet.io"
       }
     ],
     "rest": [
@@ -94,6 +101,9 @@
       },
       {
         "address": "https://oraichain-rest.publicnode.com"
+      },
+      {
+        "address": "https://orai-rest.owallet.io"
       }
     ],
     "grpc": [
@@ -117,6 +127,9 @@
       },
       {
         "address": "oraichain-grpc.publicnode.com:443"
+      },
+      {
+        "address": "orai-grpc.owallet.io:9999"
       }
     ]
   },
