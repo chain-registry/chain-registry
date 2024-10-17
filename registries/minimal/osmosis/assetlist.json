@@ -12073,7 +12073,17 @@
       "base": "factory/osmo1s3l0lcqc7tu0vpj6wdjz9wqpxv8nk6eraevje4fuwkyjnwuy82qsx3lduv/boneOsmo",
       "name": "BackBone Labs Liquid Staked OSMO",
       "display": "bOSMO",
-      "symbol": "bOSMO"
+      "symbol": "bOSMO",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "uosmo"
+          },
+          "provider": "BackBoneLabs"
+        }
+      ]
     },
     {
       "description": "PUNDIX token is the native token that functions within the Pundi X ecosystem, including PundiX Chain and XPOS.",
@@ -16373,22 +16383,22 @@
       ]
     },
     {
-      "description": "USDC supplied on Mars looped using Membrane by a vault",
+      "description": "USDC supplied on Mars looped using Membrane by a vault that also has an entry fee",
       "denomUnits": [
         {
           "denom": "factory/osmo1vf6e300hv2qe7r5rln8deft45ewgyytjnwfrdfcv5rgzrfy0s6cswjqf9r/mars-usdc-looped",
           "exponent": 0
         },
         {
-          "denom": "loopedUSDCmars",
+          "denom": "earnUSDC",
           "exponent": 6
         }
       ],
       "assetType": "sdk.coin",
       "base": "factory/osmo1vf6e300hv2qe7r5rln8deft45ewgyytjnwfrdfcv5rgzrfy0s6cswjqf9r/mars-usdc-looped",
-      "name": "Mars Looped USDC",
-      "display": "loopedUSDCmars",
-      "symbol": "loopedUSDCmars"
+      "name": "Mars Looped USDC Vault",
+      "display": "earnUSDC",
+      "symbol": "earnUSDC"
     },
     {
       "denomUnits": [
@@ -16638,6 +16648,24 @@
           "provider": "Omnity Network"
         }
       ]
+    },
+    {
+      "description": "Auto-compounding vault for Membrane's Stability Pool used to ease the UX of compounding CDT",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1jw6r68y0uhfmqagc7uhtdddctc7wq95pncvrqnvtd47w4hx46p7se9nju5/earn-cdt",
+          "exponent": 0
+        },
+        {
+          "denom": "earnCDT",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/osmo1jw6r68y0uhfmqagc7uhtdddctc7wq95pncvrqnvtd47w4hx46p7se9nju5/earn-cdt",
+      "name": "Earn CDT Vault",
+      "display": "earnCDT",
+      "symbol": "earnCDT"
     },
     {
       "description": "Uniswap UNI on Osmosis via Axelar",

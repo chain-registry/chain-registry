@@ -833,6 +833,16 @@
       "name": "BackBone Labs Liquid Staked KUJI",
       "display": "bKUJI",
       "symbol": "bKUJI",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "kujira",
+            "baseDenom": "ukuji"
+          },
+          "provider": "BackBoneLabs"
+        }
+      ],
       "assetType": "sdk.coin"
     },
     {

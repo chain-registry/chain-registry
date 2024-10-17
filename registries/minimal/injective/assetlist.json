@@ -134,6 +134,16 @@
       "name": "BackBone Labs Liquid Staked Injective",
       "display": "bINJ",
       "symbol": "bINJ",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "inj"
+          },
+          "provider": "BackBoneLabs"
+        }
+      ],
       "assetType": "sdk.coin"
     },
     {

@@ -1130,6 +1130,174 @@
           "provider": "Axelar"
         }
       ]
+    },
+    {
+      "description": "Tether's USD stablecoin from Arbitrum on Axelar",
+      "denomUnits": [
+        {
+          "denom": "arbitrum-uusdt",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "arbitrum-uusdt",
+      "name": "Tether USD (Arbitrum)",
+      "display": "usdt",
+      "symbol": "axlUSDT",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "arbitrum",
+            "baseDenom": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+          },
+          "provider": "Axelar"
+        }
+      ]
+    },
+    {
+      "description": "Tether's USD stablecoin from Optimism on Axelar",
+      "denomUnits": [
+        {
+          "denom": "optimism-uusdt",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "optimism-uusdt",
+      "name": "Tether USD (Optimism)",
+      "display": "usdt",
+      "symbol": "axlUSDT",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "optimism",
+            "baseDenom": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
+          },
+          "provider": "Axelar"
+        }
+      ]
+    },
+    {
+      "description": "Tether's USD stablecoin from Polygon on Axelar",
+      "denomUnits": [
+        {
+          "denom": "polygon-uusdt",
+          "exponent": 0
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "polygon-uusdt",
+      "name": "Tether USD (Polygon)",
+      "display": "usdt",
+      "symbol": "axlUSDT",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "polygon",
+            "baseDenom": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+          },
+          "provider": "Axelar"
+        }
+      ]
+    },
+    {
+      "description": "Coinbase Wrapped Bitcoin on Axelar",
+      "denomUnits": [
+        {
+          "denom": "cbbtc-satoshi",
+          "exponent": 0
+        },
+        {
+          "denom": "cbbtc",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "cbbtc-satoshi",
+      "name": "Coinbase Warpped Bitcoin",
+      "display": "cbbtc",
+      "symbol": "axl-cbBTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "base",
+            "baseDenom": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+          },
+          "provider": "Axelar"
+        }
+      ]
+    },
+    {
+      "description": "Fire Bitcoin on Axelar",
+      "denomUnits": [
+        {
+          "denom": "fbtc-satoshi",
+          "exponent": 0
+        },
+        {
+          "denom": "fbtc",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "fbtc-satoshi",
+      "name": "Fire Bitcoin",
+      "display": "fbtc",
+      "symbol": "axlFBTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "mantle",
+            "baseDenom": "0xC96dE26018A54D51c097160568752c4E3BD6C364"
+          },
+          "provider": "Axelar"
+        }
+      ]
+    },
+    {
+      "description": "Lombard Staked Bitcoin on Axelar",
+      "denomUnits": [
+        {
+          "denom": "lbtc-satoshi",
+          "exponent": 0
+        },
+        {
+          "denom": "lbtc",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "lbtc-satoshi",
+      "name": "Lombard Staked Bitcoin",
+      "display": "lbtc",
+      "symbol": "axlLBTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x8236a87084f8B84306f72007F36F2618A5634494"
+          },
+          "provider": "Axelar"
+        }
+      ]
     }
   ]
 }

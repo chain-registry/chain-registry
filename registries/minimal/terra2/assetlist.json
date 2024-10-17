@@ -427,6 +427,16 @@
       "name": "BackBone Labs Liquid Staked LUNA",
       "display": "bLUNA",
       "symbol": "bLUNA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "terra2",
+            "baseDenom": "uluna"
+          },
+          "provider": "BackBoneLabs"
+        }
+      ],
       "coingeckoId": "backbone-labs-staked-luna"
     },
     {

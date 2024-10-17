@@ -55,6 +55,16 @@
       "name": "BackBone Labs Liquid Staked WHALE",
       "display": "bWHALE",
       "symbol": "bWHALE",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "migaloo",
+            "baseDenom": "uwhale"
+          },
+          "provider": "BackBoneLabs"
+        }
+      ],
       "coingeckoId": "backbone-labs-staked-whale",
       "assetType": "sdk.coin"
     },

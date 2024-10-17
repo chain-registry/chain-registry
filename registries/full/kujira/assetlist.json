@@ -1279,6 +1279,16 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bKUJI.png"
       },
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "kujira",
+            "baseDenom": "ukuji"
+          },
+          "provider": "BackBoneLabs"
+        }
+      ],
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/bKUJI.png",

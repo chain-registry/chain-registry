@@ -1432,6 +1432,16 @@
       "name": "BackBone Labs Liquid Staked JUNO",
       "display": "bJUNO",
       "symbol": "bJUNO",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "juno",
+            "baseDenom": "ujuno"
+          },
+          "provider": "BackBoneLabs"
+        }
+      ],
       "coingeckoId": "backbone-labs-staked-juno"
     },
     {

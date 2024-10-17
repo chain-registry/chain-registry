@@ -52,7 +52,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://pirin-cl.nolus.network:26657"
+        "address": "rpc.nolus.network"
       },
       {
         "address": "https://nolus-mainnet-rpc.autostake.com:443"
@@ -87,7 +87,7 @@
     ],
     "rest": [
       {
-        "address": "https://pirin-cl.nolus.network:1317"
+        "address": "lcd.nolus.network"
       },
       {
         "address": "https://nolus-mainnet-lcd.autostake.com:443"
@@ -122,7 +122,7 @@
     ],
     "grpc": [
       {
-        "address": "https://pirin-cl.nolus.network:9090"
+        "address": "grpc.nolus.network"
       },
       {
         "address": "nolus-mainnet-grpc.autostake.com:443"
