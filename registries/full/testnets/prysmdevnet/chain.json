@@ -1,0 +1,158 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "prysmdevnet",
+  "status": "live",
+  "networkType": "devnet",
+  "website": "https://www.prysm.network/",
+  "prettyName": "Prysm Devnet",
+  "chainType": "cosmos",
+  "chainId": "prysm-devnet-1",
+  "bech32Prefix": "prysm",
+  "daemonName": "prysm",
+  "nodeHome": "$HOME/.prysm",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uprysm",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uprysm"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/kleomedes/prysm",
+    "recommendedVersion": "v0.1.0-devnet",
+    "compatibleVersions": [
+      "v0.1.0-devnet"
+    ],
+    "cosmosSdkVersion": "v0.50.8",
+    "consensus": {
+      "type": "cometbft",
+      "version": "v0.38.10"
+    },
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/kleomedes/prysm/refs/heads/main/network/prysm-devnet-1/genesis.json"
+    },
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.8"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v8.4.0"
+    }
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg"
+  },
+  "description": "Network layer blockchain providing foundational infrastructure, enhanced connectivity, and scalability.",
+  "peers": {
+    "seeds": [
+      {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "testnet-seeds.polkachu.com:29856",
+        "provider": "Polkachu"
+      },
+      {
+        "id": "c80143f844fd8da4f76a0a43de86936f72372168",
+        "address": "prysm-testnet-seed.synergynodes.com:18656",
+        "provider": "Synergy Nodes"
+      },
+      {
+        "id": "8685507ed33c029a5787275e9f3ea2b133d45d25",
+        "address": "prysm-rpc.validatorvn.com:44656",
+        "provider": "ValidatorVN"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "b377fd0b14816eef8e12644340845c127d1e7d93",
+        "address": "dns.kleomed.es:26656",
+        "provider": "Kleomedes"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://prysm-rpc-devnet.kleomedes.network/",
+        "provider": "Kleomedes"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.polkachu.com/",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.synergynodes.com/",
+        "provider": "Synergy Nodes"
+      },
+      {
+        "address": "https://prysm-rpc.validatorvn.com/",
+        "provider": "ValidatorVN"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://prysm-api-devnet.kleomedes.network/",
+        "provider": "Kleomedes"
+      },
+      {
+        "address": "https://prysm-testnet-api.polkachu.com/",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://prysm-testnet-api.synergynodes.com/",
+        "provider": "Synergy Nodes"
+      },
+      {
+        "address": "https://prysm-api.validatorvn.com/",
+        "provider": "ValidatorVN"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "prysm-testnet-grpc.polkachu.com:29890",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://prysm-testnet-grpc.synergynodes.com/",
+        "provider": "Synergy Nodes"
+      },
+      {
+        "address": "prysm-grpc.validatorvn.com:44090",
+        "provider": "ValidatorVN"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "PingPub",
+      "url": "https://explorer.kleomedes.network/prysm",
+      "txPage": "https://explorer.kleomedes.network/prysm/tx/${txHash}",
+      "accountPage": "https://explorer.kleomedes.network/prysm/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg",
+      "theme": {
+        "primaryColorHex": "#cf654f"
+      }
+    }
+  ]
+}

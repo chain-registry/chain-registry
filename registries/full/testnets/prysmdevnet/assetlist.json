@@ -1,10 +1,10 @@
 {
-  "$schema": "../assetlist.schema.json",
-  "chain_name": "prysm",
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "prysmdevnet",
   "assets": [
     {
       "description": "The native token of Prysm",
-      "denom_units": [
+      "denomUnits": [
         {
           "denom": "uprysm",
           "exponent": 0
@@ -20,10 +20,11 @@
       "symbol": "PRYSM",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/prysm/images/prysm.png",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg",
           "theme": {
             "circle": true,
-            "primary_color_hex": "#cf654f"
+            "primaryColorHex": "#cf654f"
           }
         }
       ],
@@ -31,7 +32,7 @@
         "website": "https://www.prysm.network/",
         "twitter": "https://twitter.com/PrysmNetwork"
       },
-      "type_asset": "sdk.coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

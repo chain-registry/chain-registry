@@ -1,0 +1,98 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "prysmdevnet",
+  "networkType": "devnet",
+  "website": "https://www.prysm.network/",
+  "prettyName": "Prysm Devnet",
+  "chainType": "cosmos",
+  "chainId": "prysm-devnet-1",
+  "bech32Prefix": "prysm",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uprysm",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uprysm"
+      }
+    ]
+  },
+  "codebase": {
+    "cosmosSdkVersion": "v0.50.8",
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.8"
+    }
+  },
+  "description": "Network layer blockchain providing foundational infrastructure, enhanced connectivity, and scalability.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://prysm-rpc-devnet.kleomedes.network/"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.synergynodes.com/"
+      },
+      {
+        "address": "https://prysm-rpc.validatorvn.com/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://prysm-api-devnet.kleomedes.network/"
+      },
+      {
+        "address": "https://prysm-testnet-api.polkachu.com/"
+      },
+      {
+        "address": "https://prysm-testnet-api.synergynodes.com/"
+      },
+      {
+        "address": "https://prysm-api.validatorvn.com/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "prysm-testnet-grpc.polkachu.com:29890"
+      },
+      {
+        "address": "https://prysm-testnet-grpc.synergynodes.com/"
+      },
+      {
+        "address": "prysm-grpc.validatorvn.com:44090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "PingPub",
+      "url": "https://explorer.kleomedes.network/prysm",
+      "txPage": "https://explorer.kleomedes.network/prysm/tx/${txHash}",
+      "accountPage": "https://explorer.kleomedes.network/prysm/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/prysmdevnet/images/prysm.svg",
+      "theme": {
+        "primaryColorHex": "#cf654f"
+      }
+    }
+  ]
+}
