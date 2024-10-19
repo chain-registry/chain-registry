@@ -3,7 +3,7 @@
   "chainName": "stratos",
   "assets": [
     {
-      "description": "STOS coin is the token for the Stratos (STOS) cosmos based blockchain",
+      "description": "STOS coin is the native token for the Stratos Blockchain. Stratos is a pioneering decentralized infrastructure service provider, revolutionizing AI and DePIN with advanced decentralized solutions in storage, computing, databases, and blockchain services. We empower Web 3.0 developpers and dApps through our scalable, reliable, and high-performance networks.",
       "denomUnits": [
         {
           "denom": "wei",

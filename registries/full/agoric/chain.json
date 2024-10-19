@@ -42,9 +42,9 @@
     "genesis": {
       "genesisUrl": "https://main.agoric.net/genesis.json"
     },
-    "recommendedVersion": "agoric-upgrade-16",
+    "recommendedVersion": "agoric-upgrade-17",
     "compatibleVersions": [
-      "agoric-upgrade-16"
+      "agoric-upgrade-17"
     ],
     "cosmosSdkVersion": "agoric-labs/cosmos-sdk v0.46.16-alpha.agoric.2.4",
     "consensus": {
@@ -54,6 +54,9 @@
       "tag": "v0.34.30-alpha.agoric.1"
     },
     "cosmwasmEnabled": false,
+    "cosmwasm": {
+      "enabled": false
+    },
     "language": {
       "type": "go",
       "version": "1.20.2"
@@ -66,13 +69,12 @@
     },
     "ibc": {
       "type": "go",
-      "version": "v7.4.0",
+      "version": "v6.3.1",
+      "repo": "https://github.com/agoric-labs/ibc-go",
+      "tag": "v6.3.1-alpha.agoric.2",
       "icsEnabled": [
         "ics20-1"
       ]
-    },
-    "cosmwasm": {
-      "enabled": false
     }
   },
   "logoURIs": {
