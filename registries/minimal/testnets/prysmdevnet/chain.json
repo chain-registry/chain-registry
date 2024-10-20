@@ -38,6 +38,11 @@
   },
   "description": "Network layer blockchain providing foundational infrastructure, enhanced connectivity, and scalability.",
   "apis": {
+    "wss": [
+      {
+        "address": "wss://prysm-testnet-rpc.cogwheel.zone/websocket"
+      }
+    ],
     "rpc": [
       {
         "address": "https://prysm-rpc-devnet.kleomedes.network/"
@@ -50,6 +55,12 @@
       },
       {
         "address": "https://prysm-rpc.validatorvn.com/"
+      },
+      {
+        "address": "https://rpc-prysm.vinjan.xyz/"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.cogwheel.zone"
       }
     ],
     "rest": [
@@ -64,6 +75,12 @@
       },
       {
         "address": "https://prysm-api.validatorvn.com/"
+      },
+      {
+        "address": "https://api-prysm.vinjan.xyz/"
+      },
+      {
+        "address": "https://prysm-testnet-api.cogwheel.zone"
       }
     ],
     "grpc": [
@@ -75,6 +92,9 @@
       },
       {
         "address": "prysm-grpc.validatorvn.com:44090"
+      },
+      {
+        "address": "prysm-testnet-grpc.cogwheel.zone:443"
       }
     ]
   },
@@ -84,6 +104,12 @@
       "url": "https://explorer.kleomedes.network/prysm",
       "txPage": "https://explorer.kleomedes.network/prysm/tx/${txHash}",
       "accountPage": "https://explorer.kleomedes.network/prysm/account/${accountAddress}"
+    },
+    {
+      "kind": "PingPub",
+      "url": "https://explorer.cogwheel.zone/prysm",
+      "txPage": "https://explorer.cogwheel.zone/prysm/tx/${txHash}",
+      "accountPage": "https://explorer.cogwheel.zone/prysm/account/${accountAddress}"
     }
   ],
   "images": [

@@ -83,10 +83,21 @@
         "id": "b377fd0b14816eef8e12644340845c127d1e7d93",
         "address": "dns.kleomed.es:26656",
         "provider": "Kleomedes"
+      },
+      {
+        "id": "271fe43e9a393cc47e288e80aa5b1ec1452fa0e7",
+        "address": "88.99.149.170:29656",
+        "provider": "Vinjan.Inc"
       }
     ]
   },
   "apis": {
+    "wss": [
+      {
+        "address": "wss://prysm-testnet-rpc.cogwheel.zone/websocket",
+        "provider": "Cogwheel ⚙️"
+      }
+    ],
     "rpc": [
       {
         "address": "https://prysm-rpc-devnet.kleomedes.network/",
@@ -103,6 +114,14 @@
       {
         "address": "https://prysm-rpc.validatorvn.com/",
         "provider": "ValidatorVN"
+      },
+      {
+        "address": "https://rpc-prysm.vinjan.xyz/",
+        "provider": "Vinjan.Inc"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.cogwheel.zone",
+        "provider": "Cogwheel ⚙️"
       }
     ],
     "rest": [
@@ -121,6 +140,14 @@
       {
         "address": "https://prysm-api.validatorvn.com/",
         "provider": "ValidatorVN"
+      },
+      {
+        "address": "https://api-prysm.vinjan.xyz/",
+        "provider": "Vinjan.Inc"
+      },
+      {
+        "address": "https://prysm-testnet-api.cogwheel.zone",
+        "provider": "Cogwheel ⚙️"
       }
     ],
     "grpc": [
@@ -135,6 +162,10 @@
       {
         "address": "prysm-grpc.validatorvn.com:44090",
         "provider": "ValidatorVN"
+      },
+      {
+        "address": "prysm-testnet-grpc.cogwheel.zone:443",
+        "provider": "Cogwheel ⚙️"
       }
     ]
   },
@@ -144,6 +175,12 @@
       "url": "https://explorer.kleomedes.network/prysm",
       "txPage": "https://explorer.kleomedes.network/prysm/tx/${txHash}",
       "accountPage": "https://explorer.kleomedes.network/prysm/account/${accountAddress}"
+    },
+    {
+      "kind": "PingPub",
+      "url": "https://explorer.cogwheel.zone/prysm",
+      "txPage": "https://explorer.cogwheel.zone/prysm/tx/${txHash}",
+      "accountPage": "https://explorer.cogwheel.zone/prysm/account/${accountAddress}"
     }
   ],
   "images": [
