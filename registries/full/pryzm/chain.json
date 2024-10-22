@@ -241,6 +241,12 @@
       "blockPage": "https://cosmosrun.info/pryzm/blocks/${blockHeight}",
       "proposalPage": "https://cosmosrun.info/pryzm/gov/${proposalId}",
       "validatorPage": "https://cosmosrun.info/pryzm/staking/${validatorAddress}"
+    },
+    {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/pryzm",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=pryzm&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=pryzm&addr=${accountAddress}"
     }
   ],
   "images": [

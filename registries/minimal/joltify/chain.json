@@ -88,6 +88,12 @@
       "accountPage": "https://explorer.joltify.io/joltify/accounts/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/joltify",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=joltify&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=joltify&addr=${accountAddress}"
+    },
+    {
       "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
       "url": "https://explorer.whenmoonwhenlambo.money/joltify",
       "txPage": "https://explorer.whenmoonwhenlambo.money/joltify/tx/${txHash}",

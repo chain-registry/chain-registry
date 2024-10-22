@@ -177,6 +177,12 @@
       "accountPage": "https://www.mintscan.io/chihuahua/accounts/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/chihuahua",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=chihuahua&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=chihuahua&addr=${accountAddress}"
+    },
+    {
       "kind": "atomscan",
       "url": "https://atomscan.com/chihuahua",
       "txPage": "https://atomscan.com/chihuahua/transactions/${txHash}",

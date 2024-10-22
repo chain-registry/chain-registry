@@ -494,6 +494,12 @@
       "txPage": "https://ping.pub/jackal/tx/${txHash}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/jackal",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=jackal&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=jackal&addr=${accountAddress}"
+    },
+    {
       "kind": "NodeStake",
       "url": "https://explorer.nodestake.top/jackal",
       "txPage": "https://explorer.nodestake.top/jackal/tx/${txHash}"

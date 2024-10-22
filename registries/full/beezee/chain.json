@@ -315,6 +315,12 @@
       "accountPage": "https://ping.pub/beezee/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/beezee",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=beezee&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=beezee&addr=${accountAddress}"
+    },
+    {
       "kind": "ping.pub",
       "url": "https://explorer.getbze.com/beezee",
       "txPage": "https://explorer.getbze.com/beezee/tx/${txHash}",

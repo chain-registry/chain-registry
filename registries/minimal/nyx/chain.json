@@ -88,6 +88,12 @@
       "accountPage": "https://nym.explorers.guru/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/nyx",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=nyx&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=nyx&addr=${accountAddress}"
+    },
+    {
       "kind": "ezstaking",
       "url": "https://ezstaking.app/nyx",
       "txPage": "https://ezstaking.app/nyx/txs/${txHash}",

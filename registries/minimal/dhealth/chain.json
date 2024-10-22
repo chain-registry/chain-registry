@@ -81,6 +81,12 @@
   },
   "explorers": [
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/dhealth",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=dhealth&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=dhealth&addr=${accountAddress}"
+    },
+    {
       "kind": "nodestake",
       "url": "https://explorer.nodestake.org/dhealth",
       "txPage": "https://explorer.nodestake.org/dhealth/tx/${txHash}",

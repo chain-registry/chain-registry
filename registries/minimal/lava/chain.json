@@ -199,6 +199,12 @@
       "accountPage": "https://lava-explorer.w3coins.io/Lava/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/lava",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=lava&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=lava&addr=${accountAddress}"
+    },
+    {
       "kind": "Stake Village",
       "url": "https://exp.stakevillage.net/lava-mainnet",
       "txPage": "https://exp.stakevillage.net/lava-mainnet/tx/${txHash}",

@@ -430,6 +430,12 @@
       "accountPage": "https://www.mintscan.io/comdex/accounts/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/comdex",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=comdex&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=comdex&addr=${accountAddress}"
+    },
+    {
       "kind": "🔥STAVR🔥",
       "url": "https://explorer.stavr.tech/Comdex-Mainnet",
       "txPage": "https://explorer.stavr.tech/Comdex-Mainnet/txs/${txHash}",

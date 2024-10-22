@@ -544,6 +544,12 @@
       "accountPage": "https://explorer.tcnetwork.io/osmosis/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/osmosis",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=osmosis&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=osmosis&addr=${accountAddress}"
+    },
+    {
       "kind": "Stakeflow",
       "url": "https://stakeflow.io/osmosis",
       "accountPage": "https://stakeflow.io/osmosis/accounts/${accountAddress}"

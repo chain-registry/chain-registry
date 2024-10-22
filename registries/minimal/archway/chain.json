@@ -278,6 +278,12 @@
       "accountPage": "https://archway.explorers.guru/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/archway",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=archway&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=archway&addr=${accountAddress}"
+    },
+    {
       "kind": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
       "url": "https://exp.utsa.tech/archway",
       "txPage": "https://exp.utsa.tech/archway/tx/${txHash}",

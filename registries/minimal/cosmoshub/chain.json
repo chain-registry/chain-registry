@@ -339,6 +339,12 @@
       "blockPage": "https://ping.pub/cosmos/block/${blockHeight}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/cosmoshub",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=cosmoshub&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=cosmoshub&addr=${accountAddress}"
+    },
+    {
       "kind": "atomscan",
       "url": "https://atomscan.com",
       "txPage": "https://atomscan.com/transactions/${txHash}",

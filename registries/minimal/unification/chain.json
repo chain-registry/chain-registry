@@ -97,6 +97,12 @@
       "accountPage": "https://explorer.unification.chainmasters.ninja/Unification/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/unification",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=unification&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=unification&addr=${accountAddress}"
+    },
+    {
       "kind": "atomscan",
       "url": "https://atomscan.com/unification",
       "txPage": "https://atomscan.com/unification/transactions/${txHash}",

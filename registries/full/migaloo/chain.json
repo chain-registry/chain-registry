@@ -342,6 +342,12 @@
       "txPage": "https://ping.pub/migaloo/tx/${txHash}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/migaloo",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=migaloo&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=migaloo&addr=${accountAddress}"
+    },
+    {
       "kind": "Silk Nodes",
       "url": "https://explorer.silknodes.io/migaloo",
       "txPage": "https://explorer.silknodes.io/migaloo/tx/${txHash}",

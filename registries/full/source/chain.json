@@ -439,6 +439,12 @@
       "txPage": "https://explorer.tcnetwork.io/source/transaction/${txHash}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/source",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=source&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=source&addr=${accountAddress}"
+    },
+    {
       "kind": "Indonode",
       "url": "https://explorer.indonode.net/source",
       "txPage": "https://explorer.indonode.net/source/tx/${txHash}"

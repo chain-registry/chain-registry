@@ -428,6 +428,12 @@
       "txPage": "https://explorers.brocha.in/uptick/tx/${txHash}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/uptick",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=uptick&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=uptick&addr=${accountAddress}"
+    },
+    {
       "kind": "NodeStake Explorer",
       "url": "https://explorer.nodestake.top/uptick",
       "txPage": "https://explorer.nodestake.top/uptick/tx/${txHash}"

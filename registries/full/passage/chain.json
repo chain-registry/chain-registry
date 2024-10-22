@@ -422,6 +422,12 @@
       "accountPage": "https://ezstaking.app/passage/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/passage",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=passage&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=passage&addr=${accountAddress}"
+    },
+    {
       "kind": "atomscan",
       "url": "https://atomscan.com/passage",
       "txPage": "https://atomscan.com/passage/transactions/${txHash}",

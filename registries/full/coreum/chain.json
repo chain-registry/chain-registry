@@ -335,6 +335,12 @@
       "accountPage": "https://www.mintscan.io/coreum/accounts/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/coreum",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=coreum&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=coreum&addr=${accountAddress}"
+    },
+    {
       "kind": "NODEXPLORER",
       "url": "https://explorer.nodexcapital.com/coreum",
       "txPage": "https://explorer.nodexcapital.com/coreum/txs/${txHash}",

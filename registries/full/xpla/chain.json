@@ -346,6 +346,12 @@
       "accountPage": "https://www.mintscan.io/xpla/accounts/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/xpla",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=xpla&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=xpla&addr=${accountAddress}"
+    },
+    {
       "kind": "ezstaking",
       "url": "https://ezstaking.app/xpla",
       "txPage": "https://ezstaking.app/xpla/txs/${txHash}",

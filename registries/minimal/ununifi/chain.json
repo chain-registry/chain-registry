@@ -118,6 +118,12 @@
       "txPage": "https://explorer.nodestake.top/ununifi/tx/${txHash}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/ununifi",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=ununifi&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=ununifi&addr=${accountAddress}"
+    },
+    {
       "kind": "Nodeist Explorer",
       "url": "https://exp.nodeist.net/Ununifi",
       "txPage": "https://exp.nodeist.net/Ununifi/tx/${txHash}"

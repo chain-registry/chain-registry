@@ -351,6 +351,12 @@
       "accountPage": "https://explorer.theamsolutions.info/qwoyn-main/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/qwoyn",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=qwoyn&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=qwoyn&addr=${accountAddress}"
+    },
+    {
       "kind": "🔥STAVR🔥",
       "url": "https://explorer.stavr.tech/Qwoyn-Mainnet",
       "txPage": "https://explorer.stavr.tech/Qwoyn-Mainnet/tx/${txHash}",

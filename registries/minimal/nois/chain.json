@@ -214,6 +214,12 @@
       "accountPage": "https://ezstaking.app/nois/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/nois",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=nois&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=nois&addr=${accountAddress}"
+    },
+    {
       "kind": "🔥STAVR🔥",
       "url": "https://explorer.stavr.tech/nois-mainnet",
       "txPage": "https://explorer.stavr.tech/nois-mainnet/txs/${txHash}",

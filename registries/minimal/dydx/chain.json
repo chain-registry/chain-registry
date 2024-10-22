@@ -188,6 +188,12 @@
       "accountPage": "https://www.mintscan.io/dydx/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/dydx",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=dydx&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=dydx&addr=${accountAddress}"
+    },
+    {
       "kind": "ezstaking",
       "url": "https://ezstaking.app/dydx",
       "txPage": "https://ezstaking.app/dydx/txs/${txHash}",

@@ -130,6 +130,12 @@
       "accountPage": "https://atomscan.com/terra2/accounts/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/terra2",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=terra2&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=terra2&addr=${accountAddress}"
+    },
+    {
       "kind": "finder",
       "url": "http://finder.terra.money/",
       "txPage": "https://finder.terra.money/mainnet/tx/${txHash}",

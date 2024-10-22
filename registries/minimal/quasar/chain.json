@@ -185,6 +185,12 @@
       "accountPage": "https://ezstaking.app/quasar/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/quasar",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=quasar&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=quasar&addr=${accountAddress}"
+    },
+    {
       "kind": "WhisperNode 🤐",
       "url": "https://mainnet.whispernode.com/quasar",
       "txPage": "https://mainnet.whispernode.com/quasar/tx/${txHash}",

@@ -74,6 +74,12 @@
       "txPage": "https://ping.pub/bostrom/tx/${txHash}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/bostrom",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=bostrom&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=bostrom&addr=${accountAddress}"
+    },
+    {
       "kind": "atomscan",
       "url": "https://atomscan.com/bostrom",
       "txPage": "https://atomscan.com/bostrom/transactions/${txHash}",

@@ -656,6 +656,12 @@
       "accountPage": "https://nibiru.explorers.guru/account/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/nibiru",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=nibiru&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=nibiru&addr=${accountAddress}"
+    },
+    {
       "kind": "NodeStake",
       "url": "https://explorer.nodestake.org/nibiru",
       "txPage": "https://explorer.nodestake.org/nibiru/tx/${txHash}",

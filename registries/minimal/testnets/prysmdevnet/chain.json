@@ -41,6 +41,12 @@
     "wss": [
       {
         "address": "wss://prysm-testnet-rpc.cogwheel.zone/websocket"
+      },
+      {
+        "address": "wss://prysm-testnet-rpc.mictonode.com/websocket"
+      },
+      {
+        "address": "wss://prysm-testnet-rpc.itrocket.net/websocket"
       }
     ],
     "rpc": [
@@ -61,6 +67,15 @@
       },
       {
         "address": "https://prysm-testnet-rpc.cogwheel.zone"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.mictonode.com/"
+      },
+      {
+        "address": "https://rpc-prysm.josephtran.xyz/"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.itrocket.net"
       }
     ],
     "rest": [
@@ -81,6 +96,15 @@
       },
       {
         "address": "https://prysm-testnet-api.cogwheel.zone"
+      },
+      {
+        "address": "https://prysm-testnet-api.mictonode.com/"
+      },
+      {
+        "address": "https://api-prysm.josephtran.xyz/"
+      },
+      {
+        "address": "https://prysm-testnet-api.itrocket.net"
       }
     ],
     "grpc": [
@@ -95,6 +119,15 @@
       },
       {
         "address": "prysm-testnet-grpc.cogwheel.zone:443"
+      },
+      {
+        "address": "prysm-testnet-grpc.mictonode.com:443"
+      },
+      {
+        "address": "https://grpc-prysm.josephtran.xyz/"
+      },
+      {
+        "address": "prysm-testnet-grpc.itrocket.net:443"
       }
     ]
   },
@@ -110,6 +143,18 @@
       "url": "https://explorer.cogwheel.zone/prysm",
       "txPage": "https://explorer.cogwheel.zone/prysm/tx/${txHash}",
       "accountPage": "https://explorer.cogwheel.zone/prysm/account/${accountAddress}"
+    },
+    {
+      "kind": "PingPub",
+      "url": "https://explorer.mictonode.com/Prysm-Testnet",
+      "txPage": "https://explorer.mictonode.com/Prysm-Testnet/tx/${txHash}",
+      "accountPage": "https://explorer.mictonode.com/Prysm-Testnet/account/${accountAddress}"
+    },
+    {
+      "kind": "ITRocket",
+      "url": "https://testnet.itrocket.net/prysm",
+      "txPage": "https://testnet.itrocket.net/prysm/tx/${txHash}",
+      "accountPage": "https://testnet.itrocket.net/prysm/account/${accountAddress}"
     }
   ],
   "images": [

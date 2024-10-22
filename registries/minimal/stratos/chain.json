@@ -94,6 +94,12 @@
       "accountPage": "https://explorer.nodestake.top/stratos/accounts/${accountAddress}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/stratos",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=stratos&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=stratos&addr=${accountAddress}"
+    },
+    {
       "kind": "TC Network",
       "url": "https://explorer.tcnetwork.io/stratos",
       "txPage": "https://explorer.tcnetwork.io/stratos/transaction/${txHash}",

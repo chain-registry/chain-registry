@@ -609,6 +609,12 @@
       "txPage": "https://nolus.explorers.guru/transaction/${txHash}"
     },
     {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/nolus",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=nolus&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=nolus&addr=${accountAddress}"
+    },
+    {
       "kind": "KJ Nodes Explorer",
       "url": "https://explorer.kjnodes.com/nolus",
       "txPage": "https://explorer.kjnodes.com/nolus/tx/${txHash}",
