@@ -1,6 +1,6 @@
 {
-  "$schema": "../assetlist.schema.json",
-  "chainName": "mantrachain",
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "mantrachaintestnet2",
   "assets": [
     {
       "description": "The native token of MANTRA",
@@ -16,10 +16,9 @@
       ],
       "assetType": "sdk.coin",
       "base": "uom",
-      "name": "MANTRA Chain",
+      "name": "MANTRA Chain Dukong",
       "display": "om",
-      "symbol": "OM",
-      "coingeckoId": "mantra-dao"
+      "symbol": "OM"
     }
   ]
 }

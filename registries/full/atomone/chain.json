@@ -1,0 +1,140 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "atomone",
+  "chainType": "cosmos",
+  "chainId": "atomone-1",
+  "website": "https://atom.one",
+  "prettyName": "AtomOne",
+  "status": "live",
+  "networkType": "mainnet",
+  "bech32Prefix": "atone",
+  "daemonName": "atomoned",
+  "nodeHome": "$HOME/.atomone",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uatone",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.006,
+        "averageGasPrice": 0.006,
+        "highGasPrice": 0.009
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uatone"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/atomone-hub/atomone",
+    "recommendedVersion": "v1.0.0",
+    "compatibleVersions": [
+      "v1.0.0"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-linux-amd64",
+      "linux/arm64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-linux-arm64",
+      "darwin/amd64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-darwin-amd64",
+      "darwin/arm64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-darwin-arm64",
+      "windows/amd64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-windows-amd64.exe",
+      "windows/arm64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-windows-arm64.exe"
+    },
+    "genesis": {
+      "genesisUrl": "https://atomone.fra1.digitaloceanspaces.com/atomone-1/genesis.json"
+    },
+    "cosmosSdkVersion": "v0.47.13",
+    "consensus": {
+      "type": "cometbft",
+      "version": "v0.37.5"
+    },
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.13"
+    },
+    "versions": [
+      {
+        "name": "v1.0.0",
+        "tag": "v1.0.0",
+        "recommendedVersion": "v1.0.0",
+        "compatibleVersions": [
+          "v1.0.0"
+        ],
+        "cosmosSdkVersion": "v0.47.13",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.5"
+        },
+        "height": 1,
+        "binaries": {
+          "linux/amd64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-linux-amd64",
+          "linux/arm64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-linux-arm64",
+          "darwin/amd64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-darwin-amd64",
+          "darwin/arm64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-darwin-arm64",
+          "windows/amd64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-windows-amd64.exe",
+          "windows/arm64": "https://github.com/atomone-hub/atomone/releases/download/v1.0.0/atomoned-v1.0.0-windows-arm64.exe"
+        },
+        "sdk": {
+          "type": "cosmos",
+          "version": "v0.47.13"
+        }
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg"
+  },
+  "description": "The Cosmos community, at a crossroads, confronts divergent views on key aspects such as mission, tokenomics, and security philosophy. AtomOne emerges as a beacon, offering an alternative fork to navigate these waters, equipped to handle contingencies and embodying a bastion for diverse political thought.",
+  "peers": {
+    "seeds": [
+
+    ],
+    "persistentPeers": [
+      {
+        "id": "9dac79c27e4dba77cb22b0b25933fee6c8121cf7",
+        "address": "72.46.84.243:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://atomone-rpc.allinbits.com:443",
+        "provider": "AllInBits"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://atomone-api.allinbits.com",
+        "provider": "AllInBits"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://atomone-grpc.allinbits.com:443",
+        "provider": "AllInBits"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://explorer.allinbits.com/atomone",
+      "txPage": "https://explorer.allinbits.com/atomone/tx/${txHash}",
+      "accountPage": "https://explorer.allinbits.com/atomone/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.svg"
+    }
+  ]
+}

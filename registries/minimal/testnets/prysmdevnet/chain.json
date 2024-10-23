@@ -76,6 +76,9 @@
       },
       {
         "address": "https://prysm-testnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://rpc-prysm-t.sychonix.com"
       }
     ],
     "rest": [
@@ -105,6 +108,9 @@
       },
       {
         "address": "https://prysm-testnet-api.itrocket.net"
+      },
+      {
+        "address": "https://api-prysm-t.sychonix.com"
       }
     ],
     "grpc": [
@@ -155,6 +161,12 @@
       "url": "https://testnet.itrocket.net/prysm",
       "txPage": "https://testnet.itrocket.net/prysm/tx/${txHash}",
       "accountPage": "https://testnet.itrocket.net/prysm/account/${accountAddress}"
+    },
+    {
+      "kind": "PingPub",
+      "url": "https://explorer.sychonix.com/prysm-testnet",
+      "txPage": "https://explorer.sychonix.com/prysm-testnet/tx/${txHash}",
+      "accountPage": "https://explorer.sychonix.com/prysm-testnet/account/${accountAddress}"
     }
   ],
   "images": [

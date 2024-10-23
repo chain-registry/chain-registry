@@ -1,6 +1,6 @@
 {
-  "$schema": "../assetlist.schema.json",
-  "chainName": "mantrachain",
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "mantrachaintestnet2",
   "assets": [
     {
       "description": "The native token of MANTRA",
@@ -17,15 +17,19 @@
       ],
       "assetType": "sdk.coin",
       "base": "uom",
-      "name": "MANTRA Chain",
+      "name": "MANTRA Chain Dukong",
       "display": "om",
       "symbol": "OM",
-      "coingeckoId": "mantra-dao",
       "keywords": [
         "rwa",
         "wasm",
-        "staking"
+        "staking",
+        "testnet"
       ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg"
+      },
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",

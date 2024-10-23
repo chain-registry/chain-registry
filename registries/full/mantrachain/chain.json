@@ -1,0 +1,142 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "mantrachain",
+  "status": "live",
+  "networkType": "mainnet",
+  "prettyName": "MANTRA",
+  "chainType": "cosmos",
+  "chainId": "mantra-1",
+  "bech32Prefix": "mantra",
+  "daemonName": "mantrachaind",
+  "nodeHome": "$HOME/.mantrachain",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uom",
+        "fixedMinGasPrice": 0.01,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.02,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uom"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/MANTRA-Chain/mantrachain",
+    "recommendedVersion": "1.0.0",
+    "compatibleVersions": [
+      "1.0.0"
+    ],
+    "cosmosSdkVersion": "0.50.10",
+    "consensus": {
+      "type": "cometbft",
+      "version": "0.38"
+    },
+    "cosmwasmVersion": "0.53",
+    "cosmwasmEnabled": true,
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.10"
+    },
+    "cosmwasm": {
+      "version": "0.53",
+      "enabled": true
+    },
+    "versions": [
+      {
+        "name": "1.0.0-rc3",
+        "recommendedVersion": "1.0.0-rc3",
+        "compatibleVersions": [
+          "1.0.0-rc3"
+        ],
+        "cosmosSdkVersion": "0.50.10",
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.38"
+        },
+        "cosmwasmVersion": "0.53",
+        "cosmwasmEnabled": true,
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.50.10"
+        },
+        "cosmwasm": {
+          "version": "0.53",
+          "enabled": true
+        }
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "32276da966637722914411e16ca91bd37dcd1c28",
+        "address": "35.220.157.87:26656"
+      },
+      {
+        "id": "9f5235b418c87af4302619705d0bf4748249ca6b",
+        "address": "34.18.33.96:26656"
+      },
+      {
+        "id": "b0acfd505bb4bc0c39d095663d310c253de18210",
+        "address": "34.130.121.222:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.mantrachain.io",
+        "provider": "MANTRACHAIN"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.mantrachain.io",
+        "provider": "MANTRACHAIN"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.mantrachain.io",
+        "provider": "MANTRACHAIN"
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg"
+  },
+  "explorers": [
+
+  ],
+  "keywords": [
+    "rwa",
+    "wasm",
+    "staking"
+  ],
+  "images": [
+    {
+      "imageSync": {
+        "chainName": "mantrachain",
+        "baseDenom": "uom"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg",
+      "theme": {
+        "circle": false,
+        "primaryColorHex": "#fba0c1"
+      }
+    }
+  ]
+}
