@@ -63,6 +63,9 @@
         "address": "https://prysm-rpc.validatorvn.com/"
       },
       {
+        "address": "https://prysm-testnet-rpc.validator247.com/"
+      },
+      {
         "address": "https://rpc-prysm.vinjan.xyz/"
       },
       {
@@ -98,6 +101,9 @@
         "address": "https://api-prysm.vinjan.xyz/"
       },
       {
+        "address": "https://prysm-testnet-api.validator247.com/"
+      },
+      {
         "address": "https://prysm-testnet-api.cogwheel.zone"
       },
       {
@@ -116,6 +122,9 @@
     "grpc": [
       {
         "address": "prysm-testnet-grpc.polkachu.com:29890"
+      },
+      {
+        "address": "http://144.76.70.103:32090/"
       },
       {
         "address": "https://prysm-testnet-grpc.synergynodes.com/"

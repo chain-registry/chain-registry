@@ -1,0 +1,28 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "dungeon",
+  "networkType": "mainnet",
+  "chainType": "cosmos",
+  "website": "https://www.cryptodungeon.org",
+  "prettyName": "Dungeon Chain",
+  "chainId": "dungeon-1",
+  "bech32Prefix": "dungeon",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-dungeonchain.apeironnodes.com"
+      },
+      {
+        "address": "https://rpc-archive-dungeonchain.apeironnodes.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-dungeonchain.apeironnodes.com"
+      },
+      {
+        "address": "https://api-archive-dungeonchain.apeironnodes.com"
+      }
+    ]
+  }
+}
