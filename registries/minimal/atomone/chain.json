@@ -59,6 +59,9 @@
       },
       {
         "address": "https://atomone-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://atomone_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -82,6 +85,9 @@
       },
       {
         "address": "https://atomone-rest.publicnode.com"
+      },
+      {
+        "address": "https://atomone_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -120,6 +126,12 @@
       "url": "https://explorer.ist/atomone",
       "txPage": "https://explorer.ist/atomone/tx/${txHash}",
       "accountPage": "https://explorer.ist/atomone/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/atomone",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/atomone/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/atomone/account/${accountAddress}"
     }
   ],
   "images": [

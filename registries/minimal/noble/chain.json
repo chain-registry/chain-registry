@@ -50,6 +50,9 @@
       },
       {
         "address": "https://rpc.lavenderfive.com:443/noble"
+      },
+      {
+        "address": "https://noble-rpc.owallet.io"
       }
     ],
     "rest": [
@@ -58,6 +61,9 @@
       },
       {
         "address": "https://rest.lavenderfive.com:443/noble"
+      },
+      {
+        "address": "https://noble-rest.owallet.io"
       }
     ],
     "grpc": [
@@ -66,6 +72,9 @@
       },
       {
         "address": "noble.lavenderfive.com:443"
+      },
+      {
+        "address": "noble-grpc.owallet.io:9999"
       }
     ]
   },
