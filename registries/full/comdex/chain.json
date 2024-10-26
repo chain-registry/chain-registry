@@ -42,8 +42,6 @@
       "type": "cometbft",
       "version": "0.37.5"
     },
-    "cosmwasmVersion": "v0.45.0",
-    "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://comdex-mainnet-genesis.s3.ap-southeast-1.amazonaws.com/genesis.json"
     },
@@ -54,7 +52,6 @@
         "compatibleVersions": [
           "v9.0.0"
         ],
-        "cosmwasmEnabled": true,
         "nextVersionName": "v10.0.0",
         "cosmwasm": {
           "enabled": true
@@ -66,7 +63,6 @@
         "compatibleVersions": [
           "v10.0.0"
         ],
-        "cosmwasmEnabled": true,
         "nextVersionName": "v11.5.0",
         "cosmwasm": {
           "enabled": true
@@ -80,7 +76,6 @@
         "compatibleVersions": [
           "v11.5.2"
         ],
-        "cosmwasmEnabled": true,
         "nextVersionName": "v13.3.0",
         "cosmwasm": {
           "enabled": true
@@ -102,8 +97,6 @@
           "type": "cometbft",
           "version": "0.37.2"
         },
-        "cosmwasmVersion": "v0.41.0",
-        "cosmwasmEnabled": true,
         "nextVersionName": "v14.1.0",
         "sdk": {
           "type": "cosmos",
@@ -131,8 +124,6 @@
           "type": "cometbft",
           "version": "0.37.5"
         },
-        "cosmwasmVersion": "v0.45.0",
-        "cosmwasmEnabled": true,
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

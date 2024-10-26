@@ -40,8 +40,6 @@
       "type": "cometbft",
       "version": "v0.37.6"
     },
-    "cosmwasmVersion": "v0.45.0",
-    "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/public-awesome/mainnet/main/stargaze-1/genesis.tar.gz"
     },
@@ -93,8 +91,6 @@
           "type": "cometbft",
           "version": "v0.37.4"
         },
-        "cosmwasmVersion": "v0.45.0",
-        "cosmwasmEnabled": true,
         "nextVersionName": "v14",
         "sdk": {
           "type": "cosmos",
@@ -122,8 +118,6 @@
           "type": "cometbft",
           "version": "v0.37.6"
         },
-        "cosmwasmVersion": "v0.45.0",
-        "cosmwasmEnabled": true,
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

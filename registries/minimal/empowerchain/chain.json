@@ -29,8 +29,6 @@
     ]
   },
   "codebase": {
-    "cosmwasmVersion": "0.45",
-    "cosmwasmEnabled": true,
     "cosmwasm": {
       "version": "0.45",
       "enabled": true

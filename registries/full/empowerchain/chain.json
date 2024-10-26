@@ -37,8 +37,6 @@
     "compatibleVersions": [
       "v1.0.0"
     ],
-    "cosmwasmVersion": "0.45",
-    "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://github.com/EmpowerPlastic/empowerchain/raw/main/mainnet/empowerchain-1/genesis.tar.gz"
     },

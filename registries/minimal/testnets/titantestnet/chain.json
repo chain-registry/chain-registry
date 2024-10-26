@@ -34,8 +34,6 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.47.6-titan.4",
-    "cosmwasmVersion": "0.45.0",
-    "cosmwasmEnabled": true,
     "sdk": {
       "type": "cosmos",
       "version": "0.47.6",

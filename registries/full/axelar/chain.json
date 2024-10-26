@@ -48,8 +48,6 @@
       "type": "cometbft",
       "version": "v0.34.31"
     },
-    "cosmwasmVersion": "v0.33.0",
-    "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/axelarnetwork/axelarate-community/main/resources/mainnet/genesis.json"
     },
@@ -93,8 +91,6 @@
           "type": "cometbft",
           "version": "v0.34.31"
         },
-        "cosmwasmVersion": "v0.33.0",
-        "cosmwasmEnabled": true,
         "nextVersionName": "v1.0",
         "sdk": {
           "type": "cosmos",
@@ -127,8 +123,6 @@
           "type": "cometbft",
           "version": "v0.34.31"
         },
-        "cosmwasmVersion": "v0.33.0",
-        "cosmwasmEnabled": true,
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

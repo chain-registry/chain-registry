@@ -47,8 +47,6 @@
       "type": "cometbft",
       "version": "v0.34.29"
     },
-    "cosmwasmVersion": "v0.31.0",
-    "cosmwasmEnabled": true,
     "genesis": {
       "name": "v1",
       "genesisUrl": "https://raw.githubusercontent.com/noislabs/networks/nois1.final.1/nois-1/genesis.json"
@@ -68,8 +66,6 @@
           "type": "cometbft",
           "version": "v0.34.29"
         },
-        "cosmwasmVersion": "v0.31.0",
-        "cosmwasmEnabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "v0.45.15"

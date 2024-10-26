@@ -52,7 +52,6 @@
       "type": "cometbft",
       "version": "0.37.4"
     },
-    "cosmwasmEnabled": false,
     "language": {
       "type": "go",
       "version": "1.20"

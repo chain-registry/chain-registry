@@ -136,7 +136,7 @@
         "address": "prysm-testnet-grpc.cogwheel.zone:443"
       },
       {
-        "address": "prysm-testnet-grpc.mictonode.com:443"
+        "address": "prysm-testnet-grpc.mictonode.com:33090"
       },
       {
         "address": "https://grpc-prysm.josephtran.xyz/"

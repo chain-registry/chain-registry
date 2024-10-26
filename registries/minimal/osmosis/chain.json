@@ -34,8 +34,6 @@
   },
   "codebase": {
     "cosmosSdkVersion": "osmosis-labs/cosmos-sdk v0.47.5-v25-osmo-1",
-    "cosmwasmVersion": "osmosis-labs/wasmd v0.45.0-osmo",
-    "cosmwasmEnabled": true,
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/osmosis-labs/cosmos-sdk",

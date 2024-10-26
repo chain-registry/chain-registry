@@ -34,8 +34,6 @@
       "type": "cosmos",
       "version": "v0.45.16"
     },
-    "cosmwasmVersion": "0.33.0",
-    "cosmwasmEnabled": true,
     "cosmwasm": {
       "version": "0.33.0",
       "enabled": true

@@ -31,7 +31,6 @@
   },
   "codebase": {
     "cosmosSdkVersion": "noble-assets/cosmos-sdk v0.45.16-send-restrictions",
-    "cosmwasmEnabled": false,
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/noble-assets/cosmos-sdk",

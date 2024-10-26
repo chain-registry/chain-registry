@@ -60,8 +60,6 @@
   },
   "codebase": {
     "cosmosSdkVersion": "neutron-org/cosmos-sdk v0.50.7-neutron",
-    "cosmwasmVersion": "neutron-org/wasmd v0.51.0",
-    "cosmwasmEnabled": true,
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/neutron-org/cosmos-sdk",

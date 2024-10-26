@@ -34,7 +34,6 @@
   },
   "codebase": {
     "cosmosSdkVersion": "lavanet/cosmos-sdk v0.47.13-lava-cosmos",
-    "cosmwasmEnabled": false,
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/lavanet/cosmos-sdk",

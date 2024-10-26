@@ -42,8 +42,6 @@
       "type": "cosmos",
       "version": "v0.45.16"
     },
-    "cosmwasmVersion": "0.33.0",
-    "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/oraichain/oraichain-static-files/master/genesis.json"
     },

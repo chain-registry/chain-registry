@@ -31,8 +31,6 @@
   },
   "codebase": {
     "cosmosSdkVersion": "sei-cosmos v0.3.37",
-    "cosmwasmVersion": "sei-wasmd v0.2.4",
-    "cosmwasmEnabled": true,
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/sei-protocol/sei-cosmos",

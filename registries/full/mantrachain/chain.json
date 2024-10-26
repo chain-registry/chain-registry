@@ -42,8 +42,6 @@
       "type": "cometbft",
       "version": "0.38"
     },
-    "cosmwasmVersion": "0.53",
-    "cosmwasmEnabled": true,
     "sdk": {
       "type": "cosmos",
       "version": "0.50.10"
@@ -64,8 +62,6 @@
           "type": "cometbft",
           "version": "0.38"
         },
-        "cosmwasmVersion": "0.53",
-        "cosmwasmEnabled": true,
         "sdk": {
           "type": "cosmos",
           "version": "0.50.10"

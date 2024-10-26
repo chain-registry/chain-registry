@@ -10,8 +10,6 @@
   "slip44": 639,
   "codebase": {
     "cosmosSdkVersion": "v0.45.16",
-    "cosmwasmVersion": "v0.33.0",
-    "cosmwasmEnabled": true,
     "sdk": {
       "type": "cosmos",
       "version": "v0.45.16"

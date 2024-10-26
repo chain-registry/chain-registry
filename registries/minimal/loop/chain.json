@@ -30,7 +30,6 @@
     ]
   },
   "codebase": {
-    "cosmwasmEnabled": true,
     "cosmwasm": {
       "enabled": true
     }

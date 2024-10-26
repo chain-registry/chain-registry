@@ -187,19 +187,6 @@
               "cosmosSdkVersion": {
                 "type": "string",
                 "minLength": 1
-              },
-              "cosmwasmVersion": {
-                "type": "string",
-                "minLength": 1
-              },
-              "cosmwasmEnabled": {
-                "type": "boolean"
-              },
-              "cosmwasmPath": {
-                "type": "string",
-                "minLength": 1,
-                "description": "Relative path to the cosmwasm directory. ex. $HOME/.juno/data/wasm",
-                "pattern": "^\\$HOME.*$"
               }
             },
             "additionalProperties": false
@@ -224,19 +211,6 @@
         "cosmosSdkVersion": {
           "type": "string",
           "minLength": 1
-        },
-        "cosmwasmVersion": {
-          "type": "string",
-          "minLength": 1
-        },
-        "cosmwasmEnabled": {
-          "type": "boolean"
-        },
-        "cosmwasmPath": {
-          "type": "string",
-          "minLength": 1,
-          "description": "Relative path to the cosmwasm directory. ex. $HOME/.juno/data/wasm",
-          "pattern": "^\\$HOME.*$"
         }
       },
       "additionalProperties": false

@@ -53,7 +53,6 @@
       "type": "tendermint",
       "version": "0.34"
     },
-    "cosmwasmEnabled": false,
     "genesis": {
       "name": "fotan-1.0",
       "genesisUrl": "https://raw.githubusercontent.com/likecoin/mainnet/master/genesis.json"

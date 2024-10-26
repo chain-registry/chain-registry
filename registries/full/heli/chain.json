@@ -46,8 +46,6 @@
       "type": "cometbft",
       "version": "0.37.2"
     },
-    "cosmwasmVersion": "0.41.0",
-    "cosmwasmEnabled": true,
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/Heli-Chain/heli/main/genesis.json"
     },
@@ -63,8 +61,6 @@
           "type": "cometbft",
           "version": "0.37.2"
         },
-        "cosmwasmVersion": "0.42.0",
-        "cosmwasmEnabled": true,
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

@@ -44,7 +44,6 @@
       "type": "cometbft",
       "version": "v0.37.2"
     },
-    "cosmwasmVersion": "0.40.0",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/cosmic-horizon/mainnet/main/genesis.json"
     },
@@ -136,7 +135,6 @@
           "type": "cometbft",
           "version": "v0.37.2"
         },
-        "cosmwasmVersion": "0.40.0",
         "nextVersionName": "v5.4.1",
         "sdk": {
           "type": "cosmos",
@@ -168,7 +166,6 @@
           "type": "cometbft",
           "version": "v0.37.2"
         },
-        "cosmwasmVersion": "0.40.0",
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

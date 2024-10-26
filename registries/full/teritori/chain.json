@@ -39,9 +39,6 @@
       "type": "cometbft",
       "version": "v0.37.2"
     },
-    "cosmwasmVersion": "v0.41.0",
-    "cosmwasmEnabled": true,
-    "cosmwasmPath": "$HOME/.teritorid/data/wasm",
     "genesis": {
       "genesisUrl": "https://github.com/TERITORI/teritori-chain/raw/mainnet/mainnet/teritori-1/genesis.json"
     },
@@ -77,9 +74,6 @@
           "type": "cometbft",
           "version": "v0.37.2"
         },
-        "cosmwasmVersion": "v0.41.0",
-        "cosmwasmEnabled": true,
-        "cosmwasmPath": "$HOME/.teritorid/data/wasm",
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

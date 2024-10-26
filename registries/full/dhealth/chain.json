@@ -46,9 +46,6 @@
       "type": "cometbft",
       "version": "v0.37.2"
     },
-    "cosmwasmVersion": "v0.41.0",
-    "cosmwasmEnabled": true,
-    "cosmwasmPath": "$HOME/.dhealth/wasm",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/dhealthproject/mainnet/main/genesis.json"
     },
@@ -67,9 +64,6 @@
           "type": "cometbft",
           "version": "v0.37.2"
         },
-        "cosmwasmVersion": "v0.41.0",
-        "cosmwasmEnabled": true,
-        "cosmwasmPath": "$HOME/.dhealth/wasm",
         "nextVersionName": "",
         "sdk": {
           "type": "cosmos",

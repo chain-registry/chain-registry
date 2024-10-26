@@ -31,7 +31,6 @@
   },
   "codebase": {
     "cosmosSdkVersion": "v0.47.13-xpla",
-    "cosmwasmVersion": "v0.46.0",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/xpladev/cosmos-sdk",

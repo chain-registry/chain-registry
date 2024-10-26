@@ -29,8 +29,6 @@
   },
   "codebase": {
     "cosmosSdkVersion": "0.45",
-    "cosmwasmVersion": "0.31",
-    "cosmwasmEnabled": true,
     "sdk": {
       "type": "cosmos",
       "version": "0.45"

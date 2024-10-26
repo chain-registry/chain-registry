@@ -123,8 +123,6 @@
       "type": "cometbft",
       "version": "v0.37.5"
     },
-    "cosmwasmEnabled": true,
-    "cosmwasmVersion": "v0.46.0",
     "genesis": {
       "genesisUrl": "https://storage.googleapis.com/pryzm-zone/pryzm-1/genesis.json"
     },

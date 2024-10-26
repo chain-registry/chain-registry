@@ -34,8 +34,6 @@
   },
   "codebase": {
     "cosmosSdkVersion": "evmos/cosmos-sdk v0.47.12-evmos",
-    "cosmwasmVersion": "v0.42.0",
-    "cosmwasmEnabled": true,
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/evmos/cosmos-sdk",
