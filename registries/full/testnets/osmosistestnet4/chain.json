@@ -1,7 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "osmosistestnet4",
-  "status": "live",
+  "status": "killed",
   "networkType": "testnet",
   "prettyName": "Osmosis Testnet",
   "chainType": "cosmos",

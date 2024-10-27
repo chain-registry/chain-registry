@@ -17693,6 +17693,66 @@
       "name": "Earn CDT Vault",
       "display": "earnCDT",
       "symbol": "earnCDT"
+    },
+    {
+      "description": "The Spice memecoin",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice",
+          "exponent": 0
+        },
+        {
+          "denom": "Spice",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice",
+      "name": "Spice",
+      "display": "Spice",
+      "symbol": "Spice"
+    },
+    {
+      "assetType": "ics20",
+      "denomUnits": [
+        {
+          "denom": "ibc/21D8071EF5B02A86D945430D859A594CBF28287D38104A264BB9FD3B22BBF5DE",
+          "exponent": 0,
+          "aliases": [
+            "yum-wei"
+          ]
+        },
+        {
+          "denom": "yum",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/21D8071EF5B02A86D945430D859A594CBF28287D38104A264BB9FD3B22BBF5DE",
+      "name": "Axelar Wrapped YUM",
+      "display": "yum",
+      "symbol": "YUM.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xcE682c89C63d2850Cb2ca898E44D6c7c30d897a6"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "axelar",
+            "baseDenom": "yum-wei",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-208",
+            "path": "transfer/channel-208/yum-wei"
+          }
+        }
+      ]
     }
   ]
 }
