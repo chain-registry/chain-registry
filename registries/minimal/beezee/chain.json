@@ -2,6 +2,7 @@
   "$schema": "../chain.schema.json",
   "chainName": "beezee",
   "networkType": "mainnet",
+  "website": "https://getbze.com/",
   "prettyName": "BeeZee",
   "chainType": "cosmos",
   "chainId": "beezee-1",

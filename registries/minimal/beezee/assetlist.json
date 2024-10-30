@@ -3,7 +3,7 @@
   "chainName": "beezee",
   "assets": [
     {
-      "description": "BeeZee native blockchain",
+      "description": "BeeZee network native coin",
       "denomUnits": [
         {
           "denom": "ubze",
