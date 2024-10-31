@@ -45,6 +45,9 @@
         "address": "https://rpc.mantrachain.io"
       },
       {
+        "address": "https://rpc-mantra.r93axnodes.cloud:443"
+      },
+      {
         "address": "https://mantrachain-mainnet-rpc.autostake.com:443"
       }
     ],
@@ -53,12 +56,18 @@
         "address": "https://api.mantrachain.io"
       },
       {
+        "address": "https://api-mantra.r93axnodes.cloud:443"
+      },
+      {
         "address": "https://mantrachain-mainnet-lcd.autostake.com:443"
       }
     ],
     "grpc": [
       {
         "address": "https://grpc.mantrachain.io"
+      },
+      {
+        "address": "grpc-mantra.r93axnodes.cloud:443"
       },
       {
         "address": "mantrachain-mainnet-rpc.autostake.com:443"

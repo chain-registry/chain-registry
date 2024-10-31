@@ -51,6 +51,9 @@
         "address": "https://rpc-terra-01.stakeflow.io"
       },
       {
+        "address": "https://rpc-archive-terra.r93axnodes.cloud:443"
+      },
+      {
         "address": "https://rpc-terra.cosmos-spaces.cloud"
       },
       {
@@ -83,6 +86,9 @@
         "address": "https://terra-rest.publicnode.com"
       },
       {
+        "address": "https://api-archive-terra.r93axnodes.cloud:443"
+      },
+      {
         "address": "https://api-terra-01.stakeflow.io"
       },
       {
@@ -110,6 +116,9 @@
       },
       {
         "address": "terra-grpc.publicnode.com:443"
+      },
+      {
+        "address": "grpc-archive-terra.r93axnodes.cloud:443"
       },
       {
         "address": "grpc-terra.cosmos-spaces.cloud:2690"

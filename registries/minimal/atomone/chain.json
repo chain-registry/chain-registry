@@ -62,6 +62,9 @@
       },
       {
         "address": "https://atomone_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://atomone-rpc.ibs.team:443"
       }
     ],
     "rest": [
@@ -88,6 +91,9 @@
       },
       {
         "address": "https://atomone_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://atomone-api.ibs.team:443"
       }
     ],
     "grpc": [
