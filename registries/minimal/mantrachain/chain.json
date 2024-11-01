@@ -49,6 +49,9 @@
       },
       {
         "address": "https://mantrachain-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://mantra-rpc.publicnode.com:443"
       }
     ],
     "rest": [
@@ -60,6 +63,9 @@
       },
       {
         "address": "https://mantrachain-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://mantra-rest.publicnode.com"
       }
     ],
     "grpc": [
@@ -71,6 +77,9 @@
       },
       {
         "address": "mantrachain-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "mantra-grpc.publicnode.com:443"
       }
     ]
   },

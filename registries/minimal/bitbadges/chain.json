@@ -38,11 +38,17 @@
     "rpc": [
       {
         "address": "http://134.122.12.165:26657"
+      },
+      {
+        "address": "https://bitbadges_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
       {
         "address": "http://134.122.12.165:1317"
+      },
+      {
+        "address": "https://bitbadges_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -61,6 +67,12 @@
       "url": "https://explorer.bitbadges.io/BitBadges%20Mainnet",
       "txPage": "https://explorer.bitbadges.io/BitBadges%20Mainnet/txs/${txHash}",
       "accountPage": "https://explorer.bitbadges.io/BitBadBitBadges%20Mainnetges/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/bitbadges",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/bitbadges/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/bitbadges/account/${accountAddress}"
     }
   ],
   "images": [

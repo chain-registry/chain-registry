@@ -43,16 +43,25 @@
     "rpc": [
       {
         "address": "https://rpc.dukong.mantrachain.io"
+      },
+      {
+        "address": "https://mantra-testnet-rpc.publicnode.com:443"
       }
     ],
     "rest": [
       {
         "address": "https://api.dukong.mantrachain.io"
+      },
+      {
+        "address": "https://mantra-testnet-rest.publicnode.com"
       }
     ],
     "grpc": [
       {
         "address": "https://grpc.dukong.mantrachain.io"
+      },
+      {
+        "address": "mantra-testnet-grpc.publicnode.com:443"
       }
     ]
   },
