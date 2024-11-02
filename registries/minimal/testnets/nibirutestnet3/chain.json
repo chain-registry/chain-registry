@@ -1,11 +1,11 @@
 {
   "$schema": "../../chain.schema.json",
-  "chainName": "nibirudevnet4",
-  "networkType": "devnet",
+  "chainName": "nibirutestnet3",
+  "networkType": "testnet",
   "website": "https://nibiru.fi/",
-  "prettyName": "Nibiru",
+  "prettyName": "Nibiru Testnet 3",
   "chainType": "cosmos",
-  "chainId": "nibiru-devnet-3-evm",
+  "chainId": "nibiru-testnet-3",
   "bech32Prefix": "nibi",
   "keyAlgos": [
     "secp256k1"
@@ -40,7 +40,6 @@
     },
     "cosmwasm": {
       "version": "v0.44.0",
-      "path": "$HOME/.nibid/data/wasm",
       "enabled": true
     }
   },
@@ -48,31 +47,31 @@
   "apis": {
     "wss": [
       {
-        "address": "wss://evm-rpc.devnet-3.nibiru.fi/websocket"
+        "address": "wss://rpc.testnet-3.nibiru.fi/websocket"
       }
     ],
     "rpc": [
       {
-        "address": "https://evm-rpc.devnet-3.nibiru.fi"
+        "address": "https://rpc.testnet-3.nibiru.fi"
       }
     ],
     "rest": [
       {
-        "address": "https://evm-lcd.devnet-3.nibiru.fi"
+        "address": "https://lcd.testnet-3.nibiru.fi"
       }
     ],
     "grpc": [
       {
-        "address": "grpc.devnet-3.nibiru.fi:443"
+        "address": "grpc.testnet-3.nibiru.fi:443"
       }
     ]
   },
   "explorers": [
     {
       "kind": "Nibiru Foundation",
-      "url": "https://explorer.nibiru.fi/nibiru-devnet-2",
-      "txPage": "https://explorer.nibiru.fi/nibiru-devnet-2/tx/${txHash}",
-      "accountPage": "https://explorer.nibiru.fi/nibiru-devnet-2/account/${accountAddress}"
+      "url": "https://explorer.nibiru.fi/nibiru-testnet-3",
+      "txPage": "https://explorer.nibiru.fi/nibiru-tesnet-3/tx/${txHash}",
+      "accountPage": "https://explorer.nibiru.fi/nibiru-testnet-3/account/${accountAddress}"
     }
   ],
   "images": [

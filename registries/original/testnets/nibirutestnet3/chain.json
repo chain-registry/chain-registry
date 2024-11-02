@@ -1,44 +1,44 @@
 {
   "$schema": "../../chain.schema.json",
-  "chainName": "nibirudevnet4",
+  "chain_name": "nibirutestnet3",
   "status": "live",
-  "networkType": "devnet",
+  "network_type": "testnet",
   "website": "https://nibiru.fi/",
-  "prettyName": "Nibiru",
-  "chainType": "cosmos",
-  "chainId": "nibiru-devnet-3-evm",
-  "bech32Prefix": "nibi",
-  "daemonName": "nibid",
-  "nodeHome": "$HOME/.nibid",
-  "keyAlgos": [
+  "pretty_name": "Nibiru Testnet 3",
+  "chain_type": "cosmos",
+  "chain_id": "nibiru-testnet-3",
+  "bech32_prefix": "nibi",
+  "daemon_name": "nibid",
+  "node_home": "$HOME/.nibid",
+  "key_algos": [
     "secp256k1"
   ],
   "slip44": 118,
   "fees": {
-    "feeTokens": [
+    "fee_tokens": [
       {
         "denom": "unibi",
-        "fixedMinGasPrice": 0.025,
-        "lowGasPrice": 0.025,
-        "averageGasPrice": 0.05,
-        "highGasPrice": 0.1
+        "fixed_min_gas_price": 0.025,
+        "low_gas_price": 0.025,
+        "average_gas_price": 0.05,
+        "high_gas_price": 0.1
       }
     ]
   },
   "staking": {
-    "stakingTokens": [
+    "staking_tokens": [
       {
         "denom": "unibi"
       }
     ],
-    "lockDuration": {
+    "lock_duration": {
       "time": "1814400s"
     }
   },
   "codebase": {
-    "gitRepo": "https://github.com/NibiruChain/nibiru",
-    "recommendedVersion": "v1.0.1",
-    "compatibleVersions": [
+    "git_repo": "https://github.com/NibiruChain/nibiru",
+    "recommended_version": "v1.0.1",
+    "compatible_versions": [
       "v1.0.1"
     ],
     "binaries": {
@@ -47,32 +47,19 @@
       "darwin/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.0.1/nibid_1.0.1_darwin_amd64.tar.gz",
       "darwin/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.0.1/nibid_1.0.1_darwin_arm64.tar.gz"
     },
-    "cosmosSdkVersion": "v0.47.7",
+    "cosmos_sdk_version": "v0.47.7",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.4"
     },
-    "sdk": {
-      "type": "cosmos",
-      "version": "v0.47.7"
-    },
-    "cosmwasm": {
-      "version": "v0.44.0",
-      "path": "$HOME/.nibid/data/wasm",
-      "enabled": true
-    },
-    "ibc": {
-      "type": "go",
-      "version": "v7.3.1"
-    },
     "genesis": {
-      "genesisUrl": "https://raw.githubusercontent.com/NibiruChain/Networks/main/Testnet/nibiru-devnet-2/genesis.json"
+      "genesis_url": "https://raw.githubusercontent.com/NibiruChain/Networks/main/Testnet/nibiru-testnet-2/genesis.json"
     },
     "versions": [
       {
         "name": "v1.0.0",
-        "recommendedVersion": "v1.0.0",
-        "compatibleVersions": [
+        "recommended_version": "v1.0.0",
+        "compatible_versions": [
           "v1.0.0"
         ],
         "tag": "v1.0.0",
@@ -81,7 +68,12 @@
           "type": "cometbft",
           "version": "v0.37.2"
         },
-        "cosmosSdkVersion": "v0.45.5",
+        "cosmos_sdk_version": "v0.45.5",
+        "binaries": {
+          "linux/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.0.0/nibid_1.0.0_linux_amd64.tar.gz",
+          "linux/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.0.0/nibid_1.0.0_linux_arm64.tar.gz"
+        },
+        "next_version_name": "v1.0.1",
         "sdk": {
           "type": "cosmos",
           "version": "v0.45.5"
@@ -94,17 +86,12 @@
         "ibc": {
           "type": "go",
           "version": "v7.3.1"
-        },
-        "binaries": {
-          "linux/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v1.0.0/nibid_1.0.0_linux_amd64.tar.gz",
-          "linux/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v1.0.0/nibid_1.0.0_linux_arm64.tar.gz"
-        },
-        "nextVersionName": "v1.0.1"
+        }
       },
       {
         "name": "v1.0.1",
-        "recommendedVersion": "v1.0.1",
-        "compatibleVersions": [
+        "recommended_version": "v1.0.1",
+        "compatible_versions": [
           "v1.0.1"
         ],
         "tag": "v1.0.1",
@@ -116,29 +103,40 @@
         },
         "proposal": 2,
         "height": 2753803,
-        "cosmosSdkVersion": "v0.47.7",
+        "cosmos_sdk_version": "v0.47.7",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
         },
+        "next_version_name": "",
         "sdk": {
           "type": "cosmos",
           "version": "v0.47.7"
         },
         "cosmwasm": {
           "version": "v0.44.0",
-          "path": "$HOME/.nibid/data/wasm",
           "enabled": true
         },
         "ibc": {
           "type": "go",
           "version": "v7.3.1"
-        },
-        "nextVersionName": ""
+        }
       }
-    ]
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.7"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v7.3.1"
+    },
+    "cosmwasm": {
+      "version": "v0.44.0",
+      "enabled": true
+    }
   },
-  "logoURIs": {
+  "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nibiru/images/nibiru.svg"
   },
@@ -146,25 +144,25 @@
   "apis": {
     "wss": [
       {
-        "address": "wss://evm-rpc.devnet-3.nibiru.fi/websocket",
+        "address": "wss://rpc.testnet-3.nibiru.fi/websocket",
         "provider": "Nibiru Foundation"
       }
     ],
     "rpc": [
       {
-        "address": "https://evm-rpc.devnet-3.nibiru.fi",
+        "address": "https://rpc.testnet-3.nibiru.fi",
         "provider": "Nibiru Foundation"
       }
     ],
     "rest": [
       {
-        "address": "https://evm-lcd.devnet-3.nibiru.fi",
+        "address": "https://lcd.testnet-3.nibiru.fi",
         "provider": "Nibiru Foundation"
       }
     ],
     "grpc": [
       {
-        "address": "grpc.devnet-3.nibiru.fi:443",
+        "address": "grpc.testnet-3.nibiru.fi:443",
         "provider": "Nibiru Foundation"
       }
     ]
@@ -172,9 +170,9 @@
   "explorers": [
     {
       "kind": "Nibiru Foundation",
-      "url": "https://explorer.nibiru.fi/nibiru-devnet-2",
-      "txPage": "https://explorer.nibiru.fi/nibiru-devnet-2/tx/${txHash}",
-      "accountPage": "https://explorer.nibiru.fi/nibiru-devnet-2/account/${accountAddress}"
+      "url": "https://explorer.nibiru.fi/nibiru-testnet-3",
+      "tx_page": "https://explorer.nibiru.fi/nibiru-tesnet-3/tx/${txHash}",
+      "account_page": "https://explorer.nibiru.fi/nibiru-testnet-3/account/${accountAddress}"
     }
   ],
   "images": [

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "nibirutestnet3",
+  "assets": [
+    {
+      "description": "The native token of Nibiru network",
+      "denomUnits": [
+        {
+          "denom": "unibi",
+          "exponent": 0
+        },
+        {
+          "denom": "nibi",
+          "exponent": 6
+        },
+        {
+          "denom": "attonibi",
+          "exponent": 18
+        }
+      ],
+      "base": "unibi",
+      "name": "Nibiru",
+      "display": "nibi",
+      "symbol": "NIBI",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
