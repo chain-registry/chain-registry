@@ -30,7 +30,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "celestiaorg/cosmos-sdk v1.24.1-sdk-v0.46.16",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/celestiaorg/cosmos-sdk",
@@ -124,6 +123,9 @@
       },
       {
         "address": "https://rpc.celestia.mainnet.dteam.tech:443"
+      },
+      {
+        "address": "https://celestia-rpc.stakeandrelax.net"
       }
     ],
     "rest": [
@@ -201,6 +203,9 @@
       },
       {
         "address": "https://api.celestia.mainnet.dteam.tech:443"
+      },
+      {
+        "address": "https://celestia-api.stakeandrelax.net"
       }
     ],
     "grpc": [
@@ -266,6 +271,9 @@
       },
       {
         "address": "grpc.celestia.mainnet.dteam.tech:28090"
+      },
+      {
+        "address": "http://celestia-grpc.stakeandrelax.net:11690"
       }
     ]
   },
@@ -328,6 +336,12 @@
       "url": "https://explorer.mainnet.dteam.tech/celestia",
       "txPage": "https://explorer.mainnet.dteam.tech/celestia/transaction/${txHash}",
       "accountPage": "https://explorer.mainnet.dteam.tech/celestia/account/${accountAddress}"
+    },
+    {
+      "kind": "Relaxed Explorer 🦥",
+      "url": "https://explorer.stakeandrelax.net/celestia",
+      "txPage": "https://explorer.stakeandrelax.net/celestia/transaction/${txHash}",
+      "accountPage": "https://explorer.stakeandrelax.net/celestia/account/${accountAddress}"
     }
   ],
   "images": [

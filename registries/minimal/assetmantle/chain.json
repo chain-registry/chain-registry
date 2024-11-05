@@ -35,9 +35,6 @@
         "address": "https://rpc.assetmantle.one"
       },
       {
-        "address": "https://rpc-assetmantle.ecostake.com"
-      },
-      {
         "address": "https://assetmantle-rpc.polkachu.com"
       },
       {
@@ -59,9 +56,6 @@
     "rest": [
       {
         "address": "https://rest.assetmantle.one"
-      },
-      {
-        "address": "https://rest-assetmantle.ecostake.com"
       },
       {
         "address": "https://api.assetmantle.nodestake.top"

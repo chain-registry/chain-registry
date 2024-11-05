@@ -59,7 +59,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "neutron-org/cosmos-sdk v0.50.7-neutron",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/neutron-org/cosmos-sdk",

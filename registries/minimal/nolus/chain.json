@@ -33,7 +33,6 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.50.7-nolus-rc1",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/nolus-protocol/cosmos-sdk",

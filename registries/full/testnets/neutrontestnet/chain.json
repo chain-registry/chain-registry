@@ -29,7 +29,6 @@
     "compatibleVersions": [
       "v4.2.2-testnet"
     ],
-    "cosmosSdkVersion": "0.50",
     "consensus": {
       "type": "cometbft",
       "version": "0.38.11"
@@ -45,7 +44,6 @@
         "compatibleVersions": [
           "v0.4.3"
         ],
-        "cosmosSdkVersion": "0.45",
         "consensus": {
           "type": "tendermint",
           "version": "0.34"
@@ -70,7 +68,6 @@
         "compatibleVersions": [
           "v1.0.4"
         ],
-        "cosmosSdkVersion": "0.45",
         "consensus": {
           "type": "cometbft",
           "version": "0.34.27"
@@ -95,7 +92,6 @@
         "compatibleVersions": [
           "v2.0.0"
         ],
-        "cosmosSdkVersion": "0.47",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.2"
@@ -120,7 +116,6 @@
         "compatibleVersions": [
           "v3.0.0"
         ],
-        "cosmosSdkVersion": "0.47",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.4"
@@ -145,7 +140,6 @@
         "compatibleVersions": [
           "v4.0.0-rc3"
         ],
-        "cosmosSdkVersion": "0.50",
         "consensus": {
           "type": "cometbft",
           "version": "0.38.7"
@@ -170,7 +164,6 @@
         "compatibleVersions": [
           "v4.2.1-testnet"
         ],
-        "cosmosSdkVersion": "0.50",
         "consensus": {
           "type": "cometbft",
           "version": "0.38.11"
@@ -195,7 +188,6 @@
         "compatibleVersions": [
           "v4.2.2-testnet"
         ],
-        "cosmosSdkVersion": "0.50",
         "consensus": {
           "type": "cometbft",
           "version": "0.38.11"

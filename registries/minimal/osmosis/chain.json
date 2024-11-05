@@ -33,7 +33,6 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "osmosis-labs/cosmos-sdk v0.47.5-v25-osmo-1",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/osmosis-labs/cosmos-sdk",

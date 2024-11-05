@@ -135,7 +135,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.47.12",
     "sdk": {
       "type": "cosmos",
       "version": "v0.47.12"
@@ -153,9 +152,6 @@
       },
       {
         "address": "https://kujira-rpc.polkachu.com"
-      },
-      {
-        "address": "https://rpc-kujira.ecostake.com"
       },
       {
         "address": "https://rpc.lavenderfive.com:443/kujira"
@@ -212,9 +208,6 @@
       },
       {
         "address": "https://kujira-api.polkachu.com/"
-      },
-      {
-        "address": "https://rest-kujira.ecostake.com"
       },
       {
         "address": "https://api-kujira-ia.cosmosia.notional.ventures/"

@@ -29,7 +29,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "0.50.10",
     "sdk": {
       "type": "cosmos",
       "version": "0.50.10"

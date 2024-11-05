@@ -9,7 +9,6 @@
   "bech32Prefix": "thor",
   "slip44": 931,
   "codebase": {
-    "cosmosSdkVersion": "v0.45.16",
     "sdk": {
       "type": "cosmos",
       "version": "v0.45.16"

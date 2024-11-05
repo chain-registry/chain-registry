@@ -40,7 +40,6 @@
     "compatibleVersions": [
       "v2.2.3"
     ],
-    "cosmosSdkVersion": "v0.47.10",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.5"
@@ -82,7 +81,6 @@
         "compatibleVersions": [
           "v2.1.6"
         ],
-        "cosmosSdkVersion": "v0.47.10",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.5"
@@ -115,7 +113,6 @@
         "compatibleVersions": [
           "v2.2.0"
         ],
-        "cosmosSdkVersion": "v0.47.10",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.5"
@@ -148,7 +145,6 @@
         "compatibleVersions": [
           "v2.2.2"
         ],
-        "cosmosSdkVersion": "v0.47.10",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.5"
@@ -181,7 +177,6 @@
         "compatibleVersions": [
           "v2.2.3"
         ],
-        "cosmosSdkVersion": "v0.47.10",
         "consensus": {
           "type": "cometbft",
           "version": "0.37.5"

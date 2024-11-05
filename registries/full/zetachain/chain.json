@@ -39,7 +39,6 @@
     "compatibleVersions": [
       "v20.0.0"
     ],
-    "cosmosSdkVersion": "v0.47.10",
     "consensus": {
       "type": "cometbft",
       "version": "v0.37.4"
@@ -54,7 +53,6 @@
         "compatibleVersions": [
           "v11.0.0"
         ],
-        "cosmosSdkVersion": "v0.46.13",
         "consensus": {
           "type": "cometbft",
           "version": "v0.34.28"
@@ -75,7 +73,6 @@
         "compatibleVersions": [
           "v12.0.0"
         ],
-        "cosmosSdkVersion": "v0.46.13",
         "consensus": {
           "type": "cometbft",
           "version": "v0.34.28"
@@ -96,7 +93,6 @@
         "compatibleVersions": [
           "v12.1.0"
         ],
-        "cosmosSdkVersion": "v0.46.13",
         "consensus": {
           "type": "cometbft",
           "version": "v0.34.28"
@@ -117,7 +113,6 @@
         "compatibleVersions": [
           "v12.2.5"
         ],
-        "cosmosSdkVersion": "v0.46.13",
         "consensus": {
           "type": "cometbft",
           "version": "v0.34.28"
@@ -140,7 +135,6 @@
         ],
         "proposal": 21,
         "height": 2074730,
-        "cosmosSdkVersion": "v0.46.13",
         "consensus": {
           "type": "cometbft",
           "version": "v0.34.28"
@@ -163,7 +157,6 @@
         "compatibleVersions": [
           "v17.0.0"
         ],
-        "cosmosSdkVersion": "v0.46.13",
         "consensus": {
           "type": "cometbft",
           "version": "v0.34.28"
@@ -186,7 +179,6 @@
         "compatibleVersions": [
           "v18.0.0"
         ],
-        "cosmosSdkVersion": "v0.46.13",
         "consensus": {
           "type": "cometbft",
           "version": "v0.34.28"
@@ -210,7 +202,6 @@
           "v19.1.1",
           "v19.1.7"
         ],
-        "cosmosSdkVersion": "v0.47.10",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -233,7 +224,6 @@
         "compatibleVersions": [
           "v20.0.0"
         ],
-        "cosmosSdkVersion": "v0.47.10",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"

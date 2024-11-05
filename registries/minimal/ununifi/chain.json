@@ -33,7 +33,6 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "ununifi/cosmos-sdk v0.47.3-custom-bank-1",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/ununifi/cosmos-sdk",

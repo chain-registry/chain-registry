@@ -128,7 +128,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.47.10-stride-distribution-fix-0-mempool-verbose-error-1",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/Stride-Labs/cosmos-sdk",

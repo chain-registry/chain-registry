@@ -38,7 +38,6 @@
     "compatibleVersions": [
       "v2.0.0"
     ],
-    "cosmosSdkVersion": "v0.47.4",
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/dydxprotocol/v4-testnets/main/dydx-testnet-4/genesis.json"
     },
@@ -49,7 +48,6 @@
         "compatibleVersions": [
           "v2.0.0"
         ],
-        "cosmosSdkVersion": "v0.47.4",
         "sdk": {
           "type": "cosmos",
           "version": "v0.47.4"

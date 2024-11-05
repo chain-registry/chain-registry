@@ -30,7 +30,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "desmos-labs/cosmos-sdk v0.47.10-desmos",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/desmos-labs/cosmos-sdk",

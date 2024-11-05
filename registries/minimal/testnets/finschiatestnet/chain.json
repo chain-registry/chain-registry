@@ -33,7 +33,6 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "github.com/Finschia/finschia-sdk@v0.48.1",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/Finschia/finschia-sdk",

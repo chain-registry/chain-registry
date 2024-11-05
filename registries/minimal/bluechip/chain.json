@@ -31,7 +31,6 @@
   },
   "description": "Stake to the BlueChip chain, interact with the creator pools, and subscribe through the creator subscription contracts.",
   "codebase": {
-    "cosmosSdkVersion": "0.47.11",
     "sdk": {
       "type": "cosmos",
       "version": "0.47.11"

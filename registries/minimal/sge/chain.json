@@ -29,7 +29,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "sge-network/cosmos-sdk v0.47.9-0.20240409081440-054c8c413d45",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/sge-network/cosmos-sdk",

@@ -28,7 +28,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.50.6",
     "sdk": {
       "type": "cosmos",
       "version": "v0.50.6"
@@ -44,6 +43,12 @@
       },
       {
         "address": "https://testnet-nillion-rpc.lavenderfive.com"
+      },
+      {
+        "address": "https://nillion-testnet.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://nillion-testnet.rpc.nodex.one"
       }
     ],
     "rest": [
@@ -52,11 +57,23 @@
       },
       {
         "address": "https://testnet-nillion-api.lavenderfive.com"
+      },
+      {
+        "address": "https://nillion-testnet.api.kjnodes.com"
+      },
+      {
+        "address": "https://nillion-testnet.api.nodex.one"
       }
     ],
     "grpc": [
       {
         "address": "https://testnet-nillion-grpc.lavenderfive.com"
+      },
+      {
+        "address": "https://nillion-testnet.grpc.kjnodes.com"
+      },
+      {
+        "address": "https://nillion-testnet.grpc.nodex.one"
       }
     ]
   },
@@ -65,6 +82,11 @@
       "url": "https://testnet.nillion.explorers.guru",
       "txPage": "https://testnet.nillion.explorers.guru/transaction/${txHash}",
       "accountPage": "https://testnet.nillion.explorers.guru/account/${accountAddress}"
+    },
+    {
+      "url": "https://testnet.ping.pub/nillion",
+      "txPage": "https://testnet.ping.pub/nillion/tx/${txHash}",
+      "accountPage": "https://testnet.ping.pub/nillion/account/${accountAddress}"
     }
   ],
   "images": [

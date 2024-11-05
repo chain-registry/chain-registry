@@ -223,10 +223,6 @@
         "binaries": {
           "$ref": "#/$defs/binaries"
         },
-        "cosmos_sdk_version": {
-          "type": "string",
-          "minLength": 1
-        },
         "sdk": {
           "$ref": "#/$defs/sdk"
         },
@@ -311,10 +307,6 @@
               },
               "language": {
                 "$ref": "#/$defs/language"
-              },
-              "cosmos_sdk_version": {
-                "type": "string",
-                "minLength": 1
               },
               "sdk": {
                 "$ref": "#/$defs/sdk"

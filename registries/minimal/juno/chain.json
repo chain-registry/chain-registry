@@ -37,7 +37,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "v0.47.12",
     "sdk": {
       "type": "cosmos",
       "version": "v0.47.12"
@@ -55,9 +54,6 @@
       },
       {
         "address": "http://juno.rpc.m.stavr.tech:1067"
-      },
-      {
-        "address": "https://rpc-juno.ecostake.com"
       },
       {
         "address": "https://juno-rpc.polkachu.com"
@@ -138,9 +134,6 @@
     "rest": [
       {
         "address": "https://lcd-juno.itastakers.com"
-      },
-      {
-        "address": "https://rest-juno.ecostake.com"
       },
       {
         "address": "https://rest.lavenderfive.com:443/juno"

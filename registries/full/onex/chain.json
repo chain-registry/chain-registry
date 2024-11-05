@@ -38,7 +38,6 @@
     "compatibleVersions": [
       "v1.1.0"
     ],
-    "cosmosSdkVersion": "0.45.16",
     "consensus": {
       "type": "cometbft",
       "version": "0.34.28"
@@ -55,7 +54,6 @@
         "compatibleVersions": [
           "v1.1.0"
         ],
-        "cosmosSdkVersion": "0.45.16",
         "consensus": {
           "type": "cometbft",
           "version": "0.34.28"

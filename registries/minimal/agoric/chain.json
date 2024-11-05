@@ -32,7 +32,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "agoric-labs/cosmos-sdk v0.46.16-alpha.agoric.2.4",
     "cosmwasm": {
       "enabled": false
     },

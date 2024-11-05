@@ -41,7 +41,6 @@
     "compatibleVersions": [
       "v0.6.3"
     ],
-    "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.50.7-nolus-rc1",
     "consensus": {
       "type": "cometbft",
       "version": "v0.38.11"
@@ -56,7 +55,6 @@
         "compatibleVersions": [
           "v0.3.0"
         ],
-        "cosmosSdkVersion": "0.45",
         "nextVersionName": "v0.4.0",
         "sdk": {
           "type": "cosmos",
@@ -83,7 +81,6 @@
         "compatibleVersions": [
           "v0.4.0"
         ],
-        "cosmosSdkVersion": "0.45",
         "nextVersionName": "v0.4.1",
         "sdk": {
           "type": "cosmos",
@@ -110,7 +107,6 @@
         "compatibleVersions": [
           "v0.4.1"
         ],
-        "cosmosSdkVersion": "0.45",
         "consensus": {
           "type": "cometbft",
           "version": "0.34.27"
@@ -141,7 +137,6 @@
         "compatibleVersions": [
           "v0.4.2"
         ],
-        "cosmosSdkVersion": "v0.45.15-ics",
         "consensus": {
           "type": "cometbft",
           "version": "0.34.27"
@@ -173,7 +168,6 @@
         "compatibleVersions": [
           "v0.5.0"
         ],
-        "cosmosSdkVersion": "v0.47.6-nolus",
         "consensus": {
           "type": "cometbft",
           "version": "0.34.27"
@@ -206,7 +200,6 @@
         "compatibleVersions": [
           "v0.5.1"
         ],
-        "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.47.6-nolus",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -240,7 +233,6 @@
         "compatibleVersions": [
           "v0.5.2"
         ],
-        "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.47.6-nolus",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.2"
@@ -274,7 +266,6 @@
         "compatibleVersions": [
           "v0.5.3"
         ],
-        "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.47.8-nolus",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
@@ -308,7 +299,6 @@
         "compatibleVersions": [
           "v0.6.2"
         ],
-        "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.50.7-nolus-rc1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.10"
@@ -342,7 +332,6 @@
         "compatibleVersions": [
           "v0.6.3"
         ],
-        "cosmosSdkVersion": "nolus-protocol/cosmos-sdk v0.50.7-nolus-rc1",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.11"

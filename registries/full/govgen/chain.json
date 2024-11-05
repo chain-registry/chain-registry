@@ -49,7 +49,6 @@
     "genesis": {
       "genesisUrl": "https://atomone.fra1.digitaloceanspaces.com/govgen/govgen-1/genesis.json"
     },
-    "cosmosSdkVersion": "v0.45.16",
     "consensus": {
       "type": "cometbft",
       "version": "v0.34.29"
@@ -62,7 +61,6 @@
         "compatibleVersions": [
           "v1.0.1"
         ],
-        "cosmosSdkVersion": "v0.45.16",
         "consensus": {
           "type": "cometbft",
           "version": "v0.34.29"

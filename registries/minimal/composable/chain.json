@@ -30,7 +30,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "rust-ninja/cosmos-sdk v0.47.5-patch-validators-trim-tag",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/rust-ninja/cosmos-sdk",

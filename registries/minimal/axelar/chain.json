@@ -30,7 +30,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "axelarnetwork/cosmos-sdk v0.45.17-0.20240321205000-47c0c80e20ca",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/axelarnetwork/cosmos-sdk",

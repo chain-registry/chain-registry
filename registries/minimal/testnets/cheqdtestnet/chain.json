@@ -19,7 +19,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "cheqd/cosmos-sdk v0.47.10-height-mismatch",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/cheqd/cosmos-sdk",

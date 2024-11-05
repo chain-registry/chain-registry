@@ -33,7 +33,6 @@
     }
   },
   "codebase": {
-    "cosmosSdkVersion": "persistenceOne/cosmos-sdk v0.47.10-lsm-rc0",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/persistenceOne/cosmos-sdk",

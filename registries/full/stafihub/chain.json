@@ -41,7 +41,6 @@
     "compatibleVersions": [
       "v0.5.0"
     ],
-    "cosmosSdkVersion": "0.46",
     "consensus": {
       "type": "tendermint",
       "version": "0.34"
@@ -79,7 +78,6 @@
         "compatibleVersions": [
           "v0.5.0"
         ],
-        "cosmosSdkVersion": "0.46",
         "consensus": {
           "type": "tendermint",
           "version": "0.34"

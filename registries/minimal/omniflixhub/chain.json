@@ -9,7 +9,6 @@
   "bech32Prefix": "omniflix",
   "slip44": 118,
   "codebase": {
-    "cosmosSdkVersion": "v0.47.10",
     "sdk": {
       "type": "cosmos",
       "version": "v0.47.10"

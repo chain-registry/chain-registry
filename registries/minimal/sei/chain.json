@@ -30,7 +30,6 @@
     ]
   },
   "codebase": {
-    "cosmosSdkVersion": "sei-cosmos v0.3.37",
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/sei-protocol/sei-cosmos",
