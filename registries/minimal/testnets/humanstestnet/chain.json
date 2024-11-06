@@ -25,16 +25,30 @@
     "rpc": [
       {
         "address": "https://humans-testnet.nodejumper.io"
+      },
+      {
+        "address": "https://humans-testnet-rpc.cosmonautstakes.com"
       }
     ],
     "rest": [
       {
         "address": "https://humans-testnet.nodejumper.io:1317"
+      },
+      {
+        "address": "https://humans-testnet-rest.cosmonautstakes.com"
       }
     ],
     "grpc": [
       {
         "address": "https://humans-testnet.nodejumper.io:9090"
+      },
+      {
+        "address": "humans-testnet-grpc.cosmonautstakes.com:9090"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "humans-testnet-evm.cosmonautstakes.com"
       }
     ]
   },

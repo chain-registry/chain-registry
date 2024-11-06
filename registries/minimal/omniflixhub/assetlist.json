@@ -222,6 +222,24 @@
           }
         }
       ]
+    },
+    {
+      "description": "GATA Yield DAO Governance Token powered by OmniFlixHub",
+      "denomUnits": [
+        {
+          "denom": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata",
+          "exponent": 0
+        },
+        {
+          "denom": "ygata",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata",
+      "name": "Yield GATA",
+      "display": "ygata",
+      "symbol": "YGATA",
+      "assetType": "sdk.coin"
     }
   ]
 }

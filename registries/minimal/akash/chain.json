@@ -48,16 +48,7 @@
         "address": "https://akash-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc-akash.cosmos-spaces.cloud"
-      },
-      {
-        "address": "https://rpc-akash-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "http://akash.c29r3.xyz:80/rpc"
-      },
-      {
-        "address": "https://akash-mainnet-rpc.autostake.com:443"
       },
       {
         "address": "https://akash-rpc.kleomedes.network"
@@ -73,12 +64,6 @@
       },
       {
         "address": "https://akash-rpc.publicnode.com:443"
-      },
-      {
-        "address": "https://akash-rpc.validatornode.com"
-      },
-      {
-        "address": "https://rpc-akash.whispernode.com:443"
       },
       {
         "address": "https://public.stakewolle.com/cosmos/akash/rpc"

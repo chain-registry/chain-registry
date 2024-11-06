@@ -81,6 +81,9 @@
       },
       {
         "address": "https://humans-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://humans-mainnet-rpc.cosmonautstakes.com"
       }
     ],
     "rest": [
@@ -122,6 +125,9 @@
       },
       {
         "address": "https://humans-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://humans-mainnet-rest.cosmonautstakes.com"
       }
     ],
     "grpc": [
@@ -154,6 +160,9 @@
       },
       {
         "address": "humans-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "humans-mainnet-grpc.cosmonautstakes.com:9190"
       }
     ],
     "evmHttpJsonrpc": [
@@ -177,6 +186,9 @@
       },
       {
         "address": "https://humans-jsonrpc.noders.services"
+      },
+      {
+        "address": "https://humans-mainnet-evm.cosmonautstakes.com"
       }
     ]
   },
