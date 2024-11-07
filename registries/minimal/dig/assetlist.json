@@ -18,7 +18,6 @@
       "name": "Dig Chain",
       "display": "dig",
       "symbol": "DIG",
-      "coingeckoId": "dig-chain",
       "assetType": "sdk.coin"
     }
   ]
