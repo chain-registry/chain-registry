@@ -23,6 +23,28 @@
       "display": "ton",
       "symbol": "TON",
       "coingeckoId": "the-open-network"
+    },
+    {
+      "description": "The Hamster Kombat ($HMSTR) is the cryptocurrency of the TON (The Open Network) blockchain.",
+      "denomUnits": [
+        {
+          "denom": "nanohmstr",
+          "exponent": 0,
+          "aliases": [
+            "nanoHmstr"
+          ]
+        },
+        {
+          "denom": "hmstr",
+          "exponent": 9
+        }
+      ],
+      "assetType": "unknown",
+      "base": "nanohmstr",
+      "name": "Hamster",
+      "display": "hmstr",
+      "symbol": "HMSTR",
+      "coingeckoId": "hamster-kombat"
     }
   ]
 }

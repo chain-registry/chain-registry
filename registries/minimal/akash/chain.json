@@ -70,6 +70,9 @@
       },
       {
         "address": "https://akash.declab.pro:26601"
+      },
+      {
+        "address": "https://rpc.akash.bronbro.io:443"
       }
     ],
     "rest": [
@@ -123,6 +126,9 @@
       },
       {
         "address": "https://akash.declab.pro:443"
+      },
+      {
+        "address": "https://lcd.akash.bronbro.io:443"
       }
     ],
     "grpc": [
@@ -155,6 +161,9 @@
       },
       {
         "address": "grpc-akash.whispernode.com:443"
+      },
+      {
+        "address": "https://grpc.akash.bronbro.io:443"
       }
     ]
   },

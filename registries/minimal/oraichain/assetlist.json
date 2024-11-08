@@ -201,6 +201,7 @@
       "address": "orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge",
       "base": "cw20:orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge",
       "name": "Oraix",
+      "coingeckoId": "oraidex",
       "display": "oraix",
       "symbol": "ORAIX"
     },
@@ -292,6 +293,7 @@
       "base": "cw20:orai1065qe48g7aemju045aeyprflytemx7kecxkf5m7u5h5mphd0qlcs47pclp",
       "name": "Scorai",
       "display": "scorai",
+      "coingeckoId": "scorai",
       "symbol": "SCORAI"
     },
     {
@@ -330,7 +332,8 @@
       "base": "cw20:orai19q4qak2g3cj2xc2y3060t0quzn3gfhzx08rjlrdd3vqxhjtat0cq668phq",
       "name": "scATOM",
       "display": "scatom",
-      "symbol": "scATOM"
+      "symbol": "scATOM",
+      "coingeckoId": "scatom"
     },
     {
       "description": "The xOCH token is the cw20 token for the Oraichain.",
@@ -406,7 +409,8 @@
       "base": "cw20:orai1hn8w33cqvysun2aujk5sv33tku4pgcxhhnsxmvnkfvdxagcx0p8qa4l98q",
       "name": "Och",
       "display": "och",
-      "symbol": "OCH"
+      "symbol": "OCH",
+      "coingeckoId": "och"
     },
     {
       "description": "The TON native token of Oraichain",
@@ -437,6 +441,65 @@
       "name": "Toncoin",
       "display": "ton",
       "symbol": "TON",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "The PEPE native token of Oraichain",
+      "denomUnits": [
+        {
+          "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/extPEPE",
+          "exponent": 0
+        },
+        {
+          "denom": "pepe",
+          "exponent": 6
+        }
+      ],
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
+          },
+          "provider": "Oraichain Labs OBridge"
+        }
+      ],
+      "base": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/extPEPE",
+      "name": "Pepe",
+      "display": "pepe",
+      "symbol": "PEPE",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "The Hamster Kombat native token of Oraichain",
+      "denomUnits": [
+        {
+          "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/HMSTR",
+          "exponent": 0,
+          "aliases": [
+            "nanohmstr"
+          ]
+        },
+        {
+          "denom": "hmstr",
+          "exponent": 9
+        }
+      ],
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ton",
+            "baseDenom": "nanohmstr"
+          },
+          "provider": "Oraichain Labs Ton Bridge"
+        }
+      ],
+      "base": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/HMSTR",
+      "name": "HMSTR",
+      "display": "hmstr",
+      "symbol": "HMSTR",
       "assetType": "sdk.coin"
     }
   ]
