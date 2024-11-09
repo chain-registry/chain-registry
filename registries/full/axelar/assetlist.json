@@ -245,6 +245,7 @@
           }
         }
       ],
+      "coingeckoId": "axlweth",
       "assetType": "sdk.coin"
     },
     {

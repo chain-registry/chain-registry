@@ -161,6 +161,7 @@
           "provider": "Axelar"
         }
       ],
+      "coingeckoId": "axlweth",
       "assetType": "sdk.coin"
     },
     {
