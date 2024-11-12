@@ -109,7 +109,6 @@
       "name": "USD Coin",
       "display": "gusdc",
       "symbol": "USDC",
-      "coingeckoId": "gravity-bridge-usdc",
       "traces": [
         {
           "type": "synthetic",

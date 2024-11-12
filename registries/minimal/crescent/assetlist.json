@@ -18,7 +18,6 @@
       "name": "Crescent",
       "display": "cre",
       "symbol": "CRE",
-      "coingeckoId": "crescent-network",
       "assetType": "sdk.coin"
     },
     {

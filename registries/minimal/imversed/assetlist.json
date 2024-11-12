@@ -18,7 +18,6 @@
       "name": "IMV",
       "display": "imv",
       "symbol": "IMV",
-      "coingeckoId": "imv",
       "assetType": "sdk.coin"
     }
   ]

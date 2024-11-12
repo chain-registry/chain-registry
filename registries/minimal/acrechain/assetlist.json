@@ -37,7 +37,6 @@
       "name": "Arable USD",
       "display": "arusd",
       "symbol": "arUSD",
-      "coingeckoId": "arable-usd",
       "assetType": "sdk.coin"
     },
     {

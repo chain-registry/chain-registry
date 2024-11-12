@@ -18,7 +18,6 @@
       "name": "Tgrade",
       "display": "tgd",
       "symbol": "TGD",
-      "coingeckoId": "tgrade",
       "assetType": "sdk.coin"
     }
   ]

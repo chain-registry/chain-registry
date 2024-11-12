@@ -158,7 +158,6 @@
           "provider": "Stride"
         }
       ],
-      "coingeckoId": "stride-staked-luna",
       "assetType": "sdk.coin"
     },
     {
@@ -213,7 +212,6 @@
           "provider": "Stride"
         }
       ],
-      "coingeckoId": "stride-staked-evmos",
       "assetType": "sdk.coin"
     },
     {

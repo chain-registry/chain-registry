@@ -18,7 +18,6 @@
       "name": "Hash",
       "display": "hash",
       "symbol": "HASH",
-      "coingeckoId": "provenance-blockchain",
       "assetType": "sdk.coin"
     }
   ]

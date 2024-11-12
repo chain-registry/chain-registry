@@ -18,7 +18,6 @@
       "display": "tick",
       "name": "Microtick",
       "symbol": "TICK",
-      "coingeckoId": "microtick",
       "assetType": "sdk.coin"
     }
   ]

@@ -18,7 +18,6 @@
       "name": "Qwoyn Network",
       "display": "qwoyn",
       "symbol": "QWOYN",
-      "coingeckoId": "qwoyn",
       "assetType": "sdk.coin"
     }
   ]

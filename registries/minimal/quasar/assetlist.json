@@ -24,8 +24,7 @@
       "base": "uqsr",
       "name": "Quasar (legacy)",
       "display": "qsr",
-      "symbol": "QSR.legacy",
-      "coingeckoId": "quasar-2"
+      "symbol": "QSR.legacy"
     },
     {
       "description": "OSMO from Osmosis",

@@ -37,7 +37,6 @@
       "name": "Harbor",
       "display": "harbor",
       "symbol": "HARBOR",
-      "coingeckoId": "harbor-2",
       "assetType": "sdk.coin"
     },
     {

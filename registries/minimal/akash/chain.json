@@ -54,9 +54,6 @@
         "address": "https://akash-rpc.kleomedes.network"
       },
       {
-        "address": "https://rpc-akash-01.stakeflow.io"
-      },
-      {
         "address": "https://akash-mainnet-rpc.cosmonautstakes.com:443"
       },
       {
@@ -64,9 +61,6 @@
       },
       {
         "address": "https://akash-rpc.publicnode.com:443"
-      },
-      {
-        "address": "https://public.stakewolle.com/cosmos/akash/rpc"
       },
       {
         "address": "https://akash.declab.pro:26601"
