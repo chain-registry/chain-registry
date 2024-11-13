@@ -1,6 +1,6 @@
 {
   "$schema": "../assetlist.schema.json",
-  "chainName": "andromeda",
+  "chainName": "andromeda1",
   "assets": [
     {
       "description": "The native staking and governance token of Andromeda",

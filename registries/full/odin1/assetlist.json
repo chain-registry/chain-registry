@@ -1,6 +1,6 @@
 {
   "$schema": "../assetlist.schema.json",
-  "chainName": "odin",
+  "chainName": "odin1",
   "assets": [
     {
       "description": "Staking and governance token for ODIN Protocol",

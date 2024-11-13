@@ -449,6 +449,38 @@
           }
         }
       ]
+    },
+    {
+      "description": "GATA Yield DAO Governance Token",
+      "denomUnits": [
+        {
+          "denom": "ibc/2A56F95E2B74AB769816403D384E2199C7BC510BFD2F8352FAC6DF0294B83EBA",
+          "exponent": 0
+        },
+        {
+          "denom": "ygata",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/2A56F95E2B74AB769816403D384E2199C7BC510BFD2F8352FAC6DF0294B83EBA",
+      "name": "Yield GATA",
+      "display": "ygata",
+      "symbol": "YGATA",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "omniflixhub",
+            "baseDenom": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata",
+            "channelId": "channel-49"
+          },
+          "chain": {
+            "channelId": "channel-398",
+            "path": "transfer/channel-398/factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata"
+          }
+        }
+      ]
     }
   ]
 }

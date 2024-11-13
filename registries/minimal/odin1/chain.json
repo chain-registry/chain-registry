@@ -1,6 +1,6 @@
 {
   "$schema": "../chain.schema.json",
-  "chainName": "odin",
+  "chainName": "odin1",
   "networkType": "mainnet",
   "website": "https://odinprotocol.io/",
   "prettyName": "Odin Protocol",
