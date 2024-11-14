@@ -5,7 +5,7 @@
   "website": "https://medas-digital.io/",
   "prettyName": "Medas Digital Network",
   "chainType": "cosmos",
-  "chainId": "medasdigital-1",
+  "chainId": "medasdigital-2",
   "bech32Prefix": "medas",
   "slip44": 118,
   "keyAlgos": [
