@@ -1,0 +1,79 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "cosmoshub",
+    "clientId": "07-tendermint-1304",
+    "connectionId": "connection-1038"
+  },
+  "chain2": {
+    "chainName": "pryzm",
+    "clientId": "07-tendermint-0",
+    "connectionId": "connection-0"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-859",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-0",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-863",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-8",
+        "portId": "icacontroller-reward-uatom"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-861",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-9",
+        "portId": "icacontroller-sweep-uatom"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    },
+    {
+      "chain1": {
+        "channelId": "channel-891",
+        "portId": "icahost"
+      },
+      "chain2": {
+        "channelId": "channel-20",
+        "portId": "icacontroller-delegation-uatom"
+      },
+      "ordering": "ordered",
+      "version": "ics27-1",
+      "tags": {
+        "status": "live",
+        "preferred": true
+      }
+    }
+  ]
+}

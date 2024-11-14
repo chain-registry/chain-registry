@@ -17,8 +17,9 @@
     "minimal": "ts-node ./src/minimal.ts",
     "original": "ts-node ./src/original/index.ts",
     "full": "ts-node ./src/full.ts",
+    "camel": "ts-node ./src/camel.ts",
     "clean": "rimraf ../../registries/*",
-    "build": "npm run clean && npm run minimal && npm run original && npm run full"
+    "build": "npm run clean && npm run minimal && npm run original && npm run full && npm run camel"
   },
   "keywords": [],
   "devDependencies": {

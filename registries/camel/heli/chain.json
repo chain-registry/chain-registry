@@ -1,0 +1,146 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "heli",
+  "status": "live",
+  "networkType": "mainnet",
+  "website": "https://helichain.com/",
+  "prettyName": "HeliChain",
+  "chainType": "cosmos",
+  "chainId": "helichain",
+  "bech32Prefix": "heli",
+  "daemonName": "helichaind",
+  "nodeHome": "$HOME/.helichain",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uheli",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.001,
+        "averageGasPrice": 0.002,
+        "highGasPrice": 0.0025
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uheli"
+      }
+    ],
+    "lockDuration": {
+      "time": "1209600s"
+    }
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/Heli-Chain/heli",
+    "recommendedVersion": "v0.0.1",
+    "compatibleVersions": [
+      "v0.0.1"
+    ],
+    "consensus": {
+      "type": "cometbft",
+      "version": "0.37.2"
+    },
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/Heli-Chain/heli/main/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v0.0.1",
+        "recommendedVersion": "v0.0.1",
+        "compatibleVersions": [
+          "v0.0.1"
+        ],
+        "consensus": {
+          "type": "cometbft",
+          "version": "0.37.2"
+        },
+        "nextVersionName": "",
+        "sdk": {
+          "type": "cosmos",
+          "version": "0.47.4"
+        },
+        "cosmwasm": {
+          "version": "0.42.0",
+          "enabled": true
+        },
+        "ibc": {
+          "type": "go",
+          "version": "v7.2.0"
+        }
+      }
+    ],
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.47.4"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v7.2.0"
+    },
+    "cosmwasm": {
+      "version": "0.41.0",
+      "enabled": true
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "8f86b9543ee84a69072cb8347cc8fb4ace68e6f5",
+        "address": "45.77.172.45:26656"
+      },
+      {
+        "id": "60d5b2568bc9d6e0a61e4f0ab2ed3ace71b8dcb1",
+        "address": "66.42.53.120:26656"
+      },
+      {
+        "id": "c1bc48f2bf4361d2c4afd135df8e4b0020672877",
+        "address": "149.28.153.206:26656"
+      }
+    ],
+    "persistentPeers": [
+
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.helichain.com/",
+        "provider": "HeliChain"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.helichain.com/",
+        "provider": "HeliChain"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://explorer.helichain.com/Helichain",
+      "txPage": "https://explorer.helichain.com/Helichain/tx/${txHash}",
+      "accountPage": "https://explorer.helichain.com/Helichain/account/${accountAddress}"
+    },
+    {
+      "kind": "staking-explorer.com",
+      "url": "https://staking-explorer.com/explorer/heli",
+      "txPage": "https://staking-explorer.com/transaction.php?chain=heli&tx=${txHash}",
+      "accountPage": "https://staking-explorer.com/account.php?chain=heli&addr=${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/heli/images/heli.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/heli/images/heli.svg",
+      "theme": {
+        "primaryColorHex": "#fccc24"
+      }
+    }
+  ]
+}

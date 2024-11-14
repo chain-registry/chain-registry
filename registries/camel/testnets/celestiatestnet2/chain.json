@@ -1,0 +1,113 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "celestiatestnet2",
+  "chainType": "cosmos",
+  "chainId": "arabica-11",
+  "prettyName": "Arabica Testnet",
+  "status": "live",
+  "networkType": "devnet",
+  "bech32Prefix": "celestia",
+  "daemonName": "celestia-appd",
+  "nodeHome": "$HOME/.celestia-app",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utia",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.02,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/celestiaorg/celestia-app",
+    "recommendedVersion": "v2.1.2",
+    "compatibleVersions": [
+      "v2.0.0",
+      "v2.1.0",
+      "v2.1.1",
+      "v2.1.2"
+    ],
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/celestiaorg/networks/master/arabica-11/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v1",
+        "recommendedVersion": "v1.14.0",
+        "compatibleVersions": [
+          "v1.3.0",
+          "v1.6.0",
+          "v1.7.0",
+          "v1.9.0",
+          "v1.10.0",
+          "v1.10.1",
+          "v1.11.0",
+          "v1.12.0",
+          "v1.13.0",
+          "v1.14.0"
+        ]
+      },
+      {
+        "name": "v2",
+        "recommendedVersion": "v2.1.2",
+        "compatibleVersions": [
+          "v2.0.0",
+          "v2.1.0",
+          "v2.1.1",
+          "v2.1.2"
+        ]
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "827583022cc6ce65cf762115642258f937c954cd",
+        "address": "validator-1.celestia-arabica-11.com",
+        "provider": "Celestia Labs"
+      },
+      {
+        "id": "74e42b39f512f844492ff09e30af23d54579b7bc",
+        "address": "validator-2.celestia-arabica-11.com",
+        "provider": "Celestia Labs"
+      },
+      {
+        "id": "00d577159b2eb1f524ef9c37cb389c020a2c38d2",
+        "address": "validator-3.celestia-arabica-11.com",
+        "provider": "Celestia Labs"
+      },
+      {
+        "id": "b2871b6dc2e18916d07264af0e87c456c2bba04f",
+        "address": "validator-4.celestia-arabica-11.com",
+        "provider": "Celestia Labs"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://validator-1.celestia-arabica-11.com/",
+        "provider": "Celestia Labs"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.celestia-arabica-11.com/",
+        "provider": "Celestia Labs"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Celenium",
+      "url": "https://arabica.celenium.io/",
+      "txPage": "https://arabica.celenium.io/tx/${txHash}"
+    }
+  ]
+}

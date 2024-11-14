@@ -1,0 +1,132 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "medasdigital",
+  "status": "live",
+  "networkType": "mainnet",
+  "website": "https://medas-digital.io/",
+  "prettyName": "Medas Digital Network",
+  "chainType": "cosmos",
+  "chainId": "medasdigital-2",
+  "bech32Prefix": "medas",
+  "daemonName": "medasdigitald",
+  "nodeHome": "$HOME/.medasdigital",
+  "slip44": 118,
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "umedas",
+        "lowGasPrice": 0.1,
+        "averageGasPrice": 0.25,
+        "highGasPrice": 0.4
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "umedas"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/oxygene76/medasdigital-2/",
+    "recommendedVersion": "v1.0.0",
+    "compatibleVersions": [
+      "v1.0.0"
+    ],
+    "genesis": {
+      "genesisUrl": "https://raw.githubusercontent.com/oxygene76/medasdigital-2/genesis/mainnet/config/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v1.0.0",
+        "recommendedVersion": "v1.0.0",
+        "compatibleVersions": [
+          "v1.0.0"
+        ]
+      }
+    ]
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.svg"
+  },
+  "peers": {
+    "seeds": [
+
+    ],
+    "persistentPeers": [
+      {
+        "id": "51ca3b0a3663af88566b32ecfd77948e55000bcc",
+        "address": "88.205.101.195:26656",
+        "provider": "Neptun Validator"
+      },
+      {
+        "id": "90be2e9f0a279372d2931e38f15025db9a847dbd",
+        "address": "88.205.101.196:26656",
+        "provider": "Uranus Validator"
+      },
+      {
+        "id": "0e567c9efe6e6d15f9b3257679398368c2ab04bb",
+        "address": "88.205.101.197:26656",
+        "provider": "Saturn Validator"
+      },
+      {
+        "id": "669d1b9f9c4bb99df594abaee4b13ae1b14d37a6",
+        "address": "64.251.18.192:26656",
+        "provider": "Mars Validator"
+      },
+      {
+        "id": "cbfcd111ee19483dbbfed0919ac0d23119c5f0fe",
+        "address": "67.207.180.166:26656",
+        "provider": "Jupiter Validator"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.medas-digital.io:26657/",
+        "provider": "Neptun Validator"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.medas-digital.io:1317/",
+        "provider": "Neptun Validator"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.medas-digital.io:9090",
+        "provider": "Neptun Validator"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "BigDipper",
+      "url": "https://explorer.medas-digital.io:3100/medasdigital",
+      "txPage": "https://explorer.medas-digital.io:3100/medasdigital/transactions/${txHash}",
+      "accountPage": "explorer.medas-digital.io:3100/medasdigital/accounts/${accountAddress}"
+    },
+    {
+      "kind": "atomscan",
+      "url": "https://atomscan.com/frontier/medasdigital",
+      "txPage": "https://atomscan.com/frontier/medasdigital/transactions/${txHash}",
+      "accountPage": "https://atomscan.com/frontier/medasdigital/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.svg",
+      "theme": {
+        "primaryColorHex": "#147ccc"
+      }
+    }
+  ]
+}
