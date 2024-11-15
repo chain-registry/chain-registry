@@ -1,14 +1,14 @@
 {
   "$schema": "../ibc_data.schema.json",
   "chain_1": {
-    "chain_name": "kimanetwork",
-    "client_id": "07-tendermint-27",
-    "connection_id": "connection-17"
+    "chain_name": "dungeon",
+    "client_id": "07-tendermint-8",
+    "connection_id": "connection-10"
   },
   "chain_2": {
-    "chain_name": "osmosis",
-    "client_id": "07-tendermint-3350",
-    "connection_id": "connection-2810"
+    "chain_name": "neutron",
+    "client_id": "07-tendermint-146",
+    "connection_id": "connection-106"
   },
   "channels": [
     {
@@ -17,7 +17,7 @@
         "port_id": "transfer"
       },
       "chain_2": {
-        "channel_id": "channel-86496",
+        "channel_id": "channel-5481",
         "port_id": "transfer"
       },
       "ordering": "unordered",
