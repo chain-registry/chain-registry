@@ -51,6 +51,9 @@
       },
       {
         "address": "https://mantra-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://mantra-mainnet-rpc.itrocket.net:443"
       }
     ],
     "rest": [
@@ -65,6 +68,9 @@
       },
       {
         "address": "https://mantra-rest.publicnode.com"
+      },
+      {
+        "address": "https://mantra-mainnet-api.itrocket.net"
       }
     ],
     "grpc": [
@@ -79,11 +85,19 @@
       },
       {
         "address": "mantra-grpc.publicnode.com:443"
+      },
+      {
+        "address": "mantra-mainnet-grpc.itrocket.net:443"
       }
     ]
   },
   "explorers": [
-
+    {
+      "kind": "ITRocket",
+      "url": "https://mainnet.itrocket.net/mantra",
+      "txPage": "https://mainnet.itrocket.net/mantra/transaction/${txHash}",
+      "accountPage": "https://mainnet.itrocket.net/mantra/account/${accountAddress}"
+    }
   ],
   "images": [
     {

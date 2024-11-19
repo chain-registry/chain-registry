@@ -52,7 +52,7 @@
         "address": "https://shidochain_mainnet_rpc.chain.whenmoonwhenlambo.money"
       },
       {
-        "address": "https://rest.shido.256x25.tech:443"
+        "address": "https://rpc.shido.256x25.tech:443"
       },
       {
         "address": "https://rpc.shido.indonode.net:443"
@@ -72,7 +72,7 @@
         "address": "https://shidochain_mainnet_api.chain.whenmoonwhenlambo.money"
       },
       {
-        "address": "https://rpc.shido.256x25.tech:443"
+        "address": "https://rest.shido.256x25.tech:443"
       },
       {
         "address": "https://api.shido.indonode.net"

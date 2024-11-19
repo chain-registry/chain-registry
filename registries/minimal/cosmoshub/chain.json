@@ -154,6 +154,9 @@
       },
       {
         "address": "https://cosmos-hub.drpc.org"
+      },
+      {
+        "address": "https://cosmoshub-mainnet-rpc.itrocket.net"
       }
     ],
     "rest": [
@@ -243,6 +246,9 @@
       },
       {
         "address": "https://cosmos-api.stakeandrelax.net"
+      },
+      {
+        "address": "https://cosmoshub-mainnet-api.itrocket.net"
       }
     ],
     "grpc": [
@@ -305,6 +311,9 @@
       },
       {
         "address": "cosmos-grpc.stakeandrelax.net:15090"
+      },
+      {
+        "address": "cosmoshub-mainnet-grpc.itrocket.net:443"
       }
     ]
   },
@@ -392,6 +401,15 @@
       "validatorPage": "https://mainnet.whispernode.com/cosmos/staking/${validatorAddress}",
       "proposalPage": "https://mainnet.whispernode.com/cosmos/gov/${proposalId}",
       "blockPage": "https://mainnet.whispernode.com/cosmos/block/${blockHeight}"
+    },
+    {
+      "kind": "ITRocket",
+      "url": "https://mainnet.itrocket.net/cosmoshub",
+      "txPage": "https://mainnet.itrocket.net/cosmoshub/tx/${txHash}",
+      "accountPage": "https://mainnet.itrocket.net/cosmoshub/account/${accountAddress}",
+      "validatorPage": "https://mainnet.itrocket.net/cosmoshub/staking/${validatorAddress}",
+      "proposalPage": "https://mainnet.itrocket.net/cosmoshub/gov/${proposalId}",
+      "blockPage": "https://mainnet.itrocket.net/cosmoshub/block/${blockHeight}"
     }
   ],
   "images": [
