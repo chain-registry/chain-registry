@@ -7,6 +7,7 @@
   "website": "https://www.blockxnet.com/",
   "networkType": "testnet",
   "bech32Prefix": "blockx",
+  "slip44": 118,
   "keyAlgos": [
     "ethsecp256k1"
   ],

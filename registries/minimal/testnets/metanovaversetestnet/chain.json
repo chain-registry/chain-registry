@@ -7,6 +7,7 @@
   "chainType": "cosmos",
   "chainId": "mnova_10096-1",
   "bech32Prefix": "mnova",
+  "slip44": 118,
   "keyAlgos": [
     "ethsecp256k1"
   ],

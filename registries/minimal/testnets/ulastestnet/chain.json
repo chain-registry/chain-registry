@@ -6,6 +6,7 @@
   "chainType": "cosmos",
   "chainId": "ulas",
   "bech32Prefix": "ulas",
+  "slip44": 118,
   "codebase": {
 
   },

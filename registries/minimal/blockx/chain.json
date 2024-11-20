@@ -7,6 +7,7 @@
   "chainType": "cosmos",
   "chainId": "blockx_19191-1",
   "bech32Prefix": "blockx",
+  "slip44": 118,
   "keyAlgos": [
     "ethsecp256k1"
   ],

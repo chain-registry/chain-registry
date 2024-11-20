@@ -8,6 +8,7 @@
   "chainType": "cosmos",
   "chainId": "fiamma-testnet-1",
   "bech32Prefix": "fiamma",
+  "slip44": 118,
   "daemonName": "fiammad",
   "nodeHome": "$HOME/.fiamma",
   "keyAlgos": [

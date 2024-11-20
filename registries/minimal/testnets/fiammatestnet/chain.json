@@ -7,6 +7,7 @@
   "chainType": "cosmos",
   "chainId": "fiamma-testnet-1",
   "bech32Prefix": "fiamma",
+  "slip44": 118,
   "keyAlgos": [
     "secp256k1"
   ],

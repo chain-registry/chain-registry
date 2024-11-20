@@ -8,6 +8,7 @@
   "chainType": "cosmos",
   "chainId": "bbn-test1",
   "bech32Prefix": "bbn",
+  "slip44": 118,
   "daemonName": "babylond",
   "nodeHome": "$HOME/.babylond",
   "keyAlgos": [

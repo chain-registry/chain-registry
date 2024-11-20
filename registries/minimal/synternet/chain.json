@@ -6,6 +6,7 @@
   "website": "https://www.synternet.com/",
   "prettyName": "Synternet",
   "networkType": "mainnet",
+  "slip44": 118,
   "bech32Prefix": "synt",
   "keyAlgos": [
     "secp256k1"

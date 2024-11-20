@@ -7,6 +7,7 @@
   "prettyName": "Synternet",
   "status": "live",
   "networkType": "mainnet",
+  "slip44": 118,
   "bech32Prefix": "synt",
   "daemonName": "syntd",
   "nodeHome": "$HOME/.amber",
