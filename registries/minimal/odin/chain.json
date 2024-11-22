@@ -78,9 +78,9 @@
   },
   "explorers": [
     {
-      "kind": "odin web",
-      "url": "https://mainnet.odinprotocol.io/",
-      "txPage": "https://mainnet.odinprotocol.io/transactions/${txHash}"
+      "kind": "Runa",
+      "url": "https://runa.odinprotocol.io/",
+      "txPage": "https://runa.odinprotocol.io/transactions/${txHash}"
     },
     {
       "kind": "🔥STAVR🔥",

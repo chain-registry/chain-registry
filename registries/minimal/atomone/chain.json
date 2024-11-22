@@ -64,6 +64,9 @@
       },
       {
         "address": "https://atomone-rpc.ibs.team:443"
+      },
+      {
+        "address": "https://atomone-mainnet-rpc.autostake.com:443"
       }
     ],
     "rest": [
@@ -93,6 +96,9 @@
       },
       {
         "address": "https://atomone-api.ibs.team:443"
+      },
+      {
+        "address": "https://atomone-mainnet-lcd.autostake.com:443"
       }
     ],
     "grpc": [
@@ -110,6 +116,9 @@
       },
       {
         "address": "atomone-grpc.publicnode.com:443"
+      },
+      {
+        "address": "atomone-mainnet-grpc.autostake.com:443"
       }
     ]
   },
