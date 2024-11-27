@@ -54,6 +54,9 @@
       },
       {
         "address": "https://mantra-mainnet-rpc.itrocket.net:443"
+      },
+      {
+        "address": "https://mantra.rpc.m.stavr.tech"
       }
     ],
     "rest": [
@@ -71,6 +74,9 @@
       },
       {
         "address": "https://mantra-mainnet-api.itrocket.net"
+      },
+      {
+        "address": "https://mantra.api.m.stavr.tech"
       }
     ],
     "grpc": [
@@ -88,6 +94,9 @@
       },
       {
         "address": "mantra-mainnet-grpc.itrocket.net:443"
+      },
+      {
+        "address": "mantra.grpc.m.stavr.tech:3601"
       }
     ]
   },
@@ -97,6 +106,12 @@
       "url": "https://mainnet.itrocket.net/mantra",
       "txPage": "https://mainnet.itrocket.net/mantra/transaction/${txHash}",
       "accountPage": "https://mainnet.itrocket.net/mantra/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Mantra-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Mantra-Mainnet/transaction/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Mantra-Mainnet/account/${accountAddress}"
     }
   ],
   "images": [

@@ -62,11 +62,11 @@
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/neutron-org/cosmos-sdk",
-      "version": "v0.50.7",
-      "tag": "v0.50.7-neutron"
+      "version": "v0.50.10",
+      "tag": "v0.50.10-neutron"
     },
     "cosmwasm": {
-      "version": "v0.51.0",
+      "version": "v0.53.0",
       "repo": "https://github.com/neutron-org/wasmd",
       "enabled": true
     }

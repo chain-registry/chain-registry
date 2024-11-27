@@ -32,7 +32,7 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.47.11"
+      "version": "v0.50.10"
     }
   },
   "apis": {

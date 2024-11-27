@@ -17,6 +17,7 @@
       "base": "udgn",
       "name": "Dragon",
       "display": "DGN",
+      "coingeckoId": "dragon-coin-2",
       "symbol": "DGN",
       "assetType": "sdk.coin"
     }
