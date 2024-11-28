@@ -73,16 +73,6 @@
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/Int3facechain/networks/main/int3face-1/genesis.json"
     },
-    "versions": [
-      {
-        "name": "v0.2.7",
-        "recommended_version": "v0.2.7",
-        "compatible_versions": [
-          "v0.2.7"
-        ],
-        "next_version_name": "v0.2.8"
-      }
-    ],
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/cosmos/cosmos-sdk",

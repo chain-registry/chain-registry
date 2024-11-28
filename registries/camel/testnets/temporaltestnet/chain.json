@@ -36,16 +36,7 @@
     ],
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/temporal-zone/temporal-testnet/main/genesis/genesis.json"
-    },
-    "versions": [
-      {
-        "name": "v0.4.0",
-        "recommendedVersion": "v0.4.0",
-        "compatibleVersions": [
-          "v0.4.0"
-        ]
-      }
-    ]
+    }
   },
   "peers": {
     "seeds": [

@@ -41,18 +41,7 @@
     ],
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/CudoVentures/cudos-builders/v1.0.0/docker/config/genesis.mainnet.json"
-    },
-    "versions": [
-      {
-        "name": "v9.9.9",
-        "recommended_version": "v9.9.9",
-        "compatible_versions": [
-          "v1.0.1",
-          "v1.1.0",
-          "v9.9.9"
-        ]
-      }
-    ]
+    }
   },
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png",

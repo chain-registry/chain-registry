@@ -34,16 +34,7 @@
     ],
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/microtick/stargate-genesis/master/genesis.json"
-    },
-    "versions": [
-      {
-        "name": "mtm-v2.0.4",
-        "recommendedVersion": "mtm-v2.0.4",
-        "compatibleVersions": [
-          "mtm-v2.0.4"
-        ]
-      }
-    ]
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/microtick/images/tick.png",

@@ -29,16 +29,7 @@
     ],
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/celestiaorg/networks/master/blockspacerace/genesis.json"
-    },
-    "versions": [
-      {
-        "name": "v1.1.0",
-        "recommendedVersion": "v1.1.0",
-        "compatibleVersions": [
-          "v1.1.0"
-        ]
-      }
-    ]
+    }
   },
   "peers": {
     "seeds": [

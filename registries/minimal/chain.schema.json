@@ -71,6 +71,9 @@
     "codebase": {
       "type": "object",
       "properties": {
+        "tag": {
+          "$ref": "#/$defs/tag"
+        },
         "language": {
           "$ref": "#/$defs/language"
         },

@@ -32,19 +32,7 @@
     },
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/ChronicNetwork/net/main/mainnet/v1.1/genesis.json"
-    },
-    "versions": [
-      {
-        "name": "v1.1.0",
-        "recommendedVersion": "v1.1.0",
-        "compatibleVersions": [
-          "v1.1.0"
-        ],
-        "binaries": {
-          "linux/amd64": "https://github.com/ChronicNetwork/cht/releases/download/v.1.1.0/cht"
-        }
-      }
-    ]
+    }
   },
   "peers": {
     "seeds": [

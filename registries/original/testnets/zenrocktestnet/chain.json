@@ -57,14 +57,7 @@
     "cosmwasm": {
       "version": "v0.53.0",
       "enabled": true
-    },
-    "versions": [
-      {
-        "name": "v5",
-        "tag": "v5.3.8",
-        "recommended_version": "5.3.8"
-      }
-    ]
+    }
   },
   "images": [
     {

@@ -38,15 +38,6 @@
     "recommendedVersion": "v0.20.0",
     "compatibleVersions": [
       "v0.20.0"
-    ],
-    "versions": [
-      {
-        "name": "v0.20.0",
-        "recommendedVersion": "v0.20.0",
-        "compatibleVersions": [
-          "v0.20.0"
-        ]
-      }
     ]
   },
   "peers": {

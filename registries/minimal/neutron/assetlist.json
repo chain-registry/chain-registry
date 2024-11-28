@@ -1044,6 +1044,35 @@
         }
       ],
       "coingeckoId": "astrovault-xatom"
+    },
+    {
+      "description": "The advance token for ATOM denominated vaults on Amulet Protocol",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron1shwxlkpdjd8h5wdtrykypwd2v62z5glr95yp0etdcspkkjwm5meq82ndxs/amatom",
+          "exponent": 0
+        },
+        {
+          "denom": "amATOM",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron1shwxlkpdjd8h5wdtrykypwd2v62z5glr95yp0etdcspkkjwm5meq82ndxs/amatom",
+      "name": "amATOM",
+      "display": "amATOM",
+      "symbol": "amATOM",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+            "contract": "neutron16d4a7q3wfkkawj4jwyzz6g97xtmj0crkyn06ev74fu4xsgkwnreswzfpcy"
+          },
+          "provider": "Amulet"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -39,28 +39,7 @@
     ],
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/akiroinu/akiro/main/mainnet/genesis.json"
-    },
-    "versions": [
-      {
-        "name": "v0.2",
-        "recommendedVersion": "v0.2",
-        "compatibleVersions": [
-          "v0.2"
-        ],
-        "consensus": {
-          "type": "tendermint",
-          "version": "v0.34.19"
-        },
-        "sdk": {
-          "type": "cosmos",
-          "version": "v0.45.4"
-        },
-        "ibc": {
-          "type": "go",
-          "version": "v3.0.0"
-        }
-      }
-    ]
+    }
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akiro/images/akiro.png",

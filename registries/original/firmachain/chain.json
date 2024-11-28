@@ -40,16 +40,7 @@
     ],
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/FirmaChain/mainnet/main/colosseum-1/genesis.json"
-    },
-    "versions": [
-      {
-        "name": "v0.3.5",
-        "recommended_version": "v0.3.5-patch",
-        "compatible_versions": [
-          "v0.3.5-patch"
-        ]
-      }
-    ]
+    }
   },
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.png",
