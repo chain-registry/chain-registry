@@ -83,6 +83,41 @@
           }
         }
       ]
+    },
+    {
+      "description": "The token of Crowdpunk DAO",
+      "denomUnits": [
+        {
+          "denom": "ibc/74C4FE1EC3BDD66B02C691496371DDBB86DDE512C5BC072D76262C6C9B4B20D1",
+          "exponent": 0,
+          "aliases": [
+            "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F"
+          ]
+        },
+        {
+          "denom": "crowdp",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/74C4FE1EC3BDD66B02C691496371DDBB86DDE512C5BC072D76262C6C9B4B20D1",
+      "name": "Crowdpunk DAO",
+      "display": "crowdp",
+      "symbol": "CROWDP",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "evmos",
+            "baseDenom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-292",
+            "path": "transfer/channel-292/erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F"
+          }
+        }
+      ]
     }
   ]
 }
