@@ -151,6 +151,9 @@
       },
       {
         "address": "https://osmosis.drpc.org"
+      },
+      {
+        "address": "https://osmosis-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -228,6 +231,9 @@
       },
       {
         "address": "https://osmosis-api.noders.services"
+      },
+      {
+        "address": "https://osmosis-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -281,6 +287,9 @@
       },
       {
         "address": "osmosis-grpc.noders.services:10090"
+      },
+      {
+        "address": "osmosis-grpc.chainroot.io:443"
       }
     ]
   },
@@ -351,6 +360,12 @@
       "url": "https://mainnet.whispernode.com/osmosis",
       "txPage": "https://mainnet.whispernode.com/osmosis/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/osmosis/account/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/osmosis",
+      "txPage": "https://explorer.chainroot.io/osmosis/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/osmosis/accounts/${accountAddress}"
     }
   ]
 }

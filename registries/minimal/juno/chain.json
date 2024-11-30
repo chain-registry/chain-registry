@@ -129,6 +129,9 @@
       },
       {
         "address": "https://juno.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://juno-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -203,6 +206,9 @@
       },
       {
         "address": "https://juno.api.nodeshub.online:443"
+      },
+      {
+        "address": "https://juno-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -268,6 +274,9 @@
       },
       {
         "address": "https://juno.grpc.nodeshub.online"
+      },
+      {
+        "address": "juno-grpc.chainroot.io:443"
       }
     ]
   },
@@ -338,6 +347,12 @@
       "url": "https://mainnet.whispernode.com/juno",
       "txPage": "https://mainnet.whispernode.com/juno/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/juno/account/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/juno",
+      "txPage": "https://explorer.chainroot.io/juno/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/juno/accounts/${accountAddress}"
     }
   ],
   "images": [

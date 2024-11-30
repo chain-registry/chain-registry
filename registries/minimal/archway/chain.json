@@ -122,6 +122,9 @@
       },
       {
         "address": "https://archway-rpc.noders.services"
+      },
+      {
+        "address": "https://archway-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -196,6 +199,9 @@
       },
       {
         "address": "https://archway-api.noders.services"
+      },
+      {
+        "address": "https://archway-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -264,6 +270,9 @@
       },
       {
         "address": "archway-grpc.noders.services:13090"
+      },
+      {
+        "address": "archway-grpc.chainroot.io:443"
       }
     ]
   },
@@ -326,6 +335,12 @@
       "url": "https://mainnet.whispernode.com/archway",
       "txPage": "https://mainnet.whispernode.com/archway/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/archway/account/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/archway",
+      "txPage": "https://explorer.chainroot.io/archway/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/archway/accounts/${accountAddress}"
     }
   ],
   "images": [

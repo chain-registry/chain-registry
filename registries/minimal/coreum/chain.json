@@ -91,6 +91,9 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/coreum/rpc"
+      },
+      {
+        "address": "https://coreum-rpc.chainroot.io"
       }
     ],
     "grpc": [
@@ -114,6 +117,9 @@
       },
       {
         "address": "coreum-grpc.genznodes.dev:35090"
+      },
+      {
+        "address": "coreum-grpc.chainroot.io:443"
       }
     ],
     "rest": [
@@ -140,6 +146,9 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/coreum/rest"
+      },
+      {
+        "address": "https://coreum-api.chainroot.io"
       }
     ]
   },
@@ -191,6 +200,12 @@
       "url": "https://ezstaking.app/coreum",
       "txPage": "https://ezstaking.app/coreum/txs/${txHash}",
       "accountPage": "https://ezstaking.app/coreum/account/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/coreum",
+      "txPage": "https://explorer.chainroot.io/coreum/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/coreum/accounts/${accountAddress}"
     }
   ]
 }

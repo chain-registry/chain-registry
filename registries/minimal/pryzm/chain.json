@@ -123,6 +123,9 @@
       },
       {
         "address": "https://pryzm-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://pryzm-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -134,6 +137,9 @@
       },
       {
         "address": "https://pryzm-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://pryzm-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -145,6 +151,9 @@
       },
       {
         "address": "pryzm-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "pryzm-grpc.chainroot.io:443"
       }
     ]
   },
@@ -172,6 +181,12 @@
       "url": "https://staking-explorer.com/explorer/pryzm",
       "txPage": "https://staking-explorer.com/transaction.php?chain=pryzm&tx=${txHash}",
       "accountPage": "https://staking-explorer.com/account.php?chain=pryzm&addr=${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/pryzm",
+      "txPage": "https://explorer.chainroot.io/pryzm/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/pryzm/accounts/${accountAddress}"
     }
   ],
   "images": [

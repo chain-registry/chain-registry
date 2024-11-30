@@ -95,6 +95,9 @@
       },
       {
         "address": "https://stargaze-rpc.kleomedes.network"
+      },
+      {
+        "address": "https://stargaze-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -154,6 +157,9 @@
       },
       {
         "address": "https://stargaze-api.kleomedes.network"
+      },
+      {
+        "address": "https://stargaze-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -186,6 +192,9 @@
       },
       {
         "address": "https://grpc.stargaze.bronbro.io:443"
+      },
+      {
+        "address": "stargaze-grpc.chainroot.io:443"
       }
     ]
   },
@@ -230,6 +239,12 @@
       "url": "https://mainnet.whispernode.com/stargaze",
       "txPage": "https://mainnet.whispernode.com/stargaze/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/stargaze/account/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/stargaze",
+      "txPage": "https://explorer.chainroot.io/stargaze/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/stargaze/accounts/${accountAddress}"
     }
   ],
   "images": [

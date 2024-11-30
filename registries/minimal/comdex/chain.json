@@ -82,6 +82,9 @@
       },
       {
         "address": "https://comdex-rpc.bluestake.net:443"
+      },
+      {
+        "address": "https://comdex-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -126,6 +129,9 @@
       },
       {
         "address": "https://comdex-api.bluestake.net"
+      },
+      {
+        "address": "https://comdex-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -164,6 +170,9 @@
       },
       {
         "address": "https://grpc-comdex.blockval.io:443"
+      },
+      {
+        "address": "comdex-grpc.chainroot.io:443"
       }
     ]
   },
@@ -223,6 +232,12 @@
       "url": "https://mainnet.whispernode.com/comdex",
       "txPage": "https://mainnet.whispernode.com/comdex/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/comdex/account/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/comdex",
+      "txPage": "https://explorer.chainroot.io/comdex/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/comdex/accounts/${accountAddress}"
     }
   ],
   "images": [

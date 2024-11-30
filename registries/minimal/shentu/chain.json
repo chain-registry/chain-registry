@@ -59,6 +59,9 @@
       },
       {
         "address": "https://shentu-rpc.kleomedes.network"
+      },
+      {
+        "address": "https://shentu-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -91,6 +94,9 @@
       },
       {
         "address": "https://shentu-api.kleomedes.network"
+      },
+      {
+        "address": "https://shentu-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -117,6 +123,9 @@
       },
       {
         "address": "shentu-grpc.panthea.eu:16700"
+      },
+      {
+        "address": "shentu-grpc.chainroot.io:443"
       }
     ]
   },
@@ -171,6 +180,12 @@
       "kind": "Stakeflow",
       "url": "https://stakeflow.io/shentu",
       "accountPage": "https://stakeflow.io/shentu/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/shentu",
+      "txPage": "https://explorer.chainroot.io/shentu/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/shentu/accounts/${accountAddress}"
     }
   ],
   "images": [
