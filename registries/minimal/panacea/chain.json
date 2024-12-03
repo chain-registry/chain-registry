@@ -39,6 +39,9 @@
       },
       {
         "address": "https://panacea-rpc.staketab.org:443"
+      },
+      {
+        "address": "https://panacea_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -47,6 +50,9 @@
       },
       {
         "address": "https://panacea-rest.staketab.org"
+      },
+      {
+        "address": "https://panacea_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -72,6 +78,12 @@
       "kind": "bigdipper",
       "url": "https://explorer.gopanacea.org",
       "txPage": "https://explorer.gopanacea.org/transactions/${txHash}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/panacea",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/panacea/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/panacea/account/${accountAddress}"
     }
   ],
   "images": [

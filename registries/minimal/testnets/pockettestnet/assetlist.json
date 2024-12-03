@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "pockettestnet",
+  "assets": [
+    {
+      "description": "The native token of Pocket Network",
+      "denomUnits": [
+        {
+          "denom": "upokt",
+          "exponent": 0
+        },
+        {
+          "denom": "pokt",
+          "exponent": 6
+        }
+      ],
+      "base": "upokt",
+      "name": "POKT",
+      "display": "pokt",
+      "symbol": "POKT",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

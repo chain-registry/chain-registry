@@ -40,11 +40,17 @@
     "rpc": [
       {
         "address": "https://rpc.synternet.com/"
+      },
+      {
+        "address": "https://synternet_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
       {
         "address": "https://api.synternet.com/"
+      },
+      {
+        "address": "https://synternet_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ]
   },
@@ -59,6 +65,12 @@
       "url": "https://staking-explorer.com/explorer/synternet",
       "txPage": "https://staking-explorer.com/transaction.php?chain=synternet&tx=${txHash}",
       "accountPage": "https://staking-explorer.com/account.php?chain=synternet&addr=${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/synternet",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/synternet/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/synternet/account/${accountAddress}"
     }
   ],
   "images": [

@@ -1,0 +1,75 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "pockettestnet",
+  "networkType": "testnet",
+  "website": "https://www.pokt.network/",
+  "prettyName": "Pocket Beta TestNet",
+  "chainType": "cosmos",
+  "chainId": "pocket-beta",
+  "bech32Prefix": "pokt@",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "upokt",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.001,
+        "averageGasPrice": 0.002,
+        "highGasPrice": 0.0025
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "upokt"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.9"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
+  },
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pocket/images/pokt-icon.svg"
+    },
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/pocket/images/pokt-icon.png"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://shannon-testnet-grove-rpc.beta.poktroll.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://shannon-testnet-grove-api.beta.poktroll.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "🔍 POKTScan Explorer 🔎",
+      "url": "https://shannon-beta.poktscan.com/",
+      "txPage": "https://shannon-beta.poktscan.com/tx/${txHash}",
+      "accountPage": "https://shannon-beta.poktscan.com/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🗺 Shannon Explorer (stakenodes.org) 🗺",
+      "url": "https://shannon.beta.testnet.pokt.network/",
+      "txPage": "https://shannon.beta.testnet.pokt.network/poktroll/tx/${txHash}",
+      "accountPage": "https://shannon.beta.testnet.pokt.network/poktroll/account/${accountAddress}"
+    }
+  ]
+}
