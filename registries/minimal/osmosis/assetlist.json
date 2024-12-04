@@ -11832,6 +11832,35 @@
       ]
     },
     {
+      "description": "An alloy of XRP asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
+          "exponent": 0
+        },
+        {
+          "denom": "allXRP",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0",
+      "base": "factory/osmo1qnglc04tmhg32uc4kxlxh55a5cmhj88cpa3rmtly484xqu82t79sfv94w0/alloyed/allXRP",
+      "name": "Ripple",
+      "display": "allXRP",
+      "symbol": "XRP",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "xrpl",
+            "baseDenom": "drop"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
       "description": "The Original Meme Coin of SEI Network",
       "denomUnits": [
         {
