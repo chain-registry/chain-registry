@@ -40,7 +40,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-eu-1.kyve.network"
+        "address": "https://rpc.kyve.network"
       },
       {
         "address": "https://rpc-kyve.ecostake.com"
@@ -81,7 +81,7 @@
     ],
     "rest": [
       {
-        "address": "https://api-eu-1.kyve.network"
+        "address": "https://api.kyve.network"
       },
       {
         "address": "https://rest.lavenderfive.com:443/kyve"
@@ -198,6 +198,18 @@
       "url": "https://explorer.whenmoonwhenlambo.money/kyve",
       "txPage": "https://explorer.whenmoonwhenlambo.money/kyve/txs/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/kyve/account/${accountAddress}"
+    },
+    {
+      "kind": "KYVE Explorer",
+      "url": "https://explorer.kyve.network/kyve",
+      "txPage": "https://explorer.kyve.network/kyve/tx/${txHash}",
+      "accountPage": "https://explorer.kyve.network/kyve/account/${accountAddress}"
+    },
+    {
+      "kind": "Viewblock",
+      "url": "https://viewblock.io/kyve",
+      "txPage": "https://viewblock.io/kyve/tx/${txHash}",
+      "accountPage": "https://viewblock.io/kyve/address/${accountAddress}"
     }
   ],
   "images": [

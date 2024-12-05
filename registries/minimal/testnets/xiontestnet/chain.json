@@ -15,10 +15,10 @@
     "feeTokens": [
       {
         "denom": "uxion",
-        "fixedMinGasPrice": 0,
-        "lowGasPrice": 0,
-        "averageGasPrice": 0.025,
-        "highGasPrice": 0.04
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.001,
+        "averageGasPrice": 0.001,
+        "highGasPrice": 0.01
       }
     ]
   },
@@ -35,6 +35,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc.xion-testnet-1.burnt.com"
+      },
+      {
         "address": "https://testnet-burnt-rpc.lavenderfive.com"
       },
       {
@@ -46,6 +49,9 @@
     ],
     "rest": [
       {
+        "address": "https://api.xion-testnet-1.burnt.com"
+      },
+      {
         "address": "https://testnet-burnt-api.lavenderfive.com"
       },
       {
@@ -56,6 +62,9 @@
       }
     ],
     "grpc": [
+      {
+        "address": "grpc.xion-testnet-1.burnt.com:443"
+      },
       {
         "address": "testnet-burnt-grpc.lavenderfive.com:443"
       },
@@ -72,11 +81,6 @@
       "url": "https://explorer.burnt.com/xion-testnet-1",
       "txPage": "https://explorer.burnt.com/xion-testnet-1/tx/${txHash}",
       "accountPage": "https://explorer.burnt.com/xion-testnet-1/account/${accountAddress}"
-    },
-    {
-      "url": "https://testnet.xion.explorers.guru",
-      "txPage": "https://testnet.xion.explorers.guru/transaction/${txHash}",
-      "accountPage": "https://testnet.xion.explorers.guru/account/${accountAddress}"
     },
     {
       "kind": "ITRocket",

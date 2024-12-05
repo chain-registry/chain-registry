@@ -1,0 +1,31 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "xion",
+  "assets": [
+    {
+      "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.",
+      "denomUnits": [
+        {
+          "denom": "uxion",
+          "exponent": 0,
+          "aliases": [
+            "microxion"
+          ]
+        },
+        {
+          "denom": "XION",
+          "exponent": 6,
+          "aliases": [
+            "xion"
+          ]
+        }
+      ],
+      "base": "uxion",
+      "display": "XION",
+      "name": "xion",
+      "symbol": "XION",
+      "coingeckoId": "xion-2",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

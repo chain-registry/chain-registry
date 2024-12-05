@@ -35,9 +35,10 @@
   },
   "explorers": [
     {
-      "kind": "explorers.guru",
-      "url": "https://kyve.explorers.guru/",
-      "txPage": "https://kyve.explorers.guru/transaction/${txHash}"
+      "kind": "KYVE Explorer",
+      "url": "https://explorer.kyve.network/korellia",
+      "txPage": "https://explorer.kyve.network/korellia/tx/${txHash}",
+      "accountPage": "https://explorer.kyve.network/korellia/account/${accountAddress}"
     }
   ]
 }
