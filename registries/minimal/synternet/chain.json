@@ -43,6 +43,9 @@
       },
       {
         "address": "https://synternet_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://synternet-mainnet-rpc.autostake.com:443"
       }
     ],
     "rest": [
@@ -51,6 +54,9 @@
       },
       {
         "address": "https://synternet_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://synternet-mainnet-lcd.autostake.com:443"
       }
     ]
   },

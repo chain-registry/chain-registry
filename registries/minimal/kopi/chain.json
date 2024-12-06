@@ -1,0 +1,175 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "kopi",
+  "networkType": "mainnet",
+  "website": "https://app.kopi.money",
+  "prettyName": "Kopi",
+  "chainType": "cosmos",
+  "chainId": "luwak-1",
+  "bech32Prefix": "kopi",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ukopi",
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ukopi"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.kopi.money"
+      },
+      {
+        "address": "https://rpc.kopi.chaintools.tech"
+      },
+      {
+        "address": "https://kopi-rpc.cosmoscan.com"
+      },
+      {
+        "address": "https://kopi-rpc.stakerhouse.com"
+      },
+      {
+        "address": "https://kopi.rpc.moonbridge.team"
+      },
+      {
+        "address": "https://rpc-kopid.vinjan.xyz/"
+      },
+      {
+        "address": "https://kopi-mainnet-rpc.bonynode.online"
+      },
+      {
+        "address": "https://kopi-rpc.bluestake.net:443"
+      },
+      {
+        "address": "https://rpc-kopi.sychonix.com"
+      },
+      {
+        "address": "https://kopi-rpc.node9x.com/"
+      },
+      {
+        "address": "https://kopi.rpc.nodeshub.online/"
+      },
+      {
+        "address": "https://kopi-rpc.polkachu.com/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.kopi.money"
+      },
+      {
+        "address": "https://rpc.kopi.chaintools.tech"
+      },
+      {
+        "address": "https://kopi-rest.cosmoscan.com"
+      },
+      {
+        "address": "https://kopi-rest.stakerhouse.com"
+      },
+      {
+        "address": "https://kopi.api.moonbridge.team"
+      },
+      {
+        "address": "https://api-kopid.vinjan.xyz/"
+      },
+      {
+        "address": "https://kopi-mainnet-api.bonynode.online"
+      },
+      {
+        "address": "https://kopi-api.bluestake.net"
+      },
+      {
+        "address": "https://api-kopi.sychonix.com"
+      },
+      {
+        "address": "https://kopi.api.nodeshub.online/"
+      },
+      {
+        "address": "https://kopi-api.polkachu.com/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://kopi.grpc.nodeshub.online/"
+      },
+      {
+        "address": "kopi-mainnet-grpc.bonynode.online:443"
+      },
+      {
+        "address": "kopi-grpc.stakerhouse.com:443"
+      },
+      {
+        "address": "https://kopi.grpc.moonbridge.team"
+      },
+      {
+        "address": "kopi-grpc.node9x.com:443"
+      },
+      {
+        "address": "kopi-grpc.polkachu.com:27690"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Kopi Foundation Explorer",
+      "url": "https://explorer.kopi.money/",
+      "txPage": "https://explorer.kopi.money/luwak-1/tx/${txHash}",
+      "accountPage": "https://explorer.kopi.money/luwak-1/account/${accountAddress}"
+    },
+    {
+      "kind": "CzCryptoman Explorer",
+      "url": "https://explorer.czcryptoman.com/kopi-mainnet",
+      "txPage": "https://explorer.czcryptoman.com/kopi-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.czcryptoman.com/kopi-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "Sychonix Explorer",
+      "url": "https://explorer.sychonix.com/kopi-mainnet",
+      "txPage": "https://explorer.sychonix.com/kopi-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.sychonix.com/kopi-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "Nodeshub Explorer",
+      "url": "https://explorer.nodeshub.online/Kopi",
+      "txPage": "https://explorer.nodeshub.online/Kopi/txs/${txHash}",
+      "accountPage": "https://explorer.nodeshub.online/Kopi/account/${accountAddress}"
+    },
+    {
+      "kind": "Bony Explorer",
+      "url": "https://explorer.bonynode.online/kopi/",
+      "txPage": "https://explorer.bonynode.online/kopi/txs/${txHash}",
+      "accountPage": "https://explorer.bonynode.online/kopi/account/${accountAddress}"
+    },
+    {
+      "kind": "Moonbridge Explorer",
+      "url": "https://explorer.moonbridge.team/kopi/",
+      "txPage": "https://explorer.moonbridge.team/kopi/txs/${txHash}",
+      "accountPage": "https://explorer.moonbridge.team/kopi/account/${accountAddress}"
+    },
+    {
+      "kind": "Cosmoscan Explorer",
+      "url": "https://cosmoscan.com/kopi",
+      "txPage": "https://cosmoscan.com/kopi/txs/${txHash}",
+      "accountPage": "https://cosmoscan.com/kopi/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kopi/images/kopi.svg"
+    }
+  ]
+}

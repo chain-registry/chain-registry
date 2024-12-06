@@ -22,7 +22,7 @@
       "assetType": "sdk.coin"
     },
     {
-      "description": "PSTAKE Liquid-Staked ATOM",
+      "description": "(Deprecated) PSTAKE Liquid-Staked ATOM",
       "denomUnits": [
         {
           "denom": "stk/uatom",
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "description": "PSTAKE Liquid-Staked OSMO",
+      "description": "(Deprecated) PSTAKE Liquid-Staked OSMO",
       "denomUnits": [
         {
           "denom": "stk/uosmo",
@@ -279,7 +279,7 @@
       "assetType": "sdk.coin"
     },
     {
-      "description": "PSTAKE Liquid-Staked DYDX",
+      "description": "(Deprecated) PSTAKE Liquid-Staked DYDX",
       "denomUnits": [
         {
           "denom": "stk/adydx",
@@ -313,7 +313,7 @@
       "assetType": "sdk.coin"
     },
     {
-      "description": "PSTAKE Liquid-Staked STARS",
+      "description": "(Deprecated) PSTAKE Liquid-Staked STARS",
       "denomUnits": [
         {
           "denom": "stk/ustars",
@@ -418,7 +418,7 @@
       ]
     },
     {
-      "description": "PSTAKE Liquid-Staked HUAHUA",
+      "description": "(Deprecated) PSTAKE Liquid-Staked HUAHUA",
       "denomUnits": [
         {
           "denom": "stk/uhuahua",
@@ -486,7 +486,7 @@
       ]
     },
     {
-      "description": "PSTAKE Liquid-Staked XPRT",
+      "description": "(Deprecated) PSTAKE Liquid-Staked XPRT",
       "denomUnits": [
         {
           "denom": "stk/uxprt",

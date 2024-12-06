@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "aaronetwork",
+  "assets": [
+    {
+      "description": "Aaron Network is an innovative platform for secure and private messaging, integrated into the blockchain ecosystem. We also offer a unique address reputation scoring system, ensuring that every user can interact with others confidently.",
+      "denomUnits": [
+        {
+          "denom": "uaaron",
+          "exponent": 0
+        },
+        {
+          "denom": "AARON",
+          "exponent": 6
+        }
+      ],
+      "base": "uaaron",
+      "name": "Aaron Network",
+      "display": "AARON",
+      "symbol": "AARON",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

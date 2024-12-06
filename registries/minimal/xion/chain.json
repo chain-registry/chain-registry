@@ -45,6 +45,12 @@
       },
       {
         "address": "https://xion-rpc.polkachu.com"
+      },
+      {
+        "address": "https://xion-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://xion_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -59,6 +65,12 @@
       },
       {
         "address": "https://xion-api.polkachu.com"
+      },
+      {
+        "address": "https://xion-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://xion_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -70,6 +82,9 @@
       },
       {
         "address": "xion-grpc.polkachu.com:22390"
+      },
+      {
+        "address": "xion-mainnet-grpc.autostake.com:443"
       }
     ]
   },
@@ -78,6 +93,12 @@
       "url": "https://explorer.burnt.com/xion-mainnet-1",
       "txPage": "https://explorer.burnt.com/xion-mainnet-1/tx/${txHash}",
       "accountPage": "https://explorer.burnt.com/xion-mainnet-1/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/xion",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/xion/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/xion/account/${accountAddress}"
     }
   ],
   "images": [
