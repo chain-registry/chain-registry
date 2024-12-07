@@ -22,6 +22,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc-dungeon-1.seraphim.zone"
+      },
+      {
         "address": "https://rpc-dungeonchain.apeironnodes.com"
       },
       {
@@ -32,6 +35,9 @@
       }
     ],
     "rest": [
+      {
+        "address": "https://api-dungeon-1.seraphim.zone"
+      },
       {
         "address": "https://api-dungeonchain.apeironnodes.com"
       },

@@ -17426,7 +17426,8 @@
       "base": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice",
       "name": "Spice",
       "display": "Spice",
-      "symbol": "SPICE"
+      "symbol": "SPICE",
+      "coingeckoId": "spice-2"
     },
     {
       "description": "YUM is the Cacao Swap token, powering decentralised rails.",
