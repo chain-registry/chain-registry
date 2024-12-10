@@ -33,11 +33,17 @@
     "rpc": [
       {
         "address": "https://mainnet-rpc.aaronetwork.xyz"
+      },
+      {
+        "address": "https://aaronetwork_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
       {
         "address": "https://mainnet-api.aaronetwork.xyz"
+      },
+      {
+        "address": "https://aaronetwork_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ]
   },
@@ -47,6 +53,12 @@
       "url": "https://explorer.aaronetwork.xyz",
       "txPage": "https://explorer.aaronetwork.xyz/hash/${txHash}",
       "accountPage": "https://explorer.aaronetwork.xyz/address/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/aaronetwork",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/aaronetwork/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/aaronetwork/account/${accountAddress}"
     }
   ]
 }

@@ -48,6 +48,9 @@
       },
       {
         "address": "https://rpc.provider-state-sync-02.ics-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://cosmos-testnet-rpc.itrocket.net"
       }
     ],
     "rest": [
@@ -62,6 +65,9 @@
       },
       {
         "address": "https://rest.provider-state-sync-02.ics-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://cosmos-testnet-api.itrocket.net"
       }
     ],
     "grpc": [
@@ -76,6 +82,9 @@
       },
       {
         "address": "https://grpc.provider-state-sync-02.ics-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://cosmos-testnet-grpc.itrocket.net"
       }
     ]
   },
@@ -89,6 +98,15 @@
       "kind": "Ping.pub",
       "url": "https://explorer.polypore.xyz/provider",
       "txPage": "https://explorer.polypore.xyz/provider/tx/${txHash}"
+    },
+    {
+      "kind": "ITRocket",
+      "url": "https://testnet.itrocket.net/cosmos",
+      "txPage": "https://testnet.itrocket.net/cosmos/tx/${txHash}",
+      "accountPage": "https://testnet.itrocket.net/cosmos/account/${accountAddress}",
+      "validatorPage": "https://testnet.itrocket.net/cosmos/staking/${validatorAddress}",
+      "proposalPage": "https://testnet.itrocket.net/cosmos/gov/${proposalId}",
+      "blockPage": "https://testnet.itrocket.net/cosmos/block/${blockHeight}"
     }
   ]
 }

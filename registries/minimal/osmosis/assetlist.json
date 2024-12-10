@@ -6980,9 +6980,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/18FB5C09D9D2371F659D4846A956FA56225E377EE3C3652A2BF3542BF809159D",
-      "name": "Filecoin",
+      "name": "Filecoin (Axelar)",
       "display": "fil",
-      "symbol": "FIL",
+      "symbol": "FIL.axl",
       "traces": [
         {
           "type": "wrapped",
@@ -18003,6 +18003,35 @@
       "name": "Sherpa",
       "display": "Sherpa",
       "symbol": "SHERPA"
+    },
+    {
+      "description": "An alloy of FIL asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1ss0n3ghv5rr4z4y54fnkprc69tegmdm3ejlkgr2z4utnyg7eljgs9pztvs/alloyed/allFIL",
+          "exponent": 0
+        },
+        {
+          "denom": "allFIL",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1ss0n3ghv5rr4z4y54fnkprc69tegmdm3ejlkgr2z4utnyg7eljgs9pztvs",
+      "base": "factory/osmo1ss0n3ghv5rr4z4y54fnkprc69tegmdm3ejlkgr2z4utnyg7eljgs9pztvs/alloyed/allFIL",
+      "name": "Filecoin",
+      "display": "allFIL",
+      "symbol": "FIL",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "filecoin",
+            "baseDenom": "attoFIL"
+          },
+          "provider": "Osmosis"
+        }
+      ]
     }
   ]
 }
