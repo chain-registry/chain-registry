@@ -5,7 +5,7 @@
   "chainId": "int3face-1",
   "prettyName": "Int3face",
   "networkType": "mainnet",
-  "website": "https://int3face.io/",
+  "website": "https://int3face.zone/",
   "bech32Prefix": "int3",
   "keyAlgos": [
     "secp256k1"
@@ -47,6 +47,13 @@
         "lowGasPrice": 0.001,
         "averageGasPrice": 0.0025,
         "highGasPrice": 0.004
+      },
+      {
+        "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
+        "fixedMinGasPrice": 0.0001,
+        "lowGasPrice": 0.0001,
+        "averageGasPrice": 0.00025,
+        "highGasPrice": 0.0004
       }
     ]
   },

@@ -131,6 +131,34 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "TON on Int3face",
+      "denomUnits": [
+        {
+          "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
+          "exponent": 0
+        },
+        {
+          "denom": "ton",
+          "exponent": 9
+        }
+      ],
+      "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
+      "name": "TON",
+      "display": "ton",
+      "symbol": "TON",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ton",
+            "baseDenom": "nanoton"
+          },
+          "provider": "Int3face"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }
