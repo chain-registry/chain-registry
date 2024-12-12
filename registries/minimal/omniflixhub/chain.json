@@ -42,7 +42,7 @@
         "address": "https://omniflix-rpc.kingnodes.com"
       },
       {
-        "address": "https://rpc.omniflix.nodestake.top"
+        "address": "https://rpc.omniflix.nodestake.org"
       },
       {
         "address": "https://rpc.omniflix.chaintools.tech/"
@@ -89,7 +89,7 @@
     ],
     "rest": [
       {
-        "address": "https://api.omniflix.nodestake.top"
+        "address": "https://api.omniflix.nodestake.org"
       },
       {
         "address": "https://api-omniflixhub-ia.cosmosia.notional.ventures/"
@@ -139,7 +139,7 @@
         "address": "https://omniflix-grpc.kingnodes.com:443"
       },
       {
-        "address": "grpc.omniflix.nodestake.top:443"
+        "address": "grpc.omniflix.nodestake.org:443"
       },
       {
         "address": "grpc-omniflixhub-ia.cosmosia.notional.ventures:443"

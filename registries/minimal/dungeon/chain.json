@@ -22,6 +22,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://dungeon.rpc.quasarstaking.ai"
+      },
+      {
         "address": "https://rpc-dungeon-1.seraphim.zone"
       },
       {
@@ -36,6 +39,9 @@
     ],
     "rest": [
       {
+        "address": "https://dungeon.api.quasarstaking.ai"
+      },
+      {
         "address": "https://api-dungeon-1.seraphim.zone"
       },
       {
@@ -46,6 +52,11 @@
       },
       {
         "address": "https://dungeon_mainnet_api.chain.whenmoonwhenlambo.money"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "dungeon.grpc.quasarstaking.ai"
       }
     ]
   },

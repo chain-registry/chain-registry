@@ -38,6 +38,9 @@
       },
       {
         "address": "https://stratos-rpc.noders.services:443"
+      },
+      {
+        "address": "https://rpc.stratos.nodestake.org"
       }
     ],
     "rest": [
@@ -46,6 +49,9 @@
       },
       {
         "address": "https://stratos-api.noders.services:443"
+      },
+      {
+        "address": "https://api.stratos.nodestake.org"
       }
     ],
     "grpc": [
@@ -53,7 +59,7 @@
         "address": "https://grpc.thestratos.org"
       },
       {
-        "address": "https://grpc.stratos.nodestake.top"
+        "address": "https://grpc.stratos.nodestake.org"
       },
       {
         "address": "stratos.grpc.nodersteam.com:9090"
@@ -67,7 +73,7 @@
         "address": "https://web3-rpc.thestratos.org"
       },
       {
-        "address": "https://jsonrpc.stratos.nodestake.top"
+        "address": "https://jsonrpc.stratos.nodestake.org"
       },
       {
         "address": "https://stratos-jsonrpc.noders.services"
@@ -89,9 +95,9 @@
     },
     {
       "kind": "NodeStake",
-      "url": "https://explorer.nodestake.top/stratos",
-      "txPage": "https://explorer.nodestake.top/stratos/tx/${txHash}",
-      "accountPage": "https://explorer.nodestake.top/stratos/accounts/${accountAddress}"
+      "url": "https://explorer.nodestake.org/stratos",
+      "txPage": "https://explorer.nodestake.org/stratos/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/stratos/accounts/${accountAddress}"
     },
     {
       "kind": "staking-explorer.com",

@@ -102,7 +102,7 @@
         "address": "https://cosmos-rpc.easy2stake.com/"
       },
       {
-        "address": "https://rpc.cosmos.nodestake.top"
+        "address": "https://rpc.cosmos.nodestake.org"
       },
       {
         "address": "https://cosmos.rpc.silknodes.io"
@@ -206,7 +206,7 @@
         "address": "https://cosmos-lcd.easy2stake.com"
       },
       {
-        "address": "https://api.cosmos.nodestake.top"
+        "address": "https://api.cosmos.nodestake.org"
       },
       {
         "address": "https://cosmos.api.silknodes.io"
@@ -283,7 +283,7 @@
         "address": "cosmoshub.grpc.stakin-nodes.com:443"
       },
       {
-        "address": "https://grpc.cosmos.nodestake.top"
+        "address": "https://grpc.cosmos.nodestake.org"
       },
       {
         "address": "cosmos-grpc.publicnode.com:443"
@@ -419,6 +419,15 @@
       "validatorPage": "https://mainnet.itrocket.net/cosmoshub/staking/${validatorAddress}",
       "proposalPage": "https://mainnet.itrocket.net/cosmoshub/gov/${proposalId}",
       "blockPage": "https://mainnet.itrocket.net/cosmoshub/block/${blockHeight}"
+    },
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.org/cosmos",
+      "txPage": "https://explorer.nodestake.org/cosmos/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/cosmos/account/${accountAddress}",
+      "validatorPage": "https://explorer.nodestake.org/cosmos/staking/${validatorAddress}",
+      "proposalPage": "https://explorer.nodestake.org/cosmos/gov/${proposalId}",
+      "blockPage": "https://explorer.nodestake.org/cosmos/block/${blockHeight}"
     }
   ],
   "images": [

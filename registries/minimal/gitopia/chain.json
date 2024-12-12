@@ -56,7 +56,7 @@
         "address": "https://rpc.lavenderfive.com:443/gitopia"
       },
       {
-        "address": "https://rpc.gitopia.nodestake.top:443"
+        "address": "https://rpc.gitopia.nodestake.org:443"
       },
       {
         "address": "https://gitopia-rpc.staketab.org:443"
@@ -145,7 +145,7 @@
         "address": "https://rest.lavenderfive.com:443/gitopia"
       },
       {
-        "address": "https://api.gitopia.nodestake.top:443"
+        "address": "https://api.gitopia.nodestake.org:443"
       },
       {
         "address": "https://gitopia-rest.staketab.org"
@@ -246,7 +246,7 @@
         "address": "gitopia.lavenderfive.com:443"
       },
       {
-        "address": "https://grpc.gitopia.nodestake.top:443"
+        "address": "https://grpc.gitopia.nodestake.org:443"
       },
       {
         "address": "https://grpc-gitopia.nodeist.net"
@@ -373,9 +373,9 @@
     },
     {
       "kind": "NodeStake",
-      "url": "https://explorer.nodestake.top/gitopia",
-      "txPage": "https://explorer.nodestake.top/gitopia/tx/${txHash}",
-      "accountPage": "https://explorer.nodestake.top/gitopia/account/${accountAddress}"
+      "url": "https://explorer.nodestake.org/gitopia",
+      "txPage": "https://explorer.nodestake.org/gitopia/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/gitopia/account/${accountAddress}"
     },
     {
       "kind": "Roomit",

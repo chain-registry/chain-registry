@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "nois",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://nois.network",
   "prettyName": "Nois",

@@ -93,7 +93,7 @@
         "address": "https://rpc-neutron.cosmos-spaces.cloud"
       },
       {
-        "address": "http://rpc.neutron.nodestake.top"
+        "address": "http://rpc.neutron.nodestake.org"
       },
       {
         "address": "https://neutron-rpc.publicnode.com:443"
@@ -125,7 +125,7 @@
         "address": "https://api-neutron.cosmos-spaces.cloud"
       },
       {
-        "address": "http://api.neutron.nodestake.top"
+        "address": "http://api.neutron.nodestake.org"
       },
       {
         "address": "https://neutron-rest.publicnode.com"
@@ -157,7 +157,7 @@
         "address": "grpc-neutron.cosmos-spaces.cloud:3090"
       },
       {
-        "address": "grpc.neutron.nodestake.top:9090"
+        "address": "grpc.neutron.nodestake.org:443"
       },
       {
         "address": "neutron-grpc.publicnode.com:443"

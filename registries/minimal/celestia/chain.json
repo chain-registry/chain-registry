@@ -50,7 +50,7 @@
         "address": "https://rpc.lunaroasis.net"
       },
       {
-        "address": "https://rpc.celestia.nodestake.top"
+        "address": "https://rpc.celestia.nodestake.org"
       },
       {
         "address": "https://rpc.lavenderfive.com:443/celestia"
@@ -142,7 +142,7 @@
         "address": "https://api.lunaroasis.net"
       },
       {
-        "address": "https://api.celestia.nodestake.top"
+        "address": "https://api.celestia.nodestake.org"
       },
       {
         "address": "https://rest.lavenderfive.com:443/celestia"
@@ -210,7 +210,7 @@
     ],
     "grpc": [
       {
-        "address": "https://grpc.celestia.nodestake.top"
+        "address": "https://grpc.celestia.nodestake.org"
       },
       {
         "address": "celestia-mainnet-grpc.autostake.com:443"
@@ -292,9 +292,9 @@
     },
     {
       "kind": "NodeStake",
-      "url": "https://explorer.nodestake.top/celestia/",
-      "txPage": "https://explorer.nodestake.top/celestia/txs/${txHash}",
-      "accountPage": "https://explorer.nodestake.top/celestia/account/${accountAddress}"
+      "url": "https://explorer.nodestake.org/celestia/",
+      "txPage": "https://explorer.nodestake.org/celestia/txs/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/celestia/account/${accountAddress}"
     },
     {
       "kind": "Stakeflow",

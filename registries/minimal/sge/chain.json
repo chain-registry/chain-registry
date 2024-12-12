@@ -45,7 +45,7 @@
         "address": "https://sge-rpc.polkachu.com/"
       },
       {
-        "address": "https://rpc.sge.nodestake.top/"
+        "address": "https://rpc.sge.nodestake.org/"
       },
       {
         "address": "https://rpc.sge.roomit.xyz/"
@@ -89,7 +89,7 @@
         "address": "https://sge-api.polkachu.com/"
       },
       {
-        "address": "https://api.sge.nodestake.top/"
+        "address": "https://api.sge.nodestake.org"
       },
       {
         "address": "https://api-sge.nodeist.net/"
@@ -130,7 +130,7 @@
         "address": "sge.lavenderfive.com:443"
       },
       {
-        "address": "https://grpc.sge.nodestake.top/"
+        "address": "https://grpc.sge.nodestake.org:443"
       },
       {
         "address": "https://grpc-sge.nodeist.net/"
@@ -165,9 +165,9 @@
       "txPage": "https://blockexplorer.sgenetwork.io/sge/tx/${txHash}"
     },
     {
-      "kind": "nodestake.top",
-      "url": "https://explorer.nodestake.top/sge",
-      "txPage": "https://explorer.nodestake.top/sge/tx/${txHash}"
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.org/sge",
+      "txPage": "https://explorer.nodestake.org/sge/tx/${txHash}"
     },
     {
       "kind": "stakerhouse",

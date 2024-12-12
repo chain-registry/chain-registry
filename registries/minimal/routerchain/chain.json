@@ -59,6 +59,9 @@
       },
       {
         "address": "https://routerchain_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://rpc.router.nodestake.org"
       }
     ],
     "rest": [
@@ -76,6 +79,9 @@
       },
       {
         "address": "https://routerchain_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://api.router.nodestake.org"
       }
     ],
     "grpc": [
@@ -90,6 +96,9 @@
       },
       {
         "address": "router-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "grpc.router.nodestake.org:443"
       }
     ],
     "evmHttpJsonrpc": [

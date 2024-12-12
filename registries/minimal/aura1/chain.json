@@ -157,9 +157,6 @@
         "address": "auranetwork-mainnet-grpc.autostake.com:443"
       },
       {
-        "address": "https://grpc.aura.nodestake.top"
-      },
-      {
         "address": "aura.mainnet.grpc.nodersteam.com:9100/"
       },
       {
@@ -224,9 +221,9 @@
     },
     {
       "kind": "NodeStake Explorer",
-      "url": "https://explorer.nodestake.top/aura",
-      "txPage": "https://explorer.nodestake.top/aura/tx/${txHash}",
-      "accountPage": "https://explorer.nodestake.top/aura/account/${accountAddress}"
+      "url": "https://explorer.nodestake.org/aura",
+      "txPage": "https://explorer.nodestake.org/aura/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/aura/account/${accountAddress}"
     },
     {
       "kind": "TC Network",

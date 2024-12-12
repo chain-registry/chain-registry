@@ -38,7 +38,7 @@
         "address": "https://assetmantle-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc.assetmantle.nodestake.top"
+        "address": "https://rpc.assetmantle.nodestake.org"
       },
       {
         "address": "https://rpc-assetmantle-ia.cosmosia.notional.ventures/"
@@ -58,7 +58,7 @@
         "address": "https://rest.assetmantle.one"
       },
       {
-        "address": "https://api.assetmantle.nodestake.top"
+        "address": "https://api.assetmantle.nodestake.org"
       },
       {
         "address": "https://api-assetmantle-ia.cosmosia.notional.ventures"
@@ -78,7 +78,7 @@
     ],
     "grpc": [
       {
-        "address": "grpc.assetmantle.nodestake.top:443"
+        "address": "grpc.assetmantle.nodestake.org:443"
       },
       {
         "address": "grpc-assetmantle-ia.cosmosia.notional.ventures:443"

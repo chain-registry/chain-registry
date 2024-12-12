@@ -67,9 +67,6 @@
         "address": "https://rpc-archway.cryptech.com.ua"
       },
       {
-        "address": "https://rpc.archway.nodestake.top"
-      },
-      {
         "address": "https://rpc-archway.theamsolutions.info"
       },
       {
@@ -150,9 +147,6 @@
         "address": "https://api-archway.cryptech.com.ua"
       },
       {
-        "address": "https://api.archway.nodestake.top"
-      },
-      {
         "address": "https://rest-archway.theamsolutions.info"
       },
       {
@@ -216,9 +210,6 @@
       },
       {
         "address": "https://grpc-archway.cryptech.com.ua"
-      },
-      {
-        "address": "https://grpc.archway.nodestake.top:443"
       },
       {
         "address": "grpc-archway.theamsolutions.info:443"
@@ -309,9 +300,9 @@
     },
     {
       "kind": "NodeStake Explorer",
-      "url": "https://explorer.nodestake.top/archway/",
-      "txPage": "https://explorer.nodestake.top/archway/txs/${txHash}",
-      "accountPage": "https://explorer.nodestake.top/archway/account/${accountAddress}"
+      "url": "https://explorer.nodestake.org/archway/",
+      "txPage": "https://explorer.nodestake.org/archway/txs/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/archway/account/${accountAddress}"
     },
     {
       "kind": "Exploreme",

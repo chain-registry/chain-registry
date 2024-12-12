@@ -49,6 +49,12 @@
       },
       {
         "address": "https://selfchain-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://rpc.selfchain.nodestake.org"
+      },
+      {
+        "address": "https://selfchain.rpc.m.stavr.tech:443"
       }
     ],
     "rest": [
@@ -72,6 +78,9 @@
       },
       {
         "address": "https://selfchain-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://api.selfchain.nodestake.org"
       }
     ],
     "grpc": [
@@ -86,6 +95,9 @@
       },
       {
         "address": "selfchain-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "https://grpc.selfchain.nodestake.org:443"
       }
     ]
   },

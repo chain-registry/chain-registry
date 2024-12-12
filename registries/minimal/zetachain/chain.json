@@ -58,6 +58,9 @@
       },
       {
         "address": "https://zeta-chain.drpc.org"
+      },
+      {
+        "address": "https://zeta.rpc.m.stavr.tech:443"
       }
     ],
     "rest": [
@@ -78,6 +81,9 @@
       },
       {
         "address": "https://zetachain.api.nodeshub.online:443"
+      },
+      {
+        "address": "https://zeta.api.m.stavr.tech"
       }
     ],
     "grpc": [
@@ -92,6 +98,9 @@
       },
       {
         "address": "https://zetachain.grpc.nodeshub.online"
+      },
+      {
+        "address": "zeta.grpc.m.stavr.tech"
       }
     ]
   },
@@ -122,6 +131,12 @@
       "url": "https://explorer.nodeshub.online/zetachain/",
       "txPage": "https://explorer.nodeshub.online/zetachain/tx/${txHash}",
       "accountPage": "https://explorer.nodeshub.online/zetachain/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Zetachain-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Zetachain-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Zetachain-Mainnet/accounts/${accountAddress}"
     }
   ]
 }

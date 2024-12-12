@@ -53,6 +53,9 @@
       },
       {
         "address": "https://xpla-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://xpla.rpc.m.stavr.tech:443"
       }
     ],
     "rest": [
@@ -70,11 +73,17 @@
       },
       {
         "address": "https://xpla-rest.publicnode.com"
+      },
+      {
+        "address": "https://xpla.api.m.stavr.tech"
       }
     ],
     "grpc": [
       {
         "address": "xpla-grpc.publicnode.com:443"
+      },
+      {
+        "address": "xpla.grpc.m.stavr.tech:112"
       }
     ],
     "evmHttpJsonrpc": [
@@ -119,6 +128,12 @@
       "url": "https://ezstaking.app/xpla",
       "txPage": "https://ezstaking.app/xpla/txs/${txHash}",
       "accountPage": "https://ezstaking.app/xpla/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Xpla-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Xpla-Mainnet/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Xpla-Mainnet/account/${accountAddress}"
     }
   ],
   "images": [

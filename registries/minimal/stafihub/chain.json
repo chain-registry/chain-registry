@@ -47,7 +47,7 @@
         "address": "https://public-rpc2.stafihub.io:443"
       },
       {
-        "address": "https://rpc.stafihub.nodestake.top:443"
+        "address": "https://rpc.stafihub.nodestake.org:443"
       }
     ],
     "rest": [
@@ -58,7 +58,7 @@
         "address": "https://public-rest-rpc2.stafihub.io"
       },
       {
-        "address": "https://api.stafihub.nodestake.top"
+        "address": "https://api.stafihub.nodestake.org"
       }
     ],
     "grpc": [
@@ -69,7 +69,7 @@
         "address": "public-grpc-rpc2.stafihub.io:443"
       },
       {
-        "address": "grpc.stafihub.nodestake.top:443"
+        "address": "grpc.stafihub.nodestake.org:443"
       },
       {
         "address": "stafihub.nodejumper.io:9090"

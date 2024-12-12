@@ -42,9 +42,6 @@
     "rpc": [
       {
         "address": "https://rpc.8ball.info/"
-      },
-      {
-        "address": "https://rpc.8ball.nodestake.top"
       }
     ],
     "rest": [
@@ -52,16 +49,10 @@
         "address": "https://rest.8ball.info"
       },
       {
-        "address": "https://api.8ball.nodestake.top"
-      },
-      {
         "address": "https://api-8ball.nodine.id/"
       }
     ],
     "grpc": [
-      {
-        "address": "grpc.8ball.nodestake.top:443"
-      },
       {
         "address": "https://grpc.8ball.nodexcapital.com:443"
       }
@@ -76,11 +67,6 @@
       "kind": "ping.pub",
       "url": "https://ping.pub/8ball",
       "txPage": "https://ping.pub/8ball/tx/${txHash}"
-    },
-    {
-      "kind": "NodeStake Explorer",
-      "url": "https://explorer.nodestake.top/8ball/",
-      "txPage": "https://explorer.nodestake.top/8ball/tx/${txHash}"
     },
     {
       "kind": "TC Network",

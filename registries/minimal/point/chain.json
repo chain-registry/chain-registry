@@ -33,7 +33,7 @@
         "address": "https://rpc-mainnet-1.point.space:26657"
       },
       {
-        "address": "https://rpc.point.nodestake.top"
+        "address": "https://rpc.point.nodestake.org"
       },
       {
         "address": "https://point.rpc.m.stavr.tech:443"
@@ -50,7 +50,7 @@
         "address": "https://point.api.m.stavr.tech"
       },
       {
-        "address": "https://api.point.nodestake.top"
+        "address": "https://api.point.nodestake.org"
       },
       {
         "address": "https://api.point.indonode.net"
@@ -58,7 +58,7 @@
     ],
     "grpc": [
       {
-        "address": "grpc.point.nodestake.top:443"
+        "address": "grpc.point.nodestake.org:443"
       },
       {
         "address": "point.grpc.m.stavr.tech:2050"
@@ -75,7 +75,7 @@
         "address": "https://rpc-mainnet-1.point.space"
       },
       {
-        "address": "https://jsonrpc.point.nodestake.top"
+        "address": "https://jsonrpc.point.nodestake.org"
       }
     ]
   },
