@@ -33,7 +33,7 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.45.16"
+      "version": "v0.50.10"
     }
   },
   "apis": {
@@ -135,12 +135,6 @@
       "url": "https://atomscan.com/ixo",
       "txPage": "https://atomscan.com/ixo/transactions/${txHash}",
       "accountPage": "https://atomscan.com/ixo/accounts/${accountAddress}"
-    },
-    {
-      "kind": "Mintscan",
-      "url": "https://www.mintscan.io/ixo",
-      "txPage": "https://www.mintscan.io/ixo/transactions/${txHash}",
-      "accountPage": "https://www.mintscan.io/ixo/accounts/${accountAddress}"
     },
     {
       "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",

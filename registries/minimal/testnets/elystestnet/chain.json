@@ -84,8 +84,9 @@
   "explorers": [
     {
       "kind": "ping.pub",
-      "url": "https://testnet.elys.network/elys",
-      "txPage": "https://testnet.elys.network/elys/tx/${txHash}"
+      "url": "https://testnet.ping.pub/elys",
+      "txPage": "https://testnet.ping.pub/elys/tx/${txHash}",
+      "accountPage": "https://testnet.ping.pub/elys/account/${accountAddress}"
     },
     {
       "kind": "itrocket",

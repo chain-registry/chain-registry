@@ -86,6 +86,24 @@
       ]
     },
     {
+      "description": "AXV",
+      "denomUnits": [
+        {
+          "denom": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
+          "exponent": 0
+        },
+        {
+          "denom": "AXV",
+          "exponent": 6
+        }
+      ],
+      "base": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
+      "name": "AXV",
+      "display": "AXV",
+      "symbol": "AXV",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "uoprek",
       "denomUnits": [
         {

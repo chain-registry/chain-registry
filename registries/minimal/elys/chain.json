@@ -1,0 +1,136 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "elys",
+  "networkType": "mainnet",
+  "prettyName": "Elys Network",
+  "chainType": "cosmos",
+  "chainId": "elys-1",
+  "bech32Prefix": "elys",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uelys"
+      }
+    ],
+    "lockDuration": {
+      "time": "1209600s"
+    }
+  },
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uelys",
+        "fixedMinGasPrice": 0.01,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      },
+      {
+        "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+        "fixedMinGasPrice": 0.01,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      },
+      {
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "fixedMinGasPrice": 0.01,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.9"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.elys.network:443"
+      },
+      {
+        "address": "https://elys-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://elys-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://elys-mainnet-rpc.itrocket.net:443"
+      },
+      {
+        "address": "https://rpc.elys.nodestake.org:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.elys.network"
+      },
+      {
+        "address": "https://elys-api.polkachu.com"
+      },
+      {
+        "address": "https://elys-rest.publicnode.com"
+      },
+      {
+        "address": "https://elys-mainnet-api.itrocket.net"
+      },
+      {
+        "address": "https://api.elys.nodestake.org"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "elys-grpc.polkachu.com:22090"
+      },
+      {
+        "address": "elys-testnet-grpc.itrocket.net:38090"
+      },
+      {
+        "address": "elys-grpc.publicnode.com:443"
+      },
+      {
+        "address": "elys-mainnet-grpc.itrocket.net:443"
+      },
+      {
+        "address": "grpc.elys.nodestake.org:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.org/elys",
+      "txPage": "https://explorer.nodestake.org/elys/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/elys/account/${accountAddress}"
+    },
+    {
+      "kind": "Moonlet",
+      "url": "https://explorer.moonlet.cloud/elys",
+      "txPage": "https://explorer.moonlet.cloud/elys/tx/${txHash}",
+      "accountPage": "https://explorer.moonlet.cloud/elys/account/${accountAddress}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/elys",
+      "txPage": "https://ping.pub/elys/tx/${txHash}",
+      "accountPage": "https://ping.pub/elys/account/${accountAddress}"
+    },
+    {
+      "kind": "itrocket",
+      "url": "https://mainnet.itrocket.net/elys",
+      "txPage": "https://mainnet.itrocket.net/elys/staking/tx/${txHash}",
+      "accountPage": "https://mainnet.itrocket.net/elys/account/${accountAddress}"
+    }
+  ]
+}
