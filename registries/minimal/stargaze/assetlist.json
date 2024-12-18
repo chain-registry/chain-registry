@@ -383,39 +383,39 @@
       "assetType": "sdk.coin"
     },
     {
-      "description": "Bonded GopLend STARS",
+      "description": "OLD Bonded GopLend STARS",
       "denomUnits": [
         {
           "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglSTARS",
           "exponent": 0
         },
         {
-          "denom": "bglSTARS",
+          "denom": "OLDbglSTARS",
           "exponent": 6
         }
       ],
       "base": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglSTARS",
-      "name": "bglSTARS",
-      "display": "bglSTARS",
-      "symbol": "bglSTARS",
+      "name": "OLDbglSTARS",
+      "display": "OLDbglSTARS",
+      "symbol": "OLDbglSTARS",
       "assetType": "sdk.coin"
     },
     {
-      "description": "Bonded GopLend USDC",
+      "description": "OLD Bonded GopLend USDC",
       "denomUnits": [
         {
           "denom": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
           "exponent": 0
         },
         {
-          "denom": "bglUSDC",
+          "denom": "OLDbglUSDC",
           "exponent": 6
         }
       ],
       "base": "factory/stars1ur79p98rmpn456esgzjernaxy7v25mlwqsv8uhymzxahfw77427syk2h9j/bglUSDC",
-      "name": "bglUSDC",
-      "display": "bglUSDC",
-      "symbol": "bglUSDC",
+      "name": "OLDbglUSDC",
+      "display": "OLDbglUSDC",
+      "symbol": "OLDbglUSDC",
       "assetType": "sdk.coin"
     },
     {

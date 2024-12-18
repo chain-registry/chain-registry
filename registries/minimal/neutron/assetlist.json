@@ -1091,6 +1091,42 @@
       "display": "JSD",
       "symbol": "JSD",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Boost DAO FUEL",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron1zl2htquajn50vxu5ltz0y5hf2qzvkgnjaaza2rssef268xplq6vsjuruxm/fuel",
+          "exponent": 0
+        },
+        {
+          "denom": "FUEL",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron1zl2htquajn50vxu5ltz0y5hf2qzvkgnjaaza2rssef268xplq6vsjuruxm/fuel",
+      "name": "FUEL",
+      "display": "FUEL",
+      "symbol": "FUEL",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Bonded GopLend USDC",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron16ue9kysgneyqktmjxdfshajgvlrcx9rehxz8x9th7g8fgtnlxwuqvg9mgp/bglUSDC",
+          "exponent": 0
+        },
+        {
+          "denom": "bglUSDC",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron16ue9kysgneyqktmjxdfshajgvlrcx9rehxz8x9th7g8fgtnlxwuqvg9mgp/bglUSDC",
+      "name": "bglUSDC",
+      "display": "bglUSDC",
+      "symbol": "bglUSDC",
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -33,17 +33,17 @@
     }
   },
   "codebase": {
+    "cosmwasm": {
+      "version": "0.53.0",
+      "repo": "https://github.com/CosmWasm/wasmd",
+      "tag": "v0.53.0",
+      "enabled": true
+    },
     "sdk": {
       "type": "cosmos",
+      "version": "0.50.10",
       "repo": "https://github.com/osmosis-labs/cosmos-sdk",
-      "version": "v0.47.5",
-      "tag": "v0.47.5-v25-osmo-1"
-    },
-    "cosmwasm": {
-      "version": "v0.45.0",
-      "repo": "https://github.com/osmosis-labs/wasmd",
-      "tag": "v0.45.0-osmo",
-      "enabled": true
+      "tag": "v0.50.10-v27-osmo-1"
     }
   },
   "images": [

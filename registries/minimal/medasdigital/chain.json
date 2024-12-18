@@ -35,11 +35,17 @@
     "rpc": [
       {
         "address": "https://rpc.medas-digital.io:26657/"
+      },
+      {
+        "address": "https://medasdigital_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
       {
         "address": "https://lcd.medas-digital.io:1317/"
+      },
+      {
+        "address": "https://medasdigital_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -60,6 +66,12 @@
       "url": "https://atomscan.com/frontier/medasdigital",
       "txPage": "https://atomscan.com/frontier/medasdigital/transactions/${txHash}",
       "accountPage": "https://atomscan.com/frontier/medasdigital/accounts/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/medasdigital",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/medasdigital/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/medasdigital/account/${accountAddress}"
     }
   ],
   "images": [

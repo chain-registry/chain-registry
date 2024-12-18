@@ -70,6 +70,12 @@
       },
       {
         "address": "https://rpc.elys.nodestake.org:443"
+      },
+      {
+        "address": "https://elys.rpc.liveraven.net:443"
+      },
+      {
+        "address": "https://community.nuxian-node.ch:6797/elys/trpc"
       }
     ],
     "rest": [
@@ -87,6 +93,12 @@
       },
       {
         "address": "https://api.elys.nodestake.org"
+      },
+      {
+        "address": "https://elys.api.liveraven.net"
+      },
+      {
+        "address": "https://community.nuxian-node.ch:6797/elys/crpc"
       }
     ],
     "grpc": [
@@ -104,6 +116,9 @@
       },
       {
         "address": "grpc.elys.nodestake.org:443"
+      },
+      {
+        "address": "elys.grpc.liveraven.net:443"
       }
     ]
   },

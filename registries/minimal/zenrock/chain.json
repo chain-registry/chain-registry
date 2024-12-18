@@ -1,11 +1,11 @@
 {
-  "$schema": "../../chain.schema.json",
-  "chainName": "zenrocktestnet",
+  "$schema": "../chain.schema.json",
+  "chainName": "zenrock",
   "website": "https://zenrocklabs.io",
-  "networkType": "testnet",
+  "networkType": "mainnet",
   "chainType": "cosmos",
-  "prettyName": "Zenrock Testnet",
-  "chainId": "gardia-2",
+  "prettyName": "Zenrock Mainnet",
+  "chainId": "diamond-1",
   "bech32Prefix": "zen",
   "keyAlgos": [
     "secp256k1"
@@ -43,32 +43,24 @@
   },
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zenrocktestnet/images/zenrock.png"
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zenrock/images/zenrock.png"
     }
   ],
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.gardia.zenrocklabs.io/"
+        "address": "https://rpc.diamond.zenrocklabs.io/"
       }
     ],
     "rest": [
       {
-        "address": "https://api.gardia.zenrocklabs.io/"
+        "address": "https://api.diamond.zenrocklabs.io/"
       }
     ],
     "grpc": [
       {
-        "address": "https://grpc.gardia.zenrocklabs.io/"
+        "address": "https://grpc.diamond.zenrocklabs.io/"
       }
     ]
-  },
-  "explorers": [
-    {
-      "kind": "Big Dipper",
-      "url": "https://explorer.gardia.zenrocklabs.io/",
-      "txPage": "https://explorer.gardia.zenrocklabs.io/tx/${txHash}",
-      "accountPage": "https://explorer.gardia.zenrocklabs.io/account/${accountAddress}"
-    }
-  ]
+  }
 }

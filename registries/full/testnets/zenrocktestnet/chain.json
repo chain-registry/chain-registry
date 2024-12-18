@@ -7,7 +7,7 @@
   "chainType": "cosmos",
   "prettyName": "Zenrock Testnet",
   "chainId": "gardia-2",
-  "bech32Prefix": "rock",
+  "bech32Prefix": "zen",
   "daemonName": "zenrockd",
   "nodeHome": "$HOME/.zenrockd",
   "keyAlgos": [

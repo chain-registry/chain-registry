@@ -1,6 +1,6 @@
 {
-  "$schema": "../../assetlist.schema.json",
-  "chainName": "zenrocktestnet",
+  "$schema": "../assetlist.schema.json",
+  "chainName": "zenrock",
   "assets": [
     {
       "description": "The native token of zenrock",
@@ -37,7 +37,7 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zenrock/images/zenrock.svg"
         }
       ],
-      "typeAsset": "sdk.coin"
+      "assetType": "sdk.coin"
     }
   ]
 }

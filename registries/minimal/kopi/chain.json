@@ -65,6 +65,9 @@
       },
       {
         "address": "https://kopi-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://rpc.kopi.nodestake.org"
       }
     ],
     "rest": [
@@ -100,6 +103,9 @@
       },
       {
         "address": "https://kopi-api.polkachu.com/"
+      },
+      {
+        "address": "https://api.kopi.nodestake.org"
       }
     ],
     "grpc": [
@@ -120,6 +126,9 @@
       },
       {
         "address": "kopi-grpc.polkachu.com:27690"
+      },
+      {
+        "address": "https://grpc.kopi.nodestake.org:443"
       }
     ]
   },
@@ -165,6 +174,12 @@
       "url": "https://cosmoscan.com/kopi",
       "txPage": "https://cosmoscan.com/kopi/txs/${txHash}",
       "accountPage": "https://cosmoscan.com/kopi/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake Explorer",
+      "url": "https://explorer.nodestake.org/kopi/",
+      "txPage": "https://explorer.nodestake.org/kopi/txs/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/kopi/account/${accountAddress}"
     }
   ],
   "images": [
