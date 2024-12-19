@@ -4,7 +4,7 @@
   "networkType": "testnet",
   "website": "https://liftedinit.org/",
   "prettyName": "Manifest Testnet",
-  "chainId": "manifest-ledger-beta",
+  "chainId": "manifest-ledger-testnet",
   "chainType": "cosmos",
   "bech32Prefix": "manifest",
   "slip44": 118,
@@ -32,31 +32,25 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://nodes.chandrastation.com/rpc/manifest/"
-      },
-      {
-        "address": "https://manifest-beta-rpc.liftedinit.tech/"
+        "address": "https://nodes.liftedinit.tech/manifest/testnet/rpc"
       }
     ],
     "rest": [
       {
-        "address": "https://nodes.chandrastation.com/api/manifest/"
-      },
-      {
-        "address": "https://manifest-beta-rest.liftedinit.tech/"
+        "address": "https://nodes.liftedinit.tech/manifest/testnet/api"
       }
     ],
     "grpc": [
       {
-        "address": "https://manifest-beta-grpc.liftedinit.tech/"
+        "address": "https://manifest-testnet-grpc.liftedinit.tech"
       }
     ]
   },
   "explorers": [
     {
       "kind": "Default Explorer",
-      "url": "https://manifest-explorer.vercel.app/",
-      "txPage": "https://manifest-explorer.vercel.app/manifest/tx"
+      "url": "https://testnet.manifest.explorers.guru/",
+      "txPage": "https://testnet.manifest.explorers.guru/transactions"
     }
   ]
 }

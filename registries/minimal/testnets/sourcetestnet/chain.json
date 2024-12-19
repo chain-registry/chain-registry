@@ -47,9 +47,6 @@
         "address": "https://source-test.rpc.moonbridge.team/"
       },
       {
-        "address": "https://source-testnet-rpc.stake-town.com:443"
-      },
-      {
         "address": "https://rpc-testnet-source.sr20de.xyz"
       },
       {
@@ -67,9 +64,6 @@
         "address": "https://source-test.api.moonbridge.team/"
       },
       {
-        "address": "https://source-testnet-api.stake-town.com:443"
-      },
-      {
         "address": "https://api-testnet-source.sr20de.xyz"
       },
       {
@@ -80,9 +74,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "source-testnet-grpc.stake-town.com:443"
-      },
       {
         "address": "grpc-testnet-source.sr20de.xyz/"
       }

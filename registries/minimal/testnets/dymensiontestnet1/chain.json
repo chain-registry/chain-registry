@@ -1,0 +1,56 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "dymensiontestnet1",
+  "chainType": "cosmos",
+  "chainId": "dymension_1405-1",
+  "prettyName": "Dymension Playground Testnet",
+  "networkType": "testnet",
+  "website": "https://playground.dymension.xyz",
+  "bech32Prefix": "dym",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "adym",
+        "lowGasPrice": 5000000000,
+        "averageGasPrice": 5500000000,
+        "highGasPrice": 6000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "adym"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-dym-migration-test-2.mzonder.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-dym-migration-test-2.mzonder.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "dymscan",
+      "url": "https://pg.dym.fyi/",
+      "txPage": "https://pg.dym.fyi//tx/${txHash}"
+    }
+  ]
+}

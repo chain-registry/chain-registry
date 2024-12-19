@@ -76,6 +76,21 @@
       },
       {
         "address": "https://community.nuxian-node.ch:6797/elys/trpc"
+      },
+      {
+        "address": "https://elys-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://elys-rpc.stake-town.com:443"
+      },
+      {
+        "address": "https://elys.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://elys-rpc.ibs.team"
+      },
+      {
+        "address": "https://elys-rpc.cogwheel.zone:443"
       }
     ],
     "rest": [
@@ -99,6 +114,21 @@
       },
       {
         "address": "https://community.nuxian-node.ch:6797/elys/crpc"
+      },
+      {
+        "address": "https://elys-api.highstakes.ch"
+      },
+      {
+        "address": "https://elys-api.stake-town.com:443"
+      },
+      {
+        "address": "https://elys.api.m.stavr.tech"
+      },
+      {
+        "address": "https://elys-api.ibs.team"
+      },
+      {
+        "address": "https://elys-api.cogwheel.zone:443"
       }
     ],
     "grpc": [
@@ -119,6 +149,12 @@
       },
       {
         "address": "elys.grpc.liveraven.net:443"
+      },
+      {
+        "address": "elys-grpc.stake-town.com:443"
+      },
+      {
+        "address": "elys-grpc.cogwheel.zone:443"
       }
     ]
   },
@@ -146,6 +182,12 @@
       "url": "https://mainnet.itrocket.net/elys",
       "txPage": "https://mainnet.itrocket.net/elys/staking/tx/${txHash}",
       "accountPage": "https://mainnet.itrocket.net/elys/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Elys-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Elys-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Elys-Mainnet/account/${accountAddress}"
     }
   ]
 }

@@ -299,6 +299,24 @@
           }
         }
       ]
+    },
+    {
+      "description": "Chihuahua coin",
+      "denomUnits": [
+        {
+          "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/Chihuahua",
+          "exponent": 0
+        },
+        {
+          "denom": "Chihuahua",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/Chihuahua",
+      "name": "Chihuahua",
+      "display": "Chihuahua",
+      "symbol": "CHIHUAHUA",
+      "assetType": "sdk.coin"
     }
   ]
 }

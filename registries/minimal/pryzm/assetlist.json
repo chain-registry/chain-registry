@@ -639,6 +639,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted principal token for ATOM with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "p:uatom:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pATOM31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "p:uatom:31Mar2025",
+      "name": "pAtom (31Mar2025)",
+      "display": "pATOM31Mar2025",
+      "symbol": "pATOM-31Mar2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted principal token for ATOM with maturity of 31Dec2025",
       "denomUnits": [
         {
@@ -708,6 +726,24 @@
       "name": "pOsmo (31Dec2024)",
       "display": "pOSMO31Dec2024",
       "symbol": "pOSMO-31Dec2024",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted principal token for OSMO with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "p:uosmo:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pOSMO31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "p:uosmo:31Mar2025",
+      "name": "pOsmo (31Mar2025)",
+      "display": "pOSMO31Mar2025",
+      "symbol": "pOSMO-31Mar2025",
       "assetType": "sdk.coin"
     },
     {
@@ -783,6 +819,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted principal token for INJ with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "p:inj:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pINJ31Mar2025",
+          "exponent": 18
+        }
+      ],
+      "base": "p:inj:31Mar2025",
+      "name": "pInj (31Mar2025)",
+      "display": "pINJ31Mar2025",
+      "symbol": "pINJ-31Mar2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted principal token for INJ with maturity of 31Dec2025",
       "denomUnits": [
         {
@@ -855,21 +909,21 @@
       "assetType": "sdk.coin"
     },
     {
-      "description": "Pryzm's refracted principal token for LUNA with maturity of 31Dec2026",
+      "description": "Pryzm's refracted principal token for LUNA with maturity of 31Mar2025",
       "denomUnits": [
         {
-          "denom": "p:uluna:31Dec2026",
+          "denom": "p:uluna:31Mar2025",
           "exponent": 0
         },
         {
-          "denom": "pLUNA31Dec2026",
+          "denom": "pLUNA31Mar2025",
           "exponent": 6
         }
       ],
-      "base": "p:uluna:31Dec2026",
-      "name": "pLuna (31Dec2026)",
-      "display": "pLUNA31Dec2026",
-      "symbol": "pLUNA-31Dec2026",
+      "base": "p:uluna:31Mar2025",
+      "name": "pLuna (31Mar2025)",
+      "display": "pLUNA31Mar2025",
+      "symbol": "pLUNA-31Mar2025",
       "assetType": "sdk.coin"
     },
     {
@@ -888,6 +942,24 @@
       "name": "pLuna (31Dec2025)",
       "display": "pLUNA31Dec2025",
       "symbol": "pLUNA-31Dec2025",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted principal token for LUNA with maturity of 31Dec2026",
+      "denomUnits": [
+        {
+          "denom": "p:uluna:31Dec2026",
+          "exponent": 0
+        },
+        {
+          "denom": "pLUNA31Dec2026",
+          "exponent": 6
+        }
+      ],
+      "base": "p:uluna:31Dec2026",
+      "name": "pLuna (31Dec2026)",
+      "display": "pLUNA31Dec2026",
+      "symbol": "pLUNA-31Dec2026",
       "assetType": "sdk.coin"
     },
     {
@@ -999,6 +1071,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted principal token for stTIA with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "p:stutia:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pstTIA31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "p:stutia:31Mar2025",
+      "name": "pstTia (31Mar2025)",
+      "display": "pstTIA31Mar2025",
+      "symbol": "pstTIA-31Mar2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted principal token for stTIA with maturity of 31Dec2025",
       "denomUnits": [
         {
@@ -1071,6 +1161,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted principal token for stDYDX with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "p:stadydx:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pstDYDX31Mar2025",
+          "exponent": 18
+        }
+      ],
+      "base": "p:stadydx:31Mar2025",
+      "name": "pstDydx (31Mar2025)",
+      "display": "pstDYDX31Mar2025",
+      "symbol": "pstDYDX-31Mar2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted principal token for stDYDX with maturity of 31Dec2025",
       "denomUnits": [
         {
@@ -1122,6 +1230,24 @@
       "name": "pdAtom (31Dec2024)",
       "display": "pdATOM31Dec2024",
       "symbol": "pdATOM-31Dec2024",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted principal token for dATOM with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "p:udatom:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pdATOM31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "p:udatom:31Mar2025",
+      "name": "pdAtom (31Mar2025)",
+      "display": "pdATOM31Mar2025",
+      "symbol": "pdATOM-31Mar2025",
       "assetType": "sdk.coin"
     },
     {
@@ -1197,6 +1323,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted principal token for TIA with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "p:utia:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "pTIA31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "p:utia:31Mar2025",
+      "name": "pTia (31Mar2025)",
+      "display": "pTIA31Mar2025",
+      "symbol": "pTIA-31Mar2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted principal token for TIA with maturity of 31Dec2025",
       "denomUnits": [
         {
@@ -1266,6 +1410,24 @@
       "name": "yAtom (31Dec2024)",
       "display": "yATOM31Dec2024",
       "symbol": "yATOM-31Dec2024",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted yield token for ATOM with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "y:uatom:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "yATOM31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:uatom:31Mar2025",
+      "name": "yAtom (31Mar2025)",
+      "display": "yATOM31Mar2025",
+      "symbol": "yATOM-31Mar2025",
       "assetType": "sdk.coin"
     },
     {
@@ -1341,6 +1503,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted yield token for OSMO with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "y:uosmo:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "yOSMO31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:uosmo:31Mar2025",
+      "name": "yOsmo (31Mar2025)",
+      "display": "yOSMO31Mar2025",
+      "symbol": "yOSMO-31Mar2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted yield token for OSMO with maturity of 31Dec2025",
       "denomUnits": [
         {
@@ -1413,6 +1593,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted yield token for INJ with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "y:inj:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "yINJ31Mar2025",
+          "exponent": 18
+        }
+      ],
+      "base": "y:inj:31Mar2025",
+      "name": "yInj (31Mar2025)",
+      "display": "yINJ31Mar2025",
+      "symbol": "yINJ-31Mar2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted yield token for INJ with maturity of 31Dec2025",
       "denomUnits": [
         {
@@ -1482,6 +1680,24 @@
       "name": "yLuna (31Dec2024)",
       "display": "yLUNA31Dec2024",
       "symbol": "yLUNA-31Dec2024",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted yield token for LUNA with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "y:uluna:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "yLUNA31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:uluna:31Mar2025",
+      "name": "yLuna (31Mar2025)",
+      "display": "yLUNA31Mar2025",
+      "symbol": "yLUNA-31Mar2025",
       "assetType": "sdk.coin"
     },
     {
@@ -1629,6 +1845,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted yield token for stTIA with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "y:stutia:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "ystTIA31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:stutia:31Mar2025",
+      "name": "ystTia (31Mar2025)",
+      "display": "ystTIA31Mar2025",
+      "symbol": "ystTIA-31Mar2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted yield token for stTIA with maturity of 31Dec2025",
       "denomUnits": [
         {
@@ -1701,6 +1935,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Pryzm's refracted yield token for stDYDX with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "y:stadydx:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "ystDYDX31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:stadydx:31Mar2025",
+      "name": "ystDydx (31Mar2025)",
+      "display": "ystDYDX31Mar2025",
+      "symbol": "ystDYDX-31Mar2025",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Pryzm's refracted yield token for stDYDX with maturity of 31Dec2025",
       "denomUnits": [
         {
@@ -1752,6 +2004,24 @@
       "name": "ydAtom (31Dec2024)",
       "display": "ydATOM31Dec2024",
       "symbol": "ydATOM-31Dec2024",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted yield token for dATOM with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "y:udatom:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "ydATOM31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:udatom:31Mar2025",
+      "name": "ydAtom (31Mar2025)",
+      "display": "ydATOM31Mar2025",
+      "symbol": "ydATOM-31Mar2025",
       "assetType": "sdk.coin"
     },
     {
@@ -1824,6 +2094,24 @@
       "name": "yTia (31Dec2024)",
       "display": "yTIA31Dec2024",
       "symbol": "yTIA-31Dec2024",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Pryzm's refracted yield token for TIA with maturity of 31Mar2025",
+      "denomUnits": [
+        {
+          "denom": "y:utia:31Mar2025",
+          "exponent": 0
+        },
+        {
+          "denom": "yTIA31Mar2025",
+          "exponent": 6
+        }
+      ],
+      "base": "y:utia:31Mar2025",
+      "name": "yTia (31Mar2025)",
+      "display": "yTIA31Mar2025",
+      "symbol": "yTIA-31Mar2025",
       "assetType": "sdk.coin"
     },
     {

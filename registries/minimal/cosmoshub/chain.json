@@ -160,6 +160,9 @@
       },
       {
         "address": "https://cosmoshub.rpc.quasarstaking.ai"
+      },
+      {
+        "address": "https://cosmos-rpc.ibs.team"
       }
     ],
     "rest": [
@@ -255,6 +258,9 @@
       },
       {
         "address": "https://cosmoshub.api.quasarstaking.ai"
+      },
+      {
+        "address": "https://cosmos-api.ibs.team"
       }
     ],
     "grpc": [
