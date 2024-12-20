@@ -61,6 +61,9 @@
       },
       {
         "address": "https://zeta.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://zetachain-mainnet-rpc.cosmonautstakes.com"
       }
     ],
     "rest": [
@@ -84,6 +87,9 @@
       },
       {
         "address": "https://zeta.api.m.stavr.tech"
+      },
+      {
+        "address": "https://zetachain-mainnet-rest.cosmonautstakes.com"
       }
     ],
     "grpc": [
@@ -101,6 +107,9 @@
       },
       {
         "address": "zeta.grpc.m.stavr.tech"
+      },
+      {
+        "address": "zetachain-mainnet-grpc.cosmonautstakes.com:15190"
       }
     ]
   },

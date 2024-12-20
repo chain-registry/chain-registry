@@ -50,9 +50,6 @@
         "address": "https://xion-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://xion_mainnet_rpc.chain.whenmoonwhenlambo.money"
-      },
-      {
         "address": "https://rpc.xion.nodestake.org"
       }
     ],
@@ -71,9 +68,6 @@
       },
       {
         "address": "https://xion-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://xion_mainnet_api.chain.whenmoonwhenlambo.money"
       },
       {
         "address": "https://api.xion.nodestake.org"
@@ -102,12 +96,6 @@
       "url": "https://explorer.burnt.com/xion-mainnet-1",
       "txPage": "https://explorer.burnt.com/xion-mainnet-1/tx/${txHash}",
       "accountPage": "https://explorer.burnt.com/xion-mainnet-1/account/${accountAddress}"
-    },
-    {
-      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
-      "url": "https://explorer.whenmoonwhenlambo.money/xion",
-      "txPage": "https://explorer.whenmoonwhenlambo.money/xion/tx/${txHash}",
-      "accountPage": "https://explorer.whenmoonwhenlambo.money/xion/account/${accountAddress}"
     },
     {
       "kind": "staking-explorer.com",

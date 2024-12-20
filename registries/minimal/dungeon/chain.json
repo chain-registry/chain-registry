@@ -28,9 +28,6 @@
         "address": "https://rpc-dungeon-1.seraphim.zone"
       },
       {
-        "address": "https://rpc-dungeonchain.apeironnodes.com"
-      },
-      {
         "address": "https://dungeon_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
@@ -40,9 +37,6 @@
       },
       {
         "address": "https://api-dungeon-1.seraphim.zone"
-      },
-      {
-        "address": "https://api-dungeonchain.apeironnodes.com"
       },
       {
         "address": "https://api-archive-dungeonchain.apeironnodes.com"

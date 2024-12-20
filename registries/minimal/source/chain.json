@@ -48,7 +48,7 @@
         "address": "https://source.rpc.bccnodes.com/"
       },
       {
-        "address": "https://source.rpc.moonbridge.team/"
+        "address": "https://source-rpc.moonbridge.org"
       },
       {
         "address": "https://source.rpc.m.stavr.tech"
@@ -119,7 +119,7 @@
         "address": "https://source-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://source.api.moonbridge.team/"
+        "address": "https://source-api.moonbridge.org"
       },
       {
         "address": "https://api-source.sr20de.xyz"
@@ -200,6 +200,9 @@
       },
       {
         "address": "https://source.declab.pro:9003"
+      },
+      {
+        "address": "source-grpc.moonbridge.org:443"
       }
     ]
   },
@@ -217,10 +220,10 @@
       "accountPage": "https://exp.nodeist.net/source/accounts/${accountAddress}"
     },
     {
-      "kind": "MoonBridge",
-      "url": "https://explorer.moonbridge.team/source",
-      "txPage": "https://explorer.moonbridge.team/source/tx/${txHash}",
-      "accountPage": "https://explorer.moonbridge.team/source/accounts/${accountAddress}"
+      "kind": "Moonbridge",
+      "url": "https://explorer.moonbridge.org/source",
+      "txPage": "https://explorer.moonbridge.org/source/tx/${txHash}",
+      "accountPage": "https://explorer.moonbridge.org/source/accounts/${accountAddress}"
     },
     {
       "kind": "NodeStake",

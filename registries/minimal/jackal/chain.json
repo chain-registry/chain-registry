@@ -185,6 +185,9 @@
       },
       {
         "address": "jackal-grpc.noders.services:26090"
+      },
+      {
+        "address": "grpc.jackal.mathnodes.com:443"
       }
     ]
   },

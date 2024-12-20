@@ -77,6 +77,9 @@
       },
       {
         "address": "https://empower-rpc.bluestake.net:443"
+      },
+      {
+        "address": "https://empower-rpc.moonbridge.org"
       }
     ],
     "rest": [
@@ -118,6 +121,9 @@
       },
       {
         "address": "https://empower-api.bluestake.net"
+      },
+      {
+        "address": "https://empower-api.moonbridge.org"
       }
     ],
     "grpc": [
@@ -153,6 +159,9 @@
       },
       {
         "address": "empower-grpc.noders.services:25090"
+      },
+      {
+        "address": "empower-grpc.moonbridge.org:443"
       }
     ]
   },
@@ -192,6 +201,12 @@
       "url": "https://mainnet.whispernode.com/empowerchain",
       "txPage": "https://mainnet.whispernode.com/empowerchain/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/empowerchain/account/${accountAddress}"
+    },
+    {
+      "kind": "Moonbridge",
+      "url": "https://explorer.moonbridge.org/empower",
+      "txPage": "https://explorer.moonbridge.org/empower/tx/${txHash}",
+      "accountPage": "https://explorer.moonbridge.org/empower/account/${accountAddress}"
     }
   ],
   "images": [

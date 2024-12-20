@@ -101,7 +101,7 @@
         "address": "https://rpc.gitopia.roomit.xyz"
       },
       {
-        "address": "https://gitopia.rpc.moonbridge.team"
+        "address": "https://gitopia-rpc.moonbridge.org"
       },
       {
         "address": "https://gitopia-rpc.stakeangle.com"
@@ -193,7 +193,7 @@
         "address": "https://api.gitopia.roomit.xyz"
       },
       {
-        "address": "https://gitopia.api.moonbridge.team"
+        "address": "https://gitopia-api.moonbridge.org"
       },
       {
         "address": "http://gitopia-rpc.stakeangle.com:41317"
@@ -285,7 +285,7 @@
         "address": "grpc.gitopia.roomit.xyz:8443"
       },
       {
-        "address": "https://gitopia.grpc.moonbridge.team"
+        "address": "gitopia-grpc.moonbridge.org:443"
       },
       {
         "address": "http://gitopia-rpc.stakeangle.com:41390"
@@ -385,9 +385,9 @@
     },
     {
       "kind": "Moonbridge",
-      "url": "https://explorer.moonbridge.team/gitopia",
-      "txPage": "https://explorer.moonbridge.team/gitopia/tx/${txHash}",
-      "accountPage": "https://explorer.moonbridge.team/gitopia/account/${accountAddress}"
+      "url": "https://explorer.moonbridge.org/gitopia",
+      "txPage": "https://explorer.moonbridge.org/gitopia/tx/${txHash}",
+      "accountPage": "https://explorer.moonbridge.org/gitopia/account/${accountAddress}"
     },
     {
       "kind": "KonsorTech",

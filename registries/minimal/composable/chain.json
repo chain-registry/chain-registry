@@ -68,7 +68,7 @@
         "address": "https://rpc.centauri.bronbro.io:443"
       },
       {
-        "address": "https://composable.rpc.moonbridge.team"
+        "address": "https://picasso-rpc.moonbridge.org"
       },
       {
         "address": "https://rpc.composable.citizenweb3.com:443"
@@ -106,7 +106,7 @@
         "address": "https://lcd.centauri.bronbro.io:443"
       },
       {
-        "address": "https://composable.api.moonbridge.team"
+        "address": "https://picasso-api.moonbridge.org"
       },
       {
         "address": "https://composable.api.m.stavr.tech"
@@ -156,7 +156,7 @@
         "address": "https://grpc.centauri.bronbro.io:443"
       },
       {
-        "address": "https://composable.grpc.moonbridge.team"
+        "address": "https://picasso-grpc.moonbridge.org"
       },
       {
         "address": "composable.grpc.m.stavr.tech:9907"
@@ -196,6 +196,11 @@
       "url": "https://mainnet.whispernode.com/picasso",
       "txPage": "https://mainnet.whispernode.com/picasso/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/picasso/account/${accountAddress}"
+    },
+    {
+      "kind": "Moonbridge",
+      "url": "https://explorer.moonbridge.org/picasso",
+      "txPage": "https://explorer.moonbridge.org/picasso/tx/${txHash}"
     }
   ],
   "images": [

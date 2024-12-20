@@ -43,7 +43,7 @@
         "address": "https://kopi-rpc.stakerhouse.com"
       },
       {
-        "address": "https://kopi.rpc.moonbridge.team"
+        "address": "https://kopi-rpc.moonbridge.org"
       },
       {
         "address": "https://rpc-kopid.vinjan.xyz/"
@@ -84,7 +84,7 @@
         "address": "https://kopi-rest.stakerhouse.com"
       },
       {
-        "address": "https://kopi.api.moonbridge.team"
+        "address": "https://kopi-api.moonbridge.org"
       },
       {
         "address": "https://api-kopid.vinjan.xyz/"
@@ -119,7 +119,7 @@
         "address": "kopi-grpc.stakerhouse.com:443"
       },
       {
-        "address": "https://kopi.grpc.moonbridge.team"
+        "address": "kopi-grpc.moonbridge.org:443"
       },
       {
         "address": "kopi-grpc.node9x.com:443"
@@ -165,9 +165,9 @@
     },
     {
       "kind": "Moonbridge Explorer",
-      "url": "https://explorer.moonbridge.team/kopi/",
-      "txPage": "https://explorer.moonbridge.team/kopi/txs/${txHash}",
-      "accountPage": "https://explorer.moonbridge.team/kopi/account/${accountAddress}"
+      "url": "https://explorer.moonbridge.org/kopi",
+      "txPage": "https://explorer.moonbridge.org/kopi/txs/${txHash}",
+      "accountPage": "https://explorer.moonbridge.org/kopi/account/${accountAddress}"
     },
     {
       "kind": "Cosmoscan Explorer",
