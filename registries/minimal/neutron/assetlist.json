@@ -1127,6 +1127,34 @@
       "display": "bglUSDC",
       "symbol": "bglUSDC",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Drop staked TIA",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia",
+          "exponent": 0
+        },
+        {
+          "denom": "dTIA",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia",
+      "name": "dTIA",
+      "display": "dTIA",
+      "symbol": "dTIA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "celestia",
+            "baseDenom": "utia"
+          },
+          "provider": "Drop Protocol"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -97,6 +97,9 @@
       },
       {
         "address": "https://elys-rpc.moonbridge.org:443"
+      },
+      {
+        "address": "https://elys_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -141,6 +144,9 @@
       },
       {
         "address": "https://elys-api.moonbridge.org"
+      },
+      {
+        "address": "https://elys_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -212,6 +218,12 @@
       "url": "https://explorer.moonbridge.org/elys",
       "txPage": "https://explorer.moonbridge.org/elys/tx/${txHash}",
       "accountPage": "https://explorer.moonbridge.org/elys/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/elys",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/elys/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/elys/account/${accountAddress}"
     }
   ]
 }
