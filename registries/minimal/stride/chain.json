@@ -188,6 +188,9 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/stride/rpc"
+      },
+      {
+        "address": "https://stride-rpc.ibs.team"
       }
     ],
     "rest": [
@@ -238,6 +241,9 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/stride/rest"
+      },
+      {
+        "address": "https://stride-api.ibs.team"
       }
     ],
     "grpc": [

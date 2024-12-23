@@ -24,7 +24,10 @@
       {
         "denom": "uaaron"
       }
-    ]
+    ],
+    "lockDuration": {
+      "time": "86400s"
+    }
   },
   "codebase": {
 
@@ -36,6 +39,9 @@
       },
       {
         "address": "https://aaronetwork_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://aaron.rpc.nodeshub.online"
       }
     ],
     "rest": [
@@ -44,10 +50,19 @@
       },
       {
         "address": "https://aaronetwork_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://aaron.api.nodeshub.online"
       }
     ]
   },
   "explorers": [
+    {
+      "kind": "Ping.pub",
+      "url": "https://ping.pub/Aaron%20Network",
+      "txPage": "https://ping.pub/Aaron%20Network/tx/${txHash}",
+      "accountPage": "https://ping.pub/Aaron%20Network/account/${accountAddress}"
+    },
     {
       "kind": "Aaron Network",
       "url": "https://explorer.aaronetwork.xyz",
@@ -59,6 +74,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/aaronetwork",
       "txPage": "https://explorer.whenmoonwhenlambo.money/aaronetwork/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/aaronetwork/account/${accountAddress}"
+    },
+    {
+      "kind": "NodesHub",
+      "url": "https://explorer.nodeshub.online/aaron",
+      "txPage": "https://explorer.nodeshub.online/aaron/tx/${txHash}",
+      "accountPage": "https://explorer.nodeshub.online/aaron/${accountAddress}"
     }
   ]
 }
