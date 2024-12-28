@@ -1,0 +1,42 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "titannettestnet",
+  "assets": [
+    {
+      "description": "TTNT is the native token of the Titan Network testnet, serving as a medium of value, staking token, and transparency mechanism for the ecosystem.",
+      "denomUnits": [
+        {
+          "denom": "uttnt",
+          "exponent": 0
+        },
+        {
+          "denom": "ttnt",
+          "exponent": 6
+        }
+      ],
+      "base": "uttnt",
+      "name": "Titan Testnet TTNT",
+      "display": "ttnt",
+      "symbol": "TTNT",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "TNT4 is the incentive token of the Titan Network's Galileo testnet, rewarding contributors who provide bandwidth resources for commercial use.",
+      "denomUnits": [
+        {
+          "denom": "utnt4",
+          "exponent": 0
+        },
+        {
+          "denom": "tnt4",
+          "exponent": 2
+        }
+      ],
+      "base": "utnt4",
+      "name": "Titan Testnet TNT4",
+      "display": "tnt4",
+      "symbol": "TNT4",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

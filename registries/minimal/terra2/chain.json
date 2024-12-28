@@ -70,6 +70,9 @@
       },
       {
         "address": "https://terra-rpc.cosmosrescue.dev:8443"
+      },
+      {
+        "address": "https://terra-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -102,6 +105,9 @@
       },
       {
         "address": "https://terra-api.cosmosrescue.dev:8443"
+      },
+      {
+        "address": "https://terra-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -128,6 +134,9 @@
       },
       {
         "address": "https://terra2.tdrsys.com:2083"
+      },
+      {
+        "address": "terra-grpc.chainroot.io:443"
       }
     ]
   },
@@ -160,6 +169,12 @@
       "url": "https://www.mintscan.io/terra",
       "txPage": "https://www.mintscan.io/terra/transactions/${txHash}",
       "accountPage": "https://www.mintscan.io/terra/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/terra",
+      "txPage": "https://explorer.chainroot.io/terra/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/terra/accounts/${accountAddress}"
     }
   ],
   "images": [
