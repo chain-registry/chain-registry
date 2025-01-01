@@ -44,9 +44,6 @@
         "address": "https://bcna-rpc.ibs.team/"
       },
       {
-        "address": "https://bitcanna-rpc.panthea.eu/"
-      },
-      {
         "address": "https://rpc.bitcanna.sgtstake.com/"
       },
       {
@@ -81,9 +78,6 @@
       },
       {
         "address": "https://bitcanna-rpc.polkachu.com"
-      },
-      {
-        "address": "https://rpc.bitcanna.safeblock.space"
       },
       {
         "address": "https://bitcanna.nodejumper.io:443"
@@ -148,9 +142,6 @@
         "address": "grpc-bitcanna.mms.team:443"
       },
       {
-        "address": "grpc.bitcanna.safeblock.space:9090"
-      },
-      {
         "address": "mainnet-bitcanna-grpc.konsortech.xyz:27090"
       },
       {
@@ -169,9 +160,6 @@
         "address": "grpc.bitcanna.indonode.net:11090"
       },
       {
-        "address": "bitcanna-grpc.panthea.eu:16710"
-      },
-      {
         "address": "bitcanna-grpc.validatornode.com:443"
       },
       {
@@ -187,9 +175,6 @@
     "rest": [
       {
         "address": "https://lcd.bitcanna.io"
-      },
-      {
-        "address": "https://bitcanna-api.panthea.eu"
       },
       {
         "address": "https://api.bitcanna.sgtstake.com/"
@@ -226,9 +211,6 @@
       },
       {
         "address": "https://bitcanna-api.polkachu.com"
-      },
-      {
-        "address": "https://api.bitcanna.safeblock.space"
       },
       {
         "address": "https://bitcanna.nodejumper.io:1317"
@@ -316,11 +298,6 @@
       "kind": "ValidatorNode Explorer",
       "url": "https://explorer.validatornode.com/bitcanna",
       "txPage": "https://explorer.validatornode.com/bitcanna/tx/${txHash}"
-    },
-    {
-      "kind": "Safe Block Explorer Pruned",
-      "url": "https://explorer.safeblock.space/bitcanna",
-      "txPage": "https://explorer.safeblock.space/bitcanna/tx/${txHash}"
     },
     {
       "kind": "AlxVoy ⚡ ANODE.TEAM",
