@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "opct",
+  "assets": [
+    {
+      "assetType": "sdk.coin",
+      "description": "The native token of OPCT Chain for Web3 Fitness GRIT Protocol",
+      "denomUnits": [
+        {
+          "denom": "opct",
+          "exponent": 0
+        },
+        {
+          "denom": "OPCT",
+          "exponent": 6
+        }
+      ],
+      "base": "opct",
+      "name": "OPCT",
+      "display": "OPCT",
+      "symbol": "OPCT"
+    }
+  ]
+}

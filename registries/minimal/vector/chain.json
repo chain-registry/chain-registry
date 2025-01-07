@@ -1,0 +1,82 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "vector",
+  "networkType": "mainnet",
+  "website": "https://www.playonvector.com/",
+  "prettyName": "Vector",
+  "chainType": "cosmos",
+  "chainId": "vector-1",
+  "bech32Prefix": "vector",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uvctr",
+        "fixedMinGasPrice": 1,
+        "lowGasPrice": 1,
+        "averageGasPrice": 1,
+        "highGasPrice": 1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uvctr"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.11"
+    },
+    "cosmwasm": {
+      "version": "v0.53.2",
+      "enabled": true
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://archive-rpc-vector-1.seraphim.zone:443"
+      },
+      {
+        "address": "https://archive-rpc-1.playonvector.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://archive-api-vector-1.seraphim.zone:443"
+      },
+      {
+        "address": "https://archive-api-1.playonvector.com:443"
+      }
+    ],
+    "grpc": [
+
+    ],
+    "grpcWeb": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Vector",
+      "url": "https://explorer.playonvector.com/",
+      "txPage": "https://explorer.playonvector.com/vector/tx/${txHash}",
+      "accountPage": "https://explorer.playonvector.com/vector/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vector/images/vector-light-logo.svg",
+      "theme": {
+        "primaryColorHex": "#885737"
+      }
+    }
+  ]
+}

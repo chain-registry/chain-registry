@@ -83,6 +83,9 @@
       },
       {
         "address": "https://chihuahua.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://chihuahua-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -124,6 +127,9 @@
       },
       {
         "address": "https://chihuahua.api.nodeshub.online:443"
+      },
+      {
+        "address": "https://chihuahua-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -153,6 +159,9 @@
       },
       {
         "address": "chihuahua.grpc.nodeshub.online"
+      },
+      {
+        "address": "chihuahua-grpc.chainroot.io:443"
       }
     ]
   },
@@ -196,6 +205,12 @@
       "url": "https://explorer.nodeshub.online/chihuahua/",
       "txPage": "https://explorer.nodeshub.online/chihuahua/tx/${txHash}",
       "accountPage": "https://explorer.nodeshub.online/chihuahua/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/chihuahua",
+      "txPage": "https://explorer.chainroot.io/chihuahua/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/chihuahua/accounts/${accountAddress}"
     }
   ],
   "images": [

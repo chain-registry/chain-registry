@@ -158,6 +158,9 @@
       },
       {
         "address": "https://grpc.akash.bronbro.io:443"
+      },
+      {
+        "address": "akash-mainnet-grpc.cosmonautstakes.com:14090"
       }
     ]
   },

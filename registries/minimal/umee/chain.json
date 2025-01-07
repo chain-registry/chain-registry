@@ -94,6 +94,9 @@
       },
       {
         "address": "https://umee_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://ux-rpc.chainroot.io"
       }
     ],
     "rest": [
@@ -150,6 +153,9 @@
       },
       {
         "address": "https://umee_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://ux-api.chainroot.io"
       }
     ],
     "grpc": [
@@ -200,6 +206,9 @@
       },
       {
         "address": "umee-grpc.noders.services:32090"
+      },
+      {
+        "address": "umee-grpc.chainroot.io:443"
       }
     ]
   },
@@ -265,6 +274,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/umee",
       "txPage": "https://explorer.whenmoonwhenlambo.money/umee/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/umee/account/${accountAddress}"
+    },
+    {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/ux",
+      "txPage": "https://explorer.chainroot.io/ux/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/ux/accounts/${accountAddress}"
     }
   ],
   "images": [

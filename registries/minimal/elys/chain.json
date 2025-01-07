@@ -54,6 +54,7 @@
       "enabled": false
     }
   },
+  "description": "Your premier DeFi proof-of-stake chain. Simplified, CEX-like interface with endless possibilities. Swap, stake, Derivative trading, all your DeFi needs, in one place.",
   "apis": {
     "rpc": [
       {
@@ -100,6 +101,9 @@
       },
       {
         "address": "https://elys_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://elys-mainnet-rpc.autostake.com:443"
       }
     ],
     "rest": [
@@ -147,6 +151,9 @@
       },
       {
         "address": "https://elys_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://elys-mainnet-lcd.autostake.com:443"
       }
     ],
     "grpc": [
@@ -179,6 +186,9 @@
       },
       {
         "address": "elys-grpc.moonbridge.org:443"
+      },
+      {
+        "address": "elys-mainnet-grpc.autostake.com:443"
       }
     ]
   },
