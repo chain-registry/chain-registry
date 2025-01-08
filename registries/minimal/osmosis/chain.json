@@ -154,6 +154,9 @@
       },
       {
         "address": "https://osmosis-rpc.chainroot.io"
+      },
+      {
+        "address": "https://osmosis.rpc.quasarstaking.ai:443"
       }
     ],
     "rest": [
@@ -234,6 +237,9 @@
       },
       {
         "address": "https://osmosis-api.chainroot.io"
+      },
+      {
+        "address": "https://osmosis.api.quasarstaking.ai:443"
       }
     ],
     "grpc": [
@@ -290,6 +296,9 @@
       },
       {
         "address": "osmosis-grpc.chainroot.io:443"
+      },
+      {
+        "address": "osmosis.grpc.quasarstaking.ai:443"
       }
     ]
   },
