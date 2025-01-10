@@ -67,6 +67,9 @@
         "address": "https://elys-rpc.publicnode.com:443"
       },
       {
+        "address": "https://elys.rpc.vnodes.io:443"
+      },
+      {
         "address": "https://elys-mainnet-rpc.itrocket.net:443"
       },
       {
@@ -115,6 +118,9 @@
       },
       {
         "address": "https://elys-rest.publicnode.com"
+      },
+      {
+        "address": "https://elys.rest.vnodes.io:443"
       },
       {
         "address": "https://elys-mainnet-api.itrocket.net"
