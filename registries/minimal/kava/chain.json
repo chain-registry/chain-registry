@@ -54,6 +54,9 @@
       },
       {
         "address": "https://kava.drpc.org"
+      },
+      {
+        "address": "https://rpc.kava.nodestake.org"
       }
     ],
     "rest": [
@@ -77,6 +80,9 @@
       },
       {
         "address": "https://kava-rest.publicnode.com"
+      },
+      {
+        "address": "https://api.kava.nodestake.org"
       }
     ],
     "grpc": [
@@ -97,6 +103,9 @@
       },
       {
         "address": "kava-grpc.publicnode.com:443"
+      },
+      {
+        "address": "https://grpc.kava.nodestake.org"
       }
     ],
     "evmHttpJsonrpc": [
@@ -108,6 +117,9 @@
       },
       {
         "address": "https://kava.api.onfinality.io/public"
+      },
+      {
+        "address": "https://evmrpc.kava.nodestake.org"
       }
     ]
   },

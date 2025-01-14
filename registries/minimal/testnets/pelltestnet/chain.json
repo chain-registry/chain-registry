@@ -1,0 +1,76 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "pelltestnet",
+  "chainType": "cosmos",
+  "chainId": "ignite_186-1",
+  "prettyName": "Pell Ignite Testnet",
+  "networkType": "testnet",
+  "bech32Prefix": "pell",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "apell",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://pell-testnet-rpc.cosmonautstakes.com"
+      },
+      {
+        "address": "https://pell-testnet-rpc.hibunode.com"
+      },
+      {
+        "address": "https://rpc-t.pell.nodestake.org"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://pell-testnet-rest.cosmonautstakes.com"
+      },
+      {
+        "address": "https://pell-testnet-api.hibunode.com"
+      },
+      {
+        "address": "https://api-t.pell.nodestake.org"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "pell-testnet-grpc.cosmonautstakes.com:15290"
+      },
+      {
+        "address": "https://grpc-t.pell.nodestake.org:443"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "pell-testnet-evm.cosmonautstakes.com:443"
+      },
+      {
+        "address": "https://evmrpc-t.pell.nodestake.org"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "testnet.pell.explorers.guru",
+      "url": "https://testnet.pell.explorers.guru/",
+      "txPage": "https://testnet.pell.explorers.guru/transaction/${txHash}"
+    },
+    {
+      "kind": "explorer.hibunode.com",
+      "url": "https://explorer.hibunode.com/pell",
+      "txPage": "https://explorer.hibunode.com/pell/tx/${txHash}"
+    }
+  ]
+}

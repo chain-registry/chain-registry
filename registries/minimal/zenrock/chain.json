@@ -50,16 +50,25 @@
     "rpc": [
       {
         "address": "https://rpc.diamond.zenrocklabs.io/"
+      },
+      {
+        "address": "https://rpc.zenrock.nodestake.org"
       }
     ],
     "rest": [
       {
         "address": "https://api.diamond.zenrocklabs.io/"
+      },
+      {
+        "address": "https://api.zenrock.nodestake.org"
       }
     ],
     "grpc": [
       {
         "address": "https://grpc.diamond.zenrocklabs.io/"
+      },
+      {
+        "address": "https://grpc.zenrock.nodestake.org"
       }
     ]
   }

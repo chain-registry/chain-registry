@@ -163,6 +163,9 @@
       },
       {
         "address": "https://cosmos-rpc.ibs.team"
+      },
+      {
+        "address": "https://rpc.cosmoshub-4-archive.citizenweb3.com:443"
       }
     ],
     "rest": [
@@ -261,6 +264,9 @@
       },
       {
         "address": "https://cosmos-api.ibs.team"
+      },
+      {
+        "address": "https://api.cosmoshub-4-archive.citizenweb3.com:443"
       }
     ],
     "grpc": [
@@ -329,6 +335,9 @@
       },
       {
         "address": "cosmoshub.grpc.quasarstaking.ai"
+      },
+      {
+        "address": "grpc.cosmoshub-4-archive.citizenweb3.com"
       }
     ]
   },

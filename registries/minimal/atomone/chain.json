@@ -67,6 +67,15 @@
       },
       {
         "address": "https://atomone-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://rpc.atomone-1.atomone.aviaone.com:443"
+      },
+      {
+        "address": "https://atomone.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://rpc.atomone.citizenweb3.com:443"
       }
     ],
     "rest": [
@@ -99,6 +108,15 @@
       },
       {
         "address": "https://atomone-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://api.atomone-1.atomone.aviaone.com"
+      },
+      {
+        "address": "https://atomone.api.m.stavr.tech"
+      },
+      {
+        "address": "https://api.atomone.citizenweb3.com"
       }
     ],
     "grpc": [
@@ -119,6 +137,15 @@
       },
       {
         "address": "atomone-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "http://grpc.atomone-1.atomone.aviaone.com:9102"
+      },
+      {
+        "address": "atomone.grpc.m.stavr.tech:7201"
+      },
+      {
+        "address": " grpc.atomone.citizenweb3.com"
       }
     ]
   },
@@ -142,10 +169,22 @@
       "accountPage": "https://explorer.ist/atomone/account/${accountAddress}"
     },
     {
+      "kind": "🔥STAVR🔥 Explorer",
+      "url": "https://explorer.stavr.tech/Atomone-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Atomone-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Atomone-Mainnet/account/${accountAddress}"
+    },
+    {
       "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
       "url": "https://explorer.whenmoonwhenlambo.money/atomone",
       "txPage": "https://explorer.whenmoonwhenlambo.money/atomone/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/atomone/account/${accountAddress}"
+    },
+    {
+      "kind": "AVIAONE.com 🟢",
+      "url": "https://mainnet.explorer.aviaone.com/atomone",
+      "txPage": "https://mainnet.explorer.aviaone.com/atomone/tx/${txHash}",
+      "accountPage": "https://mainnet.explorer.aviaone.com/atomone/account/${accountAddress}"
     }
   ],
   "images": [

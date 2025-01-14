@@ -826,11 +826,10 @@
       "assetType": "sdk.coin"
     },
     {
-      "name": "Ninja Blaze Token",
-      "description": "Ninja Blaze Token",
+      "description": "Ninja Blaze is a decentralized multi-chain gaming platform powered by Injective Blockchain.",
       "denomUnits": [
         {
-          "denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
+          "denom": "ibc/A79E35F2418EB26FA8D72B9AA5EDF28C0C2CF475E8CF4CAEBB25FA5C858D4D22",
           "exponent": 0,
           "aliases": [
             "uNBZ"
@@ -841,10 +840,25 @@
           "exponent": 6
         }
       ],
-      "base": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
+      "assetType": "ics20",
+      "base": "ibc/A79E35F2418EB26FA8D72B9AA5EDF28C0C2CF475E8CF4CAEBB25FA5C858D4D22",
+      "name": "Ninja Blaze",
       "display": "NBZ",
       "symbol": "NBZ",
-      "assetType": "sdk.coin"
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ",
+            "channelId": "channel-177"
+          },
+          "chain": {
+            "channelId": "channel-60",
+            "path": "transfer/channel-60/factory/inj1llr45x92t7jrqtxvc02gpkcqhqr82dvyzkr4mz/NBZ"
+          }
+        }
+      ]
     },
     {
       "description": "Mars Protocol is a cross-collateralized Money Market Protocol on Neutron and Osmosis.",
