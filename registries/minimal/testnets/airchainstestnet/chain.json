@@ -138,6 +138,9 @@
       },
       {
         "address": "https://rest1.airchains.t.cosmostaking.com/"
+      },
+      {
+        "address": "https://airchains-testnet-rest.cosmonautstakes.com/"
       }
     ],
     "grpc": [
@@ -155,6 +158,9 @@
       },
       {
         "address": "http://grpc1.airchains.t.cosmostaking.com/"
+      },
+      {
+        "address": "airchains-testnet-grpc.cosmonautstakes.com:14190"
       }
     ]
   },

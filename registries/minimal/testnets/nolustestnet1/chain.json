@@ -1,0 +1,56 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "nolustestnet1",
+  "website": "https://nolus.io/",
+  "networkType": "testnet",
+  "prettyName": "Nolus Testnet 1",
+  "chainType": "cosmos",
+  "chainId": "rila-1",
+  "bech32Prefix": "nolus",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "unls",
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.05
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "unls"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.31",
+      "enabled": true
+    }
+  },
+  "apis": {
+
+  },
+  "explorers": [
+
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nolustestnet/images/nolus.svg"
+    }
+  ]
+}

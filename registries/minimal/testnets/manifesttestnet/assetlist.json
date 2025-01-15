@@ -37,6 +37,38 @@
       "display": "poa",
       "symbol": "POA",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Osmosis token on Manifest Ledger Testnet",
+      "denomUnits": [
+        {
+          "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+          "exponent": 0
+        },
+        {
+          "denom": "osmo",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+      "name": "Osmosis",
+      "display": "osmo",
+      "symbol": "OSMO",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "osmosistestnet",
+            "baseDenom": "uosmo",
+            "channelId": "channel-10016"
+          },
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/uosmo"
+          }
+        }
+      ]
     }
   ]
 }
