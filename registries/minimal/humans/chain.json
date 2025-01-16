@@ -162,7 +162,7 @@
         "address": "humans-mainnet-grpc.autostake.com:443"
       },
       {
-        "address": "humans-mainnet-grpc.cosmonautstakes.com:9190"
+        "address": "humans-mainnet-grpc.cosmonautstakes.com:14890"
       }
     ],
     "evmHttpJsonrpc": [

@@ -43,7 +43,7 @@
         "address": "https://humans-testnet.nodejumper.io:9090"
       },
       {
-        "address": "humans-testnet-grpc.cosmonautstakes.com:9090"
+        "address": "humans-testnet-grpc.cosmonautstakes.com:14990"
       }
     ],
     "evmHttpJsonrpc": [
