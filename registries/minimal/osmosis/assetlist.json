@@ -18362,6 +18362,41 @@
           "provider": "Omnity Network"
         }
       ]
+    },
+    {
+      "description": "Tek ovah!",
+      "denomUnits": [
+        {
+          "denom": "ibc/EA0C8F1121425943740B2D1B1DC5BDD717D49A9D5A639DC7074C10E9212CC794",
+          "exponent": 0,
+          "aliases": [
+            "factory/stars1k7qsxdxh8calmt4txk75e6hdntefslegwddqnlwjjqgjkmcfqy0qa97sn8/pleb"
+          ]
+        },
+        {
+          "denom": "PLEB",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/EA0C8F1121425943740B2D1B1DC5BDD717D49A9D5A639DC7074C10E9212CC794",
+      "name": "Pleb Coin",
+      "display": "PLEB",
+      "symbol": "PLEB",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "stargaze",
+            "baseDenom": "factory/stars1k7qsxdxh8calmt4txk75e6hdntefslegwddqnlwjjqgjkmcfqy0qa97sn8/pleb",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-75",
+            "path": "transfer/channel-75/factory/stars1k7qsxdxh8calmt4txk75e6hdntefslegwddqnlwjjqgjkmcfqy0qa97sn8/pleb"
+          }
+        }
+      ]
     }
   ]
 }
