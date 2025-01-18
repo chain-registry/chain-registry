@@ -1,0 +1,114 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "allora",
+  "status": "live",
+  "networkType": "mainnet",
+  "website": "https://allora.network",
+  "prettyName": "Allora",
+  "chainType": "cosmos",
+  "chainId": "allora-mainnet-1",
+  "bech32Prefix": "allo",
+  "daemonName": "allorad",
+  "nodeHome": "$HOME/.allorad",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uallo",
+        "fixedMinGasPrice": 10,
+        "lowGasPrice": 10,
+        "averageGasPrice": 10,
+        "highGasPrice": 12
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uallo"
+      }
+    ]
+  },
+  "codebase": {
+    "gitRepo": "https://github.com/allora-network/allora-chain",
+    "recommendedVersion": "v0.8.0",
+    "compatibleVersions": [
+      "v0.8.0"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/allora-network/allora-chain/releases/download/v0.8.0/allorad_linux_amd64",
+      "linux/arm64": "https://github.com/allora-network/allora-chain/releases/download/v0.8.0/allorad_linux_arm64",
+      "darwin/amd64": "https://github.com/allora-network/allora-chain/releases/download/v0.8.0/allorad_darwin_amd64",
+      "darwin/arm64": "https://github.com/allora-network/allora-chain/releases/download/v0.8.0/allorad_darwin_arm64",
+      "windows/amd64": "https://github.com/allora-network/allora-chain/releases/download/v0.8.0/allorad_windows_amd64.exe",
+      "windows/arm64": "https://github.com/allora-network/allora-chain/releases/download/v0.8.0/allorad_windows_arm64.exe"
+    },
+    "genesis": {
+      "genesisUrl": "https://github.com/allora-network/networks/blob/main/allora-mainnet-1/genesis.json"
+    }
+  },
+  "logoURIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.svg"
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "961e7f18a1c3d31a146e7325206e1d37799c3979",
+        "address": "seed-1.mainnet.allora.network:26656"
+      },
+      {
+        "id": "ba3193330a8e57d588c51a017a3096c5a0980497",
+        "address": "seed-2.mainnet.allora.network:26656"
+      }
+    ],
+    "persistentPeers": [
+      {
+        "id": "557d0d381bb7edf7e390465cdad8343862cdd025",
+        "address": "peer-1.mainnet.allora.network:26656"
+      },
+      {
+        "id": "aa75a17ad0e42c2cf449e3ffcf3f477405571104",
+        "address": "peer-2.mainnet.allora.network:26656"
+      },
+      {
+        "id": "d1bdd4803dd928a13bd08c4a6e7e2ea216dfa28c",
+        "address": "peer-3.mainnet.allora.network:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://allora-rpc.mainnet.allora.network",
+        "provider": "allora"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://allora-api.mainnet.allora.network",
+        "provider": "allora"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "allora-grpc.mainnet.allora.network:443",
+        "provider": "allora"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Allora Studio",
+      "url": "https://explorer.allora.network",
+      "txPage": "https://explorer.allora.network/explorer/transactions/${txHash}",
+      "accountPage": "https://explorer.allora.network/profile/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.svg"
+    }
+  ]
+}

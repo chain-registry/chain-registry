@@ -1,0 +1,63 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "allora",
+  "networkType": "mainnet",
+  "website": "https://allora.network",
+  "prettyName": "Allora",
+  "chainType": "cosmos",
+  "chainId": "allora-mainnet-1",
+  "bech32Prefix": "allo",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uallo",
+        "fixedMinGasPrice": 10,
+        "lowGasPrice": 10,
+        "averageGasPrice": 10,
+        "highGasPrice": 12
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uallo"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://allora-rpc.mainnet.allora.network"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://allora-api.mainnet.allora.network"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "allora-grpc.mainnet.allora.network:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Allora Studio",
+      "url": "https://explorer.allora.network",
+      "txPage": "https://explorer.allora.network/explorer/transactions/${txHash}",
+      "accountPage": "https://explorer.allora.network/profile/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.svg"
+    }
+  ]
+}
