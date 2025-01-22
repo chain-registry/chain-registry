@@ -37,7 +37,7 @@
       "type": "cosmos",
       "repo": "https://github.com/evmos/cosmos-sdk",
       "version": "v0.47.12",
-      "tag": "v0.47.5-evmos.2"
+      "tag": "v0.47.12-evmos.2"
     }
   },
   "description": "Developers use Evmos as the Ethereum Canary Chain to deploy applications of the future. Get all the functionalities of Ethereum with the power of IBC and Interchain composability.",

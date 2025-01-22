@@ -5,7 +5,7 @@
   "website": "https://epix.zone/",
   "prettyName": "Epix Testnet",
   "chainType": "cosmos",
-  "chainId": "epix_4243-1",
+  "chainId": "epix_1917-1",
   "bech32Prefix": "epix",
   "keyAlgos": [
     "ethsecp256k1"

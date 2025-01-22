@@ -4,8 +4,8 @@
   "website": "https://zenrocklabs.io",
   "networkType": "testnet",
   "chainType": "cosmos",
-  "prettyName": "Zenrock Testnet",
-  "chainId": "gardia-2",
+  "prettyName": "Zenrock Gardia Testnet",
+  "chainId": "gardia-3",
   "bech32Prefix": "zen",
   "keyAlgos": [
     "secp256k1"

@@ -33,9 +33,9 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/MANTRA-Chain/mantrachain",
-    "recommendedVersion": "1.0.0",
+    "recommendedVersion": "1.0.0-rc3",
     "compatibleVersions": [
-      "1.0.0"
+      "1.0.0-rc3"
     ],
     "consensus": {
       "type": "cometbft",

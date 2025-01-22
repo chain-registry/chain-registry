@@ -33,7 +33,7 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/desmos-labs/desmos",
-    "recommendedVersion": "v5.1.0",
+    "recommendedVersion": "5.1.0",
     "compatibleVersions": [
       "5.1.0"
     ],

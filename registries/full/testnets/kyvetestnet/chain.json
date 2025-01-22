@@ -35,6 +35,7 @@
     "gitRepo": "https://github.com/KYVENetwork/chain",
     "recommendedVersion": "v1.5.0",
     "compatibleVersions": [
+      "v1.0.0-rc0",
       "v1.5.0"
     ],
     "binaries": {

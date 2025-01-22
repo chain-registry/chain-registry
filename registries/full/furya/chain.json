@@ -32,7 +32,6 @@
     "gitRepo": "https://github.com/furysport/furya-chain",
     "recommendedVersion": "v2.0.0",
     "compatibleVersions": [
-      "v1.0.0",
       "v2.0.0"
     ],
     "genesis": {
