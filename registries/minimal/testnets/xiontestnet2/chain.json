@@ -1,0 +1,65 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "xiontestnet2",
+  "chainId": "xion-testnet-2",
+  "prettyName": "Xion Testnet 2",
+  "website": "https://xion.burnt.com",
+  "networkType": "testnet",
+  "chainType": "cosmos",
+  "bech32Prefix": "xion",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uxion",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.001,
+        "averageGasPrice": 0.001,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uxion"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.xion-testnet-2.burnt.com:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.xion-testnet-2.burnt.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.xion-testnet-2.burnt.com:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "url": "https://explorer.burnt.com/xion-testnet-2",
+      "txPage": "https://explorer.burnt.com/xion-testnet-2/tx/${txHash}",
+      "accountPage": "https://explorer.burnt.com/xion-testnet-2/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
+    }
+  ],
+  "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction."
+}

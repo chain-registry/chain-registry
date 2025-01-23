@@ -20,6 +20,50 @@
       "display": "xrp",
       "symbol": "XRP",
       "coingeckoId": "ripple"
+    },
+    {
+      "description": "Sologenic is disrupting the asset trading industry: Tokenized Securities, Crypto Assets & NFTs.",
+      "denomUnits": [
+        {
+          "denom": "xrpl11278ecf9e",
+          "exponent": 0,
+          "aliases": [
+            "xrpl11278ecf9e"
+          ]
+        },
+        {
+          "denom": "solo",
+          "exponent": 15
+        }
+      ],
+      "base": "xrpl11278ecf9e",
+      "name": "Solo",
+      "display": "solo",
+      "symbol": "SOLO",
+      "assetType": "unknown",
+      "coingeckoId": "solo-coin"
+    },
+    {
+      "description": "RLUSD, Ripple’s official USD-backed stablecoin, offers stability and liquidity for cross-border transactions on the XRP Ledger.",
+      "denomUnits": [
+        {
+          "denom": "xrpl570c00a604",
+          "exponent": 0,
+          "aliases": [
+            "xrpl570c00a604"
+          ]
+        },
+        {
+          "denom": "rlusd",
+          "exponent": 15
+        }
+      ],
+      "base": "xrpl570c00a604",
+      "name": "RLUSD",
+      "display": "rlusd",
+      "symbol": "RLUSD",
+      "coingeckoId": "ripple-usd",
+      "assetType": "unknown"
     }
   ]
 }

@@ -51,6 +51,107 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "SOLO bridged from XRPL",
+      "denomUnits": [
+        {
+          "denom": "xrpl11278ecf9e-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+          "exponent": 0,
+          "aliases": [
+            "xrpl11278ecf9e"
+          ]
+        },
+        {
+          "denom": "solo",
+          "exponent": 15
+        }
+      ],
+      "base": "xrpl11278ecf9e-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+      "name": "Solo",
+      "display": "solo",
+      "symbol": "SOLO",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "xrpl",
+            "baseDenom": "xrpl11278ecf9e"
+          },
+          "provider": "Coreum"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "RLUSD bridged from XRPL",
+      "denomUnits": [
+        {
+          "denom": "xrpl570c00a604-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+          "exponent": 0,
+          "aliases": [
+            "xrpl570c00a604"
+          ]
+        },
+        {
+          "denom": "rlusd",
+          "exponent": 15
+        }
+      ],
+      "base": "xrpl570c00a604-core1zhs909jp9yktml6qqx9f0ptcq2xnhhj99cja03j3lfcsp2pgm86studdrz",
+      "name": "RLUSD",
+      "display": "rlusd",
+      "symbol": "RLUSD",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "xrpl",
+            "baseDenom": "xrpl570c00a604"
+          },
+          "provider": "Coreum"
+        }
+      ],
+      "coingeckoId": "ripple-usd",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "SARA is the utility native token of the Pulsara ecosystem. The burn or mint of the $SARA token will be decided by the community through proposals and voting.",
+      "denomUnits": [
+        {
+          "denom": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+          "exponent": 0
+        },
+        {
+          "denom": "sara",
+          "exponent": 6
+        }
+      ],
+      "base": "usara-core1r9gc0rnxnzpq33u82f44aufgdwvyxv4wyepyck98m9v2pxua6naqr8h03z",
+      "name": "Sara",
+      "display": "sara",
+      "symbol": "SARA",
+      "coingeckoId": "pulsara",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Liquid staking asset for COREUM, by Pulsara",
+      "denomUnits": [
+        {
+          "denom": "ulicore-core13gza3msdh8hegqxhgezll9quucsr63s0gp43k274xwt66k4e8pmq5zpnm9",
+          "exponent": 0
+        },
+        {
+          "denom": "licore",
+          "exponent": 6
+        }
+      ],
+      "base": "ulicore-core13gza3msdh8hegqxhgezll9quucsr63s0gp43k274xwt66k4e8pmq5zpnm9",
+      "name": "liCORE",
+      "display": "licore",
+      "symbol": "LICORE",
+      "coingeckoId": "licore",
+      "assetType": "sdk.coin"
     }
   ]
 }

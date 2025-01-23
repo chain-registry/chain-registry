@@ -2,8 +2,8 @@
   "$schema": "../../chain.schema.json",
   "chainName": "xiontestnet",
   "chainId": "xion-testnet-1",
-  "prettyName": "Xion Testnet",
-  "website": "https://burnt.com",
+  "prettyName": "Xion Testnet 1",
+  "website": "https://xion.burnt.com",
   "networkType": "testnet",
   "chainType": "cosmos",
   "bech32Prefix": "xion",
@@ -35,16 +35,16 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.xion-testnet-1.burnt.com"
+        "address": "https://rpc.xion-testnet-1.burnt.com:443"
       },
       {
-        "address": "https://testnet-burnt-rpc.lavenderfive.com"
+        "address": "https://testnet-burnt-rpc.lavenderfive.com:443"
       },
       {
-        "address": "https://xion-testnet-rpc.polkachu.com"
+        "address": "https://xion-testnet-rpc.polkachu.com:443"
       },
       {
-        "address": "https://burnt-testnet-rpc.itrocket.net"
+        "address": "https://burnt-testnet-rpc.itrocket.net:443"
       }
     ],
     "rest": [
@@ -87,11 +87,18 @@
       "url": "https://testnet.itrocket.net/burnt",
       "txPage": "https://testnet.itrocket.net/burnt/tx/${txHash}",
       "accountPage": "https://testnet.itrocket.net/burnt/account/${accountAddress}"
+    },
+    {
+      "kind": "Nodes.Guru",
+      "url": "https://testnet.xion.explorers.guru",
+      "txPage": "https://testnet.xion.explorers.guru/transactions/${txHash}",
+      "accountPage": "https://testnet.xion.explorers.guru//account/${accountAddress}"
     }
   ],
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xion/images/burnt.png"
     }
-  ]
+  ],
+  "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction."
 }
