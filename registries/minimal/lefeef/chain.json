@@ -1,0 +1,82 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "lefeef",
+  "chainType": "cosmos",
+  "chainId": "lefeef-mainnet",
+  "website": "https://lefeef.net/",
+  "prettyName": "lefeef",
+  "networkType": "mainnet",
+  "bech32Prefix": "lefeef",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ulefeef",
+        "fixedMinGasPrice": 0.01,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ulefeef"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.10",
+      "tag": "v0.50.10-lsm"
+    },
+    "cosmwasm": {
+      "version": "v0.53.0",
+      "repo": "https://github.com/CosmWasm/wasmd",
+      "tag": "v0.53.0"
+    }
+  },
+  "description": "A secure, scalable blockchain empowering seamless dApps and efficient token transactions.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.lefeef.network:2443/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.lefeef.network:3443/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "85.209.95.59:9090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://mainnet.lefeef.network/lefeef",
+      "txPage": "https://mainnet.lefeef.network/lefeef/transactions/${txHash}",
+      "accountPage": "https://mainnet.lefeef.network/lefeef/accounts/${accountAddress}",
+      "validatorPage": "https://mainnet.lefeef.network/lefeef/validators/${validatorAddress}",
+      "proposalPage": "https://mainnet.lefeef.network/lefeef/proposals/${proposalId}",
+      "blockPage": "https://mainnet.lefeef.network/lefeef/blocks/${blockHeight}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/chain.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lefeef/images/chain.svg",
+      "theme": {
+        "primaryColorHex": "#6439ff"
+      }
+    }
+  ]
+}

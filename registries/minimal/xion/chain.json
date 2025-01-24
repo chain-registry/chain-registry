@@ -51,6 +51,9 @@
       },
       {
         "address": "https://rpc.xion.nodestake.org:443"
+      },
+      {
+        "address": "https://xion-rpc.kingnodes.com:443"
       }
     ],
     "rest": [
@@ -71,6 +74,9 @@
       },
       {
         "address": "https://api.xion.nodestake.org"
+      },
+      {
+        "address": "https://xion-rest.kingnodes.com"
       }
     ],
     "grpc": [
@@ -88,6 +94,9 @@
       },
       {
         "address": "grpc.xion.nodestake.org:443"
+      },
+      {
+        "address": "xion-grpc.kingnodes.com:443"
       }
     ]
   },

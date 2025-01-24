@@ -1,0 +1,28 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "lefeef",
+  "assets": [
+    {
+      "description": "A secure, scalable blockchain empowering seamless dApps and efficient token transactions.",
+      "denomUnits": [
+        {
+          "denom": "ulefeef",
+          "exponent": 0
+        },
+        {
+          "denom": "mlefeef",
+          "exponent": 3
+        },
+        {
+          "denom": "lefeef",
+          "exponent": 6
+        }
+      ],
+      "base": "ulefeef",
+      "name": "LEFEEF",
+      "display": "lefeef",
+      "symbol": "LEFEEF",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

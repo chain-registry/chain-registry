@@ -501,6 +501,24 @@
       "display": "hmstr",
       "symbol": "HMSTR",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "The SAM token is a native memecoin on Oraichain.",
+      "denomUnits": [
+        {
+          "denom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+          "exponent": 0
+        },
+        {
+          "denom": "sam",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+      "name": "SAM",
+      "display": "sam",
+      "symbol": "SAM"
     }
   ]
 }
