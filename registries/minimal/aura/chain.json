@@ -71,9 +71,6 @@
         "address": "https://aura-rpc.staketab.org:443"
       },
       {
-        "address": "https://rpc.aura.safeblock.space"
-      },
-      {
         "address": "https://rpc.aura.silentvalidator.com"
       },
       {
@@ -122,9 +119,6 @@
       },
       {
         "address": "https://aura-rest.staketab.org"
-      },
-      {
-        "address": "https://api.aura.safeblock.space"
       },
       {
         "address": "https://api.aura.silentvalidator.com"
@@ -186,9 +180,6 @@
         "address": "aura-grpc.stake-town.com:443"
       },
       {
-        "address": "grpc.aura.safeblock.space:9090"
-      },
-      {
         "address": "aura-grpc.palamar.io:443"
       },
       {
@@ -241,12 +232,6 @@
       "url": "https://explorer.stake-take.com/aura",
       "txPage": "https://explorer.stake-take.com/aura/tx/${txHash}",
       "accountPage": "https://explorer.stake-take.com/aura/account/${accountAddress}"
-    },
-    {
-      "kind": "Safe Block",
-      "url": "https://explorer.safeblock.space/aura",
-      "txPage": "https://explorer.safeblock.space/aura/tx/${txHash}",
-      "accountPage": "https://explorer.safeblock.space/aura/account/${accountAddress}"
     },
     {
       "kind": "STAKR.space explorer",
