@@ -867,6 +867,79 @@
       "display": "NEPT",
       "symbol": "NEPT",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Cosmos Bitcoin",
+      "denomUnits": [
+        {
+          "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN",
+          "exponent": 0
+        },
+        {
+          "denom": "BITCOIN",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BITCOIN",
+      "name": "Cosmos Bitcoin",
+      "display": "BITCOIN",
+      "symbol": "BITCOIN",
+      "coingeckoId": " ",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Crypto",
+      "denomUnits": [
+        {
+          "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO",
+          "exponent": 0
+        },
+        {
+          "denom": "CRYPTO",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/CRYPTO",
+      "name": "Crypto",
+      "display": "CRYPTO",
+      "symbol": "CRYPTO",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Bricscoin",
+      "denomUnits": [
+        {
+          "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS",
+          "exponent": 0
+        },
+        {
+          "denom": "BRICS",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/BRICS",
+      "name": "Bricscoin",
+      "display": "BRICS",
+      "symbol": "BRICS",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Instant Noodles Coin",
+      "denomUnits": [
+        {
+          "denom": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
+          "exponent": 0
+        },
+        {
+          "denom": "INC",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/inj1s9hr5zfz3xrkzchde94hd2d0edjs4q5mrqrz6x/INC",
+      "name": "Instant Noodles Coin",
+      "display": "INC",
+      "symbol": "INC",
+      "assetType": "sdk.coin"
     }
   ]
 }

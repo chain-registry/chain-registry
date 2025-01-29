@@ -216,6 +216,38 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "The native token of Manifest Ledger",
+      "denomUnits": [
+        {
+          "denom": "ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24",
+          "exponent": 0
+        },
+        {
+          "denom": "mfx",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/EAC654CC560CC03D82AE4BAA808BD0B6E06E9F29F62194B46C0502D967349E24",
+      "name": "Manifest",
+      "display": "mfx",
+      "symbol": "MFX",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "manifesttestnet",
+            "baseDenom": "umfx",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-590",
+            "path": "transfer/channel-590/umfx"
+          }
+        }
+      ]
     }
   ]
 }
