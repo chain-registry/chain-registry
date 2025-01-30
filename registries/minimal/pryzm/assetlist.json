@@ -2617,6 +2617,69 @@
       "display": "lp:23:datomypt-atom",
       "symbol": "dATOM-BOOST-LP",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "The non-transferable receipt of PRYZM airdrop for StakeDrop participants",
+      "denomUnits": [
+        {
+          "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/ustakedrop",
+          "exponent": 0,
+          "aliases": [
+            "ustakedrop"
+          ]
+        },
+        {
+          "denom": "stakedrop",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/ustakedrop",
+      "name": "StakeDrop",
+      "display": "stakedrop",
+      "symbol": "STAKEDROP",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "The non-transferable receipt of PRYZM Options airdrop",
+      "denomUnits": [
+        {
+          "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uopdrop",
+          "exponent": 0,
+          "aliases": [
+            "uopdrop"
+          ]
+        },
+        {
+          "denom": "opdrop",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uopdrop",
+      "name": "OpDrop",
+      "display": "opdrop",
+      "symbol": "OPDROP",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "The non-transferable receipt of PRYZM airdrop for Photons Campaign participants",
+      "denomUnits": [
+        {
+          "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uphotondrop",
+          "exponent": 0,
+          "aliases": [
+            "uphotondrop"
+          ]
+        },
+        {
+          "denom": "photondrop",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uphotondrop",
+      "name": "PhotonDrop",
+      "display": "photondrop",
+      "symbol": "PHOTONDROP",
+      "assetType": "sdk.coin"
     }
   ]
 }
