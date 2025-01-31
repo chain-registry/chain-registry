@@ -1,11 +1,11 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "xiontestnet2",
+  "chainType": "cosmos",
   "chainId": "xion-testnet-2",
   "prettyName": "Xion Testnet 2",
   "website": "https://xion.burnt.com",
   "networkType": "testnet",
-  "chainType": "cosmos",
   "bech32Prefix": "xion",
   "keyAlgos": [
     "secp256k1"
@@ -30,7 +30,14 @@
     ]
   },
   "codebase": {
-
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.11"
+    },
+    "cosmwasm": {
+      "version": "v0.53.0",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [
