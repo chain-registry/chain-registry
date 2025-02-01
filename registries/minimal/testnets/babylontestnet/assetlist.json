@@ -10,14 +10,14 @@
           "exponent": 0
         },
         {
-          "denom": "bbn",
+          "denom": "BABY",
           "exponent": 6
         }
       ],
       "base": "ubbn",
-      "name": "Babylon BBN",
-      "display": "bbn",
-      "symbol": "BBN",
+      "name": "Babylon Testnet",
+      "display": "BABY",
+      "symbol": "BABY",
       "assetType": "sdk.coin"
     }
   ]

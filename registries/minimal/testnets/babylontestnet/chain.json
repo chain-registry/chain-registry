@@ -1,11 +1,11 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "babylontestnet",
-  "website": "https://www.babylonchain.io",
+  "website": "https://babylonlabs.io/",
   "networkType": "testnet",
-  "prettyName": "Babylon Testnet 3",
+  "prettyName": "Babylon Testnet",
   "chainType": "cosmos",
-  "chainId": "bbn-test3",
+  "chainId": "bbn-test-5",
   "bech32Prefix": "bbn",
   "slip44": 118,
   "keyAlgos": [
@@ -31,12 +31,12 @@
   "apis": {
     "rpc": [
       {
-        "address": "rpc.testnet3.babylonchain.io:443"
+        "address": "https://babylon-testnet-rpc.nodes.guru"
       }
     ],
     "rest": [
       {
-        "address": "lcd.testnet3.babylonchain.io:443"
+        "address": "https://babylon-testnet-api.nodes.guru"
       }
     ],
     "grpc": [
@@ -46,7 +46,8 @@
   "explorers": [
     {
       "kind": "babylonscan",
-      "url": "https://babylonscan.io"
+      "url": "https://babylon-testnet.l2scan.co",
+      "txPage": "https://babylon-testnet.l2scan.co/tx/${txHash}"
     },
     {
       "kind": "explorers.guru",
