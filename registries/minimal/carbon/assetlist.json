@@ -43,8 +43,7 @@
       "base": "usc",
       "name": "Carbon USD Coin",
       "display": "dusc",
-      "symbol": "USC",
-      "coingeckoId": "carbon-usd"
+      "symbol": "USC"
     },
     {
       "description": "BNB token on Carbon",

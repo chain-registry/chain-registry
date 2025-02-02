@@ -65,7 +65,6 @@
           "provider": "BackBoneLabs"
         }
       ],
-      "coingeckoId": "backbone-labs-staked-whale",
       "assetType": "sdk.coin"
     },
     {

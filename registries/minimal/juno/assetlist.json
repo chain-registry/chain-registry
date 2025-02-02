@@ -451,8 +451,7 @@
       "base": "cw20:juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup",
       "name": "Loop Finance",
       "display": "loop",
-      "symbol": "LOOP",
-      "coingeckoId": "loop"
+      "symbol": "LOOP"
     },
     {
       "description": "The deprecated cw20 token for Fanfury on Juno Chain",

@@ -76,6 +76,9 @@
       },
       {
         "address": "https://rpc.atomone.citizenweb3.com:443"
+      },
+      {
+        "address": "https://atomone-mainnet-rpc.itrocket.net:443"
       }
     ],
     "rest": [
@@ -117,6 +120,9 @@
       },
       {
         "address": "https://api.atomone.citizenweb3.com"
+      },
+      {
+        "address": "https://atomone-mainnet-api.itrocket.net"
       }
     ],
     "grpc": [
@@ -146,6 +152,9 @@
       },
       {
         "address": " grpc.atomone.citizenweb3.com"
+      },
+      {
+        "address": "atomone-mainnet-grpc.itrocket.net:443"
       }
     ]
   },
@@ -185,6 +194,12 @@
       "url": "https://mainnet.explorer.aviaone.com/atomone",
       "txPage": "https://mainnet.explorer.aviaone.com/atomone/tx/${txHash}",
       "accountPage": "https://mainnet.explorer.aviaone.com/atomone/account/${accountAddress}"
+    },
+    {
+      "kind": "ITRocket",
+      "url": "https://mainnet.itrocket.net/atomone",
+      "txPage": "https://mainnet.itrocket.net/atomone/tx/${txHash}",
+      "accountPage": "https://mainnet.itrocket.net/atomone/account/${accountAddress}"
     }
   ],
   "images": [

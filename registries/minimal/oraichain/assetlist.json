@@ -332,8 +332,7 @@
       "base": "cw20:orai19q4qak2g3cj2xc2y3060t0quzn3gfhzx08rjlrdd3vqxhjtat0cq668phq",
       "name": "scATOM",
       "display": "scatom",
-      "symbol": "scATOM",
-      "coingeckoId": "scatom"
+      "symbol": "scATOM"
     },
     {
       "description": "The xOCH token is the cw20 token for the Oraichain.",

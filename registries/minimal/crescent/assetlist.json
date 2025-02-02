@@ -36,7 +36,6 @@
       "name": "Bonded Crescent",
       "display": "bcre",
       "symbol": "bCRE",
-      "coingeckoId": "liquid-staking-crescent",
       "assetType": "sdk.coin"
     }
   ]

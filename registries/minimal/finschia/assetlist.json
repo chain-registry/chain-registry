@@ -18,8 +18,7 @@
       "base": "cony",
       "name": "Finschia",
       "display": "fnsa",
-      "symbol": "FNSA",
-      "coingeckoId": "link"
+      "symbol": "FNSA"
     }
   ]
 }

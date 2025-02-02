@@ -18,7 +18,6 @@
       "name": "Point",
       "display": "point",
       "symbol": "POINT",
-      "coingeckoId": "point-network",
       "assetType": "sdk.coin"
     }
   ]

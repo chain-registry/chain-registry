@@ -36,7 +36,6 @@
       "name": "COSS",
       "display": "coss",
       "symbol": "COSS",
-      "coingeckoId": "coss-2",
       "assetType": "sdk.coin"
     },
     {

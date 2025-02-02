@@ -18,7 +18,6 @@
       "display": "cht",
       "name": "Chronic Token",
       "symbol": "CHT",
-      "coingeckoId": "cht",
       "assetType": "sdk.coin"
     },
     {
@@ -37,7 +36,6 @@
       "display": "cgas",
       "name": "Chronic Gas",
       "symbol": "CGAS",
-      "coingeckoId": "cgas",
       "assetType": "sdk.coin"
     }
   ]

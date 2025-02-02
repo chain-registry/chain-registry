@@ -21,7 +21,6 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cht.png"
       },
-      "coingeckoId": "cht",
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cht.png",
@@ -51,7 +50,6 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cgas.png"
       },
-      "coingeckoId": "cgas",
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cgas.png",

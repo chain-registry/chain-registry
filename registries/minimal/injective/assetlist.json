@@ -884,7 +884,6 @@
       "name": "Cosmos Bitcoin",
       "display": "BITCOIN",
       "symbol": "BITCOIN",
-      "coingeckoId": " ",
       "assetType": "sdk.coin"
     },
     {
