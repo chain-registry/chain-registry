@@ -64,6 +64,9 @@
       },
       {
         "address": "https://elys-testnet-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://elys-testnet-rpc.ibs.team:443"
       }
     ],
     "rest": [
@@ -75,6 +78,9 @@
       },
       {
         "address": "https://elys-testnet-rest.publicnode.com"
+      },
+      {
+        "address": "https://elys-testnet-api.ibs.team:443"
       }
     ],
     "grpc": [

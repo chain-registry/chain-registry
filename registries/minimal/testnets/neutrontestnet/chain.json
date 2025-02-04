@@ -37,6 +37,9 @@
       },
       {
         "address": "https://neutron-testnet-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://neutron-testnet-rpc.ibs.team:443"
       }
     ],
     "rest": [
@@ -48,6 +51,9 @@
       },
       {
         "address": "https://rest.baryon-sentry-01.rs-testnet.polypore.xyz"
+      },
+      {
+        "address": "https://neutron-testnet-api.ibs.team:443"
       }
     ],
     "grpc": [

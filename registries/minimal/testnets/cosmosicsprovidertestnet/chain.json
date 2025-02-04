@@ -51,6 +51,9 @@
       },
       {
         "address": "https://cosmos-testnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://cosmos-testnet-rpc.ibs.team"
       }
     ],
     "rest": [
@@ -68,6 +71,9 @@
       },
       {
         "address": "https://cosmos-testnet-api.itrocket.net"
+      },
+      {
+        "address": "https://cosmos-testnet-api.ibs.team"
       }
     ],
     "grpc": [

@@ -46,6 +46,9 @@
       },
       {
         "address": "wss://prysm-testnet-rpc.itrocket.net/websocket"
+      },
+      {
+        "address": "wss://prysm-testnet-rpc.ibs.team/websocket"
       }
     ],
     "rpc": [
@@ -84,6 +87,9 @@
       },
       {
         "address": "https://rpc-prysm.coha05.com/"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.ibs.team"
       }
     ],
     "rest": [
@@ -122,6 +128,9 @@
       },
       {
         "address": "https://api-prysm.coha05.com"
+      },
+      {
+        "address": "https://prysm-testnet-api.ibs.team"
       }
     ],
     "grpc": [
