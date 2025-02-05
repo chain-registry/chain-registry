@@ -11,10 +11,10 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.45.16"
+      "version": "0.47.15"
     },
     "cosmwasm": {
-      "version": "0.33.0",
+      "version": "0.45.0",
       "enabled": true
     }
   },
@@ -40,13 +40,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-bitsong-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://rpc.explorebitsong.com"
-      },
-      {
-        "address": "https://bitsong-rpc.validatrium.club"
       },
       {
         "address": "https://rpc.bitsong.chaintools.tech/"
@@ -55,13 +49,7 @@
         "address": "https://rpc.bitsong.quokkastake.io"
       },
       {
-        "address": "https://rpc-bitsong.starsquid.io"
-      },
-      {
         "address": "https://rpc-bitsong.architectnodes.com"
-      },
-      {
-        "address": "http://bitsong.statesync.nodersteam.com:11657"
       },
       {
         "address": "https://rpc.bitsong.safeblock.space"
@@ -83,26 +71,20 @@
       },
       {
         "address": "https://bitsong.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://bitsong-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://bitsong-rpc.tothemars.network:443"
       }
     ],
     "rest": [
       {
-        "address": "https://api-bitsong-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://lcd.explorebitsong.com/"
       },
       {
-        "address": "https://bitsong-api.validatrium.club"
-      },
-      {
         "address": "https://api.bitsong.quokkastake.io"
-      },
-      {
-        "address": "http://bitsong.api.nodersteam.com:11017"
-      },
-      {
-        "address": "https://api-bitsong.starsquid.io"
       },
       {
         "address": "https://rest-bitsong.architectnodes.com"
@@ -127,29 +109,35 @@
       },
       {
         "address": "https://bitsong-api.bluestake.net"
+      },
+      {
+        "address": "https://bitsong-api.polkachu.com"
+      },
+      {
+        "address": "https://bitsong-api.tothemars.network:443"
       }
     ],
     "grpc": [
       {
-        "address": "grpc-bitsong-ia.cosmosia.notional.ventures:443"
-      },
-      {
-        "address": "bitsong.grpc.nodersteam.com:9111/"
+        "address": "bitsong-grpc.polkachu.com:16090"
       },
       {
         "address": "grpc.bitsong.safeblock.space:9090"
       },
       {
-        "address": "bitsong-grpc.panthea.eu:16750"
+        "address": "grpc.bitsong.mathnodes.com:9092"
       },
       {
-        "address": "grpc.bitsong.mathnodes.com:9092"
+        "address": "bitsong-grpc.panthea.eu:16750"
       },
       {
         "address": "bitsong-grpc.noders.services:20090"
       },
       {
         "address": "bitsong.grpc.m.stavr.tech:9988"
+      },
+      {
+        "address": "bitsong-grpc.tothemars.network:60290"
       }
     ]
   },
