@@ -31,10 +31,11 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.50.10"
+      "version": "v0.50.8",
+      "repo": "https://github.com/MANTRA-Chain/cosmos-sdk"
     },
     "cosmwasm": {
-      "version": "0.53",
+      "version": "v0.53.0",
       "enabled": true
     }
   },

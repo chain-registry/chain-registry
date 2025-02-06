@@ -54,9 +54,6 @@
         "address": "http://rpc-umee-0.node75.org:26657"
       },
       {
-        "address": "https://umee-rpc.quantnode.tech"
-      },
-      {
         "address": "https://umee-rpc.tienthuattoan.com"
       },
       {
@@ -113,9 +110,6 @@
         "address": "https://umee-api.polkachu.com"
       },
       {
-        "address": "https://umee-lcd.quantnode.tech"
-      },
-      {
         "address": "https://umee-api.tienthuattoan.ventures"
       },
       {
@@ -169,13 +163,7 @@
         "address": "umee-mainnet-grpc.autostake.com:443"
       },
       {
-        "address": "umee-grpc.quantnode.tech:9090"
-      },
-      {
         "address": "umee.grpc.m.stavr.tech:9090"
-      },
-      {
-        "address": "umee-grpc.quantnode.tech:9091"
       },
       {
         "address": "umee-grpc.tienthuattoan.ventures:9090"
