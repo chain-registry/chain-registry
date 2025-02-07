@@ -18,6 +18,16 @@
       "name": "Ki",
       "display": "tki",
       "symbol": "TKI",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "kichain",
+            "baseDenom": "uxki"
+          },
+          "provider": "Ki Chain"
+        }
+      ],
       "coingeckoId": "ki",
       "assetType": "sdk.coin"
     }

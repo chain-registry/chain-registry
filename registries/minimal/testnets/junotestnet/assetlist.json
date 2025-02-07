@@ -18,6 +18,16 @@
       "name": "Juno Testnet",
       "display": "junox",
       "symbol": "JUNOX",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "juno",
+            "baseDenom": "ujuno"
+          },
+          "provider": "Juno"
+        }
+      ],
       "coingeckoId": "juno-network",
       "assetType": "sdk.coin"
     },

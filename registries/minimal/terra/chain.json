@@ -172,6 +172,9 @@
       },
       {
         "address": "https://terraclassic-rpc-server-01.stakely.io"
+      },
+      {
+        "address": "https://api-lunc-rpc.binodes.com"
       }
     ],
     "rest": [
@@ -186,6 +189,9 @@
       },
       {
         "address": "https://terraclassic-lcd-server-01.stakely.io"
+      },
+      {
+        "address": "https://api-lunc-lcd.binodes.com"
       }
     ],
     "grpc": [
@@ -200,6 +206,9 @@
       },
       {
         "address": "terraclassic-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "api-lunc-grpc.binodes.com:443"
       }
     ]
   },

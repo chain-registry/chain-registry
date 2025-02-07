@@ -18,6 +18,16 @@
       "name": "Desmos Testnet",
       "display": "daric",
       "symbol": "DARIC",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "desmos",
+            "baseDenom": "udsm"
+          },
+          "provider": "Desmos"
+        }
+      ],
       "coingeckoId": "desmos",
       "assetType": "sdk.coin"
     }
