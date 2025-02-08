@@ -1,0 +1,68 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "manifestdevnet",
+  "networkType": "devnet",
+  "website": "https://liftedinit.org/",
+  "prettyName": "Manifest Devnet",
+  "chainId": "manifest-ledger-qa",
+  "chainType": "cosmos",
+  "bech32Prefix": "manifest",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "umfx",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.007,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "upoa"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://nodes.liftedinit.tech/manifest/qa/rpc"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://nodes.liftedinit.tech/manifest/qa/api"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://manifest-qa-grpc.liftedinit.tech"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Default Explorer",
+      "url": "https://testnet.manifest.explorers.guru/",
+      "txPage": "https://testnet.manifest.explorers.guru/transactions"
+    }
+  ],
+  "images": [
+    {
+      "imageSync": {
+        "chainName": "manifestdevnet"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
+      "theme": {
+        "primaryColorHex": "#A087FF"
+      }
+    }
+  ]
+}

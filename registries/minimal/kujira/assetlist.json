@@ -948,38 +948,6 @@
       ]
     },
     {
-      "description": "Axelar Bridged wBTC",
-      "denomUnits": [
-        {
-          "denom": "ibc/301DAF9CB0A9E247CD478533EF0E21F48FF8118C4A51F77C8BC3EB70E5566DBC",
-          "exponent": 0
-        },
-        {
-          "denom": "wbtc.axl",
-          "exponent": 6
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/301DAF9CB0A9E247CD478533EF0E21F48FF8118C4A51F77C8BC3EB70E5566DBC",
-      "name": "Axelar Bridged wBTC",
-      "display": "wbtc.axl",
-      "symbol": "wBTC.axl",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "axelar",
-            "baseDenom": "wbtc-satoshi",
-            "channelId": "channel-14"
-          },
-          "chain": {
-            "channelId": "channel-32",
-            "path": "transfer/channel-9/wbtc-satoshi"
-          }
-        }
-      ]
-    },
-    {
       "description": "Stride staked OSMO",
       "denomUnits": [
         {

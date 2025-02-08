@@ -34,7 +34,7 @@
       "type": "cosmos",
       "repo": "https://github.com/axelarnetwork/cosmos-sdk",
       "version": "v0.45.17",
-      "tag": "v0.45.17-0.20240321205000-47c0c80e20ca"
+      "tag": "v0.45.17-0.20241127184440-bd1464cb7b4b"
     },
     "cosmwasm": {
       "version": "v0.33.0",
