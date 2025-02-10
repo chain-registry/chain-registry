@@ -31,7 +31,17 @@
       "name": "Elys Network",
       "display": "elys",
       "symbol": "ELYS",
-      "coingeckoId": "elys",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "elys",
+            "baseDenom": "uelys"
+          },
+          "provider": "Elys Network"
+        }
+      ],
+      "coingeckoId": "elys-network",
       "assetType": "sdk.coin"
     },
     {

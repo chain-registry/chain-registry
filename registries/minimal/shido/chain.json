@@ -58,10 +58,16 @@
         "address": "https://rpc.shido.indonode.net:443"
       },
       {
-        "address": "https://rpc-maverick.mavnode.io"
+        "address": "https://rpc.mavnode.io"
       },
       {
         "address": "https://rpc.kenseishido.com"
+      },
+      {
+        "address": "https://rpc.shidoscan.net"
+      },
+      {
+        "address": "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/"
       }
     ],
     "rest": [
@@ -78,10 +84,16 @@
         "address": "https://api.shido.indonode.net"
       },
       {
-        "address": "https://api-maverick.mavnode.io"
+        "address": "https://rest.mavnode.io"
       },
       {
         "address": "https://api.kenseishido.com"
+      },
+      {
+        "address": "https://api.shidoscan.net"
+      },
+      {
+        "address": "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/"
       }
     ],
     "grpc": [
@@ -92,7 +104,7 @@
         "address": "https://grpc-web.shidoscan.com"
       },
       {
-        "address": "https://grpc-maverick.mavnode.io"
+        "address": "https://grpc.mavnode.io"
       },
       {
         "address": "https://grpc.kenseishido.com"
@@ -109,13 +121,16 @@
         "address": "https://shidochain_mainnet_evm.chain.whenmoonwhenlambo.money"
       },
       {
-        "address": "https://evm-maverick.mavnode.io"
+        "address": "https://evm.mavnode.io"
       },
       {
         "address": "https://evm.kenseishido.com"
       },
       {
         "address": "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/rpc"
+      },
+      {
+        "address": "https://evm.shidoscan.net"
       }
     ]
   },
@@ -149,6 +164,12 @@
       "url": "https://explorer.indonode.net/shido",
       "txPage": "https://explorer.indonode.net/shido/tx/${txHash}",
       "accountPage": "https://explorer.indonode.net/shido/account/${accountAddress}"
+    },
+    {
+      "kind": "Shido",
+      "url": "https://native.shidoscan.net",
+      "txPage": "https://native.shidoscan.net/shido/tx/${txHash}",
+      "accountPage": "https://native.shidoscan.net/shido/account/${accountAddress}"
     }
   ],
   "images": [

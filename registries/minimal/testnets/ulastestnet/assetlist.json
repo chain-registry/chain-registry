@@ -18,7 +18,6 @@
       "name": "ULAS Network",
       "display": "ulas",
       "symbol": "ULAS",
-      "coingeckoId": "ulas",
       "assetType": "sdk.coin"
     }
   ]

@@ -18,7 +18,17 @@
       "name": "Jackal",
       "display": "jkl",
       "symbol": "JKL",
-      "coingeckoId": "jackal",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "jackal",
+            "baseDenom": "ujkl"
+          },
+          "provider": "Jackal"
+        }
+      ],
+      "coingeckoId": "jackal-protocol",
       "assetType": "sdk.coin"
     }
   ]

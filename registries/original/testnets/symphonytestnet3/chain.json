@@ -1,55 +1,56 @@
 {
   "$schema": "../../chain.schema.json",
-  "chainName": "symphonytestnet",
+  "chain_name": "symphonytestnet3",
   "status": "live",
-  "networkType": "testnet",
-  "prettyName": "Symphony Testnet",
-  "chainType": "cosmos",
-  "chainId": "symphony-testnet-4",
-  "bech32Prefix": "symphony",
-  "daemonName": "symphonyd",
-  "nodeHome": "$HOME/.symphonyd",
-  "keyAlgos": [
+  "network_type": "testnet",
+  "pretty_name": "Symphony Testnet",
+  "chain_type": "cosmos",
+  "chain_id": "symphony-testnet-3",
+  "bech32_prefix": "symphony",
+  "daemon_name": "symphonyd",
+  "node_home": "$HOME/.symphonyd",
+  "key_algos": [
     "secp256k1"
   ],
   "slip44": 118,
   "fees": {
-    "feeTokens": [
+    "fee_tokens": [
       {
         "denom": "note",
-        "fixedMinGasPrice": 0,
-        "lowGasPrice": 0.0025,
-        "averageGasPrice": 0.025,
-        "highGasPrice": 0.04
+        "fixed_min_gas_price": 0,
+        "low_gas_price": 0.0025,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.04
       }
     ]
   },
   "staking": {
-    "stakingTokens": [
+    "staking_tokens": [
       {
         "denom": "note"
       }
     ]
   },
   "codebase": {
-    "gitRepo": "https://github.com/Orchestra-Labs/symphony",
-    "recommendedVersion": "v0.4.1",
-    "compatibleVersions": [
-      "v0.4.1"
+    "git_repo": "https://github.com/Orchestra-Labs/symphony",
+    "recommended_version": "v23.0.5-rc1",
+    "compatible_versions": [
+      "v23.0.5",
+      "v23.0.5-rc1"
     ],
     "consensus": {
-      "type": "cometbft",
-      "version": "0.38.11"
+      "type": "tendermint",
+      "version": "0.37.4"
     },
     "genesis": {
-      "genesisUrl": "https://raw.githubusercontent.com/Orchestra-Labs/symphony/refs/heads/main/networks/symphony-testnet-4/genesis.json"
+      "genesis_url": "https://rpc.testnet.symphonychain.org/genesis"
     },
     "sdk": {
       "type": "cosmos",
-      "version": "0.50.9"
+      "version": "0.47.8"
     },
     "cosmwasm": {
-      "version": "0.53.0",
+      "version": "0.29",
       "enabled": true
     }
   },
@@ -68,7 +69,7 @@
         "address": "rpc.symphony-t.indonode.net:11856"
       }
     ],
-    "persistentPeers": [
+    "persistent_peers": [
       {
         "id": "eea2dc7e9abfd18787d4cc2c728689ad658cd3a2",
         "address": "34.66.161.223:26656"
@@ -123,7 +124,7 @@
       }
     ]
   },
-  "logoURIs": {
+  "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/symphonytestnet/images/symphony_logo.png"
   },
   "images": [

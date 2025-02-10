@@ -79,6 +79,9 @@
       },
       {
         "address": "https://atomone-mainnet-rpc.itrocket.net:443"
+      },
+      {
+        "address": "https://rpc-atone.vinjan.xyz"
       }
     ],
     "rest": [
@@ -123,6 +126,9 @@
       },
       {
         "address": "https://atomone-mainnet-api.itrocket.net"
+      },
+      {
+        "address": "https://api-atone.vinjan.xyz"
       }
     ],
     "grpc": [

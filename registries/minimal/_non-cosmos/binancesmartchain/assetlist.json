@@ -149,8 +149,7 @@
       "base": "0x454b90716a9435e7161a9aea5cf00e0acbe565ae",
       "name": "Source Token",
       "display": "srcx",
-      "symbol": "SRCX",
-      "coingeckoId": "source-protocol"
+      "symbol": "SRCX"
     },
     {
       "description": "BUSD-T gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
