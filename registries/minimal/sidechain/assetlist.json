@@ -1,0 +1,84 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "sidechain",
+  "assets": [
+    {
+      "description": "The native token of Side Chain.",
+      "denomUnits": [
+        {
+          "denom": "uside",
+          "exponent": 0
+        },
+        {
+          "denom": "side",
+          "exponent": 6
+        }
+      ],
+      "base": "uside",
+      "name": "Side Chain native token",
+      "display": "side",
+      "symbol": "SIDE",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "BTC-pegged token on Side Chain.",
+      "denomUnits": [
+        {
+          "denom": "sat",
+          "exponent": 0
+        },
+        {
+          "denom": "sBTC",
+          "exponent": 8
+        }
+      ],
+      "base": "sat",
+      "name": "Side Bitcoin",
+      "display": "sBTC",
+      "symbol": "sBTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Side Chain"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Noble USDC on Side Chain.",
+      "denomUnits": [
+        {
+          "denom": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
+          "exponent": 0
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/65D0BEC6DAD96C7F5043D1E54E54B6BB5D5B3AEC3FF6CEBB75B9E059F3580EA3",
+      "name": "Noble USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "noble",
+            "baseDenom": "uusdc",
+            "channelId": "channel-123"
+          },
+          "chain": {
+            "channelId": "channel-1",
+            "path": "transfer/channel-1/uusdc"
+          }
+        }
+      ]
+    }
+  ]
+}

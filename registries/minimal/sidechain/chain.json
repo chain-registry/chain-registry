@@ -1,0 +1,155 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "sidechain",
+  "networkType": "mainnet",
+  "website": "https://side.one/",
+  "prettyName": "Side Chain",
+  "chainType": "cosmos",
+  "chainId": "sidechain-1",
+  "bech32Prefix": "side",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uside",
+        "fixedMinGasPrice": 0.0006,
+        "lowGasPrice": 0.0006,
+        "averageGasPrice": 0.0008,
+        "highGasPrice": 0.001
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uside"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.9"
+    },
+    "cosmwasm": {
+      "version": "v0.53.0",
+      "enabled": true
+    }
+  },
+  "description": "The other side of Bitcoin, a fully Bitcoin-Compatible L1 blockchain for the BTCFi",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.side.one"
+      },
+      {
+        "address": "https://rpc.side.nodestake.org"
+      },
+      {
+        "address": "https://side-rpc.synergynodes.com"
+      },
+      {
+        "address": "https://side.publicnode.com"
+      },
+      {
+        "address": "https://side.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://side-mainnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://rpc.side.bh.rocks"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.side.one"
+      },
+      {
+        "address": "https://api.side.nodestake.org"
+      },
+      {
+        "address": "https://side-api.synergynodes.com"
+      },
+      {
+        "address": "https://side-rest.publicnode.com"
+      },
+      {
+        "address": "https://side.api.kjnodes.com"
+      },
+      {
+        "address": "https://side-mainnet-api.itrocket.net"
+      },
+      {
+        "address": "https://api.side.bh.rocks"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.side.one:443"
+      },
+      {
+        "address": "grpc.sided.nodestake.org:443"
+      },
+      {
+        "address": "side-grpc.synergynodes.com:443"
+      },
+      {
+        "address": "side-grpc.publicnode.com:443"
+      },
+      {
+        "address": "side.grpc.kjnodes.com:443"
+      },
+      {
+        "address": "side-mainnet-grpc.itrocket.net:443"
+      },
+      {
+        "address": "grpc.side.bh.rocks:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Ping Pub",
+      "url": "https://ping.pub/side",
+      "txPage": "https://ping.pub/side/tx/${txHash}",
+      "accountPage": "https://ping.pub/side/account/${accountAddress}"
+    },
+    {
+      "kind": "Ping Pub",
+      "url": "https://explorer.nodestake.org/side",
+      "txPage": "https://explorer.nodestake.org/side/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/side/account/${accountAddress}"
+    },
+    {
+      "kind": "Ping Pub",
+      "url": "https://cosmosrun.info/side",
+      "txPage": "https://cosmosrun.info/side/tx/${txHash}",
+      "accountPage": "https://cosmosrun.info/side/account/${accountAddress}"
+    },
+    {
+      "kind": "Ping Pub",
+      "url": "https://explorer.kjnodes.com/side",
+      "txPage": "https://explorer.kjnodes.com/side/tx/${txHash}",
+      "accountPage": "https://explorer.kjnodes.com/side/account/${accountAddress}"
+    },
+    {
+      "kind": "Ping Pub",
+      "url": "https://bh.rocks/side",
+      "txPage": "https://bh.rocks/side/tx/${txHash}",
+      "accountPage": "https://bh.rocks/side/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sidechain/images/side.svg",
+      "theme": {
+        "primaryColorHex": "#f7771a"
+      }
+    }
+  ]
+}

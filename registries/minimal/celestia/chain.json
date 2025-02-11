@@ -33,8 +33,8 @@
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/celestiaorg/cosmos-sdk",
-      "version": "v1.24.1",
-      "tag": "v1.24.1-sdk-v0.46.16"
+      "version": "v1.27.0",
+      "tag": "v1.27.0-sdk-v0.46.16"
     }
   },
   "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
