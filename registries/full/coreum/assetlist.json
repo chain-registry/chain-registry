@@ -171,7 +171,6 @@
           "provider": "Coreum"
         }
       ],
-      "coingeckoId": "ripple-usd",
       "images": [
         {
           "imageSync": {

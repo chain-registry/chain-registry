@@ -14,6 +14,7 @@
           "exponent": 6
         }
       ],
+      "assetType": "sdk.coin",
       "base": "uKIMA",
       "name": "KIMA",
       "display": "KIMA",
@@ -27,8 +28,7 @@
           },
           "provider": "Kima Network"
         }
-      ],
-      "assetType": "sdk.coin"
+      ]
     }
   ]
 }

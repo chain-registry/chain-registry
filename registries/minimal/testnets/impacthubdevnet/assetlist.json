@@ -18,6 +18,16 @@
       "name": "IXO",
       "display": "ixo",
       "symbol": "IXO",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "impacthub",
+            "baseDenom": "uixo"
+          },
+          "provider": "impacthub"
+        }
+      ],
       "coingeckoId": "ixo",
       "assetType": "sdk.coin"
     }

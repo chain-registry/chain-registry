@@ -19,6 +19,16 @@
       "name": "Binance Coin",
       "display": "bnb",
       "symbol": "BNB",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "binancesmartchain",
+            "baseDenom": "wei"
+          },
+          "provider": "Binance Smart Chain"
+        }
+      ],
       "coingeckoId": "binancecoin"
     },
     {

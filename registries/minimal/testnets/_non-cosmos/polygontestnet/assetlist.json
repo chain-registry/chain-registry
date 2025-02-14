@@ -22,6 +22,16 @@
       "name": "Matic",
       "display": "matic",
       "symbol": "MATIC",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "polygon",
+            "baseDenom": "wei"
+          },
+          "provider": "Polygon"
+        }
+      ],
       "coingeckoId": "matic-network"
     },
     {

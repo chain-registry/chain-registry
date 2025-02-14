@@ -27,7 +27,10 @@
       {
         "denom": "uKIMA"
       }
-    ]
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
   },
   "codebase": {
 

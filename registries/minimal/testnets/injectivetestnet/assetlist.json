@@ -18,6 +18,16 @@
       "name": "Injective",
       "display": "INJ",
       "symbol": "INJ",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "inj"
+          },
+          "provider": "Injective"
+        }
+      ],
       "coingeckoId": "injective-protocol",
       "assetType": "sdk.coin"
     }

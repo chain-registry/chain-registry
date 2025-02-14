@@ -18,6 +18,16 @@
       "name": "Persistence",
       "display": "xprt",
       "symbol": "XPRT",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "persistence",
+            "baseDenom": "uxprt"
+          },
+          "provider": "Persistence"
+        }
+      ],
       "coingeckoId": "persistence",
       "assetType": "sdk.coin"
     },

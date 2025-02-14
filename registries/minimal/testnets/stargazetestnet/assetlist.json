@@ -18,6 +18,16 @@
       "name": "Stargaze",
       "display": "stars",
       "symbol": "STARS",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "stargaze",
+            "baseDenom": "ustars"
+          },
+          "provider": "Stargaze"
+        }
+      ],
       "coingeckoId": "stargaze",
       "assetType": "sdk.coin"
     }

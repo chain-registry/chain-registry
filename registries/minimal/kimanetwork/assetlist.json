@@ -14,11 +14,11 @@
           "exponent": 6
         }
       ],
+      "assetType": "sdk.coin",
       "base": "uKIMA",
       "name": "KIMA",
       "display": "KIMA",
-      "symbol": "KIMA",
-      "assetType": "sdk.coin"
+      "symbol": "KIMA"
     }
   ]
 }

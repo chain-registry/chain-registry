@@ -18,6 +18,16 @@
       "display": "bcna",
       "name": "BitCanna",
       "symbol": "BCNA",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "bitcanna",
+            "baseDenom": "ubcna"
+          },
+          "provider": "Bitcanna"
+        }
+      ],
       "coingeckoId": "bitcanna",
       "assetType": "sdk.coin"
     }

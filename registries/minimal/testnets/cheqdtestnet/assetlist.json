@@ -18,6 +18,16 @@
       "display": "cheq",
       "name": "cheqd",
       "symbol": "CHEQ",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "cheqd",
+            "baseDenom": "ncheq"
+          },
+          "provider": "Cheqd"
+        }
+      ],
       "coingeckoId": "cheqd-network",
       "assetType": "sdk.coin"
     }

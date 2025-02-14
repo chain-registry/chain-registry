@@ -22,26 +22,41 @@
       }
     ]
   },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uKIMA"
+      }
+    ],
+    "lockDuration": {
+      "time": "259200s"
+    }
+  },
   "codebase": {
 
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-testnet.kima.finance/"
+        "address": "https://rpc.sardis.kima.network/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.sardis.kima.network"
       }
     ],
     "rest": [
       {
-        "address": "https://api-testnet.kima.finance"
+        "address": "https://api.sardis.kima.network/"
       }
     ]
   },
   "explorers": [
     {
       "kind": "Kima Network",
-      "url": "https://explorer-testnet.kima.finance/",
-      "txPage": "https://explorer-testnet.kima.finance/transactions/${txHash}"
+      "url": "https://explorer.sardis.kima.network/",
+      "txPage": "https://explorer.sardis.kima.network/transactions/${txHash}"
     }
   ]
 }

@@ -18,6 +18,16 @@
       "name": "fetch-ai",
       "display": "testfet",
       "symbol": "FET",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "fetchhub",
+            "baseDenom": "afet"
+          },
+          "provider": "Bitcanna"
+        }
+      ],
       "coingeckoId": "fetch-ai",
       "assetType": "sdk.coin"
     }

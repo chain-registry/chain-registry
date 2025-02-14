@@ -18,6 +18,16 @@
       "name": "Axelar",
       "display": "axl",
       "symbol": "AXL",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "axelar",
+            "baseDenom": "uaxl"
+          },
+          "provider": "Axelar"
+        }
+      ],
       "coingeckoId": "axelar",
       "assetType": "sdk.coin"
     },

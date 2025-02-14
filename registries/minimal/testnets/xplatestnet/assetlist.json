@@ -18,6 +18,16 @@
       "name": "Xpla",
       "display": "xpla",
       "symbol": "XPLA",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "xpla",
+            "baseDenom": "axpla"
+          },
+          "provider": "XPLA"
+        }
+      ],
       "coingeckoId": "xpla",
       "assetType": "sdk.coin"
     }

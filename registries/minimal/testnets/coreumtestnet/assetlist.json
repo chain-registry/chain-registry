@@ -18,6 +18,16 @@
       "name": "Coreum",
       "display": "testcore",
       "symbol": "TESTCORE",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "coreum",
+            "baseDenom": "ucore"
+          },
+          "provider": "Coreum"
+        }
+      ],
       "coingeckoId": "coreum",
       "assetType": "sdk.coin"
     }

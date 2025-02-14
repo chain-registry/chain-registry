@@ -19,6 +19,16 @@
       "name": "Avalanche",
       "display": "avax",
       "symbol": "AVAX",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "avalanche",
+            "baseDenom": "wei"
+          },
+          "provider": "Avalanche"
+        }
+      ],
       "coingeckoId": "avalanche-2"
     },
     {

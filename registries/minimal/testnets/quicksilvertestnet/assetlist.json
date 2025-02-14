@@ -24,6 +24,16 @@
       "name": "Quicksilver",
       "display": "qck",
       "symbol": "QCK",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "baseDenom": "uqck"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
       "coingeckoId": "quicksilver",
       "assetType": "sdk.coin"
     }

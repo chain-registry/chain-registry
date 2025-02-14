@@ -112,7 +112,6 @@
           "provider": "Coreum"
         }
       ],
-      "coingeckoId": "ripple-usd",
       "assetType": "sdk.coin"
     },
     {

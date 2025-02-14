@@ -24,6 +24,16 @@
       "name": "Osmosis",
       "display": "osmo",
       "symbol": "OSMO",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "uosmo"
+          },
+          "provider": "Osmosis"
+        }
+      ],
       "coingeckoId": "osmosis",
       "assetType": "sdk.coin"
     },
@@ -42,6 +52,16 @@
       "name": "Ion",
       "display": "ion",
       "symbol": "ION",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "uion"
+          },
+          "provider": "Osmosis"
+        }
+      ],
       "coingeckoId": "ion",
       "assetType": "sdk.coin"
     }

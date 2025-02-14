@@ -18,6 +18,16 @@
       "name": "Luna",
       "display": "luna",
       "symbol": "LUNA",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "terra2",
+            "baseDenom": "uluna"
+          },
+          "provider": "Terra"
+        }
+      ],
       "coingeckoId": "terra-luna-2",
       "assetType": "sdk.coin"
     }

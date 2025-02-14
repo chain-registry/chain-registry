@@ -18,6 +18,16 @@
       "name": "Secret Network",
       "display": "scrt",
       "symbol": "SCRT",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "secretnetwork",
+            "baseDenom": "uscrt"
+          },
+          "provider": "Secret Network"
+        }
+      ],
       "coingeckoId": "secret",
       "assetType": "sdk.coin"
     }

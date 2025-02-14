@@ -12,9 +12,9 @@
       {
         "denom": "ncheq",
         "fixedMinGasPrice": 5000,
-        "lowGasPrice": 10000,
-        "averageGasPrice": 15000,
-        "highGasPrice": 20000
+        "lowGasPrice": 5000,
+        "averageGasPrice": 7500,
+        "highGasPrice": 10000
       }
     ]
   },

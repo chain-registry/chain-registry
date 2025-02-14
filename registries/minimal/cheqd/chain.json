@@ -12,10 +12,10 @@
     "feeTokens": [
       {
         "denom": "ncheq",
-        "fixedMinGasPrice": 25,
-        "lowGasPrice": 50,
-        "averageGasPrice": 75,
-        "highGasPrice": 100
+        "fixedMinGasPrice": 5000,
+        "lowGasPrice": 5000,
+        "averageGasPrice": 7500,
+        "highGasPrice": 10000
       }
     ]
   },
