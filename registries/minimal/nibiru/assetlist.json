@@ -3,7 +3,8 @@
   "chainName": "nibiru",
   "assets": [
     {
-      "description": "The native token of Nibiru network",
+      "name": "Nibiru",
+      "description": "The native token of Nibiru blockchain",
       "denomUnits": [
         {
           "denom": "unibi",
@@ -19,13 +20,13 @@
         }
       ],
       "base": "unibi",
-      "name": "Nibiru",
       "display": "nibi",
       "symbol": "NIBI",
       "coingeckoId": "nibiru",
       "assetType": "sdk.coin"
     },
     {
+      "name": "Liquid Staked Nibiru (Eris)",
       "description": "Liquid Staked Nibiru (Eris)",
       "denomUnits": [
         {
@@ -38,9 +39,9 @@
         }
       ],
       "base": "tf/nibi1udqqx30cw8nwjxtl4l28ym9hhrp933zlq8dqxfjzcdhvl8y24zcqpzmh8m/ampNIBI",
-      "name": "Liquid Staked Nibiru (Eris)",
       "display": "stNIBI",
       "symbol": "stNIBI",
+      "assetType": "sdk.coin",
       "traces": [
         {
           "type": "liquid-stake",
@@ -50,10 +51,10 @@
           },
           "provider": "Eris Protocol"
         }
-      ],
-      "assetType": "sdk.coin"
+      ]
     },
     {
+      "name": "Noble USDC",
       "description": "Noble USDC on Nibiru",
       "denomUnits": [
         {
@@ -65,11 +66,10 @@
           "exponent": 6
         }
       ],
-      "assetType": "ics20",
       "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
-      "name": "Noble USDC",
       "display": "usdc",
       "symbol": "USDC",
+      "assetType": "ics20",
       "traces": [
         {
           "type": "ibc",
@@ -86,6 +86,7 @@
       ]
     },
     {
+      "name": "Astrovault token",
       "description": "AXV",
       "denomUnits": [
         {
@@ -98,12 +99,31 @@
         }
       ],
       "base": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
-      "name": "AXV",
       "display": "AXV",
       "symbol": "AXV",
       "assetType": "sdk.coin"
     },
     {
+      "name": "Astrovault Nibiru LST (xNIBI)",
+      "description": "Astrovault Nibiru LST (xNIBI)",
+      "address": "nibi1cehpv50vl90g9qkwwny8mw7txw79zs6f7wsfe8ey7dgp238gpy4qhdqjhm",
+      "denomUnits": [
+        {
+          "denom": "cw20:nibi1cehpv50vl90g9qkwwny8mw7txw79zs6f7wsfe8ey7dgp238gpy4qhdqjhm",
+          "exponent": 0
+        },
+        {
+          "denom": "xNIBI",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:nibi1cehpv50vl90g9qkwwny8mw7txw79zs6f7wsfe8ey7dgp238gpy4qhdqjhm",
+      "display": "xNIBI",
+      "symbol": "xNIBI",
+      "assetType": "cw20"
+    },
+    {
+      "name": "uoprek",
       "description": "uoprek",
       "denomUnits": [
         {
@@ -112,12 +132,12 @@
         }
       ],
       "base": "tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek",
-      "name": "uoprek",
       "display": "tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek",
       "symbol": "UOPREK",
       "assetType": "sdk.coin"
     },
     {
+      "name": "utestate",
       "description": "utestate",
       "denomUnits": [
         {
@@ -126,12 +146,12 @@
         }
       ],
       "base": "tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate",
-      "name": "utestate",
       "display": "tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate",
       "symbol": "UTESTATE",
       "assetType": "sdk.coin"
     },
     {
+      "name": "npp",
       "description": "npp",
       "denomUnits": [
         {
@@ -140,7 +160,6 @@
         }
       ],
       "base": "tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP",
-      "name": "npp",
       "display": "tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP",
       "symbol": "NPP",
       "assetType": "sdk.coin"

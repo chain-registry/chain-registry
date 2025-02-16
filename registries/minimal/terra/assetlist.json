@@ -115,6 +115,16 @@
       "name": "Whale Token",
       "display": "whale",
       "symbol": "WHALE",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "migaloo",
+            "baseDenom": "uwhale"
+          },
+          "provider": "Migaloo"
+        }
+      ],
       "coingeckoId": "white-whale"
     },
     {

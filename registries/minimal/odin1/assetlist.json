@@ -18,6 +18,16 @@
       "name": "ODIN",
       "display": "odin",
       "symbol": "ODIN",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "odin",
+            "baseDenom": "loki"
+          },
+          "provider": "Odin"
+        }
+      ],
       "coingeckoId": "odin-protocol",
       "assetType": "sdk.coin"
     },

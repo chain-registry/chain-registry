@@ -18,6 +18,16 @@
       "name": "Fury",
       "display": "fury",
       "symbol": "FURY",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "furya",
+            "baseDenom": "ufury"
+          },
+          "provider": "Furya"
+        }
+      ],
       "coingeckoId": "fanfury",
       "assetType": "sdk.coin"
     },

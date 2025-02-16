@@ -19,6 +19,16 @@
       "name": "Andr",
       "display": "andr",
       "symbol": "ANDR",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "andromeda",
+            "baseDenom": "uandr"
+          },
+          "provider": "Andromeda"
+        }
+      ],
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png"
       },

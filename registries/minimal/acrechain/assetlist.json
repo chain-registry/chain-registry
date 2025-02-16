@@ -18,7 +18,6 @@
       "name": "Acre",
       "display": "acre",
       "symbol": "ACRE",
-      "coingeckoId": "arable-protocol",
       "assetType": "sdk.coin"
     },
     {

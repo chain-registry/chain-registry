@@ -145,6 +145,16 @@
       "name": "Astrovault AXV",
       "display": "AXV",
       "symbol": "AXV",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af"
+          },
+          "provider": "Astrovault"
+        }
+      ],
       "coingeckoId": "astrovault"
     },
     {

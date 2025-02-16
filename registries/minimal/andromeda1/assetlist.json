@@ -19,6 +19,16 @@
       "name": "Andr",
       "display": "andr",
       "symbol": "ANDR",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "andromeda",
+            "baseDenom": "uandr"
+          },
+          "provider": "Andromeda"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]
