@@ -49,7 +49,8 @@
             "path": "transfer/channel-2/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "denomUnits": [
@@ -84,7 +85,8 @@
             "path": "transfer/channel-2/transfer/channel-208/wbtc-satoshi"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlwbtc"
     },
     {
       "denomUnits": [
@@ -119,7 +121,8 @@
             "path": "transfer/channel-2/transfer/channel-208/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlusdc"
     }
   ]
 }

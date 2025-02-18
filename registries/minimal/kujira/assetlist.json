@@ -197,7 +197,8 @@
             "path": "transfer/channel-95/erc20/tether/usdt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "tether"
     },
     {
       "description": "The staking and governance token of Fuzion",
@@ -437,7 +438,8 @@
             "path": "transfer/channel-23/aevmos"
           }
         }
-      ]
+      ],
+      "coingeckoId": "evmos"
     },
     {
       "denomUnits": [
@@ -499,7 +501,8 @@
             "path": "transfer/channel-62/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "denomUnits": [
@@ -530,7 +533,8 @@
             "path": "transfer/channel-3/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "denomUnits": [
@@ -561,7 +565,8 @@
             "path": "transfer/channel-9/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlusdc"
     },
     {
       "denomUnits": [
@@ -592,7 +597,8 @@
             "path": "transfer/channel-18/ucmdx"
           }
         }
-      ]
+      ],
+      "coingeckoId": "comdex"
     },
     {
       "denomUnits": [
@@ -623,7 +629,8 @@
             "path": "transfer/channel-1/ujuno"
           }
         }
-      ]
+      ],
+      "coingeckoId": "juno-network"
     },
     {
       "denomUnits": [
@@ -654,7 +661,8 @@
             "path": "transfer/channel-9/weth-wei"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlweth"
     },
     {
       "denomUnits": [
@@ -685,7 +693,8 @@
             "path": "transfer/channel-0/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "denomUnits": [
@@ -716,7 +725,8 @@
             "path": "transfer/channel-5/uluna"
           }
         }
-      ]
+      ],
+      "coingeckoId": "terra-luna-2"
     },
     {
       "denomUnits": [
@@ -747,7 +757,8 @@
             "path": "transfer/channel-7/ustars"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stargaze"
     },
     {
       "denomUnits": [
@@ -778,7 +789,8 @@
             "path": "transfer/channel-10/uscrt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "secret"
     },
     {
       "denomUnits": [
@@ -815,7 +827,8 @@
             "path": "transfer/channel-158/stk/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stkatom"
     },
     {
       "description": "BackBone Labs Liquid Staked KUJI",
@@ -945,7 +958,8 @@
             "path": "transfer/channel-32/stuatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stride-staked-atom"
     },
     {
       "description": "Stride staked OSMO",
@@ -977,7 +991,8 @@
             "path": "transfer/channel-32/stuosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stride-staked-osmo"
     },
     {
       "description": "LP Bow: DOT.axl-MNTA",

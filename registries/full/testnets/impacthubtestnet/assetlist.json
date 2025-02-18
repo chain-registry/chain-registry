@@ -45,7 +45,8 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
       },
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "ixo"
     }
   ]
 }

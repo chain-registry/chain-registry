@@ -57,7 +57,8 @@
             "path": "transfer/channel-0/transfer/channel-208/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlusdc"
     },
     {
       "description": "OSMO transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -95,7 +96,8 @@
             "path": "transfer/channel-0/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "description": "stOSMO transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -133,7 +135,8 @@
             "path": "transfer/channel-0/transfer/channel-326/stuosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stride-staked-osmo"
     },
     {
       "description": "ATOM transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -171,7 +174,8 @@
             "path": "transfer/channel-0/transfer/channel-0/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "stATOM transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -209,7 +213,8 @@
             "path": "transfer/channel-0/transfer/channel-326/stuatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stride-staked-atom"
     },
     {
       "description": "WETH transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -247,7 +252,8 @@
             "path": "transfer/channel-0/transfer/channel-208/weth-wei"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlweth"
     },
     {
       "description": "WBTC transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -285,7 +291,8 @@
             "path": "transfer/channel-0/transfer/channel-208/wbtc-satoshi"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlwbtc"
     },
     {
       "description": "AKT transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -323,7 +330,8 @@
             "path": "transfer/channel-0/transfer/channel-1/uakt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "akash-network"
     },
     {
       "description": "AXL transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -361,7 +369,8 @@
             "path": "transfer/channel-0/transfer/channel-208/uaxl"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axelar"
     },
     {
       "description": "JUNO transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -399,7 +408,8 @@
             "path": "transfer/channel-0/transfer/channel-42/ujuno"
           }
         }
-      ]
+      ],
+      "coingeckoId": "juno-network"
     },
     {
       "description": "EVMOS transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -437,7 +447,8 @@
             "path": "transfer/channel-0/transfer/channel-204/aevmos"
           }
         }
-      ]
+      ],
+      "coingeckoId": "evmos"
     },
     {
       "description": "stkATOM transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -475,7 +486,8 @@
             "path": "transfer/channel-0/transfer/channel-4/stk/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stkatom"
     },
     {
       "description": "SCRT transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -513,7 +525,8 @@
             "path": "transfer/channel-0/transfer/channel-88/uscrt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "secret"
     },
     {
       "description": "CRO transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -551,7 +564,8 @@
             "path": "transfer/channel-0/transfer/channel-5/basecro"
           }
         }
-      ]
+      ],
+      "coingeckoId": "crypto-com-chain"
     },
     {
       "description": "STARS transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -589,7 +603,8 @@
             "path": "transfer/channel-0/transfer/channel-75/ustars"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stargaze"
     },
     {
       "description": "TIA transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -627,7 +642,8 @@
             "path": "transfer/channel-0/transfer/channel-6994/utia"
           }
         }
-      ]
+      ],
+      "coingeckoId": "celestia"
     },
     {
       "description": "STRD transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -665,7 +681,8 @@
             "path": "transfer/channel-0/transfer/channel-326/ustrd"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stride"
     },
     {
       "description": "CUDOS transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -703,7 +720,8 @@
             "path": "transfer/channel-0/transfer/channel-298/acudos"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cudos"
     },
     {
       "description": "Alloyed BTC transferred from the Osmosis mainnet that is supported on the Nolus chain",
@@ -811,7 +829,8 @@
             "path": "transfer/channel-0/transfer/channel-85077/uom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "mantra-dao"
     },
     {
       "description": "NTRN transferred from the Neutron mainnet that is supported on the Nolus chain",
@@ -849,7 +868,8 @@
             "path": "transfer/channel-3839/untrn"
           }
         }
-      ]
+      ],
+      "coingeckoId": "neutron-3"
     },
     {
       "description": "DYDX transferred from the Neutron mainnet that is supported on the Nolus chain",
@@ -887,7 +907,8 @@
             "path": "transfer/channel-3839/transfer/channel-48/adydx"
           }
         }
-      ]
+      ],
+      "coingeckoId": "dydx-chain"
     },
     {
       "description": "dATOM transferred from the Neutron mainnet that is supported on the Nolus chain",
@@ -925,7 +946,8 @@
             "path": "transfer/channel-3839/factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "drop-staked-atom"
     }
   ]
 }

@@ -120,7 +120,8 @@
             "primaryColorHex": "#272d45"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "USD Coin",
@@ -253,7 +254,8 @@
             "backgroundColorHex": "#FFFFFF"
           }
         }
-      ]
+      ],
+      "coingeckoId": "monerium-eur-money"
     },
     {
       "description": "The token of Crowdpunk DAO",

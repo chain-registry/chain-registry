@@ -41,7 +41,8 @@
           }
         }
       ],
-      "typeAsset": "sdk.coin"
+      "typeAsset": "sdk.coin",
+      "coingeckoId": "jackal-protocol"
     }
   ]
 }

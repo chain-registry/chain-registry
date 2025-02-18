@@ -53,7 +53,8 @@
             "path": "transfer/channel-12/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "denomUnits": [
@@ -87,7 +88,8 @@
             "path": "transfer/channel-1/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "denomUnits": [
@@ -121,7 +123,8 @@
             "path": "transfer/channel-30/uist"
           }
         }
-      ]
+      ],
+      "coingeckoId": "inter-stable-token"
     },
     {
       "denomUnits": [
@@ -155,7 +158,8 @@
             "path": "transfer/channel-27/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlusdc"
     },
     {
       "description": "Akash Token (AKT) is the Akash Network's native utility token",
@@ -190,7 +194,8 @@
             "path": "transfer/channel-25/uakt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "akash-network"
     },
     {
       "denomUnits": [

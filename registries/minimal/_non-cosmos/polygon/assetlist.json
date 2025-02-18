@@ -285,7 +285,8 @@
           },
           "provider": "PageDAO"
         }
-      ]
+      ],
+      "coingeckoId": "page"
     },
     {
       "description": "wETH is 'wrapped ETH'",

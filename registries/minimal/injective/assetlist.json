@@ -51,7 +51,8 @@
             "path": "transfer/channel-143/erc20/tether/usdt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "tether"
     },
     {
       "description": "Tether USDt from Ethereum via Peggy bridge.",
@@ -391,7 +392,8 @@
             "path": "transfer/channel-177/factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
           }
         }
-      ]
+      ],
+      "coingeckoId": "astroport-fi"
     },
     {
       "description": "A receipt token for lent INJ issued by the Neptune Protocol.",
@@ -590,7 +592,8 @@
             "path": "transfer/channel-148/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "The most degenerate NFT on Injective. Gravedigger collection for $bINJ. Giving power back to the community.",

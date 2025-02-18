@@ -309,7 +309,8 @@
             "path": "transfer/channel-15/ustars"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stargaze"
     },
     {
       "description": "LUNA token on Carbon",
@@ -344,7 +345,8 @@
             "path": "transfer/channel-12/uluna"
           }
         }
-      ]
+      ],
+      "coingeckoId": "terra-luna-2"
     },
     {
       "description": "TIA token on Carbon",
@@ -379,7 +381,8 @@
             "path": "transfer/channel-0/transfer/channel-6994/utia"
           }
         }
-      ]
+      ],
+      "coingeckoId": "celestia"
     },
     {
       "description": "MilkTIA token on Carbon",
@@ -414,7 +417,8 @@
             "path": "transfer/channel-0/factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA"
           }
         }
-      ]
+      ],
+      "coingeckoId": "milkyway-staked-tia"
     },
     {
       "description": "STRD token on Carbon",
@@ -449,7 +453,8 @@
             "path": "transfer/channel-8/ustrd"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stride"
     },
     {
       "description": "EVMOS token on Carbon",
@@ -484,7 +489,8 @@
             "path": "transfer/channel-6/aevmos"
           }
         }
-      ]
+      ],
+      "coingeckoId": "evmos"
     },
     {
       "description": "IRIS token on Carbon",
@@ -519,7 +525,8 @@
             "path": "transfer/channel-28/uiris"
           }
         }
-      ]
+      ],
+      "coingeckoId": "iris-network"
     },
     {
       "description": "KUJI token on Carbon",
@@ -554,7 +561,8 @@
             "path": "transfer/channel-9/ukuji"
           }
         }
-      ]
+      ],
+      "coingeckoId": "kujira"
     },
     {
       "description": "stOSMO token on Carbon",
@@ -589,7 +597,8 @@
             "path": "transfer/channel-8/stuosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stride-staked-osmo"
     },
     {
       "description": "CANTO token on Carbon",
@@ -624,7 +633,8 @@
             "path": "transfer/channel-18/acanto"
           }
         }
-      ]
+      ],
+      "coingeckoId": "canto"
     },
     {
       "description": "Cosmos governance token on Carbon",
@@ -659,7 +669,8 @@
             "path": "transfer/channel-3/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "stATOM token on Carbon",
@@ -694,7 +705,8 @@
             "path": "transfer/channel-8/stuatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stride-staked-atom"
     },
     {
       "description": "OSMO token on Carbon",
@@ -729,7 +741,8 @@
             "path": "transfer/channel-0/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "description": "USDC (ERC20) token on Carbon",

@@ -432,7 +432,8 @@
             "path": "transfer/channel-6/factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "drop-staked-atom"
     },
     {
       "description": "Ondo Finance's US Dollar Yield",
@@ -467,7 +468,8 @@
             "path": "transfer/channel-5/ausdy"
           }
         }
-      ]
+      ],
+      "coingeckoId": "ondo-us-dollar-yield"
     },
     {
       "description": "Pryzm's native liquid staking token for ATOM",

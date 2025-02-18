@@ -28,7 +28,8 @@
           "provider": "Dydx"
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "dydx-chain"
     }
   ]
 }

@@ -659,7 +659,8 @@
             "primaryColorHex": "#7c2cfb"
           }
         }
-      ]
+      ],
+      "coingeckoId": "celestia"
     },
     {
       "denomUnits": [

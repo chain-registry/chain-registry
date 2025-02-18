@@ -51,7 +51,8 @@
             "path": "transfer/channel-0/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     }
   ]
 }

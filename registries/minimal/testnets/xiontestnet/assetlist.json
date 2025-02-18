@@ -58,7 +58,8 @@
             "path": "transfer/channel-225057/uaxl"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axelar"
     },
     {
       "denomUnits": [
@@ -92,7 +93,8 @@
             "path": "transfer/channel-490/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "denomUnits": [
@@ -161,7 +163,8 @@
             "path": "transfer/channel-487/inj"
           }
         }
-      ]
+      ],
+      "coingeckoId": "injective-protocol"
     }
   ]
 }

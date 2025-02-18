@@ -125,7 +125,8 @@
             "path": "transfer/channel-110/uvdl"
           }
         }
-      ]
+      ],
+      "coingeckoId": "vidulum"
     },
     {
       "description": "Astrovault AXV",
@@ -219,7 +220,8 @@
             "path": "transfer/channel-29/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "Wrapped USDC (Noble)",

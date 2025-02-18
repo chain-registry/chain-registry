@@ -111,7 +111,8 @@
             "primaryColorHex": "#2775CA"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     }
   ]
 }

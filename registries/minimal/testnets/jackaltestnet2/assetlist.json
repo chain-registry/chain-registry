@@ -28,7 +28,8 @@
           "provider": "Jackal"
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "jackal-protocol"
     }
   ]
 }

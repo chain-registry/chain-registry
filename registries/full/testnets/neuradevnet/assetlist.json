@@ -37,7 +37,8 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ankr.svg"
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "ankr"
     }
   ]
 }

@@ -126,7 +126,8 @@
           },
           "provider": "Circle"
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     }
   ]
 }

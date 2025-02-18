@@ -32,7 +32,8 @@
           "provider": "Archway Testnet"
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "archway"
     },
     {
       "description": "Wrapped CONST (Archway Testnet token)",

@@ -1845,7 +1845,8 @@
           },
           "provider": "Astroport"
         }
-      ]
+      ],
+      "coingeckoId": "astroport-fi"
     },
     {
       "denomUnits": [

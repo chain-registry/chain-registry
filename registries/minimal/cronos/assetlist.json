@@ -28,7 +28,8 @@
           "provider": "Cronos"
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "crypto-com-chain"
     },
     {
       "description": "Tether USDt on Cronos",
@@ -60,7 +61,8 @@
             "path": "transfer/channel-11/erc20/tether/usdt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "tether"
     }
   ]
 }

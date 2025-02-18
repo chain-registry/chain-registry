@@ -50,7 +50,8 @@
             "path": "transfer/channel-1/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "The native token cw20 for Neta on Juno Chain",
@@ -1617,6 +1618,24 @@
           }
         }
       ]
+    },
+    {
+      "description": "Staking coin of Emporion",
+      "denomUnits": [
+        {
+          "denom": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
+          "exponent": 0
+        },
+        {
+          "denom": "EMPR",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
+      "name": "EMPR",
+      "display": "EMPR",
+      "symbol": "EMPR",
+      "assetType": "sdk.coin"
     }
   ]
 }

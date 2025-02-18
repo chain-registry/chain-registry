@@ -51,7 +51,8 @@
             "path": "transfer/channel-15/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "The OSMO native token of Oraichain.",
@@ -83,7 +84,8 @@
             "path": "transfer/channel-13/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "description": "The INJ token for the Oraichain.",
@@ -115,7 +117,8 @@
       ],
       "name": "Injective",
       "display": "inj",
-      "symbol": "INJ"
+      "symbol": "INJ",
+      "coingeckoId": "injective-protocol"
     },
     {
       "description": "The Wrapped INJ token for the Oraichain.",

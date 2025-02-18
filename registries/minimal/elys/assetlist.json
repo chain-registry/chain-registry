@@ -95,7 +95,8 @@
             "path": "transfer/channel-2/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "denomUnits": [
@@ -126,7 +127,8 @@
             "path": "transfer/channel-1/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "Axelar Network Token",
@@ -161,7 +163,8 @@
             "path": "transfer/channel-3/uaxl"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axelar"
     },
     {
       "description": "Akash Network Token",
@@ -196,7 +199,8 @@
             "path": "transfer/channel-5/uakt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "akash-network"
     },
     {
       "description": "Celestia Network Token",
@@ -231,7 +235,8 @@
             "path": "transfer/channel-4/utia"
           }
         }
-      ]
+      ],
+      "coingeckoId": "celestia"
     },
     {
       "description": "Xion Network Token",
@@ -266,7 +271,8 @@
             "path": "transfer/channel-8/uxion"
           }
         }
-      ]
+      ],
+      "coingeckoId": "xion-2"
     },
     {
       "description": "Saga Network Token",
@@ -301,7 +307,8 @@
             "path": "transfer/channel-9/usaga"
           }
         }
-      ]
+      ],
+      "coingeckoId": "saga-2"
     }
   ]
 }

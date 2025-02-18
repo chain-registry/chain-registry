@@ -51,7 +51,8 @@
             "path": "transfer/channel-277/erc20/tether/usdt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "tether"
     },
     {
       "description": "FX on Cosmos Hub",
@@ -82,7 +83,8 @@
             "path": "transfer/channel-585/FX"
           }
         }
-      ]
+      ],
+      "coingeckoId": "fx-coin"
     },
     {
       "description": "The token of Crowdpunk DAO",

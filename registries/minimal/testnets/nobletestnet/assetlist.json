@@ -73,7 +73,8 @@
           "provider": "Circle"
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "Ondo US Dollar Yield",

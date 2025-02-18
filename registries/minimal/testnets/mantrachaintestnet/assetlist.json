@@ -28,7 +28,8 @@
           "provider": "MANTRA Chain"
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "mantra-dao"
     }
   ]
 }

@@ -187,7 +187,8 @@
             "primaryColorHex": "#3454bc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "vidulum"
     },
     {
       "description": "Astrovault AXV",
@@ -325,7 +326,8 @@
             "primaryColorHex": "#2775CA"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "Wrapped USDC (Noble)",

@@ -51,7 +51,8 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
       },
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "dydx-chain"
     }
   ]
 }

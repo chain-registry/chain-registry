@@ -51,7 +51,8 @@
             "path": "transfer/channel-83/erc20/tether/usdt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "tether"
     },
     {
       "description": "The token of Neokingdom DAO.",

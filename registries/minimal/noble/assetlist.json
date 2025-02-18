@@ -77,7 +77,8 @@
             "path": "transfer/channel-4/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "USD Coin",
@@ -159,7 +160,8 @@
           },
           "provider": "Monerium"
         }
-      ]
+      ],
+      "coingeckoId": "monerium-eur-money"
     },
     {
       "description": "The token of Crowdpunk DAO",

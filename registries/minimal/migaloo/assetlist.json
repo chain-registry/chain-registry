@@ -136,7 +136,8 @@
       "name": "Racoon",
       "display": "RAC",
       "symbol": "RAC",
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "racoon"
     },
     {
       "description": "ASH",
@@ -186,7 +187,8 @@
             "path": "transfer/channel-48/erc20/tether/usdt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "tether"
     },
     {
       "description": "Auto componded USDC despoited into Ginkou on Migaloo chain",
@@ -608,7 +610,8 @@
             "path": "transfer/channel-142/udgn"
           }
         }
-      ]
+      ],
+      "coingeckoId": "dragon-coin-2"
     },
     {
       "description": "WHALE-wBTC.osmo LP White Whale Migaloo",

@@ -232,7 +232,8 @@
             "path": "transfer/channel-5498/ujunox"
           }
         }
-      ]
+      ],
+      "coingeckoId": "juno-network"
     },
     {
       "description": "The native token of Mars Protocol",
@@ -327,7 +328,8 @@
             "path": "transfer/channel-4280/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
@@ -405,7 +407,8 @@
             "path": "transfer/channel-10/tkyve"
           }
         }
-      ]
+      ],
+      "coingeckoId": "kyve-network"
     },
     {
       "description": "QCK - native token of Quicksilver",
@@ -443,7 +446,8 @@
             "path": "transfer/channel-13/uqck"
           }
         }
-      ]
+      ],
+      "coingeckoId": "quicksilver"
     },
     {
       "description": "The XPRT token is primarily a governance token for the Persistence chain.",
@@ -478,7 +482,8 @@
             "path": "transfer/channel-1037/uxprt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "persistence"
     },
     {
       "description": "The native token of Saga Testnet",
@@ -559,7 +564,8 @@
             "path": "transfer/channel-1637/uixo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "ixo"
     },
     {
       "denomUnits": [

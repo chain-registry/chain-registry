@@ -76,7 +76,8 @@
             "path": "transfer/channel-0/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "description": "Crypto2Mars Community Token",
@@ -133,7 +134,8 @@
             "path": "transfer/channel-2/aarch"
           }
         }
-      ]
+      ],
+      "coingeckoId": "archway"
     },
     {
       "description": "USDC from Noble",
@@ -171,7 +173,8 @@
             "path": "transfer/channel-3/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "The Spice memecoin",
@@ -203,7 +206,8 @@
             "path": "transfer/channel-0/factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice"
           }
         }
-      ]
+      ],
+      "coingeckoId": "spice-2"
     },
     {
       "description": "JKL from Jackal Network",
@@ -238,7 +242,8 @@
             "path": "transfer/channel-4/ujkl"
           }
         }
-      ]
+      ],
+      "coingeckoId": "jackal-protocol"
     },
     {
       "description": "FLIX from OmniFlix Network",
@@ -273,7 +278,8 @@
             "path": "transfer/channel-5/uflix"
           }
         }
-      ]
+      ],
+      "coingeckoId": "omniflix-network"
     },
     {
       "description": "The Sherpa memecoin",
@@ -381,7 +387,8 @@
             "path": "transfer/channel-0/transfer/channel-169/cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
           }
         }
-      ]
+      ],
+      "coingeckoId": "posthuman"
     }
   ]
 }

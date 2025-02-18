@@ -55,7 +55,8 @@
             "path": "transfer/channel-1/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "Ondo US Dollar Yield",
@@ -202,7 +203,8 @@
             "path": "transfer/channel-4/ustars"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stargaze"
     },
     {
       "description": "The native token of Axelar",
@@ -237,7 +239,8 @@
             "path": "transfer/channel-6/uaxl"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axelar"
     }
   ]
 }

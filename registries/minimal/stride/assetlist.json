@@ -442,7 +442,8 @@
             "path": "transfer/channel-162/utia"
           }
         }
-      ]
+      ],
+      "coingeckoId": "celestia"
     },
     {
       "denomUnits": [

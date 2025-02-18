@@ -54,7 +54,8 @@
             "path": "transfer/channel-1/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "IBC Axelar uusdc through axelar-dojo-1 transfer/channel-2",
@@ -89,7 +90,8 @@
             "path": "transfer/channel-2/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlusdc"
     },
     {
       "description": "Tia on Neutron",
@@ -124,7 +126,8 @@
             "path": "transfer/channel-35/utia"
           }
         }
-      ]
+      ],
+      "coingeckoId": "celestia"
     },
     {
       "description": "Astropepe meme coin",
@@ -205,7 +208,8 @@
             "path": "transfer/channel-48/adydx"
           }
         }
-      ]
+      ],
+      "coingeckoId": "dydx-chain"
     },
     {
       "description": "The cutest NEWT token on Neutron chain.",
@@ -317,7 +321,8 @@
             "port": "transfer"
           }
         }
-      ]
+      ],
+      "coingeckoId": "astroport-fi"
     },
     {
       "description": "Baby Corgi is the real doggo of Neutron!",
@@ -478,7 +483,8 @@
             "path": "transfer/channel-44/unls"
           }
         }
-      ]
+      ],
+      "coingeckoId": "nolus"
     },
     {
       "description": "A Mechanical Canine",
@@ -992,7 +998,8 @@
             "path": "transfer/channel-2/wbtc-satoshi"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlwbtc"
     },
     {
       "description": "Astrovault xATOM on Neutron Chain",

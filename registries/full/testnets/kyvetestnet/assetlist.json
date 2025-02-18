@@ -45,7 +45,8 @@
           }
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "kyve-network"
     }
   ]
 }

@@ -68,7 +68,8 @@
             "path": "transfer/channel-0/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "description": "asdasdasd",

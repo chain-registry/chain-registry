@@ -53,7 +53,8 @@
             "path": "transfer/channel-1/utia"
           }
         }
-      ]
+      ],
+      "coingeckoId": "celestia"
     },
     {
       "description": "The native token of the Celestia blockchain.",
@@ -100,7 +101,8 @@
             "path": "transfer/channel-0/transfer/channel-6994/utia"
           }
         }
-      ]
+      ],
+      "coingeckoId": "celestia"
     },
     {
       "description": "MilkyWay's liquid staked TIA",
@@ -318,7 +320,8 @@
             "path": "transfer/channel-0/transfer/channel-750/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     }
   ]
 }

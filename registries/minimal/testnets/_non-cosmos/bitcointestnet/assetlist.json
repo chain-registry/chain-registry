@@ -28,7 +28,8 @@
           },
           "provider": "Bitcoin"
         }
-      ]
+      ],
+      "coingeckoId": "bitcoin"
     }
   ]
 }

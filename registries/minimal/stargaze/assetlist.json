@@ -141,7 +141,8 @@
             "path": "transfer/channel-0/factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB"
           }
         }
-      ]
+      ],
+      "coingeckoId": "mad-scientists"
     },
     {
       "description": "CDT - Membrane's solvency preserving stablecoin",
@@ -173,7 +174,8 @@
             "path": "transfer/channel-0/factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "collateralized-debt-token"
     },
     {
       "description": "MBRN - Membrane's network token",
@@ -205,7 +207,8 @@
             "path": "transfer/channel-0/factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn"
           }
         }
-      ]
+      ],
+      "coingeckoId": "membrane"
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -240,7 +243,8 @@
             "path": "transfer/channel-191/factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
           }
         }
-      ]
+      ],
+      "coingeckoId": "astroport-fi"
     },
     {
       "description": "PLEB",
@@ -585,7 +589,8 @@
             "path": "transfer/channel-406/uom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "mantra-dao"
     },
     {
       "description": "HOOD",

@@ -366,7 +366,8 @@
             "path": "transfer/channel-164/transfer/channel-0/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "Quicksilver Liquid Staked ARCH",

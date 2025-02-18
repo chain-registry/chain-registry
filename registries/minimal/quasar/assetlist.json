@@ -62,7 +62,8 @@
             "path": "transfer/channel-1/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "description": "ATOM from Osmosis",
@@ -100,7 +101,8 @@
             "path": "transfer/channel-1/transfer/channel-0/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "USDC.axl from Osmosis",
@@ -138,7 +140,8 @@
             "path": "transfer/channel-1/transfer/channel-208/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "axlusdc"
     }
   ]
 }

@@ -111,7 +111,8 @@
             "primary_color_hex": "#2775CA"
           }
         }
-      ]
+      ],
+      "coingecko_id": "usd-coin"
     },
     {
       "description": "Ondo US Dollar Yield",
@@ -326,7 +327,8 @@
             "primary_color_hex": "#db2777"
           }
         }
-      ]
+      ],
+      "coingecko_id": "stargaze"
     },
     {
       "description": "The native token of Axelar",
@@ -378,7 +380,8 @@
             "primary_color_hex": "#040404"
           }
         }
-      ]
+      ],
+      "coingecko_id": "axelar"
     }
   ]
 }

@@ -140,7 +140,8 @@
             "path": "transfer/channel-24/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "Tether USDT on Persistence",
@@ -172,7 +173,8 @@
             "path": "transfer/channel-129/erc20/tether/usdt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "tether"
     },
     {
       "denomUnits": [
@@ -206,7 +208,8 @@
             "path": "transfer/channel-132/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "dydx staking token",
@@ -241,7 +244,8 @@
             "path": "transfer/channel-131/adydx"
           }
         }
-      ]
+      ],
+      "coingeckoId": "dydx-chain"
     },
     {
       "description": "(Deprecated) PSTAKE Liquid-Staked OSMO",
@@ -378,7 +382,8 @@
             "path": "transfer/channel-197/ustars"
           }
         }
-      ]
+      ],
+      "coingeckoId": "stargaze"
     },
     {
       "description": "The native token cw20 for Shade on Secret Network",
@@ -415,7 +420,8 @@
             "path": "transfer/channel-159/cw20:secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm"
           }
         }
-      ]
+      ],
+      "coingeckoId": "shade-protocol"
     },
     {
       "description": "(Deprecated) PSTAKE Liquid-Staked HUAHUA",
@@ -483,7 +489,8 @@
             "path": "transfer/channel-203/uhuahua"
           }
         }
-      ]
+      ],
+      "coingeckoId": "chihuahua-token"
     },
     {
       "description": "(Deprecated) PSTAKE Liquid-Staked XPRT",
@@ -552,7 +559,8 @@
             "path": "transfer/channel-6/factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "wrapped-bitcoin"
     }
   ]
 }

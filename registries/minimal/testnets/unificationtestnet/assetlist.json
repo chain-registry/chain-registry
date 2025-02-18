@@ -28,7 +28,8 @@
           "provider": "Unification"
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "unification"
     }
   ]
 }

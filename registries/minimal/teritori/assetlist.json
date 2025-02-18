@@ -86,7 +86,8 @@
             "path": "transfer/channel-10/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "The native staking and governance token of the Kujira chain.",
@@ -154,7 +155,8 @@
             "path": "transfer/channel-62/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "The native staking and governance token of the Secret chain.",
@@ -186,7 +188,8 @@
             "path": "transfer/channel-63/uscrt"
           }
         }
-      ]
+      ],
+      "coingeckoId": "secret"
     }
   ]
 }

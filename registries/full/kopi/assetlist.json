@@ -220,7 +220,8 @@
             "path": "transfer/channel-0/uusdc"
           }
         }
-      ]
+      ],
+      "coingeckoId": "usd-coin"
     },
     {
       "description": "USDT from injective Chain",
@@ -308,7 +309,8 @@
             "path": "transfer/channel-1/inj"
           }
         }
-      ]
+      ],
+      "coingeckoId": "injective-protocol"
     },
     {
       "description": "Luna from Terra2 Chain",
@@ -352,7 +354,8 @@
             "path": "transfer/channel-5/uluna"
           }
         }
-      ]
+      ],
+      "coingeckoId": "terra-luna-2"
     },
     {
       "description": "Osmosis from Osmosis Chain",
@@ -396,7 +399,8 @@
             "path": "transfer/channel-10/uosmo"
           }
         }
-      ]
+      ],
+      "coingeckoId": "osmosis"
     },
     {
       "description": "Atom from cosmoshub Chain",
@@ -440,7 +444,8 @@
             "path": "transfer/channel-7/uatom"
           }
         }
-      ]
+      ],
+      "coingeckoId": "cosmos"
     },
     {
       "description": "arbitrage receipt token of cUSDT",
