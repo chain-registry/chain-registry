@@ -36,9 +36,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.akash.forbole.com:443"
-      },
-      {
         "address": "https://rpc-akash.ecostake.com:443"
       },
       {
@@ -48,7 +45,7 @@
         "address": "https://akash-rpc.polkachu.com"
       },
       {
-        "address": "http://akash.c29r3.xyz:80/rpc"
+        "address": "https://akash.c29r3.xyz:80/rpc"
       },
       {
         "address": "https://akash-rpc.kleomedes.network"
@@ -63,16 +60,10 @@
         "address": "https://akash-rpc.publicnode.com:443"
       },
       {
-        "address": "https://akash.declab.pro:26601"
-      },
-      {
         "address": "https://rpc.akash.bronbro.io:443"
       }
     ],
     "rest": [
-      {
-        "address": "https://api.akash.forbole.com:443"
-      },
       {
         "address": "https://rest-akash.ecostake.com"
       },
@@ -81,12 +72,6 @@
       },
       {
         "address": "https://akash-api.polkachu.com"
-      },
-      {
-        "address": "https://api-akash.cosmos-spaces.cloud"
-      },
-      {
-        "address": "https://api-akash-ia.cosmosia.notional.ventures"
       },
       {
         "address": "https://akash.c29r3.xyz:443/api"
@@ -113,54 +98,15 @@
         "address": "https://akash-api.validatornode.com"
       },
       {
-        "address": "https://api-akash.whispernode.com:443"
-      },
-      {
-        "address": "https://public.stakewolle.com/cosmos/akash/rest"
-      },
-      {
-        "address": "https://akash.declab.pro:443"
-      },
-      {
         "address": "https://lcd.akash.bronbro.io:443"
       }
     ],
     "grpc": [
       {
-        "address": "grpc-akash-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "akash.lavenderfive.com:443"
       },
       {
-        "address": "akash-grpc.polkachu.com:12890"
-      },
-      {
-        "address": "akash-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "grpc-akash.cosmos-spaces.cloud:1110"
-      },
-      {
-        "address": "grpc-akash-01.stakeflow.io:1502"
-      },
-      {
-        "address": "akash-grpc.w3coins.io:12890"
-      },
-      {
         "address": "akash-grpc.publicnode.com:443"
-      },
-      {
-        "address": "https://akash.declab.pro:9001"
-      },
-      {
-        "address": "grpc-akash.whispernode.com:443"
-      },
-      {
-        "address": "https://grpc.akash.bronbro.io:443"
-      },
-      {
-        "address": "akash-mainnet-grpc.cosmonautstakes.com:14090"
       }
     ]
   },
@@ -172,15 +118,15 @@
       "accountPage": "https://ezstaking.app/akash/account/${accountAddress}"
     },
     {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/akash",
+      "txPage": "https://ping.pub/akash-network/tx/${txHash}"
+    },
+    {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/akash",
       "txPage": "https://www.mintscan.io/akash/transactions/${txHash}",
       "accountPage": "https://www.mintscan.io/akash/accounts/${accountAddress}"
-    },
-    {
-      "kind": "ping.pub",
-      "url": "https://ping.pub/akash-network",
-      "txPage": "https://ping.pub/akash-network/tx/${txHash}"
     },
     {
       "kind": "staking-explorer.com",
@@ -195,19 +141,9 @@
       "accountPage": "https://atomscan.com/akash/accounts/${accountAddress}"
     },
     {
-      "kind": "cloudmos",
-      "url": "https://cloudmos.io/blocks",
-      "txPage": "https://cloudmos.io/transactions/${txHash}"
-    },
-    {
       "kind": "Stakeflow",
       "url": "https://stakeflow.io/akash",
       "accountPage": "https://stakeflow.io/akash/accounts/${accountAddress}"
-    },
-    {
-      "kind": "ValidatorNode",
-      "url": "https://explorer.validatornode.com/akash-network",
-      "txPage": "https://explorer.validatornode.com/akash-network/tx/${txHash}"
     },
     {
       "kind": "Decloud Nodes Lab",

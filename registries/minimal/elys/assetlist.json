@@ -66,6 +66,37 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Eden BOOST token definition",
+      "denomUnits": [
+        {
+          "denom": "uedenb",
+          "exponent": 0,
+          "aliases": [
+            "microedenb"
+          ]
+        },
+        {
+          "denom": "medenb",
+          "exponent": 3,
+          "aliases": [
+            "milliedenb"
+          ]
+        },
+        {
+          "denom": "edenb",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uedenb",
+      "name": "Eden BOOST",
+      "display": "edenb",
+      "symbol": "EDEN BOOST",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "USDC from Noble",
       "denomUnits": [
         {
