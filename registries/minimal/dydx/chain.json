@@ -66,9 +66,6 @@
         "address": "https://rpc-dydx.ecostake.com:443"
       },
       {
-        "address": "https://rpc.dydx.nodestake.top:443"
-      },
-      {
         "address": "https://rpc-dydx.cosmos-spaces.cloud"
       },
       {
@@ -116,9 +113,6 @@
         "address": "https://api-dydx.cosmos-spaces.cloud"
       },
       {
-        "address": "https://api.dydx.nodestake.top:443"
-      },
-      {
         "address": "https://dydx-rest.publicnode.com"
       },
       {
@@ -163,9 +157,6 @@
         "address": "dydx-mainnet-grpc.autostake.com:443"
       },
       {
-        "address": "https://grpc.dydx.nodestake.top"
-      },
-      {
         "address": "dydx.grpc.kjnodes.com:443"
       },
       {
@@ -200,9 +191,9 @@
     },
     {
       "kind": "NodeStake",
-      "url": "https://explorer.nodestake.top/dydx/",
-      "txPage": "https://explorer.nodestake.top/dydx/txs/${txHash}",
-      "accountPage": "https://explorer.nodestake.top/dydx/account/${accountAddress}"
+      "url": "https://explorer.nodestake.org/dydx/",
+      "txPage": "https://explorer.nodestake.org/dydx/txs/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/dydx/account/${accountAddress}"
     },
     {
       "kind": "TC Network",

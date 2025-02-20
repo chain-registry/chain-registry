@@ -52,9 +52,6 @@
         "address": "https://agoric-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc.agoric.nodestake.org"
-      },
-      {
         "address": "https://agoric.rpc.kjnodes.com"
       },
       {
@@ -88,9 +85,6 @@
     "rest": [
       {
         "address": "https://main.api.agoric.net:443"
-      },
-      {
-        "address": "https://api.agoric.nodestake.org"
       },
       {
         "address": "https://agoric-api.polkachu.com"
@@ -127,9 +121,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc.agoric.nodestake.org:443"
-      },
       {
         "address": "agoric-grpc.polkachu.com:14490"
       },

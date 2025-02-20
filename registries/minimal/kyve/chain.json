@@ -58,7 +58,7 @@
         "address": "https://kyve-rpc.ibs.team"
       },
       {
-        "address": "https://rpc.kyve.nodestake.top"
+        "address": "https://rpc.kyve.nodestake.org"
       },
       {
         "address": "https://kyve.rpc.liveraven.net"
@@ -99,7 +99,7 @@
         "address": "https://kyve-api.ibs.team"
       },
       {
-        "address": "https://api.kyve.nodestake.top"
+        "address": "https://api.kyve.nodestake.org"
       },
       {
         "address": "https://kyve.api.liveraven.net"
@@ -122,7 +122,7 @@
     ],
     "grpc": [
       {
-        "address": "https://grpc.kyve.nodestake.top"
+        "address": "grpc.kyve.nodestake.org:443"
       },
       {
         "address": "kyve.lavenderfive.com:443"
@@ -171,9 +171,9 @@
     },
     {
       "kind": "NodeStake Explorer",
-      "url": "https://explorer.nodestake.top/kyve",
-      "txPage": "https://explorer.nodestake.top/kyve/txs/${txHash}",
-      "accountPage": "https://explorer.nodestake.top/kyve/account/${accountAddress}"
+      "url": "https://explorer.nodestake.org/kyve",
+      "txPage": "https://explorer.nodestake.org/kyve/txs/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/kyve/account/${accountAddress}"
     },
     {
       "kind": "🔥STAVR🔥",

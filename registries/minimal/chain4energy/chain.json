@@ -41,9 +41,6 @@
         "address": "https://rpc.c4e.mainnet.dteam.tech:443"
       },
       {
-        "address": "https://rpc.c4e.nodestake.top"
-      },
-      {
         "address": "https://c4e.rpc.bccnodes.com"
       },
       {
@@ -136,9 +133,6 @@
         "address": "https://api.c4e.mainnet.dteam.tech:443"
       },
       {
-        "address": "https://api.c4e.nodestake.top"
-      },
-      {
         "address": "https://c4e.lcd.bccnodes.com"
       },
       {
@@ -212,9 +206,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc.c4e.nodestake.top:443"
-      },
       {
         "address": "grpc.c4e.mainnet.dteam.tech:30090"
       },
@@ -315,8 +306,8 @@
     },
     {
       "kind": "NodeStake Explorer",
-      "url": "https://explorer.nodestake.top/chain4energy",
-      "txPage": "https://explorer.nodestake.top/chain4energy/transactions/${txHash}"
+      "url": "https://explorer.nodestake.org/chain4energy",
+      "txPage": "https://explorer.nodestake.org/chain4energy/transactions/${txHash}"
     },
     {
       "kind": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀 Explorer",

@@ -56,9 +56,6 @@
         "address": "https://rpc.evmos.testnet.run"
       },
       {
-        "address": "https://rpc.evmos.nodestake.top"
-      },
-      {
         "address": "https://rpc.evmos.chaintools.tech/"
       },
       {
@@ -130,9 +127,6 @@
         "address": "https://api-evmos-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://api.evmos.nodestake.top"
-      },
-      {
         "address": "https://evmos-api.polkachu.com"
       },
       {
@@ -195,9 +189,6 @@
         "address": "evmos.lavenderfive.com:443"
       },
       {
-        "address": "grpc.evmos.nodestake.top:443"
-      },
-      {
         "address": "grpc-evmos.cosmos-spaces.cloud:1190"
       },
       {
@@ -255,9 +246,6 @@
       },
       {
         "address": "https://evmos-json-rpc.stakely.io"
-      },
-      {
-        "address": "https://jsonrpc.evmos.nodestake.top"
       },
       {
         "address": "https://json-rpc.evmos.bh.rocks"

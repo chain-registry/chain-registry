@@ -58,9 +58,6 @@
         "address": "https://rpc-empower.vinjan.xyz:443"
       },
       {
-        "address": "https://rpc.empower.nodestake.top"
-      },
-      {
         "address": "https://mainnet-empower-rpc.konsortech.xyz"
       },
       {
@@ -100,9 +97,6 @@
       },
       {
         "address": "https://api-empower.vinjan.xyz:443"
-      },
-      {
-        "address": "https://api.empower.nodestake.top"
       },
       {
         "address": "https://mainnet-empower-api.konsortech.xyz"
@@ -146,9 +140,6 @@
         "address": "grpc-empower.vinjan.xyz"
       },
       {
-        "address": "https://grpc.empower.nodestake.top:443"
-      },
-      {
         "address": "empower.grpc.stakevillage.net:16890"
       },
       {
@@ -180,9 +171,9 @@
     },
     {
       "kind": "NodeStake Explorer",
-      "url": "https://explorer.nodestake.top/empower",
-      "txPage": "https://explorer.nodestake.top/empower/tx/${txHash}",
-      "accountPage": "https://explorer.nodestake.top/empower/account/{$accountAddress}"
+      "url": "https://explorer.nodestake.org/empower",
+      "txPage": "https://explorer.nodestake.org/empower/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/empower/account/{$accountAddress}"
     },
     {
       "kind": "Stake Village",

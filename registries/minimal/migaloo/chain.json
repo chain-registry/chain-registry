@@ -51,9 +51,6 @@
         "address": "https://migaloo-rpc.kleomedes.network:443"
       },
       {
-        "address": "https://rpc.whitewhale.nodestake.top"
-      },
-      {
         "address": "https://migaloo-rpc.highstakes.ch"
       },
       {
@@ -71,9 +68,6 @@
         "address": "https://migaloo-api.kleomedes.network:443"
       },
       {
-        "address": "https://api.whitewhale.nodestake.top"
-      },
-      {
         "address": "https://migaloo-api.highstakes.ch"
       },
       {
@@ -89,9 +83,6 @@
       },
       {
         "address": "grpc-migaloo.cosmos-spaces.cloud:4810"
-      },
-      {
-        "address": "https://grpc.whitewhale.nodestake.top"
       },
       {
         "address": "migaloo-grpc.publicnode.com:443"

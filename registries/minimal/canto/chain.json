@@ -32,9 +32,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.canto.nodestake.top"
-      },
-      {
         "address": "https://canto-rpc.polkachu.com"
       },
       {
@@ -52,9 +49,6 @@
     ],
     "rest": [
       {
-        "address": "https://api.canto.nodestake.top"
-      },
-      {
         "address": "https://canto-api.polkachu.com"
       },
       {
@@ -70,9 +64,6 @@
     "grpc": [
       {
         "address": "canto-grpc.polkachu.com:15590"
-      },
-      {
-        "address": "grpc.canto.nodestake.top:443"
       },
       {
         "address": "https://grpc.canto.silentvalidator.com/"
@@ -93,9 +84,6 @@
       },
       {
         "address": "https://canto.slingshot.finance"
-      },
-      {
-        "address": "https://jsonrpc.canto.nodestake.top"
       },
       {
         "address": "https://evm-rpc.canto.silentvalidator.com/"

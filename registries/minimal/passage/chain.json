@@ -59,9 +59,6 @@
         "address": "https://rpc-passage.cosmos-spaces.cloud"
       },
       {
-        "address": "https://rpc.passage.nodestake.top"
-      },
-      {
         "address": "https://passage-rpc.polkachu.com"
       },
       {
@@ -112,9 +109,6 @@
         "address": "https://api-passage-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://api.passage.nodestake.top"
-      },
-      {
         "address": "https://passage-api.polkachu.com"
       },
       {
@@ -157,9 +151,6 @@
       },
       {
         "address": "grpc-passage.cosmos-spaces.cloud:2320"
-      },
-      {
-        "address": "grpc.passage.nodestake.top:443"
       },
       {
         "address": "passage-mainnet-grpc.autostake.com:443"

@@ -103,6 +103,38 @@
         }
       ],
       "coingeckoId": "usd-coin"
+    },
+    {
+      "assetType": "erc20",
+      "address": "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
+      "denomUnits": [
+        {
+          "denom": "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
+          "exponent": 0,
+          "aliases": [
+            "uusdt"
+          ]
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "base": "0xaA8E23Fb1079EA71e0a56F48a2aA51851D8433D0",
+      "name": "Tether USD",
+      "display": "usdt",
+      "symbol": "USDT",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Tether"
+        }
+      ],
+      "coingeckoId": "tether"
     }
   ]
 }

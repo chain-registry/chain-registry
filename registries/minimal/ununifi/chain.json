@@ -50,9 +50,6 @@
         "address": "http://a.lcd.ununifi.cauchye.net:26657"
       },
       {
-        "address": "https://rpc.ununifi.nodestake.top"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/ununifi"
       },
       {
@@ -70,9 +67,6 @@
         "address": "https://b.lcd.ununifi.cauchye.net:1318"
       },
       {
-        "address": "https://api.ununifi.nodestake.top"
-      },
-      {
         "address": "https://rest.lavenderfive.com:443/ununifi"
       },
       {
@@ -88,9 +82,6 @@
       },
       {
         "address": "ununifi-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "grpc.ununifi.nodestake.top:9090"
       },
       {
         "address": "https://grpc-ununifi.nodeist.net"
@@ -111,8 +102,8 @@
     },
     {
       "kind": "NodeStake Explorer",
-      "url": "https://explorer.nodestake.top/ununifi",
-      "txPage": "https://explorer.nodestake.top/ununifi/tx/${txHash}"
+      "url": "https://explorer.nodestake.org/ununifi",
+      "txPage": "https://explorer.nodestake.org/ununifi/tx/${txHash}"
     },
     {
       "kind": "staking-explorer.com",
