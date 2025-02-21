@@ -527,9 +527,9 @@
     },
     "sdk": {
       "type": "cosmos",
-      "version": "0.50.10",
+      "version": "0.50.11",
       "repo": "https://github.com/osmosis-labs/cosmos-sdk",
-      "tag": "v0.50.10-v27-osmo-1"
+      "tag": "v0.50.11-v28-osmo-1"
     }
   },
   "images": [
