@@ -18,7 +18,8 @@
       "name": "Atone",
       "display": "atone",
       "symbol": "ATONE",
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "atomone"
     }
   ]
 }

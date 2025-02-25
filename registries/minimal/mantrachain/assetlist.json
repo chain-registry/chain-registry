@@ -241,6 +241,27 @@
         }
       ],
       "coingeckoId": "axelar"
+    },
+    {
+      "description": "The OG meme coin on MANTRA Chain",
+      "denomUnits": [
+        {
+          "denom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE",
+          "exponent": 0,
+          "aliases": [
+            "ubike"
+          ]
+        },
+        {
+          "denom": "bike",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE",
+      "name": "Ali-Rev-Gator",
+      "display": "bike",
+      "symbol": "BIKE",
+      "assetType": "sdk.coin"
     }
   ]
 }

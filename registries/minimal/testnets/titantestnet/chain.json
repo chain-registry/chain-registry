@@ -36,7 +36,7 @@
     "sdk": {
       "type": "cosmos",
       "version": "0.47.6",
-      "tag": "0.47.6-titan.4"
+      "tag": "v0.47.6-titan.7"
     },
     "cosmwasm": {
       "version": "0.45.0",
