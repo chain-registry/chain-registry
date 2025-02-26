@@ -19,6 +19,151 @@
       "name": "MANTRA Chain Dukong",
       "display": "om",
       "symbol": "OM"
+    },
+    {
+      "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, with Circle as the first issuer.",
+      "denomUnits": [
+        {
+          "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+          "exponent": 0,
+          "aliases": [
+            "microusdc",
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+      "name": "USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "nobletestnet",
+            "baseDenom": "uusdc",
+            "channelId": "channel-237"
+          },
+          "chain": {
+            "channelId": "channel-2",
+            "path": "transfer/channel-2/uusdc"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Ondo US Dollar Yield",
+      "denomUnits": [
+        {
+          "denom": "ibc/D4673DC468A86C668204C7A29BFDC3511FF36D512C38C9EB9215872E9653B239",
+          "exponent": 0,
+          "aliases": [
+            "attousdy",
+            "ausdy"
+          ]
+        },
+        {
+          "denom": "usdy",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/D4673DC468A86C668204C7A29BFDC3511FF36D512C38C9EB9215872E9653B239",
+      "name": "Ondo US Dollar Yield",
+      "display": "usdy",
+      "symbol": "USDY",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "nobletestnet",
+            "baseDenom": "ausdy",
+            "channelId": "channel-237"
+          },
+          "chain": {
+            "channelId": "channel-2",
+            "path": "transfer/channel-2/ausdy"
+          }
+        }
+      ]
+    },
+    {
+      "description": "OSMO from Osmosis",
+      "denomUnits": [
+        {
+          "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+          "exponent": 0,
+          "aliases": [
+            "uosmo"
+          ]
+        },
+        {
+          "denom": "osmo",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+      "name": "Osmosis",
+      "display": "osmo",
+      "symbol": "OSMO",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "osmosistestnet",
+            "baseDenom": "uosmo",
+            "channelId": "channel-9126"
+          },
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/uosmo"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The native staking and governance token of the Cosmos Hub.",
+      "denomUnits": [
+        {
+          "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+          "exponent": 0,
+          "aliases": [
+            "uatom"
+          ]
+        },
+        {
+          "denom": "atom",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+      "name": "Cosmos Hub",
+      "display": "atom",
+      "symbol": "ATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "cosmosicsprovidertestnet",
+            "baseDenom": "uatom",
+            "channelId": "channel-241"
+          },
+          "chain": {
+            "channelId": "channel-3",
+            "path": "transfer/channel-3/uatom"
+          }
+        }
+      ]
     }
   ]
 }
