@@ -126,6 +126,9 @@
       },
       {
         "address": "https://celestia-rpc.stakeandrelax.net"
+      },
+      {
+        "address": "https://rpc.celestia.node75.org"
       }
     ],
     "rest": [
@@ -206,6 +209,9 @@
       },
       {
         "address": "https://celestia-api.stakeandrelax.net"
+      },
+      {
+        "address": "https://api.celestia.node75.org"
       }
     ],
     "grpc": [
@@ -274,6 +280,9 @@
       },
       {
         "address": "http://celestia-grpc.stakeandrelax.net:11690"
+      },
+      {
+        "address": "grpc.celestia.node75.org:9220"
       }
     ]
   },

@@ -3,6 +3,25 @@
   "chainName": "fxcore",
   "assets": [
     {
+      "description": "PUNDIAI is an ERC-20 utility and governance token of Pundi AI ecosystem, including Pundi AI Data Platform, Pundi AI Marketplace, Pundi AIFX Omni Layer and Pundi MM AI Agent Launcher.",
+      "denomUnits": [
+        {
+          "denom": "apundiai",
+          "exponent": 0
+        },
+        {
+          "denom": "pundiai",
+          "exponent": 18
+        }
+      ],
+      "base": "apundiai",
+      "name": "Pundi AI",
+      "display": "pundiai",
+      "symbol": "PUNDIAI",
+      "coingeckoId": "pundi-aifx",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "The native staking token of the Function X",
       "denomUnits": [
         {
