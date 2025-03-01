@@ -36,17 +36,11 @@
     "rpc": [
       {
         "address": "https://asc-dataseed.arkhadian.com/"
-      },
-      {
-        "address": "https://arkh_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
       {
         "address": "https://asc-blockchain-api.arkhadian.com/"
-      },
-      {
-        "address": "https://arkh_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -65,12 +59,6 @@
       "kind": "NODEXPLORER",
       "url": "https://explorer.nodexcapital.com/arkhadian",
       "txPage": "https://explorer.nodexcapital.com/arkhadian/tx/${txHash}"
-    },
-    {
-      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
-      "url": "https://explorer.whenmoonwhenlambo.money/arkhadian",
-      "txPage": "https://explorer.whenmoonwhenlambo.money/arkhadian/tx/${txHash}",
-      "accountPage": "https://explorer.whenmoonwhenlambo.money/arkhadian/account/${accountAddress}"
     }
   ],
   "images": [

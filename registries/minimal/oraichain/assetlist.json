@@ -487,7 +487,8 @@
       "base": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
       "name": "SAM",
       "display": "sam",
-      "symbol": "SAM"
+      "symbol": "SAM",
+      "coingeckoId": "sam-2"
     }
   ]
 }
