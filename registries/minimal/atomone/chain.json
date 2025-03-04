@@ -82,6 +82,9 @@
       },
       {
         "address": "https://rpc-atone.vinjan.xyz"
+      },
+      {
+        "address": "https://rpc-atomone.ecostake.com"
       }
     ],
     "rest": [
@@ -129,6 +132,9 @@
       },
       {
         "address": "https://api-atone.vinjan.xyz"
+      },
+      {
+        "address": "https://rest-atomone.ecostake.com"
       }
     ],
     "grpc": [
