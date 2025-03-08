@@ -1,0 +1,61 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "bfhevmtestnet",
+  "networkType": "testnet",
+  "website": "https://bfhaltruistic.com",
+  "prettyName": "BFH-EVM",
+  "chainType": "cosmos",
+  "chainId": "bfhevm_777-1",
+  "bech32Prefix": "bfh",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "abfh"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-bfhevm.xyz:8443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-testnet-bfhevm.xyz:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc-testnet-bfhevm.xyz:4430"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "_"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "BFH-DEXplorer",
+      "url": "https://bfhaltruistic.com",
+      "txPage": "https://bfhaltruistic.com/blocks"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/bfhevmtestnet/images/bfhevm.png"
+    }
+  ]
+}

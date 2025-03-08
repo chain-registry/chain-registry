@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "bfhevmtestnet",
+  "assets": [
+    {
+      "description": "BFH-EVM is a blockchain platform developed by BFH Fintech Innovations Ltd., designed to support DeFi, NFTs, and decentralized applications with fast and low-cost transactions.",
+      "denomUnits": [
+        {
+          "denom": "abfh",
+          "exponent": 0
+        },
+        {
+          "denom": "bfh",
+          "exponent": 18
+        }
+      ],
+      "base": "abfh",
+      "name": "BFH",
+      "display": "bfh",
+      "symbol": "BFH",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
