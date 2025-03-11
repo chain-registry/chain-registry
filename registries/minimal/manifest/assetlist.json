@@ -1,0 +1,42 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "manifest",
+  "assets": [
+    {
+      "description": "Manifest native token",
+      "denomUnits": [
+        {
+          "denom": "umfx",
+          "exponent": 0
+        },
+        {
+          "denom": "mfx",
+          "exponent": 6
+        }
+      ],
+      "base": "umfx",
+      "name": "Manifest Token",
+      "display": "mfx",
+      "symbol": "MFX",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Proof of Authority token for the Manifest network",
+      "denomUnits": [
+        {
+          "denom": "upoa",
+          "exponent": 0
+        },
+        {
+          "denom": "poa",
+          "exponent": 6
+        }
+      ],
+      "base": "upoa",
+      "name": "Manifest Proof of Authority Token",
+      "display": "poa",
+      "symbol": "POA",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

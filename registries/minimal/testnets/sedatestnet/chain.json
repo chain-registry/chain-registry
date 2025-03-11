@@ -1,0 +1,93 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "sedatestnet",
+  "networkType": "testnet",
+  "website": "https://www.seda.xyz/",
+  "prettyName": "SEDA",
+  "chainType": "cosmos",
+  "chainId": "seda-1-testnet",
+  "bech32Prefix": "seda",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aseda",
+        "fixedMinGasPrice": 10000000000,
+        "lowGasPrice": 10000000000,
+        "averageGasPrice": 10000000000,
+        "highGasPrice": 14000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "aseda"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.12"
+    },
+    "cosmwasm": {
+      "version": "0.50.0",
+      "repo": "https://github.com/CosmWasm/wasmd",
+      "enabled": true
+    }
+  },
+  "description": "SEDA is a standard for modular data transport and querying. Any data type, for all networks.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.seda.xyz/"
+      },
+      {
+        "address": "https://seda-testnet-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://seda-testnet.rpc.kjnodes.com"
+      },
+      {
+        "address": "https://seda-testnet-rpc.synergynodes.com/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.testnet.seda.xyz/"
+      },
+      {
+        "address": "https://seda-testnet-api.polkachu.com/"
+      },
+      {
+        "address": "https://seda-testnet.api.kjnodes.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "seda-testnet-grpc.polkachu.com:25890"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "sedaexplorer",
+      "url": "https://testnet.explorer.seda.xyz/",
+      "txPage": "https://testnet.explorer.seda.xyz/txs/${txHash}",
+      "accountPage": "https://testnet.explorer.seda.xyz/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg",
+      "theme": {
+        "primaryColorHex": "#8178d1"
+      }
+    }
+  ]
+}

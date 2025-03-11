@@ -58,8 +58,8 @@
       "imageSync": {
         "chainName": "manifestdevnet"
       },
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/manifesttestnet/images/manifest.svg",
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.svg",
       "theme": {
         "primaryColorHex": "#A087FF"
       }

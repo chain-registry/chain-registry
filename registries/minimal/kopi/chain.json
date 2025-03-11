@@ -68,6 +68,9 @@
       },
       {
         "address": "https://rpc.kopi.nodestake.org"
+      },
+      {
+        "address": "https://kopi-rpc.node39.top:443"
       }
     ],
     "rest": [
@@ -75,7 +78,7 @@
         "address": "https://rest.kopi.money"
       },
       {
-        "address": "https://rpc.kopi.chaintools.tech"
+        "address": "https://api.kopi.chaintools.tech"
       },
       {
         "address": "https://kopi-rest.cosmoscan.com"
@@ -106,6 +109,9 @@
       },
       {
         "address": "https://api.kopi.nodestake.org"
+      },
+      {
+        "address": "https://kopi-api.node39.top:443"
       }
     ],
     "grpc": [
@@ -129,6 +135,9 @@
       },
       {
         "address": "https://grpc.kopi.nodestake.org:443"
+      },
+      {
+        "address": "https://kopi-grpc.node39.top:15090"
       }
     ]
   },
@@ -180,6 +189,12 @@
       "url": "https://explorer.nodestake.org/kopi/",
       "txPage": "https://explorer.nodestake.org/kopi/txs/${txHash}",
       "accountPage": "https://explorer.nodestake.org/kopi/account/${accountAddress}"
+    },
+    {
+      "kind": "Node39 Explorer",
+      "url": "https://explorer.node39.top/kopi/",
+      "txPage": "https://explorer.node39.top/kopi/txs/${txHash}",
+      "accountPage": "https://explorer.node39.top/kopi/account/${accountAddress}"
     }
   ],
   "images": [

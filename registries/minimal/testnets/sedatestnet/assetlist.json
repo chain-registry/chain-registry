@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "sedatestnet",
+  "assets": [
+    {
+      "description": "The testnet token of SEDA Chain.",
+      "denomUnits": [
+        {
+          "denom": "aseda",
+          "exponent": 0
+        },
+        {
+          "denom": "seda",
+          "exponent": 18
+        }
+      ],
+      "base": "aseda",
+      "name": "Seda",
+      "display": "seda",
+      "symbol": "SEDA",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

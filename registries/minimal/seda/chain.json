@@ -32,7 +32,12 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.50.5"
+      "version": "v0.50.12"
+    },
+    "cosmwasm": {
+      "version": "0.50.0",
+      "repo": "https://github.com/CosmWasm/wasmd",
+      "enabled": true
     }
   },
   "description": "SEDA is a standard for modular data transport and querying. Any data type, for all networks.",

@@ -3,6 +3,36 @@
   "chainName": "polygon",
   "assets": [
     {
+      "description": "Polygon combines the best of Ethereum and sovereign blockchains into a full-fledged multi-chain system.",
+      "assetType": "erc20",
+      "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "denomUnits": [
+        {
+          "denom": "0x0000000000000000000000000000000000001010",
+          "exponent": 0
+        },
+        {
+          "denom": "pol",
+          "exponent": 18
+        }
+      ],
+      "base": "0x0000000000000000000000000000000000001010",
+      "name": "Polygon (ex-MATIC)",
+      "display": "pol",
+      "symbol": "POL",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "polygon",
+            "baseDenom": "wei"
+          },
+          "provider": "Polygon"
+        }
+      ],
+      "coingeckoId": "polygon-ecosystem-token"
+    },
+    {
       "description": "Polygon, previously known as Matic Network, is a Layer 2 scaling solution for Ethereum that aims to provide faster and cheaper transactions.",
       "denomUnits": [
         {
@@ -10,19 +40,15 @@
           "exponent": 0
         },
         {
-          "denom": "pol",
-          "exponent": 18,
-          "aliases": [
-            "polygon",
-            "matic"
-          ]
+          "denom": "matic",
+          "exponent": 18
         }
       ],
       "assetType": "evm-base",
       "base": "wei",
       "name": "Polygon",
-      "display": "pol",
-      "symbol": "POL",
+      "display": "matic",
+      "symbol": "MATIC",
       "coingeckoId": "matic-network"
     },
     {
@@ -39,10 +65,7 @@
         },
         {
           "denom": "wmatic",
-          "exponent": 18,
-          "aliases": [
-            "polygon"
-          ]
+          "exponent": 18
         }
       ],
       "base": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
