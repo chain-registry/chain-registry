@@ -81,6 +81,39 @@
         }
       ],
       "coingeckoId": "usd-coin"
+    },
+    {
+      "description": "Wrapped Bitcoin (BTC) is BTC token bridged from Bitcoin to titan chain through Titan bridge https://titanearn.com/bridge",
+      "denomUnits": [
+        {
+          "denom": "factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc",
+          "exponent": 0,
+          "aliases": [
+            "btc-satoshi"
+          ]
+        },
+        {
+          "denom": "btc",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e",
+      "base": "factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc",
+      "name": "Bitcoin",
+      "display": "btc",
+      "symbol": "BTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "BitGo, Titanlab.io"
+        }
+      ],
+      "coingeckoId": "bitcoin"
     }
   ]
 }
