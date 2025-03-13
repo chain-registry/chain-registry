@@ -151,6 +151,24 @@
       "symbol": "LICORE",
       "coingeckoId": "licore",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Rewards token designed to incentivize participation in Coreum Community DAO",
+      "denomUnits": [
+        {
+          "denom": "uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv",
+          "exponent": 0
+        },
+        {
+          "denom": "ccd",
+          "exponent": 6
+        }
+      ],
+      "base": "uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv",
+      "name": "Coreum Community DAO Token",
+      "display": "ccd",
+      "symbol": "CCD",
+      "assetType": "sdk.coin"
     }
   ]
 }

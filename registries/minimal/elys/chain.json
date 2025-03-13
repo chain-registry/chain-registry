@@ -107,6 +107,9 @@
       },
       {
         "address": "https://elys-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://elys-rpc.node39.top:443"
       }
     ],
     "rest": [
@@ -160,6 +163,9 @@
       },
       {
         "address": "https://elys-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://elys-api.node39.top:443"
       }
     ],
     "grpc": [
@@ -195,6 +201,9 @@
       },
       {
         "address": "elys-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "elys-grpc.node39.top:12090"
       }
     ]
   },
@@ -240,6 +249,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/elys",
       "txPage": "https://explorer.whenmoonwhenlambo.money/elys/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/elys/account/${accountAddress}"
+    },
+    {
+      "kind": "Node39",
+      "url": "https://explorer.node39.top/elys",
+      "txPage": "https://explorer.node39.top/elys/tx/${txHash}",
+      "accountPage": "https://explorer.node39.top/elys/account/${accountAddress}"
     }
   ]
 }

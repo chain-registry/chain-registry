@@ -51,9 +51,6 @@
         "address": "https://migaloo-rpc.kleomedes.network:443"
       },
       {
-        "address": "https://migaloo-rpc.highstakes.ch"
-      },
-      {
         "address": "https://migaloo-rpc.publicnode.com:443"
       }
     ],
@@ -66,9 +63,6 @@
       },
       {
         "address": "https://migaloo-api.kleomedes.network:443"
-      },
-      {
-        "address": "https://migaloo-api.highstakes.ch"
       },
       {
         "address": "https://migaloo-rest.publicnode.com"

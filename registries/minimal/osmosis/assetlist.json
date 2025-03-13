@@ -19352,7 +19352,7 @@
       ]
     },
     {
-      "description": "The Seven Green Shade Token, limited to 7777 units, represents exclusive access and utilities in the upcoming Seven Shaders RPG AI game.",
+      "description": "T7S is the heartbeat of the Seven Shaders universe—powering NFTs, AI adventures, and gaming rewards. One token, endless possibilities.",
       "denomUnits": [
         {
           "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
@@ -19427,6 +19427,25 @@
           "provider": "Osmosis"
         }
       ]
+    },
+    {
+      "description": "ALLiN Gaming is a GameFi platform on Dymension and Osmosis, featuring casino games, PvP games, and prediction markets. It offers a fun, transparent, and rewarding experience with a unique points system.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1gzcz4anh88fz3vanx0842gsa3y8jcvck3qw90e/uallin",
+          "exponent": 0
+        },
+        {
+          "denom": "allin",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1gzcz4anh88fz3vanx0842gsa3y8jcvck3qw90e",
+      "base": "factory/osmo1gzcz4anh88fz3vanx0842gsa3y8jcvck3qw90e/uallin",
+      "name": "ALLIN",
+      "display": "allin",
+      "symbol": "ALLIN"
     }
   ]
 }
