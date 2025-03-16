@@ -41,6 +41,9 @@
       },
       {
         "address": "https://axelar-testnet-rpc.ibs.team:443"
+      },
+      {
+        "address": "https://axelartest.rpc.quantnode.xyz"
       }
     ],
     "rest": [
@@ -52,6 +55,14 @@
       },
       {
         "address": "https://axelar-testnet-api.ibs.team:443"
+      },
+      {
+        "address": "https://axelartest.lcd.quantnode.xyz"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "axelartest.grpc.quantnode.xyz:20990"
       }
     ]
   },

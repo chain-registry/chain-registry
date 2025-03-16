@@ -76,6 +76,9 @@
       },
       {
         "address": "https://orai-rpc.owallet.io"
+      },
+      {
+        "address": "https://oraichain-mainnet-rpc.itrocket.net"
       }
     ],
     "rest": [
@@ -102,6 +105,9 @@
       },
       {
         "address": "https://orai-rest.owallet.io"
+      },
+      {
+        "address": "https://oraichain-mainnet-api.itrocket.net"
       }
     ],
     "grpc": [
@@ -128,6 +134,9 @@
       },
       {
         "address": "orai-grpc.owallet.io:9999"
+      },
+      {
+        "address": "oraichain-mainnet-grpc.itrocket.net:443"
       }
     ]
   },
@@ -176,6 +185,12 @@
       "url": "https://explorer.imdev.app/oraichain",
       "txPage": "https://explorer.imdev.app/oraichain/tx/${txHash}",
       "accountPage": "https://explorer.imdev.app/oraichain/account/${accountAddress}"
+    },
+    {
+      "kind": "ITRocket",
+      "url": "https://mainnet.itrocket.net/oraichain",
+      "txPage": "https://mainnet.itrocket.net/oraichain/tx/${txHash}",
+      "accountPage": "https://mainnet.itrocket.net/oraichain/account/${accountAddress}"
     }
   ],
   "images": [

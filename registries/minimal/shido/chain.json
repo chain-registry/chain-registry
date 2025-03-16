@@ -98,6 +98,9 @@
     ],
     "grpc": [
       {
+        "address": "https://grpc.shidoscan.net"
+      },
+      {
         "address": "https://grpc.shidoscan.com"
       },
       {

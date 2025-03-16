@@ -62,6 +62,9 @@
       },
       {
         "address": "https://shentu-rpc.chainroot.io"
+      },
+      {
+        "address": "https://shentu-rpc.node39.top:443"
       }
     ],
     "rest": [
@@ -97,6 +100,9 @@
       },
       {
         "address": "https://shentu-api.chainroot.io"
+      },
+      {
+        "address": "https://shentu-api.node39.top:443"
       }
     ],
     "grpc": [
@@ -126,6 +132,9 @@
       },
       {
         "address": "shentu-grpc.chainroot.io:443"
+      },
+      {
+        "address": "shentu-grpc.node39.top:11656"
       }
     ]
   },
@@ -186,6 +195,12 @@
       "url": "https://explorer.chainroot.io/shentu",
       "txPage": "https://explorer.chainroot.io/shentu/transactions/${txHash}",
       "accountPage": "https://explorer.chainroot.io/shentu/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Node39",
+      "url": "https://explorer.node39.top/shentu",
+      "txPage": "https://explorer.node39.top/shentu/transactions/${txHash}",
+      "accountPage": "https://explorer.node39.top/shentu/accounts/${accountAddress}"
     }
   ],
   "images": [

@@ -73,7 +73,7 @@
         "address": "https://persistence-mainnet-rpc.cosmonautstakes.com"
       },
       {
-        "address": "https://persistence-rpc.quantnode.tech"
+        "address": "https://persistence.rpc.quantnode.xyz"
       },
       {
         "address": "https://persistence-rpc.zenscape.one"
@@ -141,7 +141,7 @@
         "address": "https://persistence-mainnet-rest.cosmonautstakes.com"
       },
       {
-        "address": "https://persistence-lcd.quantnode.tech"
+        "address": "https://persistence.lcd.quantnode.xyz"
       },
       {
         "address": "https://persistence-rest.zenscape.one"
@@ -222,6 +222,9 @@
       },
       {
         "address": "persistence-grpc.stake-town.com:443"
+      },
+      {
+        "address": "persistence.grpc.quantnode.xyz:22990"
       }
     ]
   },

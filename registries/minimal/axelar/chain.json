@@ -46,9 +46,6 @@
     "grpcWeb": [
       {
         "address": "axelar-grpcweb.chainode.tech"
-      },
-      {
-        "address": "axelar-grpcweb.quantnode.tech:9091"
       }
     ],
     "rpc": [
@@ -89,7 +86,7 @@
         "address": "https://rpc-axelar.whispernode.com:443"
       },
       {
-        "address": "https://axelar-rpc.quantnode.tech/"
+        "address": "https://axelar.rpc.quantnode.xyz/"
       },
       {
         "address": "https://axelar-mainnet-rpc.autostake.com:443"
@@ -154,7 +151,7 @@
         "address": "https://axelar-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://axelar-lcd.quantnode.tech/"
+        "address": "https://axelar.lcd.quantnode.xyz/"
       },
       {
         "address": "https://axelar-api.ibs.team"
@@ -177,7 +174,7 @@
         "address": "axelar-grpc.qubelabs.io:9092"
       },
       {
-        "address": "axelar-grpc.quantnode.tech:9090"
+        "address": "axelar.grpc.quantnode.xyz:21990"
       },
       {
         "address": "services.staketab.com:9080"
