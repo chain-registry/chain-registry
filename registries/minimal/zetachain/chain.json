@@ -64,6 +64,9 @@
       },
       {
         "address": "https://zetachain-mainnet-rpc.cosmonautstakes.com"
+      },
+      {
+        "address": "https://zetachain-mainnet-tendermint.reliableninjas.com"
       }
     ],
     "rest": [
@@ -90,6 +93,9 @@
       },
       {
         "address": "https://zetachain-mainnet-rest.cosmonautstakes.com"
+      },
+      {
+        "address": "https://zetachain-mainnet-cosmos.reliableninjas.com"
       }
     ],
     "grpc": [

@@ -43,6 +43,9 @@
       },
       {
         "address": "https://zetachain-testnet-archive.allthatnode.com:26657"
+      },
+      {
+        "address": "https://zetachain-testnet-tendermint.reliableninjas.com"
       }
     ],
     "rest": [
@@ -51,6 +54,9 @@
       },
       {
         "address": "https://zetachain-testnet-archive.allthatnode.com:1317"
+      },
+      {
+        "address": "https://zetachain-testnet-cosmos.reliableninjas.com"
       }
     ]
   },

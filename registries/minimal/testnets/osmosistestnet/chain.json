@@ -42,16 +42,25 @@
     "rpc": [
       {
         "address": "https://rpc.osmotest5.osmosis.zone/"
+      },
+      {
+        "address": "https://osmosis-testnet-tendermint.reliableninjas.com"
       }
     ],
     "rest": [
       {
         "address": "https://lcd.osmotest5.osmosis.zone/"
+      },
+      {
+        "address": "https://osmosis-testnet-cosmos.reliableninjas.com"
       }
     ],
     "grpc": [
       {
         "address": "https://grpc.osmotest5.osmosis.zone/"
+      },
+      {
+        "address": "osmosis-testnet-grpc.reliableninjas.com:443"
       }
     ]
   },

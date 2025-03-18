@@ -643,6 +643,9 @@
       },
       {
         "address": "https://osmosis.rpc.quasarstaking.ai:443"
+      },
+      {
+        "address": "https://osmosis-mainnet-tendermint.reliableninjas.com"
       }
     ],
     "rest": [
@@ -726,6 +729,9 @@
       },
       {
         "address": "https://osmosis.api.quasarstaking.ai:443"
+      },
+      {
+        "address": "https://osmosis-mainnet-cosmos.reliableninjas.com"
       }
     ],
     "grpc": [
@@ -785,6 +791,9 @@
       },
       {
         "address": "osmosis.grpc.quasarstaking.ai:443"
+      },
+      {
+        "address": "osmosis-mainnet-grpc.reliableninjas.com:443"
       }
     ]
   },

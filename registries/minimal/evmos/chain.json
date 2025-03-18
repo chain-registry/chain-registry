@@ -92,9 +92,6 @@
         "address": "https://evmos-rpc.w3coins.io"
       },
       {
-        "address": "https://evmos-rpc.stake-town.com"
-      },
-      {
         "address": "https://evmos.rpc.liveraven.net"
       },
       {
@@ -160,9 +157,6 @@
         "address": "https://evmos-api.w3coins.io"
       },
       {
-        "address": "https://evmos-api.stake-town.com"
-      },
-      {
         "address": "https://evmos.api.liveraven.net"
       },
       {
@@ -219,9 +213,6 @@
         "address": "grpc-evmos.mms.team:443"
       },
       {
-        "address": "evmos-grpc.stake-town.com:443"
-      },
-      {
         "address": "evmos.grpc.liveraven.net:443"
       },
       {
@@ -270,9 +261,6 @@
       },
       {
         "address": "https://jsonrpc-evmos.mms.team"
-      },
-      {
-        "address": "https://evmos-jsonrpc.stake-town.com"
       },
       {
         "address": "https://evmos.jsonrpc.liveraven.net"
