@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../assetlist.schema.json",
+  "chainName": "tontestnet",
+  "assets": [
+    {
+      "description": "The testnet version of Toncoin.",
+      "denomUnits": [
+        {
+          "denom": "nanoton",
+          "exponent": 0,
+          "aliases": [
+            "nanoTon"
+          ]
+        },
+        {
+          "denom": "ton",
+          "exponent": 9
+        }
+      ],
+      "assetType": "unknown",
+      "base": "nanoton",
+      "name": "Toncoin",
+      "display": "ton",
+      "symbol": "TON",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "ton",
+            "baseDenom": "nanoton"
+          },
+          "provider": "Toncoin"
+        }
+      ],
+      "coingeckoId": "the-open-network"
+    }
+  ]
+}

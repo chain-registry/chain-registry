@@ -58,9 +58,6 @@
     "grpc": [
       {
         "address": "https://grpc.osmotest5.osmosis.zone/"
-      },
-      {
-        "address": "osmosis-testnet-grpc.reliableninjas.com:443"
       }
     ]
   },

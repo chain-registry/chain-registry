@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../assetlist.schema.json",
+  "chainName": "bitcoincashtestnet",
+  "assets": [
+    {
+      "description": "The testnet version of Bitcoin Cash.",
+      "denomUnits": [
+        {
+          "denom": "sat",
+          "exponent": 0
+        },
+        {
+          "denom": "bch",
+          "exponent": 8
+        }
+      ],
+      "assetType": "bitcoin-like",
+      "base": "sat",
+      "name": "Bitcoin Cash",
+      "display": "bch",
+      "symbol": "BCH",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "bitcoincash",
+            "baseDenom": "sat"
+          },
+          "provider": "Bitcoin Cash"
+        }
+      ],
+      "coingeckoId": "bitcoin-cash"
+    }
+  ]
+}

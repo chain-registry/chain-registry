@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../assetlist.schema.json",
+  "chainName": "litecointestnet",
+  "assets": [
+    {
+      "description": "The testnet version of Litecoin.",
+      "denomUnits": [
+        {
+          "denom": "litoshi",
+          "exponent": 0
+        },
+        {
+          "denom": "ltc",
+          "exponent": 8
+        }
+      ],
+      "assetType": "bitcoin-like",
+      "base": "litoshi",
+      "name": "Litecoin",
+      "display": "ltc",
+      "symbol": "LTC",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "litecoin",
+            "baseDenom": "litoshi"
+          },
+          "provider": "Litecoin"
+        }
+      ],
+      "coingeckoId": "litecoin"
+    }
+  ]
+}

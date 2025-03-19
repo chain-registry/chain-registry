@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../assetlist.schema.json",
+  "chainName": "solanatestnet",
+  "assets": [
+    {
+      "description": "The testnet version of Solana.",
+      "denomUnits": [
+        {
+          "denom": "Lamport",
+          "exponent": 0
+        },
+        {
+          "denom": "SOL",
+          "exponent": 9
+        }
+      ],
+      "assetType": "svm-base",
+      "base": "Lamport",
+      "name": "Solana",
+      "display": "SOL",
+      "symbol": "SOL",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Solana"
+        }
+      ],
+      "coingeckoId": "solana"
+    }
+  ]
+}

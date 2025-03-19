@@ -791,9 +791,6 @@
       },
       {
         "address": "osmosis.grpc.quasarstaking.ai:443"
-      },
-      {
-        "address": "osmosis-mainnet-grpc.reliableninjas.com:443"
       }
     ]
   },

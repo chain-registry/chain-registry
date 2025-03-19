@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../assetlist.schema.json",
+  "chainName": "dogecointestnet",
+  "assets": [
+    {
+      "description": "The testnet version of Dogecoin.",
+      "denomUnits": [
+        {
+          "denom": "shibe",
+          "exponent": 0
+        },
+        {
+          "denom": "doge",
+          "exponent": 8
+        }
+      ],
+      "assetType": "bitcoin-like",
+      "base": "shibe",
+      "name": "Dogecoin",
+      "display": "doge",
+      "symbol": "DOGE",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "dogecoin",
+            "baseDenom": "shibe"
+          },
+          "provider": "Dogecoin"
+        }
+      ],
+      "coingeckoId": "dogecoin"
+    }
+  ]
+}

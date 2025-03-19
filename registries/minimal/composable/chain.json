@@ -75,6 +75,9 @@
       },
       {
         "address": "https://composable.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://composable_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -110,6 +113,9 @@
       },
       {
         "address": "https://composable.api.m.stavr.tech"
+      },
+      {
+        "address": "https://composable_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -201,6 +207,12 @@
       "kind": "Moonbridge",
       "url": "https://explorer.moonbridge.org/picasso",
       "txPage": "https://explorer.moonbridge.org/picasso/tx/${txHash}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/picasso",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/picasso/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/picasso/account/${accountAddress}"
     }
   ],
   "images": [
