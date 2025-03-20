@@ -520,9 +520,9 @@
   },
   "codebase": {
     "cosmwasm": {
-      "version": "0.53.0",
+      "version": "0.53.2",
       "repo": "https://github.com/CosmWasm/wasmd",
-      "tag": "v0.53.0",
+      "tag": "v0.53.2",
       "enabled": true
     },
     "sdk": {
