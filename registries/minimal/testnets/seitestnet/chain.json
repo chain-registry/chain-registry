@@ -25,14 +25,10 @@
   "description": "Sei is the fastest Layer 1 blockchain, designed to scale with the industry.",
   "apis": {
     "rpc": [
-      {
-        "address": "https://sei-testnet-rpc.brocha.in"
-      }
+
     ],
     "rest": [
-      {
-        "address": "https://sei-testnet-rest.brocha.in"
-      }
+
     ]
   },
   "explorers": [
@@ -40,11 +36,6 @@
       "kind": "explorers.guru",
       "url": "https://sei.explorers.guru",
       "txPage": "https://sei.explorers.guru/transaction/${txHash}"
-    },
-    {
-      "kind": "Brochain",
-      "url": "https://testnet-explorer.brocha.in/sei",
-      "txPage": "https://testnet-explorer.brocha.in/sei/tx/${txHash}"
     }
   ],
   "images": [

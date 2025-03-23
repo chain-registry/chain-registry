@@ -3,6 +3,7 @@
   "chainName": "mars",
   "assets": [
     {
+      "deprecated": true,
       "description": "Mars Protocol token (pre-migration)",
       "denomUnits": [
         {

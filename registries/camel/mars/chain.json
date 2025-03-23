@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "mars",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://www.marsprotocol.io/",
   "prettyName": "Mars Hub",

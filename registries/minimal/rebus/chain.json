@@ -53,9 +53,6 @@
         "address": "https://api.mainnet.rebus.money:26657"
       },
       {
-        "address": "https://rebus-rpc.brocha.in"
-      },
-      {
         "address": "https://rebus-mainnet-rpc.autostake.com:443"
       },
       {
@@ -85,9 +82,6 @@
         "address": "https://api.mainnet.rebus.money:1317"
       },
       {
-        "address": "https://rebus-rest.brocha.in"
-      },
-      {
         "address": "https://rebus-mainnet-lcd.autostake.com:443"
       },
       {
@@ -112,9 +106,6 @@
       },
       {
         "address": "http://rebus.grpc.m.stavr.tech:3211"
-      },
-      {
-        "address": "rebus-grpc.brocha.in:443"
       },
       {
         "address": "rebus-mainnet-grpc.autostake.com:443"
@@ -151,11 +142,6 @@
       "kind": "BccNodes",
       "url": "https://explorer.bccnodes.com/rebus-M",
       "txPage": "https://explorer.bccnodes.com/rebus-M/tx/${txHash}"
-    },
-    {
-      "kind": "Brochain",
-      "url": "https://explorer.brocha.in/rebus",
-      "txPage": "https://explorer.brocha.in/rebus/tx/${txHash}"
     },
     {
       "kind": "🔥STAVR🔥 Explorer",

@@ -48,9 +48,6 @@
         "address": "https://rpc.teritori.silentvalidator.com/"
       },
       {
-        "address": "https://teritori-rpc.brocha.in"
-      },
-      {
         "address": "https://teritori-rpc.ibs.team"
       },
       {
@@ -142,9 +139,6 @@
         "address": "teritori.grpc.m.stavr.tech:6705"
       },
       {
-        "address": "teritori-grpc.brocha.in:443"
-      },
-      {
         "address": "teritori-grpc.polkachu.com:15990"
       },
       {
@@ -185,11 +179,6 @@
       "kind": "guru",
       "url": "https://teritori.explorers.guru/",
       "txPage": "https://teritori.explorers.guru/transaction/${txHash}"
-    },
-    {
-      "kind": "Brochain",
-      "url": "https://explorer.brocha.in/teritori",
-      "txPage": "https://explorer.brocha.in/teritori/tx/${txHash}"
     },
     {
       "kind": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",

@@ -106,7 +106,7 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.47.16"
+      "version": "v0.47.17"
     },
     "cosmwasm": {
       "version": "v0.46.0",

@@ -19366,7 +19366,7 @@
       "assetType": "sdk.coin",
       "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
       "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
-      "name": "The seven green shade",
+      "name": "The Seven Green Shade",
       "display": "T7S",
       "symbol": "T7S"
     },
@@ -19446,6 +19446,76 @@
       "name": "ALLIN",
       "display": "allin",
       "symbol": "ALLIN"
+    },
+    {
+      "description": "Manifest native token",
+      "denomUnits": [
+        {
+          "denom": "ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51",
+          "exponent": 0,
+          "aliases": [
+            "umfx"
+          ]
+        },
+        {
+          "denom": "mfx",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/1A3DE66CCE39FA151DA710B21E06C8FBC47178C1DCE7BB35D2A79466F754CD51",
+      "name": "Manifest",
+      "display": "mfx",
+      "symbol": "MFX",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "manifest",
+            "baseDenom": "umfx",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-100418",
+            "path": "transfer/channel-100418/umfx"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Rewards token designed to incentivize participation in Coreum Community DAO",
+      "denomUnits": [
+        {
+          "denom": "ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E",
+          "exponent": 0,
+          "aliases": [
+            "uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv"
+          ]
+        },
+        {
+          "denom": "ccd",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/BA368CD4ED32975C333F69DA8FE0AB482D2E0F3C04227053EEB9B597A6789F6E",
+      "name": "Coreum Community DAO Token",
+      "display": "ccd",
+      "symbol": "CCD",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "coreum",
+            "baseDenom": "uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-2188",
+            "path": "transfer/channel-2188/uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv"
+          }
+        }
+      ]
     }
   ]
 }

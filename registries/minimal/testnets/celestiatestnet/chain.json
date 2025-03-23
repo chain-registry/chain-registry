@@ -28,9 +28,7 @@
       }
     ],
     "rest": [
-      {
-        "address": "https://celestia-blockspacerace-rest.brocha.in"
-      }
+
     ]
   },
   "explorers": [
