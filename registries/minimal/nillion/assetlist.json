@@ -18,7 +18,8 @@
       "name": "Nillion",
       "display": "nil",
       "symbol": "NIL",
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "nillion"
     }
   ]
 }

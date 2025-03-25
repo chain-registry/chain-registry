@@ -37,12 +37,12 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://sixnet-rpc.sixprotocol.net:443"
+        "address": "https://sixnet-rpc.sixprotocol.net"
       }
     ],
     "rest": [
       {
-        "address": "https://sixnet-api.sixprotocol.net:443"
+        "address": "https://sixnet-api.sixprotocol.net"
       }
     ]
   },

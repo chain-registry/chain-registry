@@ -1,0 +1,172 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "airchainsvaranasitestnet",
+  "website": "https://airchains.io/",
+  "networkType": "testnet",
+  "prettyName": "Airchains Varanasi Testnet",
+  "chainType": "cosmos",
+  "chainId": "varanasi-1",
+  "bech32Prefix": "air",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uamf",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.00025,
+        "averageGasPrice": 0.005,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uamf"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.9"
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainsvaranasitestnet/images/airchains-logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/airchainsvaranasitestnet/images/airchains-logo.svg"
+    }
+  ],
+  "description": "Airchains",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc1.airchains.t.cosmostaking.com/"
+      },
+      {
+        "address": "https://airchains-testnet-rpc.mekonglabs.tech/"
+      },
+      {
+        "address": "https://airchains-testnet-rpc.validator247.com/"
+      },
+      {
+        "address": "https://airchains-rpc.node9x.com/"
+      },
+      {
+        "address": "https://airchains-testnet-rpc.bonynode.online/"
+      },
+      {
+        "address": "https://airchains-testnet-rpc.validotgo.com/"
+      },
+      {
+        "address": "https://airchains-var-rpc.apollo-sync.com/"
+      },
+      {
+        "address": "https://junction-testnet-rpc.nodesync.top/"
+      },
+      {
+        "address": "https://t-airchains.rpc.utsa.tech/"
+      },
+      {
+        "address": "https://junction-rpc.kzvn.xyz/"
+      },
+      {
+        "address": "https://rpc.synergynodes.com/"
+      },
+      {
+        "address": "https://airchains-rpc.itrocket.net/"
+      },
+      {
+        "address": "https://airchains-testnet-rpc.nodesphere.net/"
+      },
+      {
+        "address": "https://airchains-testnet-rpc.stakevillage.net/"
+      },
+      {
+        "address": "https://rpc1.airchains.t.cosmostaking.com/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://airchains-testnet-api.mekonglabs.tech/"
+      },
+      {
+        "address": "https://airchains-testnet-api.validator247.com/"
+      },
+      {
+        "address": "https://airchains-api.node9x.com/"
+      },
+      {
+        "address": "https://airchains-testnet-api.bonynode.online/"
+      },
+      {
+        "address": "https://airchains-testnet-api.validotgo.com/"
+      },
+      {
+        "address": "https://airchains-var-api.apollo-sync.com/"
+      },
+      {
+        "address": "https://junction-testnet-api.nodesync.top/"
+      },
+      {
+        "address": "https://t-airchains.api.utsa.tech/"
+      },
+      {
+        "address": "https://junction-api.kzvn.xyz/"
+      },
+      {
+        "address": "https://api.synergynodes.com/"
+      },
+      {
+        "address": "https://airchains-api.itrocket.net/"
+      },
+      {
+        "address": "https://airchains-testnet-api.nodesphere.net/"
+      },
+      {
+        "address": "https://airchains-testnet.api.stakevillage.net/"
+      },
+      {
+        "address": "https://airchains-testnet-rest.cosmonautstakes.com/"
+      },
+      {
+        "address": "https://rest1.airchains.t.cosmostaking.com/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "airchains-testnet-grpc.cosmonautstakes.com:14190"
+      },
+      {
+        "address": "airchains-testnet.grpc.stakevillage.net:443"
+      },
+      {
+        "address": "grpc1.airchains.t.cosmostaking.com:43090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Nodes.guru",
+      "url": "https://testnet.junction.explorers.guru/",
+      "txPage": "https://testnet.junction.explorers.guru/transaction/${txHash}",
+      "accountPage": "https://testnet.junction.explorers.guru/account/${accountAddress}"
+    },
+    {
+      "kind": "Validator VN ",
+      "url": "https://explorer.validatorvn.com/Airchains-Testnet",
+      "txPage": "https://explorer.validatorvn.com/Airchains-Testnet/tx/${txHash}",
+      "accountPage": "https://explorer.validatorvn.com/Airchains-Testnet/account/${accountAddress}"
+    },
+    {
+      "kind": "StakeMe",
+      "url": "https://airchains.exploreme.pro/",
+      "txPage": "https://airchains.exploreme.pro/transactions/${txHash}",
+      "accountPage": "https://airchains.exploreme.pro/account/${accountAddress}"
+    }
+  ]
+}
