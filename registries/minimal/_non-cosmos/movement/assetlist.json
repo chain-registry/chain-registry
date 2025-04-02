@@ -1,0 +1,29 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "movement",
+  "assets": [
+    {
+      "description": "The native currency of Movement Network",
+      "assetType": "erc20",
+      "address": "0xa",
+      "denomUnits": [
+        {
+          "denom": "0xa",
+          "exponent": 0,
+          "aliases": [
+            "octa"
+          ]
+        },
+        {
+          "denom": "move",
+          "exponent": 8
+        }
+      ],
+      "base": "0xa",
+      "name": "Movement",
+      "display": "move",
+      "symbol": "MOVE",
+      "coingeckoId": "movement"
+    }
+  ]
+}

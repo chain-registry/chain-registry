@@ -1404,6 +1404,40 @@
         }
       ],
       "coingeckoId": "lombard-staked-btc"
+    },
+    {
+      "description": "The Ethereum ERC20 issuance of Movement ($MOVE).",
+      "assetType": "erc20",
+      "address": "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
+      "denomUnits": [
+        {
+          "denom": "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
+          "exponent": 0,
+          "aliases": [
+            "0xa",
+            "octa"
+          ]
+        },
+        {
+          "denom": "move",
+          "exponent": 8
+        }
+      ],
+      "base": "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
+      "name": "Movement",
+      "display": "move",
+      "symbol": "MOVE",
+      "coingeckoId": "movement",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "movement",
+            "baseDenom": "0xa"
+          },
+          "provider": "Movement Foundation"
+        }
+      ]
     }
   ]
 }

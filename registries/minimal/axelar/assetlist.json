@@ -1334,6 +1334,39 @@
           }
         }
       ]
+    },
+    {
+      "description": "Movement ($MOVE) from Ethereum via Axelar bridge",
+      "assetType": "sdk.coin",
+      "denomUnits": [
+        {
+          "denom": "unit-move",
+          "exponent": 0,
+          "aliases": [
+            "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
+            "0xa",
+            "octa"
+          ]
+        },
+        {
+          "denom": "move",
+          "exponent": 8
+        }
+      ],
+      "base": "unit-move",
+      "name": "Movement",
+      "display": "move",
+      "symbol": "axlMOVE",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x3073f7aaa4db83f95e9fff17424f71d4751a3073"
+          },
+          "provider": "Axelar"
+        }
+      ]
     }
   ]
 }
