@@ -211,6 +211,34 @@
         }
       ],
       "assetType": "ics20"
+    },
+    {
+      "base": "cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9",
+      "name": "Babylon Testnet Escher LST",
+      "address": "bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9",
+      "symbol": "eBABY",
+      "display": "eBABY",
+      "assetType": "cw20",
+      "denomUnits": [
+        {
+          "denom": "cw20:bbn1cnx34p82zngq0uuaendsne0x4s5gsm7gpwk2es8zk8rz8tnj938qqyq8f9",
+          "exponent": 0
+        },
+        {
+          "denom": "eBABY",
+          "exponent": 6
+        }
+      ],
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "babylontestnet",
+            "baseDenom": "ubbn"
+          },
+          "provider": "Escher"
+        }
+      ]
     }
   ]
 }
