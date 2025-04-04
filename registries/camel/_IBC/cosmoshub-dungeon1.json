@@ -1,23 +1,23 @@
 {
   "$schema": "../ibc_data.schema.json",
   "chain1": {
-    "chainName": "dungeon",
-    "clientId": "07-tendermint-18",
-    "connectionId": "connection-8628"
+    "chainName": "cosmoshub",
+    "clientId": "07-tendermint-1325",
+    "connectionId": "connection-1057"
   },
   "chain2": {
-    "chainName": "osmosis",
-    "clientId": "07-tendermint-3456",
-    "connectionId": "connection-10614"
+    "chainName": "dungeon1",
+    "clientId": "07-tendermint-4",
+    "connectionId": "connection-9"
   },
   "channels": [
     {
       "chain1": {
-        "channelId": "channel-5305",
+        "channelId": "channel-1213",
         "portId": "transfer"
       },
       "chain2": {
-        "channelId": "channel-101249",
+        "channelId": "channel-3",
         "portId": "transfer"
       },
       "ordering": "unordered",

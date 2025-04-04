@@ -601,7 +601,7 @@
         {
           "type": "ibc",
           "counterparty": {
-            "chainName": "dungeon",
+            "chainName": "dungeon1",
             "baseDenom": "udgn",
             "channelId": "channel-6"
           },
