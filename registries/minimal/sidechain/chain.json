@@ -69,6 +69,9 @@
       },
       {
         "address": "https://rpc.side.bh.rocks"
+      },
+      {
+        "address": "https://side.rpc.m.stavr.tech"
       }
     ],
     "rest": [
@@ -92,6 +95,9 @@
       },
       {
         "address": "https://api.side.bh.rocks"
+      },
+      {
+        "address": "https://side.api.m.stavr.tech"
       }
     ],
     "grpc": [
@@ -115,6 +121,9 @@
       },
       {
         "address": "grpc.side.bh.rocks:443"
+      },
+      {
+        "address": "side.grpc.m.stavr.tech:9917"
       }
     ]
   },
@@ -148,6 +157,12 @@
       "url": "https://bh.rocks/side",
       "txPage": "https://bh.rocks/side/tx/${txHash}",
       "accountPage": "https://bh.rocks/side/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Side-Mainnet",
+      "txPage": "https://explorer.stavr.tech/Side-Mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Side-Mainnet/account/${accountAddress}"
     }
   ],
   "images": [
