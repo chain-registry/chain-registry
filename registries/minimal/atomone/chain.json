@@ -87,6 +87,9 @@
         "address": "https://rpc-atomone.ecostake.com"
       },
       {
+        "address": "https://m-atomone.rpc.utsa.tech/"
+      },
+      {
         "address": "https://rpc.atomone.roomit.xyz"
       }
     ],
@@ -138,6 +141,9 @@
       },
       {
         "address": "https://rest-atomone.ecostake.com"
+      },
+      {
+        "address": "https://m-atomone.api.utsa.tech/"
       },
       {
         "address": "https://api.atomone.roomit.xyz"

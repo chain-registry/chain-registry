@@ -1,0 +1,97 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "babylon",
+  "website": "https://babylonlabs.io/",
+  "networkType": "mainnet",
+  "prettyName": "Babylon Genesis",
+  "chainType": "cosmos",
+  "chainId": "bbn-1",
+  "bech32Prefix": "bbn",
+  "slip44": 118,
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ubbn",
+        "lowGasPrice": 0.007,
+        "averageGasPrice": 0.007,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ubbn"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "version": "v0.50.12",
+      "tag": "v0.50.12"
+    },
+    "cosmwasm": {
+      "version": "v0.54.0",
+      "repo": "https://github.com/CosmWasm/wasmd",
+      "tag": "v0.54.0",
+      "enabled": true
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://babylon.nodes.guru/rpc"
+      },
+      {
+        "address": "https://babylon-archive.nodes.guru/rpc"
+      },
+      {
+        "address": "https://babylon-rpc.polkachu.com"
+      },
+      {
+        "address": "https://babylon-archive-rpc.polkachu.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://babylon.nodes.guru/api"
+      },
+      {
+        "address": "https://babylon-archive.nodes.guru/api"
+      },
+      {
+        "address": "https://babylon-api.polkachu.com"
+      },
+      {
+        "address": "https://babylon-archive-api.polkachu.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "babylon.nodes.guru:443/grpc"
+      },
+      {
+        "address": "babylon-archive.nodes.guru:443/grpc"
+      },
+      {
+        "address": "babylon-grpc.polkachu.com:20690"
+      },
+      {
+        "address": "babylon-archive-grpc.polkachu.com:20690"
+      }
+    ]
+  },
+  "explorers": [
+
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg"
+    }
+  ]
+}

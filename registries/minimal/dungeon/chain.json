@@ -70,5 +70,13 @@
       "txPage": "https://explorer.whenmoonwhenlambo.money/dungeon/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/dungeon/account/${accountAddress}"
     }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+      "theme": {
+        "circle": true
+      }
+    }
   ]
 }

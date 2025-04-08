@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "arkeo",
+  "assets": [
+    {
+      "description": "Arkeo is a decentralized marketplace that connects API providers with consumers, bringing web2 data on-chain in a secure and incentivized manner.",
+      "denomUnits": [
+        {
+          "denom": "uarkeo",
+          "exponent": 0
+        },
+        {
+          "denom": "arkeo",
+          "exponent": 8
+        }
+      ],
+      "base": "uarkeo",
+      "name": "Arkeo",
+      "display": "arkeo",
+      "symbol": "ARKEO",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

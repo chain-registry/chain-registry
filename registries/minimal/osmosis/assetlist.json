@@ -19673,35 +19673,6 @@
           "provider": "Osmosis"
         }
       ]
-    },
-    {
-      "description": "An alloy of DGN asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n/alloyed/allDGN",
-          "exponent": 0
-        },
-        {
-          "denom": "allDGN",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "base": "factory/osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n/alloyed/allDGN",
-      "address": "osmo10ca28knpu7yuf6mkcvvdf8w7g3ydamrcmfraxyejc6exv2ff748s4hzk4n",
-      "name": "Dragon (Alloy)",
-      "display": "allDGN",
-      "symbol": "allDGN",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "dungeon",
-            "baseDenom": "udgn"
-          },
-          "provider": "Osmosis"
-        }
-      ]
     }
   ]
 }

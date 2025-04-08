@@ -1,0 +1,67 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "arkeo",
+  "website": "https://arkeo.network/",
+  "networkType": "mainnet",
+  "chainType": "cosmos",
+  "prettyName": "Arkeo",
+  "chainId": "arkeo-main-v1",
+  "bech32Prefix": "arkeo",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uarkeo",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uarkeo"
+      }
+    ],
+    "lockDuration": {
+      "time": "1209600s"
+    }
+  },
+  "codebase": {
+
+  },
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkeo/images/arkeo.svg",
+      "theme": {
+        "circle": true,
+        "primaryColorHex": "#3BE0FF"
+      }
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-seed.arkeo.network"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-seed.arkeo.network"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "stakevillage",
+      "url": "https://exp.stakevillage.net/arkeo-mainnet",
+      "txPage": "https://exp.stakevillage.net/arkeo-mainnet/tx/${txHash}",
+      "accountPage": "https://exp.stakevillage.net/arkeo-mainnet/account/${accountAddress}"
+    }
+  ]
+}

@@ -84,6 +84,9 @@
       },
       {
         "address": "https://rpc-seda-mainnet.keepitstaked.com:443"
+      },
+      {
+        "address": "https://seda-rpc.node39.top:443"
       }
     ],
     "rest": [
@@ -128,6 +131,9 @@
       },
       {
         "address": "https://api-seda-mainnet.keepitstaked.com:443"
+      },
+      {
+        "address": "https://seda-api.node39.top:443"
       }
     ],
     "grpc": [
@@ -151,6 +157,9 @@
       },
       {
         "address": "grpc-seda.whispernode.com:443"
+      },
+      {
+        "address": "seda-grpc.node39.top:13090"
       }
     ]
   },
@@ -190,6 +199,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/seda",
       "txPage": "https://explorer.whenmoonwhenlambo.money/seda/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/seda/account/${accountAddress}"
+    },
+    {
+      "kind": "Node39.TOP",
+      "url": "https://explorer.node39.top/Seda",
+      "txPage": "https://explorer.node39.top/Seda/tx/${txHash}",
+      "accountPage": "https://explorer.node39.top/Seda/account/${accountAddress}"
     }
   ],
   "images": [
