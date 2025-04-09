@@ -1,0 +1,52 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "lombardledgertestnet",
+  "chainType": "cosmos",
+  "chainId": "ledger-testnet-1",
+  "networkType": "testnet",
+  "bech32Prefix": "lom",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "prettyName": "Lombard Ledger Testnet",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ulom",
+        "fixedMinGasPrice": 1,
+        "lowGasPrice": 1,
+        "averageGasPrice": 1,
+        "highGasPrice": 1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ustake"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+
+    ],
+    "rest": [
+
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Mintscan",
+      "url": "https://www.mintscan.io/lombard-testnet",
+      "txPage": "https://www.mintscan.io/lombard-testnet/tx/${txHash}"
+    }
+  ]
+}

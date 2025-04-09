@@ -1,23 +1,23 @@
 {
   "$schema": "../ibc_data.schema.json",
   "chain1": {
-    "chainName": "axelar",
-    "clientId": "07-tendermint-235",
-    "connectionId": "connection-225"
+    "chainName": "mantrachain",
+    "clientId": "07-tendermint-7",
+    "connectionId": "connection-7"
   },
   "chain2": {
-    "chainName": "jackal",
-    "clientId": "07-tendermint-80",
-    "connectionId": "connection-66"
+    "chainName": "neutron",
+    "clientId": "07-tendermint-162",
+    "connectionId": "connection-119"
   },
   "channels": [
     {
       "chain1": {
-        "channelId": "channel-137",
+        "channelId": "channel-7",
         "portId": "transfer"
       },
       "chain2": {
-        "channelId": "channel-49",
+        "channelId": "channel-6964",
         "portId": "transfer"
       },
       "ordering": "unordered",
