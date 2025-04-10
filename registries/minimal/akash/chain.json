@@ -61,6 +61,9 @@
       },
       {
         "address": "https://rpc.akash.bronbro.io:443"
+      },
+      {
+        "address": "https://akash.rpc.arcturian.tech/"
       }
     ],
     "rest": [
@@ -99,6 +102,9 @@
       },
       {
         "address": "https://lcd.akash.bronbro.io:443"
+      },
+      {
+        "address": "https://akash.api.arcturian.tech"
       }
     ],
     "grpc": [
@@ -155,6 +161,11 @@
       "url": "https://mainnet.whispernode.com/akash",
       "txPage": "https://mainnet.whispernode.com/akash/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/akash/account/${accountAddress}"
+    },
+    {
+      "kind": "Arcturian Tech",
+      "url": "https://explorer.arcturian.tech",
+      "txPage": "https://explorer.arcturian.tech/akash/tx/${txHash}"
     }
   ],
   "images": [

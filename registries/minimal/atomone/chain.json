@@ -91,6 +91,9 @@
       },
       {
         "address": "https://rpc.atomone.roomit.xyz"
+      },
+      {
+        "address": "https://rpc.atomone.chaintools.tech"
       }
     ],
     "rest": [
@@ -147,6 +150,9 @@
       },
       {
         "address": "https://api.atomone.roomit.xyz"
+      },
+      {
+        "address": "https://api.atomone.chaintools.tech"
       }
     ],
     "grpc": [
@@ -182,6 +188,9 @@
       },
       {
         "address": "grpc.atomone.roomit.xyz:8443"
+      },
+      {
+        "address": "grps.aomone.chaintools.tech:443"
       }
     ]
   },
@@ -233,6 +242,12 @@
       "url": "https://explorer.tendermint.roomit.xyz/atomone-mainnet",
       "txPage": "https://explorer.tendermint.roomit.xyz/atomone-mainnet/tx/${txHash}",
       "accountPage": "https://explorer.tendermint.roomit.xyz/atomone-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "ChainTools",
+      "url": "https://explorer.chaintools.tech/atomone",
+      "txPage": "https://explorer.chaintools.tech/atomone/tx/${txHash}",
+      "accountPage": "https://explorer.chaintools.tech/atomone/account/${accountAddress}"
     }
   ],
   "images": [
