@@ -63,7 +63,7 @@
           "type": "string",
           "minLength": 1,
           "description": "The project name of the asset. For example Bitcoin.",
-          "maxLength": 50
+          "maxLength": 60
         },
         "display": {
           "type": "string",
@@ -529,7 +529,6 @@
             "channelId": {
               "type": "string",
               "minLength": 1,
-              "pattern": "^channel-\\d+$",
               "description": "The counterparty IBC transfer channel(, e.g., 'channel-1')."
             }
           }
@@ -555,7 +554,6 @@
             "channelId": {
               "type": "string",
               "minLength": 1,
-              "pattern": "^channel-\\d+$",
               "description": "The chain's IBC transfer channel(, e.g., 'channel-1')."
             }
           }

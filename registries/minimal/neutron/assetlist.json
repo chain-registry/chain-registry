@@ -890,6 +890,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Drop staked NTRN",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
+          "exponent": 0
+        },
+        {
+          "denom": "dNTRN",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
+      "name": "dNTRN",
+      "display": "dNTRN",
+      "symbol": "dNTRN",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Drop staked ATOM",
       "denomUnits": [
         {

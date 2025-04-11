@@ -55,6 +55,12 @@
       },
       {
         "address": "https://babylon-archive-rpc.polkachu.com"
+      },
+      {
+        "address": "https://babylon-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://babylon-mainnet-rpc.autostake.com:443"
       }
     ],
     "rest": [
@@ -69,6 +75,12 @@
       },
       {
         "address": "https://babylon-archive-api.polkachu.com"
+      },
+      {
+        "address": "https://babylon-rest.publicnode.com"
+      },
+      {
+        "address": "https://babylon-mainnet-lcd.autostake.com:443"
       }
     ],
     "grpc": [
@@ -83,6 +95,12 @@
       },
       {
         "address": "babylon-archive-grpc.polkachu.com:20690"
+      },
+      {
+        "address": "babylon-grpc.publicnode.com:443"
+      },
+      {
+        "address": "babylon-mainnet-grpc.autostake.com:443"
       }
     ]
   },

@@ -89,8 +89,7 @@
             "path": "transfer/channel-208/uusdc"
           }
         }
-      ],
-      "coingeckoId": "axlusdc"
+      ]
     },
     {
       "description": "Ethereum (ETH) is a decentralized, open-source blockchain system featuring smart contract functionality. It's the native cryptocurrency of the Ethereum platform, often regarded as the second most popular digital currency after Bitcoin. Ethereum was proposed in late 2013 and development was crowdfunded in 2014, leading to its network going live on 30 July 2015.\n\nETH, as a digital currency, is used for a variety of purposes within the Ethereum ecosystem, including the execution of decentralized smart contracts and as a mode of payment. Unlike Bitcoin, Ethereum was designed to be a platform for applications that can operate without the need for intermediaries, using blockchain technology. This has made Ethereum a leading platform for various applications, including decentralized finance (DeFi), non-fungible tokens (NFTs), and more. Ethereum is constantly evolving, with a significant upgrade termed Ethereum 2.0, which aims to improve its scalability, security, and sustainability.",
@@ -141,8 +140,7 @@
             "path": "transfer/channel-208/weth-wei"
           }
         }
-      ],
-      "coingeckoId": "axlweth"
+      ]
     },
     {
       "description": "Wrapped Bitcoin on Axelar",
@@ -193,8 +191,7 @@
             "path": "transfer/channel-208/wbtc-satoshi"
           }
         }
-      ],
-      "coingeckoId": "axlwbtc"
+      ]
     },
     {
       "description": "Tether's USD stablecoin on Axelar",
@@ -245,8 +242,7 @@
             "path": "transfer/channel-208/uusdt"
           }
         }
-      ],
-      "coingeckoId": "axelar-usdt"
+      ]
     },
     {
       "description": "Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.",
@@ -383,8 +379,7 @@
             "path": "transfer/channel-0/uatom"
           }
         }
-      ],
-      "coingeckoId": "cosmos"
+      ]
     },
     {
       "description": "CRO is the native token of the Crypto.org Chain, referred to as Native CRO.",
@@ -419,8 +414,7 @@
             "path": "transfer/channel-5/basecro"
           }
         }
-      ],
-      "coingeckoId": "crypto-com-chain"
+      ]
     },
     {
       "description": "BNB powers the BNB Chain ecosystem and is the native coin of the BNB Beacon Chain and BNB Smart Chain.",
@@ -439,9 +433,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
-      "name": "Binance Coin",
+      "name": "Binance Coin (Axelar)",
       "display": "wbnb",
-      "symbol": "BNB",
+      "symbol": "BNB.axl",
       "traces": [
         {
           "type": "wrapped",
@@ -493,15 +487,15 @@
       ],
       "assetType": "ics20",
       "base": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
-      "name": "Polygon",
+      "name": "Polygon (Axelar)",
       "display": "wmatic",
-      "symbol": "MATIC",
+      "symbol": "POL.axl",
       "traces": [
         {
           "type": "wrapped",
           "counterparty": {
             "chainName": "polygon",
-            "baseDenom": "wei"
+            "baseDenom": "0x0000000000000000000000000000000000001010"
           },
           "provider": "Polygon"
         },
@@ -622,8 +616,7 @@
             "path": "transfer/channel-72/uluna"
           }
         }
-      ],
-      "coingeckoId": "terra-luna"
+      ]
     },
     {
       "description": "The native token of JUNO Chain",
@@ -658,8 +651,7 @@
             "path": "transfer/channel-42/ujuno"
           }
         }
-      ],
-      "coingeckoId": "juno-network"
+      ]
     },
     {
       "description": "Wrapped Polkadot on Axelar",
@@ -745,8 +737,7 @@
             "path": "transfer/channel-204/aevmos"
           }
         }
-      ],
-      "coingeckoId": "evmos"
+      ]
     },
     {
       "description": "The native staking and governance token of Kava",
@@ -781,8 +772,7 @@
             "path": "transfer/channel-143/ukava"
           }
         }
-      ],
-      "coingeckoId": "kava"
+      ]
     },
     {
       "description": "The native token of Secret Network",
@@ -817,8 +807,7 @@
             "path": "transfer/channel-88/uscrt"
           }
         }
-      ],
-      "coingeckoId": "secret"
+      ]
     },
     {
       "description": "The USD stablecoin of Terra Classic.",
@@ -864,8 +853,7 @@
             "path": "transfer/channel-72/uusd"
           }
         }
-      ],
-      "coingeckoId": "terrausd"
+      ]
     },
     {
       "description": "The native token of Stargaze",
@@ -900,8 +888,7 @@
             "path": "transfer/channel-75/ustars"
           }
         }
-      ],
-      "coingeckoId": "stargaze"
+      ]
     },
     {
       "description": "The native token of Chihuahua Chain",
@@ -936,8 +923,7 @@
             "path": "transfer/channel-113/uhuahua"
           }
         }
-      ],
-      "coingeckoId": "chihuahua-token"
+      ]
     },
     {
       "description": "The XPRT token is primarily a governance token for the Persistence chain.",
@@ -972,8 +958,7 @@
             "path": "transfer/channel-4/uxprt"
           }
         }
-      ],
-      "coingeckoId": "persistence"
+      ]
     },
     {
       "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield.",
@@ -1073,8 +1058,7 @@
             "path": "transfer/channel-1/uakt"
           }
         }
-      ],
-      "coingeckoId": "akash-network"
+      ]
     },
     {
       "description": "REGEN coin is the token for the Regen Network Platform",
@@ -1109,8 +1093,7 @@
             "path": "transfer/channel-8/uregen"
           }
         }
-      ],
-      "coingeckoId": "regen"
+      ]
     },
     {
       "description": "DVPN is the native token of the Sentinel Hub.",
@@ -1145,8 +1128,7 @@
             "path": "transfer/channel-2/udvpn"
           }
         }
-      ],
-      "coingeckoId": "sentinel"
+      ]
     },
     {
       "description": "The IRIS token is the native governance token for the IrisNet chain.",
@@ -1181,8 +1163,7 @@
             "path": "transfer/channel-6/uiris"
           }
         }
-      ],
-      "coingeckoId": "iris-network"
+      ]
     },
     {
       "description": "IOV coin is the token for the Starname (IOV) Asset Name Service",
@@ -1217,8 +1198,7 @@
             "path": "transfer/channel-15/uiov"
           }
         }
-      ],
-      "coingeckoId": "starname"
+      ]
     },
     {
       "description": "e-Money NGM staking token. In addition to earning staking rewards the token is bought back and burned based on e-Money stablecoin inflation.",
@@ -1253,8 +1233,7 @@
             "path": "transfer/channel-37/ungm"
           }
         }
-      ],
-      "coingeckoId": "e-money"
+      ]
     },
     {
       "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
@@ -1289,8 +1268,7 @@
             "path": "transfer/channel-37/eeur"
           }
         }
-      ],
-      "coingeckoId": "e-money-eur"
+      ]
     },
     {
       "description": "LIKE is the native staking and governance token of LikeCoin chain, a Decentralized Publishing Infrastructure to empower content ownership, authenticity, and provenance.",
@@ -1325,8 +1303,7 @@
             "path": "transfer/channel-53/nanolike"
           }
         }
-      ],
-      "coingeckoId": "likecoin"
+      ]
     },
     {
       "description": "The native token of IXO Chain",
@@ -1361,8 +1338,7 @@
             "path": "transfer/channel-38/uixo"
           }
         }
-      ],
-      "coingeckoId": "ixo"
+      ]
     },
     {
       "description": "The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.",
@@ -1397,8 +1373,7 @@
             "path": "transfer/channel-51/ubcna"
           }
         }
-      ],
-      "coingeckoId": "bitcanna"
+      ]
     },
     {
       "description": "BitSong Native Token",
@@ -1433,8 +1408,7 @@
             "path": "transfer/channel-73/ubtsg"
           }
         }
-      ],
-      "coingeckoId": "bitsong"
+      ]
     },
     {
       "description": "The native token of Ki Chain",
@@ -1469,8 +1443,7 @@
             "path": "transfer/channel-77/uxki"
           }
         }
-      ],
-      "coingeckoId": "ki"
+      ]
     },
     {
       "description": "Panacea is a public blockchain launched by MediBloc, which is the key infrastructure for reinventing the patient-centered healthcare data ecosystem",
@@ -1505,8 +1478,7 @@
             "path": "transfer/channel-82/umed"
           }
         }
-      ],
-      "coingeckoId": "medibloc"
+      ]
     },
     {
       "description": "The staking token of Bostrom",
@@ -1537,8 +1509,7 @@
             "path": "transfer/channel-95/boot"
           }
         }
-      ],
-      "coingeckoId": "bostrom"
+      ]
     },
     {
       "description": "Native Token of Comdex Protocol",
@@ -1573,8 +1544,7 @@
             "path": "transfer/channel-87/ucmdx"
           }
         }
-      ],
-      "coingeckoId": "comdex"
+      ]
     },
     {
       "description": "Native token for the cheqd network",
@@ -1609,8 +1579,7 @@
             "path": "transfer/channel-108/ncheq"
           }
         }
-      ],
-      "coingeckoId": "cheqd-network"
+      ]
     },
     {
       "description": "Native token of the Lum Network",
@@ -1645,8 +1614,7 @@
             "path": "transfer/channel-115/ulum"
           }
         }
-      ],
-      "coingeckoId": "lum-network"
+      ]
     },
     {
       "description": "The native token of Vidulum",
@@ -1689,8 +1657,7 @@
             "path": "transfer/channel-124/uvdl"
           }
         }
-      ],
-      "coingeckoId": "vidulum"
+      ]
     },
     {
       "description": "The native token of Desmos",
@@ -1725,8 +1692,7 @@
             "path": "transfer/channel-135/udsm"
           }
         }
-      ],
-      "coingeckoId": "desmos"
+      ]
     },
     {
       "description": "Native token of Dig Chain",
@@ -1804,8 +1770,7 @@
             "path": "transfer/channel-165/usomm"
           }
         }
-      ],
-      "coingeckoId": "sommelier"
+      ]
     },
     {
       "description": "The native token of BandChain",
@@ -1840,8 +1805,7 @@
             "path": "transfer/channel-148/uband"
           }
         }
-      ],
-      "coingeckoId": "band-protocol"
+      ]
     },
     {
       "description": "The native token of Konstellation Network",
@@ -1876,8 +1840,7 @@
             "path": "transfer/channel-171/udarc"
           }
         }
-      ],
-      "coingeckoId": "darcmatter-coin"
+      ]
     },
     {
       "description": "The native token of Umee",
@@ -1912,8 +1875,7 @@
             "path": "transfer/channel-184/uumee"
           }
         }
-      ],
-      "coingeckoId": "umee"
+      ]
     },
     {
       "description": "The native token of Gravity Bridge",
@@ -1948,8 +1910,7 @@
             "path": "transfer/channel-144/ugraviton"
           }
         }
-      ],
-      "coingeckoId": "graviton"
+      ]
     },
     {
       "description": "The native token of Decentr",
@@ -1984,8 +1945,7 @@
             "path": "transfer/channel-181/udec"
           }
         }
-      ],
-      "coingeckoId": "decentr"
+      ]
     },
     {
       "description": "The native token cw20 for Marble DAO on Juno Chain",
@@ -2060,8 +2020,7 @@
             "path": "transfer/channel-188/swth"
           }
         }
-      ],
-      "coingeckoId": "switcheo"
+      ]
     },
     {
       "description": "The native token of Cerberus Chain",
@@ -2096,8 +2055,7 @@
             "path": "transfer/channel-212/ucrbrus"
           }
         }
-      ],
-      "coingeckoId": "cerberus-2"
+      ]
     },
     {
       "description": "The native staking and governance token of the Fetch Hub.",
@@ -2116,9 +2074,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
-      "name": "Fetch.ai",
+      "name": "Fetch.ai (Fetch.ai)",
       "display": "fet",
-      "symbol": "FET",
+      "symbol": "FET.fet",
       "traces": [
         {
           "type": "ibc",
@@ -2132,8 +2090,7 @@
             "path": "transfer/channel-229/afet"
           }
         }
-      ],
-      "coingeckoId": "fetch-ai"
+      ]
     },
     {
       "description": "The native token of Asset Mantle",
@@ -2168,8 +2125,7 @@
             "path": "transfer/channel-232/umntl"
           }
         }
-      ],
-      "coingeckoId": "assetmantle"
+      ]
     },
     {
       "description": "The native token cw20 for Neta on Juno Chain",
@@ -2206,8 +2162,7 @@
             "path": "transfer/channel-169/cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr"
           }
         }
-      ],
-      "coingeckoId": "neta"
+      ]
     },
     {
       "description": "The INJ token is the native governance token for the Injective chain.",
@@ -2242,8 +2197,7 @@
             "path": "transfer/channel-122/inj"
           }
         }
-      ],
-      "coingeckoId": "injective-protocol"
+      ]
     },
     {
       "description": "The KRW stablecoin of Terra Classic.",
@@ -2359,8 +2313,7 @@
             "path": "transfer/channel-47/rowan"
           }
         }
-      ],
-      "coingeckoId": "sifchain"
+      ]
     },
     {
       "description": "The native token of Shentu",
@@ -2395,8 +2348,7 @@
             "path": "transfer/channel-146/uctk"
           }
         }
-      ],
-      "coingeckoId": "certik"
+      ]
     },
     {
       "description": "Hope Galaxy is an NFT collection based on its own native Token $HOPE, a cw20 token on Juno chain.",
@@ -2478,8 +2430,7 @@
             "path": "transfer/channel-169/cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa"
           }
         }
-      ],
-      "coingeckoId": "racoon"
+      ]
     },
     {
       "description": "Frax is a fractional-algorithmic stablecoin protocol. It aims to provide a highly scalable, decentralized, algorithmic money in place of fixed-supply assets like BTC. Additionally, FXS is the value accrual and governance token of the entire Frax ecosystem.",
@@ -2998,8 +2949,7 @@
             "path": "transfer/channel-238/umeme"
           }
         }
-      ],
-      "coingeckoId": "meme-network"
+      ]
     },
     {
       "description": "Profit sharing token for Another.Software validator. Hold and receive dividends from Another.Software validator commissions!",
@@ -3108,8 +3058,7 @@
             "path": "transfer/channel-251/uluna"
           }
         }
-      ],
-      "coingeckoId": "terra-luna-2"
+      ]
     },
     {
       "description": "Native token of Rizon Chain",
@@ -3144,8 +3093,7 @@
             "path": "transfer/channel-221/uatolo"
           }
         }
-      ],
-      "coingeckoId": "rizon"
+      ]
     },
     {
       "description": "Governance token of Kava Lend Protocol",
@@ -3180,8 +3128,7 @@
             "path": "transfer/channel-143/hard"
           }
         }
-      ],
-      "coingeckoId": "kava-lend"
+      ]
     },
     {
       "description": "Governance token of Kava Swap Protocol",
@@ -3216,8 +3163,7 @@
             "path": "transfer/channel-143/swp"
           }
         }
-      ],
-      "coingeckoId": "kava-swap"
+      ]
     },
     {
       "description": "A blockchain-based middleware, acting as a bridge between cryptocurrency smart contracts, data feeds, APIs and traditional bank account payments.",
@@ -3553,8 +3499,7 @@
             "path": "transfer/channel-259/ukuji"
           }
         }
-      ],
-      "coingeckoId": "kujira"
+      ]
     },
     {
       "description": "The native token of Tgrade",
@@ -4004,8 +3949,7 @@
             "path": "transfer/channel-216/orai"
           }
         }
-      ],
-      "coingeckoId": "oraichain-token"
+      ]
     },
     {
       "description": "The native token of the Cudos blockchain",
@@ -4041,8 +3985,7 @@
             "path": "transfer/channel-298/acudos"
           }
         }
-      ],
-      "coingeckoId": "cudos"
+      ]
     },
     {
       "description": "The native stablecoin of Kava",
@@ -4077,8 +4020,7 @@
             "path": "transfer/channel-143/usdx"
           }
         }
-      ],
-      "coingeckoId": "usdx"
+      ]
     },
     {
       "description": "BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.",
@@ -4113,8 +4055,7 @@
             "path": "transfer/channel-320/ubld"
           }
         }
-      ],
-      "coingeckoId": "agoric"
+      ]
     },
     {
       "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
@@ -4149,8 +4090,7 @@
             "path": "transfer/channel-320/uist"
           }
         }
-      ],
-      "coingeckoId": "inter-stable-token"
+      ]
     },
     {
       "description": "Staking derivative seJUNO for staked JUNO",
@@ -4259,8 +4199,7 @@
             "path": "transfer/channel-326/ustrd"
           }
         }
-      ],
-      "coingeckoId": "stride"
+      ]
     },
     {
       "denomUnits": [
@@ -4302,8 +4241,7 @@
             "path": "transfer/channel-326/stuatom"
           }
         }
-      ],
-      "coingeckoId": "stride-staked-atom"
+      ]
     },
     {
       "denomUnits": [
@@ -4345,8 +4283,7 @@
             "path": "transfer/channel-326/stustars"
           }
         }
-      ],
-      "coingeckoId": "stride-staked-stars"
+      ]
     },
     {
       "description": "Solarbank DAO Governance Token for speeding up the shift to renewable and green energy",
@@ -4455,8 +4392,7 @@
             "path": "transfer/channel-208/uaxl"
           }
         }
-      ],
-      "coingeckoId": "axelar"
+      ]
     },
     {
       "description": "REBUS, the native coin of the Rebus chain.",
@@ -4491,8 +4427,7 @@
             "path": "transfer/channel-355/arebus"
           }
         }
-      ],
-      "coingeckoId": "rebus"
+      ]
     },
     {
       "description": "The native token of Teritori",
@@ -4527,8 +4462,7 @@
             "path": "transfer/channel-362/utori"
           }
         }
-      ],
-      "coingeckoId": "teritori"
+      ]
     },
     {
       "denomUnits": [
@@ -4570,8 +4504,7 @@
             "path": "transfer/channel-326/stujuno"
           }
         }
-      ],
-      "coingeckoId": "stride-staked-juno"
+      ]
     },
     {
       "denomUnits": [
@@ -4613,8 +4546,7 @@
             "path": "transfer/channel-326/stuosmo"
           }
         }
-      ],
-      "coingeckoId": "stride-staked-osmo"
+      ]
     },
     {
       "description": "The native token cw20 for MuseDAO on Juno Chain",
@@ -4686,8 +4618,7 @@
             "path": "transfer/channel-378/ulamb"
           }
         }
-      ],
-      "coingeckoId": "lambda"
+      ]
     },
     {
       "description": "The native over-collateralized stablecoin from the Kujira chain.",
@@ -4722,8 +4653,7 @@
             "path": "transfer/channel-259/factory:kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7:uusk"
           }
         }
-      ],
-      "coingeckoId": "usk"
+      ]
     },
     {
       "description": "Staking and governance coin for the Unification Blockchain",
@@ -4758,8 +4688,7 @@
             "path": "transfer/channel-382/nund"
           }
         }
-      ],
-      "coingeckoId": "unification"
+      ]
     },
     {
       "description": "The native staking and governance token of Jackal.",
@@ -4794,8 +4723,7 @@
             "path": "transfer/channel-412/ujkl"
           }
         }
-      ],
-      "coingeckoId": "jackal-protocol"
+      ]
     },
     {
       "description": "The native token cw20 for Alter on Secret Network",
@@ -4832,8 +4760,7 @@
             "path": "transfer/channel-476/cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
           }
         }
-      ],
-      "coingeckoId": "alter"
+      ]
     },
     {
       "description": "The native token cw20 for Button on Secret Network",
@@ -4944,8 +4871,7 @@
             "path": "transfer/channel-476/cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
           }
         }
-      ],
-      "coingeckoId": "sienna"
+      ]
     },
     {
       "description": "The native token cw20 for SCRT Staking Derivatives on Secret Network",
@@ -4982,8 +4908,7 @@
             "path": "transfer/channel-476/cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
           }
         }
-      ],
-      "coingeckoId": "stkd-scrt"
+      ]
     },
     {
       "description": "BeeZee native blockchain",
@@ -5018,8 +4943,7 @@
             "path": "transfer/channel-340/ubze"
           }
         }
-      ],
-      "coingeckoId": "bzedge"
+      ]
     },
     {
       "description": "The native token cw20 for Fanfury on Juno Chain",
@@ -5134,8 +5058,7 @@
             "path": "transfer/channel-87/ucmst"
           }
         }
-      ],
-      "coingeckoId": "composite"
+      ]
     },
     {
       "description": "The native EVM, governance and staking token of the Imversed",
@@ -5242,8 +5165,7 @@
             "path": "transfer/channel-169/cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
           }
         }
-      ],
-      "coingeckoId": "posthuman"
+      ]
     },
     {
       "description": "The native token cw20 for Amber on Secret Network",
@@ -5315,8 +5237,7 @@
             "path": "transfer/channel-525/anom"
           }
         }
-      ],
-      "coingeckoId": "onomy-protocol"
+      ]
     },
     {
       "description": "PSTAKE Liquid-Staked ATOM",
@@ -5362,8 +5283,7 @@
             "path": "transfer/channel-4/stk/uatom"
           }
         }
-      ],
-      "coingeckoId": "stkatom"
+      ]
     },
     {
       "description": "The native staking and governance token of the Dyson Protocol",
@@ -5501,8 +5421,7 @@
             "path": "transfer/channel-492/aplanq"
           }
         }
-      ],
-      "coingeckoId": "planq"
+      ]
     },
     {
       "description": "Fantom's native utility token — FTM — powers the entire Fantom blockchain ecosystem. FTM tokens are used for staking, governance, payments, and fees on the network.",
@@ -5591,8 +5510,7 @@
             "path": "transfer/channel-550/acanto"
           }
         }
-      ],
-      "coingeckoId": "canto"
+      ]
     },
     {
       "description": "Quicksilver Liquid Staked STARS",
@@ -5836,8 +5754,7 @@
             "path": "transfer/channel-557/umars"
           }
         }
-      ],
-      "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+      ]
     },
     {
       "description": "Ciento Exchange Token",
@@ -6230,8 +6147,7 @@
             "path": "transfer/channel-522/uqck"
           }
         }
-      ],
-      "coingeckoId": "quicksilver"
+      ]
     },
     {
       "description": "The native token of Arkhadian",
@@ -6566,8 +6482,7 @@
             "path": "transfer/channel-8/eco.uC.NCT"
           }
         }
-      ],
-      "coingeckoId": "toucan-protocol-nature-carbon-tonne"
+      ]
     },
     {
       "description": "Celestims",
@@ -6861,8 +6776,7 @@
             "path": "transfer/channel-199/uflix"
           }
         }
-      ],
-      "coingeckoId": "omniflix-network"
+      ]
     },
     {
       "description": "Spacer",
@@ -6973,8 +6887,7 @@
             "path": "transfer/channel-476/cw20:secret1fl449muk5yq8dlad7a22nje4p5d2pnsgymhjfd"
           }
         }
-      ],
-      "coingeckoId": "silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2"
+      ]
     },
     {
       "description": "Mille: the 1000th token on osmosis",
@@ -7173,8 +7086,7 @@
             "path": "transfer/channel-476/cw20:secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm"
           }
         }
-      ],
-      "coingeckoId": "shade-protocol"
+      ]
     },
     {
       "description": "The native token of Bluzelle",
@@ -7212,8 +7124,7 @@
             "path": "transfer/channel-763/ubnt"
           }
         }
-      ],
-      "coingeckoId": "bluzelle"
+      ]
     },
     {
       "description": "Native token of Arbitrum",
@@ -7651,8 +7562,7 @@
             "path": "transfer/channel-781/ulore"
           }
         }
-      ],
-      "coingeckoId": "gitopia"
+      ]
     },
     {
       "description": "Lion DAO is a community DAO that lives on the Terra blockchain with the mission to reactivate the LUNAtic community and showcase Terra protocols & tooling",
@@ -7689,8 +7599,7 @@
             "path": "transfer/channel-341/cw20:terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv"
           }
         }
-      ],
-      "coingeckoId": "lion-dao"
+      ]
     },
     {
       "denomUnits": [
@@ -7732,8 +7641,7 @@
             "path": "transfer/channel-326/stuumee"
           }
         }
-      ],
-      "coingeckoId": "stride-staked-umee"
+      ]
     },
     {
       "denomUnits": [
@@ -7786,8 +7694,7 @@
             "path": "transfer/channel-783/unls"
           }
         }
-      ],
-      "coingeckoId": "nolus"
+      ]
     },
     {
       "description": "Lion Cub DAO is a useless meme community DAO on Terra",
@@ -7896,8 +7803,7 @@
             "path": "transfer/channel-874/untrn"
           }
         }
-      ],
-      "coingeckoId": "neutron-3"
+      ]
     },
     {
       "description": "An innovative DAO dedicated to housing the most vulnerable",
@@ -7977,8 +7883,7 @@
             "path": "transfer/channel-1279/ppica"
           }
         }
-      ],
-      "coingeckoId": "picasso"
+      ]
     },
     {
       "description": "The native fee, governance, staking, and bonding token of the Polkadot platform.",
@@ -8068,7 +7973,7 @@
           "provider": "Polkadot Parachain"
         },
         {
-          "type": "ibc",
+          "type": "ibc-bridge",
           "counterparty": {
             "chainName": "composablepolkadot",
             "baseDenom": "79228162514264337593543950342",
@@ -8077,7 +7982,8 @@
           "chain": {
             "channelId": "channel-15",
             "path": "transfer/channel-15/79228162514264337593543950342"
-          }
+          },
+          "provider": "Picasso"
         },
         {
           "type": "ibc-bridge",
@@ -8181,8 +8087,7 @@
             "path": "transfer/channel-1429/aarch"
           }
         }
-      ],
-      "coingeckoId": "archway"
+      ]
     },
     {
       "description": "The native staking and governance token of Empower.",
@@ -8289,8 +8194,7 @@
             "path": "transfer/channel-767/ukyve"
           }
         }
-      ],
-      "coingeckoId": "kyve-network"
+      ]
     },
     {
       "description": "Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
@@ -8341,8 +8245,7 @@
             "path": "transfer/channel-143/erc20/tether/usdt"
           }
         }
-      ],
-      "coingeckoId": "tether"
+      ]
     },
     {
       "description": "ERIS liquid staked OSMO",
@@ -8396,8 +8299,7 @@
             "path": "transfer/channel-782/usei"
           }
         }
-      ],
-      "coingeckoId": "sei-network"
+      ]
     },
     {
       "description": "Quicksilver Liquid Staked SOMM",
@@ -8478,8 +8380,7 @@
             "path": "transfer/channel-2494/upasg"
           }
         }
-      ],
-      "coingeckoId": "passage"
+      ]
     },
     {
       "denomUnits": [
@@ -8521,8 +8422,7 @@
             "path": "transfer/channel-326/stusomm"
           }
         }
-      ],
-      "coingeckoId": "stride-staked-sommelier"
+      ]
     },
     {
       "description": "Solana (SOL) is the native asset of the Solana blockchain.",
@@ -8698,9 +8598,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/B1C287C2701774522570010EEBCD864BCB7AB714711B3AA218699FDD75E832F5",
-      "name": "Sui",
+      "name": "Sui (Wormhole)",
       "display": "wormhole/46YEtoSN1AcwgGSRoWruoS6bnVh8XpMp5aQTpKohCJYh/8",
-      "symbol": "SUI",
+      "symbol": "SUI.wh",
       "traces": [
         {
           "type": "bridge",
@@ -8744,9 +8644,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/A4D176906C1646949574B48C1928D475F2DF56DE0AC04E1C99B08F90BC21ABDE",
-      "name": "Aptos Coin",
+      "name": "Aptos Coin (Wormhole)",
       "display": "wormhole/5wS2fGojbL9RhGEAeQBdkHPUAciYDxjDTMYvdf9aDn2r/8",
-      "symbol": "APT",
+      "symbol": "APT.wh",
       "traces": [
         {
           "type": "bridge",
@@ -8803,8 +8703,7 @@
             "path": "transfer/channel-259/factory:kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7:umnta"
           }
         }
-      ],
-      "coingeckoId": "mantadao"
+      ]
     },
     {
       "denomUnits": [
@@ -8998,8 +8897,7 @@
             "path": "transfer/channel-750/uusdc"
           }
         }
-      ],
-      "coingeckoId": "usd-coin"
+      ]
     },
     {
       "description": "Maximize ETH yield through leveraged staking across Aave, Compound and Morpho and liquidity provision of ETH liquid staking tokens on Uniswap V3.",
@@ -9086,8 +8984,7 @@
             "path": "transfer/channel-1634/axpla"
           }
         }
-      ],
-      "coingeckoId": "xpla"
+      ]
     },
     {
       "description": "OIN Token ($OIN) is a groundbreaking digital asset developed on the $SEI Blockchain. It transcends being merely a cryptocurrency; $OIN stands as a robust store of value, symbolizing the future of decentralized finance and its potential to reshape the crypto landscape.",
@@ -9192,8 +9089,7 @@
             "path": "transfer/channel-1424/ario"
           }
         }
-      ],
-      "coingeckoId": "realio-network"
+      ]
     },
     {
       "description": "Membrane's CDP-style stablecoin called CDT",
@@ -9266,8 +9162,7 @@
             "path": "transfer/channel-5485/usge"
           }
         }
-      ],
-      "coingeckoId": "six-sigma"
+      ]
     },
     {
       "description": "The native staking and governance token of the StaFi Hub.",
@@ -9302,8 +9197,7 @@
             "path": "transfer/channel-5413/ufis"
           }
         }
-      ],
-      "coingeckoId": "stafi"
+      ]
     },
     {
       "description": "A liquid staking representation of staked ATOMs",
@@ -9451,8 +9345,7 @@
             "path": "transfer/channel-2188/ucore"
           }
         }
-      ],
-      "coingeckoId": "coreum"
+      ]
     },
     {
       "description": "The native token of the Celestia blockchain.",
@@ -9487,8 +9380,7 @@
             "path": "transfer/channel-6994/utia"
           }
         }
-      ],
-      "coingeckoId": "celestia"
+      ]
     },
     {
       "description": "DYDX is a decentralized trading platform focused on derivatives and perpetual contracts, offering a secure and efficient trading experience without intermediaries.",
@@ -9507,9 +9399,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
-      "name": "dYdX Protocol",
+      "name": "dYdX Protocol (dYdX Protocol)",
       "display": "dydx",
-      "symbol": "DYDX",
+      "symbol": "DYDX.dydx",
       "traces": [
         {
           "type": "ibc",
@@ -9523,8 +9415,7 @@
             "path": "transfer/channel-6787/adydx"
           }
         }
-      ],
-      "coingeckoId": "dydx-chain"
+      ]
     },
     {
       "description": "The native staking token of the Function X",
@@ -9543,7 +9434,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/2B30802A0B03F91E4E16D6175C9B70F2911377C1CAE9E50FF011C821465463F9",
-      "name": "f(x)Core",
+      "name": "Function X",
       "display": "WFX",
       "symbol": "FX",
       "traces": [
@@ -9559,8 +9450,7 @@
             "path": "transfer/channel-2716/FX"
           }
         }
-      ],
-      "coingeckoId": "fx-coin"
+      ]
     },
     {
       "description": "Bitcoin. On Cosmos.",
@@ -9691,8 +9581,7 @@
             "path": "transfer/channel-259/factory:kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh:unstk"
           }
         }
-      ],
-      "coingeckoId": "unstake-fi"
+      ]
     },
     {
       "description": "ohhNFT LP token.",
@@ -10030,8 +9919,7 @@
             "path": "transfer/channel-8945/usource"
           }
         }
-      ],
-      "coingeckoId": "source"
+      ]
     },
     {
       "description": "Pyth is a protocol that allows market participants to publish pricing information on-chain for others to use. The protocol is an interaction between three parties:\n-Publishers submit pricing information to Pyth's oracle program. Pyth has multiple data publishers for every product to improve the accuracy and robustness of the system.\n-Pyth's oracle program combines publishers' data to produce a single aggregate price and confidence interval.\nConsumers read the price information produced by the oracle program.\n\nPyth's oracle program runs simultaneously on both Solana mainnet and Pythnet. Each instance of the program is responsible for its own set of price feeds. Solana Price Feeds are available for use by Solana protocols. In this case, since the oracle program itself runs on Solana, the resulting prices are immediately available to consumers without requiring any additional work. Pythnet Price Feeds are available on 12+ blockchains. The prices constructed on Pythnet are transferred cross-chain to reach consumers on these blockchains.\n\nIn both cases, the critical component of the system is the oracle program that combines the data from each individual publisher. This program maintains a number of different Solana accounts that list the products on Pyth and their current price data. Publishers publish their price and confidence by interacting with the oracle program on every slot. The program stores this information in its accounts. The first price update in a slot additionally triggers price aggregation, which combines the price data from the previous slot into a single aggregate price and confidence interval. This aggregate price is written to the Solana account where it is readable by other on-chain programs and available for transmission to other blockchains.",
@@ -10124,8 +10012,7 @@
             "path": "transfer/channel-4/stk/uosmo"
           }
         }
-      ],
-      "coingeckoId": "pstake-staked-osmo"
+      ]
     },
     {
       "description": "Levana Well-funded Perps is a protocol for perpetual swaps, which are leveraged trading contracts.",
@@ -10217,8 +10104,7 @@
             "path": "transfer/channel-874/factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt"
           }
         }
-      ],
-      "coingeckoId": "newt"
+      ]
     },
     {
       "description": "MilkyWay's liquid staked TIA",
@@ -10317,8 +10203,7 @@
             "path": "transfer/channel-642/factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac"
           }
         }
-      ],
-      "coingeckoId": "racoon"
+      ]
     },
     {
       "description": "GUPPY",
@@ -10388,8 +10273,7 @@
             "path": "transfer/channel-1575/aISLM"
           }
         }
-      ],
-      "coingeckoId": "islamic-coin"
+      ]
     },
     {
       "description": "$AUTISM exists to celebrate autism as a superior biological tech stack for a changing world",
@@ -10424,8 +10308,7 @@
             "path": "transfer/channel-122/factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism"
           }
         }
-      ],
-      "coingeckoId": "autism"
+      ]
     },
     {
       "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
@@ -10547,8 +10430,7 @@
             "path": "transfer/channel-122/factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja"
           }
         }
-      ],
-      "coingeckoId": "dog-wif-nuchucks"
+      ]
     },
     {
       "description": "Kleomedes Token",
@@ -10655,8 +10537,7 @@
             "path": "transfer/channel-15464/unym"
           }
         }
-      ],
-      "coingeckoId": "nym"
+      ]
     },
     {
       "description": "has a hat",
@@ -11254,9 +11135,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110",
-      "name": "Dymension Hub",
+      "name": "Dymension (Dymension Hub)",
       "display": "dym",
-      "symbol": "DYM",
+      "symbol": "DYM.dym",
       "traces": [
         {
           "type": "ibc",
@@ -11270,8 +11151,7 @@
             "path": "transfer/channel-19774/adym"
           }
         }
-      ],
-      "coingeckoId": "dymension"
+      ]
     },
     {
       "description": "Rapture insurance is the first ever P2P insurance platform on $OSMO. Get rewarded to take care of peoples loved ones after the Rapture.",
@@ -11335,8 +11215,7 @@
             "path": "transfer/channel-21671/cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
           }
         }
-      ],
-      "coingeckoId": "astroport-fi"
+      ]
     },
     {
       "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
@@ -11452,8 +11331,7 @@
             "path": "transfer/channel-20082/aheart"
           }
         }
-      ],
-      "coingeckoId": "humans-ai"
+      ]
     },
     {
       "description": "The token of Teledisko DAO.",
@@ -11523,8 +11401,7 @@
             "path": "transfer/channel-20100/nscr"
           }
         }
-      ],
-      "coingeckoId": "scorum"
+      ]
     },
     {
       "description": "The native token of Chain4Energy",
@@ -11559,8 +11436,7 @@
             "path": "transfer/channel-22172/uc4e"
           }
         }
-      ],
-      "coingeckoId": "chain4energy"
+      ]
     },
     {
       "description": "Bitmos opens doors for BRC20 tokens to thrive alongside established players in the Cosmos Network, revolutionizing decentralized finance (DeFi) for all.",
@@ -11763,9 +11639,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
-      "name": "AIOZ Network",
+      "name": "AIOZ Network (AIOZ Network)",
       "display": "aioz",
-      "symbol": "AIOZ",
+      "symbol": "AIOZ.aioz",
       "traces": [
         {
           "type": "ibc",
@@ -11779,8 +11655,7 @@
             "path": "transfer/channel-779/attoaioz"
           }
         }
-      ],
-      "coingeckoId": "aioz-network"
+      ]
     },
     {
       "description": "Stride's liquid staked DYM",
@@ -11858,8 +11733,7 @@
             "path": "transfer/channel-258/udoki"
           }
         }
-      ],
-      "coingeckoId": "doki"
+      ]
     },
     {
       "description": "Sail DAO is a liquidity deployment and management DAO built as a collaboration between the Osmosis and Migaloo Blockchains.",
@@ -12028,8 +11902,7 @@
             "path": "transfer/channel-21113/unibi"
           }
         }
-      ],
-      "coingeckoId": "nibiru"
+      ]
     },
     {
       "description": "BEAST-ERC20 on injective",
@@ -12107,8 +11980,7 @@
             "path": "transfer/channel-73971/acvnt"
           }
         }
-      ],
-      "coingeckoId": "consciousdao"
+      ]
     },
     {
       "description": "The memecoin built for the Celestia community",
@@ -12395,8 +12267,7 @@
             "path": "transfer/channel-75030/udhp"
           }
         }
-      ],
-      "coingeckoId": "dhealth"
+      ]
     },
     {
       "description": "The native token of Furya",
@@ -12466,8 +12337,7 @@
             "path": "transfer/channel-38946/usaga"
           }
         }
-      ],
-      "coingeckoId": "saga-2"
+      ]
     },
     {
       "description": "$ATOM to $1,000 LFG!!",
@@ -12538,8 +12408,7 @@
             "path": "transfer/channel-73755/shido"
           }
         }
-      ],
-      "coingeckoId": "shido-2"
+      ]
     },
     {
       "description": "Decentralized Machine Learning",
@@ -12609,8 +12478,7 @@
             "path": "transfer/channel-122/factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava"
           }
         }
-      ],
-      "coingeckoId": "hava-coin"
+      ]
     },
     {
       "description": "OnE mEmEcOiN tO cOnNeCt oL ImBeCiles - aNd in Da Cosmos BiNd DeM",
@@ -12698,8 +12566,7 @@
             "path": "transfer/channel-874/factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
           }
         }
-      ],
-      "coingeckoId": "astroport-fi"
+      ]
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -13451,8 +13318,7 @@
             "path": "transfer/channel-19774/transfer/channel-49/anim"
           }
         }
-      ],
-      "coingeckoId": "nim-network"
+      ]
     },
     {
       "description": "The native token of SEDA Chain.",
@@ -13487,8 +13353,7 @@
             "path": "transfer/channel-75016/aseda"
           }
         }
-      ],
-      "coingeckoId": "seda-2"
+      ]
     },
     {
       "description": "Cosmos Airdrop Chat",
@@ -15024,8 +14889,7 @@
             "path": "transfer/channel-326/staISLM"
           }
         }
-      ],
-      "coingeckoId": "stride-staked-islm"
+      ]
     },
     {
       "description": "The native token of Mande Network.",
@@ -15073,8 +14937,7 @@
             "path": "transfer/channel-19774/transfer/channel-51/amand"
           }
         }
-      ],
-      "coingeckoId": "mande-network"
+      ]
     },
     {
       "description": "The native token of Neutaro",
@@ -15109,8 +14972,7 @@
             "path": "transfer/channel-79092/uneutaro"
           }
         }
-      ],
-      "coingeckoId": "neutaro"
+      ]
     },
     {
       "description": "Pepe Bruce Jenner",
@@ -15195,8 +15057,7 @@
             "path": "transfer/channel-750/ausdy"
           }
         }
-      ],
-      "coingeckoId": "ondo-us-dollar-yield"
+      ]
     },
     {
       "description": "Jacob Haertnellez Turtle. Launched by Jake's Personally appointed TURD Cult Leader...\"NotSeanO'Riley.\" TURD is going to lead the shitcoins of Cosmos! Or Rug You. It will be Jake's Fault. ",
@@ -15250,8 +15111,7 @@
             "path": "transfer/channel-79241/ufct"
           }
         }
-      ],
-      "coingeckoId": "firmachain"
+      ]
     },
     {
       "description": "An alloy of ETH asset variants on Osmosis.",
@@ -15344,8 +15204,7 @@
             "path": "transfer/channel-76971/ulava"
           }
         }
-      ],
-      "coingeckoId": "lava-network"
+      ]
     },
     {
       "description": "The native token of Penumbra.",
@@ -15609,8 +15468,7 @@
             "path": "transfer/channel-79180/route"
           }
         }
-      ],
-      "coingeckoId": "router-protocol-2"
+      ]
     },
     {
       "description": "An alloy of OP asset variants on Osmosis.",
@@ -15927,8 +15785,7 @@
             "path": "transfer/channel-1575/erc20/0x4FEBDDe47Ab9a76200e57eFcC80b212a07b3e6cE"
           }
         }
-      ],
-      "coingeckoId": "deenar-gold"
+      ]
     },
     {
       "description": "CosmoUSD",
@@ -16130,8 +15987,7 @@
             "path": "transfer/channel-874/factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS"
           }
         }
-      ],
-      "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+      ]
     },
     {
       "description": "The native token of TON",
@@ -16375,8 +16231,7 @@
             "path": "transfer/channel-750/ueure"
           }
         }
-      ],
-      "coingeckoId": "monerium-eur-money"
+      ]
     },
     {
       "description": "The native staking and governance token of Andromeda",
@@ -16411,8 +16266,7 @@
             "path": "transfer/channel-81924/uandr"
           }
         }
-      ],
-      "coingeckoId": "andromeda-2"
+      ]
     },
     {
       "description": "Chain-key Bitcoin bridged via Omnity Network.",
@@ -16605,6 +16459,41 @@
       ]
     },
     {
+      "description": "Kima is an asset-agnostic interoperability infrastructure that connects blockchain networks and legacy financial systems, enabling secure, scalable cross-chain transactions and seamless communication across ecosystems.",
+      "denomUnits": [
+        {
+          "denom": "ibc/629B5691DE993DCD07AA1B0587AD52A7FA4E8F28B77DE15BCBDF936CA6F76E6C",
+          "exponent": 0,
+          "aliases": [
+            "uKIMA"
+          ]
+        },
+        {
+          "denom": "KIMA",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/629B5691DE993DCD07AA1B0587AD52A7FA4E8F28B77DE15BCBDF936CA6F76E6C",
+      "name": "Kima Network",
+      "display": "KIMA",
+      "symbol": "KIMA",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "kimanetwork",
+            "baseDenom": "uKIMA",
+            "channelId": "channel-4"
+          },
+          "chain": {
+            "channelId": "channel-86496",
+            "path": "transfer/channel-86496/uKIMA"
+          }
+        }
+      ]
+    },
+    {
       "description": "STOS coin is the native token for the Stratos Blockchain. Stratos is a pioneering decentralized infrastructure service provider, revolutionizing AI and DePIN with advanced decentralized solutions in storage, computing, databases, and blockchain services. We empower Web 3.0 developpers and dApps through our scalable, reliable, and high-performance networks.",
       "denomUnits": [
         {
@@ -16641,8 +16530,7 @@
             "path": "transfer/channel-81016/wei"
           }
         }
-      ],
-      "coingeckoId": "stratos"
+      ]
     },
     {
       "description": "Uniswap UNI on Osmosis via Axelar",
@@ -17152,9 +17040,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/616C2EA69BC328F245CE449785CB0B526B462C48F19DCF9B3D30699579B4308A",
-      "name": "Coinbase Wrapped BTC (Axelar)",
+      "name": "Coinbase Wrapped BTC (Base via Axelar)",
       "display": "cbbtc",
-      "symbol": "cbBTC.axl",
+      "symbol": "$cbBTC.base.axl",
       "traces": [
         {
           "type": "synthetic",
@@ -17254,9 +17142,9 @@
       ],
       "assetType": "ics20",
       "base": "ibc/4AC81C97BBB5482536F6401328E0E10BCCD98F0F471DCF64319A811E25E53CAB",
-      "name": "Lombard Staked Bitcoin (Axelar)",
+      "name": "Lombard Staked Bitcoin (Ethereum via Axelar)",
       "display": "lbtc",
-      "symbol": "LBTC.axl",
+      "symbol": "LBTC.eth.axl",
       "traces": [
         {
           "type": "liquid-stake",
@@ -17457,8 +17345,7 @@
             "path": "transfer/channel-85077/uom"
           }
         }
-      ],
-      "coingeckoId": "mantra-dao"
+      ]
     },
     {
       "description": "The native staking and governance token of AtomOne",
@@ -17609,10 +17496,18 @@
       ],
       "assetType": "ics20",
       "base": "ibc/3B95D63B520C283BCA86F8CD426D57584039463FD684A5CBA31D2780B86A1995",
-      "name": "Dragon",
+      "name": "Dragon Coin (old)",
       "display": "OLDDGN",
-      "symbol": "OLDDGN",
+      "symbol": "DGN.old",
       "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "dungeon",
+            "baseDenom": "udgn"
+          },
+          "provider": "Dungeon Chain"
+        },
         {
           "type": "ibc",
           "counterparty": {
@@ -17644,7 +17539,7 @@
       ],
       "assetType": "ics20",
       "base": "ibc/CD6412358F33B372A355CF22786D8C19477C15092B56BD56188679EED8556964",
-      "name": "Dragon",
+      "name": "Dragon Coin",
       "display": "DGN",
       "symbol": "DGN",
       "traces": [
@@ -17660,8 +17555,7 @@
             "path": "transfer/channel-101249/udgn"
           }
         }
-      ],
-      "coingeckoId": "dragon-coin-2"
+      ]
     },
     {
       "description": "Synternet is a blockchain that powers modular, interoperable data infrastructure across all major chains.",
@@ -17758,8 +17652,7 @@
             "path": "transfer/channel-874/factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
           }
         }
-      ],
-      "coingeckoId": "drop-staked-atom"
+      ]
     },
     {
       "description": "The Sherpa memecoin",
@@ -17901,8 +17794,7 @@
             "path": "transfer/channel-89321/uxion"
           }
         }
-      ],
-      "coingeckoId": "xion-2"
+      ]
     },
     {
       "description": "An alloy of FIL asset variants on Osmosis.",
@@ -18087,8 +17979,7 @@
             "path": "transfer/channel-91017/uelys"
           }
         }
-      ],
-      "coingeckoId": "elys-network"
+      ]
     },
     {
       "description": "Aaron Network is an innovative platform for secure and private messaging, integrated into the blockchain ecosystem. We also offer a unique address reputation scoring system, ensuring that every user can interact with others confidently.",
@@ -18412,6 +18303,1147 @@
       ]
     },
     {
+      "description": "A Stablecoin native to the Kopi blockchain",
+      "denomUnits": [
+        {
+          "denom": "ibc/2C43B074A5C7C3FB32EB8FA85239FCF887312BC960F373BC1EF1EE8517A0B996",
+          "exponent": 0,
+          "aliases": [
+            "ukusd"
+          ]
+        },
+        {
+          "denom": "kUSD",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/2C43B074A5C7C3FB32EB8FA85239FCF887312BC960F373BC1EF1EE8517A0B996",
+      "name": "kUSD",
+      "display": "kUSD",
+      "symbol": "kUSD",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "forex",
+            "baseDenom": "USD"
+          },
+          "provider": "Kopi"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "kopi",
+            "baseDenom": "ukusd",
+            "channelId": "channel-10"
+          },
+          "chain": {
+            "channelId": "channel-97998",
+            "path": "transfer/channel-97998/ukusd"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The native token of kopi",
+      "denomUnits": [
+        {
+          "denom": "ibc/86E7DAA73DD4AEA7319C77A81CF202A02BD094AE8550EEEAB06DF31749B6E05C",
+          "exponent": 0,
+          "aliases": [
+            "ukopi"
+          ]
+        },
+        {
+          "denom": "XKP",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/86E7DAA73DD4AEA7319C77A81CF202A02BD094AE8550EEEAB06DF31749B6E05C",
+      "name": "Kopi",
+      "display": "XKP",
+      "symbol": "XKP",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "kopi",
+            "baseDenom": "ukopi",
+            "channelId": "channel-10"
+          },
+          "chain": {
+            "channelId": "channel-97998",
+            "path": "transfer/channel-97998/ukopi"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Quicksilver Liquid Staked ARCH",
+      "denomUnits": [
+        {
+          "denom": "ibc/BA47828ADDC3700F50B35696390F4C53E35CBB42E84FF768BB75C3F6BAEFD9F1",
+          "exponent": 0,
+          "aliases": [
+            "aqarch"
+          ]
+        },
+        {
+          "denom": "qarch",
+          "exponent": 18,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/BA47828ADDC3700F50B35696390F4C53E35CBB42E84FF768BB75C3F6BAEFD9F1",
+      "name": "Quicksilver Liquid Staked ARCH",
+      "display": "qarch",
+      "symbol": "qARCH",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "archway",
+            "baseDenom": "aarch"
+          },
+          "provider": "Quicksilver"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "baseDenom": "aqarch",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/aqarch"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Quicksilver Liquid Staked PICA",
+      "denomUnits": [
+        {
+          "denom": "ibc/C66CF6F56DC47AECFA2C593C371D5D6218CF9DF709B6F0DAB7C33A9766889E55",
+          "exponent": 0,
+          "aliases": [
+            "pqpica"
+          ]
+        },
+        {
+          "denom": "qpica",
+          "exponent": 12,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/C66CF6F56DC47AECFA2C593C371D5D6218CF9DF709B6F0DAB7C33A9766889E55",
+      "name": "Quicksilver Liquid Staked PICA",
+      "display": "qpica",
+      "symbol": "qPICA",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "picasso",
+            "baseDenom": "ppica"
+          },
+          "provider": "Picasso"
+        },
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "composable",
+            "baseDenom": "ppica"
+          },
+          "provider": "Quicksilver"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "baseDenom": "pqpica",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/pqpica"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Quicksilver Liquid Staked TIA",
+      "denomUnits": [
+        {
+          "denom": "ibc/E8CB12995A190336CA7A647B618E97DF6CA1E1A3FD7685B1AA9C1C80FC63858E",
+          "exponent": 0,
+          "aliases": [
+            "uqtia"
+          ]
+        },
+        {
+          "denom": "qtia",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/E8CB12995A190336CA7A647B618E97DF6CA1E1A3FD7685B1AA9C1C80FC63858E",
+      "name": "Quicksilver Liquid Staked TIA",
+      "display": "qtia",
+      "symbol": "qTIA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "celestia",
+            "baseDenom": "utia"
+          },
+          "provider": "Quicksilver"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "baseDenom": "uqtia",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/uqtia"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Quicksilver Liquid Staked FLIX",
+      "denomUnits": [
+        {
+          "denom": "ibc/9880C90A843C647E7A5D7C108CBB3D6E3D671F3F6BB930558F81B3B24D334162",
+          "exponent": 0,
+          "aliases": [
+            "uqflix"
+          ]
+        },
+        {
+          "denom": "qflix",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/9880C90A843C647E7A5D7C108CBB3D6E3D671F3F6BB930558F81B3B24D334162",
+      "name": "Quicksilver Liquid Staked FLIX",
+      "display": "qflix",
+      "symbol": "qFLIX",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "omniflixhub",
+            "baseDenom": "uflix"
+          },
+          "provider": "Quicksilver"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "baseDenom": "uqflix",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/uqflix"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Quicksilver Liquid Staked LUNA",
+      "denomUnits": [
+        {
+          "denom": "ibc/C3FD0795C73D0D61C09374F99D3F23E746194D22A64B6A44FF0530BCF2419053",
+          "exponent": 0,
+          "aliases": [
+            "uqluna"
+          ]
+        },
+        {
+          "denom": "qluna",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/C3FD0795C73D0D61C09374F99D3F23E746194D22A64B6A44FF0530BCF2419053",
+      "name": "Quicksilver Liquid Staked LUNA",
+      "display": "qluna",
+      "symbol": "qLUNA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "terra2",
+            "baseDenom": "uluna"
+          },
+          "provider": "Quicksilver"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "baseDenom": "uqluna",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/uqluna"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Quicksilver Liquid Staked INJ",
+      "denomUnits": [
+        {
+          "denom": "ibc/3C85C44DCB6BCC4FFB9D295EE79ED412E1FAD5D775C99E6AA51CCEF5CA32409C",
+          "exponent": 0,
+          "aliases": [
+            "qinj"
+          ]
+        },
+        {
+          "denom": "qINJ",
+          "exponent": 18,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/3C85C44DCB6BCC4FFB9D295EE79ED412E1FAD5D775C99E6AA51CCEF5CA32409C",
+      "name": "Quicksilver Liquid Staked INJ",
+      "display": "qinj",
+      "symbol": "qINJ",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "inj"
+          },
+          "provider": "Quicksilver"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "baseDenom": "qinj",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/qinj"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of SUI asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48/alloyed/allSUI",
+          "exponent": 0
+        },
+        {
+          "denom": "sui",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48",
+      "base": "factory/osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48/alloyed/allSUI",
+      "name": "Sui",
+      "display": "sui",
+      "symbol": "SUI",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "sui",
+            "baseDenom": "0x2::sui::SUI"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of APTOS asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v/alloyed/allAPT",
+          "exponent": 0
+        },
+        {
+          "denom": "APT",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v",
+      "base": "factory/osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v/alloyed/allAPT",
+      "name": "Aptos Coin",
+      "display": "APT",
+      "symbol": "APT",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "aptos",
+            "baseDenom": "0x1::aptos_coin::AptosCoin"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of BNB asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz/alloyed/allBNB",
+          "exponent": 0
+        },
+        {
+          "denom": "bnb",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz",
+      "base": "factory/osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz/alloyed/allBNB",
+      "name": "Binance Coin",
+      "display": "bnb",
+      "symbol": "BNB",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "binancesmartchain",
+            "baseDenom": "wei"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "BTC-pegged token on Side Chain.",
+      "denomUnits": [
+        {
+          "denom": "ibc/8765FF0D37A7A85357ED28061EDEBC736743216DB06FE92231957CE158FB351E",
+          "exponent": 0,
+          "aliases": [
+            "sat"
+          ]
+        },
+        {
+          "denom": "sBTC",
+          "exponent": 8
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/8765FF0D37A7A85357ED28061EDEBC736743216DB06FE92231957CE158FB351E",
+      "name": "Side Bitcoin",
+      "display": "sBTC",
+      "symbol": "sBTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Side Chain"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "sidechain",
+            "baseDenom": "sat",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-98081",
+            "path": "transfer/channel-98081/sat"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of DYDX asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX",
+          "exponent": 0
+        },
+        {
+          "denom": "allDYDX",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083",
+      "base": "factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX",
+      "name": "dYdX Protocol",
+      "display": "allDYDX",
+      "symbol": "DYDX",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "dydx",
+            "baseDenom": "adydx"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of FET asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET",
+          "exponent": 0
+        },
+        {
+          "denom": "allFET",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs",
+      "base": "factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET",
+      "name": "Fetch.ai",
+      "display": "allFET",
+      "symbol": "FET",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "fetchhub",
+            "baseDenom": "afet"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of AIOZ asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ",
+          "exponent": 0
+        },
+        {
+          "denom": "allAIOZ",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae",
+      "base": "factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ",
+      "name": "AIOZ Network",
+      "display": "allAIOZ",
+      "symbol": "AIOZ",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "aioz",
+            "baseDenom": "attoaioz"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "The SAM token is a native memecoin on Oraichain.",
+      "denomUnits": [
+        {
+          "denom": "ibc/E72E62E74112F379BB760D02515DA215408CCBF401CD4C9BC0A3DBD72A7076E1",
+          "exponent": 0,
+          "aliases": [
+            "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM"
+          ]
+        },
+        {
+          "denom": "sam",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/E72E62E74112F379BB760D02515DA215408CCBF401CD4C9BC0A3DBD72A7076E1",
+      "name": "SAM",
+      "display": "sam",
+      "symbol": "SAM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "oraichain",
+            "baseDenom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+            "channelId": "channel-13"
+          },
+          "chain": {
+            "channelId": "channel-216",
+            "path": "transfer/channel-216/factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Staking coin of Emporion",
+      "denomUnits": [
+        {
+          "denom": "ibc/6178310C049238B538203D57BFF17481C7E8E11C9D7EA204D2C9B1E67D914F78",
+          "exponent": 0,
+          "aliases": [
+            "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr"
+          ]
+        },
+        {
+          "denom": "EMPR",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/6178310C049238B538203D57BFF17481C7E8E11C9D7EA204D2C9B1E67D914F78",
+      "name": "EMPR",
+      "display": "EMPR",
+      "symbol": "EMPR",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "juno",
+            "baseDenom": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-42",
+            "path": "transfer/channel-42/factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The OG meme coin on MANTRA Chain",
+      "denomUnits": [
+        {
+          "denom": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
+          "exponent": 0,
+          "aliases": [
+            "ubike"
+          ]
+        },
+        {
+          "denom": "bike",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
+      "name": "Ali-Rev-Gator",
+      "display": "bike",
+      "symbol": "BIKE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "mantrachain",
+            "baseDenom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-85077",
+            "path": "transfer/channel-85077/factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The native token of PRYZM",
+      "denomUnits": [
+        {
+          "denom": "ibc/73C91DAE5E8AAC34C95BE8B969365449FFFC2D900A5FDEF40BA339EB34CE5752",
+          "exponent": 0,
+          "aliases": [
+            "upryzm"
+          ]
+        },
+        {
+          "denom": "pryzm",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/73C91DAE5E8AAC34C95BE8B969365449FFFC2D900A5FDEF40BA339EB34CE5752",
+      "name": "Pryzm",
+      "display": "pryzm",
+      "symbol": "PRYZM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "pryzm",
+            "baseDenom": "upryzm",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-75755",
+            "path": "transfer/channel-75755/upryzm"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The community token for The Fortunate Few, a multi chain NFT community platform.",
+      "denomUnits": [
+        {
+          "denom": "ibc/48047CBAA27D0526BA9E6BEC9D77D9B796AA95E35C95891C7F19C3F0D32473F6",
+          "exponent": 0
+        },
+        {
+          "denom": "HOOD",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/48047CBAA27D0526BA9E6BEC9D77D9B796AA95E35C95891C7F19C3F0D32473F6",
+      "name": "HOOD",
+      "display": "HOOD",
+      "symbol": "HOOD",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "stargaze",
+            "baseDenom": "factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-75",
+            "path": "transfer/channel-75/factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood"
+          }
+        }
+      ]
+    },
+    {
+      "description": "T7S is the heartbeat of the Seven Shaders universe—powering NFTs, AI adventures, and gaming rewards. One token, endless possibilities.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
+          "exponent": 0
+        },
+        {
+          "denom": "T7S",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
+      "name": "The Seven Green Shade",
+      "display": "T7S",
+      "symbol": "T7S"
+    },
+    {
+      "description": "An alloy of DYM asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM",
+          "exponent": 0
+        },
+        {
+          "denom": "allDYM",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d",
+      "base": "factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM",
+      "name": "Dymension Hub",
+      "display": "allDYM",
+      "symbol": "DYM",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "dymension",
+            "baseDenom": "adym"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "An alloy of POL asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL",
+          "exponent": 0
+        },
+        {
+          "denom": "allPOL",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m",
+      "base": "factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL",
+      "name": "Polygon (ex-MATIC)",
+      "display": "allPOL",
+      "symbol": "POL",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "polygon",
+            "baseDenom": "0x0000000000000000000000000000000000001010"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "NIL - the native token of Nillion",
+      "denomUnits": [
+        {
+          "denom": "ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064",
+          "exponent": 0,
+          "aliases": [
+            "unil"
+          ]
+        },
+        {
+          "denom": "nil",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064",
+      "name": "Nillion",
+      "display": "nil",
+      "symbol": "NIL",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "nillion",
+            "baseDenom": "unil",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "channelId": "channel-98416",
+            "path": "transfer/channel-98416/unil"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Commemorative token dedicated to the old Prussian noble family",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/ba-ba",
+          "exponent": 0
+        },
+        {
+          "denom": "BA-BA",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/ba-ba",
+      "name": "von Baysen-Bażeński",
+      "display": "BA-BA",
+      "symbol": "BABA"
+    },
+    {
+      "description": "Movement ($MOVE) from Ethereum via Axelar bridge",
+      "denomUnits": [
+        {
+          "denom": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
+          "exponent": 0,
+          "aliases": [
+            "unit-move",
+            "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
+            "0xa",
+            "octa"
+          ]
+        },
+        {
+          "denom": "move",
+          "exponent": 8
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
+      "name": "Movement (Ethereum via Axelar)",
+      "display": "move",
+      "symbol": "MOVE.eth.axl",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "movement",
+            "baseDenom": "0xa"
+          },
+          "provider": "Movement Foundation"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x3073f7aaa4db83f95e9fff17424f71d4751a3073"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "axelar",
+            "baseDenom": "unit-move",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-208",
+            "path": "transfer/channel-208/unit-move"
+          }
+        }
+      ]
+    },
+    {
+      "description": "An alloy of MOVE asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk/alloyed/allMOVE",
+          "exponent": 0
+        },
+        {
+          "denom": "allMOVE",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk",
+      "base": "factory/osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk/alloyed/allMOVE",
+      "name": "Movement",
+      "display": "allMOVE",
+      "symbol": "MOVE",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "movement",
+            "baseDenom": "0xa"
+          },
+          "provider": "Osmosis"
+        }
+      ]
+    },
+    {
+      "description": "CULT - Less Brainwashing, More Utility",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+          "exponent": 0,
+          "aliases": [
+            "ucult"
+          ]
+        },
+        {
+          "denom": "CULT",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm",
+      "base": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+      "name": "CULT",
+      "display": "CULT",
+      "symbol": "CULT"
+    },
+    {
+      "description": "The native token of Babylon Genesis.",
+      "denomUnits": [
+        {
+          "denom": "ibc/EC3A4ACBA1CFBEE698472D3563B70985AEA5A7144C319B61B3EBDFB57B5E1535",
+          "exponent": 0,
+          "aliases": [
+            "ubbn"
+          ]
+        },
+        {
+          "denom": "BABY",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/EC3A4ACBA1CFBEE698472D3563B70985AEA5A7144C319B61B3EBDFB57B5E1535",
+      "name": "Babylon",
+      "display": "BABY",
+      "symbol": "BABY",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "babylon",
+            "baseDenom": "ubbn",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "channelId": "channel-101635",
+            "path": "transfer/channel-101635/ubbn"
+          }
+        }
+      ]
+    },
+    {
+      "description": "Lombard Staked Bitcoin via Eureka",
+      "denomUnits": [
+        {
+          "denom": "ibc/89EE10FCF78800B572BAAC7080AEFA301B5F3BBC51C5371E907EB129C5B900E7",
+          "exponent": 0,
+          "aliases": [
+            "ibc/DBD9E339E1B093A052D76BECFFDE8435EAC114CF2133346B4D691F3F2068C957"
+          ]
+        },
+        {
+          "denom": "lbtc",
+          "exponent": 8
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/89EE10FCF78800B572BAAC7080AEFA301B5F3BBC51C5371E907EB129C5B900E7",
+      "name": "Lombard Staked Bitcoin (Lombard Ledger) (Cosmos Hub)",
+      "display": "lbtc",
+      "symbol": "LBTC.lom.cosmos",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Lombard"
+        },
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x8236a87084f8B84306f72007F36F2618A5634494"
+          },
+          "provider": "Lombard"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "lombardledger",
+            "baseDenom": "uclbtc",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-1340",
+            "path": "transfer/channel-1340/uclbtc"
+          }
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "cosmoshub",
+            "baseDenom": "ibc/DBD9E339E1B093A052D76BECFFDE8435EAC114CF2133346B4D691F3F2068C957",
+            "channelId": "channel-141"
+          },
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/transfer/channel-1340/uclbtc"
+          }
+        }
+      ]
+    },
+    {
+      "description": "SolvBTC via Euerka",
+      "denomUnits": [
+        {
+          "denom": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
+          "exponent": 0,
+          "aliases": [
+            "ibc/0C4417F123459B47B6933939BF6F128C362B0C1F9EDA6A6EBC08860E4672AF7E"
+          ]
+        },
+        {
+          "denom": "solvbtc",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/2CC08A10459B40B0251B8CB9C036C98BED1ABBD5F03772E371DCD0FFDA3EC7F3",
+      "name": "SolvBTC (Eureka)",
+      "display": "solvbtc",
+      "symbol": "solvBTC.atom",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Solv Protocol"
+        },
+        {
+          "type": "ibc-bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x7a56e1c57c7475ccf742a1832b028f0456652f97",
+            "channelId": "cosmoshub-0"
+          },
+          "chain": {
+            "channelId": "08-wasm-1369",
+            "path": "transfer/08-wasm-1369/0x7a56e1c57c7475ccf742a1832b028f0456652f97"
+          },
+          "provider": "Eureka"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "cosmoshub",
+            "baseDenom": "ibc/0C4417F123459B47B6933939BF6F128C362B0C1F9EDA6A6EBC08860E4672AF7E",
+            "channelId": "channel-141"
+          },
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/transfer/08-wasm-1369/0x7a56e1c57c7475ccf742a1832b028f0456652f97"
+          }
+        }
+      ]
+    },
+    {
       "description": "PUNDIX token is the native token that functions within the Pundi X ecosystem, including PundiX Chain and XPOS.",
       "denomUnits": [
         {
@@ -18673,28 +19705,6 @@
       "symbol": "ashION"
     },
     {
-      "description": "CULT - Less Brainwashing, More Utility",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
-          "exponent": 0,
-          "aliases": [
-            "ucult"
-          ]
-        },
-        {
-          "denom": "CULT",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm",
-      "base": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
-      "name": "CULT",
-      "display": "CULT",
-      "symbol": "CULT"
-    },
-    {
       "description": "Tek ovah!",
       "denomUnits": [
         {
@@ -18725,369 +19735,6 @@
           "chain": {
             "channelId": "channel-75",
             "path": "transfer/channel-75/factory/stars1k7qsxdxh8calmt4txk75e6hdntefslegwddqnlwjjqgjkmcfqy0qa97sn8/pleb"
-          }
-        }
-      ]
-    },
-    {
-      "description": "An alloy of SUI asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48/alloyed/allSUI",
-          "exponent": 0
-        },
-        {
-          "denom": "sui",
-          "exponent": 8
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48",
-      "base": "factory/osmo1nqu7rc5mj5p2cgyfp7gl3lw7kw99cltple3xtzl2cs5fyw0r2tasr7xv48/alloyed/allSUI",
-      "name": "Sui",
-      "display": "sui",
-      "symbol": "SUI",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "sui",
-            "baseDenom": "0x2::sui::SUI"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of APTOS asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v/alloyed/allAPT",
-          "exponent": 0
-        },
-        {
-          "denom": "APT",
-          "exponent": 8
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v",
-      "base": "factory/osmo1zynnzvwdu72zc4mxqnnp348ksfmayldqyfs8khdud3myr7m5h8nsqwta2v/alloyed/allAPT",
-      "name": "Aptos Coin",
-      "display": "APT",
-      "symbol": "APT",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "aptos",
-            "baseDenom": "0x1::aptos_coin::AptosCoin"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of BNB asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz/alloyed/allBNB",
-          "exponent": 0
-        },
-        {
-          "denom": "bnb",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz",
-      "base": "factory/osmo1zetxzc5nka4jm203ljjtjf933jwjh45ge6spfeef447rnnhqxc4qrazrcz/alloyed/allBNB",
-      "name": "Binance Coin",
-      "display": "bnb",
-      "symbol": "BNB",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "binancesmartchain",
-            "baseDenom": "wei"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "Quicksilver Liquid Staked ARCH",
-      "denomUnits": [
-        {
-          "denom": "ibc/BA47828ADDC3700F50B35696390F4C53E35CBB42E84FF768BB75C3F6BAEFD9F1",
-          "exponent": 0,
-          "aliases": [
-            "aqarch"
-          ]
-        },
-        {
-          "denom": "qarch",
-          "exponent": 18,
-          "aliases": [
-
-          ]
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/BA47828ADDC3700F50B35696390F4C53E35CBB42E84FF768BB75C3F6BAEFD9F1",
-      "name": "Quicksilver Liquid Staked ARCH",
-      "display": "qarch",
-      "symbol": "qARCH",
-      "traces": [
-        {
-          "type": "liquid-stake",
-          "counterparty": {
-            "chainName": "archway",
-            "baseDenom": "aarch"
-          },
-          "provider": "Quicksilver"
-        },
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "quicksilver",
-            "baseDenom": "aqarch",
-            "channelId": "channel-2"
-          },
-          "chain": {
-            "channelId": "channel-522",
-            "path": "transfer/channel-522/aqarch"
-          }
-        }
-      ]
-    },
-    {
-      "description": "Quicksilver Liquid Staked TIA",
-      "denomUnits": [
-        {
-          "denom": "ibc/E8CB12995A190336CA7A647B618E97DF6CA1E1A3FD7685B1AA9C1C80FC63858E",
-          "exponent": 0,
-          "aliases": [
-            "uqtia"
-          ]
-        },
-        {
-          "denom": "qtia",
-          "exponent": 6,
-          "aliases": [
-
-          ]
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/E8CB12995A190336CA7A647B618E97DF6CA1E1A3FD7685B1AA9C1C80FC63858E",
-      "name": "Quicksilver Liquid Staked TIA",
-      "display": "qtia",
-      "symbol": "qTIA",
-      "traces": [
-        {
-          "type": "liquid-stake",
-          "counterparty": {
-            "chainName": "celestia",
-            "baseDenom": "utia"
-          },
-          "provider": "Quicksilver"
-        },
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "quicksilver",
-            "baseDenom": "uqtia",
-            "channelId": "channel-2"
-          },
-          "chain": {
-            "channelId": "channel-522",
-            "path": "transfer/channel-522/uqtia"
-          }
-        }
-      ]
-    },
-    {
-      "description": "Quicksilver Liquid Staked PICA",
-      "denomUnits": [
-        {
-          "denom": "ibc/C66CF6F56DC47AECFA2C593C371D5D6218CF9DF709B6F0DAB7C33A9766889E55",
-          "exponent": 0,
-          "aliases": [
-            "pqpica"
-          ]
-        },
-        {
-          "denom": "qpica",
-          "exponent": 12,
-          "aliases": [
-
-          ]
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/C66CF6F56DC47AECFA2C593C371D5D6218CF9DF709B6F0DAB7C33A9766889E55",
-      "name": "Quicksilver Liquid Staked PICA",
-      "display": "qpica",
-      "symbol": "qPICA",
-      "traces": [
-        {
-          "type": "liquid-stake",
-          "counterparty": {
-            "chainName": "composable",
-            "baseDenom": "ppica"
-          },
-          "provider": "Quicksilver"
-        },
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "quicksilver",
-            "baseDenom": "pqpica",
-            "channelId": "channel-2"
-          },
-          "chain": {
-            "channelId": "channel-522",
-            "path": "transfer/channel-522/pqpica"
-          }
-        }
-      ]
-    },
-    {
-      "description": "Quicksilver Liquid Staked INJ",
-      "denomUnits": [
-        {
-          "denom": "ibc/3C85C44DCB6BCC4FFB9D295EE79ED412E1FAD5D775C99E6AA51CCEF5CA32409C",
-          "exponent": 0,
-          "aliases": [
-            "qinj"
-          ]
-        },
-        {
-          "denom": "qINJ",
-          "exponent": 18,
-          "aliases": [
-
-          ]
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/3C85C44DCB6BCC4FFB9D295EE79ED412E1FAD5D775C99E6AA51CCEF5CA32409C",
-      "name": "Quicksilver Liquid Staked INJ",
-      "display": "qinj",
-      "symbol": "qINJ",
-      "traces": [
-        {
-          "type": "liquid-stake",
-          "counterparty": {
-            "chainName": "injective",
-            "baseDenom": "inj"
-          },
-          "provider": "Quicksilver"
-        },
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "quicksilver",
-            "baseDenom": "qinj",
-            "channelId": "channel-2"
-          },
-          "chain": {
-            "channelId": "channel-522",
-            "path": "transfer/channel-522/qinj"
-          }
-        }
-      ]
-    },
-    {
-      "description": "Quicksilver Liquid Staked FLIX",
-      "denomUnits": [
-        {
-          "denom": "ibc/9880C90A843C647E7A5D7C108CBB3D6E3D671F3F6BB930558F81B3B24D334162",
-          "exponent": 0,
-          "aliases": [
-            "uqflix"
-          ]
-        },
-        {
-          "denom": "qflix",
-          "exponent": 6,
-          "aliases": [
-
-          ]
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/9880C90A843C647E7A5D7C108CBB3D6E3D671F3F6BB930558F81B3B24D334162",
-      "name": "Quicksilver Liquid Staked FLIX",
-      "display": "qflix",
-      "symbol": "qFLIX",
-      "traces": [
-        {
-          "type": "liquid-stake",
-          "counterparty": {
-            "chainName": "omniflixhub",
-            "baseDenom": "uflix"
-          },
-          "provider": "Quicksilver"
-        },
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "quicksilver",
-            "baseDenom": "uqflix",
-            "channelId": "channel-2"
-          },
-          "chain": {
-            "channelId": "channel-522",
-            "path": "transfer/channel-522/uqflix"
-          }
-        }
-      ]
-    },
-    {
-      "description": "Quicksilver Liquid Staked LUNA",
-      "denomUnits": [
-        {
-          "denom": "ibc/C3FD0795C73D0D61C09374F99D3F23E746194D22A64B6A44FF0530BCF2419053",
-          "exponent": 0,
-          "aliases": [
-            "uqluna"
-          ]
-        },
-        {
-          "denom": "qluna",
-          "exponent": 6,
-          "aliases": [
-
-          ]
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/C3FD0795C73D0D61C09374F99D3F23E746194D22A64B6A44FF0530BCF2419053",
-      "name": "Quicksilver Liquid Staked LUNA",
-      "display": "qluna",
-      "symbol": "qLUNA",
-      "traces": [
-        {
-          "type": "liquid-stake",
-          "counterparty": {
-            "chainName": "terra2",
-            "baseDenom": "uluna"
-          },
-          "provider": "Quicksilver"
-        },
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "quicksilver",
-            "baseDenom": "uqluna",
-            "channelId": "channel-2"
-          },
-          "chain": {
-            "channelId": "channel-522",
-            "path": "transfer/channel-522/uqluna"
           }
         }
       ]
@@ -19233,237 +19880,6 @@
       ]
     },
     {
-      "description": "An alloy of DYDX asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX",
-          "exponent": 0
-        },
-        {
-          "denom": "allDYDX",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083",
-      "base": "factory/osmo1zem8r6dv6u38f6qpg546zy30946av8h5srgug0s4gcyy6cfecf3seac083/alloyed/allDYDX",
-      "name": "dYdX",
-      "display": "allDYDX",
-      "symbol": "DYDX",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "dydx",
-            "baseDenom": "adydx"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of FET asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET",
-          "exponent": 0
-        },
-        {
-          "denom": "allFET",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs",
-      "base": "factory/osmo1mdvn6lmykp2z345ncpf647dztslyll8cyhwj9pltrc0lf7nva3cqvrp6qs/alloyed/allFET",
-      "name": "fetch-ai",
-      "display": "allFET",
-      "symbol": "FET",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "fetchhub",
-            "baseDenom": "afet"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of AIOZ asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ",
-          "exponent": 0
-        },
-        {
-          "denom": "allAIOZ",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae",
-      "base": "factory/osmo17ceugf0nnkk228k2sulemn0s9pl3yg554462eexxs3pgq8p629us98gqae/alloyed/allAIOZ",
-      "name": "AIOZ",
-      "display": "allAIOZ",
-      "symbol": "AIOZ",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "aioz",
-            "baseDenom": "attoaioz"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "The OG meme coin on MANTRA Chain",
-      "denomUnits": [
-        {
-          "denom": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
-          "exponent": 0,
-          "aliases": [
-            "ubike"
-          ]
-        },
-        {
-          "denom": "bike",
-          "exponent": 6
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/512F2595204C4BCAC1C000A394CAB9529A4E519C97ED465B9230B563D2D4AFBA",
-      "name": "Ali-Rev-Gator",
-      "display": "bike",
-      "symbol": "BIKE",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "mantrachain",
-            "baseDenom": "factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE",
-            "channelId": "channel-0"
-          },
-          "chain": {
-            "channelId": "channel-85077",
-            "path": "transfer/channel-85077/factory/mantra1vtpg8z82gz9qe3adf7t9z0qwuvkpzmqu9ds4ej/BIKE"
-          }
-        }
-      ]
-    },
-    {
-      "description": "The community token for The Fortunate Few, a multi chain NFT community platform.",
-      "denomUnits": [
-        {
-          "denom": "ibc/48047CBAA27D0526BA9E6BEC9D77D9B796AA95E35C95891C7F19C3F0D32473F6",
-          "exponent": 0
-        },
-        {
-          "denom": "HOOD",
-          "exponent": 6
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/48047CBAA27D0526BA9E6BEC9D77D9B796AA95E35C95891C7F19C3F0D32473F6",
-      "name": "Hood",
-      "display": "HOOD",
-      "symbol": "HOOD",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "stargaze",
-            "baseDenom": "factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood",
-            "channelId": "channel-0"
-          },
-          "chain": {
-            "channelId": "channel-75",
-            "path": "transfer/channel-75/factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood"
-          }
-        }
-      ]
-    },
-    {
-      "description": "T7S is the heartbeat of the Seven Shaders universe—powering NFTs, AI adventures, and gaming rewards. One token, endless possibilities.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
-          "exponent": 0
-        },
-        {
-          "denom": "T7S",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
-      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
-      "name": "The Seven Green Shade",
-      "display": "T7S",
-      "symbol": "T7S"
-    },
-    {
-      "description": "An alloy of DYM asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM",
-          "exponent": 0
-        },
-        {
-          "denom": "allDYM",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d",
-      "base": "factory/osmo12cf6l99qrchfppmjp80gvkpnle2tuxpck2cf6fz030w74mq49u4qm3dh4d/alloyed/allDYM",
-      "name": "Dymension Hub (Alloy)",
-      "display": "allDYM",
-      "symbol": "allDYM",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "dymension",
-            "baseDenom": "adym"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
-      "description": "An alloy of POL asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL",
-          "exponent": 0
-        },
-        {
-          "denom": "allPOL",
-          "exponent": 12
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m",
-      "base": "factory/osmo1fg7y3j86fkp93yxpq5q8lk8c64k8wxj3qw8us49msgpr2gsgddjqxpgr9m/alloyed/allPOL",
-      "name": "Polygon (ex-MATIC) (Alloy)",
-      "display": "allPOL",
-      "symbol": "allPOL",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "polygon",
-            "baseDenom": "0x0000000000000000000000000000000000001010"
-          },
-          "provider": "Osmosis"
-        }
-      ]
-    },
-    {
       "description": "ALLiN Gaming is a GameFi platform on Dymension and Osmosis, featuring casino games, PvP games, and prediction markets. It offers a fun, transparent, and rewarding experience with a unique points system.",
       "denomUnits": [
         {
@@ -19549,128 +19965,6 @@
             "channelId": "channel-2188",
             "path": "transfer/channel-2188/uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv"
           }
-        }
-      ]
-    },
-    {
-      "description": "Commemorative token dedicated to the old Prussian noble family",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/ba-ba",
-          "exponent": 0
-        },
-        {
-          "denom": "BA-BA",
-          "exponent": 6
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
-      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/ba-ba",
-      "name": "von Baysen-Bażeński",
-      "display": "BA-BA",
-      "symbol": "BABA"
-    },
-    {
-      "description": "NIL - the native token of Nillion",
-      "denomUnits": [
-        {
-          "denom": "ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064",
-          "exponent": 0,
-          "aliases": [
-            "unil"
-          ]
-        },
-        {
-          "denom": "nil",
-          "exponent": 6
-        }
-      ],
-      "assetType": "ics20",
-      "base": "ibc/D37860EB1D2669F34B47A7BC48885853D5AB23642EF958CDEA35EB6074087064",
-      "name": "Nillion",
-      "display": "nil",
-      "symbol": "NIL",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "nillion",
-            "baseDenom": "unil",
-            "channelId": "channel-2"
-          },
-          "chain": {
-            "channelId": "channel-98416",
-            "path": "transfer/channel-98416/unil"
-          }
-        }
-      ],
-      "coingeckoId": "nillion"
-    },
-    {
-      "description": "Movement ($MOVE) from Ethereum via Axelar bridge",
-      "assetType": "ics20",
-      "denomUnits": [
-        {
-          "denom": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
-          "exponent": 0,
-          "aliases": [
-            "unit-move",
-            "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
-            "0xa",
-            "octa"
-          ]
-        },
-        {
-          "denom": "move",
-          "exponent": 8
-        }
-      ],
-      "base": "ibc/D19DA6AE5B3CB19A035FCB51DEE5A36392E0D64D51C20D159A155D1581911A39",
-      "name": "Movement (Ethereum via Axelar)",
-      "display": "move",
-      "symbol": "MOVE.eth.axl",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chainName": "axelar",
-            "baseDenom": "unit-move",
-            "channelId": "channel-3"
-          },
-          "chain": {
-            "channelId": "channel-208",
-            "path": "transfer/channel-208/unit-move"
-          }
-        }
-      ]
-    },
-    {
-      "description": "An alloy of MOVE asset variants on Osmosis.",
-      "denomUnits": [
-        {
-          "denom": "factory/osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk/alloyed/allMOVE",
-          "exponent": 0
-        },
-        {
-          "denom": "allMOVE",
-          "exponent": 8
-        }
-      ],
-      "assetType": "sdk.coin",
-      "address": "osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk",
-      "base": "factory/osmo1v90ezcqkv5utjc52vg4w2gztmcpt7l4vqxzuryj6zl3qr8wy539quxeafk/alloyed/allMOVE",
-      "name": "Movement (Alloy)",
-      "display": "allMOVE",
-      "symbol": "allMOVE",
-      "traces": [
-        {
-          "type": "synthetic",
-          "counterparty": {
-            "chainName": "movement",
-            "baseDenom": "0xa"
-          },
-          "provider": "Osmosis"
         }
       ]
     }

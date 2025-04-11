@@ -48,11 +48,17 @@
     "rpc": [
       {
         "address": "https://rpc-seed.arkeo.network"
+      },
+      {
+        "address": "https://arkeo-mainnet-rpc.autostake.com:443"
       }
     ],
     "rest": [
       {
         "address": "https://rest-seed.arkeo.network"
+      },
+      {
+        "address": "https://arkeo-mainnet-lcd.autostake.com:443"
       }
     ]
   },
