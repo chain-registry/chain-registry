@@ -157,9 +157,6 @@
         "address": "https://rpc.lavenderfive.com:443/kujira"
       },
       {
-        "address": "https://rpc.kujira.chaintools.tech/"
-      },
-      {
         "address": "https://rpc-kujira-ia.cosmosia.notional.ventures/"
       },
       {
@@ -250,9 +247,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "kujira.grpcui.chaintools.host:443"
-      },
       {
         "address": "grpc-kujira-ia.cosmosia.notional.ventures:443"
       },

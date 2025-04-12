@@ -71,9 +71,6 @@
         "address": "https://rpc-juno-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://rpc.juno.chaintools.tech/"
-      },
-      {
         "address": "https://juno-rpc.kleomedes.network"
       },
       {
@@ -149,9 +146,6 @@
       },
       {
         "address": "https://api-juno-ia.cosmosia.notional.ventures/"
-      },
-      {
-        "address": "https://api.juno.chaintools.tech/"
       },
       {
         "address": "https://juno-api.polkachu.com"

@@ -67,9 +67,6 @@
         "address": "https://elys-rpc.publicnode.com:443"
       },
       {
-        "address": "https://elys.rpc.vnodesv.net:443"
-      },
-      {
         "address": "https://elys-mainnet-rpc.itrocket.net:443"
       },
       {
@@ -110,6 +107,12 @@
       },
       {
         "address": "https://elys-rpc.node39.top:443"
+      },
+      {
+        "address": "https://elys.rpc.vnodesv.net:443"
+      },
+      {
+        "address": "https://elys.rpc.fr.vnodesv.net:443"
       }
     ],
     "rest": [
@@ -121,9 +124,6 @@
       },
       {
         "address": "https://elys-rest.publicnode.com"
-      },
-      {
-        "address": "https://elys.rest.vnodesv.net:443"
       },
       {
         "address": "https://elys-mainnet-api.itrocket.net"
@@ -166,6 +166,12 @@
       },
       {
         "address": "https://elys-api.node39.top:443"
+      },
+      {
+        "address": "https://elys.rest.vnodesv.net:443"
+      },
+      {
+        "address": "https://elys.rest.fr.vnodesv.net:443"
       }
     ],
     "grpc": [
