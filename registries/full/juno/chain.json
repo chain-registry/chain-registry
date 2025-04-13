@@ -78,7 +78,7 @@
       {
         "id": "babc3f3f7804933265ec9c40ad94f4da8e9e0017",
         "address": "seed.rhinostake.com:12656",
-        "provider": "RHINO"
+        "provider": "RHINO 🦏"
       },
       {
         "id": "90b09362d9ce3845096c4938eea0dba682b0ad2c",
@@ -179,7 +179,7 @@
         "provider": "itastakers"
       },
       {
-        "address": "http://juno.rpc.m.stavr.tech:1067",
+        "address": "https://juno.rpc.m.stavr.tech",
         "provider": "🔥STAVR🔥"
       },
       {
@@ -395,7 +395,7 @@
         "provider": "Polkachu"
       },
       {
-        "address": "http://juno.grpc.m.stavr.tech:504",
+        "address": "https://juno.grpc.m.stavr.tech:443",
         "provider": "🔥STAVR🔥"
       },
       {

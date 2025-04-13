@@ -43,9 +43,6 @@
       },
       {
         "address": "https://api-testnet-union.nodeist.net"
-      },
-      {
-        "address": "https://union-testnet-api.itrocket.net"
       }
     ],
     "grpc": [

@@ -19967,6 +19967,44 @@
           }
         }
       ]
+    },
+    {
+      "description": "Fractionalized Crypto Hamsters",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fHAM",
+          "exponent": 0
+        },
+        {
+          "denom": "fHAM",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fHAM",
+      "name": "fHAM",
+      "display": "fHAM",
+      "symbol": "fHAM"
+    },
+    {
+      "description": "Fractionalized CEWTs",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCEWT",
+          "exponent": 0
+        },
+        {
+          "denom": "fCEWT",
+          "exponent": 9
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv",
+      "base": "factory/osmo1dywfmhyc8y0wga7qpzej0x0mgwqg25fj4eccp494w8yafzdpgamsx9ryyv/fCEWT",
+      "name": "fCEWT",
+      "display": "fCEWT",
+      "symbol": "fCEWT"
     }
   ]
 }

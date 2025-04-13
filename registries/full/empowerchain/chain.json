@@ -82,6 +82,11 @@
         "id": "b85358e035343a3b15e77e1102857dcdaf70053b",
         "address": "seeds.bluestake.net:21956",
         "provider": "BlueStake 🚀"
+      },
+      {
+        "id": "babc3f3f7804933265ec9c40ad94f4da8e9e0017",
+        "address": "seed.rhinostake.com:17456",
+        "provider": "RHINO 🦏"
       }
     ],
     "persistentPeers": [

@@ -87,6 +87,9 @@
       },
       {
         "address": "https://seda-rpc.node39.top:443"
+      },
+      {
+        "address": "https://seda-rpc.cosmos-apis.com:443"
       }
     ],
     "rest": [
@@ -134,6 +137,9 @@
       },
       {
         "address": "https://seda-api.node39.top:443"
+      },
+      {
+        "address": "https://seda-rest.cosmos-apis.com:443"
       }
     ],
     "grpc": [
@@ -160,6 +166,9 @@
       },
       {
         "address": "seda-grpc.node39.top:13090"
+      },
+      {
+        "address": "seda-grpc.cosmos-apis.com:443"
       }
     ]
   },

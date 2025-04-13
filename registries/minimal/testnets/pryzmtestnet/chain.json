@@ -38,25 +38,16 @@
     "rpc": [
       {
         "address": "https://testnet-rpc.pryzm.zone"
-      },
-      {
-        "address": "https://pryzm-testnet-rpc.itrocket.net"
       }
     ],
     "rest": [
       {
         "address": "https://testnet-api.pryzm.zone"
-      },
-      {
-        "address": "https://pryzm-testnet-api.itrocket.net"
       }
     ],
     "grpc": [
       {
         "address": "https://testnet-grpc.pryzm.zone"
-      },
-      {
-        "address": "http://pryzm-testnet-grpc.itrocket.net:41090"
       }
     ]
   },
@@ -66,12 +57,6 @@
       "url": "https://testnets.cosmosrun.info/pryzm-indigo-1",
       "txPage": "https://testnets.cosmosrun.info/pryzm-indigo-1/tx/${txHash}",
       "accountPage": "https://testnets.cosmosrun.info/pryzm-indigo-1/account/${accountAddress}"
-    },
-    {
-      "kind": "ITRocket",
-      "url": "https://testnet.itrocket.net/pryzm",
-      "txPage": "https://testnet.itrocket.net/pryzm/tx/${txHash}",
-      "accountPage": "https://testnet.itrocket.net/pryzm/account/${accountAddress}"
     }
   ],
   "images": [
