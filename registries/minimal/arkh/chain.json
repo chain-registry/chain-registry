@@ -36,6 +36,9 @@
     "rpc": [
       {
         "address": "https://arkhadian-mainnet-rpc.bonynode.online/"
+      },
+      {
+        "address": "http://arkh.rpc.wellnode.net:26657/"
       }
     ],
     "rest": [
