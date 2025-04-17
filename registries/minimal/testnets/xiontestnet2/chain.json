@@ -3,7 +3,7 @@
   "chainName": "xiontestnet2",
   "chainType": "cosmos",
   "chainId": "xion-testnet-2",
-  "prettyName": "Xion Testnet 2",
+  "prettyName": "Xion Testnet",
   "website": "https://xion.burnt.com",
   "networkType": "testnet",
   "bech32Prefix": "xion",
