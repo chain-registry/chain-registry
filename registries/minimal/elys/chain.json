@@ -113,6 +113,9 @@
       },
       {
         "address": "https://elys.rpc.fr.vnodesv.net:443"
+      },
+      {
+        "address": "https://rpc.elys.node75.org:443"
       }
     ],
     "rest": [
@@ -172,6 +175,9 @@
       },
       {
         "address": "https://elys.rest.fr.vnodesv.net:443"
+      },
+      {
+        "address": "https://api.elys.node75.org:443"
       }
     ],
     "grpc": [
@@ -210,6 +216,9 @@
       },
       {
         "address": "elys-grpc.node39.top:12090"
+      },
+      {
+        "address": "grpc.elys.node75.org:9210"
       }
     ]
   },
