@@ -1475,6 +1475,16 @@
       "name": "Lorenzo stBTC",
       "display": "stbtc",
       "symbol": "stBTC",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Lorenzo"
+        }
+      ],
       "coingeckoId": "lorenzo-stbtc"
     },
     {
@@ -1561,6 +1571,16 @@
       "name": "pumpBTC",
       "display": "pumpbtc",
       "symbol": "pumpBTC",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "pumpBTC"
+        }
+      ],
       "coingeckoId": "pumpbtc"
     },
     {
