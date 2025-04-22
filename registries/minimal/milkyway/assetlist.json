@@ -322,6 +322,27 @@
         }
       ],
       "coingeckoId": "usd-coin"
+    },
+    {
+      "description": "MilkyWay's liquid staked BABY",
+      "denomUnits": [
+        {
+          "denom": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "milkBABY",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
+      "name": "milkBABY",
+      "display": "milkBABY",
+      "symbol": "milkBABY"
     }
   ]
 }

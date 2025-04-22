@@ -156,8 +156,7 @@
       "address": "secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej",
       "name": "Alter",
       "display": "alter",
-      "symbol": "ALTER",
-      "coingeckoId": "alter"
+      "symbol": "ALTER"
     },
     {
       "description": "The native token cw20 for Amber on Secret Network",

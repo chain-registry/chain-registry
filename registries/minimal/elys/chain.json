@@ -115,6 +115,9 @@
         "address": "https://elys.rpc.fr.vnodesv.net:443"
       },
       {
+        "address": "https://elys-rpc.kleomedes.network/"
+      },
+      {
         "address": "https://rpc.elys.node75.org:443"
       }
     ],
@@ -177,6 +180,9 @@
         "address": "https://elys.rest.fr.vnodesv.net:443"
       },
       {
+        "address": "https://elys-api.kleomedes.network/"
+      },
+      {
         "address": "https://api.elys.node75.org:443"
       }
     ],
@@ -216,6 +222,9 @@
       },
       {
         "address": "elys-grpc.node39.top:12090"
+      },
+      {
+        "address": "elys.grpc.kleomedes.network:443"
       },
       {
         "address": "grpc.elys.node75.org:9210"
@@ -270,6 +279,10 @@
       "url": "https://explorer.node39.top/elys",
       "txPage": "https://explorer.node39.top/elys/tx/${txHash}",
       "accountPage": "https://explorer.node39.top/elys/account/${accountAddress}"
+    },
+    {
+      "kind": "Stake-Hub by Kleomedes",
+      "url": "https://www.stake-hub.xyz/elys"
     }
   ]
 }

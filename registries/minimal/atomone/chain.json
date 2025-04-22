@@ -94,6 +94,9 @@
       },
       {
         "address": "https://rpc.atomone.chaintools.tech"
+      },
+      {
+        "address": "https://atomone-mainnet-rpc.bonynode.online"
       }
     ],
     "rest": [
@@ -153,6 +156,9 @@
       },
       {
         "address": "https://api.atomone.chaintools.tech"
+      },
+      {
+        "address": "https://atomone-mainnet-api.bonynode.online"
       }
     ],
     "grpc": [
@@ -191,6 +197,9 @@
       },
       {
         "address": "grpc.atomone.chaintools.tech:443"
+      },
+      {
+        "address": "https://atomone-mainnet-grpc.bonynode.online:443"
       }
     ]
   },
@@ -254,6 +263,12 @@
       "url": "https://atomone.valopers.com/",
       "txPage": "https://atomone.valopers.com/transactions/${txHash}",
       "accountPage": "https://atomone.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "BonyNode💚",
+      "url": "https://explorer.bonynode.online/atomone",
+      "txPage": "https://explorer.bonynode.online/atomone/transactions/${txHash}",
+      "accountPage": "https://explorer.bonynode.online/atomone/account/${accountAddress}"
     }
   ],
   "images": [

@@ -265,7 +265,6 @@
           "provider": "Arbitrum Bridge"
         }
       ],
-      "coingeckoId": "arbitrum-bridged-usdt-arbitrum",
       "images": [
         {
           "imageSync": {
