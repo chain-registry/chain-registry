@@ -90,6 +90,9 @@
       },
       {
         "address": "https://sentinel-rpc.ibs.team:443"
+      },
+      {
+        "address": "https://sentinel.rpc.quasarstaking.ai:443"
       }
     ],
     "rest": [
@@ -143,6 +146,9 @@
       },
       {
         "address": "https://sentinel-api.ibs.team:443"
+      },
+      {
+        "address": "https://sentinel.api.quasarstaking.ai:443"
       }
     ],
     "grpc": [
@@ -184,6 +190,9 @@
       },
       {
         "address": "https://grpc.noncompliant.network:9090"
+      },
+      {
+        "address": "sentinel.grpc.quasarstaking.ai:80"
       }
     ]
   },

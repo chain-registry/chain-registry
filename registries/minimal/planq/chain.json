@@ -62,9 +62,6 @@
         "address": "https://planq-rpc.genznodes.dev"
       },
       {
-        "address": "https://rpc.planq.safeblock.space"
-      },
-      {
         "address": "https://planq.rpc.skynodejs.net"
       },
       {
@@ -101,9 +98,6 @@
       },
       {
         "address": "https://planq-api.genznodes.dev"
-      },
-      {
-        "address": "https://api.planq.safeblock.space"
       },
       {
         "address": "https://planq.api.skynodejs.net"
@@ -153,9 +147,6 @@
         "address": "planq-grpc.genznodes.dev:28090"
       },
       {
-        "address": "grpc.planq.safeblock.space:9090"
-      },
-      {
         "address": "https://planq.grpc.skynodejs.net"
       },
       {
@@ -183,9 +174,6 @@
       },
       {
         "address": "https://planq-rpc-evm.genznodes.dev"
-      },
-      {
-        "address": "https://evm.planq.safeblock.space"
       },
       {
         "address": "https://planq-jsonrpc.stake-town.com"
@@ -263,11 +251,6 @@
       "kind": "Indonode",
       "url": "https://explorer.indonode.net/planq",
       "txPage": "https://explorer.indonode.net/planq/tx/${txHash}"
-    },
-    {
-      "kind": "Safe Block",
-      "url": "https://explorer.safeblock.space/planq",
-      "txPage": "https://explorer.safeblock.space/planq/tx/${txHash}"
     },
     {
       "kind": "KonsorTech",

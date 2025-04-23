@@ -62,9 +62,6 @@
         "address": "https://api-realio.sr20de.xyz"
       },
       {
-        "address": "https://rpc.realio.safeblock.space"
-      },
-      {
         "address": "https://realio.declab.pro:26622"
       },
       {
@@ -103,9 +100,6 @@
         "address": "https://rpc-realio.sr20de.xyz"
       },
       {
-        "address": "https://api.realio.safeblock.space"
-      },
-      {
         "address": "https://realio.declab.pro:443"
       },
       {
@@ -141,9 +135,6 @@
         "address": "https://grpc-realio.sr20de.xyz"
       },
       {
-        "address": "grpc.realio.safeblock.space:9090"
-      },
-      {
         "address": "realio.grpc.skynodejs.net"
       },
       {
@@ -165,9 +156,6 @@
       },
       {
         "address": "https://evm-realio.sr20de.xyz"
-      },
-      {
-        "address": "https://evm.realio.safeblock.space"
       },
       {
         "address": "https://realio-jsonrpc.noders.services"
@@ -201,12 +189,6 @@
       "url": "https://explorer.tcnetwork.io/realio",
       "txPage": "https://explorer.tcnetwork.io/realio/transaction/${txHash}",
       "accountPage": "https://explorer.tcnetwork.io/realio/account/${accountAddress}"
-    },
-    {
-      "kind": "Safe Block",
-      "url": "https://explorer.safeblock.space/realio",
-      "txPage": "https://explorer.safeblock.space/realio/tx/${txHash}",
-      "accountPage": "https://explorer.safeblock.space/realio/account/${accountAddress}"
     },
     {
       "kind": "Decloud Nodes Lab",

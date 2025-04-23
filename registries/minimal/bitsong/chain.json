@@ -52,9 +52,6 @@
         "address": "https://rpc-bitsong.architectnodes.com"
       },
       {
-        "address": "https://rpc.bitsong.safeblock.space"
-      },
-      {
         "address": "https://bitsong.tdrsys.com:2053"
       },
       {
@@ -90,9 +87,6 @@
         "address": "https://rest-bitsong.architectnodes.com"
       },
       {
-        "address": "https://api.bitsong.safeblock.space"
-      },
-      {
         "address": "https://bitsong.tdrsys.com"
       },
       {
@@ -120,9 +114,6 @@
     "grpc": [
       {
         "address": "bitsong-grpc.polkachu.com:16090"
-      },
-      {
-        "address": "grpc.bitsong.safeblock.space:9090"
       },
       {
         "address": "grpc.bitsong.mathnodes.com:443"
@@ -170,12 +161,6 @@
       "url": "https://atomscan.com/bitsong",
       "txPage": "https://atomscan.com/bitsong/transactions/${txHash}",
       "accountPage": "https://atomscan.com/bitsong/accounts/${accountAddress}"
-    },
-    {
-      "kind": "Safe Block",
-      "url": "https://explorer.safeblok.space/bitsong",
-      "txPage": "https://explorer.safeblock.space/bitsong/tx/${txHash}",
-      "accountPage": "https://explorer.safeblock.space/bitsong/account/${accountAddress}"
     },
     {
       "kind": "🔥STAVR🔥",

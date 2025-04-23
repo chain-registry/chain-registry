@@ -1,0 +1,70 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "initia",
+  "chainId": "interwoven-1",
+  "chainType": "cosmos",
+  "website": "https://initia.xyz",
+  "prettyName": "Initia",
+  "networkType": "mainnet",
+  "bech32Prefix": "init",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uinit",
+        "fixedMinGasPrice": 0.015,
+        "lowGasPrice": 0.015,
+        "averageGasPrice": 0.015,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uinit"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "description": "Initia Mainnet",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.initia.xyz"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.initia.xyz"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.initia.xyz:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "initia scan",
+      "url": "https://scan.initia.xyz/interwoven-1",
+      "txPage": "https://scan.initia.xyz/interwoven-1/txs/${txHash}",
+      "accountPage": "https://scan.initia.xyz/interwoven-1/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.svg",
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/initia/images/INIT.png",
+      "theme": {
+        "circle": true
+      }
+    }
+  ]
+}
