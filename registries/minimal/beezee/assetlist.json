@@ -389,6 +389,24 @@
         }
       ],
       "coingeckoId": "posthuman"
+    },
+    {
+      "description": "GEEGEE (GGE) on Cosmos is a community driven meme coin. Sharing knowledge and create visibility. How strong can we be? ☀️",
+      "denomUnits": [
+        {
+          "denom": "factory/bze12gyp30f29zg26nuqrwdhl26ej4q066pt572fhm/GGE",
+          "exponent": 0
+        },
+        {
+          "denom": "GGE",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/bze12gyp30f29zg26nuqrwdhl26ej4q066pt572fhm/GGE",
+      "name": "GEEGEE",
+      "display": "GGE",
+      "symbol": "GGE",
+      "assetType": "sdk.coin"
     }
   ]
 }
