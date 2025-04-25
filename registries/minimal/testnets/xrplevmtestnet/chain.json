@@ -1,0 +1,233 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "xrplevmtestnet",
+  "networkType": "testnet",
+  "website": "https://xrplevm.org/",
+  "prettyName": "XRPL EVM Testnet",
+  "chainType": "cosmos",
+  "chainId": "xrplevm_1449000-1",
+  "bech32Prefix": "ethm",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "axrp",
+        "fixedMinGasPrice": 250000000,
+        "lowGasPrice": 200000000000,
+        "averageGasPrice": 250000000000,
+        "highGasPrice": 400000000000
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/xrplevm/cosmos-sdk",
+      "version": "v0.50.13",
+      "tag": "v0.50.13-xrplevm.2"
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/xrplevmtestnet/images/xrplevm.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/xrplevmtestnet/images/xrplevm.svg",
+      "theme": {
+        "circle": true,
+        "primaryColorHex": "#FFFFFF"
+      }
+    }
+  ],
+  "description": "The XRPL Ethereum Virtual Machine (EVM) is an innovative extension of the XRP Ledger developed by Peersyst in collaboration with Ripple that integrates Ethereum's smart contract capabilities via a dedicated sidechain. Built on the Cosmos SDK with a fork of evmOS, this sidechain utilizes a Proof-of-Authority (PoA) consensus model, ensuring high performance and low latency while maintaining the fundamental attributes of the XRP Ledger. It connects to the XRP Ledger through the Axelar network, employing XRP—bridged from the XRPL—as its native currency. This allows for seamless asset transfers and communication between the XRPL and the EVM sidechain. Moreover, the XRPL EVM supports Inter-Blockchain Communication (IBC), promoting interoperability with other blockchains in the Cosmos ecosystem.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.xrplevm.org"
+      },
+      {
+        "address": "https://xrpl-evm-testnet.rpc.grove.city/v1/0caa84c4"
+      },
+      {
+        "address": "https://xrpevm.kintsugi-nodes.com"
+      },
+      {
+        "address": "https://xrp-testnet-rpc.polkachu.com/"
+      },
+      {
+        "address": "https://rpc.xrpl.cumulo.com.es"
+      },
+      {
+        "address": "https://xrpl-rpc.embervalidator.top/"
+      },
+      {
+        "address": "https://xrp-rpc.enigma-validator.com/"
+      },
+      {
+        "address": "https://xrplevm-testnet-rpc.itrocket.net"
+      },
+      {
+        "address": "http://xrpl-testnet-rpc.luckystar.asia/"
+      },
+      {
+        "address": "https://exrpd-testnet-rpc.mekonglabs.tech/"
+      },
+      {
+        "address": "https://xrpl-testnet-rpc.mictonode.com"
+      },
+      {
+        "address": "https://rpc-t.xrp.nodestake.org"
+      },
+      {
+        "address": "https://xrpl-testnet-rpc.cosmonautstakes.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.xrpl.cumulo.com.es"
+      },
+      {
+        "address": "http://cosmos.testnet.xrplevm.org:1317"
+      },
+      {
+        "address": "https://api-xrp.kintsugi-nodes.com"
+      },
+      {
+        "address": "https://xrp-testnet-api.polkachu.com/"
+      },
+      {
+        "address": "https://xrplevm-testnet-api.itrocket.net"
+      },
+      {
+        "address": "https://xrpl-testnet-api.luckystar.asia/"
+      },
+      {
+        "address": "https://exrpd-testnet-api.mekonglabs.tech/"
+      },
+      {
+        "address": "https://xrpl-testnet-api.mictonode.com"
+      },
+      {
+        "address": "https://api-t.xrp.nodestake.org"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "http://cosmos.testnet.xrplevm.org:9090"
+      },
+      {
+        "address": "grpc-xrp.kintsugi-nodes.com"
+      },
+      {
+        "address": "https://polkachu.com/testnet_public_grpc"
+      },
+      {
+        "address": "grpc.xrpl.cumulo.com.es"
+      },
+      {
+        "address": "xrplevm-testnet-grpc.itrocket.net:443"
+      },
+      {
+        "address": "https://xrpl-testnet-grpc.luckystar.asia/"
+      },
+      {
+        "address": "exrpd-testnet-grpc.mekonglabs.tech:47090"
+      },
+      {
+        "address": "xrpl-testnet-grpc.mictonode.com:22090"
+      },
+      {
+        "address": "t-xrpl.grpc.utsa.tech:433"
+      },
+      {
+        "address": "http://xrplevm-testnet-grpc.blockitize.com/"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://exrpd-testnet-json-rpc.mekonglabs.tech"
+      },
+      {
+        "address": "https://xrpl-testnet-evmrpc.mictonode.com"
+      },
+      {
+        "address": "https://xrpl-evm.corenodehq.xyz/"
+      },
+      {
+        "address": "https://evmrpc-t.xrp.nodestake.org/"
+      },
+      {
+        "address": "http://xrplevm-devnet-jsonrpc.blockitize.com"
+      },
+      {
+        "address": "https://json-rpc.xrpl.cumulo.com.es"
+      },
+      {
+        "address": "https://t-xrpl.evm.utsa.tech"
+      },
+      {
+        "address": "https://xrplevm-testnet-jsonrpc.blockitize.com/"
+      },
+      {
+        "address": "https://xrpl-testnet-json.techhubs.asia/"
+      },
+      {
+        "address": "https://xrpl-evm.node9x.com/"
+      },
+      {
+        "address": "https://xrplevm-testnet-evm.itrocket.net"
+      },
+      {
+        "address": "https://json-rpc.testnet.xrplevm.p10node.com"
+      },
+      {
+        "address": "https://xrpl-testnet-evm.zstake.xyz"
+      },
+      {
+        "address": "https://xrpl.evm.t.stavr.tech"
+      },
+      {
+        "address": "https://xrpl-testnet-evm.cosmonautstakes.com"
+      },
+      {
+        "address": "https://xrp-testnet-evm.monkeylabs.me/"
+      },
+      {
+        "address": "https://xrpl-testnet-evm.bonynode.online/"
+      },
+      {
+        "address": "https://xrpl-testnet-jsonrpc.hazennetworksolutions.com/"
+      },
+      {
+        "address": "https://xrpl-t-evm.brightlystake.com/evm"
+      },
+      {
+        "address": "https://xrpl-testnet-jsonrpc.kgnodes.xyz"
+      },
+      {
+        "address": "https://evm.testnet.xrplevm.dongqn.com"
+      },
+      {
+        "address": "https://evmrpc-t.archive.xrp.nodestake.org"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "evm",
+      "url": "https://explorer.testnet.xrplevm.org",
+      "txPage": "https://explorer.testnet.xrplevm.org/tx/${txHash}",
+      "accountPage": "https://explorer.testnet.xrplevm.org/address/${accountAddress}"
+    },
+    {
+      "kind": "cosmos",
+      "url": "https://governance.testnet.xrplevm.org",
+      "txPage": "https://governance.testnet.xrplevm.org/tx/${txHash}",
+      "accountPage": "https://governance.testnet.xrplevm.org/account/${accountAddress}"
+    }
+  ]
+}

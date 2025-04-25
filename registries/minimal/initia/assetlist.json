@@ -18,7 +18,8 @@
       "display": "INIT",
       "name": "Initia",
       "symbol": "INIT",
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "initia"
     }
   ]
 }

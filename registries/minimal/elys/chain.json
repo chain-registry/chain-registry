@@ -94,6 +94,9 @@
         "address": "https://elys-rpc.cogwheel.zone:443"
       },
       {
+        "address": "https://rpc-elys.ottersync.io:443"
+      },
+      {
         "address": "https://elys.rpc.quasarstaking.ai:443"
       },
       {
@@ -159,6 +162,9 @@
         "address": "https://elys-api.cogwheel.zone:443"
       },
       {
+        "address": "https://api-elys.ottersync.io:443"
+      },
+      {
         "address": "https://elys.api.quasarstaking.ai:443"
       },
       {
@@ -210,6 +216,9 @@
       },
       {
         "address": "elys-grpc.cogwheel.zone:443"
+      },
+      {
+        "address": "https://grpc-elys.ottersync.io:443"
       },
       {
         "address": "elys.grpc.quasarstaking.ai:443"
@@ -283,6 +292,12 @@
     {
       "kind": "Stake-Hub by Kleomedes",
       "url": "https://www.stake-hub.xyz/elys"
+    },
+    {
+      "kind": "ElysScan by Kwak",
+      "url": "https://elysscan.io",
+      "txPage": "https://elysscan.io/tx/${txHash}",
+      "accountPage": "https://elysscan.io/address/${accountAddress}"
     }
   ]
 }

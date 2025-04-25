@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "xrplevmtestnet",
+  "assets": [
+    {
+      "description": "The native token of XRPL EVM Testnet",
+      "denomUnits": [
+        {
+          "denom": "axrp",
+          "exponent": 0
+        },
+        {
+          "denom": "XRP",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "axrp",
+      "name": "XRP",
+      "display": "XRP",
+      "symbol": "XRP"
+    }
+  ]
+}
