@@ -1,0 +1,68 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "junotestnet6",
+  "networkType": "testnet",
+  "prettyName": "Juno Testnet",
+  "chainType": "cosmos",
+  "chainId": "uni-6",
+  "bech32Prefix": "juno",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ujunox",
+        "lowGasPrice": 0.003,
+        "averageGasPrice": 0.0045,
+        "highGasPrice": 0.006
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ujunox"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.45"
+    },
+    "cosmwasm": {
+      "version": "0.31",
+      "enabled": true
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://juno-testnet-rpc.polkachu.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://juno-testnet-api.polkachu.com"
+      },
+      {
+        "address": "https://juno.api.t.stavr.tech"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "juno-testnet-grpc.polkachu.com:12690"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "https://explorer.stavr.tech/Juno-Testnet",
+      "txPage": "https://explorer.stavr.tech/Juno-Testnet/txs/${txHash}",
+      "accountPage": "https://explorer.stavr.tech/Juno-Testnet/account/${accountAddress}"
+    }
+  ]
+}

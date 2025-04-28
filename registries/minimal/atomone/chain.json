@@ -97,6 +97,9 @@
       },
       {
         "address": "https://atomone-mainnet-rpc.bonynode.online"
+      },
+      {
+        "address": "https://atomone-mainnet-rpc.shazoe.xyz"
       }
     ],
     "rest": [
@@ -159,6 +162,9 @@
       },
       {
         "address": "https://atomone-mainnet-api.bonynode.online"
+      },
+      {
+        "address": "https://atomone-mainnet-api.shazoe.xyz"
       }
     ],
     "grpc": [
@@ -200,6 +206,9 @@
       },
       {
         "address": "https://atomone-mainnet-grpc.bonynode.online:443"
+      },
+      {
+        "address": "atomone-mainnet-grpc.shazoe.xyz:12090"
       }
     ]
   },

@@ -1,0 +1,29 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "lumera",
+  "assets": [
+    {
+      "denomUnits": [
+        {
+          "denom": "ulume",
+          "exponent": 0,
+          "aliases": [
+            "microlume"
+          ]
+        },
+        {
+          "denom": "LUME",
+          "exponent": 6,
+          "aliases": [
+            "lume"
+          ]
+        }
+      ],
+      "base": "ulume",
+      "display": "LUME",
+      "name": "lume",
+      "symbol": "LUME",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

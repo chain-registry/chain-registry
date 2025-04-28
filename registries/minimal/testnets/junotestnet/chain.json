@@ -4,7 +4,7 @@
   "networkType": "testnet",
   "prettyName": "Juno Testnet",
   "chainType": "cosmos",
-  "chainId": "uni-6",
+  "chainId": "uni-7",
   "bech32Prefix": "juno",
   "keyAlgos": [
     "secp256k1"
@@ -30,10 +30,10 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.45"
+      "version": "v0.47.15"
     },
     "cosmwasm": {
-      "version": "0.31",
+      "version": "v0.46",
       "enabled": true
     }
   },
@@ -41,6 +41,9 @@
     "rpc": [
       {
         "address": "https://juno-testnet-rpc.polkachu.com"
+      },
+      {
+        "address": "https://rpc-uni.junonetwork.io"
       }
     ],
     "rest": [
@@ -48,7 +51,7 @@
         "address": "https://juno-testnet-api.polkachu.com"
       },
       {
-        "address": "https://juno.api.t.stavr.tech"
+        "address": "https://lcd-uni.junonetwork.io"
       }
     ],
     "grpc": [

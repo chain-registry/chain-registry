@@ -237,6 +237,9 @@
       },
       {
         "address": "grpc.elys.node75.org:9210"
+      },
+      {
+        "address": "https://elys.grpc.fr.vnodesv.net:443"
       }
     ]
   },
