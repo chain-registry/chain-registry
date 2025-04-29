@@ -65,6 +65,9 @@
       },
       {
         "address": "https://shentu-rpc.node39.top:443"
+      },
+      {
+        "address": "https://shentu-mainnet-rpc.shazoe.xyz"
       }
     ],
     "rest": [
@@ -103,6 +106,9 @@
       },
       {
         "address": "https://shentu-api.node39.top:443"
+      },
+      {
+        "address": "https://shentu-mainnet-api.shazoe.xyz"
       }
     ],
     "grpc": [
@@ -135,6 +141,9 @@
       },
       {
         "address": "shentu-grpc.node39.top:12656"
+      },
+      {
+        "address": "shentu-mainnet-grpc.shazoe.xyz:9090"
       }
     ]
   },

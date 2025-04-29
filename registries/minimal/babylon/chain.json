@@ -64,6 +64,9 @@
       },
       {
         "address": "https://community.nuxian-node.ch:6797/babylon/trpc"
+      },
+      {
+        "address": "https://babylon-mainnet-rpc.shazoe.xyz"
       }
     ],
     "rest": [
@@ -87,6 +90,9 @@
       },
       {
         "address": "https://community.nuxian-node.ch:6797/babylon/crpc"
+      },
+      {
+        "address": "https://babylon-mainnet-api.shazoe.xyz"
       }
     ],
     "grpc": [
@@ -107,6 +113,9 @@
       },
       {
         "address": "babylon-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "babylon-mainnet-grpc.shazoe.xyz:30190"
       }
     ]
   },

@@ -70,6 +70,9 @@
       },
       {
         "address": "https://rpc.pio-mainnet-1.provenance.aviaone.com"
+      },
+      {
+        "address": "https://provenance-mainnet-rpc.shazoe.xyz"
       }
     ],
     "rest": [
@@ -105,6 +108,9 @@
       },
       {
         "address": "https://api.pio-mainnet-1.provenance.aviaone.com"
+      },
+      {
+        "address": "https://provenance-mainnet-api.shazoe.xyz"
       }
     ],
     "grpc": [
@@ -125,6 +131,9 @@
       },
       {
         "address": "grpc.pio-mainnet-1.provenance.aviaone.com:9231"
+      },
+      {
+        "address": "provenance-mainnet-grpc.shazoe.xyz:12090"
       }
     ]
   },

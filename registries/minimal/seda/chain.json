@@ -90,6 +90,9 @@
       },
       {
         "address": "https://seda-rpc.cosmos-apis.com:443"
+      },
+      {
+        "address": "https://seda-mainnet-rpc.shazoe.xyz"
       }
     ],
     "rest": [
@@ -140,6 +143,9 @@
       },
       {
         "address": "https://seda-rest.cosmos-apis.com:443"
+      },
+      {
+        "address": "https://seda-mainnet-api.shazoe.xyz"
       }
     ],
     "grpc": [
@@ -169,6 +175,9 @@
       },
       {
         "address": "seda-grpc.cosmos-apis.com:443"
+      },
+      {
+        "address": "seda-mainnet-grpc.shazoe.xyz:6090"
       }
     ]
   },
