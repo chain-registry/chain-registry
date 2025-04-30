@@ -1,47 +1,47 @@
 {
   "$schema": "../../chain.schema.json",
-  "chainName": "quicksilvertestnet",
-  "status": "live",
-  "networkType": "testnet",
-  "prettyName": "Quicksilver Testnet",
-  "chainType": "cosmos",
-  "chainId": "rhye-3",
-  "bech32Prefix": "quick",
-  "daemonName": "quicksilverd",
-  "nodeHome": "$HOME/.quicksilverd",
-  "keyAlgos": [
+  "chain_name": "quicksilvertestnet2",
+  "status": "killed",
+  "network_type": "testnet",
+  "pretty_name": "Quicksilver Testnet 2",
+  "chain_type": "cosmos",
+  "chain_id": "rhye-2",
+  "bech32_prefix": "quick",
+  "daemon_name": "quicksilverd",
+  "node_home": "$HOME/.quicksilverd",
+  "key_algos": [
     "secp256k1"
   ],
   "slip44": 118,
   "fees": {
-    "feeTokens": [
+    "fee_tokens": [
       {
         "denom": "uqck",
-        "lowGasPrice": 0.0001,
-        "averageGasPrice": 0.0001,
-        "highGasPrice": 0.00025
+        "low_gas_price": 0.0001,
+        "average_gas_price": 0.0001,
+        "high_gas_price": 0.00025
       }
     ]
   },
   "staking": {
-    "stakingTokens": [
+    "staking_tokens": [
       {
         "denom": "uqck"
       }
     ]
   },
   "codebase": {
-    "gitRepo": "https://github.com/ingenuity-build/quicksilver",
-    "recommendedVersion": "v1.8.0-rc.1",
-    "compatibleVersions": [
-      "v1.8.0-rc.1"
+    "git_repo": "https://github.com/ingenuity-build/quicksilver",
+    "recommended_version": "v1.4.5-rc2",
+    "compatible_versions": [
+      "v1.4.5-rc2"
     ],
     "consensus": {
       "type": "tendermint",
       "version": "0.34"
     },
     "genesis": {
-      "genesisUrl": "https://raw.githubusercontent.com/ingenuity-build/testnets/main/rhye-2/genesis.json"
+      "genesis_url": "https://raw.githubusercontent.com/ingenuity-build/testnets/main/rhye-2/genesis.json"
     },
     "sdk": {
       "type": "cosmos",
@@ -56,7 +56,7 @@
       "enabled": true
     }
   },
-  "logoURIs": {
+  "logo_URIs": {
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg"
   },
   "peers": {
@@ -72,7 +72,7 @@
         "provider": "Inter Blockchain Services"
       }
     ],
-    "persistentPeers": [
+    "persistent_peers": [
       {
         "id": "8e14e58b054248a04be96e4a40d6359e93b636ac",
         "address": "65.108.65.94:26656"
@@ -135,18 +135,13 @@
     {
       "kind": "🔥STAVR🔥",
       "url": "https://explorer.stavr.tech/Quicksilver",
-      "txPage": "https://explorer.stavr.tech/Quicksilver/tx/${txHash}",
-      "accountPage": "https://explorer.stavr.tech/Quicksilver/account/${accountAddress}"
+      "tx_page": "https://explorer.stavr.tech/Quicksilver/tx/${txHash}",
+      "account_page": "https://explorer.stavr.tech/Quicksilver/account/${accountAddress}"
     },
     {
       "url": "https://testnet.quicksilver.explorers.guru",
-      "txPage": "https://testnet.quicksilver.explorers.guru/transaction/${txHash}",
-      "accountPage": "https://testnet.quicksilver.explorers.guru/account/${accountAddress}"
-    }
-  ],
-  "images": [
-    {
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg"
+      "tx_page": "https://testnet.quicksilver.explorers.guru/transaction/${txHash}",
+      "account_page": "https://testnet.quicksilver.explorers.guru/account/${accountAddress}"
     }
   ]
 }

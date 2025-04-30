@@ -1,11 +1,11 @@
 {
   "$schema": "../../chain.schema.json",
-  "chainName": "quicksilvertestnet",
-  "status": "live",
+  "chainName": "quicksilvertestnet2",
+  "status": "killed",
   "networkType": "testnet",
-  "prettyName": "Quicksilver Testnet",
+  "prettyName": "Quicksilver Testnet 2",
   "chainType": "cosmos",
-  "chainId": "rhye-3",
+  "chainId": "rhye-2",
   "bech32Prefix": "quick",
   "daemonName": "quicksilverd",
   "nodeHome": "$HOME/.quicksilverd",
@@ -32,9 +32,9 @@
   },
   "codebase": {
     "gitRepo": "https://github.com/ingenuity-build/quicksilver",
-    "recommendedVersion": "v1.8.0-rc.1",
+    "recommendedVersion": "v1.4.5-rc2",
     "compatibleVersions": [
-      "v1.8.0-rc.1"
+      "v1.4.5-rc2"
     ],
     "consensus": {
       "type": "tendermint",
@@ -142,11 +142,6 @@
       "url": "https://testnet.quicksilver.explorers.guru",
       "txPage": "https://testnet.quicksilver.explorers.guru/transaction/${txHash}",
       "accountPage": "https://testnet.quicksilver.explorers.guru/account/${accountAddress}"
-    }
-  ],
-  "images": [
-    {
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "$schema": "../../chain.schema.json",
-  "chainName": "quicksilvertestnet",
+  "chainName": "quicksilvertestnet2",
   "networkType": "testnet",
-  "prettyName": "Quicksilver Testnet",
+  "prettyName": "Quicksilver Testnet 2",
   "chainType": "cosmos",
-  "chainId": "rhye-3",
+  "chainId": "rhye-2",
   "bech32Prefix": "quick",
   "keyAlgos": [
     "secp256k1"
@@ -80,11 +80,6 @@
       "url": "https://testnet.quicksilver.explorers.guru",
       "txPage": "https://testnet.quicksilver.explorers.guru/transaction/${txHash}",
       "accountPage": "https://testnet.quicksilver.explorers.guru/account/${accountAddress}"
-    }
-  ],
-  "images": [
-    {
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg"
     }
   ]
 }

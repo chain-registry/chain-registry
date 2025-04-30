@@ -437,7 +437,7 @@
         {
           "type": "ibc",
           "counterparty": {
-            "chainName": "quicksilvertestnet",
+            "chainName": "quicksilvertestnet2",
             "baseDenom": "uqck",
             "channelId": "channel-20"
           },

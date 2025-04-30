@@ -1,0 +1,41 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "quicksilvertestnet2",
+  "assets": [
+    {
+      "description": "QCK - native token of Quicksilver",
+      "denomUnits": [
+        {
+          "denom": "uqck",
+          "exponent": 0,
+          "aliases": [
+
+          ]
+        },
+        {
+          "denom": "qck",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "base": "uqck",
+      "name": "Quicksilver",
+      "display": "qck",
+      "symbol": "QCK",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "baseDenom": "uqck"
+          },
+          "provider": "Quicksilver"
+        }
+      ],
+      "coingeckoId": "quicksilver",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
