@@ -8,6 +8,9 @@
   "chainId": "dymension_1100-1",
   "bech32Prefix": "dym",
   "slip44": 60,
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
   "fees": {
     "feeTokens": [
       {

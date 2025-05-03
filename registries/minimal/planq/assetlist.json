@@ -141,6 +141,16 @@
       "name": "Astonic USD",
       "display": "ausd",
       "symbol": "aUSD",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "forex",
+            "baseDenom": "USD"
+          },
+          "provider": "Astonic"
+        }
+      ],
       "assetType": "sdk.coin"
     },
     {
@@ -159,6 +169,16 @@
       "name": "Astonic EUR",
       "display": "aeur",
       "symbol": "aEUR",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "forex",
+            "baseDenom": "EUR"
+          },
+          "provider": "Astonic"
+        }
+      ],
       "assetType": "sdk.coin"
     },
     {
@@ -177,6 +197,16 @@
       "name": "Astonic BRL",
       "display": "abrl",
       "symbol": "aBRL",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "forex",
+            "baseDenom": "BRL"
+          },
+          "provider": "Astonic"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]
