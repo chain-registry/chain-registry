@@ -526,7 +526,7 @@
         },
         {
           "denom": "eth",
-          "exponent": 6
+          "exponent": 18
         }
       ],
       "assetType": "ics20",

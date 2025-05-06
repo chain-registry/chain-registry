@@ -20047,7 +20047,7 @@
         },
         {
           "denom": "eth",
-          "exponent": 6
+          "exponent": 18
         }
       ],
       "assetType": "ics20",
@@ -20079,7 +20079,7 @@
         },
         {
           "denom": "wbtc",
-          "exponent": 6
+          "exponent": 8
         }
       ],
       "assetType": "ics20",
