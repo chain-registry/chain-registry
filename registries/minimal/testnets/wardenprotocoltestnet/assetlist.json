@@ -3,22 +3,54 @@
   "chainName": "wardenprotocoltestnet",
   "assets": [
     {
-      "description": "The native token of Warden Protocol Testnet",
+      "description": "Temporary staking token for Warden Protocol",
       "denomUnits": [
         {
-          "denom": "uward",
+          "denom": "wSTAKE",
           "exponent": 0
+        }
+      ],
+      "base": "wSTAKE",
+      "name": "wSTAKE",
+      "display": "wSTAKE",
+      "symbol": "wSTAKE",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "IBC token from Cosmos Provider network to Warden Protocol Testnet",
+      "denomUnits": [
+        {
+          "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "exponent": 0,
+          "aliases": [
+            "uatom"
+          ]
         },
         {
-          "denom": "ward",
+          "denom": "atom",
           "exponent": 6
         }
       ],
-      "base": "uward",
-      "name": "Ward",
-      "display": "ward",
-      "symbol": "WARD",
-      "assetType": "sdk.coin"
+      "assetType": "ics20",
+      "base": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "name": "IBC atom",
+      "display": "atom",
+      "symbol": "ATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "cosmoshubtestnet",
+            "baseDenom": "uatom",
+            "channelId": "channel-373"
+          },
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/uatom"
+          }
+        }
+      ],
+      "coingeckoId": "cosmos"
     }
   ]
 }
