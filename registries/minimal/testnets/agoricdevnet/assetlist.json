@@ -1,0 +1,44 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "agoricdevnet",
+  "assets": [
+    {
+      "description": "Agoric is a smart contract platform that uses JavaScript to enable developers to build secure and scalable decentralized applications (dApps) easily.",
+      "denomUnits": [
+        {
+          "denom": "ubld",
+          "exponent": 0
+        },
+        {
+          "denom": "bld",
+          "exponent": 6
+        }
+      ],
+      "base": "ubld",
+      "name": "Agoric",
+      "display": "bld",
+      "symbol": "BLD",
+      "coingeckoId": "agoric",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
+      "denomUnits": [
+        {
+          "denom": "uist",
+          "exponent": 0
+        },
+        {
+          "denom": "ist",
+          "exponent": 6
+        }
+      ],
+      "base": "uist",
+      "name": "Inter Stable Token",
+      "display": "ist",
+      "symbol": "IST",
+      "coingeckoId": "inter-stable-token",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

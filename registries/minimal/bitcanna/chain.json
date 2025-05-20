@@ -41,9 +41,6 @@
         "address": "https://rpc.bitcanna.io/"
       },
       {
-        "address": "https://bcna-rpc.ibs.team/"
-      },
-      {
         "address": "https://rpc.bitcanna.sgtstake.com/"
       },
       {
@@ -110,9 +107,6 @@
         "address": "https://bitcanna-rpc.kalia.network/"
       },
       {
-        "address": "https://bitcanna.rpc.nodeshub.online:443"
-      },
-      {
         "address": "https://bitcanna_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
@@ -167,9 +161,6 @@
       },
       {
         "address": "bitcanna-grpc.kalia.network:443"
-      },
-      {
-        "address": "bitcanna.grpc.nodeshub.online:13090"
       }
     ],
     "rest": [
@@ -181,9 +172,6 @@
       },
       {
         "address": "https://bitcanna.api.m.stavr.tech"
-      },
-      {
-        "address": "https://bcna-api.ibs.team/"
       },
       {
         "address": "https://bitcanna.api.m.anode.team"
@@ -244,9 +232,6 @@
       },
       {
         "address": "https://api.bitcanna.citizenweb3.com"
-      },
-      {
-        "address": "https://bitcanna.api.nodeshub.online"
       },
       {
         "address": "https://bitcanna_mainnet_api.chain.whenmoonwhenlambo.money"
@@ -350,12 +335,6 @@
       "url": "https://mainnet.explorer.aviaone.com/bitcanna",
       "txPage": "https://mainnet.explorer.aviaone.com/bitcanna/tx/${txHash}",
       "accountPage": "https://mainnet.explorer.aviaone.com/bitcanna/account/${accountAddress}"
-    },
-    {
-      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️",
-      "url": "https://explorer.nodeshub.online/bitcanna/",
-      "txPage": "https://explorer.nodeshub.online/bitcanna/tx/${txHash}",
-      "accountPage": "https://explorer.nodeshub.online/bitcanna/accounts/${accountAddress}"
     },
     {
       "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",

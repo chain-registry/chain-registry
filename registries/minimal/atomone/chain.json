@@ -99,7 +99,7 @@
         "address": "https://atomone-mainnet-rpc.bonynode.online"
       },
       {
-        "address": "https://atomone-mainnet-rpc.shazoe.xyz"
+        "address": "https://atomone-mainnet-rpc.shazoes.xyz"
       }
     ],
     "rest": [
@@ -164,7 +164,7 @@
         "address": "https://atomone-mainnet-api.bonynode.online"
       },
       {
-        "address": "https://atomone-mainnet-api.shazoe.xyz"
+        "address": "https://atomone-mainnet-api.shazoes.xyz"
       }
     ],
     "grpc": [
@@ -208,7 +208,7 @@
         "address": "https://atomone-mainnet-grpc.bonynode.online:443"
       },
       {
-        "address": "atomone-mainnet-grpc.shazoe.xyz:12090"
+        "address": "atomone-mainnet-grpc.shazoes.xyz:12090"
       }
     ]
   },

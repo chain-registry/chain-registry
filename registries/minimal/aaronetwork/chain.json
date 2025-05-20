@@ -41,7 +41,13 @@
         "address": "https://aaronetwork_mainnet_rpc.chain.whenmoonwhenlambo.money"
       },
       {
-        "address": "https://aaron.rpc.nodeshub.online"
+        "address": "https://rpc-aaronetwork.sychonix.com/"
+      },
+      {
+        "address": "https://rpc-aaronetwork.vinjan.xyz/"
+      },
+      {
+        "address": "https://rpc.aaronetwork.indonode.net"
       }
     ],
     "rest": [
@@ -52,7 +58,21 @@
         "address": "https://aaronetwork_mainnet_api.chain.whenmoonwhenlambo.money"
       },
       {
-        "address": "https://aaron.api.nodeshub.online"
+        "address": "https://api-aaronetwork.sychonix.com/"
+      },
+      {
+        "address": "https://api-aaronetwork.vinjan.xyz"
+      },
+      {
+        "address": "https://api.aaronetwork.indonode.net"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.aaronetwork.indonode.net:29090"
+      },
+      {
+        "address": "63.250.41.78:9090"
       }
     ]
   },
@@ -74,12 +94,6 @@
       "url": "https://explorer.whenmoonwhenlambo.money/aaronetwork",
       "txPage": "https://explorer.whenmoonwhenlambo.money/aaronetwork/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/aaronetwork/account/${accountAddress}"
-    },
-    {
-      "kind": "NodesHub",
-      "url": "https://explorer.nodeshub.online/aaron",
-      "txPage": "https://explorer.nodeshub.online/aaron/tx/${txHash}",
-      "accountPage": "https://explorer.nodeshub.online/aaron/${accountAddress}"
     }
   ]
 }

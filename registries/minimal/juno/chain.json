@@ -138,6 +138,9 @@
         "address": "juno-grpc.stakeandrelax.net:12690"
       },
       {
+        "address": "juno.grpc.kleomedes.network"
+      },
+      {
         "address": "juno.lavenderfive.com:443"
       },
       {
@@ -200,7 +203,7 @@
       "txPage": "https://explorer.tcnetwork.io/juno/transaction/${txHash}"
     },
     {
-      "kind": "Kleomedes",
+      "kind": "Stake Hub by Kleomedes",
       "url": "https://www.stake-hub.xyz/juno"
     },
     {

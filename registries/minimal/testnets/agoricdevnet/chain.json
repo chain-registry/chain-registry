@@ -1,0 +1,65 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "agoricdevnet",
+  "networkType": "testnet",
+  "prettyName": "Agoric",
+  "chainType": "cosmos",
+  "chainId": "agoricdev-25",
+  "bech32Prefix": "agoric",
+  "slip44": 564,
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ubld"
+      }
+    ]
+  },
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ubld",
+        "lowGasPrice": 0.03,
+        "averageGasPrice": 0.05,
+        "highGasPrice": 0.07
+      },
+      {
+        "denom": "uist",
+        "lowGasPrice": 0.0034,
+        "averageGasPrice": 0.007,
+        "highGasPrice": 0.02
+      }
+    ]
+  },
+  "codebase": {
+    "cosmwasm": {
+      "enabled": false
+    },
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/agoric-labs/cosmos-sdk",
+      "version": "v0.46.16",
+      "tag": "v0.46.16-alpha.agoric.2.5"
+    }
+  },
+  "description": "The Agoric platform makes it safe and seamless to build decentralized apps using your existing JavaScript knowledge.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://devnet.rpc.agoric.net:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://devnet.api.agoric.net:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "devnet.grpc.agoric.net:443"
+      }
+    ]
+  },
+  "explorers": [
+
+  ]
+}

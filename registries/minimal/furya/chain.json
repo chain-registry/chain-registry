@@ -32,23 +32,15 @@
     "rpc": [
       {
         "address": "https://furya-rpc.synergynodes.com"
-      },
-      {
-        "address": "https://furya.rpc.nodeshub.online:443"
       }
     ],
     "rest": [
       {
         "address": "https://furya.api.nodeshub.online"
-      },
-      {
-        "address": "https://furya.api.nodeshub.online:443"
       }
     ],
     "grpc": [
-      {
-        "address": "https://furya.grpc.nodeshub.online"
-      }
+
     ]
   },
   "explorers": [
@@ -63,12 +55,6 @@
       "url": "https://staking-explorer.com/explorer/furya",
       "txPage": "https://staking-explorer.com/transaction.php?chain=furya&tx=${txHash}",
       "accountPage": "https://staking-explorer.com/account.php?chain=furya&addr=${accountAddress}"
-    },
-    {
-      "kind": "Nodeshub Explorer",
-      "url": "https://explorer.nodeshub.online/furya",
-      "txPage": "https://explorer.nodeshub.online/furya/txs/${txHash}",
-      "accountPage": "https://explorer.nodeshub.online/furya/account/${accountAddress}"
     }
   ],
   "images": [

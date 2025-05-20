@@ -35,10 +35,10 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.47"
+      "version": "0.50"
     },
     "cosmwasm": {
-      "version": "0.45",
+      "version": "0.54",
       "enabled": true
     }
   },

@@ -48,7 +48,7 @@
         "address": "https://synternet-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://synternet-mainnet-rpc.shazoe.xyz"
+        "address": "https://synternet-mainnet-rpc.shazoes.xyz"
       }
     ],
     "rest": [
@@ -62,12 +62,12 @@
         "address": "https://synternet-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://synternet-mainnet-api.shazoe.xyz"
+        "address": "https://synternet-mainnet-api.shazoes.xyz"
       }
     ],
     "grpc": [
       {
-        "address": "synternet-mainnet-grpc.shazoe.xyz:11090"
+        "address": "synternet-mainnet-grpc.shazoes.xyz:11090"
       }
     ]
   },

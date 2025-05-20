@@ -59,9 +59,6 @@
         "address": "https://gitopia-rpc.staketab.org:443"
       },
       {
-        "address": "https://gitopia-rpc.ibs.team:443"
-      },
-      {
         "address": "https://m-gitopia.rpc.utsa.tech"
       },
       {
@@ -146,9 +143,6 @@
       },
       {
         "address": "https://gitopia-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://gitopia-api.ibs.team:443"
       },
       {
         "address": "https://m-gitopia.api.utsa.tech"

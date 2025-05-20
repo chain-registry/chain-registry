@@ -44,6 +44,9 @@
       },
       {
         "address": "https://rpc-uni.junonetwork.io"
+      },
+      {
+        "address": "https://junotestnet-rpc.kleomedes.network"
       }
     ],
     "rest": [
@@ -52,11 +55,17 @@
       },
       {
         "address": "https://lcd-uni.junonetwork.io"
+      },
+      {
+        "address": "https://junotestnet-api.kleomedes.network"
       }
     ],
     "grpc": [
       {
         "address": "juno-testnet-grpc.polkachu.com:12690"
+      },
+      {
+        "address": "junotestnet.gprc.kleomedes.network"
       }
     ]
   },
@@ -66,6 +75,10 @@
       "url": "https://explorer.stavr.tech/Juno-Testnet",
       "txPage": "https://explorer.stavr.tech/Juno-Testnet/txs/${txHash}",
       "accountPage": "https://explorer.stavr.tech/Juno-Testnet/account/${accountAddress}"
+    },
+    {
+      "kind": "Stake Hub by Kleomedes",
+      "url": "https://www.stake-hub.xyz/junotestnet"
     }
   ]
 }

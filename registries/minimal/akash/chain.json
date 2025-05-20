@@ -39,13 +39,7 @@
         "address": "https://rpc-akash.ecostake.com:443"
       },
       {
-        "address": "https://rpc.lavenderfive.com:443/akash"
-      },
-      {
         "address": "https://akash-rpc.polkachu.com"
-      },
-      {
-        "address": "https://akash.c29r3.xyz:80/rpc"
       },
       {
         "address": "https://akash-rpc.kleomedes.network"
@@ -60,9 +54,6 @@
         "address": "https://akash-rpc.publicnode.com:443"
       },
       {
-        "address": "https://rpc.akash.bronbro.io:443"
-      },
-      {
         "address": "https://akash.rpc.arcturian.tech/"
       }
     ],
@@ -71,16 +62,10 @@
         "address": "https://rest-akash.ecostake.com"
       },
       {
-        "address": "https://rest.lavenderfive.com:443/akash"
-      },
-      {
         "address": "https://akash-api.polkachu.com"
       },
       {
         "address": "https://akash.c29r3.xyz:443/api"
-      },
-      {
-        "address": "https://akash-mainnet-lcd.autostake.com:443"
       },
       {
         "address": "https://akash-api.kleomedes.network"
@@ -99,9 +84,6 @@
       },
       {
         "address": "https://akash-api.validatornode.com"
-      },
-      {
-        "address": "https://lcd.akash.bronbro.io:443"
       },
       {
         "address": "https://akash.api.arcturian.tech"

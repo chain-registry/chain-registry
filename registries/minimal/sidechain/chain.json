@@ -6,7 +6,7 @@
   "prettyName": "Side Chain",
   "chainType": "cosmos",
   "chainId": "sidechain-1",
-  "bech32Prefix": "side",
+  "bech32Prefix": "bc",
   "keyAlgos": [
     "secp256k1"
   ],

@@ -67,6 +67,12 @@
       },
       {
         "address": "https://babylon-mainnet-rpc.shazoe.xyz"
+      },
+      {
+        "address": "https://babylon.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://babylon-mainnet-rpc.shazoes.xyz"
       }
     ],
     "rest": [
@@ -93,6 +99,12 @@
       },
       {
         "address": "https://babylon-mainnet-api.shazoe.xyz"
+      },
+      {
+        "address": "https://babylon.api.nodeshub.online"
+      },
+      {
+        "address": "https://babylon-mainnet-api.shazoes.xyz"
       }
     ],
     "grpc": [
@@ -116,6 +128,12 @@
       },
       {
         "address": "babylon-mainnet-grpc.shazoe.xyz:30190"
+      },
+      {
+        "address": "babylon.grpc.nodeshub.online"
+      },
+      {
+        "address": "babylon-mainnet-grpc.shazoes.xyz:30190"
       }
     ]
   },
@@ -131,6 +149,12 @@
       "url": "https://babylon.explorers.guru/",
       "txPage": "https://babylon.explorers.guru/transaction/${txHash}",
       "accountPage": "https://babylon.explorers.guru/account/${accountAddress}"
+    },
+    {
+      "kind": "NodesHub",
+      "url": "https://explorer.nodeshub.online/babylon/",
+      "txPage": "https://explorer.nodeshub.online/babylon/tx/${txHash}",
+      "accountPage": "https://explorer.nodeshub.online/babylon/accounts/${accountAddress}"
     }
   ],
   "images": [

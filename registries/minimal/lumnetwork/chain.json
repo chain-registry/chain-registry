@@ -47,9 +47,6 @@
         "address": "https://rpc.lavenderfive.com:443/lumnetwork"
       },
       {
-        "address": "https://lum-rpc.ibs.team"
-      },
-      {
         "address": "https://lum-rpc.stakerhouse.com"
       },
       {
@@ -65,9 +62,6 @@
       },
       {
         "address": "https://lum.api.m.stavr.tech"
-      },
-      {
-        "address": "https://lum-api.ibs.team"
       },
       {
         "address": "https://lum-rest.stakerhouse.com"

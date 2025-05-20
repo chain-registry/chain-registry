@@ -48,9 +48,6 @@
         "address": "https://rpc.mainnet.desmos.network"
       },
       {
-        "address": "https://desmos-rpc.ibs.team/"
-      },
-      {
         "address": "https://desmos-rpc.staketab.org:443"
       },
       {
@@ -69,9 +66,6 @@
     "rest": [
       {
         "address": "https://api.mainnet.desmos.network"
-      },
-      {
-        "address": "https://desmos-api.ibs.team/"
       },
       {
         "address": "https://desmos-rest.staketab.org"

@@ -673,6 +673,38 @@
           }
         }
       ]
+    },
+    {
+      "description": "Stealth Mode: Always On",
+      "denomUnits": [
+        {
+          "denom": "ibc/D8B11C80BF6D03FD7DFF43EE3CCFDA70009B1FA8594F291EE0E2353070F4CABB",
+          "exponent": 0
+        },
+        {
+          "denom": "stlth",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/D8B11C80BF6D03FD7DFF43EE3CCFDA70009B1FA8594F291EE0E2353070F4CABB",
+      "name": "Stealth",
+      "display": "stlth",
+      "symbol": "STLTH",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "osmosis",
+            "baseDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth",
+            "channelId": "channel-75"
+          },
+          "chain": {
+            "channelId": "channel-0",
+            "path": "transfer/channel-0/factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth"
+          }
+        }
+      ]
     }
   ]
 }

@@ -191,6 +191,9 @@
       },
       {
         "address": "https://stride-rpc.ibs.team"
+      },
+      {
+        "address": "https://stride.rpc.quasarstaking.ai:443"
       }
     ],
     "rest": [
@@ -244,6 +247,9 @@
       },
       {
         "address": "https://stride-api.ibs.team"
+      },
+      {
+        "address": "https://stride.api.quasarstaking.ai:443"
       }
     ],
     "grpc": [
@@ -282,6 +288,9 @@
       },
       {
         "address": "https://grpc.stride.bronbro.io:443"
+      },
+      {
+        "address": "stride.grpc.quasarstaking.ai:80"
       }
     ]
   },
