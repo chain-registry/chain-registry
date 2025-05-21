@@ -14,11 +14,18 @@
   "fees": {
     "feeTokens": [
       {
+        "denom": "uphoton",
+        "fixedMinGasPrice": 0.225,
+        "lowGasPrice": 0.225,
+        "averageGasPrice": 0.3,
+        "highGasPrice": 0.5
+      },
+      {
         "denom": "uatone",
-        "fixedMinGasPrice": 0.001,
-        "lowGasPrice": 0.006,
-        "averageGasPrice": 0.006,
-        "highGasPrice": 0.009
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.05
       }
     ]
   },
@@ -32,7 +39,7 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.47.13"
+      "version": "v0.47.17"
     }
   },
   "description": "The Cosmos community, at a crossroads, confronts divergent views on key aspects such as mission, tokenomics, and security philosophy. AtomOne emerges as a beacon, offering an alternative fork to navigate these waters, equipped to handle contingencies and embodying a bastion for diverse political thought.",
