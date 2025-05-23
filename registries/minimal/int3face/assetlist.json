@@ -159,6 +159,34 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Solana (SOL) on Int3face",
+      "denomUnits": [
+        {
+          "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol",
+          "exponent": 0
+        },
+        {
+          "denom": "sol",
+          "exponent": 9
+        }
+      ],
+      "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol",
+      "name": "SOL",
+      "display": "sol",
+      "symbol": "SOL",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Int3face"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }

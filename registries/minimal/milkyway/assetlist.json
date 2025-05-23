@@ -342,7 +342,17 @@
       "base": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
       "name": "milkBABY",
       "display": "milkBABY",
-      "symbol": "milkBABY"
+      "symbol": "milkBABY",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chainName": "babylon",
+            "baseDenom": "ubbn"
+          },
+          "provider": "MilkyWay"
+        }
+      ]
     }
   ]
 }

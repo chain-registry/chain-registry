@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../assetlist.schema.json",
+  "chainName": "xrpltestnet",
+  "assets": [
+    {
+      "description": "The testnet version of XRP.",
+      "denomUnits": [
+        {
+          "denom": "drop",
+          "exponent": 0
+        },
+        {
+          "denom": "xrp",
+          "exponent": 6
+        }
+      ],
+      "assetType": "unknown",
+      "base": "drop",
+      "name": "Ripple",
+      "display": "xrp",
+      "symbol": "XRP",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "xrpl",
+            "baseDenom": "drop"
+          },
+          "provider": "Ripple"
+        }
+      ],
+      "coingeckoId": "ripple"
+    }
+  ]
+}

@@ -54,6 +54,9 @@
       },
       {
         "address": "https://rpc.arkeo.roomit.xyz"
+      },
+      {
+        "address": "https://arkeo_mainnet_rpc.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -65,6 +68,9 @@
       },
       {
         "address": "https://api.arkeo.roomit.xyz"
+      },
+      {
+        "address": "https://arkeo_mainnet_api.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -91,6 +97,12 @@
       "url": "https://explorer.tendermint.roomit.xyz/arkeo-mainnet",
       "txPage": "https://explorer.tendermint.roomit.xyz/arkeo-mainnet/transactions/${txHash}",
       "accountPage": "https://explorer.tendermint.roomit.xyz/arkeo-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/arkeo",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/arkeo/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/arkeo/account/${accountAddress}"
     }
   ]
 }

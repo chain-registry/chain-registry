@@ -187,6 +187,34 @@
         }
       ],
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Testnet XRP on Int3face",
+      "denomUnits": [
+        {
+          "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp",
+          "exponent": 0
+        },
+        {
+          "denom": "xrp",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp",
+      "name": "Testnet XRP",
+      "display": "xrp",
+      "symbol": "XRP",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "xrpltestnet",
+            "baseDenom": "drop"
+          },
+          "provider": "Int3face"
+        }
+      ],
+      "assetType": "sdk.coin"
     }
   ]
 }
