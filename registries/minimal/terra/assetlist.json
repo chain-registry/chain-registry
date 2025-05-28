@@ -4229,6 +4229,41 @@
           "provider": "Terra Classic"
         }
       ]
+    },
+    {
+      "description": "Circle's stablecoin on Terra Classic",
+      "denomUnits": [
+        {
+          "denom": "ibc/0BB9D8513E8E8E9AE6A9D211D9136E6DA42288DDE6CFAA453A150A4566054DC5",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/0BB9D8513E8E8E9AE6A9D211D9136E6DA42288DDE6CFAA453A150A4566054DC5",
+      "name": "USDC (Noble)",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "noble",
+            "baseDenom": "uusdc",
+            "channelId": "channel-149"
+          },
+          "chain": {
+            "channelId": "channel-113",
+            "path": "transfer/channel-113/uusdc"
+          }
+        }
+      ]
     }
   ]
 }

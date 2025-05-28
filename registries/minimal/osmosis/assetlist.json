@@ -19054,7 +19054,7 @@
       ]
     },
     {
-      "description": "T7S is the heartbeat of the Seven Shaders universe—powering NFTs, AI adventures, and gaming rewards. One token, endless possibilities.",
+      "description": "T7S is the utility and governance token of TheSevens - a community driven project offering NFT tools, on-chain games, staking rewards and more via our Webpage. Stakers earn multiple tokens, vote on proposals.",
       "denomUnits": [
         {
           "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
@@ -19068,7 +19068,7 @@
       "assetType": "sdk.coin",
       "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
       "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/t7s",
-      "name": "The Seven Green Shade",
+      "name": "The Sevens",
       "display": "T7S",
       "symbol": "T7S"
     },

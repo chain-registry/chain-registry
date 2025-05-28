@@ -407,6 +407,24 @@
       "display": "GGE",
       "symbol": "GGE",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "$CryptoTrtl is fun, join us on Telegram.",
+      "denomUnits": [
+        {
+          "denom": "factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/CTL",
+          "exponent": 0
+        },
+        {
+          "denom": "CTL",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/bze1972aqfzdg29ugjln74edx0xvcg4ehvysjptk77/CTL",
+      "name": "CryptoTrtl",
+      "display": "CTL",
+      "symbol": "CTL",
+      "assetType": "sdk.coin"
     }
   ]
 }
