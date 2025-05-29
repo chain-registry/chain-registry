@@ -1,0 +1,21 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "hippoprotocol",
+  "assets": [
+    {
+      "description": "The native token of Hippo Protocol.",
+      "denomUnits": [
+        {
+          "denom": "ahp",
+          "exponent": 0
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "ahp",
+      "name": "Hippo",
+      "display": "ahp",
+      "symbol": "HP",
+      "coingeckoId": "hippo-protocol"
+    }
+  ]
+}

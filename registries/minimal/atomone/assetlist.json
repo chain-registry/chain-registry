@@ -20,6 +20,24 @@
       "symbol": "ATONE",
       "assetType": "sdk.coin",
       "coingeckoId": "atomone"
+    },
+    {
+      "description": "The fee token of AtomOne",
+      "denomUnits": [
+        {
+          "denom": "uphoton",
+          "exponent": 0
+        },
+        {
+          "denom": "photon",
+          "exponent": 6
+        }
+      ],
+      "base": "uphoton",
+      "name": "Photon",
+      "display": "photon",
+      "symbol": "PHOTON",
+      "assetType": "sdk.coin"
     }
   ]
 }

@@ -17,7 +17,7 @@
       "base": "udvpn",
       "name": "Sentinel",
       "display": "dvpn",
-      "symbol": "DVPN",
+      "symbol": "P2P",
       "coingeckoId": "sentinel",
       "assetType": "sdk.coin"
     }
