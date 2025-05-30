@@ -15,12 +15,6 @@
         "lowGasPrice": 0.03,
         "averageGasPrice": 0.05,
         "highGasPrice": 0.07
-      },
-      {
-        "denom": "uist",
-        "lowGasPrice": 0.0034,
-        "averageGasPrice": 0.007,
-        "highGasPrice": 0.02
       }
     ]
   },

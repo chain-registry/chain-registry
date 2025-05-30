@@ -173,7 +173,7 @@
         }
       ],
       "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol",
-      "name": "SOL",
+      "name": "Solana",
       "display": "sol",
       "symbol": "SOL",
       "traces": [
@@ -182,6 +182,37 @@
           "counterparty": {
             "chainName": "solana",
             "baseDenom": "Lamport"
+          },
+          "provider": "Int3face"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Ripple (XRP) on Int3face",
+      "denomUnits": [
+        {
+          "denom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp",
+          "exponent": 0,
+          "aliases": [
+            "drop"
+          ]
+        },
+        {
+          "denom": "xrp",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp",
+      "name": "Ripple",
+      "display": "xrp",
+      "symbol": "XRP",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "xrpl",
+            "baseDenom": "drop"
           },
           "provider": "Int3face"
         }
