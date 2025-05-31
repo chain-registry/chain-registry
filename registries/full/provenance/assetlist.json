@@ -31,7 +31,8 @@
           }
         }
       ],
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "hash-2"
     },
     {
       "description": "USD Coin",

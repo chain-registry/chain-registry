@@ -18,7 +18,8 @@
       "name": "Hash",
       "display": "hash",
       "symbol": "HASH",
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "hash-2"
     },
     {
       "description": "USD Coin",
