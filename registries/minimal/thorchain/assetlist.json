@@ -3,6 +3,8 @@
   "chainName": "thorchain",
   "assets": [
     {
+      "base": "rune",
+      "assetType": "sdk.coin",
       "description": "The native token of THORChain",
       "denomUnits": [
         {
@@ -14,12 +16,103 @@
           "exponent": 8
         }
       ],
-      "base": "rune",
-      "name": "THORChain RUNE",
+      "name": "THORChain",
       "display": "RUNE",
       "symbol": "RUNE",
-      "coingeckoId": "thorchain",
-      "assetType": "sdk.coin"
+      "coingeckoId": "thorchain"
+    },
+    {
+      "base": "ruji",
+      "assetType": "sdk.coin",
+      "description": "Rujira is the app layer on THORChain with a full suite of DeFi applications, accessible with native assets from all connected chains.",
+      "denomUnits": [
+        {
+          "denom": "ruji",
+          "exponent": 0
+        },
+        {
+          "denom": "thor.ruji",
+          "exponent": 8
+        }
+      ],
+      "name": "Rujira",
+      "display": "thor.ruji",
+      "symbol": "RUJI",
+      "coingeckoId": "rujira"
+    },
+    {
+      "base": "auto",
+      "assetType": "sdk.coin",
+      "description": "AutoRujira maximizes your crypto returns by automating every DeFi opportunity across Rujira and THORChain. From staking to trading, everything runs on autopilot — powered by smart contracts and AI",
+      "denomUnits": [
+        {
+          "denom": "auto",
+          "exponent": 0
+        },
+        {
+          "denom": "thor.auto",
+          "exponent": 8
+        }
+      ],
+      "name": "AutoRujira",
+      "display": "thor.auto",
+      "symbol": "AUTO"
+    },
+    {
+      "base": "lqdy",
+      "assetType": "sdk.coin",
+      "description": "Liquidy is a decentralized autonomous organization running a series of profitable on-chain revenue streams. The primary revenue streams are Market Making and a Swap Router.",
+      "denomUnits": [
+        {
+          "denom": "lqdy",
+          "exponent": 0
+        },
+        {
+          "denom": "thor.lqdy",
+          "exponent": 8
+        }
+      ],
+      "name": "Liquidy",
+      "display": "thor.lqdy",
+      "symbol": "LQDY"
+    },
+    {
+      "base": "nami",
+      "assetType": "sdk.coin",
+      "description": "Nami provides a suite of DeFi applications including an optimized EARN product and on-chain INDICES for native assets, accessible from any connected chain. Maximize yield. Simplify access. Reduce risk. Grow with Nami",
+      "denomUnits": [
+        {
+          "denom": "nami",
+          "exponent": 0
+        },
+        {
+          "denom": "thor.nami",
+          "exponent": 8
+        }
+      ],
+      "name": "Nami Protocol",
+      "display": "thor.nami",
+      "symbol": "NAMI",
+      "coingeckoId": "nami-protocol"
+    },
+    {
+      "base": "tcy",
+      "assetType": "sdk.coin",
+      "description": "TCY is the token on THORChain to address the default of THORFi. 10% of all system income is paid to TCY stakers.",
+      "denomUnits": [
+        {
+          "denom": "tcy",
+          "exponent": 0
+        },
+        {
+          "denom": "thor.tcy",
+          "exponent": 8
+        }
+      ],
+      "name": "THORChain TCY",
+      "display": "thor.tcy",
+      "symbol": "TCY",
+      "coingeckoId": "tcy"
     }
   ]
 }
