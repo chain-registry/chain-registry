@@ -112,10 +112,10 @@
         "address": "https://elys-rpc.node39.top:443"
       },
       {
-        "address": "https://elys.mtl.vnodesv.net/rpc"
+        "address": "https://rpc.elys.mtl.vnodesv.net"
       },
       {
-        "address": "https://elys.rpc.fr.vnodesv.net:443"
+        "address": "https://elys.rpc.fr.vnodesv.net"
       },
       {
         "address": "https://elys-rpc.kleomedes.network/"
@@ -180,7 +180,7 @@
         "address": "https://elys-api.node39.top:443"
       },
       {
-        "address": "https://elys.mtl.vnodesv.net/rest"
+        "address": "https://rest.elys.mtl.vnodesv.net"
       },
       {
         "address": "https://elys.rest.fr.vnodesv.net:443"
