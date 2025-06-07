@@ -273,7 +273,7 @@
         "address": "celestia-grpc.noders.services:11090"
       },
       {
-        "address": "celestia-mainnet-grpc.itrocket.net:40090"
+        "address": "celestia-mainnet-grpc.itrocket.net:443"
       },
       {
         "address": "grpc.celestia.mainnet.dteam.tech:28090"
@@ -347,7 +347,7 @@
       "accountPage": "https://ezstaking.app/celestia/account/${accountAddress}"
     },
     {
-      "kind": "🚀 itrocket 🚀",
+      "kind": "itrocket",
       "url": "https://mainnet.itrocket.net/celestia",
       "txPage": "https://mainnet.itrocket.net/celestia/transaction/${txHash}",
       "accountPage": "https://mainnet.itrocket.net/celestia/account/${accountAddress}"

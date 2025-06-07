@@ -141,7 +141,7 @@
         "address": "https://grpc-humans.nodeist.net/"
       },
       {
-        "address": "humans-mainnet-grpc.itrocket.net:17090"
+        "address": "humans-mainnet-grpc.itrocket.net:443"
       },
       {
         "address": "http://humans-rpc.stakeangle.com:41490/"

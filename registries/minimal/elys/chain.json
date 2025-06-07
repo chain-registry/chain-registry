@@ -197,9 +197,6 @@
         "address": "elys-grpc.polkachu.com:22090"
       },
       {
-        "address": "elys-testnet-grpc.itrocket.net:38090"
-      },
-      {
         "address": "elys-grpc.publicnode.com:443"
       },
       {

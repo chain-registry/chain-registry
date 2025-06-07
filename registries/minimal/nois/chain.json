@@ -81,9 +81,6 @@
         "address": "https://rpc-nois.ezstaking.dev"
       },
       {
-        "address": "https://nois-mainnet-rpc.itrocket.net"
-      },
-      {
         "address": "https://rpc-nois.d-stake.xyz"
       },
       {
@@ -123,12 +120,6 @@
       },
       {
         "address": "http://nois.grpc.m.stavr.tech:191"
-      },
-      {
-        "address": "nois-mainnet-grpc.itrocket.net:36090"
-      },
-      {
-        "address": "nois-mainnet-grpc.itrocket.net:36090"
       },
       {
         "address": "https://grpc.nois.nodestake.top"
@@ -176,9 +167,6 @@
       },
       {
         "address": "https://nois.api.m.stavr.tech"
-      },
-      {
-        "address": "https://nois-mainnet-api.itrocket.net"
       },
       {
         "address": "https://api-nois.d-stake.xyz"

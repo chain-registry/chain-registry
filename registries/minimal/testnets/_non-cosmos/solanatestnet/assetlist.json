@@ -30,6 +30,85 @@
         }
       ],
       "coingeckoId": "solana"
+    },
+    {
+      "assetType": "erc20",
+      "address": "So11111111111111111111111111111111111111112",
+      "denomUnits": [
+        {
+          "denom": "So11111111111111111111111111111111111111112",
+          "exponent": 0
+        },
+        {
+          "denom": "wsol",
+          "exponent": 9
+        }
+      ],
+      "base": "So11111111111111111111111111111111111111112",
+      "name": "Wrapped SOL",
+      "display": "wsol",
+      "symbol": "WSOL",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chainName": "solanatestnet",
+            "baseDenom": "Lamport"
+          },
+          "provider": "Solana"
+        }
+      ],
+      "coingeckoId": "wrapped-solana"
+    },
+    {
+      "description": "The Meow token",
+      "assetType": "erc20",
+      "address": "HYGEZGU5kRh9vjw723wuyjUQGe654ByRQzQRP7PWxgMa",
+      "denomUnits": [
+        {
+          "denom": "HYGEZGU5kRh9vjw723wuyjUQGe654ByRQzQRP7PWxgMa",
+          "exponent": 0
+        },
+        {
+          "denom": "meow",
+          "exponent": 8
+        }
+      ],
+      "base": "HYGEZGU5kRh9vjw723wuyjUQGe654ByRQzQRP7PWxgMa",
+      "name": "MEOW",
+      "display": "meow",
+      "symbol": "MEOW",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "solana",
+            "baseDenom": "BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf"
+          },
+          "provider": "Solana"
+        }
+      ],
+      "coingeckoId": "meow"
+    },
+    {
+      "description": "The Oracler AI token",
+      "assetType": "erc20",
+      "address": "3AoNjsp7M2k9tsaNpKjcBWC5JQi67BinysbVnrcPjKNt",
+      "denomUnits": [
+        {
+          "denom": "3AoNjsp7M2k9tsaNpKjcBWC5JQi67BinysbVnrcPjKNt",
+          "exponent": 0
+        },
+        {
+          "denom": "oracler",
+          "exponent": 6
+        }
+      ],
+      "base": "3AoNjsp7M2k9tsaNpKjcBWC5JQi67BinysbVnrcPjKNt",
+      "name": "ORACLER",
+      "display": "oracler",
+      "symbol": "ORACLER",
+      "coingeckoId": "oracler-ai"
     }
   ]
 }

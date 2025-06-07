@@ -81,7 +81,7 @@
       "accountPage": "https://testnet.ping.pub/elys/account/${accountAddress}"
     },
     {
-      "kind": "itrocket",
+      "kind": "ITRocket",
       "url": "https://testnet.itrocket.net/elys",
       "txPage": "https://testnet.itrocket.net/elys/staking/tx/${txHash}",
       "accountPage": "https://testnet.itrocket.net/elys/account/${accountAddress}"

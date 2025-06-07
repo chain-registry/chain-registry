@@ -130,7 +130,7 @@
         "address": "uptick.grpc.m.stavr.tech:1901"
       },
       {
-        "address": "uptick-mainnet-grpc.itrocket.net:10090"
+        "address": "uptick-mainnet-grpc.itrocket.net:443"
       },
       {
         "address": "https://uptick.grpc.liveraven.net"

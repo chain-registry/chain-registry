@@ -104,7 +104,7 @@
       "accountPage": "https://explorer.nodestake.org/lava-testnet/account/${accountAddress}"
     },
     {
-      "kind": "🚀ITRocket🚀",
+      "kind": "ITRocket",
       "url": "https://testnet.itrocket.net/lava",
       "txPage": "https://testnet.itrocket.net/lava/tx/${txHash}",
       "accountPage": "https://testnet.itrocket.net/lava/account/${accountAddress}"

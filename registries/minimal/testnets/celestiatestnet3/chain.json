@@ -79,7 +79,7 @@
         "address": "grpc-mocha-full.avril14th.org"
       },
       {
-        "address": "celestia-testnet-grpc.itrocket.net:11090"
+        "address": "celestia-testnet-grpc.itrocket.net:443"
       },
       {
         "address": "https://grpc-celestia-testnet.cryptech.com.ua"
@@ -99,7 +99,7 @@
       "txPage": "https://mintscan.io/celestia-testnet/txs/${txHash}"
     },
     {
-      "kind": "🚀ITRocket🚀",
+      "kind": "itrocket",
       "url": "https://testnet.itrocket.net/celestia",
       "txPage": "https://testnet.itrocket.net/celestia/tx/${txHash}",
       "accountPage": "https://testnet.itrocket.net/celestia/account/${accountAddress}"

@@ -486,6 +486,46 @@
           "provider": "Unicorn"
         }
       ]
+    },
+    {
+      "description": "The Meow token",
+      "assetType": "erc20",
+      "address": "BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf",
+      "denomUnits": [
+        {
+          "denom": "BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf",
+          "exponent": 0
+        },
+        {
+          "denom": "meow",
+          "exponent": 8
+        }
+      ],
+      "base": "BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf",
+      "name": "MEOW",
+      "display": "meow",
+      "symbol": "MEOW",
+      "coingeckoId": "meow"
+    },
+    {
+      "description": "The Oracler AI token",
+      "assetType": "erc20",
+      "address": "5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38",
+      "denomUnits": [
+        {
+          "denom": "5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38",
+          "exponent": 0
+        },
+        {
+          "denom": "oracler",
+          "exponent": 6
+        }
+      ],
+      "base": "5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38",
+      "name": "ORACLER",
+      "display": "oracler",
+      "symbol": "ORACLER",
+      "coingeckoId": "oracler-ai"
     }
   ]
 }

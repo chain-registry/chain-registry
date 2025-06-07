@@ -35,23 +35,15 @@
     "rpc": [
       {
         "address": "https://testnet-rpc.terp.network:443/"
-      },
-      {
-        "address": "https://terp-testnet-rpc.itrocket.net:443/"
       }
     ],
     "rest": [
       {
         "address": "https://testnet-api.terp.network:443/"
-      },
-      {
-        "address": "https://terp-testnet-api.itrocket.net:443/"
       }
     ],
     "grpc": [
-      {
-        "address": "terp-testnet-grpc.itrocket.net/"
-      }
+
     ]
   },
   "explorers": [

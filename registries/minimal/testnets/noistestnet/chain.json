@@ -56,9 +56,6 @@
         "address": "https://nois-testnet-rpc.polkachu.com"
       },
       {
-        "address": "https://nois-testnet-rpc.itrocket.net:443"
-      },
-      {
         "address": "https://rpc.nois.mcbnode.online:443"
       },
       {
@@ -74,9 +71,6 @@
       },
       {
         "address": "http://nois.grpc.t.stavr.tech:191"
-      },
-      {
-        "address": "nois-testnet-grpc.itrocket.net:21090"
       }
     ],
     "rest": [

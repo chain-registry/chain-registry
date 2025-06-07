@@ -90,7 +90,7 @@
         "address": "https://grpc.provider-state-sync-02.ics-testnet.polypore.xyz"
       },
       {
-        "address": "https://cosmos-testnet-grpc.itrocket.net"
+        "address": "cosmos-testnet-grpc.itrocket.net:443"
       }
     ]
   },
