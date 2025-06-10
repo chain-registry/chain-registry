@@ -1,0 +1,20 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "xarchaintestnet",
+  "assets": [
+    {
+      "description": "Xarchain Stake is the native cryptocurrency of the Arcana app chain (ceries), designed to orchestrate bridge-less interoperability between multiple blockchains",
+      "denomUnits": [
+        {
+          "denom": "stake",
+          "exponent": 0
+        }
+      ],
+      "base": "stake",
+      "name": "XarchainSTAKE",
+      "display": "stake",
+      "symbol": "STAKE",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
