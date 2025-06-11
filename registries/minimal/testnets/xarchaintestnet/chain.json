@@ -45,12 +45,12 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://cosmos01-dev.arcana.network"
+        "address": "https://cosmos01-dev.arcana.network:26650"
       }
     ],
     "rest": [
       {
-        "address": "https://cosmos01-dev.arcana.network:26650"
+        "address": "https://cosmos01-dev.arcana.network"
       }
     ],
     "grpc": [

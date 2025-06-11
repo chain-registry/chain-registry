@@ -2,7 +2,7 @@
   "$schema": "../chain.schema.json",
   "chainName": "terra2",
   "networkType": "mainnet",
-  "website": "https://www.terra.money/",
+  "website": "https://www.phoenix.money/",
   "prettyName": "Terra",
   "chainType": "cosmos",
   "chainId": "phoenix-1",
@@ -142,6 +142,18 @@
   },
   "explorers": [
     {
+      "kind": "mintscan",
+      "url": "https://www.mintscan.io/terra",
+      "txPage": "https://www.mintscan.io/terra/transactions/${txHash}",
+      "accountPage": "https://www.mintscan.io/terra/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Chainscope",
+      "url": "https://chainsco.pe/terra2",
+      "txPage": "https://chainsco.pe/terra2/tx/${txHash}",
+      "accountPage": "https://chainsco.pe/terra2/address/${accountAddress}"
+    },
+    {
       "kind": "atomscan",
       "url": "https://atomscan.com/terra2",
       "txPage": "https://atomscan.com/terra2/transactions/${txHash}",
@@ -163,12 +175,6 @@
       "kind": "Stakeflow",
       "url": "https://stakeflow.io/terra",
       "accountPage": "https://stakeflow.io/terra/accounts/${accountAddress}"
-    },
-    {
-      "kind": "mintscan",
-      "url": "https://www.mintscan.io/terra",
-      "txPage": "https://www.mintscan.io/terra/transactions/${txHash}",
-      "accountPage": "https://www.mintscan.io/terra/accounts/${accountAddress}"
     },
     {
       "kind": "Chainroot",
