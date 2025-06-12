@@ -244,6 +244,7 @@
       "name": "Yield GATA",
       "display": "ygata",
       "symbol": "YGATA",
+      "coingeckoId": "yield-gata",
       "assetType": "sdk.coin"
     },
     {

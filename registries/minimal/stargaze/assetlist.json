@@ -484,7 +484,8 @@
             "path": "transfer/channel-398/factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata"
           }
         }
-      ]
+      ],
+      "coingeckoId": "yield-gata"
     },
     {
       "description": "The token of Crowdpunk DAO",
