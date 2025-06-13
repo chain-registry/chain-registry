@@ -526,6 +526,26 @@
       "display": "oracler",
       "symbol": "ORACLER",
       "coingeckoId": "oracler-ai"
+    },
+    {
+      "description": "The monKEYS token",
+      "assetType": "erc20",
+      "address": "7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw",
+      "denomUnits": [
+        {
+          "denom": "7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw",
+          "exponent": 0
+        },
+        {
+          "denom": "monKEYS",
+          "exponent": 6
+        }
+      ],
+      "base": "7TSCoke2mSZzAtyuRmzANf9virrnyv4xSUeaxUrKkLqw",
+      "name": "monKEYS",
+      "display": "monKEYS",
+      "symbol": "MONKEYS",
+      "coingeckoId": "monkeys-2"
     }
   ]
 }

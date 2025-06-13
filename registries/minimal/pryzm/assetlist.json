@@ -4209,6 +4209,27 @@
       "display": "photondrop",
       "symbol": "PHOTONDROP",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "The non-transferable receipt of $SOUL airdrop for Scar Campaign participants",
+      "denomUnits": [
+        {
+          "denom": "factory/pryzm1fp7uhm334tssvzlg4mk0hsp0kezvcla0vzk22q/uscar",
+          "exponent": 0,
+          "aliases": [
+            "uscar"
+          ]
+        },
+        {
+          "denom": "scar",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/pryzm1fp7uhm334tssvzlg4mk0hsp0kezvcla0vzk22q/uscar",
+      "name": "SCAR",
+      "display": "scar",
+      "symbol": "SCAR",
+      "assetType": "sdk.coin"
     }
   ]
 }

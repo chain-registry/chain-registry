@@ -198,6 +198,12 @@
   },
   "explorers": [
     {
+      "kind": "Chainroot",
+      "url": "https://explorer.chainroot.io/mantra",
+      "txPage": "https://explorer.chainroot.io/mantra/transactions/${txHash}",
+      "accountPage": "https://explorer.chainroot.io/mantra/accounts/${accountAddress}"
+    },
+    {
       "kind": "ITRocket",
       "url": "https://mainnet.itrocket.net/mantra",
       "txPage": "https://mainnet.itrocket.net/mantra/transaction/${txHash}",
