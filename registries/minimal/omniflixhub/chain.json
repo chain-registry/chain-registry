@@ -11,10 +11,10 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.47.10"
+      "version": "v0.50.13"
     },
     "cosmwasm": {
-      "version": "v0.45.0"
+      "version": "v0.53.2"
     }
   },
   "fees": {
@@ -22,8 +22,8 @@
       {
         "denom": "uflix",
         "fixedMinGasPrice": 0,
-        "lowGasPrice": 0.001,
-        "averageGasPrice": 0.0025,
+        "lowGasPrice": 0.005,
+        "averageGasPrice": 0.015,
         "highGasPrice": 0.025
       }
     ]
