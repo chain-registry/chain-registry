@@ -29,7 +29,7 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.50.10"
+      "version": "v0.50.11"
     }
   },
   "description": "BitBadges is the all-in-one, multi-chain platform for building your digital identity.",
@@ -51,7 +51,9 @@
       }
     ],
     "grpc": [
-
+      {
+        "address": "http://134.122.12.165:9090"
+      }
     ]
   },
   "explorers": [
