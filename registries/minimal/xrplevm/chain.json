@@ -1,0 +1,83 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "xrplevm",
+  "networkType": "mainnet",
+  "website": "https://xrplevm.org/",
+  "prettyName": "XRPL EVM",
+  "chainType": "cosmos",
+  "chainId": "xrplevm_1440000-1",
+  "bech32Prefix": "ethm",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "axrp",
+        "fixedMinGasPrice": 250000000,
+        "lowGasPrice": 200000000000,
+        "averageGasPrice": 250000000000,
+        "highGasPrice": 400000000000
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/xrplevm/cosmos-sdk",
+      "version": "v0.50.13",
+      "tag": "v0.50.13-xrplevm.2"
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xrplevm/images/xrplevm.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xrplevm/images/xrplevm.svg",
+      "theme": {
+        "circle": true,
+        "primaryColorHex": "#FFFFFF"
+      }
+    }
+  ],
+  "description": "The XRPL Ethereum Virtual Machine (EVM) is an innovative extension of the XRP Ledger developed by Peersyst in collaboration with Ripple that integrates Ethereum's smart contract capabilities via a dedicated sidechain. Built on the Cosmos SDK with a fork of evmOS, this sidechain utilizes a Proof-of-Authority (PoA) consensus model, ensuring high performance and low latency while maintaining the fundamental attributes of the XRP Ledger. It connects to the XRP Ledger through the Axelar network, employing XRP—bridged from the XRPL—as its native currency. This allows for seamless asset transfers and communication between the XRPL and the EVM sidechain. Moreover, the XRPL EVM supports Inter-Blockchain Communication (IBC), promoting interoperability with other blockchains in the Cosmos ecosystem.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://cosmos-rpc.xrplevm.org"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://cosmos-api.xrplevm.org"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://cosmos-grpc.xrplevm.org"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://rpc.xrplevm.org"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "evm",
+      "url": "https://explorer.xrplevm.org",
+      "txPage": "https://explorer.xrplevm.org/tx/${txHash}",
+      "accountPage": "https://explorer.xrplevm.org/address/${accountAddress}"
+    },
+    {
+      "kind": "cosmos",
+      "url": "https://governance.xrplevm.org",
+      "txPage": "https://governance.xrplevm.org/xrplevm/transactions/${txHash}",
+      "accountPage": "https://governance.xrplevm.org/xrplevm/accounts/${accountAddress}"
+    }
+  ]
+}

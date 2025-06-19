@@ -1,0 +1,27 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "namada",
+    "clientId": "07-tendermint-8",
+    "connectionId": "connection-6"
+  },
+  "chain2": {
+    "chainName": "noble",
+    "clientId": "07-tendermint-153",
+    "connectionId": "connection-143"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-5",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-136",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1"
+    }
+  ]
+}

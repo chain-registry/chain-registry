@@ -1,0 +1,27 @@
+{
+  "$schema": "../ibc_data.schema.json",
+  "chain1": {
+    "chainName": "cosmoshub",
+    "clientId": "07-tendermint-1351",
+    "connectionId": "connection-1089"
+  },
+  "chain2": {
+    "chainName": "namada",
+    "clientId": "07-tendermint-3",
+    "connectionId": "connection-2"
+  },
+  "channels": [
+    {
+      "chain1": {
+        "channelId": "channel-1317",
+        "portId": "transfer"
+      },
+      "chain2": {
+        "channelId": "channel-2",
+        "portId": "transfer"
+      },
+      "ordering": "unordered",
+      "version": "ics20-1"
+    }
+  ]
+}

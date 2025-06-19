@@ -1,0 +1,35 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "xrplevm",
+  "assets": [
+    {
+      "description": "The native token of XRPL EVM",
+      "denomUnits": [
+        {
+          "denom": "axrp",
+          "exponent": 0
+        },
+        {
+          "denom": "XRP",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "axrp",
+      "name": "XRP",
+      "display": "XRP",
+      "symbol": "XRP",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "xrpl",
+            "baseDenom": "drop"
+          },
+          "provider": "Ripple"
+        }
+      ],
+      "coingeckoId": "ripple"
+    }
+  ]
+}

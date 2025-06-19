@@ -1,0 +1,124 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "namada",
+  "networkType": "mainnet",
+  "website": "https://namada.net",
+  "prettyName": "Namada",
+  "chainType": "unknown",
+  "chainId": "namada.5f5de2dd1b88cba30586420",
+  "slip44": 877,
+  "bech32Prefix": "tnam",
+  "keyAlgos": [
+    "ed25519"
+  ],
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "unam",
+        "fixedMinGasPrice": 0.0025,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "unam"
+      }
+    ],
+    "lockDuration": {
+      "time": "1209600s"
+    }
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.namada.tududes.com"
+      },
+      {
+        "address": "https://namada-rpc.mandragora.io"
+      },
+      {
+        "address": "https://namadam.powerstaking.tech"
+      },
+      {
+        "address": "https://namada-main.stakesystems.io"
+      },
+      {
+        "address": "https://rpc-namada.5elementsnodes.com"
+      },
+      {
+        "address": "https://namada-mainnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://namada-rpc.sproutstake.space"
+      },
+      {
+        "address": "https://rpc.papadritta.com"
+      },
+      {
+        "address": "https://namada.rpc.decentrio.ventures"
+      },
+      {
+        "address": "https://rpc.namada.stakepool.dev.br"
+      },
+      {
+        "address": "https://rpc.namadascan.io"
+      },
+      {
+        "address": "https://namada-rpc.synergynodes.com"
+      },
+      {
+        "address": "https://namada-mainnet.rpc.l0vd.com:443"
+      },
+      {
+        "address": "https://namada.loserboy.xyz"
+      },
+      {
+        "address": "https://namada.itudou.xyz"
+      },
+      {
+        "address": "https://rpc.namada.validatus.com"
+      },
+      {
+        "address": "https://namada-rpc.zenode.app"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Explorer75",
+      "url": "https://explorer75.org/namada",
+      "txPage": "https://explorer75.org/namada/tx/${txHash}",
+      "accountPage": "https://explorer75.org/namada/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Valopers",
+      "url": "https://namada.valopers.com/",
+      "txPage": "https://namada.valopers.com/transactions/${txHash}",
+      "accountPage": "https://namada.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "Shielded.Live",
+      "url": "https://shielded.live",
+      "txPage": "https://shielded.live/txs/${txHash}",
+      "accountPage": "https://shielded.live/address/${accountAddress}"
+    },
+    {
+      "kind": "Sproutstake",
+      "url": "https://namada-explorer.sproutstake.space",
+      "txPage": "https://namada-explorer.sproutstake.space/main/transactions/${txHash}",
+      "accountPage": "https://namada-explorer.sproutstake.space/main/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Coverlet",
+      "url": "https://namada.coverlet.io/",
+      "txPage": "https://namada.coverlet.io/tx/${txHash}"
+    }
+  ]
+}
