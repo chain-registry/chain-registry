@@ -1645,9 +1645,19 @@
         }
       ],
       "base": "0x6a9a65b84843f5fd4ac9a0471c4fc11afffbce4a",
-      "name": "enzoBTC",
+      "name": "lorenzo Wrapped Bitcoin",
       "display": "enzobtc",
       "symbol": "enzoBTC",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Lorenzo Protocol"
+        }
+      ],
       "coingeckoId": "lorenzo-wrapped-bitcoin"
     },
     {

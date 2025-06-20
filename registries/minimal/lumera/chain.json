@@ -39,6 +39,23 @@
       "enabled": true
     }
   },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.lumera.io:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.lumera.io:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.lumera.io:443"
+      }
+    ]
+  },
   "explorers": [
     {
       "kind": "ping.pub",
