@@ -1,0 +1,80 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "qubetics",
+  "networkType": "mainnet",
+  "website": "https://www.qubetics.com/",
+  "prettyName": "Qubetics",
+  "chainType": "cosmos",
+  "chainId": "qubetics_9030-1",
+  "bech32Prefix": "qubetics",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "tics",
+        "fixedMinGasPrice": 250000000,
+        "lowGasPrice": 20000000000,
+        "averageGasPrice": 25000000000,
+        "highGasPrice": 40000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "tics"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.12"
+    }
+  },
+  "description": "Developers use qubetics as the Ethereum Chain to deploy applications of the future. Get all the functionalities of Ethereum with the power of IBC and Interchain composability.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://tendermint.qubetics.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://swagger.qubetics.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.qubetics.com"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://rpc.qubetics.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "qubetics",
+      "url": "https://ticsscan.com",
+      "txPage": "https://ticsscan.com/tx/${txHash}",
+      "accountPage": "https://ticsscan.com/address/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png",
+      "theme": {
+        "primaryColorHex": "#046ffc"
+      }
+    }
+  ]
+}

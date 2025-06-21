@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "qubetics",
+  "assets": [
+    {
+      "description": "The EVM, governance and staking token of the qubetics Chain",
+      "denomUnits": [
+        {
+          "denom": "tics",
+          "exponent": 0
+        },
+        {
+          "denom": "TICS",
+          "exponent": 18
+        }
+      ],
+      "base": "tics",
+      "name": "Qubetics Mainnet",
+      "display": "TICS",
+      "symbol": "TICS",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
