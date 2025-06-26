@@ -1,10 +1,10 @@
 {
-  "$schema": "../../chain.schema.json",
-  "chainName": "symphonytestnet",
-  "networkType": "testnet",
-  "prettyName": "Symphony Testnet",
+  "$schema": "../chain.schema.json",
+  "chainName": "symphony",
+  "networkType": "mainnet",
+  "prettyName": "Symphony",
   "chainType": "cosmos",
-  "chainId": "symphony-testnet-4",
+  "chainId": "symphony-1",
   "bech32Prefix": "symphony",
   "keyAlgos": [
     "secp256k1"
@@ -15,9 +15,9 @@
       {
         "denom": "note",
         "fixedMinGasPrice": 0,
-        "lowGasPrice": 0.0025,
-        "averageGasPrice": 0.025,
-        "highGasPrice": 0.04
+        "lowGasPrice": 0.00025,
+        "averageGasPrice": 0.0025,
+        "highGasPrice": 0.004
       }
     ]
   },
@@ -41,26 +41,26 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://symphony.test.rpc.nodeshub.online/"
+        "address": "https://symphony.rpc.nodeshub.online/"
       },
       {
-        "address": "https://symphony-testnet-rpc.cogwheel.zone/"
+        "address": "https://symphony-rpc.cogwheel.zone/"
       }
     ],
     "rest": [
       {
-        "address": "https://symphony.test.api.nodeshub.online/"
+        "address": "https://symphony.api.nodeshub.online/"
       },
       {
-        "address": "https://symphony-testnet-api.cogwheel.zone/"
+        "address": "https://symphony-api.cogwheel.zone/"
       }
     ],
     "grpc": [
       {
-        "address": "https://symphony.test.grpc.nodeshub.online/"
+        "address": "https://symphony.grpc.nodeshub.online/"
       },
       {
-        "address": "https://symphony-testnet-grpc.cogwheel.zone:443"
+        "address": "https://symphony-grpc.cogwheel.zone:443"
       }
     ]
   },

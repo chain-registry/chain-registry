@@ -1,0 +1,60 @@
+{
+  "chainType": "cosmos",
+  "$schema": "../../chain.schema.json",
+  "chainName": "safrochaintestnet",
+  "networkType": "testnet",
+  "website": "https://safrochain.com",
+  "prettyName": "Safrochain Testnet",
+  "chainId": "safrochain-testnet",
+  "bech32Prefix": "addr_safro",
+  "keyAlgos": [
+    "secp256k1",
+    "ed25519"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "saf",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "saf"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.safrochain.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.testnet.safrochain.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.testnet.safrochain.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bigdipper",
+      "url": "https://explorer.testnet.safrochain.com",
+      "txPage": "https://explorer.testnet.safrochain.com/transactions/${txHash}"
+    }
+  ]
+}
