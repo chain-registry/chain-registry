@@ -1,0 +1,41 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "buycex",
+  "chainId": "bcx_323-1",
+  "prettyName": "BuyCex Infinity Chain",
+  "networkType": "mainnet",
+  "website": "https://infinity.buycex.com",
+  "bech32Prefix": "bcx",
+  "chainType": "cosmos",
+  "slip44": 60,
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.45.16"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://endpoint.buycex.net"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.buycex.net"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.buycex.net"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "pingpub",
+      "url": "https://cosmos.buycex.net",
+      "txPage": "https://cosmos.buycex.net/tx/${txHash}"
+    }
+  ]
+}

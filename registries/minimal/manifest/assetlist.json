@@ -18,7 +18,8 @@
       "name": "Manifest Token",
       "display": "mfx",
       "symbol": "MFX",
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "manifest-2"
     },
     {
       "description": "Proof of Authority token for the Manifest network",
