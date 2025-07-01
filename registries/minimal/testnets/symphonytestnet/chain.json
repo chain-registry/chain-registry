@@ -45,6 +45,9 @@
       },
       {
         "address": "https://symphony-testnet-rpc.cogwheel.zone/"
+      },
+      {
+        "address": "https://rpc-symphonyd.vinjan.xyz"
       }
     ],
     "rest": [
@@ -53,6 +56,9 @@
       },
       {
         "address": "https://symphony-testnet-api.cogwheel.zone/"
+      },
+      {
+        "address": "https://api-symphonyd.vinjan.xyz"
       }
     ],
     "grpc": [
@@ -64,6 +70,14 @@
       }
     ]
   },
+  "explorers": [
+    {
+      "kind": "VinjanXplorer",
+      "url": "https://xplorer.vinjan.xyz/symphony-testnet",
+      "txPage": "https://xplorer.vinjan.xyz/symphony-testnet/tx/${txHash}",
+      "accountPage": "https://xplorer.vinjan.xyz/symphony-testnet/account/${accountAddress}"
+    }
+  ],
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/symphony_logo.png"

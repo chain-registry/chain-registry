@@ -88,6 +88,10 @@
       {
         "address": "https://symphony-rpc.cogwheel.zone/",
         "provider": "Cogwheel ⚙️"
+      },
+      {
+        "address": "https://rpc-main-symphony.vinjan.xyz",
+        "provider": "Vinjan.Inc"
       }
     ],
     "rest": [
@@ -98,6 +102,10 @@
       {
         "address": "https://symphony-api.cogwheel.zone/",
         "provider": "Cogwheel ⚙️"
+      },
+      {
+        "address": "https://api-main-symphony.vinjan.xyz",
+        "provider": "Vinjan.Inc"
       }
     ],
     "grpc": [
@@ -108,9 +116,21 @@
       {
         "address": "https://symphony-grpc.cogwheel.zone:443",
         "provider": "Cogwheel ⚙️"
+      },
+      {
+        "address": "grpc-main-symphony.vinjan.xyz:21090",
+        "provider": "Vinjan.Inc"
       }
     ]
   },
+  "explorers": [
+    {
+      "kind": "VinjanXplorer",
+      "url": "https://xplorer.vinjan.xyz/symphony",
+      "txPage": "https://xplorer.vinjan.xyz/symphony/tx/${txHash}",
+      "accountPage": "https://xplorer.vinjan.xyz/symphony/account/${accountAddress}"
+    }
+  ],
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/symphony_logo.png"
   },

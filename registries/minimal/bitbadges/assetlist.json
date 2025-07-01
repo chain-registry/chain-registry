@@ -3,7 +3,7 @@
   "chainName": "bitbadges",
   "assets": [
     {
-      "description": "$BADGE is the native in-app credits token for BitBadges.",
+      "description": "$BADGE is the native in-app token for BitBadges.",
       "denomUnits": [
         {
           "denom": "ubadge",
@@ -15,7 +15,7 @@
         }
       ],
       "base": "ubadge",
-      "name": "BitBadges Credits",
+      "name": "BitBadges",
       "display": "badge",
       "symbol": "BADGE",
       "assetType": "sdk.coin"

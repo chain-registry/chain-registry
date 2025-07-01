@@ -32,10 +32,16 @@
   "apis": {
     "rpc": [
       {
-        "address": "http://34.128.114.243:26657"
+        "address": "https://rpc.cifer.ai"
+      },
+      {
+        "address": "http://119.59.126.109:26657"
       }
     ],
     "rest": [
+      {
+        "address": "https://lcd.cifer.ai"
+      },
       {
         "address": "https://api.cifer.ai"
       }
@@ -58,7 +64,7 @@
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cifer/images/cif.svg",
       "theme": {
-        "primaryColorHex": "#af49b7"
+        "primaryColorHex": "#5F53C8"
       }
     }
   ]
