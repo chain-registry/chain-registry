@@ -1,0 +1,77 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "xarchain",
+  "chainType": "cosmos",
+  "chainId": "xarchain",
+  "website": "https://arcana.network/",
+  "prettyName": "XarChain Coral",
+  "networkType": "mainnet",
+  "bech32Prefix": "arcana",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "stxar",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "stxar"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.10",
+      "tag": "v0.50.10"
+    },
+    "cosmwasm": {
+      "version": "v0.53.0",
+      "repo": "https://github.com/CosmWasm/wasmd",
+      "tag": "v0.53.0"
+    }
+  },
+  "description": "Arcana's Chain Abstraction provides a unified balance on apps to spend on any chain, without swapping, bridging, or refuelling gas",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://cosmos01-testnet.arcana.network:26650"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://cosmos01-testnet.arcana.network"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://cosmos01-testnet.arcana.network:9091"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "arcana ceries intent explorer",
+      "url": "https://explorer.arcana.network"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xarchain/images/arcana_logo.svg",
+      "theme": {
+        "primaryColorHex": "#FF4E9F"
+      }
+    }
+  ]
+}

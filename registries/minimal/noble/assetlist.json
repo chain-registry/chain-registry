@@ -182,7 +182,8 @@
       "base": "uusdn",
       "name": "Noble Dollar",
       "display": "usdn",
-      "symbol": "USDN"
+      "symbol": "USDN",
+      "coingeckoId": "noble-dollar-usdn"
     }
   ]
 }
