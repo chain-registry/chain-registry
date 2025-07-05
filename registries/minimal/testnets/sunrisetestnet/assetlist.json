@@ -25,7 +25,7 @@
       "assetType": "sdk.coin"
     },
     {
-      "description": "The native token of the Sunrise network for fees.",
+      "description": "The native token of the Sunrise network.",
       "denomUnits": [
         {
           "denom": "urise",
@@ -44,6 +44,28 @@
       "name": "Sunrise RISE",
       "display": "rise",
       "symbol": "RISE",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "The USD stable coin of the Sunrise network for fees.",
+      "denomUnits": [
+        {
+          "denom": "uusdrise",
+          "exponent": 0,
+          "aliases": [
+            "microUSDrise",
+            "microusdrise"
+          ]
+        },
+        {
+          "denom": "usdrise",
+          "exponent": 6
+        }
+      ],
+      "base": "uusdrise",
+      "name": "Sunrise USDrise",
+      "display": "usdrise",
+      "symbol": "USDRISE",
       "assetType": "sdk.coin"
     }
   ]

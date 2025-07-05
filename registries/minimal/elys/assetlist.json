@@ -340,6 +340,42 @@
         }
       ],
       "coingeckoId": "saga-2"
+    },
+    {
+      "description": "XRPL EVM Token",
+      "denomUnits": [
+        {
+          "denom": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
+          "exponent": 0,
+          "aliases": [
+            "axrp"
+          ]
+        },
+        {
+          "denom": "xrp",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
+      "name": "Ripple",
+      "display": "xrp",
+      "symbol": "XRP",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "xrplevm",
+            "baseDenom": "axrp",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-27",
+            "path": "transfer/channel-27/axrp"
+          }
+        }
+      ],
+      "coingeckoId": "ripple"
     }
   ]
 }

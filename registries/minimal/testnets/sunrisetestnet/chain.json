@@ -4,7 +4,7 @@
   "networkType": "testnet",
   "prettyName": "Sunrise Testnet",
   "chainType": "cosmos",
-  "chainId": "sunrise-test-0.1",
+  "chainId": "sunrise-test-da-5",
   "bech32Prefix": "sunrise",
   "keyAlgos": [
     "secp256k1"
@@ -13,7 +13,7 @@
   "fees": {
     "feeTokens": [
       {
-        "denom": "urise",
+        "denom": "uusdrise",
         "fixedMinGasPrice": 0,
         "lowGasPrice": 0.0025,
         "averageGasPrice": 0.025,
@@ -31,32 +31,23 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.50.2"
+      "version": "v0.53.2"
     }
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://a-node.sunrise-test-1.cauchye.net/"
-      },
-      {
-        "address": "https://b-node.sunrise-test-1.cauchye.net/"
+        "address": "https://sunrise-test-da-5.cauchye.net"
       }
     ],
     "rest": [
       {
-        "address": "https://a-node.sunrise-test-1.cauchye.net:1318"
-      },
-      {
-        "address": "https://b-node.sunrise-test-1.cauchye.net:1318"
+        "address": "https://sunrise-test-da-5.cauchye.net:1318"
       }
     ],
     "grpc": [
       {
-        "address": "https://a.sunrise-test-1.cauchye.net:9092"
-      },
-      {
-        "address": "https://b.sunrise-test-1.cauchye.net:9092"
+        "address": "https://sunrise-test-da-5.cauchye.net:9092"
       }
     ]
   },

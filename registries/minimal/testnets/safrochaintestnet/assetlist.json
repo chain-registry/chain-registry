@@ -3,33 +3,23 @@
   "chainName": "safrochaintestnet",
   "assets": [
     {
-      "description": "The native token of Safrochain testnet used for staking, governance, and fees.",
+      "description": "The native token of Safrochain testnet used for staking, governance, and gas fees.",
       "denomUnits": [
         {
-          "denom": "saf",
+          "denom": "usaf",
           "exponent": 0,
           "aliases": [
             "microsaf"
           ]
         },
         {
-          "denom": "kuta",
-          "exponent": 3,
-          "aliases": [
-            "millisaf"
-          ]
-        },
-        {
-          "denom": "hela",
-          "exponent": 6,
-          "aliases": [
-
-          ]
+          "denom": "saf",
+          "exponent": 6
         }
       ],
-      "base": "saf",
+      "base": "usaf",
       "name": "Safrochain",
-      "display": "hela",
+      "display": "saf",
       "symbol": "SAF",
       "assetType": "sdk.coin"
     }

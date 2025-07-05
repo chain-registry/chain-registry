@@ -59,6 +59,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "BeerDog",
+      "denomUnits": [
+        {
+          "denom": "factory/chihuahua1sj9verkuk8aa9jrngnpwup6zjht4vwngjlpemnt9w38ccp0qnlcswvsuzc/beer",
+          "exponent": 0
+        },
+        {
+          "denom": "BEER",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/chihuahua1sj9verkuk8aa9jrngnpwup6zjht4vwngjlpemnt9w38ccp0qnlcswvsuzc/beer",
+      "name": "BEER",
+      "display": "BEER",
+      "symbol": "BEER",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "Woof",
       "denomUnits": [
         {
