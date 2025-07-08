@@ -1,20 +1,20 @@
 {
   "$schema": "../chain.schema.json",
-  "chainName": "taketitan",
+  "chainName": "taketitan1",
   "networkType": "mainnet",
   "website": "https://taketitan.com/",
   "prettyName": "TakeTitan",
   "chainType": "cosmos",
-  "chainId": "taketitan-1",
-  "bech32Prefix": "titan",
+  "chainId": "taketitan-12",
+  "bech32Prefix": "taketitan",
   "keyAlgos": [
     "secp256k1"
   ],
-  "slip44": 118,
+  "slip44": 1179993421,
   "staking": {
     "stakingTokens": [
       {
-        "denom": "utitan"
+        "denom": "ttnc"
       }
     ],
     "lockDuration": {
@@ -24,36 +24,36 @@
   "fees": {
     "feeTokens": [
       {
-        "denom": "utitan",
-        "lowGasPrice": 0.025,
-        "averageGasPrice": 0.03,
-        "highGasPrice": 0.035
+        "denom": "ttnc",
+        "lowGasPrice": 0.000001,
+        "averageGasPrice": 0.000005,
+        "highGasPrice": 0.0001
       }
     ]
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.taketitan.com"
+        "address": "https://rcpttnc.taketitan.com"
       }
     ],
     "rest": [
       {
-        "address": "https://lcd.taketitan.com"
+        "address": "https://lcdttnc.taketitan.com"
       }
     ],
     "grpc": [
       {
-        "address": "https://grpc.taketitan.com"
+        "address": "https://grcpttnc.taketitan.com:8090"
       }
     ]
   },
   "explorers": [
     {
       "kind": "ping.pub",
-      "url": "https://blockexplorer.taketitan.com",
-      "txPage": "https://blockexplorer.taketitan.com/tx/${txHash}",
-      "accountPage": "https://blockexplorer.taketitan.com/accounts/${accountAddress}"
+      "url": "https://scan.taketitan.com/taketitan",
+      "txPage": "https://scan.taketitan.com/taketitan/tx/${txHash}",
+      "accountPage": "https://scan.taketitan.com/taketitan/accounts/${accountAddress}"
     }
   ],
   "images": [

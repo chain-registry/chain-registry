@@ -6,14 +6,21 @@
       "description": "Taketitan the future of the asset management industry.",
       "denomUnits": [
         {
-          "denom": "ttnc",
-          "exponent": 0
+          "denom": "utitan",
+          "exponent": 0,
+          "aliases": [
+            "microtitan"
+          ]
+        },
+        {
+          "denom": "titan",
+          "exponent": 6
         }
       ],
-      "base": "ttnc",
-      "name": "taketitan",
-      "display": "ttnc",
-      "symbol": "TTNC",
+      "base": "utitan",
+      "name": "Titan",
+      "display": "titan",
+      "symbol": "TITAN",
       "assetType": "sdk.coin"
     }
   ]
