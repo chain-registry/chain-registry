@@ -20320,6 +20320,44 @@
           }
         }
       ]
+    },
+    {
+      "description": "TakeTitan Titans",
+      "denomUnits": [
+        {
+          "denom": "ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB",
+          "exponent": 0,
+          "aliases": [
+            "utitan"
+          ]
+        },
+        {
+          "denom": "titan",
+          "exponent": 6,
+          "aliases": [
+
+          ]
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/08AE90BBEDAF52B874ED761A4900CF8BE502264569C75A43A450362AEF6C17FB",
+      "name": "TakeTitan Titans",
+      "display": "titan",
+      "symbol": "TITAN",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "taketitan",
+            "baseDenom": "utitan",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-104765",
+            "path": "transfer/channel-104765/utitan"
+          }
+        }
+      ]
     }
   ]
 }

@@ -68,9 +68,6 @@
         "address": "https://realio-rpc.noders.services"
       },
       {
-        "address": "https://rpc-realio.blockval.io"
-      },
-      {
         "address": "https://realio_rio_mainnet_rpc.chain.whenmoonwhenlambo.money"
       },
       {
@@ -106,9 +103,6 @@
         "address": "https://realio-api.noders.services"
       },
       {
-        "address": "https://api-realio.blockval.io"
-      },
-      {
         "address": "https://realio_rio_mainnet_api.chain.whenmoonwhenlambo.money"
       },
       {
@@ -142,9 +136,6 @@
       },
       {
         "address": "realio-grpc.noders.services:22090"
-      },
-      {
-        "address": "https://grpc-realio.blockval.io"
       }
     ],
     "evmHttpJsonrpc": [

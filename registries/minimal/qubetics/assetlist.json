@@ -18,6 +18,7 @@
       "name": "Qubetics Mainnet",
       "display": "TICS",
       "symbol": "TICS",
+      "coingeckoId": "qubetics",
       "assetType": "sdk.coin"
     }
   ]

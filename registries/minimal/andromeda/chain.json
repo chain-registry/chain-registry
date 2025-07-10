@@ -76,9 +76,6 @@
         "address": "andromeda-rpc.noders.services"
       },
       {
-        "address": "rpc-andromeda.blockval.io"
-      },
-      {
         "address": "https://andromeda.rpc.liveraven.net"
       }
     ],
@@ -117,9 +114,6 @@
         "address": "andromeda-api.noders.services"
       },
       {
-        "address": "api-andromeda.blockval.io"
-      },
-      {
         "address": "https://andromeda.api.liveraven.net"
       }
     ],
@@ -153,9 +147,6 @@
       },
       {
         "address": "andromeda-grpc.noders.services:34090"
-      },
-      {
-        "address": "grpc-andromeda.blockval.io:443"
       },
       {
         "address": "andromeda.grpc.liveraven.net:443"

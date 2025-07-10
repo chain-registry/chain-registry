@@ -60,9 +60,6 @@
         "address": "https://provenance-rpc.highstakes.ch"
       },
       {
-        "address": "https://rpc.provenance.blockval.io/"
-      },
-      {
         "address": "https://provenance-rpc.panthea.eu"
       },
       {
@@ -98,9 +95,6 @@
         "address": "https://provenance-api.highstakes.ch"
       },
       {
-        "address": "https://api.provenance.blockval.io"
-      },
-      {
         "address": "https://provenance-api.panthea.eu"
       },
       {
@@ -122,9 +116,6 @@
       },
       {
         "address": "grpc-provenance-ia.cosmosia.notional.ventures:443"
-      },
-      {
-        "address": "grpc.provenance.blockval.io:9290"
       },
       {
         "address": "provenance-grpc.panthea.eu:16780"

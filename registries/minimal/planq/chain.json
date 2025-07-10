@@ -72,9 +72,6 @@
       },
       {
         "address": "https://planq_mainnet_rpc.chain.whenmoonwhenlambo.money"
-      },
-      {
-        "address": "https://rpc-planq.blockval.io"
       }
     ],
     "rest": [
@@ -110,9 +107,6 @@
       },
       {
         "address": "https://planq_mainnet_api.chain.whenmoonwhenlambo.money"
-      },
-      {
-        "address": "https://api-planq.blockval.io"
       }
     ],
     "grpc": [
@@ -154,9 +148,6 @@
       },
       {
         "address": "mainnet-planq.konsortech.xyz:10090"
-      },
-      {
-        "address": "https://grpc-planq.blockval.io"
       }
     ],
     "evmHttpJsonrpc": [
