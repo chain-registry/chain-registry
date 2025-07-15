@@ -19,24 +19,6 @@
       "display": "badge",
       "symbol": "BADGE",
       "assetType": "sdk.coin"
-    },
-    {
-      "description": "The native staking denom for the BitBadges blockchain.",
-      "denomUnits": [
-        {
-          "denom": "ustake",
-          "exponent": 0
-        },
-        {
-          "denom": "stake",
-          "exponent": 9
-        }
-      ],
-      "base": "ustake",
-      "name": "BitBadges Staking",
-      "display": "stake",
-      "symbol": "STAKE",
-      "assetType": "sdk.coin"
     }
   ]
 }

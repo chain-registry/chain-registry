@@ -18,7 +18,8 @@
       "name": "Pryzm",
       "display": "pryzm",
       "symbol": "PRYZM",
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "coingeckoId": "pryzm"
     },
     {
       "description": "The meme token of PRYZM",

@@ -22,7 +22,7 @@
   "staking": {
     "stakingTokens": [
       {
-        "denom": "ustake"
+        "denom": "ubadge"
       }
     ]
   },
