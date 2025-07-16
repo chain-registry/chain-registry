@@ -51,7 +51,9 @@
       }
     ],
     "grpc": [
-
+      {
+        "address": "ibc-grpc.hippo-protocol.com:443"
+      }
     ]
   },
   "explorers": [
