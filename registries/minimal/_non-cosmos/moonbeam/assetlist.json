@@ -22,7 +22,7 @@
       ],
       "assetType": "substrate",
       "base": "Wei",
-      "name": "Glimmer",
+      "name": "Moonbeam",
       "display": "GLMR",
       "symbol": "GLMR",
       "coingeckoId": "moonbeam"
