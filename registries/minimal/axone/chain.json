@@ -1,0 +1,74 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "axone",
+  "website": "http://axone.xyz/",
+  "networkType": "mainnet",
+  "prettyName": "Axone",
+  "chainType": "cosmos",
+  "chainId": "axone-1",
+  "bech32Prefix": "axone",
+  "slip44": 118,
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uaxone",
+        "lowGasPrice": 0.001,
+        "averageGasPrice": 0.005,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uaxone"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.axone.cumulo.com.es"
+      },
+      {
+        "address": "https://axone-rpc.highstakes.ch"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.axone.cumulo.com.es"
+      },
+      {
+        "address": "https://axone-api.highstakes.ch"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.axone.cumulo.com.es:443"
+      },
+      {
+        "address": "https://axone-grpc.highstakes.ch"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "valopers",
+      "url": "https://axone.valopers.com/",
+      "txPage": "https://axone.valopers.com/transactions/${txHash}",
+      "accountPage": "https://axone.valopers.com/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axone/images/chain.png"
+    }
+  ],
+  "description": "Axone is a layer-1 designed for collaborative AI training, governance and monetization at scale."
+}

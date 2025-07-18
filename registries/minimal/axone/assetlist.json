@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "axone",
+  "assets": [
+    {
+      "description": "The native token of Axone.",
+      "denomUnits": [
+        {
+          "denom": "uaxone",
+          "exponent": 0
+        },
+        {
+          "denom": "axone",
+          "exponent": 6
+        }
+      ],
+      "base": "uaxone",
+      "name": "Axone",
+      "display": "axone",
+      "symbol": "AXONE",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
