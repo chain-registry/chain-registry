@@ -87,9 +87,6 @@
         "address": "https://api-shentu-01.stakeflow.io"
       },
       {
-        "address": "https://shentu-api.tienthuattoan.ventures"
-      },
-      {
         "address": "https://shentu-rest.publicnode.com"
       },
       {
@@ -126,9 +123,6 @@
       },
       {
         "address": "grpc-shentu-01.stakeflow.io:2402"
-      },
-      {
-        "address": "shentu-grpc.tienthuattoan.ventures:9490"
       },
       {
         "address": "shentu-grpc.publicnode.com:443"

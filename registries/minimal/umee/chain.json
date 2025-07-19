@@ -110,9 +110,6 @@
         "address": "https://umee-api.polkachu.com"
       },
       {
-        "address": "https://umee-api.tienthuattoan.ventures"
-      },
-      {
         "address": "https://api-umee-01.stakeflow.io"
       },
       {
@@ -164,9 +161,6 @@
       },
       {
         "address": "umee.grpc.m.stavr.tech:9090"
-      },
-      {
-        "address": "umee-grpc.tienthuattoan.ventures:9090"
       },
       {
         "address": "grpc-umee-01.stakeflow.io:9990"

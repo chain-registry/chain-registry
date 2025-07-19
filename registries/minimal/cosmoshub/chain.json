@@ -126,9 +126,6 @@
         "address": "https://rpc-cosmoshub.mms.team"
       },
       {
-        "address": "https://cosmos-rpc.tienthuattoan.com"
-      },
-      {
         "address": "https://community.nuxian-node.ch:6797/gaia/trpc"
       },
       {
@@ -233,9 +230,6 @@
         "address": "https://api-cosmoshub.mms.team"
       },
       {
-        "address": "https://cosmos-api.tienthuattoan.ventures"
-      },
-      {
         "address": "https://community.nuxian-node.ch:6797/gaia/crpc"
       },
       {
@@ -317,9 +311,6 @@
       },
       {
         "address": "grpc-cosmoshub.mms.team:443"
-      },
-      {
-        "address": "cosmos-grpc.tienthuattoan.ventures:9090"
       },
       {
         "address": "cosmoshub-mainnet.grpc.l0vd.com:80"

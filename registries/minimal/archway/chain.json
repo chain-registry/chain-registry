@@ -183,9 +183,6 @@
         "address": "https://archway-mainnet-archive.allthatnode.com:1317"
       },
       {
-        "address": "https://archway-api.tienthuattoan.ventures"
-      },
-      {
         "address": "https://archway-api.stakeandrelax.net"
       },
       {
@@ -249,9 +246,6 @@
       },
       {
         "address": "grpc-archway-mainnet.testnet-pride.com:9096"
-      },
-      {
-        "address": "archway-grpc.tienthuattoan.ventures:9290"
       },
       {
         "address": "archway-grpc.stakeandrelax.net:11590"
