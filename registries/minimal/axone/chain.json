@@ -37,7 +37,13 @@
         "address": "https://rpc.axone.cumulo.com.es"
       },
       {
+        "address": "https://axone.rpc.bccnodes.com"
+      },
+      {
         "address": "https://axone-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://rpc.axone.nodestake.org"
       }
     ],
     "rest": [
@@ -45,7 +51,13 @@
         "address": "https://api.axone.cumulo.com.es"
       },
       {
+        "address": "https://axone.lcd.bccnodes.com"
+      },
+      {
         "address": "https://axone-api.highstakes.ch"
+      },
+      {
+        "address": "https://api.axone.nodestake.org"
       }
     ],
     "grpc": [
@@ -53,7 +65,13 @@
         "address": "grpc.axone.cumulo.com.es:443"
       },
       {
+        "address": "axone.grpc.bccnodes.com:443"
+      },
+      {
         "address": "https://axone-grpc.highstakes.ch"
+      },
+      {
+        "address": "grpc.axone.nodestake.org:443"
       }
     ]
   },
@@ -63,6 +81,12 @@
       "url": "https://axone.valopers.com/",
       "txPage": "https://axone.valopers.com/transactions/${txHash}",
       "accountPage": "https://axone.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.org/axone",
+      "txPage": "https://explorer.nodestake.org/axone/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/axone/account/${accountAddress}"
     }
   ],
   "images": [

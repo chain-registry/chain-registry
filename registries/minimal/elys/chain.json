@@ -119,9 +119,6 @@
         "address": "https://elys-rpc.node39.top:443"
       },
       {
-        "address": "https://rpc.elys.mtl.vnodesv.net"
-      },
-      {
         "address": "https://elys.rpc.fr.vnodesv.net"
       },
       {
@@ -185,9 +182,6 @@
       },
       {
         "address": "https://elys-api.node39.top:443"
-      },
-      {
-        "address": "https://rest.elys.mtl.vnodesv.net"
       },
       {
         "address": "https://elys.rest.fr.vnodesv.net:443"

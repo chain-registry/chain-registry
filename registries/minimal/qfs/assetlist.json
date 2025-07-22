@@ -6,11 +6,18 @@
       "description": "QFS stands for Quantum Financial Systems, the aim is to bridge traditional finance with the crypto ecosystem",
       "denomUnits": [
         {
+          "denom": "uqfs",
+          "exponent": 0,
+          "aliases": [
+            "microqfs"
+          ]
+        },
+        {
           "denom": "qfs",
-          "exponent": 0
+          "exponent": 6
         }
       ],
-      "base": "qfs",
+      "base": "uqfs",
       "name": "qfs",
       "display": "qfs",
       "symbol": "QFS",

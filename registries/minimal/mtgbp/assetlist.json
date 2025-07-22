@@ -6,11 +6,18 @@
       "description": "MTGBP the stablecoin of the future.",
       "denomUnits": [
         {
+          "denom": "umtgbp",
+          "exponent": 0,
+          "aliases": [
+            "micromtgbp"
+          ]
+        },
+        {
           "denom": "mtgbp",
-          "exponent": 0
+          "exponent": 6
         }
       ],
-      "base": "mtgbp",
+      "base": "umtgbp",
       "name": "mtgbp",
       "display": "mtgbp",
       "symbol": "MTGBP",

@@ -53,9 +53,6 @@
         "address": "https://rpc2.testnet.soarchain.com/"
       },
       {
-        "address": "https://soarchain-testnet-rpc.tienthuattoan.com"
-      },
-      {
         "address": "https://soarchain-testnet.rpc.kjnodes.com"
       },
       {
@@ -68,9 +65,6 @@
     "rest": [
       {
         "address": "https://api.testnet.soarchain.com/"
-      },
-      {
-        "address": "https://soarchain-testnet-api.tienthuattoan.com"
       },
       {
         "address": "https://soarchain-testnet-rest.stakerhouse.com"
