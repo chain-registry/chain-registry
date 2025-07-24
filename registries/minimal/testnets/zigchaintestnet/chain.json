@@ -29,11 +29,17 @@
     "rest": [
       {
         "address": "https://testnet-api.zigchain.com"
+      },
+      {
+        "address": " https://public-zigchain-testnet-lcd.numia.xyz/"
       }
     ],
     "rpc": [
       {
         "address": "https://testnet-rpc.zigchain.com"
+      },
+      {
+        "address": " https://public-zigchain-testnet-rpc.numia.xyz/"
       }
     ]
   },

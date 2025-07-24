@@ -48,21 +48,33 @@
     "rpc": [
       {
         "address": "https://cosmos-rpc.xrplevm.org"
+      },
+      {
+        "address": "https://rpc.xrpl.cumulo.org.es"
       }
     ],
     "rest": [
       {
         "address": "https://cosmos-api.xrplevm.org"
+      },
+      {
+        "address": "https://api.xrpl.cumulo.org.es"
       }
     ],
     "grpc": [
       {
         "address": "https://cosmos-grpc.xrplevm.org"
+      },
+      {
+        "address": "https://grpc.xrpl.cumulo.org.es"
       }
     ],
     "evmHttpJsonrpc": [
       {
         "address": "https://rpc.xrplevm.org"
+      },
+      {
+        "address": "https://json-rpc.xrpl.cumulo.org.es"
       }
     ]
   },

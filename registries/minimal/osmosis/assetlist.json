@@ -20376,6 +20376,25 @@
       "name": "eBABY",
       "display": "ebaby",
       "symbol": "EBABY"
+    },
+    {
+      "description": "Formation Of $hit Tokens",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/fost",
+          "exponent": 0
+        },
+        {
+          "denom": "FOST",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/fost",
+      "name": "Fost",
+      "display": "FOST",
+      "symbol": "FOST"
     }
   ]
 }

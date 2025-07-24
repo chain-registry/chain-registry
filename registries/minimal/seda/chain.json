@@ -93,6 +93,9 @@
       },
       {
         "address": "https://seda-mainnet-rpc.shazoes.xyz"
+      },
+      {
+        "address": "https://seda.rpc.cumulo.org.es"
       }
     ],
     "rest": [
@@ -146,6 +149,9 @@
       },
       {
         "address": "https://seda-mainnet-api.shazoes.xyz"
+      },
+      {
+        "address": "https://seda.api.cumulo.org.es"
       }
     ],
     "grpc": [
@@ -178,6 +184,9 @@
       },
       {
         "address": "seda-mainnet-grpc.shazoes.xyz:6090"
+      },
+      {
+        "address": "seda.grpc.cumulo.org.es:443"
       }
     ]
   },
