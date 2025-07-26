@@ -36,11 +36,11 @@
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/persistenceOne/cosmos-sdk",
-      "version": "v0.47.10",
-      "tag": "v0.47.10-lsm-rc0"
+      "version": "v0.47.14",
+      "tag": "v0.47.14-lsm"
     },
     "cosmwasm": {
-      "version": "v0.45.0",
+      "version": "v0.46.0",
       "path": "$HOME/.persistenceCore/wasm",
       "enabled": true
     }
