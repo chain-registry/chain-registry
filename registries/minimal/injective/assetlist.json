@@ -1021,6 +1021,24 @@
           }
         }
       ]
+    },
+    {
+      "description": "Agora USD Coin",
+      "denomUnits": [
+        {
+          "denom": "factory/inj1n636d9gzrqggdk66n2f97th0x8yuhfrtx520e7/ausd",
+          "exponent": 0
+        },
+        {
+          "denom": "AUSD",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/inj1n636d9gzrqggdk66n2f97th0x8yuhfrtx520e7/ausd",
+      "name": "Agora USD",
+      "display": "AUSD",
+      "symbol": "AUSD",
+      "assetType": "sdk.coin"
     }
   ]
 }
