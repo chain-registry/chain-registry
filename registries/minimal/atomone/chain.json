@@ -107,6 +107,9 @@
       },
       {
         "address": "https://atomone-mainnet-rpc.shazoes.xyz"
+      },
+      {
+        "address": "https://rpc-atomone.22node.xyz"
       }
     ],
     "rest": [
@@ -172,6 +175,9 @@
       },
       {
         "address": "https://atomone-mainnet-api.shazoes.xyz"
+      },
+      {
+        "address": "https://rest-atomone.22node.xyz"
       }
     ],
     "grpc": [
@@ -216,6 +222,9 @@
       },
       {
         "address": "atomone-mainnet-grpc.shazoes.xyz:12090"
+      },
+      {
+        "address": "grpc-atomone.22node.xyz"
       }
     ]
   },

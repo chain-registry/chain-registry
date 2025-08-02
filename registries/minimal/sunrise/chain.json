@@ -29,28 +29,39 @@
       }
     ],
     "lockDuration": {
-      "time": "1209600s"
+      "time": "1814400s"
     }
   },
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.50.2"
+      "version": "v0.53.2"
     }
   },
   "apis": {
     "rpc": [
-
+      {
+        "address": "https://a.consensus.sunrise-1.sunriselayer.io"
+      }
     ],
     "rest": [
-
+      {
+        "address": "https://a.consensus.sunrise-1.sunriselayer.io:1318"
+      }
     ],
     "grpc": [
-
+      {
+        "address": "https://a.consensus.sunrise-1.sunriselayer.io:9092"
+      }
     ]
   },
   "explorers": [
-
+    {
+      "kind": "Risescan",
+      "url": "https://risescan.sunriselayer.io",
+      "txPage": "https://risescan.sunriselayer.io/txs/${txHash}",
+      "accountPage": "https://risescan.sunriselayer.io/accounts/${accountAddress}"
+    }
   ],
   "images": [
     {

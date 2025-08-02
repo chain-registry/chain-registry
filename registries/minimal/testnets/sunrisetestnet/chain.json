@@ -4,7 +4,7 @@
   "networkType": "testnet",
   "prettyName": "Sunrise Testnet",
   "chainType": "cosmos",
-  "chainId": "sunrise-test-da-5",
+  "chainId": "dawn-1",
   "bech32Prefix": "sunrise",
   "keyAlgos": [
     "secp256k1"
@@ -37,22 +37,27 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://sunrise-test-da-5.cauchye.net"
+        "address": "https://sunrise-dawn-1.cauchye.com"
       }
     ],
     "rest": [
       {
-        "address": "https://sunrise-test-da-5.cauchye.net:1318"
+        "address": "https://sunrise-dawn-1.cauchye.com:1318"
       }
     ],
     "grpc": [
       {
-        "address": "https://sunrise-test-da-5.cauchye.net:9092"
+        "address": "https://sunrise-dawn-1.cauchye.com:9092"
       }
     ]
   },
   "explorers": [
-
+    {
+      "kind": "Risescan",
+      "url": "https://dawn-1.risescan.sunriselayer.io",
+      "txPage": "https://dawn-1.risescan.sunriselayer.io/txs/${txHash}",
+      "accountPage": "https://dawn-1.risescan.sunriselayer.io/accounts/${accountAddress}"
+    }
   ],
   "images": [
     {
