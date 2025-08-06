@@ -3,7 +3,7 @@
   "chainName": "symphony",
   "assets": [
     {
-      "description": "The native token of Symphony",
+      "description": "The native coin of Symphony",
       "denomUnits": [
         {
           "denom": "note",

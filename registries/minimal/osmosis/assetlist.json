@@ -20555,6 +20555,35 @@
           }
         }
       ]
+    },
+    {
+      "description": "An alloy of USD asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2/alloyed/allUSD",
+          "exponent": 0
+        },
+        {
+          "denom": "allUSD",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2",
+      "base": "factory/osmo1t82ql2w69m9g3un7c6sk5wss578ewst2uscr7zdkn6k8rmzc3e8qz9n4q2/alloyed/allUSD",
+      "name": "Osmosis Alloyed USD",
+      "display": "allUSD",
+      "symbol": "allUSD",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "forex",
+            "baseDenom": "USD"
+          },
+          "provider": "Osmosis"
+        }
+      ]
     }
   ]
 }

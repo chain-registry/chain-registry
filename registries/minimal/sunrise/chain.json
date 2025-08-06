@@ -42,16 +42,25 @@
     "rpc": [
       {
         "address": "https://a.consensus.sunrise-1.sunriselayer.io"
+      },
+      {
+        "address": "https://rpc-sunrise.nodeist.net"
       }
     ],
     "rest": [
       {
         "address": "https://a.consensus.sunrise-1.sunriselayer.io:1318"
+      },
+      {
+        "address": "https://api-sunrise.nodeist.net"
       }
     ],
     "grpc": [
       {
         "address": "https://a.consensus.sunrise-1.sunriselayer.io:9092"
+      },
+      {
+        "address": "https://grpc-sunrise.nodeist.net"
       }
     ]
   },
@@ -61,6 +70,12 @@
       "url": "https://risescan.sunriselayer.io",
       "txPage": "https://risescan.sunriselayer.io/txs/${txHash}",
       "accountPage": "https://risescan.sunriselayer.io/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Explorer.ist",
+      "url": "https://explorer.ist/sunrise",
+      "txPage": "https://explorer.ist/sunrise/tx/${txHash}",
+      "accountPage": "https://explorer.ist/sunrise/account/${accountAddress}"
     }
   ],
   "images": [

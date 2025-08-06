@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "symphony",
+  "description": "The stablecoin chain.  Stablecoins for any and every currency.",
   "networkType": "mainnet",
   "prettyName": "Symphony",
   "chainType": "cosmos",
