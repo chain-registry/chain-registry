@@ -49,6 +49,9 @@
       },
       {
         "address": "https://rpc-main-symphony.vinjan.xyz"
+      },
+      {
+        "address": "https://rpc-symphony.sr20de.xyz"
       }
     ],
     "rest": [
@@ -60,6 +63,9 @@
       },
       {
         "address": "https://api-main-symphony.vinjan.xyz"
+      },
+      {
+        "address": "https://api-symphony.sr20de.xyz"
       }
     ],
     "grpc": [
@@ -71,6 +77,9 @@
       },
       {
         "address": "grpc-main-symphony.vinjan.xyz:21090"
+      },
+      {
+        "address": "https://grpc-symphony.sr20de.xyz"
       }
     ]
   },
@@ -80,6 +89,12 @@
       "url": "https://xplorer.vinjan.xyz/symphony",
       "txPage": "https://xplorer.vinjan.xyz/symphony/tx/${txHash}",
       "accountPage": "https://xplorer.vinjan.xyz/symphony/account/${accountAddress}"
+    },
+    {
+      "kind": "Sr20de Explorer",
+      "url": "https://explorer.sr20de.xyz/symphony",
+      "txPage": "https://explorer.sr20de.xyz/symphony/tx/${txHash}",
+      "accountPage": "https://explorer.sr20de.xyz/symphony/account/${accountAddress}"
     }
   ],
   "images": [
