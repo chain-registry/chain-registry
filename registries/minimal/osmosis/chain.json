@@ -520,16 +520,16 @@
   },
   "codebase": {
     "cosmwasm": {
-      "version": "0.53.2",
+      "version": "0.53.3",
       "repo": "https://github.com/CosmWasm/wasmd",
-      "tag": "v0.53.2",
+      "tag": "v0.53.3",
       "enabled": true
     },
     "sdk": {
       "type": "cosmos",
-      "version": "0.50.11",
+      "version": "0.50.14",
       "repo": "https://github.com/osmosis-labs/cosmos-sdk",
-      "tag": "v0.50.11-v28-osmo-1"
+      "tag": "v0.50.14-v30-osmo"
     }
   },
   "images": [

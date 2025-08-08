@@ -1,0 +1,58 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "outbedevnet",
+  "chainType": "cosmos",
+  "website": "https://www.outbe.com",
+  "networkType": "devnet",
+  "prettyName": "outbe-node",
+  "chainId": "outbe-devnet-1",
+  "bech32Prefix": "outbe",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "unit",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "unit"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/outbedevnet/images/outbe.png",
+      "theme": {
+        "primaryColorHex": "#FF2D00"
+      }
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.dev.outbe.net:26657"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rpc.dev.outbe.net:1317"
+      }
+    ]
+  },
+  "explorers": [
+
+  ]
+}
