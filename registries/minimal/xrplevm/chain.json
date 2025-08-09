@@ -38,8 +38,7 @@
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xrplevm/images/xrplevm.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xrplevm/images/xrplevm.svg",
       "theme": {
-        "circle": true,
-        "primaryColorHex": "#FFFFFF"
+        "circle": true
       }
     }
   ],

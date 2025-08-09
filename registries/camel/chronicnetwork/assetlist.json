@@ -23,10 +23,7 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cht.png",
-          "theme": {
-            "primaryColorHex": "#1eb975"
-          }
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cht.png"
         }
       ],
       "typeAsset": "sdk.coin"
@@ -52,10 +49,7 @@
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cgas.png",
-          "theme": {
-            "primaryColorHex": "#ecb368"
-          }
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chronicnetwork/images/cgas.png"
         }
       ],
       "typeAsset": "sdk.coin"

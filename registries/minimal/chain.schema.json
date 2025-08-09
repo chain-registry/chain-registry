@@ -115,16 +115,6 @@
               "monochrome": {
                 "type": "boolean"
               },
-              "primaryColorHex": {
-                "type": "string",
-                "minLength": 1,
-                "pattern": "^#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})$"
-              },
-              "backgroundColorHex": {
-                "type": "string",
-                "minLength": 1,
-                "pattern": "^(#([0-9a-fA-F]{6}|[0-9a-fA-F]{8})|none)$"
-              },
               "darkMode": {
                 "type": "boolean"
               }

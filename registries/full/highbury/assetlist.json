@@ -36,10 +36,7 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.svg",
-          "theme": {
-            "primaryColorHex": "#040404"
-          }
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/fury.svg"
         }
       ],
       "assetType": "sdk.coin"
@@ -67,10 +64,7 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinx.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinx.svg",
-          "theme": {
-            "primaryColorHex": "#040404"
-          }
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinx.svg"
         }
       ],
       "assetType": "sdk.coin"
@@ -98,10 +92,7 @@
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinxy.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinxy.svg",
-          "theme": {
-            "primaryColorHex": "#090909"
-          }
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/highbury/images/jinxy.svg"
         }
       ],
       "assetType": "sdk.coin"

@@ -253,10 +253,7 @@
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg",
-      "theme": {
-        "primaryColorHex": "#fcdb5b"
-      }
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg"
     }
   ]
 }

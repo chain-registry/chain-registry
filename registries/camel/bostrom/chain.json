@@ -138,10 +138,7 @@
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg",
-      "theme": {
-        "primaryColorHex": "#4cea4e"
-      }
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg"
     }
   ]
 }
