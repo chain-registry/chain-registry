@@ -18,8 +18,7 @@
       "base": "amand",
       "name": "Mande Network",
       "display": "mand",
-      "symbol": "MAND",
-      "coingeckoId": "mande-network"
+      "symbol": "MAND"
     }
   ]
 }

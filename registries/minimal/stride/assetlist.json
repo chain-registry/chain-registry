@@ -378,7 +378,6 @@
           "provider": "Stride"
         }
       ],
-      "coingeckoId": "stride-staked-sommelier",
       "assetType": "sdk.coin"
     },
     {

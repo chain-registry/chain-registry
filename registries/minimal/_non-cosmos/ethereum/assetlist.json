@@ -918,8 +918,7 @@
       "base": "0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f",
       "name": "Open Exchange Token",
       "display": "ox",
-      "symbol": "OX",
-      "coingeckoId": "open-exchange-token"
+      "symbol": "OX"
     },
     {
       "description": "BEAST: Battle, Breed, and Customize unique creatures powered by Ethereum & Cosmos",

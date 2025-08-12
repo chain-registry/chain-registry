@@ -18,7 +18,6 @@
       "name": "Starname",
       "display": "iov",
       "symbol": "IOV",
-      "coingeckoId": "starname",
       "assetType": "sdk.coin"
     }
   ]

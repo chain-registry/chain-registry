@@ -28,7 +28,6 @@
         "bridge",
         "staking"
       ],
-      "coingeckoId": "onomy-protocol",
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png",

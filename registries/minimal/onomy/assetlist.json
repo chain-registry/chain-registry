@@ -18,7 +18,6 @@
       "name": "Nom",
       "display": "nom",
       "symbol": "NOM",
-      "coingeckoId": "onomy-protocol",
       "assetType": "sdk.coin"
     }
   ]

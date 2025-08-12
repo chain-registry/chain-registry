@@ -18,7 +18,6 @@
       "name": "Rebus",
       "display": "rebus",
       "symbol": "REBUS",
-      "coingeckoId": "rebus",
       "assetType": "sdk.coin"
     }
   ]

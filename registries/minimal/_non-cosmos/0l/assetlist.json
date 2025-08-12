@@ -18,8 +18,7 @@
       "base": "microlibra",
       "name": "Libra Coin",
       "display": "libra",
-      "symbol": "LIBRA",
-      "coingeckoId": "libra-3"
+      "symbol": "LIBRA"
     }
   ]
 }

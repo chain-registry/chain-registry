@@ -28,7 +28,6 @@
           "provider": "Odin"
         }
       ],
-      "coingeckoId": "odin-protocol",
       "assetType": "sdk.coin"
     },
     {

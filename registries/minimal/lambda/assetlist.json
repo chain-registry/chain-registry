@@ -18,7 +18,6 @@
       "name": "Lambda",
       "display": "lamb",
       "symbol": "LAMB",
-      "coingeckoId": "lambda",
       "assetType": "sdk.coin"
     }
   ]
