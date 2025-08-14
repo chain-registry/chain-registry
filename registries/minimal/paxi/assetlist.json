@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "paxi",
+  "assets": [
+    {
+      "description": "PAXI is the native token of the Paxi blockchain.",
+      "denomUnits": [
+        {
+          "denom": "upaxi",
+          "exponent": 0
+        },
+        {
+          "denom": "PAXI",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "upaxi",
+      "name": "Paxi",
+      "display": "PAXI",
+      "symbol": "PAXI"
+    }
+  ]
+}

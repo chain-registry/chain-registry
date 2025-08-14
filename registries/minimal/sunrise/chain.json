@@ -44,12 +44,18 @@
         "address": "https://a.consensus.sunrise-1.sunriselayer.io"
       },
       {
+        "address": "https://sunrise-mainnet-rpc.mekonglabs.tech"
+      },
+      {
         "address": "https://rpc-sunrise.nodeist.net"
       }
     ],
     "rest": [
       {
         "address": "https://a.consensus.sunrise-1.sunriselayer.io:1318"
+      },
+      {
+        "address": "https://sunrise-mainnet-api.mekonglabs.tech"
       },
       {
         "address": "https://api-sunrise.nodeist.net"
@@ -70,6 +76,12 @@
       "url": "https://risescan.sunriselayer.io",
       "txPage": "https://risescan.sunriselayer.io/txs/${txHash}",
       "accountPage": "https://risescan.sunriselayer.io/accounts/${accountAddress}"
+    },
+    {
+      "kind": "MekongLabs Explorer",
+      "url": "https://explorer.mekonglabs.tech/sunrise/staking",
+      "txPage": "https://explorer.mekonglabs.tech/sunrise/tx/${txHash}",
+      "accountPage": "https://explorer.mekonglabs.tech/sunrise/account/${accountAddress}"
     },
     {
       "kind": "Explorer.ist",
