@@ -41,9 +41,6 @@
         "address": "https://acrechain-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://rpc.acre.tcnetwork.io"
-      },
-      {
         "address": "https://mainnet-acre-rpc.konsortech.xyz"
       },
       {
@@ -56,9 +53,6 @@
       },
       {
         "address": "https://acrechain-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://rest.acre.tcnetwork.io"
       },
       {
         "address": "https://mainnet-acre-api.konsortech.xyz"
@@ -93,9 +87,6 @@
       },
       {
         "address": "https://evm.acrescan.com/"
-      },
-      {
-        "address": "https://json-rpc.acre.tcnetwork.io"
       },
       {
         "address": "https://mainnet-acre-evm.konsortech.xyz"

@@ -96,6 +96,9 @@
       },
       {
         "address": "https://seda.rpc.cumulo.org.es"
+      },
+      {
+        "address": "https://rpc.seda.tcnetwork.io"
       }
     ],
     "rest": [
@@ -152,6 +155,9 @@
       },
       {
         "address": "https://seda.api.cumulo.org.es"
+      },
+      {
+        "address": "https://rest.seda.tcnetwork.io"
       }
     ],
     "grpc": [
@@ -191,6 +197,11 @@
     ]
   },
   "explorers": [
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/seda",
+      "txPage": "https://explorer.tcnetwork.io/seda/transaction/${txHash}"
+    },
     {
       "kind": "Chainroot",
       "url": "https://explorer.chainroot.io/seda",

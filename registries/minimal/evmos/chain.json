@@ -62,9 +62,6 @@
         "address": "https://rpc.evmos.silentvalidator.com/"
       },
       {
-        "address": "https://rpc.evmos.tcnetwork.io"
-      },
-      {
         "address": "https://evmos.rpc.stakin-nodes.com"
       },
       {
@@ -125,9 +122,6 @@
       },
       {
         "address": "https://api.evmos.silentvalidator.com/"
-      },
-      {
-        "address": "https://rest.evmos.tcnetwork.io"
       },
       {
         "address": "https://evmos.rest.stakin-nodes.com"
@@ -240,9 +234,6 @@
       },
       {
         "address": "https://evm-rpc.evmos.silentvalidator.com/"
-      },
-      {
-        "address": "https://json-rpc.evmos.tcnetwork.io"
       },
       {
         "address": "https://evmosevm.rpc.stakin-nodes.com"

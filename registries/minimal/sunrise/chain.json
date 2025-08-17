@@ -48,6 +48,9 @@
       },
       {
         "address": "https://rpc-sunrise.nodeist.net"
+      },
+      {
+        "address": "https://rpc.sunrise.tcnetwork.io"
       }
     ],
     "rest": [
@@ -59,6 +62,9 @@
       },
       {
         "address": "https://api-sunrise.nodeist.net"
+      },
+      {
+        "address": "https://rest.sunrise.tcnetwork.io"
       }
     ],
     "grpc": [
@@ -71,6 +77,11 @@
     ]
   },
   "explorers": [
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/sunrise",
+      "txPage": "https://explorer.tcnetwork.io/sunrise/transaction/${txHash}"
+    },
     {
       "kind": "Risescan",
       "url": "https://risescan.sunriselayer.io",
