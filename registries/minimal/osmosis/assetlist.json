@@ -12105,8 +12105,7 @@
             "path": "transfer/channel-19774/transfer/channel-49/anim"
           }
         }
-      ],
-      "coingeckoId": "nim-network"
+      ]
     },
     {
       "description": "The native token of SEDA Chain.",
@@ -13110,7 +13109,7 @@
       ]
     },
     {
-      "description": "Rakoff Token is the Meme Token for Terra Classic",
+      "description": "Juris Protocol is the premier lending platform for the Terra Ecosystem, delivering decentralized lending and borrowing markets to enhance financial accessibility and utility.",
       "denomUnits": [
         {
           "denom": "ibc/46579C587A0B8CF8B0A1FF6B0EFA2082F11876578E47FC81A9CAAD31F424AF98",
@@ -13129,6 +13128,7 @@
       "name": "Juris Protocol",
       "display": "rakoff",
       "symbol": "JURIS",
+      "coingeckoId": "juris-protocol",
       "traces": [
         {
           "type": "ibc-cw20",
