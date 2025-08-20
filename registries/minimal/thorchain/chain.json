@@ -11,18 +11,32 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.45.16"
+      "version": "v0.53.0"
     },
     "cosmwasm": {
-      "enabled": false
+      "enabled": true
     }
   },
   "apis": {
     "rpc": [
-
+      {
+        "address": "https://thornode-mainnet-rpc.bryanlabs.net"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "thornode-mainnet-grpc.bryanlabs.net:443"
+      }
     ],
     "rest": [
-
+      {
+        "address": "https://thornode-mainnet-rpc.bryanlabs.net"
+      }
+    ],
+    "wss": [
+      {
+        "address": "wss://thornode-mainnet-rpc.bryanlabs.net/websocket"
+      }
     ]
   },
   "explorers": [
@@ -35,6 +49,15 @@
       "kind": "Runescan",
       "url": "https://runescan.io/",
       "txPage": "https://runescan.io/txs/${txHash}"
+    },
+    {
+      "kind": "THORChain Dashboard",
+      "url": "https://thorchain.net/dashboard"
+    },
+    {
+      "kind": "Bryanlabs explorer",
+      "url": "https://explore.bryanlabs.net/thorchain",
+      "txPage": "https://explore.bryanlabs.net/thorchain/#/txs/${txHash}"
     }
   ]
 }
