@@ -19400,6 +19400,24 @@
           "provider": "Osmosis"
         }
       ]
+    },
+    {
+      "description": "Community-secured Meme token on Osmosis",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS",
+          "exponent": 0
+        },
+        {
+          "denom": "labs",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS",
+      "name": "Labrador",
+      "display": "labs",
+      "symbol": "LABS"
     }
   ]
 }
