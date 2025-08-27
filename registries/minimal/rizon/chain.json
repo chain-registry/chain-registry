@@ -40,9 +40,6 @@
         "address": "https://rpc.rizon.chaintools.tech/"
       },
       {
-        "address": "https://rizon-rpc.ibs.team/"
-      },
-      {
         "address": "https://rizon-rpc.publicnode.com:443"
       }
     ],
@@ -52,9 +49,6 @@
       },
       {
         "address": "https://api.rizon.chaintools.tech/"
-      },
-      {
-        "address": "https://rizon-api.ibs.team/"
       },
       {
         "address": "https://rizon-rest.publicnode.com"

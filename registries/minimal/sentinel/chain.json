@@ -89,9 +89,6 @@
         "address": "https://rpc-sentinel.chainvibes.com:443"
       },
       {
-        "address": "https://sentinel-rpc.ibs.team:443"
-      },
-      {
         "address": "https://sentinel.rpc.quasarstaking.ai:443"
       }
     ],
@@ -143,9 +140,6 @@
       },
       {
         "address": "https://api-sentinel.chainvibes.com:443"
-      },
-      {
-        "address": "https://sentinel-api.ibs.team:443"
       },
       {
         "address": "https://sentinel.api.quasarstaking.ai:443"

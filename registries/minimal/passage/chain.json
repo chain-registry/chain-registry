@@ -62,9 +62,6 @@
         "address": "https://passage-rpc.polkachu.com"
       },
       {
-        "address": "https://passage-rpc.ibs.team/"
-      },
-      {
         "address": "https://rpc-passage.d-stake.xyz"
       },
       {
@@ -110,9 +107,6 @@
       },
       {
         "address": "https://passage-api.polkachu.com"
-      },
-      {
-        "address": "https://passage-api.ibs.team/"
       },
       {
         "address": "https://api-passage.d-stake.xyz"

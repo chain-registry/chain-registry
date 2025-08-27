@@ -112,9 +112,6 @@
       },
       {
         "address": "https://nolus-rpc.publicnode.com:443"
-      },
-      {
-        "address": "https://nolus-rpc.ibs.team"
       }
     ],
     "rest": [
@@ -147,9 +144,6 @@
       },
       {
         "address": "https://nolus-rest.publicnode.com"
-      },
-      {
-        "address": "https://nolus-api.ibs.team"
       }
     ],
     "grpc": [

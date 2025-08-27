@@ -51,6 +51,9 @@
       },
       {
         "address": "https://rpc.sunrise.tcnetwork.io"
+      },
+      {
+        "address": "https://rpc.sunrise.nodestake.org"
       }
     ],
     "rest": [
@@ -65,6 +68,9 @@
       },
       {
         "address": "https://rest.sunrise.tcnetwork.io"
+      },
+      {
+        "address": "https://api.sunrise.nodestake.org"
       }
     ],
     "grpc": [
@@ -73,6 +79,9 @@
       },
       {
         "address": "https://grpc-sunrise.nodeist.net"
+      },
+      {
+        "address": "https://grpc.sunrise.nodestake.org:443"
       }
     ]
   },
@@ -99,6 +108,12 @@
       "url": "https://explorer.ist/sunrise",
       "txPage": "https://explorer.ist/sunrise/tx/${txHash}",
       "accountPage": "https://explorer.ist/sunrise/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake explorer",
+      "url": "https://explorer.nodestake.org/sunrise",
+      "txPage": "https://explorer.nodestake.org/sunrise/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/sunrise/account/${accountAddress}"
     }
   ],
   "images": [

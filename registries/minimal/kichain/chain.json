@@ -56,9 +56,6 @@
         "address": "http://ki-chain.statesync.nodersteam.com:14657"
       },
       {
-        "address": "https://ki-rpc.ibs.team/"
-      },
-      {
         "address": "https://rpc.kichain-2.kichain.aviaone.com"
       }
     ],
@@ -86,9 +83,6 @@
       },
       {
         "address": "https://rest.lavenderfive.com:443/kichain"
-      },
-      {
-        "address": "https://ki-api.ibs.team/"
       },
       {
         "address": "https://api.kichain-2.kichain.aviaone.com"

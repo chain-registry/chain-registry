@@ -79,9 +79,6 @@
         "address": "https://rpc.chihuahua.validatus.com"
       },
       {
-        "address": "https://chihuahua-rpc.ibs.team"
-      },
-      {
         "address": "https://chihuahua.rpc.nodeshub.online:443"
       },
       {
@@ -121,9 +118,6 @@
       },
       {
         "address": "https://api.chihuahua.validatus.com"
-      },
-      {
-        "address": "https://chihuahua-api.ibs.team"
       },
       {
         "address": "https://chihuahua.api.nodeshub.online:443"

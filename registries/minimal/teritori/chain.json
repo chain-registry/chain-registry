@@ -48,9 +48,6 @@
         "address": "https://rpc.teritori.silentvalidator.com/"
       },
       {
-        "address": "https://teritori-rpc.ibs.team"
-      },
-      {
         "address": "https://teritori.rpc.kjnodes.com"
       },
       {
@@ -93,9 +90,6 @@
       },
       {
         "address": "https://api.teritori.silentvalidator.com/"
-      },
-      {
-        "address": "https://teritori-api.ibs.team"
       },
       {
         "address": "https://teritori.api.kjnodes.com"

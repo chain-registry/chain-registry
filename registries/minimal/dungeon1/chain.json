@@ -29,9 +29,6 @@
       },
       {
         "address": "https://dungeon_mainnet_rpc.chain.whenmoonwhenlambo.money"
-      },
-      {
-        "address": "https://dungeon-rpc.ibs.team"
       }
     ],
     "rest": [
@@ -46,9 +43,6 @@
       },
       {
         "address": "https://dungeon_mainnet_api.chain.whenmoonwhenlambo.money"
-      },
-      {
-        "address": "https://dungeon-api.ibs.team"
       }
     ],
     "grpc": [
