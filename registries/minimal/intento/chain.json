@@ -1,0 +1,56 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "intento",
+  "networkType": "mainnet",
+  "prettyName": "Intento",
+  "chainType": "cosmos",
+  "chainId": "intento-1",
+  "bech32Prefix": "into",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uinto",
+        "fixedMinGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uinto"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.14"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-mainnet.intento.zone"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd-mainnet.intento.zone"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "PingPub",
+      "url": "https://explorer.intento.zone",
+      "txPage": "https://explorer.intento.zone/intento-mainnet/tx/${txHash}"
+    }
+  ]
+}

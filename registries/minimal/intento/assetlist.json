@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "intento",
+  "assets": [
+    {
+      "description": "The native token of INTENTO",
+      "denomUnits": [
+        {
+          "denom": "uinto",
+          "exponent": 0
+        },
+        {
+          "denom": "into",
+          "exponent": 6
+        }
+      ],
+      "base": "uinto",
+      "name": "Intento",
+      "display": "into",
+      "symbol": "INTO",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
