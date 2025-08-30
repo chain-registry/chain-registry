@@ -43,11 +43,38 @@
     "rpc": [
       {
         "address": "https://tendermint.qubetics.com"
+      },
+      {
+        "address": "https://node.veritics.ch"
+      },
+      {
+        "address": "https://rpc.qubenode.space"
+      },
+      {
+        "address": "https://qubeticstralbo.eu/"
+      },
+      {
+        "address": "https://tics.stakings.id/"
+      },
+      {
+        "address": "https://node.dragon-node.com"
+      },
+      {
+        "address": "https://jblfg.org"
       }
     ],
     "rest": [
       {
         "address": "https://swagger.qubetics.com"
+      },
+      {
+        "address": "https://swagger.node.veritics.ch"
+      },
+      {
+        "address": "https://rest.qubenode.space"
+      },
+      {
+        "address": "https://rest.qubeticstralbo.eu"
       }
     ],
     "grpc": [
@@ -58,6 +85,12 @@
     "evmHttpJsonrpc": [
       {
         "address": "https://rpc.qubetics.com"
+      },
+      {
+        "address": "https://evm.qubenode.space"
+      },
+      {
+        "address": "https://evm.qubeticstralbo.eu"
       }
     ]
   },
@@ -67,6 +100,12 @@
       "url": "https://ticsscan.com",
       "txPage": "https://ticsscan.com/tx/${txHash}",
       "accountPage": "https://ticsscan.com/address/${accountAddress}"
+    },
+    {
+      "kind": "🚀 Qubetics 🌕 Native 🔥",
+      "url": "https://native.ticsscan.com/qubetics",
+      "txPage": "https://native.ticsscan.com/qubetics/tx/${txHash}",
+      "accountPage": "https://native.ticsscan.com/qubetics/account/${accountAddress}"
     }
   ],
   "images": [

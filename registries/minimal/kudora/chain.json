@@ -1,0 +1,61 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "kudora",
+  "networkType": "mainnet",
+  "website": "https://kudora.org/",
+  "prettyName": "Kudora",
+  "chainType": "cosmos",
+  "chainId": "kudora_12000-1",
+  "bech32Prefix": "kudo",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "kud",
+        "averageGasPrice": 5e-10
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "kud"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.13",
+      "repo": "https://github.com/strangelove-ventures/cosmos-sdk"
+    }
+  },
+  "apis": {
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm.kudora.org/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.kudora.org:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.kudora.org/"
+      }
+    ],
+    "rpc": [
+      {
+        "address": "https://rpc.kudora.org/"
+      }
+    ]
+  }
+}

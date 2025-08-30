@@ -60,6 +60,9 @@
       },
       {
         "address": "https://sunrise-rpc-2.krews.xyz"
+      },
+      {
+        "address": "http://sunrise.rpc.decentrio.ventures"
       }
     ],
     "rest": [
@@ -83,6 +86,9 @@
       },
       {
         "address": "https://sunrise-api-2.krews.xyz"
+      },
+      {
+        "address": "https://sunrise.api.decentrio.ventures"
       }
     ],
     "grpc": [
@@ -94,6 +100,9 @@
       },
       {
         "address": "https://grpc.sunrise.nodestake.org:443"
+      },
+      {
+        "address": "https://sunrise.grpc.decentrio.ventures:443"
       }
     ]
   },

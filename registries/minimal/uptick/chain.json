@@ -32,23 +32,17 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.47.5"
+      "version": "v0.50.11"
     },
     "cosmwasm": {
-      "version": "v0.45.0",
+      "version": "v0.53.3",
       "enabled": true
     }
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://uptick.rpc.bccnodes.com:443"
-      },
-      {
         "address": "https://rpc.uptick.nodestake.org"
-      },
-      {
-        "address": "https://uptick.rpc.kjnodes.com"
       },
       {
         "address": "http://uptick.rpc.m.stavr.tech:3157"
@@ -63,13 +57,7 @@
         "address": "https://uptick.rpc.liveraven.net"
       },
       {
-        "address": "https://uptick-rpc.staketab.org:443"
-      },
-      {
         "address": "https://uptick-rpc.stakerhouse.com"
-      },
-      {
-        "address": "https://rpc-uptick.cakralabs.site"
       },
       {
         "address": "https://rpc-uptick.sr20de.xyz"
@@ -81,9 +69,6 @@
     "rest": [
       {
         "address": "https://api.uptick.nodestake.org"
-      },
-      {
-        "address": "https://uptick.api.kjnodes.com"
       },
       {
         "address": "https://uptick.api.m.stavr.tech"
@@ -98,13 +83,7 @@
         "address": "https://uptick.api.liveraven.net"
       },
       {
-        "address": "https://uptick-rest.staketab.org"
-      },
-      {
         "address": "https://uptick-rest.stakerhouse.com"
-      },
-      {
-        "address": "https://rest-uptick.cakralabs.site"
       },
       {
         "address": "https://api-uptick.sr20de.xyz"
@@ -118,13 +97,7 @@
         "address": "https://grpc.uptick.nodestake.org"
       },
       {
-        "address": "uptick.rpc.bccnodes.com:9690"
-      },
-      {
         "address": "uptick.grpc.nodersteam.com:9211"
-      },
-      {
-        "address": "uptick.grpc.kjnodes.com:11590"
       },
       {
         "address": "uptick.grpc.m.stavr.tech:1901"
@@ -136,13 +109,7 @@
         "address": "https://uptick.grpc.liveraven.net"
       },
       {
-        "address": "services.staketab.com:9190"
-      },
-      {
         "address": "uptick-grpc.stakerhouse.com:443"
-      },
-      {
-        "address": "grpc-uptick.mms.team:443"
       },
       {
         "address": "https://grpc-uptick.sr20de.xyz"
@@ -177,11 +144,6 @@
       "kind": "NodeStake Explorer",
       "url": "https://explorer.nodestake.org/uptick",
       "txPage": "https://explorer.nodestake.org/uptick/tx/${txHash}"
-    },
-    {
-      "kind": "BccNodes Explorer",
-      "url": "https://explorer.bccnodes.com/uptick-M",
-      "txPage": "https://explorer.bccnodes.com/uptick-M/tx/${txHash}"
     },
     {
       "kind": "🔥STAVR🔥 Explorer",

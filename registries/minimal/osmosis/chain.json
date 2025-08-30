@@ -643,6 +643,9 @@
       },
       {
         "address": "https://osmosis-mainnet-tendermint.reliableninjas.com"
+      },
+      {
+        "address": "https://osmosis-rpc.highstakes.ch"
       }
     ],
     "rest": [
@@ -729,6 +732,9 @@
       },
       {
         "address": "https://osmosis-mainnet-cosmos.reliableninjas.com"
+      },
+      {
+        "address": "https://osmosis-api.highstakes.ch"
       }
     ],
     "grpc": [
