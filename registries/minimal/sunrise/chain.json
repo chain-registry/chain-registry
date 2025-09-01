@@ -47,6 +47,9 @@
         "address": "https://sunrise-mainnet-rpc.mekonglabs.tech"
       },
       {
+        "address": "https://sunrise-rpc.noders.services"
+      },
+      {
         "address": "https://rpc-sunrise.nodeist.net"
       },
       {
@@ -63,11 +66,23 @@
       },
       {
         "address": "http://sunrise.rpc.decentrio.ventures"
+      },
+      {
+        "address": "https://sunrise-rpc.synergynodes.com"
+      },
+      {
+        "address": "https://sunrise.rpc.m.anode.team"
+      },
+      {
+        "address": "https://sunrise-rpc.stakeandrelax.net"
       }
     ],
     "rest": [
       {
         "address": "https://a.consensus.sunrise-1.sunriselayer.io:1318"
+      },
+      {
+        "address": "https://sunrise-api.noders.services"
       },
       {
         "address": "https://sunrise-mainnet-api.mekonglabs.tech"
@@ -89,6 +104,15 @@
       },
       {
         "address": "https://sunrise.api.decentrio.ventures"
+      },
+      {
+        "address": "https://sunrise-api.synergynodes.com"
+      },
+      {
+        "address": "https://sunrise.api.m.anode.team"
+      },
+      {
+        "address": "https://sunrise-api.stakeandrelax.net"
       }
     ],
     "grpc": [
@@ -99,10 +123,22 @@
         "address": "https://grpc-sunrise.nodeist.net"
       },
       {
+        "address": "https://sunrise-grpc.noders.services:443"
+      },
+      {
         "address": "https://grpc.sunrise.nodestake.org:443"
       },
       {
         "address": "https://sunrise.grpc.decentrio.ventures:443"
+      },
+      {
+        "address": "https://sunrise-grpc.synergynodes.com:443"
+      },
+      {
+        "address": "http://sunrise.grpc.m.anode.team"
+      },
+      {
+        "address": "http://sunrise-grpc.stakeandrelax.net:28390"
       }
     ]
   },
@@ -141,6 +177,24 @@
       "url": "https://risescan.krews.xyz",
       "txPage": "https://risescan.krews.xyz/sunrise/tx/${txHash}",
       "accountPage": "https://risescan.krews.xyz/sunrise/account/${accountAddress}"
+    },
+    {
+      "kind": "Synergy Nodes Explorer",
+      "url": "https://cosmosrun.info/sunrise",
+      "txPage": "https://cosmosrun.info/sunrise/tx/${txHash}",
+      "accountPage": "https://cosmosrun.info/sunrise/account/${accountAddress}"
+    },
+    {
+      "kind": "Anode.team",
+      "url": "https://main.anode.team/sunrise",
+      "txPage": "https://main.anode.team/sunrise/tx/${txHash}",
+      "accountPage": "https://main.anode.team/sunrise/account/${accountAddress}"
+    },
+    {
+      "kind": "Stake&Relax 🦥 explorer",
+      "url": "https://explorer.stakeandrelax.net/sunrise",
+      "txPage": "https://explorer.stakeandrelax.net/sunrise/tx/${txHash}",
+      "accountPage": "https://explorer.stakeandrelax.net/sunrise/account/${accountAddress}"
     }
   ],
   "images": [

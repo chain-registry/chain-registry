@@ -99,6 +99,9 @@
       },
       {
         "address": "https://rpc.seda.tcnetwork.io"
+      },
+      {
+        "address": "https://seda-rpc.stakeandrelax.net"
       }
     ],
     "rest": [
@@ -158,6 +161,9 @@
       },
       {
         "address": "https://rest.seda.tcnetwork.io"
+      },
+      {
+        "address": "https://seda-api.stakeandrelax.net"
       }
     ],
     "grpc": [
@@ -193,6 +199,9 @@
       },
       {
         "address": "seda.grpc.cumulo.org.es:443"
+      },
+      {
+        "address": "http://seda-grpc.stakeandrelax.net:25890"
       }
     ]
   },
@@ -249,6 +258,12 @@
       "url": "https://explorer.node39.top/Seda",
       "txPage": "https://explorer.node39.top/Seda/tx/${txHash}",
       "accountPage": "https://explorer.node39.top/Seda/account/${accountAddress}"
+    },
+    {
+      "kind": "Stake&Relax 🦥 explorer",
+      "url": "https://explorer.stakeandrelax.net/seda",
+      "txPage": "https://explorer.stakeandrelax.net/seda/tx/${txHash}",
+      "accountPage": "https://explorer.stakeandrelax.net/seda/account/${accountAddress}"
     }
   ],
   "images": [
