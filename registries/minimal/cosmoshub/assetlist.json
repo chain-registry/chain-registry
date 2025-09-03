@@ -695,6 +695,24 @@
           "provider": "Eureka"
         }
       ]
+    },
+    {
+      "description": "Quark ($QUARK) is the first permissionless CosmWasm token launched on the Cosmos Hub.",
+      "denomUnits": [
+        {
+          "denom": "factory/cosmos1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/quark",
+          "exponent": 0
+        },
+        {
+          "denom": "quark",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/cosmos1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/quark",
+      "name": "Quark",
+      "display": "quark",
+      "symbol": "QUARK"
     }
   ]
 }

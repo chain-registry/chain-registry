@@ -65,6 +65,9 @@
         "address": "https://sunrise-rpc-2.krews.xyz"
       },
       {
+        "address": "https://sunrise-mainnet-rpc.denodes.xyz/"
+      },
+      {
         "address": "http://sunrise.rpc.decentrio.ventures"
       },
       {
@@ -103,6 +106,9 @@
         "address": "https://sunrise-api-2.krews.xyz"
       },
       {
+        "address": "https://sunrise-mainnet-api.denodes.xyz/"
+      },
+      {
         "address": "https://sunrise.api.decentrio.ventures"
       },
       {
@@ -127,6 +133,9 @@
       },
       {
         "address": "https://grpc.sunrise.nodestake.org:443"
+      },
+      {
+        "address": "https://sunrise-mainnet-grpc.denodes.xyz:443"
       },
       {
         "address": "https://sunrise.grpc.decentrio.ventures:443"
@@ -177,6 +186,12 @@
       "url": "https://risescan.krews.xyz",
       "txPage": "https://risescan.krews.xyz/sunrise/tx/${txHash}",
       "accountPage": "https://risescan.krews.xyz/sunrise/account/${accountAddress}"
+    },
+    {
+      "kind": "deNodes",
+      "url": "https://risescan.denodes.app/",
+      "txPage": "https://risescan.denodes.app/sunrise/tx/${txHash}",
+      "accountPage": "https://risescan.denodes.app/sunrise/account/${accountAddress}"
     },
     {
       "kind": "Synergy Nodes Explorer",
