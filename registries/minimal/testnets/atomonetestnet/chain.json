@@ -19,13 +19,6 @@
         "lowGasPrice": 0.225,
         "averageGasPrice": 0.3,
         "highGasPrice": 0.5
-      },
-      {
-        "denom": "uatone",
-        "fixedMinGasPrice": 0.025,
-        "lowGasPrice": 0.01,
-        "averageGasPrice": 0.025,
-        "highGasPrice": 0.05
       }
     ]
   },
