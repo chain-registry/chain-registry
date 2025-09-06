@@ -293,7 +293,8 @@
       "base": "cw20:terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
       "name": "ERIS Amplified LUNA",
       "display": "ampluna",
-      "symbol": "ampLUNA"
+      "symbol": "ampLUNA",
+      "coingeckoId": "eris-amplified-luna"
     },
     {
       "description": "Lion DAO is a community DAO that lives on the Terra blockchain with the mission to reactivate the LUNAtic community and showcase Terra protocols & tooling",
@@ -1187,7 +1188,8 @@
       "base": "cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
       "name": "Solid",
       "display": "solid",
-      "symbol": "SOLID"
+      "symbol": "SOLID",
+      "coingeckoId": "solid-2"
     },
     {
       "description": "CAPA is the governance token of SOLID ecosystem, powered by SOLID",
@@ -1206,7 +1208,8 @@
       "base": "cw20:terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar",
       "name": "Capa",
       "display": "capa",
-      "symbol": "CAPA"
+      "symbol": "CAPA",
+      "coingeckoId": "capapult"
     },
     {
       "description": "ampCAPA is the liquid staking governance token of SOLID ecosystem, powered by ERIS Protocol",
