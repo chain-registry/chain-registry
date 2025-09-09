@@ -65,7 +65,7 @@
       "base": "uusdrise",
       "name": "Sunrise USDrise",
       "display": "usdrise",
-      "symbol": "USDRISE",
+      "symbol": "USDrise",
       "assetType": "sdk.coin"
     }
   ]
