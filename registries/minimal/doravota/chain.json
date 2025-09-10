@@ -44,6 +44,9 @@
       },
       {
         "address": "https://doravota-mainnet-rpc.itrocket.net:443"
+      },
+      {
+        "address": "https://m-dora-rpc.ruangnode.com:443"
       }
     ],
     "rest": [
@@ -58,6 +61,9 @@
       },
       {
         "address": "https://doravota-mainnet-api.itrocket.net"
+      },
+      {
+        "address": "https://m-dora-api.ruangnode.com"
       }
     ],
     "grpc": [
@@ -69,6 +75,9 @@
       },
       {
         "address": "doravota-mainnet-grpc.itrocket.net:443"
+      },
+      {
+        "address": "m-dora-grpc.ruangnode.com:30090"
       }
     ]
   },
@@ -110,6 +119,11 @@
       "url": "https://dora.valopers.com/",
       "txPage": "https://dora.valopers.com/transactions/${txHash}",
       "accountPage": "https://dora.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "Ruangnode Explorers",
+      "url": "https://explorer.ruangnode.com/dora/staking",
+      "txPage": "https://explorer.ruangnode.com/dora/tx/${txHash}"
     }
   ]
 }
