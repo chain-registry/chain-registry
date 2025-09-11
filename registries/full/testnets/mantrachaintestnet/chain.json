@@ -1,7 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "mantrachaintestnet",
-  "status": "live",
+  "status": "killed",
   "networkType": "testnet",
   "prettyName": "MANTRA Hongbai Testnet",
   "chainType": "cosmos",

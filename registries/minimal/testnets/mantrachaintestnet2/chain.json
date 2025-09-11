@@ -16,7 +16,7 @@
         "denom": "uom",
         "fixedMinGasPrice": 0.01,
         "lowGasPrice": 0.01,
-        "averageGasPrice": 0.01,
+        "averageGasPrice": 0.025,
         "highGasPrice": 0.03
       }
     ]
@@ -64,6 +64,14 @@
       {
         "address": "mantra-testnet-grpc.publicnode.com:443"
       }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm.dukong.mantrachain.io"
+      },
+      {
+        "address": "https://rpc.evm.mantra.testnet.cosmostation.io"
+      }
     ]
   },
   "explorers": [
@@ -78,6 +86,12 @@
       "url": "https://explorer.mantrachain.io",
       "txPage": "https://explorer.mantrachain.io/MANTRA-Dukong/tx/${txHash}",
       "accountPage": "https://explorer.mantrachain.io/MANTRA-Dukong/account/${accountAddress}"
+    },
+    {
+      "kind": "mantrascan",
+      "url": "https://mantrascan.io/dukong",
+      "txPage": "https://mantrascan.io/dukong/tx/${txHash}",
+      "accountPage": "https://mantrascan.io/dukong/address/${accountAddress}"
     }
   ],
   "images": [
