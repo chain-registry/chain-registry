@@ -24,7 +24,12 @@
       "socials": {
         "website": "https://autheo.com"
       },
-      "assetType": "sdk.coin"
+      "assetType": "sdk.coin",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/autheotestnet/images/autheo_logo.png"
+        }
+      ]
     }
   ]
 }

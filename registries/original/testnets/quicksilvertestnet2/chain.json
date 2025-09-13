@@ -143,5 +143,10 @@
       "tx_page": "https://testnet.quicksilver.explorers.guru/transaction/${txHash}",
       "account_page": "https://testnet.quicksilver.explorers.guru/account/${accountAddress}"
     }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg"
+    }
   ]
 }

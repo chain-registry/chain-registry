@@ -33,11 +33,11 @@
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/xpladev/cosmos-sdk",
-      "version": "v0.50.11",
-      "tag": "v0.50.11-xpla"
+      "version": "v0.53.4",
+      "tag": "v0.53.4-xpla"
     },
     "cosmwasm": {
-      "version": "v0.53.2"
+      "version": "v0.60.1"
     }
   },
   "apis": {

@@ -1,0 +1,89 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "zigchain",
+  "networkType": "mainnet",
+  "website": "https://zigchain.com/",
+  "prettyName": "ZIGChain",
+  "chainType": "cosmos",
+  "chainId": "zigchain-1",
+  "bech32Prefix": "zig",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "description": "ZIGChain (ZIG) is a Layer 1 blockchain focused on unlocking financial opportunities for everyone - regardless of their income, location, or level of knowledge.",
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uzig",
+        "fixedMinGasPrice": 0.0025,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.05
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uzig"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.14"
+    },
+    "cosmwasm": {
+      "version": "0.55.1",
+      "enabled": true
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://public-zigchain-rpc.numia.xyz/"
+      },
+      {
+        "address": "https://rpc.zigchain.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://public-zigchain-lcd.numia.xyz/"
+      },
+      {
+        "address": "https://api.zigchain.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.zigchain.com:9090"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "range",
+      "url": "https://app.range.org/address/zigchain/zigchain",
+      "txPage": "https://app.range.org/tx/zigchain/${txHash}",
+      "accountPage": "https://app.range.org/address/zigchain/${accountAddress}"
+    },
+    {
+      "kind": "zigscan",
+      "url": "https://zigscan.org",
+      "txPage": "https://zigscan.org/tx/${txHash}",
+      "accountPage": "https://zigscan.org/address/${accountAddress}"
+    }
+  ]
+}

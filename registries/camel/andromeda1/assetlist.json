@@ -34,6 +34,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "andromeda",
+            "baseDenom": "uandr"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png"
         }
       ],

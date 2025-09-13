@@ -283,7 +283,17 @@
       "base": "cw20:orai1c7tpjenafvgjtgm9aqwm7afnke6c56hpdms8jc6md40xs3ugd0es5encn0",
       "name": "Wtrx",
       "display": "wtrx",
-      "symbol": "wTRX"
+      "symbol": "wTRX",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "tron",
+            "baseDenom": "sun"
+          },
+          "provider": "Oraichain"
+        }
+      ]
     },
     {
       "description": "The scATOM token is the cw20 token for the Oraichain.",
@@ -340,7 +350,17 @@
       "base": "cw20:orai1dqa52a7hxxuv8ghe7q5v0s36ra0cthea960q2cukznleqhk0wpnshfegez",
       "name": "Weth",
       "display": "weth",
-      "symbol": "wETH"
+      "symbol": "wETH",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "wei"
+          },
+          "provider": "Oraichain"
+        }
+      ]
     },
     {
       "description": "The BTC token is the cw20 token for the Oraichain.",
@@ -359,7 +379,17 @@
       "base": "cw20:orai10g6frpysmdgw5tdqke47als6f97aqmr8s3cljsvjce4n5enjftcqtamzsd",
       "name": "Btc",
       "display": "btc",
-      "symbol": "BTC"
+      "symbol": "BTC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Oraichain"
+        }
+      ]
     },
     {
       "description": "The OCH token is the cw20 token for the Oraichain.",

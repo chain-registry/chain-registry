@@ -18,6 +18,16 @@
       "name": "Synternet",
       "display": "AMBER",
       "symbol": "AMBER",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "synternet",
+            "baseDenom": "usynt"
+          },
+          "provider": "Synternet"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

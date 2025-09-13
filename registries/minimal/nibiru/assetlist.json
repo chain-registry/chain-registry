@@ -102,6 +102,16 @@
       "base": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
       "display": "AXV",
       "symbol": "AXV",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "cw20:neutron10dxyft3nv4vpxh5vrpn0xw8geej8dw3g39g7nqp8mrm307ypssksau29af"
+          },
+          "provider": "Astrovault"
+        }
+      ],
       "assetType": "sdk.coin"
     },
     {

@@ -57,6 +57,16 @@
       "name": "Arena Token",
       "display": "arena",
       "symbol": "ARENA",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron129ukd5cwahcjkccujz87rjemjukff7jf6sau72qrhva677xgz9gs4m4jeq/uarena"
+          },
+          "provider": "Arena Token"
+        }
+      ],
       "description": "The governance token of the Arena DAO on Neutron testnet"
     },
     {

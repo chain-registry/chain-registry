@@ -1,0 +1,35 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "zigchain",
+  "assets": [
+    {
+      "description": "The native token of ZIGChain",
+      "denomUnits": [
+        {
+          "denom": "uzig",
+          "exponent": 0,
+          "aliases": [
+            "microzig"
+          ]
+        },
+        {
+          "denom": "mzig",
+          "exponent": 3,
+          "aliases": [
+            "millizig"
+          ]
+        },
+        {
+          "denom": "zig",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "uzig",
+      "name": "ZIG",
+      "display": "zig",
+      "symbol": "ZIG",
+      "coingeckoId": "zignaly"
+    }
+  ]
+}

@@ -101,6 +101,10 @@
         "chainName": "milkyway",
         "baseDenom": "umilk"
       },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.svg"
+    },
+    {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milkyway.svg"
     }

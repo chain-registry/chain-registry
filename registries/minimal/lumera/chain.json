@@ -43,11 +43,17 @@
     "rpc": [
       {
         "address": "https://rpc.lumera.io:443"
+      },
+      {
+        "address": "https://lumera-rpc.ibs.team"
       }
     ],
     "rest": [
       {
         "address": "https://lcd.lumera.io:443"
+      },
+      {
+        "address": "https://lumera-api.ibs.team"
       }
     ],
     "grpc": [

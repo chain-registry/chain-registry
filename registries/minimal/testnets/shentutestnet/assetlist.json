@@ -18,6 +18,16 @@
       "name": "Shentu",
       "display": "ctk",
       "symbol": "CTK",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "shentu",
+            "baseDenom": "uctk"
+          },
+          "provider": "Shentu"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

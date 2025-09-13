@@ -19471,6 +19471,41 @@
           }
         }
       ]
+    },
+    {
+      "description": "The native token of Lumera.",
+      "denomUnits": [
+        {
+          "denom": "ibc/32C4AEE2B3C4F767A351FA821AB0140B10CB690CDED27D9FCC857859B44432B9",
+          "exponent": 0,
+          "aliases": [
+            "ulume"
+          ]
+        },
+        {
+          "denom": "lume",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/32C4AEE2B3C4F767A351FA821AB0140B10CB690CDED27D9FCC857859B44432B9",
+      "name": "Lumera",
+      "display": "lume",
+      "symbol": "LUME",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "lumera",
+            "baseDenom": "ulume",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-106313",
+            "path": "transfer/channel-106313/ulume"
+          }
+        }
+      ]
     }
   ]
 }

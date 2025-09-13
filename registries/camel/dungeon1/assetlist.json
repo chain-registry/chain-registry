@@ -39,6 +39,10 @@
       },
       "images": [
         {
+          "imageSync": {
+            "chainName": "dungeon",
+            "baseDenom": "udgn"
+          },
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
           "theme": {
             "circle": true

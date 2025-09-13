@@ -18,6 +18,16 @@
       "name": "Epix Testnet",
       "display": "epix",
       "symbol": "TEPIX",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "epix",
+            "baseDenom": "aepix"
+          },
+          "provider": "Epix"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]
