@@ -1,0 +1,85 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "bitway",
+  "assets": [
+    {
+      "description": "The native token of Bitway.",
+      "denomUnits": [
+        {
+          "denom": "ubtw",
+          "exponent": 0
+        },
+        {
+          "denom": "btw",
+          "exponent": 6
+        }
+      ],
+      "base": "ubtw",
+      "name": "Bitway native token",
+      "display": "btw",
+      "symbol": "BTW",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "BTC-pegged token on Bitway.",
+      "denomUnits": [
+        {
+          "denom": "sat",
+          "exponent": 0
+        },
+        {
+          "denom": "BTCT",
+          "exponent": 8
+        }
+      ],
+      "base": "sat",
+      "name": "Bitway Bitcoin",
+      "display": "BTCT",
+      "symbol": "BTCT",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcoin",
+            "baseDenom": "sat"
+          },
+          "provider": "Bitway"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Noble USDC on Bitway.",
+      "denomUnits": [
+        {
+          "denom": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
+          "exponent": 0
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
+      "name": "Noble USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "noble",
+            "baseDenom": "uusdc",
+            "channelId": "channel-172"
+          },
+          "chain": {
+            "channelId": "channel-13",
+            "path": "transfer/channel-13/uusdc"
+          }
+        }
+      ],
+      "coingeckoId": "usd-coin"
+    }
+  ]
+}
