@@ -84,6 +84,9 @@
       },
       {
         "address": "https://rpc-sunrise.winnode.xyz"
+      },
+      {
+        "address": "https://rpc-sunrise.blockval.io/"
       }
     ],
     "rest": [
@@ -131,6 +134,9 @@
       },
       {
         "address": "https://api-sunrise.winnode.xyz"
+      },
+      {
+        "address": "https://api-sunrise.blockval.io"
       }
     ],
     "grpc": [
@@ -166,6 +172,9 @@
       },
       {
         "address": "https://grpc-sunrise.winnode.xyz:443"
+      },
+      {
+        "address": "grpc-sunrise.blockval.io:443"
       }
     ]
   },

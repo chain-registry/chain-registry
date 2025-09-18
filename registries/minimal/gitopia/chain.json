@@ -123,6 +123,9 @@
       },
       {
         "address": "https://gitopia-rpc.noders.services"
+      },
+      {
+        "address": "https://rpc-gitopia.blockval.io/"
       }
     ],
     "rest": [
@@ -206,6 +209,9 @@
       },
       {
         "address": "https://gitopia-api.noders.services"
+      },
+      {
+        "address": "https://api-gitopia.blockval.io"
       }
     ],
     "grpc": [
@@ -295,6 +301,9 @@
       },
       {
         "address": "gitopia-grpc.noders.services:19090"
+      },
+      {
+        "address": "grpc-gitopia.blockval.io:443"
       }
     ]
   },

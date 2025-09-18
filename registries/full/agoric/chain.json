@@ -67,7 +67,8 @@
       "icsEnabled": [
         "ics20-1"
       ]
-    }
+    },
+    "tag": "agoric-upgrade-21"
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/Agoric-logo-color.png",

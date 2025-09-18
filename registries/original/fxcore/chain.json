@@ -64,7 +64,8 @@
     "ibc": {
       "type": "go",
       "version": "v8.5.2"
-    }
+    },
+    "tag": "v8.5.0"
   },
   "peers": {
     "seeds": [

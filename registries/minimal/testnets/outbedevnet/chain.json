@@ -30,7 +30,12 @@
     }
   },
   "codebase": {
-
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.11",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "tag": "v0.50.11"
+    }
   },
   "images": [
     {

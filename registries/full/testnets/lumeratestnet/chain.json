@@ -69,7 +69,10 @@
     },
     "genesis": {
       "genesisUrl": "https://github.com/LumeraProtocol/lumera-networks/tree/master/testnet"
-    }
+    },
+    "compatibleVersions": [
+      "v1.7.0"
+    ]
   },
   "peers": {
     "seeds": [

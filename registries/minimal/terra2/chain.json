@@ -27,7 +27,16 @@
     ]
   },
   "codebase": {
-
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "version": "v0.47.16",
+      "tag": "v0.47.16"
+    },
+    "cosmwasm": {
+      "version": "v0.46.0",
+      "enabled": true
+    }
   },
   "description": "Fueled by a passionate community and deep developer talent pool, the Terra blockchain is built to enable the next generation of Web3 products and services.",
   "apis": {

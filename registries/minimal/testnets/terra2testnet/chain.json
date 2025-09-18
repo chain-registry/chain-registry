@@ -27,7 +27,14 @@
     ]
   },
   "codebase": {
-
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.46.11"
+    },
+    "cosmwasm": {
+      "version": "v0.30.0",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

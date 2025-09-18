@@ -29,7 +29,18 @@
     ]
   },
   "codebase": {
-
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.11",
+      "repo": "https://github.com/osmosis-labs/cosmos-sdk",
+      "tag": "v0.50.11-v28-osmo-1"
+    },
+    "cosmwasm": {
+      "version": "0.53.2",
+      "repo": "https://github.com/CosmWasm/wasmd",
+      "tag": "v0.53.2",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

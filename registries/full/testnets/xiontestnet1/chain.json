@@ -72,7 +72,10 @@
     },
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/burnt-labs/burnt-networks/main/testnets/xion-testnet-1/genesis.json"
-    }
+    },
+    "compatibleVersions": [
+      "v17.1.0"
+    ]
   },
   "peers": {
     "seeds": [

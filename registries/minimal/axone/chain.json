@@ -29,7 +29,15 @@
     ]
   },
   "codebase": {
-
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.13"
+    },
+    "cosmwasm": {
+      "version": "v0.53.0",
+      "path": "$HOME/.axoned/wasm",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

@@ -46,6 +46,9 @@
       },
       {
         "address": "https://lumera-rpc.ibs.team"
+      },
+      {
+        "address": "https://lumera-rpc.stakerhouse.com"
       }
     ],
     "rest": [
@@ -54,6 +57,9 @@
       },
       {
         "address": "https://lumera-api.ibs.team"
+      },
+      {
+        "address": "https://lumera-rest.stakerhouse.com"
       }
     ],
     "grpc": [
@@ -68,6 +74,12 @@
       "url": "https://portal.lumera.io/lumera-mainnet-1/",
       "txPage": "https://portal.lumera.io/lumera-mainnet-1/tx/${txHash}",
       "accountPage": "https://portal.lumera.io/lumera-mainnet-1/account/${accountAddress}"
+    },
+    {
+      "kind": "Cosmotracker",
+      "url": "https://cosmotracker.com/lumera/",
+      "txPage": "https://cosmotracker.com/lumera/tx/${txHash}",
+      "accountPage": "https://cosmotracker.com/lumera/account/${accountAddress}"
     }
   ],
   "images": [

@@ -33,7 +33,16 @@
     }
   },
   "codebase": {
-
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.47.14",
+      "tag": "v0.47.14-lsm",
+      "repo": "https://github.com/persistenceOne/cosmos-sdk"
+    },
+    "cosmwasm": {
+      "version": "v0.46.0",
+      "enabled": true
+    }
   },
   "apis": {
     "rpc": [

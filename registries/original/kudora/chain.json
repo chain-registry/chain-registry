@@ -64,7 +64,8 @@
     "language": {
       "type": "go",
       "version": "1.23.7"
-    }
+    },
+    "tag": "v1.0.0"
   },
   "apis": {
     "evm-http-jsonrpc": [

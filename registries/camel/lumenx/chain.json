@@ -39,7 +39,8 @@
     ],
     "genesis": {
       "genesisUrl": "https://raw.githubusercontent.com/cryptonetD/lumenx/main/config/genesis.json"
-    }
+    },
+    "tag": "v1.4.0"
   },
   "logoURIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.png",

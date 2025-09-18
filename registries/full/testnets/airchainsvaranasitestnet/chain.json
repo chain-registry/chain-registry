@@ -41,7 +41,10 @@
     "sdk": {
       "type": "cosmos",
       "version": "0.50.9"
-    }
+    },
+    "compatibleVersions": [
+      "v0.3.1"
+    ]
   },
   "images": [
     {
