@@ -52,6 +52,9 @@
       },
       {
         "address": "https://rpc.atomone-testnet-1.atomone.aviaone.com:443"
+      },
+      {
+        "address": "https://atomone-testnet-rpc.cogwheel.zone"
       }
     ],
     "rest": [
@@ -63,6 +66,9 @@
       },
       {
         "address": "https://api-test.atomone.vinjan.xyz"
+      },
+      {
+        "address": "https://atomone-testnet-api.cogwheel.zone"
       }
     ],
     "grpc": [
@@ -71,6 +77,9 @@
       },
       {
         "address": "https://grpc-testnet-atomone.nodeist.net:443"
+      },
+      {
+        "address": "atomone-testnet-grpc.cogwheel.zone:443"
       }
     ]
   },

@@ -4284,6 +4284,25 @@
       "name": "Greenfriendly Token",
       "display": "gft",
       "symbol": "GFT"
+    },
+    {
+      "description": "LuncToken ($LTK) is the community token of Lunctoken.org, designed to reward engagement, provide access to Web3 educational content, and strengthen the Terra Classic ecosystem.",
+      "assetType": "cw20",
+      "address": "terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a",
+      "denomUnits": [
+        {
+          "denom": "cw20:terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a",
+          "exponent": 0
+        },
+        {
+          "denom": "ltk",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:terra1mm8tdp40r2slzwqxk8jsz66ayc4zp69muxeateq37x2xquttzsaqy7275a",
+      "name": "Lunctoken",
+      "display": "ltk",
+      "symbol": "LTK"
     }
   ]
 }

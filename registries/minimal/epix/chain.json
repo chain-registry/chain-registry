@@ -41,30 +41,35 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://epix.rpc.silknodes.io/"
+        "address": "https://rpc.epix.zone"
       }
     ],
     "rest": [
       {
-        "address": "https://epix.api.silknodes.io"
+        "address": "https://api.epix.zone"
       }
     ],
     "grpc": [
       {
-        "address": "https://epix.grpc.silknodes.io:443"
+        "address": "grpc.epix.zone:15067"
       }
     ],
     "evmHttpJsonrpc": [
       {
-        "address": "https://epix.emvrpc.silknodes.io/"
+        "address": "https://evmrpc.epix.zone/"
       }
     ]
   },
   "explorers": [
     {
-      "kind": "Silk Nodes Explorer",
-      "url": "https://explorer.silknodes.io/epix",
-      "txPage": "https://explorer.silknodes.io/osmosis/tx/${txHash}"
+      "kind": "L1",
+      "url": "https://explorer.epix.zone/",
+      "txPage": "https://explorer.epix.zone/epix/tx/${txHash}"
+    },
+    {
+      "kind": "EVM",
+      "url": "https://scan.epix.zone/",
+      "txPage": "https://scan.epix.zone/tx/${txHash}"
     }
   ],
   "images": [

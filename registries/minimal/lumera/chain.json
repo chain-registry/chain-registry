@@ -49,6 +49,9 @@
       },
       {
         "address": "https://lumera-rpc.stakerhouse.com"
+      },
+      {
+        "address": "https://lumera.archive.data.nexus"
       }
     ],
     "rest": [
@@ -60,11 +63,17 @@
       },
       {
         "address": "https://lumera-rest.stakerhouse.com"
+      },
+      {
+        "address": "https://rest.lumera.archive.data.nexus"
       }
     ],
     "grpc": [
       {
         "address": "https://grpc.lumera.io:443"
+      },
+      {
+        "address": "https://grpc.lumera.archive.data.nexus:443"
       }
     ]
   },

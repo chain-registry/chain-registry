@@ -47,9 +47,6 @@
         "address": "https://composable-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://picasso-rpc.cogwheel.zone:443"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/picasso"
       },
       {
@@ -86,9 +83,6 @@
       },
       {
         "address": "https://composable-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://picasso-api.cogwheel.zone:443"
       },
       {
         "address": "https://rest.lavenderfive.com:443/picasso"
@@ -130,9 +124,6 @@
       },
       {
         "address": "grpc-centauri.cosmos-spaces.cloud:1120"
-      },
-      {
-        "address": "https://picasso-grpc.cogwheel.zone:443"
       },
       {
         "address": "picasso.lavenderfive.com:443"
