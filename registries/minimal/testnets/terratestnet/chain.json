@@ -1,0 +1,61 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "terratestnet",
+  "networkType": "testnet",
+  "website": "https://www.terra-Classic.money/",
+  "prettyName": "Terra Classic Testnet",
+  "chainType": "cosmos",
+  "chainId": "rebel-2",
+  "bech32Prefix": "terra",
+  "slip44": 330,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uluna",
+        "lowGasPrice": 28.325,
+        "averageGasPrice": 28.325,
+        "highGasPrice": 50
+      },
+      {
+        "denom": "uusd",
+        "lowGasPrice": 0.75,
+        "averageGasPrice": 0.75,
+        "highGasPrice": 0.75
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uluna"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rebel-rpc.luncgoblins.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rebel-lcd.luncgoblins.com"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg"
+    }
+  ]
+}

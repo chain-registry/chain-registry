@@ -1,0 +1,118 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "terratestnet",
+  "assets": [
+    {
+      "description": "Terra Classic is the original blockchain platform that powered the UST stablecoin and LUNA token before the launch of Terra 2.0, focusing on stablecoins and DeFi applications.",
+      "denomUnits": [
+        {
+          "denom": "uluna",
+          "exponent": 0,
+          "aliases": [
+            "microluna"
+          ]
+        },
+        {
+          "denom": "mluna",
+          "exponent": 3,
+          "aliases": [
+            "milliluna"
+          ]
+        },
+        {
+          "denom": "luna",
+          "exponent": 6,
+          "aliases": [
+            "lunc"
+          ]
+        }
+      ],
+      "base": "uluna",
+      "name": "Luna Classic",
+      "display": "luna",
+      "symbol": "LUNC",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "The USD stablecoin of Terra Classic.",
+      "denomUnits": [
+        {
+          "denom": "uusd",
+          "exponent": 0,
+          "aliases": [
+            "microusd"
+          ]
+        },
+        {
+          "denom": "musd",
+          "exponent": 3,
+          "aliases": [
+            "milliusd"
+          ]
+        },
+        {
+          "denom": "ust",
+          "exponent": 6,
+          "aliases": [
+            "ustc"
+          ]
+        }
+      ],
+      "base": "uusd",
+      "name": "TerraClassicUSD",
+      "display": "ust",
+      "symbol": "USTC",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "The KRW stablecoin of Terra Classic.",
+      "denomUnits": [
+        {
+          "denom": "ukrw",
+          "exponent": 0,
+          "aliases": [
+            "microkrw"
+          ]
+        },
+        {
+          "denom": "mkrw",
+          "exponent": 3,
+          "aliases": [
+            "millikrw"
+          ]
+        },
+        {
+          "denom": "krt",
+          "exponent": 6,
+          "aliases": [
+            "krtc"
+          ]
+        }
+      ],
+      "base": "ukrw",
+      "name": "TerraClassicKRW",
+      "display": "krt",
+      "symbol": "KRTC",
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Juris Protocol is the premier lending platform for the Terra Ecosystem, delivering decentralized lending and borrowing markets to enhance financial accessibility and utility.",
+      "assetType": "cw20",
+      "address": "terra1w7d0jqehn0ja3hkzsm0psk6z2hjz06lsq0nxnwkzkkq4fqwgq6tqa5te8e",
+      "denomUnits": [
+        {
+          "denom": "cw20:terra1w7d0jqehn0ja3hkzsm0psk6z2hjz06lsq0nxnwkzkkq4fqwgq6tqa5te8e",
+          "exponent": 0
+        },
+        {
+          "denom": "juris",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:terra1w7d0jqehn0ja3hkzsm0psk6z2hjz06lsq0nxnwkzkkq4fqwgq6tqa5te8e",
+      "name": "Juris Protocol",
+      "display": "juris",
+      "symbol": "JURIS"
+    }
+  ]
+}
