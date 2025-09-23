@@ -64,9 +64,6 @@
         "address": "https://andromeda-rpc.stakerhouse.com:443"
       },
       {
-        "address": "https://andromeda-rpc.highstakes.ch"
-      },
-      {
         "address": "https://andromeda-rpc.genznodes.dev"
       },
       {
@@ -100,9 +97,6 @@
       },
       {
         "address": "https://andromeda-rest.stakerhouse.com:443"
-      },
-      {
-        "address": "https://andromeda-api.highstakes.ch"
       },
       {
         "address": "https://andromeda-api.genznodes.dev"

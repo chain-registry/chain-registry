@@ -41,11 +41,6 @@
       "enabled": true
     }
   },
-  "images": [
-    {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/zenrocktestnet/images/zenrock.png"
-    }
-  ],
   "apis": {
     "rpc": [
       {

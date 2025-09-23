@@ -86,9 +86,6 @@
         "address": "https://aura.rpc.srv.stakr.space"
       },
       {
-        "address": "https://aura-rpc.highstakes.ch"
-      },
-      {
         "address": "https://aura-rpc.noders.services"
       }
     ],
@@ -131,9 +128,6 @@
       },
       {
         "address": "https://aura.api.srv.stakr.space"
-      },
-      {
-        "address": "https://aura-api.highstakes.ch"
       },
       {
         "address": "https://aura-api.noders.services"
