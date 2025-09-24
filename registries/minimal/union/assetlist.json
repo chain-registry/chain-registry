@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "union",
+  "assets": [
+    {
+      "description": "Union is the zero-knowledge (zk) interoperability network that functions as a settlement and liquidity layer for protocols and asset issuers.",
+      "denomUnits": [
+        {
+          "denom": "au",
+          "exponent": 0
+        },
+        {
+          "denom": "U",
+          "exponent": 18
+        }
+      ],
+      "base": "au",
+      "name": "U",
+      "display": "U",
+      "symbol": "U",
+      "coingeckoId": "union-2",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "union",
+  "website": "https://union.build/",
+  "networkType": "mainnet",
+  "prettyName": "Union",
+  "chainType": "cosmos",
+  "chainId": "union-1",
+  "bech32Prefix": "union",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "au",
+        "fixedMinGasPrice": 100000000,
+        "lowGasPrice": 100000000,
+        "averageGasPrice": 100000000,
+        "highGasPrice": 200000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "au"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/unionlabs/cosmos-sdk",
+      "version": "v0.50.13",
+      "tag": "v0.50.13-cometblsv1"
+    }
+  },
+  "description": "Union is the zero-knowledge (zk) interoperability network that functions as a settlement and liquidity layer for protocols and asset issuers.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.union.build"
+      },
+      {
+        "address": "https://rpc-1.union.nodes.guru"
+      },
+      {
+        "address": "https://rpc.lavenderfive.com/union"
+      },
+      {
+        "address": "https://union-rpc.polkachu.com"
+      },
+      {
+        "address": "https://union-rpc.kingnodes.com"
+      },
+      {
+        "address": "https://union-rpc.stakeandrelax.net"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.union.build"
+      },
+      {
+        "address": "https://api-1.union.nodes.guru"
+      },
+      {
+        "address": "https://rest.lavenderfive.com/union"
+      },
+      {
+        "address": "https://union-api.polkachu.com"
+      },
+      {
+        "address": "https://union-rest.kingnodes.com"
+      },
+      {
+        "address": "https://union-api.stakeandrelax.net"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.union.build:443"
+      },
+      {
+        "address": "grpc-1.union.nodes.guru:443"
+      },
+      {
+        "address": "union.lavenderfive.com:443"
+      },
+      {
+        "address": "union-grpc.polkachu.com:24690"
+      },
+      {
+        "address": "union-grpc.kingnodes.com:443"
+      },
+      {
+        "address": "union-grpc.stakeandrelax.net:24690"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Ping.Pub",
+      "url": "https://explorer.union.build/union",
+      "txPage": "https://explorer.union.build/union/tx/${txHash}",
+      "accountPage": "https://explorer.union.build/union/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/union/images/u.svg"
+    }
+  ]
+}

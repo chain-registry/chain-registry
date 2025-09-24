@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "optio",
+  "assets": [
+    {
+      "description": "The native token of Optio",
+      "denomUnits": [
+        {
+          "denom": "uOPT",
+          "exponent": 0
+        },
+        {
+          "denom": "OPT",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "uOPT",
+      "name": "OPT",
+      "display": "OPT",
+      "symbol": "OPT",
+      "coingeckoId": "optio"
+    }
+  ]
+}
