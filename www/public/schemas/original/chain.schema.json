@@ -681,7 +681,8 @@
           "enum": [
             "tendermint",
             "cometbft",
-            "sei-tendermint"
+            "sei-tendermint",
+            "cometbls"
           ]
         },
         "version": {
