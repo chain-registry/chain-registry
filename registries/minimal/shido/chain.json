@@ -177,8 +177,7 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.svg"
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shido/images/shido.png"
     }
   ]
 }

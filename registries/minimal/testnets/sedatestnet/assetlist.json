@@ -18,6 +18,16 @@
       "name": "Seda",
       "display": "seda",
       "symbol": "SEDA",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "seda",
+            "baseDenom": "aseda"
+          },
+          "provider": "Seda"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

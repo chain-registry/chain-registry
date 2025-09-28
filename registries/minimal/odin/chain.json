@@ -101,8 +101,11 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg"
+      "imageSync": {
+        "chainName": "odin",
+        "baseDenom": "loki"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png"
     }
   ]
 }

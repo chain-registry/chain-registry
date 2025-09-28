@@ -76,8 +76,7 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.svg"
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png"
     }
   ]
 }

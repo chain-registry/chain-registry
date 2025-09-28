@@ -18,6 +18,16 @@
       "name": "LUMEN",
       "display": "lumen",
       "symbol": "LUMEN",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "lumenx",
+            "baseDenom": "ulumen"
+          },
+          "provider": "LumenX"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

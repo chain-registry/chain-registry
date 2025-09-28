@@ -84,7 +84,9 @@
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg"
+      "imageSync": {
+        "chainName": "seda"
+      }
     }
   ]
 }
