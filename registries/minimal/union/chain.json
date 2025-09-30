@@ -57,6 +57,9 @@
       },
       {
         "address": "https://union-rpc.stakeandrelax.net"
+      },
+      {
+        "address": "https://m-union-rpc.ruangnode.com:443"
       }
     ],
     "rest": [
@@ -77,6 +80,9 @@
       },
       {
         "address": "https://union-api.stakeandrelax.net"
+      },
+      {
+        "address": "https://m-union-api.ruangnode.com:443"
       }
     ],
     "grpc": [
@@ -97,6 +103,9 @@
       },
       {
         "address": "union-grpc.stakeandrelax.net:24690"
+      },
+      {
+        "address": "m-union-grpc.ruangnode.com:14090"
       }
     ]
   },
@@ -106,6 +115,11 @@
       "url": "https://explorer.union.build/union",
       "txPage": "https://explorer.union.build/union/tx/${txHash}",
       "accountPage": "https://explorer.union.build/union/account/${accountAddress}"
+    },
+    {
+      "kind": "Ruangnode Explorer",
+      "url": "https://explorer.ruangnode.com/dashboard/union",
+      "txPage": "https://explorer.ruangnode.com/transactions/union?hash=${txHash}"
     }
   ],
   "images": [
