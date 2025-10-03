@@ -48,6 +48,131 @@
       "display": "stzig",
       "symbol": "STZIG",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Noble USDC on ZIGChain",
+      "denomUnits": [
+        {
+          "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+          "exponent": 0,
+          "aliases": [
+            "microusdc",
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+      "name": "Noble USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "forex",
+            "baseDenom": "USD"
+          },
+          "provider": "Circle"
+        },
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Circle"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "noble",
+            "baseDenom": "uusdc",
+            "channelId": "channel-175"
+          },
+          "chain": {
+            "channelId": "channel-3",
+            "path": "transfer/channel-3/uusdc"
+          }
+        }
+      ],
+      "coingeckoId": "usd-coin"
+    },
+    {
+      "description": "Cosmos Hub Atom on ZIGChain",
+      "denomUnits": [
+        {
+          "denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+          "exponent": 0,
+          "aliases": [
+            "uatom"
+          ]
+        },
+        {
+          "denom": "atom",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+      "name": "Cosmos Hub Atom",
+      "display": "atom",
+      "symbol": "ATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "cosmoshub",
+            "baseDenom": "uatom",
+            "channelId": "channel-1555"
+          },
+          "chain": {
+            "channelId": "channel-4",
+            "path": "transfer/channel-4/uatom"
+          }
+        }
+      ],
+      "coingeckoId": "cosmos"
+    },
+    {
+      "description": "ZIG bridged via Axelar on ZIGChain",
+      "denomUnits": [
+        {
+          "denom": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+          "exponent": 0,
+          "aliases": [
+            "weizig.axl"
+          ]
+        },
+        {
+          "denom": "zig.axl",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+      "name": "ZIG (Axelar)",
+      "display": "zig.axl",
+      "symbol": "ZIG.axl",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "axelar",
+            "baseDenom": "unit-zig",
+            "channelId": "channel-182"
+          },
+          "chain": {
+            "channelId": "channel-1",
+            "path": "transfer/channel-1/unit-zig"
+          }
+        }
+      ],
+      "coingeckoId": "zignaly"
     }
   ]
 }

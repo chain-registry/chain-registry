@@ -9,7 +9,7 @@
   "chainId": "zigchain-1",
   "bech32Prefix": "zig",
   "daemonName": "zigchaind",
-  "nodeHome": "$HOME/.zigchaind",
+  "nodeHome": "$HOME/.zigchain",
   "keyAlgos": [
     "secp256k1"
   ],

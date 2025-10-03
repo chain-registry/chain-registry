@@ -1367,6 +1367,35 @@
           "provider": "Axelar"
         }
       ]
+    },
+    {
+      "description": "ZigCoin from Ethereum via Axelar Bridge",
+      "denomUnits": [
+        {
+          "denom": "unit-zig",
+          "exponent": 0
+        },
+        {
+          "denom": "zig",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "unit-zig",
+      "name": "ZigCoin",
+      "display": "zig",
+      "symbol": "ZigCoin",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+          },
+          "provider": "Axelar"
+        }
+      ],
+      "coingeckoId": "zignaly"
     }
   ]
 }
