@@ -18,6 +18,16 @@
       "name": "Airchains",
       "display": "AMF",
       "symbol": "AMF",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "airchainstestnet",
+            "baseDenom": "amf"
+          },
+          "provider": "Airchains"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

@@ -18,6 +18,16 @@
       "name": "Source Testnet",
       "display": "source",
       "symbol": "SOURCE",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "source",
+            "baseDenom": "usource"
+          },
+          "provider": "Source"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

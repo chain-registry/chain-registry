@@ -55,8 +55,11 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.svg"
+      "imageSync": {
+        "chainName": "archway"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg"
     }
   ]
 }

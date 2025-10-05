@@ -18,6 +18,16 @@
       "name": "Sei",
       "display": "sei",
       "symbol": "SEI",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "sei",
+            "baseDenom": "usei"
+          },
+          "provider": "Sei"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

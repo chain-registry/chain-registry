@@ -18,6 +18,16 @@
       "name": "Neutron Testnet",
       "display": "ntrn",
       "symbol": "NTRN",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "untrn"
+          },
+          "provider": "Neutron"
+        }
+      ],
       "assetType": "sdk.coin"
     },
     {
@@ -36,6 +46,16 @@
       "name": "amATOM (Testnet)",
       "display": "amATOM",
       "symbol": "amATOM",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "neutron",
+            "baseDenom": "factory/neutron1shwxlkpdjd8h5wdtrykypwd2v62z5glr95yp0etdcspkkjwm5meq82ndxs/amatom"
+          },
+          "provider": "Neutron"
+        }
+      ],
       "assetType": "sdk.coin"
     },
     {

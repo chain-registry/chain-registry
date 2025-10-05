@@ -18,6 +18,16 @@
       "name": "Planq Atlas Testnet",
       "display": "tplanq",
       "symbol": "tPLQ",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "planq",
+            "baseDenom": "aplanq"
+          },
+          "provider": "Planq"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

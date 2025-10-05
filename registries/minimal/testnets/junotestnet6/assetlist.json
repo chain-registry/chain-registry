@@ -20,10 +20,10 @@
       "symbol": "JUNOX",
       "traces": [
         {
-          "type": "test-mintage",
+          "type": "legacy-mintage",
           "counterparty": {
-            "chainName": "juno",
-            "baseDenom": "ujuno"
+            "chainName": "junotestnet",
+            "baseDenom": "ujunox"
           },
           "provider": "Juno"
         }

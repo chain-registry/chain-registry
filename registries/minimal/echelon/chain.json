@@ -81,8 +81,12 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/logo.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/echelon.svg"
+      "imageSync": {
+        "chainName": "echelon",
+        "baseDenom": "aechelon"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg"
     }
   ]
 }

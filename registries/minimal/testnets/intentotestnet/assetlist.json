@@ -18,6 +18,16 @@
       "name": "Intento",
       "display": "into",
       "symbol": "INTO",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "intento",
+            "baseDenom": "uinto"
+          },
+          "provider": "Intento"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

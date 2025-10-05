@@ -166,11 +166,5 @@
       "txPage": "https://ping.pub/mars/tx/${txHash}",
       "accountPage": "https://ping.pub/mars/account/${accountAddress}"
     }
-  ],
-  "images": [
-    {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-protocol.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-protocol.svg"
-    }
   ]
 }

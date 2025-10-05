@@ -223,8 +223,8 @@
     }
   ],
   "logoURIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.png",
-    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.svg"
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
   },
   "keywords": [
     "ebook",
@@ -237,8 +237,12 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/likecoin-chain-logo.svg"
+      "imageSync": {
+        "chainName": "likecoin",
+        "baseDenom": "nanolike"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
     }
   ]
 }

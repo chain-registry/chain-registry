@@ -18,6 +18,16 @@
       "name": "Nolus",
       "display": "nls",
       "symbol": "NLS",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "nolus",
+            "baseDenom": "unls"
+          },
+          "provider": "Nolus"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

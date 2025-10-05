@@ -1421,7 +1421,17 @@
       "base": "cw20:terra12dfv3f0e6m22z6cnhfn3nxk2en3z3zeqy6ctym",
       "name": "Chainlink (Portal)",
       "display": "link",
-      "symbol": "LINK"
+      "symbol": "LINK",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "provider": "Portal"
+        }
+      ]
     },
     {
       "denomUnits": [
@@ -2494,7 +2504,17 @@
       "base": "cw20:terra1uux6gwd6pzr0gfzrru5kne55cxex9d0700c72r",
       "name": "Paxos Gold (Portal)",
       "display": "paxg",
-      "symbol": "PAXG"
+      "symbol": "PAXG",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
+          },
+          "provider": "Portal"
+        }
+      ]
     },
     {
       "denomUnits": [
@@ -2530,7 +2550,17 @@
       "base": "cw20:terra1su6g4t4vwx7y0uh3ksancyaurj4l6w9pfs40qt",
       "name": "ChainLink Token",
       "display": "link",
-      "symbol": "LINK"
+      "symbol": "LINK",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "provider": "Unknown"
+        }
+      ]
     },
     {
       "denomUnits": [
