@@ -3,7 +3,7 @@
   "chainName": "medasdigital",
   "assets": [
     {
-      "description": "The native token of Medas Digital Network",
+      "description": "Utility token for decentralized scientific computing. Used to pay provider nodes for executing computational jobs including N-body simulations, orbital analysis, and large-scale parameter searches.",
       "denomUnits": [
         {
           "denom": "umedas",

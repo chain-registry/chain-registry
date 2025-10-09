@@ -83,7 +83,7 @@
         "address": "doravota-mainnet-grpc.itrocket.net:443"
       },
       {
-        "address": "m-dora-grpc.ruangnode.com:30090"
+        "address": "m-dora-grpc.ruangnode.com:443"
       },
       {
         "address": "grpc.dora.roomit.xyz:8443"
