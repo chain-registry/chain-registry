@@ -546,6 +546,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "http://79.173.83.234:26657"
+      },
+      {
         "address": "https://rpc.osmosis.zone/"
       },
       {
@@ -649,6 +652,9 @@
       }
     ],
     "rest": [
+      {
+        "address": "http://79.173.83.234:1317"
+      },
       {
         "address": "https://lcd.osmosis.zone/"
       },
