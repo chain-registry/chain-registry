@@ -90,6 +90,9 @@
       },
       {
         "address": "https://rpc-sunrise.blockval.io/"
+      },
+      {
+        "address": "https://rpc-sunrice-mainnet.catsmile.space"
       }
     ],
     "rest": [
@@ -140,6 +143,9 @@
       },
       {
         "address": "https://api-sunrise.blockval.io"
+      },
+      {
+        "address": "https://api-sunrice-mainnet.catsmile.space"
       }
     ],
     "grpc": [
@@ -178,6 +184,9 @@
       },
       {
         "address": "grpc-sunrise.blockval.io:443"
+      },
+      {
+        "address": "grpc-sunrice-mainnet.catsmile.space:443"
       }
     ]
   },
@@ -252,6 +261,12 @@
       "url": "https://explorer.winnode.xyz/Sunrise-Mainnet",
       "txPage": "https://explorer.winnode.xyz/Sunrise-Mainnet/tx/${txHash}",
       "accountPage": "https://explorer.winnode.xyz/Sunrise-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "catsmile explorer",
+      "url": "https://explorer.catsmile.cloud/sunrice-mainnet",
+      "txPage": "https://explorer.catsmile.cloud/sunrice-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.catsmile.cloud/sunrice-mainnet/account/${accountAddress}"
     }
   ],
   "images": [
