@@ -18,7 +18,6 @@
       "name": "Rizon Chain",
       "display": "atolo",
       "symbol": "ATOLO",
-      "coingeckoId": "rizon",
       "assetType": "sdk.coin"
     }
   ]

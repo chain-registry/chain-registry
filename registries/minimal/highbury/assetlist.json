@@ -28,7 +28,6 @@
           "provider": "Furya"
         }
       ],
-      "coingeckoId": "fanfury",
       "assetType": "sdk.coin"
     },
     {

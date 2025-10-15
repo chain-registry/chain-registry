@@ -18,7 +18,6 @@
       "name": "LikeCoin",
       "display": "like",
       "symbol": "LIKE",
-      "coingeckoId": "likecoin",
       "assetType": "sdk.coin"
     }
   ]

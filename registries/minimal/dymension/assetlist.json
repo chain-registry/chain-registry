@@ -54,8 +54,7 @@
             "path": "transfer/channel-49/anim"
           }
         }
-      ],
-      "coingeckoId": "nim-network"
+      ]
     },
     {
       "description": "The native token of Mande Network.",

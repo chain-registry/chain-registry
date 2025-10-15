@@ -1,0 +1,80 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "kiiorotestnet",
+  "networkType": "testnet",
+  "prettyName": "Kii Testnet Oro",
+  "chainType": "cosmos",
+  "chainId": "oro_1336-1",
+  "bech32Prefix": "kii",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "akii",
+        "lowGasPrice": 60000000000,
+        "averageGasPrice": 80000000000,
+        "highGasPrice": 120000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "akii"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.53"
+    },
+    "cosmwasm": {
+      "enabled": true
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.uno.sentry.testnet.v3.kiivalidator.com/"
+      },
+      {
+        "address": "https://rpc.dos.sentry.testnet.v3.kiivalidator.com/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.uno.sentry.testnet.v3.kiivalidator.com/"
+      },
+      {
+        "address": "https://lcd.dos.sentry.testnet.v3.kiivalidator.com/"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.uno.sentry.testnet.v3.kiivalidator.com:443"
+      },
+      {
+        "address": "grpc.dos.sentry.testnet.v3.kiivalidator.com:443"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://json-rpc.uno.sentry.testnet.v3.kiivalidator.com/"
+      },
+      {
+        "address": "https://json-rpc.dos.sentry.testnet.v3.kiivalidator.com/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "custom",
+      "url": "https://explorer.kiichain.io/",
+      "accountPage": "https://explorer.kiichain.io/account/${accountAddress}"
+    }
+  ]
+}

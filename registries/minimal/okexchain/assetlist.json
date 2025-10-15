@@ -18,7 +18,6 @@
       "name": "OKExChain",
       "display": "okt",
       "symbol": "OKT",
-      "coingeckoId": "oec-token",
       "assetType": "sdk.coin"
     }
   ]

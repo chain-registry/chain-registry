@@ -355,7 +355,7 @@
         {
           "type": "ibc",
           "counterparty": {
-            "chainName": "akashtestnet",
+            "chainName": "akashtestnet1",
             "baseDenom": "uakt",
             "channelId": "channel-6"
           },

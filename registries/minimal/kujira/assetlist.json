@@ -92,7 +92,6 @@
       "name": "MantaDAO",
       "display": "mnta",
       "symbol": "MNTA",
-      "coingeckoId": "mantadao",
       "assetType": "sdk.coin"
     },
     {
@@ -216,7 +215,6 @@
       "name": "Fuzion",
       "display": "fuzn",
       "symbol": "FUZN",
-      "coingeckoId": "fuzion",
       "assetType": "sdk.coin"
     },
     {
@@ -339,7 +337,6 @@
       "name": "Unstake Fi",
       "display": "nstk",
       "symbol": "NSTK",
-      "coingeckoId": "unstake-fi",
       "assetType": "sdk.coin"
     },
     {

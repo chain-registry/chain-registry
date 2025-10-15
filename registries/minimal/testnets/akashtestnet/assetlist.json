@@ -18,6 +18,16 @@
       "name": "Akash Network",
       "display": "akt",
       "symbol": "AKT",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "akash",
+            "baseDenom": "uakt"
+          },
+          "provider": "Akash"
+        }
+      ],
       "assetType": "sdk.coin"
     }
   ]

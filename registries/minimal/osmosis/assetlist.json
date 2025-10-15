@@ -1133,8 +1133,7 @@
             "path": "transfer/channel-53/nanolike"
           }
         }
-      ],
-      "coingeckoId": "likecoin"
+      ]
     },
     {
       "description": "The native token of IXO Chain",
@@ -2841,8 +2840,7 @@
             "path": "transfer/channel-221/uatolo"
           }
         }
-      ],
-      "coingeckoId": "rizon"
+      ]
     },
     {
       "description": "Governance token of Kava Lend Protocol",
@@ -7975,8 +7973,7 @@
             "path": "transfer/channel-259/factory:kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7:umnta"
           }
         }
-      ],
-      "coingeckoId": "mantadao"
+      ]
     },
     {
       "denomUnits": [
@@ -8782,8 +8779,7 @@
             "path": "transfer/channel-259/factory:kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh:unstk"
           }
         }
-      ],
-      "coingeckoId": "unstake-fi"
+      ]
     },
     {
       "description": "ohhNFT LP token.",
@@ -11288,8 +11284,7 @@
             "path": "transfer/channel-74222/ufury"
           }
         }
-      ],
-      "coingeckoId": "fanfury"
+      ]
     },
     {
       "description": "The native staking and governance token of Saga.",

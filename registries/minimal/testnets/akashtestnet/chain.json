@@ -5,7 +5,7 @@
   "website": "https://akash.network/",
   "prettyName": "Sandbox",
   "chainType": "cosmos",
-  "chainId": "sandbox-01",
+  "chainId": "sandbox-2",
   "bech32Prefix": "akash",
   "slip44": 118,
   "fees": {
@@ -32,29 +32,32 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.sandbox-01.aksh.pw:443"
+        "address": "https://rpc.sandbox-2.aksh.pw:443"
       }
     ],
     "rest": [
       {
-        "address": "https://api.sandbox-01.aksh.pw:443"
+        "address": "https://api.sandbox-2.aksh.pw:443"
       }
     ],
     "grpc": [
       {
-        "address": "grpc.sandbox-01.aksh.pw:9090"
+        "address": "grpc.sandbox-2.aksh.pw:9090"
       }
     ]
   },
   "explorers": [
     {
       "kind": "ping.pub",
-      "url": "https://explorer.sandbox-01.aksh.pw/akash",
-      "txPage": "https://explorer.sandbox-01.aksh.pw/akash/tx/${txHash}"
+      "url": "https://explorer.sandbox-2.aksh.pw/akash",
+      "txPage": "https://explorer.sandbox-2.aksh.pw/akash/tx/${txHash}"
     }
   ],
   "images": [
     {
+      "imageSync": {
+        "chainName": "akash"
+      },
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
     }
