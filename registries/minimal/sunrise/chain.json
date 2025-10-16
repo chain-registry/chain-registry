@@ -111,6 +111,9 @@
       },
       {
         "address": "https://rpc-sunrise.veriznode.xyz"
+      },
+      {
+        "address": "https://rpc-sunrise.nagagininode.xyz"
       }
     ],
     "rest": [
@@ -182,6 +185,9 @@
       },
       {
         "address": "https://api-sunrise.veriznode.xyz"
+      },
+      {
+        "address": "https://api-sunrise.nagagininode.xyz"
       }
     ],
     "grpc": [
@@ -241,6 +247,9 @@
       },
       {
         "address": "grpc-sunrise.veriznode.xyz:443"
+      },
+      {
+        "address": "grpc-sunrise.nagagininode.xyz:443"
       }
     ]
   },
@@ -357,6 +366,12 @@
       "url": "https://explorer.veriznode.xyz/sunrise-mainnet",
       "txPage": "https://explorer.veriznode.xyz/sunrise-mainnet/tx/${txHash}",
       "accountPage": "https://explorer.veriznode.xyz/sunrise-mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "nagagini explorer",
+      "url": "https://explorer.nagagininode.xyz/sunrise-mainnet",
+      "txPage": "https://explorer.nagagininode.xyz/sunrise-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.nagagininode.xyz/sunrise-mainnet/${accountAddress}"
     }
   ],
   "images": [
