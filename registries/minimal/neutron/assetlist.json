@@ -905,6 +905,7 @@
       "name": "dNTRN",
       "display": "dNTRN",
       "symbol": "dNTRN",
+      "coingeckoId": "drop-staked-ntrn",
       "assetType": "sdk.coin"
     },
     {
@@ -1472,6 +1473,24 @@
       "name": "Cognitive Echo",
       "display": "eho",
       "symbol": "EHO"
+    },
+    {
+      "denomUnits": [
+        {
+          "denom": "factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc",
+          "exponent": 0
+        },
+        {
+          "denom": "maxBTC",
+          "exponent": 8
+        }
+      ],
+      "base": "factory/neutron17sp75wng9vl2hu3sf4ky86d7smmk3wle9gkts2gmedn9x4ut3xcqa5xp34/maxbtc",
+      "name": "maxBTC",
+      "display": "maxBTC",
+      "symbol": "maxBTC",
+      "coingeckoId": "maxbtc",
+      "assetType": "sdk.coin"
     }
   ]
 }
