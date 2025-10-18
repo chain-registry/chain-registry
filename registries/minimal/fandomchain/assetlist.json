@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "fandomchain",
+  "assets": [
+    {
+      "description": "FANDOMCHAIN is the native token of the FANDOMCHAIN Network",
+      "denomUnits": [
+        {
+          "denom": "ufandomChain",
+          "exponent": 0
+        },
+        {
+          "denom": "FANDOMCHAIN",
+          "exponent": 9
+        }
+      ],
+      "base": "ufandomChain",
+      "name": "FANDOMCHAIN",
+      "display": "FANDOMCHAIN",
+      "symbol": "FANDOMCHAIN",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

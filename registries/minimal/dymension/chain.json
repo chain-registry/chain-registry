@@ -99,7 +99,7 @@
         "address": "https://dymension-rpc.enigma-validator.com"
       },
       {
-        "address": "https://dymension-rpc.ibs.team"
+        "address": "https://dymension.ibs.team:443/rpc"
       },
       {
         "address": "https://dymension.nodejumper.io:443"
@@ -194,7 +194,7 @@
         "address": "https://dymension-lcd.enigma-validator.com"
       },
       {
-        "address": "https://dymension-api.ibs.team"
+        "address": "https://dymension.ibs.team:443/api"
       },
       {
         "address": "https://dymension.nodejumper.io:1317"
@@ -303,7 +303,7 @@
         "address": "https://dym-m-json.agoranodes.com"
       },
       {
-        "address": "https://dymension-jsonrpc.ibs.team"
+        "address": "https://dymension.ibs.team:443/ethrpc/"
       },
       {
         "address": "https://evm-dymension.hoodrun.io:8547"

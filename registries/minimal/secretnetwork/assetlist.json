@@ -58,7 +58,7 @@
       "base": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d",
       "name": "Shade (old)",
       "display": "shd",
-      "symbol": "SHD(old)"
+      "symbol": "SHD.old"
     },
     {
       "description": "The native token cw20 for Shade on Secret Network",

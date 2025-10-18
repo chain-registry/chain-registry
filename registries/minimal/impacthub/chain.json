@@ -54,7 +54,7 @@
         "address": "https://rpc.lavenderfive.com:443/impacthub"
       },
       {
-        "address": "https://ixo-rpc.ibs.team"
+        "address": "https://ixo.ibs.team/rpc"
       },
       {
         "address": "https://ixo-rpc.bluestake.net:443"
@@ -80,7 +80,7 @@
         "address": "https://rest.lavenderfive.com:443/impacthub"
       },
       {
-        "address": "https://ixo-api.ibs.team"
+        "address": "https://ixo.ibs.team/api"
       },
       {
         "address": "https://ixo-api.bluestake.net"

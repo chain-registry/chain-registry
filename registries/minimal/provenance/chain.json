@@ -54,7 +54,7 @@
         "address": "https://provenance-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://provenance-rpc.ibs.team"
+        "address": "https://provenance.ibs.team:443/rpc"
       },
       {
         "address": "https://provenance-rpc.highstakes.ch"
@@ -89,7 +89,7 @@
         "address": "https://api-provenance-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://provenance-api.ibs.team"
+        "address": "https://provenance.ibs.team:443/api"
       },
       {
         "address": "https://provenance-api.highstakes.ch"

@@ -109,7 +109,7 @@
       "base": "uedenb",
       "name": "Eden BOOST",
       "display": "edenb",
-      "symbol": "EDEN BOOST",
+      "symbol": "EDENBOOST",
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/eden-boost.png"
       },

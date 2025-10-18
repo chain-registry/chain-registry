@@ -62,7 +62,7 @@
         "address": "https://seda-rpc.kleomedes.network/"
       },
       {
-        "address": "https://seda-rpc.ibs.team:443"
+        "address": "https://seda.ibs.team:443/rpc"
       },
       {
         "address": "https://seda-mainnet-rpc.autostake.com:443"
@@ -124,7 +124,7 @@
         "address": "https://seda-api.kleomedes.network/"
       },
       {
-        "address": "https://seda-api.ibs.team:443"
+        "address": "https://seda.ibs.team:443/api"
       },
       {
         "address": "https://seda-mainnet-lcd.autostake.com:443"

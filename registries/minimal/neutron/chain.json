@@ -109,9 +109,6 @@
       },
       {
         "address": "https://neutron.drpc.org"
-      },
-      {
-        "address": "https://neutron-rpc.ibs.team"
       }
     ],
     "rest": [
@@ -153,9 +150,6 @@
       },
       {
         "address": "https://api.neutron.quokkastake.io"
-      },
-      {
-        "address": "https://neutron-api.ibs.team"
       }
     ],
     "grpc": [

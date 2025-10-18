@@ -61,7 +61,7 @@
         "address": "https://rpc-stargaze.cosmos-spaces.cloud"
       },
       {
-        "address": "https://stargaze-rpc.ibs.team"
+        "address": "https://stargaze.ibs.team:443/rpc"
       },
       {
         "address": "https://rpc-stargaze.d-stake.xyz"
@@ -120,7 +120,7 @@
         "address": "https://stargaze-api.polkachu.com"
       },
       {
-        "address": "https://stargaze-api.ibs.team"
+        "address": "https://stargaze.ibs.team:443/api"
       },
       {
         "address": "https://api-stargaze.d-stake.xyz"

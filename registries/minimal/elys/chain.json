@@ -95,7 +95,7 @@
         "address": "https://elys.rpc.m.stavr.tech:443"
       },
       {
-        "address": "https://elys-rpc.ibs.team"
+        "address": "https://elys.ibs.team:443/rpc"
       },
       {
         "address": "https://elys-rpc.cogwheel.zone:443"
@@ -119,7 +119,7 @@
         "address": "https://elys-rpc.node39.top:443"
       },
       {
-        "address": "https://rpc.elys.srvs.vnodesv.net"
+        "address": "https://elys.srvs.vnodesv.net/rpc"
       },
       {
         "address": "https://elys-rpc.kleomedes.network/"
@@ -160,7 +160,7 @@
         "address": "https://elys.api.m.stavr.tech"
       },
       {
-        "address": "https://elys-api.ibs.team"
+        "address": "https://elys.ibs.team:443/api"
       },
       {
         "address": "https://elys-api.cogwheel.zone:443"
@@ -184,7 +184,7 @@
         "address": "https://elys-api.node39.top:443"
       },
       {
-        "address": "https://rest.elys.srvs.vnodesv.net:443"
+        "address": "https://elys.srvs.vnodesv.net/rest"
       },
       {
         "address": "https://elys-api.kleomedes.network/"
@@ -237,7 +237,7 @@
         "address": "grpc.elys.node75.org:9210"
       },
       {
-        "address": "https://grpc.elys.srvs.vnodesv.net:443"
+        "address": "https://elys.srvs.vnodesv.net/grpc"
       }
     ]
   },

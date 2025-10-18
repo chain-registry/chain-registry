@@ -44,7 +44,7 @@
         "address": "https://kava-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://kava-rpc.ibs.team"
+        "address": "https://kava.ibs.team:443/rpc"
       },
       {
         "address": "https://rpc-kava-01.stakeflow.io"
@@ -73,7 +73,7 @@
         "address": "https://kava-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://kava-api.ibs.team"
+        "address": "https://kava.ibs.team:443/api"
       },
       {
         "address": "https://api-kava-01.stakeflow.io"

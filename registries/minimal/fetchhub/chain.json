@@ -51,7 +51,7 @@
         "address": "https://fetchhub-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://fetch-rpc.ibs.team"
+        "address": "https://fetch.ibs.team:443/rpc"
       },
       {
         "address": "https://fetch-rpc.cosmosrescue.com"
@@ -104,7 +104,7 @@
         "address": "https://rest-fetch.architectnodes.com"
       },
       {
-        "address": "https://fetch-api.ibs.team"
+        "address": "https://fetch.ibs.team:443/api"
       },
       {
         "address": "https://fetch-api.cosmosrescue.com"

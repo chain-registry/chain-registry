@@ -70,7 +70,7 @@
         "address": "https://atomone_mainnet_rpc.chain.whenmoonwhenlambo.money"
       },
       {
-        "address": "https://atomone-rpc.ibs.team:443"
+        "address": "https://atomone.ibs.team:443/rpc"
       },
       {
         "address": "https://atomone-mainnet-rpc.autostake.com:443"
@@ -147,7 +147,7 @@
         "address": "https://atomone_mainnet_api.chain.whenmoonwhenlambo.money"
       },
       {
-        "address": "https://atomone-api.ibs.team:443"
+        "address": "https://atomone.ibs.team:443/api"
       },
       {
         "address": "https://atomone-mainnet-lcd.autostake.com:443"

@@ -48,7 +48,7 @@
         "address": "https://rpc-bandchain-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://band-rpc.ibs.team/"
+        "address": "https://band.ibs.team:443/rpc"
       },
       {
         "address": "https://bandchain-mainnet-rpc.autostake.com:443"
@@ -89,7 +89,7 @@
         "address": "https://api-bandchain-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://band-api.ibs.team/"
+        "address": "https://band.ibs.team:443/api"
       },
       {
         "address": "https://api-band.cosmos-spaces.cloud"

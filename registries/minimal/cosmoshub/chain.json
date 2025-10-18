@@ -159,7 +159,7 @@
         "address": "https://cosmoshub.rpc.quasarstaking.ai"
       },
       {
-        "address": "https://cosmos-rpc.ibs.team"
+        "address": "https://cosmos.ibs.team:443/rpc"
       },
       {
         "address": "https://rpc.cosmoshub-4-archive.citizenweb3.com:443"
@@ -257,7 +257,7 @@
         "address": "https://cosmoshub.api.quasarstaking.ai"
       },
       {
-        "address": "https://cosmos-api.ibs.team"
+        "address": "https://cosmos.ibs.team:443/api"
       },
       {
         "address": "https://api.cosmoshub-4-archive.citizenweb3.com:443"

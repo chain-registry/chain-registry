@@ -95,7 +95,7 @@
         "address": "https://axelar-rpc.rockrpc.net/"
       },
       {
-        "address": "https://axelar-rpc.ibs.team"
+        "address": "https://axelar.ibs.team:443/rpc"
       },
       {
         "address": "https://rpc-axelar-01.stakeflow.io"
@@ -154,7 +154,7 @@
         "address": "https://axelar.lcd.quantnode.xyz/"
       },
       {
-        "address": "https://axelar-api.ibs.team"
+        "address": "https://axelar.ibs.team:443/api"
       },
       {
         "address": "https://api-axelar-01.stakeflow.io"

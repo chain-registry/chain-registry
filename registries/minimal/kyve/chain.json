@@ -55,7 +55,7 @@
         "address": "https://rpc-kyve.imperator.co"
       },
       {
-        "address": "https://kyve-rpc.ibs.team"
+        "address": "https://kyve.ibs.team:443/rpc"
       },
       {
         "address": "https://rpc.kyve.nodestake.org"
@@ -96,7 +96,7 @@
         "address": "https://kyve.api.m.stavr.tech"
       },
       {
-        "address": "https://kyve-api.ibs.team"
+        "address": "https://kyve.ibs.team:443/api"
       },
       {
         "address": "https://api.kyve.nodestake.org"

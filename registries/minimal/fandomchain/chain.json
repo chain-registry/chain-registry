@@ -1,0 +1,68 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "fandomchain",
+  "networkType": "mainnet",
+  "website": "https://fandom-chain-website.vercel.app",
+  "prettyName": "fandomChain",
+  "chainType": "cosmos",
+  "chainId": "fandomChain",
+  "bech32Prefix": "cosmos",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ufandomChain",
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ufandomChain"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.53.3"
+    }
+  },
+  "description": "FandomChain is the L1 blockchain dedicated to streamers.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.fandomchain.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.fandomchain.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.fandomchain.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Ping",
+      "url": "https://explorer.fandomchain.com",
+      "txPage": "https://explorer.fandomchain.com/fandomchain/transactions/${txHash}",
+      "accountPage": "https://explorer.fandomchain.com/fandomchain/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fandomchain/images/fandomchain.png"
+    }
+  ]
+}

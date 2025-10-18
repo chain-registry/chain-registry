@@ -190,9 +190,6 @@
         "address": "https://public.stakewolle.com/cosmos/stride/rpc"
       },
       {
-        "address": "https://stride-rpc.ibs.team"
-      },
-      {
         "address": "https://stride.rpc.quasarstaking.ai:443"
       }
     ],
@@ -244,9 +241,6 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/stride/rest"
-      },
-      {
-        "address": "https://stride-api.ibs.team"
       },
       {
         "address": "https://stride.api.quasarstaking.ai:443"

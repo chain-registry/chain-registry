@@ -81,7 +81,7 @@
         "address": "https://coreum-rpc.genznodes.dev"
       },
       {
-        "address": "https://coreum-rpc.ibs.team"
+        "address": "https://coreum.ibs.team:443/rpc"
       },
       {
         "address": "https://public.stakewolle.com/cosmos/coreum/rpc"
@@ -136,7 +136,7 @@
         "address": "https://coreum-api.genznodes.dev"
       },
       {
-        "address": "https://coreum-api.ibs.team"
+        "address": "https://coreum.ibs.team:443/api"
       },
       {
         "address": "https://public.stakewolle.com/cosmos/coreum/rest"

@@ -1,0 +1,75 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "optio",
+  "networkType": "mainnet",
+  "website": "https://www.optio.community/",
+  "prettyName": "Optio",
+  "chainType": "cosmos",
+  "chainId": "optio",
+  "bech32Prefix": "optio",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uOPT",
+        "fixedMinGasPrice": 1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uOPT"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.12",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "tag": "v0.50.12"
+    }
+  },
+  "images": [
+    {
+      "imageSync": {
+        "chainName": "optio",
+        "baseDenom": "uOPT"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/optio/images/opt.png"
+    }
+  ],
+  "description": "Optio empowers people worldwide with decentralized tools for data ownership, fair rewards, and freedom of digital expression.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.optio.zone:443"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.optio.zone:443"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.optio.zone:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Big Dipper",
+      "url": "https://optioscan.io",
+      "txPage": "https://optioscan.io/optio/transactions",
+      "accountPage": "https://optioscan.io/optio/accounts/${accountAddress}"
+    }
+  ]
+}

@@ -160,7 +160,7 @@
         "address": "https://rpc-kujira-ia.cosmosia.notional.ventures/"
       },
       {
-        "address": "https://kujira-rpc.ibs.team/"
+        "address": "https://kujira.ibs.team:443/rpc"
       },
       {
         "address": "https://rpc-kujira.starsquid.io"
@@ -213,7 +213,7 @@
         "address": "https://kujira-lcd.wildsage.io/"
       },
       {
-        "address": "https://kujira-api.ibs.team/"
+        "address": "https://kujira.ibs.team:443/api"
       },
       {
         "address": "https://api-kujira.starsquid.io"
