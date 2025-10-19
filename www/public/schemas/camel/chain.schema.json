@@ -164,9 +164,6 @@
               "circle": {
                 "type": "boolean"
               },
-              "monochrome": {
-                "type": "boolean"
-              },
               "darkMode": {
                 "type": "boolean"
               }

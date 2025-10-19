@@ -292,9 +292,6 @@
               },
               "dark_mode": {
                 "type": "boolean"
-              },
-              "monochrome": {
-                "type": "boolean"
               }
             },
             "minProperties": 1,

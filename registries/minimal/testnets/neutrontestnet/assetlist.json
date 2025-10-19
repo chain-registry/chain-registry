@@ -196,6 +196,24 @@
       "display": "TEST6",
       "symbol": "TEST6",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Drop dTIA token",
+      "denomUnits": [
+        {
+          "denom": "factory/neutron1qex378awvwhsxealmrtuunn70f242u49dagqus6ug423paxyevyqvw9s3t/uTIA",
+          "exponent": 0
+        },
+        {
+          "denom": "dTIA",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/neutron1qex378awvwhsxealmrtuunn70f242u49dagqus6ug423paxyevyqvw9s3t/uTIA",
+      "name": "Drop dTIA testnet",
+      "display": "dTIA",
+      "symbol": "dTIA",
+      "assetType": "sdk.coin"
     }
   ]
 }
