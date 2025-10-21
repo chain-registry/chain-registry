@@ -59,9 +59,6 @@
         "address": "https://rpc.planq.roomit.xyz"
       },
       {
-        "address": "https://planq-rpc.genznodes.dev"
-      },
-      {
         "address": "https://planq.rpc.skynodejs.net"
       },
       {
@@ -92,9 +89,6 @@
       },
       {
         "address": "https://api.planq.roomit.xyz"
-      },
-      {
-        "address": "https://planq-api.genznodes.dev"
       },
       {
         "address": "https://planq.api.skynodejs.net"
@@ -138,9 +132,6 @@
         "address": "https://grpc.planq.hexnodes.co:33090"
       },
       {
-        "address": "planq-grpc.genznodes.dev:28090"
-      },
-      {
         "address": "https://planq.grpc.skynodejs.net"
       },
       {
@@ -162,9 +153,6 @@
       },
       {
         "address": "https://jsonrpc.planq.nodexcapital.com"
-      },
-      {
-        "address": "https://planq-rpc-evm.genznodes.dev"
       },
       {
         "address": "https://planq-jsonrpc.stake-town.com"

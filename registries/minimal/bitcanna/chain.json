@@ -59,9 +59,6 @@
         "address": "https://bitcanna.rpc.kjnodes.com/"
       },
       {
-        "address": "https://bitcanna-rpc.genznodes.dev/"
-      },
-      {
         "address": "https://rpc.bitcanna-1.bitcanna.aviaone.com/"
       },
       {
@@ -184,9 +181,6 @@
       },
       {
         "address": "https://bitcanna.api.kjnodes.com"
-      },
-      {
-        "address": "https://bitcanna-api.genznodes.dev"
       },
       {
         "address": "https://api.bitcanna-1.bitcanna.aviaone.com"

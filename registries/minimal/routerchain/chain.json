@@ -49,9 +49,6 @@
         "address": "https://sentry.tm.rpc.routerprotocol.com/"
       },
       {
-        "address": "https://router-rpc.genznodes.dev/"
-      },
-      {
         "address": "https://router.rpc.nodeshub.online:443"
       },
       {
@@ -67,9 +64,6 @@
     "rest": [
       {
         "address": "https://sentry.lcd.routerprotocol.com/"
-      },
-      {
-        "address": "https://router-api.genznodes.dev/"
       },
       {
         "address": "https://router.api.nodeshub.online"
@@ -89,9 +83,6 @@
         "address": "sentry.grpc.routerprotocol.com:9090"
       },
       {
-        "address": "router-grpc.genznodes.dev:3090"
-      },
-      {
         "address": "router.grpc.nodeshub.online"
       },
       {
@@ -104,9 +95,6 @@
     "evmHttpJsonrpc": [
       {
         "address": "https://sentry.evm.rpc.routerprotocol.com"
-      },
-      {
-        "address": "https://router-rpc-evm.genznodes.dev"
       },
       {
         "address": "https://routerchain_mainnet_evm.chain.whenmoonwhenlambo.money"
