@@ -3,6 +3,7 @@
   "title": "IBCData",
   "type": "object",
   "required": [
+    "$schema",
     "chain1",
     "chain2",
     "channels"

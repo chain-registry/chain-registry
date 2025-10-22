@@ -5,6 +5,7 @@
   "description": "Chain.json is a metadata file that contains information about a blockchain.",
   "type": "object",
   "required": [
+    "$schema",
     "chain_name",
     "chain_type"
   ],
