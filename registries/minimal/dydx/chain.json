@@ -40,8 +40,8 @@
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/dydxprotocol/cosmos-sdk",
-      "version": "v0.50.6",
-      "tag": "v0.50.6-0.20250918154803-8e8ecbb19aa4"
+      "version": "v0.50.11",
+      "tag": "v0.50.6-0.20251014211237-3a1ba0aabac3"
     }
   },
   "description": "Our goal is to build open source code that can power a first class product and trading experience.",

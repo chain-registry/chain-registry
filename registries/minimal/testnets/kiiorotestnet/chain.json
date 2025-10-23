@@ -76,5 +76,10 @@
       "url": "https://explorer.kiichain.io/",
       "accountPage": "https://explorer.kiichain.io/account/${accountAddress}"
     }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/kiiorotestnet/images/kii_oro.png"
+    }
   ]
 }
