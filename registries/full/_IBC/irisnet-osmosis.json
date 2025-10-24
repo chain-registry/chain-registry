@@ -2,11 +2,13 @@
   "$schema": "../ibc_data.schema.json",
   "chain1": {
     "chainName": "irisnet",
+    "chainId": "irishub-1",
     "clientId": "07-tendermint-5",
     "connectionId": "connection-4"
   },
   "chain2": {
     "chainName": "osmosis",
+    "chainId": "osmosis-1",
     "clientId": "07-tendermint-5",
     "connectionId": "connection-6"
   },

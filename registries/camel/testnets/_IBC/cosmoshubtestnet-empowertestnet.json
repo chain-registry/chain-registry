@@ -2,11 +2,13 @@
   "$schema": "../../ibc_data.schema.json",
   "chain1": {
     "chainName": "cosmoshubtestnet",
+    "chainId": "theta-testnet-001",
     "clientId": "07-tendermint-2073",
     "connectionId": "connection-2418"
   },
   "chain2": {
     "chainName": "empowertestnet",
+    "chainId": "circulus-1",
     "clientId": "07-tendermint-3",
     "connectionId": "connection-2"
   },

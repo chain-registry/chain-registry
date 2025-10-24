@@ -2,11 +2,13 @@
   "$schema": "../ibc_data.schema.json",
   "chain1": {
     "chainName": "composablepolkadot",
+    "chainId": "2019",
     "clientId": "10-grandpa-28",
     "connectionId": "connection-23"
   },
   "chain2": {
     "chainName": "picasso",
+    "chainId": "2087",
     "clientId": "10-grandpa-28",
     "connectionId": "connection-23"
   },

@@ -2,11 +2,13 @@
   "$schema": "../../ibc_data.schema.json",
   "chain1": {
     "chainName": "osmosistestnet",
+    "chainId": "osmo-test-5",
     "clientId": "07-tendermint-1274",
     "connectionId": "connection-1175"
   },
   "chain2": {
     "chainName": "stargazetestnet",
+    "chainId": "elgafar-1",
     "clientId": "07-tendermint-621",
     "connectionId": "connection-633"
   },

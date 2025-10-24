@@ -2,11 +2,13 @@
   "$schema": "../ibc_data.schema.json",
   "chain1": {
     "chainName": "comdex",
+    "chainId": "comdex-1",
     "clientId": "07-tendermint-139",
     "connectionId": "connection-71"
   },
   "chain2": {
     "chainName": "migaloo",
+    "chainId": "migaloo-1",
     "clientId": "07-tendermint-25",
     "connectionId": "connection-24"
   },

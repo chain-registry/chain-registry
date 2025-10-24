@@ -546,22 +546,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "http://79.173.83.234:26657"
-      },
-      {
         "address": "https://rpc.osmosis.zone/"
-      },
-      {
-        "address": "https://rpc-osmosis.blockapsis.com"
-      },
-      {
-        "address": "https://osmosis-rpc.onivalidator.com"
-      },
-      {
-        "address": "https://osmosis-rpc.quickapi.com:443"
-      },
-      {
-        "address": "https://rpc-osmosis.whispernode.com:443"
       },
       {
         "address": "https://rpc.lavenderfive.com:443/osmosis"
@@ -570,28 +555,10 @@
         "address": "https://rpc-osmosis.ecostake.com"
       },
       {
-        "address": "https://rpc-osmosis.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://osmosis-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc-osmosis-ia.cosmosia.notional.ventures"
-      },
-      {
         "address": "https://osmosis.rpc.stakin-nodes.com"
-      },
-      {
-        "address": "https://osmosis-mainnet-rpc.autostake.com:443"
-      },
-      {
-        "address": "https://osmosis.api.onfinality.io/public"
-      },
-      {
-        "address": "https://rpc-osmosis-01.stakeflow.io"
-      },
-      {
-        "address": "https://osmosis-rpc.w3coins.io"
       },
       {
         "address": "https://osmosis-rpc.publicnode.com:443"
@@ -606,19 +573,7 @@
         "address": "https://osmosis-rpc.stake-town.com"
       },
       {
-        "address": "https://osmosis-mainnet.rpc.l0vd.com:443"
-      },
-      {
-        "address": "https://osmosis-rpc.reece.sh"
-      },
-      {
         "address": "https://rpc.osmosis.validatus.com"
-      },
-      {
-        "address": "https://rpc.osmosis.bronbro.io:443"
-      },
-      {
-        "address": "https://osmosis.interstellar-lounge.org"
       },
       {
         "address": "https://public.stakewolle.com/cosmos/osmosis/rpc"
@@ -627,25 +582,10 @@
         "address": "https://rpc.cros-nest.com/osmosis"
       },
       {
-        "address": "https://rpc-osmo.kewrnode.com"
-      },
-      {
         "address": "https://rpc.osmosis.goldenratiostaking.net"
       },
       {
         "address": "https://osmosis-rpc.noders.services"
-      },
-      {
-        "address": "https://osmosis.drpc.org"
-      },
-      {
-        "address": "https://osmosis-rpc.chainroot.io"
-      },
-      {
-        "address": "https://osmosis.rpc.quasarstaking.ai:443"
-      },
-      {
-        "address": "https://osmosis-mainnet-tendermint.reliableninjas.com"
       },
       {
         "address": "https://osmosis-rpc.highstakes.ch"
@@ -653,19 +593,10 @@
     ],
     "rest": [
       {
-        "address": "http://79.173.83.234:1317"
-      },
-      {
         "address": "https://lcd.osmosis.zone/"
       },
       {
         "address": "https://rest.osmosis.goldenratiostaking.net"
-      },
-      {
-        "address": "https://osmosis-lcd.quickapi.com:443"
-      },
-      {
-        "address": "https://lcd-osmosis.blockapsis.com"
       },
       {
         "address": "https://rest.lavenderfive.com:443/osmosis"
@@ -674,28 +605,10 @@
         "address": "https://rest-osmosis.ecostake.com"
       },
       {
-        "address": "https://api-osmosis-ia.cosmosia.notional.ventures"
-      },
-      {
-        "address": "https://api-osmosis.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://osmosis-api.polkachu.com"
       },
       {
         "address": "https://osmosis.rest.stakin-nodes.com"
-      },
-      {
-        "address": "https://osmosis-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://api-osmosis-01.stakeflow.io"
-      },
-      {
-        "address": "https://osmosis-api.w3coins.io"
-      },
-      {
-        "address": "https://lcd-osmosis.whispernode.com:443"
       },
       {
         "address": "https://osmosis-rest.publicnode.com"
@@ -707,16 +620,7 @@
         "address": "https://osmosis-api.stake-town.com"
       },
       {
-        "address": "https://osmosis-api.reece.sh"
-      },
-      {
         "address": "https://api.osmosis.validatus.com:443"
-      },
-      {
-        "address": "https://lcd.osmosis.bronbro.io:443"
-      },
-      {
-        "address": "https://osmosis-rest.interstellar-lounge.org"
       },
       {
         "address": "https://public.stakewolle.com/cosmos/osmosis/rest"
@@ -725,19 +629,7 @@
         "address": "https://rest.cros-nest.com/osmosis"
       },
       {
-        "address": "https://rest-osmo.kewrnode.com"
-      },
-      {
         "address": "https://osmosis-api.noders.services"
-      },
-      {
-        "address": "https://osmosis-api.chainroot.io"
-      },
-      {
-        "address": "https://osmosis.api.quasarstaking.ai:443"
-      },
-      {
-        "address": "https://osmosis-mainnet-cosmos.reliableninjas.com"
       },
       {
         "address": "https://osmosis-api.highstakes.ch"
@@ -748,28 +640,10 @@
         "address": "osmosis.lavenderfive.com:443"
       },
       {
-        "address": "grpc-osmosis-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "osmosis.grpc.stakin-nodes.com:443"
       },
       {
-        "address": "osmosis-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "grpc-osmosis.cosmos-spaces.cloud:1130"
-      },
-      {
         "address": "grpc-osmosis-01.stakeflow.io:6754"
-      },
-      {
-        "address": "services.staketab.com:9010"
-      },
-      {
-        "address": "osmosis-grpc.w3coins.io:12590"
-      },
-      {
-        "address": "grpc-osmosis.mms.team:443"
       },
       {
         "address": "osmosis-grpc.publicnode.com:443"
@@ -778,28 +652,7 @@
         "address": "osmosis-grpc.stake-town.com:443"
       },
       {
-        "address": "https://grpc-osmosis.nodeist.net"
-      },
-      {
-        "address": "osmosis-mainnet.grpc.l0vd.com:80"
-      },
-      {
-        "address": "grpc-osmosis.whispernode.com:443"
-      },
-      {
         "address": "grpc.osmosis.validatus.com:443"
-      },
-      {
-        "address": "https://grpc.osmosis.bronbro.io:443"
-      },
-      {
-        "address": "osmosis-grpc.noders.services:10090"
-      },
-      {
-        "address": "osmosis-grpc.chainroot.io:443"
-      },
-      {
-        "address": "osmosis.grpc.quasarstaking.ai:443"
       }
     ]
   },

@@ -2,11 +2,13 @@
   "$schema": "../ibc_data.schema.json",
   "chain1": {
     "chainName": "composable",
+    "chainId": "centauri-1",
     "clientId": "07-tendermint-7",
     "connectionId": "connection-7"
   },
   "chain2": {
     "chainName": "cosmoshub",
+    "chainId": "cosmoshub-4",
     "clientId": "07-tendermint-1150",
     "connectionId": "connection-871"
   },

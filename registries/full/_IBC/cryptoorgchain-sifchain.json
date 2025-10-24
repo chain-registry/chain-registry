@@ -2,11 +2,13 @@
   "$schema": "../ibc_data.schema.json",
   "chain1": {
     "chainName": "cryptoorgchain",
+    "chainId": "crypto-org-chain-mainnet-1",
     "clientId": "07-tendermint-1103",
     "connectionId": "connection-239"
   },
   "chain2": {
     "chainName": "sifchain",
+    "chainId": "sifchain-1",
     "clientId": "07-tendermint-20",
     "connectionId": "connection-10"
   },

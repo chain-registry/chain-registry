@@ -2,11 +2,13 @@
   "$schema": "../ibc_data.schema.json",
   "chain1": {
     "chainName": "persistence",
+    "chainId": "core-1",
     "clientId": "07-tendermint-39",
     "connectionId": "connection-39"
   },
   "chain2": {
     "chainName": "starname",
+    "chainId": "iov-mainnet-ibc",
     "clientId": "07-tendermint-44",
     "connectionId": "connection-30"
   },

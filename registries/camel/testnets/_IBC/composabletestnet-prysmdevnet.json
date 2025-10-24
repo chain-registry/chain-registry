@@ -2,11 +2,13 @@
   "$schema": "../../ibc_data.schema.json",
   "chain1": {
     "chainName": "composabletestnet",
+    "chainId": "banksy-testnet-3",
     "clientId": "07-tendermint-218",
     "connectionId": "connection-127"
   },
   "chain2": {
     "chainName": "prysmdevnet",
+    "chainId": "prysm-devnet-1",
     "clientId": "07-tendermint-6",
     "connectionId": "connection-3"
   },

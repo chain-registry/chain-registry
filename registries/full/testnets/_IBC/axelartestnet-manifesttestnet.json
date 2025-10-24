@@ -2,11 +2,13 @@
   "$schema": "../../ibc_data.schema.json",
   "chain1": {
     "chainName": "axelartestnet",
+    "chainId": "axelar-testnet-lisbon-3",
     "clientId": "07-tendermint-1090",
     "connectionId": "connection-847"
   },
   "chain2": {
     "chainName": "manifesttestnet",
+    "chainId": "manifest-ledger-testnet",
     "clientId": "07-tendermint-9",
     "connectionId": "connection-10"
   },

@@ -2,11 +2,13 @@
   "$schema": "../ibc_data.schema.json",
   "chain1": {
     "chainName": "kujira",
+    "chainId": "kaiyo-1",
     "clientId": "07-tendermint-108",
     "connectionId": "connection-78"
   },
   "chain2": {
     "chainName": "omniflixhub",
+    "chainId": "omniflixhub-1",
     "clientId": "07-tendermint-43",
     "connectionId": "connection-36"
   },

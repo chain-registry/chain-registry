@@ -52,6 +52,9 @@
       },
       {
         "address": "https://rpc.axone.nodestake.org"
+      },
+      {
+        "address": "https://rpc.cros-nest.com:443/axone"
       }
     ],
     "rest": [
@@ -66,6 +69,9 @@
       },
       {
         "address": "https://api.axone.nodestake.org"
+      },
+      {
+        "address": "https://rest.cros-nest.com:443/axone"
       }
     ],
     "grpc": [
