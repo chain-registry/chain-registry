@@ -511,7 +511,7 @@
         },
         {
           "denom": "wbtc",
-          "exponent": 18
+          "exponent": 8
         }
       ],
       "assetType": "ics20",

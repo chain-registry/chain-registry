@@ -1,0 +1,23 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "daodiseotestnet",
+  "assets": [
+    {
+      "denomUnits": [
+        {
+          "denom": "uodis",
+          "exponent": 0
+        },
+        {
+          "denom": "ODIS",
+          "exponent": 6
+        }
+      ],
+      "base": "uodis",
+      "name": "Odis",
+      "display": "ODIS",
+      "symbol": "ODIS",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
