@@ -7,7 +7,7 @@
   "prettyName": "fandomChain",
   "chainType": "cosmos",
   "chainId": "fandomChain",
-  "bech32Prefix": "cosmos",
+  "bech32Prefix": "fandom",
   "daemonName": "fandomChaind",
   "nodeHome": "$HOME/.fandomChaind",
   "keyAlgos": [
@@ -63,14 +63,14 @@
   "peers": {
     "seeds": [
       {
-        "id": "9d8481536e7bdd63c854f60dff1887c742f5f9b5",
+        "id": "1fcb80b277e98b2399053177741b3ce648756f25",
         "address": "51.91.102.167",
         "provider": "FandomChain"
       }
     ],
     "persistentPeers": [
       {
-        "id": "9d8481536e7bdd63c854f60dff1887c742f5f9b5",
+        "id": "1fcb80b277e98b2399053177741b3ce648756f25",
         "address": "51.91.102.167",
         "provider": "FandomChain"
       }

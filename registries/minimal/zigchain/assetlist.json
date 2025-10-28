@@ -29,6 +29,16 @@
       "name": "ZIG",
       "display": "zig",
       "symbol": "ZIG",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+          },
+          "provider": "ZIGChain"
+        }
+      ],
       "coingeckoId": "zignaly"
     },
     {
@@ -171,8 +181,7 @@
             "path": "transfer/channel-1/unit-zig"
           }
         }
-      ],
-      "coingeckoId": "zignaly"
+      ]
     }
   ]
 }

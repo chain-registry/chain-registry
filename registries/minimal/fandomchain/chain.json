@@ -6,7 +6,7 @@
   "prettyName": "fandomChain",
   "chainType": "cosmos",
   "chainId": "fandomChain",
-  "bech32Prefix": "cosmos",
+  "bech32Prefix": "fandom",
   "keyAlgos": [
     "secp256k1"
   ],

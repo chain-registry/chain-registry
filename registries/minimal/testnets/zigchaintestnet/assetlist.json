@@ -28,6 +28,16 @@
       "name": "ZIG",
       "display": "zig",
       "symbol": "ZIG",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "zigchain",
+            "baseDenom": "uzig"
+          },
+          "provider": "ZIGChain"
+        }
+      ],
       "coingeckoId": "zignaly",
       "assetType": "sdk.coin"
     },
@@ -47,6 +57,16 @@
       "name": "Staked Zig",
       "display": "stzig",
       "symbol": "STZIG",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "zigchain",
+            "baseDenom": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig"
+          },
+          "provider": "ZIGChain"
+        }
+      ],
       "assetType": "sdk.coin"
     },
     {
