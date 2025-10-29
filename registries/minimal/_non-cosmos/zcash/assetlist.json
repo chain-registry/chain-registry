@@ -1,0 +1,25 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "zcash",
+  "assets": [
+    {
+      "description": "Zcash is a privacy-focused cryptocurrency that uses advanced cryptography to provide enhanced transaction privacy.",
+      "denomUnits": [
+        {
+          "denom": "zatoshi",
+          "exponent": 0
+        },
+        {
+          "denom": "zec",
+          "exponent": 8
+        }
+      ],
+      "assetType": "bitcoin-like",
+      "base": "zatoshi",
+      "name": "Zcash",
+      "display": "zec",
+      "symbol": "ZEC",
+      "coingeckoId": "zcash"
+    }
+  ]
+}
