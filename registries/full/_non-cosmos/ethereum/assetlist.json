@@ -1036,7 +1036,7 @@
       "symbol": "tBTC",
       "traces": [
         {
-          "type": "wrapped",
+          "type": "bridge",
           "counterparty": {
             "chainName": "bitcoin",
             "baseDenom": "sat"
