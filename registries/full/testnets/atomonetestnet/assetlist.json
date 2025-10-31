@@ -31,7 +31,7 @@
       "assetType": "sdk.coin",
       "socials": {
         "website": "https://atom.one",
-        "twitter": "https://x.com/_atomone"
+        "x": "https://x.com/_atomone"
       }
     },
     {
@@ -63,7 +63,7 @@
       "assetType": "sdk.coin",
       "socials": {
         "website": "https://atom.one",
-        "twitter": "https://x.com/_atomone"
+        "x": "https://x.com/_atomone"
       }
     }
   ]

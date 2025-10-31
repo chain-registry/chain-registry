@@ -33,7 +33,7 @@
       ],
       "socials": {
         "website": "https://ggez.one",
-        "twitter": "https://x.com/ggez_one"
+        "x": "https://x.com/ggez_one"
       },
       "typeAsset": "sdk.coin"
     },
@@ -68,7 +68,7 @@
       },
       "socials": {
         "website": "https://ggez.one",
-        "twitter": "https://x.com/ggez_one"
+        "x": "https://x.com/ggez_one"
       }
     }
   ]

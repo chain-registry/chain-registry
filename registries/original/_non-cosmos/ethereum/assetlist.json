@@ -773,7 +773,7 @@
       ],
       "socials": {
         "website": "https://tether.to/",
-        "twitter": "https://x.com/Tether_to"
+        "x": "https://x.com/Tether_to"
       }
     },
     {
@@ -1284,7 +1284,7 @@
       ],
       "socials": {
         "website": "https://pundix.com",
-        "twitter": "https://x.com/PundiXLabs"
+        "x": "https://x.com/PundiXLabs"
       }
     },
     {
@@ -1397,7 +1397,7 @@
       "coingecko_id": "pax-gold",
       "socials": {
         "website": "https://www.paxos.com/paxgold/",
-        "twitter": "https://twitter.com/paxosglobal"
+        "x": "https://x.com/paxosglobal"
       },
       "images": [
         {
@@ -1706,7 +1706,7 @@
       "coingecko_id": "ankr",
       "socials": {
         "website": "https://www.ankr.com",
-        "twitter": "https://x.com/ankr"
+        "x": "https://x.com/ankr"
       }
     },
     {
@@ -1737,7 +1737,7 @@
       ],
       "socials": {
         "website": "https://cacaoswap.app",
-        "twitter": "https://x.com/CacaoSwap"
+        "x": "https://x.com/CacaoSwap"
       }
     },
     {
@@ -1831,7 +1831,7 @@
       ],
       "socials": {
         "website": "https://monerium.com/",
-        "twitter": "https://x.com/monerium"
+        "x": "https://x.com/monerium"
       }
     },
     {
@@ -1875,7 +1875,7 @@
       ],
       "socials": {
         "website": "https://lombard.finance",
-        "twitter": "https://x.com/Lombard_Finance"
+        "x": "https://x.com/Lombard_Finance"
       }
     },
     {
@@ -1926,7 +1926,7 @@
       ],
       "socials": {
         "website": "https://www.movementnetwork.xyz/",
-        "twitter": "https://twitter.com/movementfdn"
+        "x": "https://x.com/movementfdn"
       }
     },
     {
