@@ -69,6 +69,9 @@
       },
       {
         "address": "https://bitway.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://bitway.rpc.mandragora.io"
       }
     ],
     "rest": [
@@ -92,6 +95,9 @@
       },
       {
         "address": "https://bitway.api.m.stavr.tech"
+      },
+      {
+        "address": "https://bitway.api.mandragora.io"
       }
     ],
     "grpc": [
@@ -112,6 +118,9 @@
       },
       {
         "address": "bitway-mainnet-grpc.itrocket.net:443"
+      },
+      {
+        "address": "http://bitway.grpc.mandragora.io:9079"
       }
     ]
   },

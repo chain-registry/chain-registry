@@ -82,6 +82,9 @@
       },
       {
         "address": "https://terra-rpc.chainroot.io"
+      },
+      {
+        "address": "https://terra-rpc.node39.top"
       }
     ],
     "rest": [
@@ -117,6 +120,9 @@
       },
       {
         "address": "https://terra-api.chainroot.io"
+      },
+      {
+        "address": "https://terra-api.node39.top"
       }
     ],
     "grpc": [
@@ -146,6 +152,9 @@
       },
       {
         "address": "terra-grpc.chainroot.io:443"
+      },
+      {
+        "address": "terra-grpc.node39.top:443"
       }
     ]
   },
@@ -190,6 +199,12 @@
       "url": "https://explorer.chainroot.io/terra",
       "txPage": "https://explorer.chainroot.io/terra/transactions/${txHash}",
       "accountPage": "https://explorer.chainroot.io/terra/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Node39",
+      "url": "https://explorer.node39.top/terra",
+      "txPage": "https://explorer.node39.top/terra/transactions/${txHash}",
+      "accountPage": "https://explorer.node39.top/terra/accounts/${accountAddress}"
     }
   ],
   "images": [

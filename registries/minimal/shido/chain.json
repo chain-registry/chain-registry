@@ -52,6 +52,9 @@
         "address": "https://shidochain_mainnet_rpc.chain.whenmoonwhenlambo.money"
       },
       {
+        "address": "https://rpc-shido.onenov.xyz"
+      },
+      {
         "address": "https://rpc.shido.256x25.tech:443"
       },
       {
@@ -76,6 +79,9 @@
       },
       {
         "address": "https://shidochain_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://api-shido.onenov.xyz"
       },
       {
         "address": "https://rest.shido.256x25.tech:443"
@@ -149,6 +155,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/shido",
       "txPage": "https://explorer.whenmoonwhenlambo.money/shido/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/shido/account/${accountAddress}"
+    },
+    {
+      "kind": "OneNov",
+      "url": "https://explorer.onenov.xyz/shido",
+      "txPage": "https://explorer.onenov.xyz/shido/tx/${txHash}",
+      "accountPage": "https://explorer.onenov.xyz/shido/account/${accountAddress}"
     },
     {
       "kind": "256x25",

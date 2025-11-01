@@ -43,11 +43,17 @@
       },
       {
         "address": "https://cnhostables_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://rpc-cnho.onenov.xyz"
       }
     ],
     "rest": [
       {
         "address": "https://api.cnho.io"
+      },
+      {
+        "address": "https://api-cnho.onenov.xyz"
       },
       {
         "address": "https://cnhostables_mainnet_api.chain.whenmoonwhenlambo.money"
@@ -56,6 +62,9 @@
     "grpc": [
       {
         "address": "159.138.232.248:9090"
+      },
+      {
+        "address": "grpc-cnho.onenov.xyz:9191"
       }
     ]
   },
@@ -70,6 +79,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/cnhostables",
       "txPage": "https://explorer.whenmoonwhenlambo.money/cnhostables/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/cnhostables/account/${accountAddress}"
+    },
+    {
+      "kind": "OneNov",
+      "url": "https://explorer.onenov.xyz/cnho",
+      "txPage": "https://explorer.onenov.xyz/cnho/tx/${txHash}",
+      "accountPage": "https://explorer.onenov.xyz/cnho/account/${accountAddress}"
     }
   ],
   "images": [
