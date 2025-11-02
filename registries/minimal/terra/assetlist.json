@@ -4333,6 +4333,25 @@
       "name": "Lunctoken",
       "display": "ltk",
       "symbol": "LTK"
+    },
+    {
+      "description": "GRDX is the native utility token powering the DeFi, marketplace, and gaming ecosystem on the Terra Classic blockchain.",
+      "assetType": "cw20",
+      "address": "terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw",
+      "denomUnits": [
+        {
+          "denom": "cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw",
+          "exponent": 0
+        },
+        {
+          "denom": "GRDX",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw",
+      "name": "GRDX",
+      "display": "GRDX",
+      "symbol": "GRDX"
     }
   ]
 }
