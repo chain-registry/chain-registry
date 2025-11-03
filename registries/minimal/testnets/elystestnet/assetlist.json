@@ -41,7 +41,6 @@
           "provider": "Elys Network"
         }
       ],
-      "coingeckoId": "elys-network",
       "assetType": "sdk.coin"
     },
     {

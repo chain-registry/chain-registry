@@ -246,8 +246,7 @@
             "path": "transfer/channel-9/uelys"
           }
         }
-      ],
-      "coingeckoId": "elys-network"
+      ]
     },
     {
       "description": "Arbitrum from Axelar",

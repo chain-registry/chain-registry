@@ -31,7 +31,6 @@
       "name": "Elys Network",
       "display": "elys",
       "symbol": "ELYS",
-      "coingeckoId": "elys-network",
       "assetType": "sdk.coin"
     },
     {
