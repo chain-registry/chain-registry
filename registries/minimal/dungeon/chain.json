@@ -29,6 +29,9 @@
       },
       {
         "address": "https://dungeon_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://rpc.dungeon.chaintools.tech"
       }
     ],
     "rest": [
@@ -43,11 +46,17 @@
       },
       {
         "address": "https://dungeon_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://api.dungeon.chaintools.tech"
       }
     ],
     "grpc": [
       {
-        "address": "dungeon.grpc.quasarstaking.ai"
+        "address": "dungeon.grpc.quasarstaking.ai:80"
+      },
+      {
+        "address": "grpc.dungeon.chaintools.tech:443"
       }
     ]
   },
@@ -63,6 +72,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/dungeon",
       "txPage": "https://explorer.whenmoonwhenlambo.money/dungeon/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/dungeon/account/${accountAddress}"
+    },
+    {
+      "kind": "ChainTools",
+      "url": "https://explorer.chaintools.tech/Dungeon",
+      "txPage": "https://explorer.chaintools.tech/Dungeon/tx/${txHash}",
+      "accountPage": "https://explorer.chaintools.tech/Dungeon/account/${accountAddress}"
     }
   ],
   "images": [
