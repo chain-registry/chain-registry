@@ -47,9 +47,6 @@
         "address": "https://humans.rpc.kjnodes.com"
       },
       {
-        "address": "https://humans.rpc.nodeshub.online"
-      },
-      {
         "address": "https://humans-mainnet-rpc.itrocket.net"
       },
       {
@@ -89,9 +86,6 @@
       },
       {
         "address": "https://humans.api.kjnodes.com"
-      },
-      {
-        "address": "https://humans.api.nodeshub.online"
       },
       {
         "address": "https://humans-mainnet-api.itrocket.net"

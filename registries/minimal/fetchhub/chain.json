@@ -226,7 +226,7 @@
       "accountPage": "https://fetchstation.azoyalabs.com/mainnet/explorer/address/${accountAddress}"
     },
     {
-      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅",
+      "kind": "NodesHub",
       "url": "https://explorer.nodeshub.online/fetchhub/",
       "txPage": "https://explorer.nodeshub.online/fetchhub/tx/${txHash}",
       "accountPage": "https://explorer.nodeshub.online/fetchhub/accounts/${accountAddress}"

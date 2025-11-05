@@ -71,6 +71,9 @@
       },
       {
         "address": "https://haqq.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://haqq.rpc.onenov.xyz"
       }
     ],
     "rest": [
@@ -103,6 +106,9 @@
       },
       {
         "address": "https://haqq.api.m.stavr.tech"
+      },
+      {
+        "address": "https://haqq.api.onenov.xyz"
       }
     ],
     "grpc": [
@@ -135,6 +141,9 @@
       },
       {
         "address": "haqq-grpc.noders.services:14090"
+      },
+      {
+        "address": "grpc-haqq.onenov.xyz:443"
       }
     ],
     "evmHttpJsonrpc": [
@@ -211,6 +220,11 @@
       "kind": "🔥STAVR🔥 Explorer",
       "url": "https://explorer.stavr.tech/HAQQ-Mainnet",
       "txPage": "https://explorer.stavr.tech/HAQQ-Mainnet/tx/${txHash}"
+    },
+    {
+      "kind": "OneNov Explorer",
+      "url": "https://explorer.onenov.xyz/haqq-mainnet",
+      "txPage": "https://explorer.onenov.xyz/haqq-mainnet/tx/${txHash}"
     }
   ],
   "images": [

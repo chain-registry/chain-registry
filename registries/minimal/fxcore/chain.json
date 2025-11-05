@@ -92,7 +92,7 @@
       "txPage": "https://ping.pub/fxcore/tx/${txHash}"
     },
     {
-      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅",
+      "kind": "NodesHub",
       "url": "https://explorer.nodeshub.online/fxcore/",
       "txPage": "https://explorer.nodeshub.online/fxcore/tx/${txHash}",
       "accountPage": "https://explorer.nodeshub.online/fxcore/accounts/${accountAddress}"

@@ -136,7 +136,7 @@
       "accountPage": "https://atomscan.com/firmachain/accounts/${accountAddress}"
     },
     {
-      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅",
+      "kind": "NodesHub",
       "url": "https://explorer.nodeshub.online/firmachain/",
       "txPage": "https://explorer.nodeshub.online/firmachain/tx/${txHash}",
       "accountPage": "https://explorer.nodeshub.online/firmachain/accounts/${accountAddress}"

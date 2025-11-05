@@ -201,7 +201,7 @@
       "accountPage": "https://ezstaking.app/chihuahua/account/${accountAddress}"
     },
     {
-      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅",
+      "kind": "NodesHub",
       "url": "https://explorer.nodeshub.online/chihuahua/",
       "txPage": "https://explorer.nodeshub.online/chihuahua/tx/${txHash}",
       "accountPage": "https://explorer.nodeshub.online/chihuahua/accounts/${accountAddress}"

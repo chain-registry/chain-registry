@@ -74,9 +74,6 @@
         "address": "https://sentinel.declab.pro:26628"
       },
       {
-        "address": "https://sentinel.rpc.nodeshub.online:443"
-      },
-      {
         "address": "https://rpc.dvpn.me:443"
       },
       {
@@ -127,9 +124,6 @@
         "address": "https://sentinel.declab.pro:443"
       },
       {
-        "address": "https://sentinel.api.nodeshub.online:443"
-      },
-      {
         "address": "https://api.dvpn.me:443"
       },
       {
@@ -163,9 +157,6 @@
       },
       {
         "address": "https://sentinel.declab.pro:9019"
-      },
-      {
-        "address": "https://sentinel.grpc.nodeshub.online"
       },
       {
         "address": "https://grpc.dvpn.me:443"
@@ -236,12 +227,6 @@
       "kind": "DNL Explorer",
       "url": "https://explorer.declab.pro/Sentinel",
       "txPage": "https://explorer.declab.pro/Sentinel/tx/${txHash}"
-    },
-    {
-      "kind": "NodesHub",
-      "url": "https://explorer.nodeshub.online/sentinel/",
-      "txPage": "https://explorer.nodeshub.online/sentinel/tx/${txHash}",
-      "accountPage": "https://explorer.nodeshub.online/sentinel/accounts/${accountAddress}"
     }
   ],
   "images": [

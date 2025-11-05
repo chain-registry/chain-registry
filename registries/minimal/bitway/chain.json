@@ -72,6 +72,9 @@
       },
       {
         "address": "https://bitway.rpc.mandragora.io"
+      },
+      {
+        "address": "https://bitway.rpc.nodeshub.online:443"
       }
     ],
     "rest": [
@@ -98,6 +101,9 @@
       },
       {
         "address": "https://bitway.api.mandragora.io"
+      },
+      {
+        "address": "https://bitway.api.nodeshub.online"
       }
     ],
     "grpc": [
@@ -121,6 +127,9 @@
       },
       {
         "address": "http://bitway.grpc.mandragora.io:9079"
+      },
+      {
+        "address": "bitway.grpc.nodeshub.online"
       }
     ]
   },

@@ -43,16 +43,25 @@
     "rpc": [
       {
         "address": "https://rpc.hippo-protocol.com/"
+      },
+      {
+        "address": "https://hippo.rpc.nodeshub.online:443"
       }
     ],
     "rest": [
       {
         "address": "https://api.hippo-protocol.com/"
+      },
+      {
+        "address": "https://hippo.api.nodeshub.online"
       }
     ],
     "grpc": [
       {
         "address": "ibc-grpc.hippo-protocol.com:443"
+      },
+      {
+        "address": "hippo.grpc.nodeshub.online"
       }
     ]
   },

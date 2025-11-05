@@ -45,9 +45,6 @@
         "address": "https://rpc-govgen.sg-1.online/"
       },
       {
-        "address": "https://govgen.rpc.nodeshub.online:443"
-      },
-      {
         "address": "https://govgen-rpc.publicnode.com:443"
       },
       {
@@ -65,9 +62,6 @@
         "address": "https://api-govgen.sg-1.online/"
       },
       {
-        "address": "https://govgen.api.nodeshub.online/"
-      },
-      {
         "address": "https://govgen-rest.publicnode.com"
       },
       {
@@ -80,9 +74,6 @@
     "grpc": [
       {
         "address": "govgen-grpc.publicnode.com:443"
-      },
-      {
-        "address": "https://govgen.grpc.nodeshub.online:443"
       },
       {
         "address": "https://grpc.govgen.posthuman.digital:443"
@@ -101,12 +92,6 @@
       "url": "https://staking-explorer.com/explorer/govgen",
       "txPage": "https://staking-explorer.com/transaction.php?chain=govgen&tx=${txHash}",
       "accountPage": "https://staking-explorer.com/account.php?chain=govgen&addr=${accountAddress}"
-    },
-    {
-      "kind": "ping.pub",
-      "url": "https://explorer.nodeshub.online/govgen",
-      "txPage": "https://explorer.nodeshub.online/govgen/tx/${txHash}",
-      "accountPage": "https://explorer.nodeshub.online/govgen/account/${accountAddress}"
     },
     {
       "kind": "ping.pub",

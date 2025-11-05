@@ -49,9 +49,6 @@
         "address": "https://sentry.tm.rpc.routerprotocol.com/"
       },
       {
-        "address": "https://router.rpc.nodeshub.online:443"
-      },
-      {
         "address": "https://router-mainnet-rpc.autostake.com:443"
       },
       {
@@ -66,9 +63,6 @@
         "address": "https://sentry.lcd.routerprotocol.com/"
       },
       {
-        "address": "https://router.api.nodeshub.online"
-      },
-      {
         "address": "https://router-mainnet-lcd.autostake.com:443"
       },
       {
@@ -81,9 +75,6 @@
     "grpc": [
       {
         "address": "sentry.grpc.routerprotocol.com:9090"
-      },
-      {
-        "address": "router.grpc.nodeshub.online"
       },
       {
         "address": "router-mainnet-grpc.autostake.com:443"
@@ -122,12 +113,6 @@
       "url": "https://staking-explorer.com/explorer/routerchain",
       "txPage": "https://staking-explorer.com/transaction.php?chain=routerchain&tx=${txHash}",
       "accountPage": "https://staking-explorer.com/account.php?chain=routerchain&addr=${accountAddress}"
-    },
-    {
-      "kind": "Nodes Hub 🛡️ 100% Slash Protected 🛡️",
-      "url": "https://explorer.nodeshub.online/router/",
-      "txPage": "https://explorer.nodeshub.online/router/tx/${txHash}",
-      "accountPage": "https://explorer.nodeshub.online/router/accounts/${accountAddress}"
     },
     {
       "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
