@@ -119,6 +119,9 @@
       },
       {
         "address": "https://atomone-rpc.stakerhouse.com"
+      },
+      {
+        "address": "https://mainnet-atomone-rpc.konsortech.xyz/"
       }
     ],
     "rest": [
@@ -196,6 +199,9 @@
       },
       {
         "address": "https://atomone-rest.stakerhouse.com"
+      },
+      {
+        "address": "https://mainnet-atomone-api.konsortech.xyz/"
       }
     ],
     "grpc": [
@@ -249,6 +255,9 @@
       },
       {
         "address": "atomone-grpc.kynraze.com:77"
+      },
+      {
+        "address": "mainnet-atomone.konsortech.xyz:12090"
       }
     ]
   },
@@ -342,6 +351,12 @@
       "url": "https://cosmotracker.com/atomone",
       "txPage": "https://cosmotracker.com/atomone/tx/${txHash}",
       "accountPage": "https://cosmotracker.com/atomone/account/${accountAddress}"
+    },
+    {
+      "kind": "KonsorTech",
+      "url": "https://explorer.konsortech.xyz/atomone",
+      "txPage": "https://explorer.konsortech.xyz/atomone/tx/${txHash}",
+      "accountPage": "https://explorer.konsortech.xyz/atomone/account/${accountAddress}"
     }
   ],
   "images": [
