@@ -3,7 +3,7 @@
   "chainName": "intento",
   "assets": [
     {
-      "description": "The native token of INTENTO",
+      "description": "The native token of Intento",
       "denomUnits": [
         {
           "denom": "uinto",
