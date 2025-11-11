@@ -221,5 +221,10 @@
       "txPage": "https://dashboard.blocksync.me/odiseo/tx/${txHash}",
       "accountPage": "https://dashboard.blocksync.me/odiseo/account/${accountAddress}"
     }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/daodiseotestnet/images/odiseo.svg"
+    }
   ]
 }
