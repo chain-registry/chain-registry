@@ -3,8 +3,8 @@
   "chainName": "kimanetworktestnet",
   "website": "https://www.kima.network/",
   "networkType": "testnet",
-  "prettyName": "Kima Network Testnet",
   "chainType": "cosmos",
+  "prettyName": "Kima Network Testnet",
   "chainId": "kima_testnet",
   "bech32Prefix": "kima",
   "keyAlgos": [
@@ -40,6 +40,15 @@
       "tag": "v0.47.4"
     }
   },
+  "images": [
+    {
+      "imageSync": {
+        "chainName": "kimanetwork"
+      },
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg",
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png"
+    }
+  ],
   "apis": {
     "rpc": [
       {
@@ -61,7 +70,8 @@
     {
       "kind": "Kima Network",
       "url": "https://explorer.sardis.kima.network/",
-      "txPage": "https://explorer.sardis.kima.network/transactions/${txHash}"
+      "txPage": "https://explorer.sardis.kima.network/transactions/${txHash}",
+      "accountPage": "https://explorer.sardis.kima.network/accounts/?address=${accountAddress}"
     }
   ]
 }

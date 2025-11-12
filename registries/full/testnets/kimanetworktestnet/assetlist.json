@@ -20,6 +20,20 @@
       "name": "KIMA",
       "display": "KIMA",
       "symbol": "KIMA",
+      "images": [
+        {
+          "imageSync": {
+            "chainName": "kimanetwork",
+            "baseDenom": "uKIMA"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg"
+        }
+      ],
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg"
+      },
       "traces": [
         {
           "type": "test-mintage",
@@ -30,19 +44,9 @@
           "provider": "Kima Network"
         }
       ],
-      "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg"
-      },
-      "images": [
-        {
-          "imageSync": {
-            "chainName": "kimanetwork",
-            "baseDenom": "uKIMA"
-          },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.svg"
-        }
+      "coingeckoId": "kima",
+      "keywords": [
+        "interoperability"
       ],
       "socials": {
         "github": "https://github.com/kima-finance",

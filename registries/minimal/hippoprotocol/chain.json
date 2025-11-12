@@ -46,6 +46,9 @@
       },
       {
         "address": "https://hippo.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://hippo-rpc.node39.top:443"
       }
     ],
     "rest": [
@@ -54,6 +57,9 @@
       },
       {
         "address": "https://hippo.api.nodeshub.online"
+      },
+      {
+        "address": "https://hippo-api.node39.top:443"
       }
     ],
     "grpc": [
@@ -62,6 +68,9 @@
       },
       {
         "address": "hippo.grpc.nodeshub.online"
+      },
+      {
+        "address": "hippo-grpc.node39.top:443"
       }
     ]
   },
@@ -71,6 +80,12 @@
       "url": "https://river.hippoprotocol.ai/",
       "txPage": "https://river.hippoprotocol.ai/hippo-protocol/tx/${txHash}",
       "accountPage": "https://river.hippoprotocol.ai/hippo-protocol/account/${accountAddress}"
+    },
+    {
+      "kind": "Node39",
+      "url": "https://explorer.node39.top/hippo",
+      "txPage": "https://explorer.node39.top/hippo/tx/${txHash}",
+      "accountPage": "https://explorer.node39.top/hippo/account/${accountAddress}"
     }
   ],
   "images": [

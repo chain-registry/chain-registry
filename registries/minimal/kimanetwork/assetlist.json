@@ -18,7 +18,8 @@
       "base": "uKIMA",
       "name": "KIMA",
       "display": "KIMA",
-      "symbol": "KIMA"
+      "symbol": "KIMA",
+      "coingeckoId": "kima"
     }
   ]
 }

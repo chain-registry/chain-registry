@@ -3,8 +3,8 @@
   "chainName": "kimanetwork",
   "website": "https://www.kima.network/",
   "networkType": "mainnet",
-  "prettyName": "Kima Network",
   "chainType": "cosmos",
+  "prettyName": "Kima Network",
   "chainId": "kima_network",
   "bech32Prefix": "kima",
   "keyAlgos": [
@@ -72,7 +72,8 @@
     {
       "kind": "Kima Network Explorer",
       "url": "https://explorer.kima.network/",
-      "txPage": "https://explorer.kima.network/transactions/${txHash}"
+      "txPage": "https://explorer.kima.network/transactions/${txHash}",
+      "accountPage": "https://explorer.kima.network/accounts/?address=${accountAddress}"
     }
   ]
 }
