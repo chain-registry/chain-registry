@@ -57,7 +57,7 @@
         "address": "https://gonka04.6block.com:8443/chain-rpc/"
       },
       {
-        "address": "https://gonka03.6block.com:8443"
+        "address": "https://gonka03.6block.com:8443/chain-rpc/"
       },
       {
         "address": "https://node1.gonka.ai:8443/chain-rpc/"
@@ -71,7 +71,7 @@
         "address": "https://gonka04.6block.com:8443/chain-api/"
       },
       {
-        "address": "https://gonka03.6block.com:8443"
+        "address": "https://gonka03.6block.com:8443/chain-api/"
       },
       {
         "address": "https://node1.gonka.ai:8443/chain-api/"
