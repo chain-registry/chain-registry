@@ -33,6 +33,11 @@
       "type": "cosmos",
       "version": "v0.53.3",
       "tag": "v0.53.3"
+    },
+    "cosmwasm": {
+      "version": "v0.60.2",
+      "repo": "https://github.com/CosmWasm/wasmd",
+      "tag": "v0.60.2"
     }
   },
   "apis": {

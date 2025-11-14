@@ -36,9 +36,9 @@
       "tag": "v0.53.3"
     },
     "cosmwasm": {
-      "version": "v0.60.1",
+      "version": "v0.60.2",
       "repo": "https://github.com/CosmWasm/wasmd",
-      "tag": "v0.60.1"
+      "tag": "v0.60.2"
     }
   },
   "description": "The Cosmos Hub is the flagship blockchain of the Cosmos ecosystem, launched in 2019. Today, it provides multichain services to other Cosmos blockchains, including the IBC Eureka bridge between the Cosmos ecosystem and Ethereum.",
