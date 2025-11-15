@@ -55,9 +55,6 @@
         "address": "https://sei-rpc.polkachu.com"
       },
       {
-        "address": "https://sei-rpc.brocha.in"
-      },
-      {
         "address": "https://rpc-sei.stingray.plus"
       },
       {
@@ -82,9 +79,6 @@
       },
       {
         "address": "https://sei-api.polkachu.com"
-      },
-      {
-        "address": "https://sei-rest.brocha.in"
       },
       {
         "address": "https://api-sei.stingray.plus"
