@@ -446,8 +446,7 @@
             "path": "transfer/channel-13/uqck"
           }
         }
-      ],
-      "coingeckoId": "quicksilver"
+      ]
     },
     {
       "description": "The XPRT token is primarily a governance token for the Persistence chain.",

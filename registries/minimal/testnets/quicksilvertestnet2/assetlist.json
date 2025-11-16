@@ -34,7 +34,6 @@
           "provider": "Quicksilver"
         }
       ],
-      "coingeckoId": "quicksilver",
       "assetType": "sdk.coin"
     }
   ]

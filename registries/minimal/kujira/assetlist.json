@@ -37,7 +37,6 @@
       "name": "USK",
       "display": "usk",
       "symbol": "USK",
-      "coingeckoId": "usk",
       "assetType": "sdk.coin"
     },
     {

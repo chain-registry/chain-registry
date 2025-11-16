@@ -4303,8 +4303,7 @@
             "path": "transfer/channel-259/factory:kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7:uusk"
           }
         }
-      ],
-      "coingeckoId": "usk"
+      ]
     },
     {
       "description": "Staking and governance coin for the Unification Blockchain",
@@ -4524,8 +4523,7 @@
             "path": "transfer/channel-476/cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
           }
         }
-      ],
-      "coingeckoId": "sienna"
+      ]
     },
     {
       "description": "The native token cw20 for SCRT Staking Derivatives on Secret Network",
@@ -5678,8 +5676,7 @@
             "path": "transfer/channel-522/uqck"
           }
         }
-      ],
-      "coingeckoId": "quicksilver"
+      ]
     },
     {
       "description": "The native token of Arkhadian",

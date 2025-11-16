@@ -38,8 +38,7 @@
       "base": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4",
       "name": "SIENNA",
       "display": "sienna",
-      "symbol": "SIENNA",
-      "coingeckoId": "sienna"
+      "symbol": "SIENNA"
     },
     {
       "description": "The native token cw20 for Shade on Secret Network",
