@@ -95,6 +95,9 @@
       },
       {
         "address": "https://lava.rpc.stakevillage.net:443"
+      },
+      {
+        "address": "https://rpc-lava.maouam.xyz:443"
       }
     ],
     "rest": [
@@ -139,6 +142,9 @@
       },
       {
         "address": "https://lava.api.stakevillage.net:443"
+      },
+      {
+        "address": "https://api-lava.maouam.xyz:443"
       }
     ],
     "grpc": [
@@ -171,6 +177,9 @@
       },
       {
         "address": "grpc.lava-mainnet-1.lava.aviaone.com:9104/"
+      },
+      {
+        "address": "grpc-lava.maouam.xyz:443"
       }
     ]
   },
@@ -222,6 +231,12 @@
       "url": "https://explorer.stavr.tech/Lava-Mainnet",
       "txPage": "https://explorer.stavr.tech/Lava-Mainnet/tx/${txHash}",
       "accountPage": "https://explorer.stavr.tech/Lava-Mainnet/account/${accountAddress}"
+    },
+    {
+      "kind": "MaouamNodelab",
+      "url": "https://explorer.maouam.xyz/lava-mainnet",
+      "txPage": "https://explorer.maouam.xyz/lava-mainnet/tx/${txHash}",
+      "accountPage": "https://explorer.maouam.xyz/lava-mainnet/account/${accountAddress}"
     }
   ]
 }

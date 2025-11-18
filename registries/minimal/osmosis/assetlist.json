@@ -19617,6 +19617,25 @@
           }
         }
       ]
+    },
+    {
+      "description": "$9 Dollers is programmed\n\nMade with ❤️",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/ninedollers",
+          "exponent": 0
+        },
+        {
+          "denom": "NINEDOLLERS",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/ninedollers",
+      "name": "Nine Dollers",
+      "display": "NINEDOLLERS",
+      "symbol": "NINEDOLLERS"
     }
   ]
 }
