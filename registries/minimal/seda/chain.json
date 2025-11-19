@@ -53,9 +53,6 @@
         "address": "https://seda.rpc.kjnodes.com"
       },
       {
-        "address": "https://seda-rpc.synergynodes.com/"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/seda"
       },
       {
@@ -65,34 +62,16 @@
         "address": "https://seda.ibs.team:443/rpc"
       },
       {
-        "address": "https://seda-mainnet-rpc.autostake.com:443"
-      },
-      {
         "address": "https://rpc.seda.bronbro.io:443"
       },
       {
-        "address": "https://rpc-seda.whispernode.com:443"
-      },
-      {
-        "address": "https://seda-rpc.applejuice.256x25.tech:443"
-      },
-      {
-        "address": "https://seda-rpc.bluestake.net:443"
-      },
-      {
         "address": "https://seda_mainnet_rpc.chain.whenmoonwhenlambo.money:443"
-      },
-      {
-        "address": "https://rpc-seda-mainnet.keepitstaked.com:443"
       },
       {
         "address": "https://seda-rpc.node39.top:443"
       },
       {
         "address": "https://seda-rpc.cosmos-apis.com:443"
-      },
-      {
-        "address": "https://seda-mainnet-rpc.shazoes.xyz"
       },
       {
         "address": "https://seda.rpc.cumulo.org.es"
@@ -102,6 +81,9 @@
       },
       {
         "address": "https://seda-rpc.stakeandrelax.net"
+      },
+      {
+        "address": "https://rpc.cros-nest.com/seda"
       }
     ],
     "rest": [
@@ -115,9 +97,6 @@
         "address": "https://seda.api.kjnodes.com"
       },
       {
-        "address": "https://seda-api.synergynodes.com/"
-      },
-      {
         "address": "https://rest.lavenderfive.com:443/seda"
       },
       {
@@ -127,34 +106,16 @@
         "address": "https://seda.ibs.team:443/api"
       },
       {
-        "address": "https://seda-mainnet-lcd.autostake.com:443"
-      },
-      {
         "address": "https://lcd.seda.bronbro.io:443"
       },
       {
-        "address": "https://api-seda.whispernode.com:443"
-      },
-      {
-        "address": "https://seda-api.applejuice.256x25.tech:443"
-      },
-      {
-        "address": "https://seda-api.bluestake.net"
-      },
-      {
         "address": "https://seda_mainnet_api.chain.whenmoonwhenlambo.money"
-      },
-      {
-        "address": "https://api-seda-mainnet.keepitstaked.com:443"
       },
       {
         "address": "https://seda-api.node39.top:443"
       },
       {
         "address": "https://seda-rest.cosmos-apis.com:443"
-      },
-      {
-        "address": "https://seda-mainnet-api.shazoes.xyz"
       },
       {
         "address": "https://seda.api.cumulo.org.es"
@@ -164,14 +125,14 @@
       },
       {
         "address": "https://seda-api.stakeandrelax.net"
+      },
+      {
+        "address": "https://rest.cros-nest.com/seda"
       }
     ],
     "grpc": [
       {
         "address": "seda-grpc.polkachu.com:25890"
-      },
-      {
-        "address": "https://seda-grpc.synergynodes.com/"
       },
       {
         "address": "seda.grpc.kjnodes.com:443"
@@ -180,22 +141,10 @@
         "address": "seda.lavenderfive.com:443"
       },
       {
-        "address": "seda-mainnet-grpc.autostake.com:443"
-      },
-      {
         "address": "https://grpc.seda.bronbro.io:443"
       },
       {
-        "address": "grpc-seda.whispernode.com:443"
-      },
-      {
-        "address": "seda-grpc.node39.top:13090"
-      },
-      {
         "address": "seda-grpc.cosmos-apis.com:443"
-      },
-      {
-        "address": "seda-mainnet-grpc.shazoes.xyz:6090"
       },
       {
         "address": "seda.grpc.cumulo.org.es:443"
@@ -234,12 +183,6 @@
       "url": "https://staking-explorer.com/explorer/seda",
       "txPage": "https://staking-explorer.com/transaction.php?chain=seda&tx=${txHash}",
       "accountPage": "https://staking-explorer.com/account.php?chain=seda&addr=${accountAddress}"
-    },
-    {
-      "kind": "WhisperNode 🤐",
-      "url": "https://mainnet.whispernode.com/seda",
-      "txPage": "https://mainnet.whispernode.com/seda/tx/${txHash}",
-      "accountPage": "https://mainnet.whispernode.com/seda/account/${accountAddress}"
     },
     {
       "kind": "Apple juice 🧃",

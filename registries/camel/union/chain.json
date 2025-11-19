@@ -191,6 +191,12 @@
       "kind": "Ruangnode Explorer",
       "url": "https://explorer.ruangnode.com/dashboard/union",
       "txPage": "https://explorer.ruangnode.com/transactions/union?hash=${txHash}"
+    },
+    {
+      "kind": "Validatorinfo",
+      "url": "https://validatorinfo.com/networks/union/overview",
+      "validatorPage": "https://validatorinfo.com/networks/union/validators",
+      "proposalPage": "https://validatorinfo.com/networks/union/governance"
     }
   ],
   "images": [

@@ -55,6 +55,12 @@
       },
       {
         "address": "https://rpc.cros-nest.com:443/axone"
+      },
+      {
+        "address": "https://rpc.axone.citizenweb3.com"
+      },
+      {
+        "address": "https://rpc.axone-archive.citizenweb3.com"
       }
     ],
     "rest": [
@@ -72,6 +78,12 @@
       },
       {
         "address": "https://rest.cros-nest.com:443/axone"
+      },
+      {
+        "address": "https://api.axone.citizenweb3.com"
+      },
+      {
+        "address": "https://api.axone-archive.citizenweb3.com"
       }
     ],
     "grpc": [
@@ -86,6 +98,12 @@
       },
       {
         "address": "grpc.axone.nodestake.org:443"
+      },
+      {
+        "address": "grpc.axone.citizenweb3.com:443"
+      },
+      {
+        "address": "grpc.axone-archive.citizenweb3.com:443"
       }
     ]
   },
@@ -101,6 +119,12 @@
       "url": "https://explorer.nodestake.org/axone",
       "txPage": "https://explorer.nodestake.org/axone/tx/${txHash}",
       "accountPage": "https://explorer.nodestake.org/axone/account/${accountAddress}"
+    },
+    {
+      "kind": "Validatorinfo",
+      "url": "https://validatorinfo.com/networks/axone/overview",
+      "validatorPage": "https://validatorinfo.com/networks/axone/validators",
+      "proposalPage": "https://validatorinfo.com/networks/axone/governance"
     }
   ],
   "images": [

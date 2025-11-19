@@ -52,6 +52,9 @@
       },
       {
         "address": "https://rpc-symphony.sr20de.xyz"
+      },
+      {
+        "address": "https://rpc.symphony.citizenweb3.com"
       }
     ],
     "rest": [
@@ -66,6 +69,9 @@
       },
       {
         "address": "https://api-symphony.sr20de.xyz"
+      },
+      {
+        "address": "https://api.symphony.citizenweb3.com"
       }
     ],
     "grpc": [
@@ -80,6 +86,9 @@
       },
       {
         "address": "https://grpc-symphony.sr20de.xyz"
+      },
+      {
+        "address": "grpc.symphony.citizenweb3.com:443"
       }
     ]
   },
@@ -95,6 +104,12 @@
       "url": "https://explorer.sr20de.xyz/symphony",
       "txPage": "https://explorer.sr20de.xyz/symphony/tx/${txHash}",
       "accountPage": "https://explorer.sr20de.xyz/symphony/account/${accountAddress}"
+    },
+    {
+      "kind": "Validatorinfo",
+      "url": "https://validatorinfo.com/networks/symphony/overview",
+      "validatorPage": "https://validatorinfo.com/networks/symphony/validators",
+      "proposalPage": "https://validatorinfo.com/networks/symphony/governance"
     }
   ],
   "images": [

@@ -50,6 +50,12 @@
       },
       {
         "address": "https://althea_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://api.althea.citizenweb3.com"
+      },
+      {
+        "address": "https://api.althea-archive.citizenweb3.com"
       }
     ],
     "rpc": [
@@ -64,11 +70,23 @@
       },
       {
         "address": "https://althea_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://rpc.althea.citizenweb3.com"
+      },
+      {
+        "address": "https://rpc.althea-archive.citizenweb3.com"
       }
     ],
     "grpc": [
       {
         "address": "althea.lavenderfive.com:443"
+      },
+      {
+        "address": "grpc.althea.citizenweb3.com:443"
+      },
+      {
+        "address": "grpc.althea-archive.citizenweb3.com:443"
       }
     ]
   },
@@ -102,6 +120,12 @@
       "url": "https://explorer.whenmoonwhenlambo.money/althea",
       "txPage": "https://explorer.whenmoonwhenlambo.money/althea/tx/${txHash}",
       "accountPage": "https://explorer.whenmoonwhenlambo.money/althea/account/${accountAddress}"
+    },
+    {
+      "kind": "Validatorinfo",
+      "url": "https://validatorinfo.com/networks/althea/overview",
+      "validatorPage": "https://validatorinfo.com/networks/althea/validators",
+      "proposalPage": "https://validatorinfo.com/networks/althea/governance"
     }
   ]
 }

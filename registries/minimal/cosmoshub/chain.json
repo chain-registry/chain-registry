@@ -261,6 +261,9 @@
       },
       {
         "address": "https://api.cosmoshub-4-archive.citizenweb3.com:443"
+      },
+      {
+        "address": "https://api.cosmoshub-4.citizenweb3.com:443"
       }
     ],
     "grpc": [
@@ -328,7 +331,10 @@
         "address": "cosmoshub.grpc.quasarstaking.ai"
       },
       {
-        "address": "grpc.cosmoshub-4-archive.citizenweb3.com"
+        "address": "grpc.cosmoshub-4-archive.citizenweb3.com:443"
+      },
+      {
+        "address": "grpc.cosmoshub-4.citizenweb3.com:443"
       }
     ]
   },
@@ -446,6 +452,12 @@
       "url": "https://cosmos.valopers.com/",
       "txPage": "https://cosmos.valopers.com/transactions/${txHash}",
       "accountPage": "https://cosmos.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "Validatorinfo",
+      "url": "https://validatorinfo.com/networks/cosmoshub/overview",
+      "validatorPage": "https://validatorinfo.com/networks/cosmoshub/validators",
+      "proposalPage": "https://validatorinfo.com/networks/cosmoshub/governance"
     }
   ],
   "images": [

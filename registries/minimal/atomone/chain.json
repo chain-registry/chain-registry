@@ -122,6 +122,9 @@
       },
       {
         "address": "https://mainnet-atomone-rpc.konsortech.xyz/"
+      },
+      {
+        "address": "https://rpc.atomone-archive.citizenweb3.com:443"
       }
     ],
     "rest": [
@@ -202,6 +205,9 @@
       },
       {
         "address": "https://mainnet-atomone-api.konsortech.xyz/"
+      },
+      {
+        "address": "https://api.atomone-archive.citizenweb3.com"
       }
     ],
     "grpc": [
@@ -230,7 +236,7 @@
         "address": "atomone.grpc.m.stavr.tech:7201"
       },
       {
-        "address": " grpc.atomone.citizenweb3.com"
+        "address": "grpc.atomone.citizenweb3.com:443"
       },
       {
         "address": "atomone-mainnet-grpc.itrocket.net:443"
@@ -258,6 +264,9 @@
       },
       {
         "address": "mainnet-atomone.konsortech.xyz:12090"
+      },
+      {
+        "address": "grpc.atomone-archive.citizenweb3.com:443"
       }
     ]
   },
@@ -357,6 +366,12 @@
       "url": "https://explorer.konsortech.xyz/atomone",
       "txPage": "https://explorer.konsortech.xyz/atomone/tx/${txHash}",
       "accountPage": "https://explorer.konsortech.xyz/atomone/account/${accountAddress}"
+    },
+    {
+      "kind": "Validatorinfo",
+      "url": "https://validatorinfo.com/networks/atomone/overview",
+      "validatorPage": "https://validatorinfo.com/networks/atomone/validators",
+      "proposalPage": "https://validatorinfo.com/networks/atomone/governance"
     }
   ],
   "images": [

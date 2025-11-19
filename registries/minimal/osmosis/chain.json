@@ -589,6 +589,9 @@
       },
       {
         "address": "https://osmosis-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://rpc.osmosis.citizenweb3.com/"
       }
     ],
     "rest": [
@@ -633,6 +636,9 @@
       },
       {
         "address": "https://osmosis-api.highstakes.ch"
+      },
+      {
+        "address": "https://api.osmosis.citizenweb3.com/"
       }
     ],
     "grpc": [
@@ -653,6 +659,9 @@
       },
       {
         "address": "grpc.osmosis.validatus.com:443"
+      },
+      {
+        "address": "grpc.osmosis.citizenweb3.com:443"
       }
     ]
   },
@@ -735,6 +744,12 @@
       "url": "https://osmosis.valopers.com/",
       "txPage": "https://osmosis.valopers.com/transactions/${txHash}",
       "accountPage": "https://osmosis.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "Validatorinfo",
+      "url": "https://validatorinfo.com/networks/osmosis/overview",
+      "validatorPage": "https://validatorinfo.com/networks/osmosis/validators",
+      "proposalPage": "https://validatorinfo.com/networks/osmosis/governance"
     }
   ]
 }

@@ -191,6 +191,9 @@
       },
       {
         "address": "https://stride.rpc.quasarstaking.ai:443"
+      },
+      {
+        "address": "https://rpc.stride.citizenweb3.com"
       }
     ],
     "rest": [
@@ -244,6 +247,9 @@
       },
       {
         "address": "https://stride.api.quasarstaking.ai:443"
+      },
+      {
+        "address": "https://api.stride.citizenweb3.com"
       }
     ],
     "grpc": [
@@ -285,6 +291,9 @@
       },
       {
         "address": "stride.grpc.quasarstaking.ai:80"
+      },
+      {
+        "address": "grpc.stride.citizenweb3.com:443"
       }
     ]
   },
@@ -353,6 +362,12 @@
       "url": "https://mainnet.whispernode.com/stride",
       "txPage": "https://mainnet.whispernode.com/stride/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/stride/account/${accountAddress}"
+    },
+    {
+      "kind": "Validatorinfo",
+      "url": "https://validatorinfo.com/networks/stride/overview",
+      "validatorPage": "https://validatorinfo.com/networks/stride/validators",
+      "proposalPage": "https://validatorinfo.com/networks/stride/governance"
     }
   ],
   "images": [
