@@ -46,9 +46,6 @@
         "address": "https://rpc.chihuahua.wtf"
       },
       {
-        "address": "https://rpc-chihuahua.ecostake.com"
-      },
-      {
         "address": "https://chihua.rpc.m.stavr.tech"
       },
       {
@@ -88,9 +85,6 @@
     "rest": [
       {
         "address": "https://api.chihuahua.wtf"
-      },
-      {
-        "address": "https://rest-chihuahua.ecostake.com"
       },
       {
         "address": "https://chihua.api.m.stavr.tech"

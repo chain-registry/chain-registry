@@ -37,9 +37,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-empowerchain.ecostake.com:443"
-      },
-      {
         "address": "https://empowerchain-mainnet-rpc.autostake.com:443"
       },
       {
@@ -80,9 +77,6 @@
       }
     ],
     "rest": [
-      {
-        "address": "https://rest-empowerchain.ecostake.com:443"
-      },
       {
         "address": "https://empowerchain-mainnet-lcd.autostake.com:443"
       },
