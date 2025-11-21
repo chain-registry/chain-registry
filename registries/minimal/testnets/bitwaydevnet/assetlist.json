@@ -1,0 +1,94 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "bitwaydevnet",
+  "assets": [
+    {
+      "description": "The native token of Bitway Devnet.",
+      "denomUnits": [
+        {
+          "denom": "ubtw",
+          "exponent": 0
+        },
+        {
+          "denom": "btw",
+          "exponent": 6
+        }
+      ],
+      "base": "ubtw",
+      "name": "Bitway Devnet native token",
+      "display": "btw",
+      "symbol": "BTW",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "bitway",
+            "baseDenom": "ubtw"
+          },
+          "provider": "Bitway"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "BTC-pegged token on Bitway Devnet.",
+      "denomUnits": [
+        {
+          "denom": "sat",
+          "exponent": 0
+        },
+        {
+          "denom": "BTCT",
+          "exponent": 8
+        }
+      ],
+      "base": "sat",
+      "name": "Bitway Devnet Bitcoin",
+      "display": "BTCT",
+      "symbol": "BTCT",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "bitcointestnet",
+            "baseDenom": "sat"
+          },
+          "provider": "Bitway"
+        }
+      ],
+      "assetType": "sdk.coin"
+    },
+    {
+      "description": "Noble Testnet USDC on Bitway Devnet.",
+      "denomUnits": [
+        {
+          "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+          "exponent": 0
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+      "name": "Noble Testnet USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "nobletestnet",
+            "baseDenom": "uusdc",
+            "channelId": "channel-774"
+          },
+          "chain": {
+            "channelId": "channel-2",
+            "path": "transfer/channel-2/uusdc"
+          }
+        }
+      ]
+    }
+  ]
+}
