@@ -7,9 +7,12 @@
   "chainId": "mantra-dukong-1",
   "bech32Prefix": "mantra",
   "keyAlgos": [
-    "secp256k1"
+    "ethsecp256k1"
   ],
-  "slip44": 118,
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
   "fees": {
     "feeTokens": [
       {
@@ -26,17 +29,20 @@
       {
         "denom": "uom"
       }
-    ]
+    ],
+    "lockDuration": {
+      "time": "691200s"
+    }
   },
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.50.12",
+      "version": "v0.53.4",
       "repo": "https://github.com/MANTRA-Chain/cosmos-sdk",
-      "tag": "v0.50.12-v2-mantra-1"
+      "tag": "v0.53.4-mantra"
     },
     "cosmwasm": {
-      "version": "v0.54.0",
+      "version": "v0.61.1",
       "enabled": true
     }
   },
@@ -44,9 +50,6 @@
     "rpc": [
       {
         "address": "https://rpc.dukong.mantrachain.io"
-      },
-      {
-        "address": "https://mantra-testnet-rpc.publicnode.com:443"
       }
     ],
     "rest": [
@@ -54,7 +57,7 @@
         "address": "https://api.dukong.mantrachain.io"
       },
       {
-        "address": "https://mantra-testnet-rest.publicnode.com"
+        "address": "https://lcd-office.cosmostation.io/mantra-testnet/"
       }
     ],
     "grpc": [
@@ -62,15 +65,12 @@
         "address": "https://grpc.dukong.mantrachain.io"
       },
       {
-        "address": "mantra-testnet-grpc.publicnode.com:443"
+        "address": "grpc-office-mantra.cosmostation.io:443"
       }
     ],
     "evmHttpJsonrpc": [
       {
         "address": "https://evm.dukong.mantrachain.io"
-      },
-      {
-        "address": "https://rpc.evm.mantra.testnet.cosmostation.io"
       }
     ]
   },
@@ -80,6 +80,12 @@
       "url": "https://www.mintscan.io/mantra-testnet",
       "txPage": "https://mintscan.io/mantra-testnet/txs/${txHash}",
       "accountPage": "https://mintscan.io/mantra-testnet/account/${accountAddress}"
+    },
+    {
+      "kind": "mantrascan",
+      "url": "https://mantrascan.io/dukong",
+      "txPage": "https://mantrascan.io/dukong/tx/${txHash}",
+      "accountPage": "https://mantrascan.io/dukong/address/${accountAddress}"
     },
     {
       "kind": "ping.pub",

@@ -125,6 +125,9 @@
       },
       {
         "address": "https://rpc.atomone-archive.citizenweb3.com:443"
+      },
+      {
+        "address": "https://rpc.atomone.indonode.net:443"
       }
     ],
     "rest": [
@@ -208,6 +211,9 @@
       },
       {
         "address": "https://api.atomone-archive.citizenweb3.com"
+      },
+      {
+        "address": "https://api.atomone.indonode.net"
       }
     ],
     "grpc": [
@@ -372,6 +378,12 @@
       "url": "https://validatorinfo.com/networks/atomone/overview",
       "validatorPage": "https://validatorinfo.com/networks/atomone/validators",
       "proposalPage": "https://validatorinfo.com/networks/atomone/governance"
+    },
+    {
+      "kind": "Indonode",
+      "url": "https://explorer.indonode.net/atomone/staking",
+      "txPage": "https://explorer.indonode.net/atomone/tx/${txHash}",
+      "accountPage": "https://explorer.indonode.net/atomone/account/${accountAddress}"
     }
   ],
   "images": [

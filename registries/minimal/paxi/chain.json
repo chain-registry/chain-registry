@@ -47,16 +47,25 @@
     "rpc": [
       {
         "address": "https://mainnet-rpc.paxinet.io"
+      },
+      {
+        "address": "https://rpc.paxi.indonode.net"
       }
     ],
     "rest": [
       {
         "address": "https://mainnet-lcd.paxinet.io"
+      },
+      {
+        "address": "https://api.paxi.indonode.net"
       }
     ],
     "grpc": [
       {
         "address": "mainnet-rpc.paxinet.io:443"
+      },
+      {
+        "address": "grpc.paxi.indonode.net:443"
       }
     ]
   },
@@ -66,6 +75,12 @@
       "url": "https://explorer.paxinet.io",
       "txPage": "https://explorer.paxinet.io/tx/${txHash}",
       "accountPage": "https://explorer.paxinet.io/address/${accountAddress}"
+    },
+    {
+      "kind": "Indonode",
+      "url": "https://explorer.indonode.net/paxi",
+      "txPage": "https://explorer.indonode.net/paxi/tx/${txHash}",
+      "accountPage": "https://explorer.indonode.net/paxi/address/${accountAddress}"
     }
   ]
 }

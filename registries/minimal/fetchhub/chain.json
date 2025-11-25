@@ -76,9 +76,6 @@
       },
       {
         "address": "https://fetchai-rpc.bluestake.net:443"
-      },
-      {
-        "address": "https://fetch-rpc.panthea.eu:443"
       }
     ],
     "rest": [
@@ -129,9 +126,6 @@
       },
       {
         "address": "https://fetchai-api.bluestake.net"
-      },
-      {
-        "address": "https://fetch-api.panthea.eu:443"
       }
     ],
     "grpc": [
@@ -167,9 +161,6 @@
       },
       {
         "address": "grpc.fetchhub-4.fetch.aviaone.com:9094"
-      },
-      {
-        "address": "fetch-grpc.panthea.eu:16710"
       }
     ]
   },
