@@ -128,6 +128,9 @@
       },
       {
         "address": "https://rpc.atomone.indonode.net:443"
+      },
+      {
+        "address": "https://atomone-rpc.nyan-cat.net"
       }
     ],
     "rest": [
@@ -214,6 +217,9 @@
       },
       {
         "address": "https://api.atomone.indonode.net"
+      },
+      {
+        "address": "https://atomone-api.nyan-cat.net"
       }
     ],
     "grpc": [
@@ -273,6 +279,9 @@
       },
       {
         "address": "grpc.atomone-archive.citizenweb3.com:443"
+      },
+      {
+        "address": "atomone-grpc.nyan-cat.net"
       }
     ]
   },
@@ -384,6 +393,12 @@
       "url": "https://explorer.indonode.net/atomone/staking",
       "txPage": "https://explorer.indonode.net/atomone/tx/${txHash}",
       "accountPage": "https://explorer.indonode.net/atomone/account/${accountAddress}"
+    },
+    {
+      "kind": "NyanCat",
+      "url": "https://explorer.nyan-cat.net/atomone",
+      "txPage": "https://explorer.nyan-cat.net/atomone/tx/${txHash}",
+      "accountPage": "https://explorer.nyan-cat.net/atomone/account/${accountAddress}"
     }
   ],
   "images": [
