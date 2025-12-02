@@ -37,7 +37,6 @@
       "name": "Function X",
       "display": "WFX",
       "symbol": "FX",
-      "coingeckoId": "fx-coin",
       "assetType": "sdk.coin"
     },
     {

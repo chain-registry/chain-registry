@@ -8652,8 +8652,7 @@
             "path": "transfer/channel-2716/FX"
           }
         }
-      ],
-      "coingeckoId": "fx-coin"
+      ]
     },
     {
       "description": "Bitcoin. On Cosmos.",

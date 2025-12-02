@@ -87,8 +87,7 @@
             "path": "transfer/channel-585/FX"
           }
         }
-      ],
-      "coingeckoId": "fx-coin"
+      ]
     },
     {
       "description": "The token of Crowdpunk DAO",
