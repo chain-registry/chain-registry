@@ -57,6 +57,9 @@
       },
       {
         "address": "https://rpc.kava.nodestake.org"
+      },
+      {
+        "address": "https://kava.api.pocket.network"
       }
     ],
     "rest": [
@@ -83,6 +86,9 @@
       },
       {
         "address": "https://api.kava.nodestake.org"
+      },
+      {
+        "address": "https://kava.api.pocket.network"
       }
     ],
     "grpc": [

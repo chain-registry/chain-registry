@@ -71,6 +71,9 @@
       },
       {
         "address": "https://rpc-shentu.onenov.xyz"
+      },
+      {
+        "address": "https://shentu.api.pocket.network"
       }
     ],
     "rest": [
@@ -112,6 +115,9 @@
       },
       {
         "address": "https://api-shentu.onenov.xyz"
+      },
+      {
+        "address": "https://shentu.api.pocket.network"
       }
     ],
     "grpc": [

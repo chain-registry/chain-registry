@@ -98,6 +98,9 @@
       },
       {
         "address": "https://stargaze-rpc.chainroot.io"
+      },
+      {
+        "address": "https://stargaze.api.pocket.network"
       }
     ],
     "rest": [
@@ -160,6 +163,9 @@
       },
       {
         "address": "https://stargaze-api.chainroot.io"
+      },
+      {
+        "address": "https://stargaze.api.pocket.network"
       }
     ],
     "grpc": [

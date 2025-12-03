@@ -71,6 +71,9 @@
       },
       {
         "address": "https://cheqd-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://cheqd.api.pocket.network"
       }
     ],
     "rest": [
@@ -109,6 +112,9 @@
       },
       {
         "address": "https://cheqd-rest.publicnode.com"
+      },
+      {
+        "address": "https://cheqd.api.pocket.network"
       }
     ],
     "grpc": [

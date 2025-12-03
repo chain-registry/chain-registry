@@ -131,6 +131,9 @@
       },
       {
         "address": "https://atomone-rpc.nyan-cat.net"
+      },
+      {
+        "address": "https://atomone.api.pocket.network"
       }
     ],
     "rest": [
@@ -220,6 +223,9 @@
       },
       {
         "address": "https://atomone-api.nyan-cat.net"
+      },
+      {
+        "address": "https://atomone.api.pocket.network"
       }
     ],
     "grpc": [

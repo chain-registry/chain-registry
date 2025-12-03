@@ -592,6 +592,9 @@
       },
       {
         "address": "https://rpc.osmosis.citizenweb3.com/"
+      },
+      {
+        "address": "https://osmosis.api.pocket.network"
       }
     ],
     "rest": [
@@ -639,6 +642,9 @@
       },
       {
         "address": "https://api.osmosis.citizenweb3.com/"
+      },
+      {
+        "address": "https://osmosis.api.pocket.network"
       }
     ],
     "grpc": [

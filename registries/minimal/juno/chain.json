@@ -87,6 +87,9 @@
       },
       {
         "address": "https://juno-rpc.chainroot.io"
+      },
+      {
+        "address": "https://juno.api.pocket.network"
       }
     ],
     "rest": [
@@ -125,6 +128,9 @@
       },
       {
         "address": "https://juno-api.chainroot.io"
+      },
+      {
+        "address": "https://juno.api.pocket.network"
       }
     ],
     "grpc": [

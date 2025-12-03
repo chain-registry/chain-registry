@@ -80,6 +80,9 @@
       },
       {
         "address": "https://chihuahua-rpc.chainroot.io"
+      },
+      {
+        "address": "https://chihuahua.api.pocket.network"
       }
     ],
     "rest": [
@@ -118,6 +121,9 @@
       },
       {
         "address": "https://chihuahua-api.chainroot.io"
+      },
+      {
+        "address": "https://chihuahua.api.pocket.network"
       }
     ],
     "grpc": [

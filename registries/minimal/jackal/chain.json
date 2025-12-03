@@ -94,6 +94,9 @@
       },
       {
         "address": "https://jackal-rpc.noders.services"
+      },
+      {
+        "address": "https://jackal.api.pocket.network"
       }
     ],
     "rest": [
@@ -147,6 +150,9 @@
       },
       {
         "address": "https://jackal-api.noders.services"
+      },
+      {
+        "address": "https://jackal.api.pocket.network"
       }
     ],
     "grpc": [

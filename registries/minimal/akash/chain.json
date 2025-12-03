@@ -55,6 +55,9 @@
       },
       {
         "address": "https://akash.rpc.arcturian.tech/"
+      },
+      {
+        "address": "https://akash.api.pocket.network"
       }
     ],
     "rest": [
@@ -87,6 +90,9 @@
       },
       {
         "address": "https://akash.api.arcturian.tech"
+      },
+      {
+        "address": "https://akash.api.pocket.network"
       }
     ],
     "grpc": [

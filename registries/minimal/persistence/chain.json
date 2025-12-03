@@ -110,6 +110,9 @@
       },
       {
         "address": "https://persistence-rpc.stake-town.com"
+      },
+      {
+        "address": "https://persistence.api.pocket.network"
       }
     ],
     "rest": [
@@ -175,6 +178,9 @@
       },
       {
         "address": "https://persistence-api.stake-town.com"
+      },
+      {
+        "address": "https://persistence.api.pocket.network"
       }
     ],
     "grpc": [
