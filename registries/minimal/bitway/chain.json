@@ -6,7 +6,7 @@
   "prettyName": "Bitway",
   "chainType": "cosmos",
   "chainId": "bitway-1",
-  "bech32Prefix": "bitway",
+  "bech32Prefix": "bc",
   "keyAlgos": [
     "secp256k1"
   ],
