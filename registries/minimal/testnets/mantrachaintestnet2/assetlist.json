@@ -6,19 +6,19 @@
       "description": "The native token of MANTRA",
       "denomUnits": [
         {
-          "denom": "uom",
+          "denom": "amantra",
           "exponent": 0
         },
         {
-          "denom": "om",
-          "exponent": 6
+          "denom": "mantra",
+          "exponent": 18
         }
       ],
       "assetType": "sdk.coin",
-      "base": "uom",
+      "base": "amantra",
       "name": "MANTRA Chain Dukong",
-      "display": "om",
-      "symbol": "OM"
+      "display": "mantra",
+      "symbol": "MANTRA"
     },
     {
       "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, with Circle as the first issuer.",
