@@ -15,10 +15,10 @@
     "feeTokens": [
       {
         "denom": "nhash",
-        "fixedMinGasPrice": 1905,
-        "lowGasPrice": 1905,
-        "averageGasPrice": 2100,
-        "highGasPrice": 2500
+        "fixedMinGasPrice": 1,
+        "lowGasPrice": 1,
+        "averageGasPrice": 1,
+        "highGasPrice": 1
       }
     ]
   },
@@ -32,10 +32,10 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.46.13"
+      "version": "0.50.14"
     },
     "cosmwasm": {
-      "version": "0.30",
+      "version": "0.52",
       "enabled": true
     }
   },
