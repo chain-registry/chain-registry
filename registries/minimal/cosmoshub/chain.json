@@ -45,6 +45,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc.cosmoshub-main.ccvalidators.com:443"
+      },
+      {
         "address": "https://cosmoshub.tendermintrpc.lava.build:443"
       },
       {
@@ -167,6 +170,9 @@
     ],
     "rest": [
       {
+        "address": "https://rest.cosmoshub-main.ccvalidators.com:443"
+      },
+      {
         "address": "https://cosmoshub.lava.build:443"
       },
       {
@@ -267,6 +273,9 @@
       }
     ],
     "grpc": [
+      {
+        "address": "grpc.cosmoshub-main.ccvalidators.com:443"
+      },
       {
         "address": "cosmoshub.grpc.lava.build"
       },

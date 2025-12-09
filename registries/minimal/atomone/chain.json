@@ -134,6 +134,9 @@
       },
       {
         "address": "https://atomone.api.pocket.network"
+      },
+      {
+        "address": "https://atomone.blocksync.me/rpc"
       }
     ],
     "rest": [
@@ -226,6 +229,9 @@
       },
       {
         "address": "https://atomone.api.pocket.network"
+      },
+      {
+        "address": "https://atomone.blocksync.me/api"
       }
     ],
     "grpc": [
@@ -288,6 +294,9 @@
       },
       {
         "address": "atomone-grpc.nyan-cat.net"
+      },
+      {
+        "address": "atomone-grpc.blocksync.me:443"
       }
     ]
   },
@@ -405,6 +414,12 @@
       "url": "https://explorer.nyan-cat.net/atomone",
       "txPage": "https://explorer.nyan-cat.net/atomone/tx/${txHash}",
       "accountPage": "https://explorer.nyan-cat.net/atomone/account/${accountAddress}"
+    },
+    {
+      "kind": "BlockSync",
+      "url": "https://dashboard.blocksync.me/atomone",
+      "txPage": "https://dashboard.blocksync.me/atomone/tx/${txHash}",
+      "accountPage": "https://dashboard.blocksync.me/atomone/account/${accountAddress}"
     }
   ],
   "images": [
