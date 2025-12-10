@@ -104,6 +104,9 @@
       },
       {
         "address": "https://rpc-lava.winnode.xyz"
+      },
+      {
+        "address": "https://rpc-lava.vinjan.xyz"
       }
     ],
     "rest": [
@@ -157,6 +160,9 @@
       },
       {
         "address": "https://api-lava.winnode.xyz"
+      },
+      {
+        "address": "https://api-lava.vinjan.xyz"
       }
     ],
     "grpc": [
@@ -195,6 +201,9 @@
       },
       {
         "address": "grpc-lava.winnode.xyz:443"
+      },
+      {
+        "address": "grpc-lava.vinjan.xyz:29990"
       }
     ]
   },

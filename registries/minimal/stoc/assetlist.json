@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "stoc",
+  "assets": [
+    {
+      "description": "STO Chain is an institutional-grade permissioned blockchain built specifically for regulated assets.",
+      "denomUnits": [
+        {
+          "denom": "ustoc",
+          "exponent": 0
+        },
+        {
+          "denom": "stoc",
+          "exponent": 6
+        }
+      ],
+      "base": "ustoc",
+      "name": "STO Chain",
+      "display": "stoc",
+      "symbol": "STOC",
+      "assetType": "sdk.coin",
+      "coingeckoId": "sto-chain"
+    }
+  ]
+}
