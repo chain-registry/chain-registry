@@ -19635,6 +19635,41 @@
       "name": "Nine Dollers",
       "display": "NINEDOLLERS",
       "symbol": "NINEDOLLERS"
+    },
+    {
+      "description": "The native token of EpixChain",
+      "denomUnits": [
+        {
+          "denom": "ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF",
+          "exponent": 0,
+          "aliases": [
+            "aepix"
+          ]
+        },
+        {
+          "denom": "epix",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF",
+      "name": "Epix",
+      "display": "epix",
+      "symbol": "EPIX",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "epix",
+            "baseDenom": "aepix",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "channelId": "channel-108456",
+            "path": "transfer/channel-108456/aepix"
+          }
+        }
+      ]
     }
   ]
 }

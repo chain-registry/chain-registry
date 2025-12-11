@@ -168,6 +168,11 @@
       {
         "address": "injective-grpc.noders.services:33090"
       }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://injective.json-rpc.decentrio.ventures"
+      }
     ]
   },
   "explorers": [

@@ -166,6 +166,9 @@
       },
       {
         "address": "https://rpc.cosmoshub-4-archive.citizenweb3.com:443"
+      },
+      {
+        "address": "https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money"
       }
     ],
     "rest": [
@@ -270,6 +273,9 @@
       },
       {
         "address": "https://api.cosmoshub-4.citizenweb3.com:443"
+      },
+      {
+        "address": "https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money"
       }
     ],
     "grpc": [
@@ -344,6 +350,9 @@
       },
       {
         "address": "grpc.cosmoshub-4.citizenweb3.com:443"
+      },
+      {
+        "address": "cosmoshub-mainnet.chain.whenmoonwhenlambo.money:443"
       }
     ]
   },
@@ -467,6 +476,15 @@
       "url": "https://validatorinfo.com/networks/cosmoshub/overview",
       "validatorPage": "https://validatorinfo.com/networks/cosmoshub/validators",
       "proposalPage": "https://validatorinfo.com/networks/cosmoshub/governance"
+    },
+    {
+      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+      "url": "https://explorer.whenmoonwhenlambo.money/cosmos",
+      "txPage": "https://explorer.whenmoonwhenlambo.money/cosmos/tx/${txHash}",
+      "accountPage": "https://explorer.whenmoonwhenlambo.money/cosmos/account/${accountAddress}",
+      "validatorPage": "https://explorer.whenmoonwhenlambo.money/cosmos/staking/${validatorAddress}",
+      "proposalPage": "https://explorer.whenmoonwhenlambo.money/cosmos/gov/${proposalId}",
+      "blockPage": "https://explorer.whenmoonwhenlambo.money/cosmos/block/${blockHeight}"
     }
   ],
   "images": [
