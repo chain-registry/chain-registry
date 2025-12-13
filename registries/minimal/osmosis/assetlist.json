@@ -19670,6 +19670,25 @@
           }
         }
       ]
+    },
+    {
+      "description": "SLAYER OF ZEROS ",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/slayer",
+          "exponent": 0
+        },
+        {
+          "denom": "SLAYER",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8",
+      "base": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/slayer",
+      "name": "SLAYER",
+      "display": "SLAYER",
+      "symbol": "SLAYER"
     }
   ]
 }
