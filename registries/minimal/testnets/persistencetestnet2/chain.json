@@ -35,12 +35,12 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.47.14",
-      "tag": "v0.47.14-lsm",
-      "repo": "https://github.com/persistenceOne/cosmos-sdk"
+      "version": "v0.53.4",
+      "tag": "v0.53.4",
+      "repo": "https://github.com/cosmos/cosmos-sdk"
     },
     "cosmwasm": {
-      "version": "v0.46.0",
+      "version": "v0.60.2",
       "enabled": true
     }
   },
