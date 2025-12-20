@@ -137,6 +137,9 @@
       },
       {
         "address": "https://atomone.blocksync.me/rpc"
+      },
+      {
+        "address": "https://atomone-mainnet-rpc.oshvank.xyz"
       }
     ],
     "rest": [
@@ -232,6 +235,9 @@
       },
       {
         "address": "https://atomone.blocksync.me/api"
+      },
+      {
+        "address": "https://atomone-mainnet-api.oshvank.xyz"
       }
     ],
     "grpc": [
@@ -297,6 +303,9 @@
       },
       {
         "address": "atomone-grpc.blocksync.me:443"
+      },
+      {
+        "address": "atomone-mainnet-grpc.oshvank.xyz:443"
       }
     ]
   },
@@ -420,6 +429,12 @@
       "url": "https://dashboard.blocksync.me/atomone",
       "txPage": "https://dashboard.blocksync.me/atomone/tx/${txHash}",
       "accountPage": "https://dashboard.blocksync.me/atomone/account/${accountAddress}"
+    },
+    {
+      "kind": "🏆OshVanK🏆",
+      "url": "https://explorer.oshvank.xyz/AtomOne",
+      "txPage": "https://explorer.oshvank.xyz/AtomOne/tx/${txHash}",
+      "accountPage": "https://explorer.oshvank.xyz/AtomOne/account/${accountAddress}"
     }
   ],
   "images": [

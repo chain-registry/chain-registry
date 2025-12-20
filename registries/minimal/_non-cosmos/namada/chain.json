@@ -35,19 +35,17 @@
   "codebase": {
 
   },
+  "description": "Namada is a composable privacy layer for the multichain ecosystem. It's a proof-of-stake Layer 1 designed to protect user data through a shielded asset hub and shielded cross-chain transactions. Namada can support any asset and helps bring data protection to existing chains, dapps, tokens, and NFTs. Built primarily in Rust, Namada uses CometBFT consensus and the IBC (Inter-Blockchain Communication) protocol for multichain interoperability, with the ability to expand to additional ecosystems beyond IBC. By leveraging advanced cryptography such as zk-SNARKs and a strong interoperability model, Namada serves as a privacy-preserving building block for users interacting across many blockchains and protocols.",
   "apis": {
     "rpc": [
+      {
+        "address": "https://rpc.namada.net"
+      },
       {
         "address": "https://rpc.namada.tududes.com"
       },
       {
         "address": "https://namada-rpc.mandragora.io"
-      },
-      {
-        "address": "https://namadam.powerstaking.tech"
-      },
-      {
-        "address": "https://namada-main.stakesystems.io"
       },
       {
         "address": "https://rpc-namada.5elementsnodes.com"
@@ -56,16 +54,10 @@
         "address": "https://namada-mainnet-rpc.itrocket.net"
       },
       {
-        "address": "https://namada-rpc.sproutstake.space"
-      },
-      {
         "address": "https://rpc.papadritta.com"
       },
       {
         "address": "https://namada.rpc.decentrio.ventures"
-      },
-      {
-        "address": "https://rpc.namada.stakepool.dev.br"
       },
       {
         "address": "https://rpc.namadascan.io"
@@ -80,13 +72,64 @@
         "address": "https://namada.loserboy.xyz"
       },
       {
-        "address": "https://namada.itudou.xyz"
-      },
-      {
         "address": "https://rpc.namada.validatus.com"
       },
       {
         "address": "https://namada-rpc.zenode.app"
+      },
+      {
+        "address": "https://rpc.namada.max-02.xyz"
+      },
+      {
+        "address": "https://lightnode-rpc-mainnet-namada.grandvalleys.com"
+      },
+      {
+        "address": "https://namada-mainnet-rpc.denodes.xyz"
+      },
+      {
+        "address": "https://namada-public-rpc.shield-crypto.com"
+      },
+      {
+        "address": "https://namada-rpc.emberstake.xyz"
+      },
+      {
+        "address": "https://namada-rpc.noders.services"
+      },
+      {
+        "address": "https://namada-rpc.wavefive.xyz"
+      },
+      {
+        "address": "https://rpc-namada.architectnodes.com"
+      },
+      {
+        "address": "https://rpc.namada-archive.citizenweb3.com"
+      },
+      {
+        "address": "https://rpc.namada.coverlet.io"
+      },
+      {
+        "address": "https://namada-mainnet-rpc.crouton.digital"
+      },
+      {
+        "address": "https://namada-rpc.0xwave.com"
+      },
+      {
+        "address": "https://namada-rpc.cosmicvalidator.com"
+      },
+      {
+        "address": "https://namada-rpc.hadesguard.tech"
+      },
+      {
+        "address": "https://namada.rpc.liveraven.net"
+      },
+      {
+        "address": "https://namada.tdrsys.com"
+      },
+      {
+        "address": "https://rpc-1.namada.nodes.guru"
+      },
+      {
+        "address": "https://rpc.namada.stakeup.tech"
       }
     ]
   },
