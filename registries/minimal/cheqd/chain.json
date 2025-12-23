@@ -108,7 +108,7 @@
         "address": "https://cheq-api.kleomedes.network"
       },
       {
-        "address": "https://cheqd.srvs.vnodesv.net/rest"
+        "address": "https://api.cheqd.srvs.vnodesv.net"
       },
       {
         "address": "https://cheqd-rest.publicnode.com"

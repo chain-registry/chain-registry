@@ -55,9 +55,6 @@
         "address": "https://bitsong.tdrsys.com:2053"
       },
       {
-        "address": "https://bitsong-rpc.panthea.eu"
-      },
-      {
         "address": "https://rpc.bitsong.mathnodes.com"
       },
       {
@@ -90,9 +87,6 @@
         "address": "https://bitsong.tdrsys.com"
       },
       {
-        "address": "https://bitsong-api.panthea.eu"
-      },
-      {
         "address": "https://api.bitsong.mathnodes.com"
       },
       {
@@ -117,9 +111,6 @@
       },
       {
         "address": "grpc.bitsong.mathnodes.com:443"
-      },
-      {
-        "address": "bitsong-grpc.panthea.eu:16750"
       },
       {
         "address": "bitsong-grpc.noders.services:20090"

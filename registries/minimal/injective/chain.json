@@ -39,7 +39,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://6d0ff611-9009-4bd1-a7a7-acec7c70d454.injective-1.mesa-rpc.newmetric.xyz"
+        "address": "https://injective-rpc.highstakes.ch"
       },
       {
         "address": "https://rpc.injective.goldenratiostaking.net"
@@ -51,42 +51,18 @@
         "address": "https://rpc.lavenderfive.com:443/injective"
       },
       {
-        "address": "https://rpc-injective-ia.cosmosia.notional.ventures/"
-      },
-      {
-        "address": "https://injective-mainnet-rpc.autostake.com:443"
-      },
-      {
-        "address": "https://rpc-injective.whispernode.com:443"
-      },
-      {
         "address": "https://rpc-injective-01.stakeflow.io"
       },
       {
         "address": "https://injective-rpc.publicnode.com:443"
       },
       {
-        "address": "https://injective-rpc.highstakes.ch"
-      },
-      {
         "address": "https://public.stakewolle.com/cosmos/injective/rpc"
-      },
-      {
-        "address": "https://rpc.injective.bronbro.io/"
-      },
-      {
-        "address": "https://injective-rpc.noders.services"
-      },
-      {
-        "address": "https://rpc-injective.kewrnode.com"
       }
     ],
     "rest": [
       {
-        "address": "https://6d0ff611-9009-4bd1-a7a7-acec7c70d454.injective-1.mesa-rest.newmetric.xyz"
-      },
-      {
-        "address": "https://api-injective-ia.cosmosia.notional.ventures/"
+        "address": "https://injective-api.highstakes.ch"
       },
       {
         "address": "https://injective-api.polkachu.com"
@@ -95,34 +71,10 @@
         "address": "https://rest.lavenderfive.com:443/injective"
       },
       {
-        "address": "https://lcd-injective.whispernode.com:443"
-      },
-      {
-        "address": "https://api-injective-01.stakeflow.io"
-      },
-      {
-        "address": "https://rest.injective.goldenratiostaking.net"
-      },
-      {
         "address": "https://injective-rest.publicnode.com"
       },
       {
-        "address": "injective-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://injective-api.highstakes.ch"
-      },
-      {
         "address": "https://public.stakewolle.com/cosmos/injective/rest"
-      },
-      {
-        "address": "https://lcd.injective.bronbro.io/"
-      },
-      {
-        "address": "https://injective-api.noders.services"
-      },
-      {
-        "address": "https://rest-injective.kewrnode.com"
       }
     ],
     "grpc": [

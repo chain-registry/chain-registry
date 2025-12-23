@@ -51,16 +51,10 @@
         "address": "https://terra-rpc.stakely.io:443/"
       },
       {
-        "address": "https://phoenix-rpc.terra.dev:443"
-      },
-      {
         "address": "https://terra-rpc.publicnode.com:443"
       },
       {
         "address": "https://rpc-terra-01.stakeflow.io"
-      },
-      {
-        "address": "https://rpc-archive-terra.r93axnodes.cloud:443"
       },
       {
         "address": "https://rpc-terra.cosmos-spaces.cloud"
@@ -69,19 +63,10 @@
         "address": "https://terra-phoenix-rpc.highstakes.ch"
       },
       {
-        "address": "https://rpc-terra.wildsage.io"
-      },
-      {
-        "address": "https://terra.interstellar-lounge.org"
-      },
-      {
         "address": "https://terra2.tdrsys.com:2053"
       },
       {
         "address": "https://terra-rpc.cosmosrescue.dev:8443"
-      },
-      {
-        "address": "https://terra-rpc.chainroot.io"
       },
       {
         "address": "https://terra-rpc.node39.top"
@@ -92,28 +77,16 @@
     ],
     "rest": [
       {
-        "address": "https://lcd-terra.wildsage.io"
-      },
-      {
         "address": "https://phoenix-lcd.terra.dev:443"
       },
       {
-        "address": "https://api-terra.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://terra-rest.publicnode.com"
-      },
-      {
-        "address": "https://api-archive-terra.r93axnodes.cloud:443"
       },
       {
         "address": "https://api-terra-01.stakeflow.io"
       },
       {
         "address": "https://terra-phoenix-api.highstakes.ch"
-      },
-      {
-        "address": "https://terra-rest.interstellar-lounge.org"
       },
       {
         "address": "https://terra2.tdrsys.com"
