@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "mirage",
+  "assets": [
+    {
+      "description": "The native token of Mirage. A social platform for true discourse. Decentralized. Unstoppable.",
+      "denomUnits": [
+        {
+          "denom": "umirage",
+          "exponent": 0
+        },
+        {
+          "denom": "mirage",
+          "exponent": 6
+        }
+      ],
+      "base": "umirage",
+      "name": "Mirage",
+      "display": "mirage",
+      "symbol": "MIRAGE",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

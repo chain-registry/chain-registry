@@ -15,10 +15,10 @@
     "feeTokens": [
       {
         "denom": "ukyve",
-        "fixedMinGasPrice": 2,
-        "lowGasPrice": 2,
-        "averageGasPrice": 3,
-        "highGasPrice": 6
+        "fixedMinGasPrice": 62.5,
+        "lowGasPrice": 62.5,
+        "averageGasPrice": 80,
+        "highGasPrice": 125
       }
     ]
   },
@@ -32,8 +32,8 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.50.12",
-      "tag": "v0.50.12-kyve-rc1"
+      "version": "v0.50.14",
+      "tag": "v0.50.14-kyve-rc1"
     }
   },
   "description": "Revolutionizing data reliability in the Web3 space, KYVE Network provides fast and easy tooling for data validation, immutability, and retrieval, ensuring trustless data for seamless scalability and eliminating data risks and roadblocks.",

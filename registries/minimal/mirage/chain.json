@@ -1,0 +1,76 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "mirage",
+  "networkType": "mainnet",
+  "prettyName": "Mirage",
+  "chainType": "cosmos",
+  "chainId": "mirage-1",
+  "bech32Prefix": "mirage",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "umirage",
+        "fixedMinGasPrice": 0.025,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.05,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "umirage"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.53"
+    }
+  },
+  "description": "Mirage is what Reddit could have been if it never sold out. Free speech lives on-chain. True discourse. Decentralized. Unstoppable.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://mirage.talk:26657"
+      },
+      {
+        "address": "http://mirage.vote:26657"
+      },
+      {
+        "address": "http://146.190.108.140:26657"
+      },
+      {
+        "address": "http://139.59.9.96:26657"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "mirage.talk:9090"
+      },
+      {
+        "address": "mirage.vote:9090"
+      },
+      {
+        "address": "146.190.108.140:9090"
+      },
+      {
+        "address": "139.59.9.96:9090"
+      }
+    ]
+  },
+  "explorers": [
+
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mirage/images/mirage.png"
+    }
+  ]
+}

@@ -14,7 +14,10 @@
     "feeTokens": [
       {
         "denom": "tkyve",
-        "fixedMinGasPrice": 0
+        "fixedMinGasPrice": 62.5,
+        "lowGasPrice": 62.5,
+        "averageGasPrice": 80,
+        "highGasPrice": 125
       }
     ]
   },
