@@ -49,6 +49,9 @@
       },
       {
         "address": "https://hippo-rpc.node39.top:443"
+      },
+      {
+        "address": "https://hippo-mainnet-rpc.shazoes.xyz"
       }
     ],
     "rest": [
@@ -60,6 +63,9 @@
       },
       {
         "address": "https://hippo-api.node39.top:443"
+      },
+      {
+        "address": "https://hippo-mainnet-api.shazoes.xyz"
       }
     ],
     "grpc": [
@@ -71,6 +77,9 @@
       },
       {
         "address": "hippo-grpc.node39.top:443"
+      },
+      {
+        "address": "hippo-mainnet-grpc.shazoes.xyz:30290"
       }
     ]
   },

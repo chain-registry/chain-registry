@@ -19689,6 +19689,35 @@
       "name": "SLAYER",
       "display": "SLAYER",
       "symbol": "SLAYER"
+    },
+    {
+      "description": "An alloy of EPIX asset variants on Osmosis.",
+      "denomUnits": [
+        {
+          "denom": "factory/osmo130tfawc7katf7jwzt2rjdranhqju929rjra3xwsrfsd85hedh3tsssy9j7/alloyed/allEPIX",
+          "exponent": 0
+        },
+        {
+          "denom": "allEPIX",
+          "exponent": 12
+        }
+      ],
+      "assetType": "sdk.coin",
+      "address": "osmo130tfawc7katf7jwzt2rjdranhqju929rjra3xwsrfsd85hedh3tsssy9j7",
+      "base": "factory/osmo130tfawc7katf7jwzt2rjdranhqju929rjra3xwsrfsd85hedh3tsssy9j7/alloyed/allEPIX",
+      "name": "Epix",
+      "display": "allEPIX",
+      "symbol": "EPIX",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chainName": "epix",
+            "baseDenom": "aepix"
+          },
+          "provider": "Osmosis"
+        }
+      ]
     }
   ]
 }

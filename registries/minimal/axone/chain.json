@@ -61,6 +61,9 @@
       },
       {
         "address": "https://rpc.axone-archive.citizenweb3.com"
+      },
+      {
+        "address": "https://axone-mainnet-rpc.shazoes.xyz"
       }
     ],
     "rest": [
@@ -84,6 +87,9 @@
       },
       {
         "address": "https://api.axone-archive.citizenweb3.com"
+      },
+      {
+        "address": "https://axone-mainnet-api.shazoes.xyz"
       }
     ],
     "grpc": [
@@ -104,6 +110,9 @@
       },
       {
         "address": "grpc.axone-archive.citizenweb3.com:443"
+      },
+      {
+        "address": "axone-mainnet-grpc.shazoes.xyz:30490"
       }
     ]
   },

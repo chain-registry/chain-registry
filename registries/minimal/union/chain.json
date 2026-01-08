@@ -63,6 +63,9 @@
       },
       {
         "address": "https://union-rpc.highstakes.ch"
+      },
+      {
+        "address": "https://union-mainnet-rpc.shazoes.xyz"
       }
     ],
     "rest": [
@@ -89,6 +92,9 @@
       },
       {
         "address": "https://union-api.highstakes.ch"
+      },
+      {
+        "address": "https://union-mainnet-api.shazoes.xyz"
       }
     ],
     "grpc": [
@@ -112,6 +118,9 @@
       },
       {
         "address": "m-union-grpc.ruangnode.com:14090"
+      },
+      {
+        "address": "union-mainnet-grpc.shazoes.xyz:30990"
       }
     ]
   },

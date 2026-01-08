@@ -107,6 +107,9 @@
       },
       {
         "address": "https://rpc-lava.vinjan.xyz"
+      },
+      {
+        "address": "https://lava-mainnet-rpc.shazoes.xyz"
       }
     ],
     "rest": [
@@ -163,6 +166,9 @@
       },
       {
         "address": "https://api-lava.vinjan.xyz"
+      },
+      {
+        "address": "https://lava-mainnet-api.shazoes.xyz"
       }
     ],
     "grpc": [
@@ -204,6 +210,9 @@
       },
       {
         "address": "grpc-lava.vinjan.xyz:29990"
+      },
+      {
+        "address": "lava-mainnet-grpc.shazoes.xyz:30790"
       }
     ]
   },
