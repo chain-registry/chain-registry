@@ -32,8 +32,8 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.53.3",
-      "tag": "v0.53.3"
+      "version": "v0.53.4",
+      "tag": "v0.53.4"
     },
     "cosmwasm": {
       "version": "v0.60.2",
