@@ -106,7 +106,7 @@
         "address": "https://rpc-lava.winnode.xyz"
       },
       {
-        "address": "https://rpc-lava.vinjan.xyz"
+        "address": "https://rpc-lava.vinjan-inc.com"
       },
       {
         "address": "https://lava-mainnet-rpc.shazoes.xyz"
@@ -165,7 +165,7 @@
         "address": "https://api-lava.winnode.xyz"
       },
       {
-        "address": "https://api-lava.vinjan.xyz"
+        "address": "https://api-lava.vinjan-inc.com"
       },
       {
         "address": "https://lava-mainnet-api.shazoes.xyz"
@@ -209,7 +209,7 @@
         "address": "grpc-lava.winnode.xyz:443"
       },
       {
-        "address": "grpc-lava.vinjan.xyz:29990"
+        "address": "grpc-lava.vinjan-inc.com:29990"
       },
       {
         "address": "lava-mainnet-grpc.shazoes.xyz:30790"

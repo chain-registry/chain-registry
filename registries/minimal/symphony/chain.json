@@ -48,7 +48,7 @@
         "address": "https://symphony-rpc.cogwheel.zone/"
       },
       {
-        "address": "https://rpc-main-symphony.vinjan.xyz"
+        "address": "https://rpc-m.symphony.vinjan-inc.com"
       },
       {
         "address": "https://rpc-symphony.sr20de.xyz"
@@ -65,7 +65,7 @@
         "address": "https://symphony-api.cogwheel.zone/"
       },
       {
-        "address": "https://api-main-symphony.vinjan.xyz"
+        "address": "https://api-m.symphony.vinjan-inc.com"
       },
       {
         "address": "https://api-symphony.sr20de.xyz"
@@ -82,7 +82,7 @@
         "address": "https://symphony-grpc.cogwheel.zone:443"
       },
       {
-        "address": "grpc-main-symphony.vinjan.xyz:21090"
+        "address": "grpc-m.symphony.vinjan-inc.com:21090"
       },
       {
         "address": "https://grpc-symphony.sr20de.xyz"
@@ -95,9 +95,9 @@
   "explorers": [
     {
       "kind": "VinjanXplorer",
-      "url": "https://xplorer.vinjan.xyz/symphony",
-      "txPage": "https://xplorer.vinjan.xyz/symphony/tx/${txHash}",
-      "accountPage": "https://xplorer.vinjan.xyz/symphony/account/${accountAddress}"
+      "url": "https://explorer.vinjan-inc.com/symphony",
+      "txPage": "https://explorer.vinjan-inc.com/symphony/tx/${txHash}",
+      "accountPage": "https://explorer.vinjan-inc.com/symphony/account/${accountAddress}"
     },
     {
       "kind": "Sr20de Explorer",

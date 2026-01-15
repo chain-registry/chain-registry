@@ -5,15 +5,16 @@
   "prettyName": "GenesisL1",
   "chainType": "cosmos",
   "chainId": "genesis_29-2",
+  "website": "https://GenesisL1.com",
   "bech32Prefix": "genesis",
   "slip44": 118,
   "fees": {
     "feeTokens": [
       {
         "denom": "el1",
-        "lowGasPrice": 51000000000,
-        "averageGasPrice": 52000000000,
-        "highGasPrice": 53000000000
+        "lowGasPrice": 57000000000,
+        "averageGasPrice": 58000000000,
+        "highGasPrice": 59000000000
       }
     ]
   },
@@ -30,6 +31,7 @@
       "version": "0.46.15"
     }
   },
+  "description": "GenesisL1 is a public distributed ledger for decentralized scientific data, assets, applications, and protocols, with a focus on bioinformatics, biotechnology, medicine, and machine learning.",
   "apis": {
     "rpc": [
       {
