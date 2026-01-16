@@ -14,10 +14,10 @@
     "feeTokens": [
       {
         "denom": "umirage",
-        "fixedMinGasPrice": 0.025,
-        "lowGasPrice": 0.025,
-        "averageGasPrice": 0.05,
-        "highGasPrice": 0.1
+        "fixedMinGasPrice": 5000,
+        "lowGasPrice": 5000,
+        "averageGasPrice": 7500,
+        "highGasPrice": 10000
       }
     ]
   },
@@ -38,30 +38,18 @@
   "apis": {
     "rpc": [
       {
-        "address": "http://mirage.talk:26657"
+        "address": "https://mirage.talk/chain/rpc"
       },
       {
-        "address": "http://mirage.vote:26657"
-      },
-      {
-        "address": "http://146.190.108.140:26657"
-      },
-      {
-        "address": "http://139.59.9.96:26657"
+        "address": "https://mirage.vote/chain/rpc"
       }
     ],
-    "grpc": [
+    "rest": [
       {
-        "address": "mirage.talk:9090"
+        "address": "https://mirage.talk/chain/rest"
       },
       {
-        "address": "mirage.vote:9090"
-      },
-      {
-        "address": "146.190.108.140:9090"
-      },
-      {
-        "address": "139.59.9.96:9090"
+        "address": "https://mirage.vote/chain/rest"
       }
     ]
   },

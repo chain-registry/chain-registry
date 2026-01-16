@@ -52,6 +52,9 @@
       },
       {
         "address": "https://lumera.archive.data.nexus"
+      },
+      {
+        "address": "https://lumera-rpc.linknode.org"
       }
     ],
     "rest": [
@@ -66,6 +69,9 @@
       },
       {
         "address": "https://rest.lumera.archive.data.nexus"
+      },
+      {
+        "address": "https://lumera-api.linknode.org"
       }
     ],
     "grpc": [
@@ -74,6 +80,9 @@
       },
       {
         "address": "https://grpc.lumera.archive.data.nexus:443"
+      },
+      {
+        "address": "lumera-grpc.linknode.org:443"
       }
     ]
   },
@@ -89,6 +98,12 @@
       "url": "https://cosmotracker.com/lumera/",
       "txPage": "https://cosmotracker.com/lumera/tx/${txHash}",
       "accountPage": "https://cosmotracker.com/lumera/account/${accountAddress}"
+    },
+    {
+      "kind": "AstroStake",
+      "url": "https://stake.astrostake.xyz/lumera",
+      "txPage": "https://stake.astrostake.xyz/lumera/tx/${txHash}",
+      "accountPage": "https://stake.astrostake.xyz/lumera/address/${accountAddress}"
     }
   ],
   "images": [
