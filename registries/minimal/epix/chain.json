@@ -42,16 +42,25 @@
     "rpc": [
       {
         "address": "https://rpc.epix.zone"
+      },
+      {
+        "address": "https://rpc-m.epix.vinjan-inc.com"
       }
     ],
     "rest": [
       {
         "address": "https://api.epix.zone"
+      },
+      {
+        "address": "https://api-m.epix.vinjan-inc.com"
       }
     ],
     "grpc": [
       {
         "address": "grpc.epix.zone:15067"
+      },
+      {
+        "address": "grpc-m.epix.vinjan-inc.com:39990"
       }
     ],
     "evmHttpJsonrpc": [
