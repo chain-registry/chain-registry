@@ -78,6 +78,10 @@
       {
         "address": "https://rpc-m.epix.vinjan-inc.com",
         "provider": "Vinjan.Inc"
+      },
+      {
+        "address": "https://rpc-epix.dnsarz.net:443",
+        "provider": "dnsarz"
       }
     ],
     "rest": [
@@ -88,6 +92,10 @@
       {
         "address": "https://api-m.epix.vinjan-inc.com",
         "provider": "Vinjan.Inc"
+      },
+      {
+        "address": "https://api-epix.dnsarz.net",
+        "provider": "dnsarz"
       }
     ],
     "grpc": [
@@ -98,6 +106,10 @@
       {
         "address": "grpc-m.epix.vinjan-inc.com:39990",
         "provider": "Vinjan.Inc"
+      },
+      {
+        "address": "grpc-epix.dnsarz.net:443",
+        "provider": "dnsarz"
       }
     ],
     "evmHttpJsonrpc": [

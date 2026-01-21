@@ -45,6 +45,9 @@
       },
       {
         "address": "https://rpc-m.epix.vinjan-inc.com"
+      },
+      {
+        "address": "https://rpc-epix.dnsarz.net:443"
       }
     ],
     "rest": [
@@ -53,6 +56,9 @@
       },
       {
         "address": "https://api-m.epix.vinjan-inc.com"
+      },
+      {
+        "address": "https://api-epix.dnsarz.net"
       }
     ],
     "grpc": [
@@ -61,6 +67,9 @@
       },
       {
         "address": "grpc-m.epix.vinjan-inc.com:39990"
+      },
+      {
+        "address": "grpc-epix.dnsarz.net:443"
       }
     ],
     "evmHttpJsonrpc": [
