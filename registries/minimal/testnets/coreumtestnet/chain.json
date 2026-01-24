@@ -54,9 +54,6 @@
       },
       {
         "address": "https://full-node-eris.testnet-1.coreum.dev:26657"
-      },
-      {
-        "address": "https://coreum-testnet-rpc.ibs.team:443"
       }
     ],
     "grpc": [
@@ -70,9 +67,6 @@
     "rest": [
       {
         "address": "https://full-node.testnet-1.coreum.dev:1317"
-      },
-      {
-        "address": "https://coreum-testnet-api.ibs.team:443"
       }
     ]
   },

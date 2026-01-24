@@ -44,6 +44,9 @@
         "address": "https://rpc.epix.zone"
       },
       {
+        "address": "https://rpc-epix.onenov.xyz"
+      },
+      {
         "address": "https://rpc-m.epix.vinjan-inc.com"
       },
       {
@@ -53,6 +56,9 @@
     "rest": [
       {
         "address": "https://api.epix.zone"
+      },
+      {
+        "address": "https://api-epix.onenov.xyz"
       },
       {
         "address": "https://api-m.epix.vinjan-inc.com"
@@ -83,6 +89,11 @@
       "kind": "L1",
       "url": "https://explorer.epix.zone/",
       "txPage": "https://explorer.epix.zone/epix/tx/${txHash}"
+    },
+    {
+      "kind": "OneNov",
+      "url": "https://explorer.onenov.xyz",
+      "txPage": "https://explorer.onenov.xyz/epix/tx/${txHash}"
     },
     {
       "kind": "EVM",

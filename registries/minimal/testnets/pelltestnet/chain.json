@@ -31,9 +31,6 @@
       },
       {
         "address": "https://rpc-t.pell.nodestake.org"
-      },
-      {
-        "address": "https://pell-testnet-rpc.ibs.team"
       }
     ],
     "rest": [
@@ -45,9 +42,6 @@
       },
       {
         "address": "https://api-t.pell.nodestake.org"
-      },
-      {
-        "address": "https://pell-testnet-api.ibs.team"
       }
     ],
     "grpc": [

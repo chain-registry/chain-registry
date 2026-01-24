@@ -61,9 +61,6 @@
       },
       {
         "address": "https://lava-testnet-rpc.itrocket.net:443"
-      },
-      {
-        "address": "https://lava-testnet-rpc.ibs.team:443"
       }
     ],
     "rest": [
@@ -75,9 +72,6 @@
       },
       {
         "address": "https://lava-testnet-api.itrocket.net"
-      },
-      {
-        "address": "https://lava-testnet-api.ibs.team:443"
       }
     ]
   },

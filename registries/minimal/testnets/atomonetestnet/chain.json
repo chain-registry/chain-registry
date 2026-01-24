@@ -42,9 +42,6 @@
         "address": "https://rpc-testnet-atomone.nodeist.net"
       },
       {
-        "address": "https://atomone-testnet-rpc.ibs.team"
-      },
-      {
         "address": "https://rpc-test.atomone.vinjan.xyz"
       },
       {
@@ -60,9 +57,6 @@
     "rest": [
       {
         "address": "https://api-testnet-atomone.nodeist.net"
-      },
-      {
-        "address": "https://atomone-testnet-api.ibs.team"
       },
       {
         "address": "https://api-test.atomone.vinjan.xyz"

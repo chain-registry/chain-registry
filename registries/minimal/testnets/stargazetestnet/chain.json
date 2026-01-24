@@ -32,17 +32,11 @@
     "rpc": [
       {
         "address": "https://rpc.elgafar-1.stargaze-apis.com"
-      },
-      {
-        "address": "https://stargaze-testnet-rpc.ibs.team:443"
       }
     ],
     "rest": [
       {
         "address": "https://rest.elgafar-1.stargaze-apis.com"
-      },
-      {
-        "address": "https://stargaze-testnet-api.ibs.team:443"
       }
     ],
     "grpc": [
