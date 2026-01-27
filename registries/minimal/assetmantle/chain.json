@@ -44,9 +44,6 @@
         "address": "https://rpc.mantle.paranorm.pro:443"
       },
       {
-        "address": "https://assetmantle-rpc.stakerhouse.com"
-      },
-      {
         "address": "https://assetmantle-rpc.publicnode.com:443"
       }
     ],
@@ -62,9 +59,6 @@
       },
       {
         "address": "https://api.mantle.paranorm.pro:443"
-      },
-      {
-        "address": "https://assetmantle-rest.stakerhouse.com"
       },
       {
         "address": "https://assetmantle-rest.publicnode.com"
