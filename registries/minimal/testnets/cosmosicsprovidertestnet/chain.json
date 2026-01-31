@@ -43,16 +43,16 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.provider-sentry-01.ics-testnet.polypore.xyz"
+        "address": "https://rpc.provider-sentry-01.hub-testnet.polypore.xyz"
       },
       {
-        "address": "https://rpc.provider-sentry-02.ics-testnet.polypore.xyz"
+        "address": "https://rpc.provider-sentry-02.hub-testnet.polypore.xyz"
       },
       {
-        "address": "https://rpc.provider-state-sync-01.ics-testnet.polypore.xyz"
+        "address": "https://rpc.provider-state-sync-01.hub-testnet.polypore.xyz"
       },
       {
-        "address": "https://rpc.provider-state-sync-02.ics-testnet.polypore.xyz"
+        "address": "https://rpc.provider-state-sync-02.hub-testnet.polypore.xyz"
       },
       {
         "address": "https://cosmos-testnet-rpc.itrocket.net"
@@ -63,16 +63,16 @@
     ],
     "rest": [
       {
-        "address": "https://rest.provider-sentry-01.ics-testnet.polypore.xyz"
+        "address": "https://rest.provider-sentry-01.hub-testnet.polypore.xyz"
       },
       {
-        "address": "https://rest.provider-sentry-02.ics-testnet.polypore.xyz"
+        "address": "https://rest.provider-sentry-02.hub-testnet.polypore.xyz"
       },
       {
-        "address": "https://rest.provider-state-sync-01.ics-testnet.polypore.xyz"
+        "address": "https://rest.provider-state-sync-01.hub-testnet.polypore.xyz"
       },
       {
-        "address": "https://rest.provider-state-sync-02.ics-testnet.polypore.xyz"
+        "address": "https://rest.provider-state-sync-02.hub-testnet.polypore.xyz"
       },
       {
         "address": "https://cosmos-testnet-api.itrocket.net"
@@ -83,16 +83,16 @@
     ],
     "grpc": [
       {
-        "address": "https://grpc.provider-sentry-01.ics-testnet.polypore.xyz"
+        "address": "https://grpc.provider-sentry-01.hub-testnet.polypore.xyz"
       },
       {
-        "address": "https://grpc.provider-sentry-02.ics-testnet.polypore.xyz"
+        "address": "https://grpc.provider-sentry-02.hub-testnet.polypore.xyz"
       },
       {
-        "address": "https://grpc.provider-state-sync-01.ics-testnet.polypore.xyz"
+        "address": "https://grpc.provider-state-sync-01.hub-testnet.polypore.xyz"
       },
       {
-        "address": "https://grpc.provider-state-sync-02.ics-testnet.polypore.xyz"
+        "address": "https://grpc.provider-state-sync-02.hub-testnet.polypore.xyz"
       },
       {
         "address": "cosmos-testnet-grpc.itrocket.net:443"
