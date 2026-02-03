@@ -1,0 +1,57 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "moo",
+  "chainType": "cosmos",
+  "chainId": "moo-1",
+  "prettyName": "MilkyWay",
+  "networkType": "mainnet",
+  "website": "https://www.milkyway.zone",
+  "bech32Prefix": "init",
+  "keyAlgos": [
+    "ethsecp256k1",
+    "secp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ibc/37A3FB4FED4CA04ED6D9E5DA36C6D27248645F0E22F585576A1488B8A89C5A50",
+        "fixedMinGasPrice": 0.015
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-moo-1.anvil.asia-southeast.initia.xyz"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest-moo-1.anvil.asia-southeast.initia.xyz"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-moo-1.anvil.asia-southeast.initia.xyz:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "initia scan",
+      "url": "https://scan.initia.xyz/moo-1",
+      "txPage": "https://scan.initia.xyz/moo-1/txs/${txHash}",
+      "accountPage": "https://scan.initia.xyz/moo-1/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/moo/images/milkyway.png"
+    }
+  ],
+  "description": "MilkyWay's moo-1 is an Initia L2 minitia focused on liquid staking solutions."
+}
