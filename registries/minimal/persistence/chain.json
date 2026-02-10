@@ -221,7 +221,7 @@
         "address": "persistence-grpc.stakeandrelax.net:15490"
       },
       {
-        "address": "grpc.persistence.validatus.com"
+        "address": "grpc.persistence.validatus.com:443"
       },
       {
         "address": "https://xprt-grpc.antrixy.org/"

@@ -146,6 +146,9 @@
       },
       {
         "address": "grpc.quicksilver.citizenweb3.com:443"
+      },
+      {
+        "address": "grpc.quicksilver.validatus.com:443"
       }
     ]
   },

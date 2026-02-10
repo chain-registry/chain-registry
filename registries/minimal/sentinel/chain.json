@@ -87,6 +87,9 @@
       },
       {
         "address": "https://sentinel.rpc.quasarstaking.ai:443"
+      },
+      {
+        "address": "https://rpc.sentinel.validatus.com"
       }
     ],
     "rest": [
@@ -137,6 +140,9 @@
       },
       {
         "address": "https://sentinel.api.quasarstaking.ai:443"
+      },
+      {
+        "address": "https://api.sentinel.validatus.com"
       }
     ],
     "grpc": [
@@ -178,6 +184,9 @@
       },
       {
         "address": "sentinel.grpc.quasarstaking.ai:80"
+      },
+      {
+        "address": "grpc.sentinel.validatus.com:443"
       }
     ]
   },

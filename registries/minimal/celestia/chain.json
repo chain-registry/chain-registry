@@ -129,6 +129,9 @@
       },
       {
         "address": "https://rpc.celestia.node75.org"
+      },
+      {
+        "address": "https://rpc.archive.celestia.validatus.com"
       }
     ],
     "rest": [
@@ -212,6 +215,9 @@
       },
       {
         "address": "https://api.celestia.node75.org"
+      },
+      {
+        "address": "https://api.archive.celestia.validatus.com"
       }
     ],
     "grpc": [
@@ -252,7 +258,7 @@
         "address": "grpc-celestia.theamsolutions.info:443"
       },
       {
-        "address": "grpc.celestia.validatus.com"
+        "address": "grpc.celestia.validatus.com:443"
       },
       {
         "address": "celestia-grpc.sr20de.xyz"
@@ -283,6 +289,9 @@
       },
       {
         "address": "grpc.celestia.node75.org:9220"
+      },
+      {
+        "address": "grpc.archive.celestia.validatus.com:2125"
       }
     ]
   },

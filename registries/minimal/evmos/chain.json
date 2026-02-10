@@ -95,9 +95,6 @@
         "address": "https://evmos-mainnet.rpc.stakevillage.net:443"
       },
       {
-        "address": "https://rpc.evmos.validatus.com"
-      },
-      {
         "address": "https://rpc.evmos.bronbro.io:443"
       },
       {
@@ -157,9 +154,6 @@
         "address": "https://evmos-mainnet.api.stakevillage.net"
       },
       {
-        "address": "https://api.evmos.validatus.com"
-      },
-      {
         "address": "https://lcd.evmos.bronbro.io:443"
       }
     ],
@@ -210,9 +204,6 @@
         "address": "evmos-mainnet.grpc.stakevillage.net:16990"
       },
       {
-        "address": "grpc.evmos.validatus.com:443"
-      },
-      {
         "address": "https://grpc.evmos.bronbro.io:443"
       }
     ],
@@ -255,9 +246,6 @@
       },
       {
         "address": "https://evmos-mainnet.jsonrpc.stakevillage.net"
-      },
-      {
-        "address": "https://json-rpc.evmos.validatus.com"
       }
     ]
   },

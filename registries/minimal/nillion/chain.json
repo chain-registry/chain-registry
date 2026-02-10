@@ -49,6 +49,9 @@
       },
       {
         "address": "https://nillion-mainnet-rpc.shazoes.xyz"
+      },
+      {
+        "address": "https://rpc.nillion.validatus.com"
       }
     ],
     "rest": [
@@ -63,6 +66,9 @@
       },
       {
         "address": "https://nillion-mainnet-api.shazoes.xyz"
+      },
+      {
+        "address": "https://api.nillion.validatus.com"
       }
     ],
     "grpc": [
@@ -77,6 +83,9 @@
       },
       {
         "address": "nillion-mainnet-grpc.shazoes.xyz:30890"
+      },
+      {
+        "address": "grpc.nillion.validatus.com:443"
       }
     ]
   },

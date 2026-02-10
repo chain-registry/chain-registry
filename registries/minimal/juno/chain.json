@@ -160,6 +160,9 @@
       },
       {
         "address": "juno-grpc.chainroot.io:443"
+      },
+      {
+        "address": "grpc.juno.validatus.com:443"
       }
     ]
   },
