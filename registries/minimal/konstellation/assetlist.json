@@ -18,7 +18,6 @@
       "name": "DARC",
       "display": "darc",
       "symbol": "DARC",
-      "coingeckoId": "darcmatter-coin",
       "assetType": "sdk.coin"
     }
   ]

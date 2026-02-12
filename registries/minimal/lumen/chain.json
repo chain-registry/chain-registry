@@ -49,6 +49,9 @@
       },
       {
         "address": "https://rpc-lumen.onenov.xyz"
+      },
+      {
+        "address": "https://m-lumen.rpc.utsa.tech/"
       }
     ],
     "rest": [
@@ -63,6 +66,9 @@
       },
       {
         "address": "https://lumen-mainnet-api.mekonglabs.com/"
+      },
+      {
+        "address": "https://m-lumen.api.utsa.tech/"
       }
     ],
     "grpc": [

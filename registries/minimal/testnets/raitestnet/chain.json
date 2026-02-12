@@ -35,11 +35,17 @@
     "rpc": [
       {
         "address": "https://rpc.republicai.io"
+      },
+      {
+        "address": "https://rpc-t.republic.vinjan-inc.com"
       }
     ],
     "rest": [
       {
         "address": "https://rest.republicai.io"
+      },
+      {
+        "address": "https://api-t.republic.vinjan-inc.com"
       }
     ],
     "evmHttpJsonrpc": [
@@ -48,6 +54,14 @@
       }
     ]
   },
+  "explorers": [
+    {
+      "kind": "Vinjan.Inc",
+      "url": "https://explorer.vinjan-inc.com/republic-testnet",
+      "txPage": "https://explorer.vinjan-inc.com/republic-testnet/tx/${txHash}",
+      "accountPage": "https://explorer.vinjan-inc.com/republic-testnet/accounts/${accountAddress}"
+    }
+  ],
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/raitestnet/images/rai.png"

@@ -28,7 +28,6 @@
           "provider": "Bitcanna"
         }
       ],
-      "coingeckoId": "bitcanna",
       "assetType": "sdk.coin"
     }
   ]

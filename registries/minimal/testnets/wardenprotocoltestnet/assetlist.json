@@ -49,8 +49,7 @@
             "path": "transfer/channel-0/uatom"
           }
         }
-      ],
-      "coingeckoId": "cosmos"
+      ]
     }
   ]
 }

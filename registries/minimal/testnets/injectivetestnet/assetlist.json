@@ -47,7 +47,6 @@
       "name": "USD Coin",
       "display": "USDC",
       "symbol": "USDC",
-      "coingeckoId": "usd-coin",
       "traces": [
         {
           "type": "additional-mintage",

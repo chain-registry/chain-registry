@@ -18,7 +18,6 @@
       "display": "bcna",
       "name": "BitCanna",
       "symbol": "BCNA",
-      "coingeckoId": "bitcanna",
       "assetType": "sdk.coin"
     }
   ]

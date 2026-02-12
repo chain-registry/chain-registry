@@ -116,7 +116,6 @@
       "name": "Autism",
       "display": "autism",
       "symbol": "AUTISM",
-      "coingeckoId": "autism",
       "assetType": "sdk.coin"
     },
     {
@@ -278,7 +277,6 @@
       "name": "Hava Coin",
       "display": "hava",
       "symbol": "HAVA",
-      "coingeckoId": "hava-coin",
       "assetType": "sdk.coin"
     },
     {

@@ -1204,8 +1204,7 @@
             "path": "transfer/channel-51/ubcna"
           }
         }
-      ],
-      "coingeckoId": "bitcanna"
+      ]
     },
     {
       "description": "BitSong Native Token",
@@ -1675,8 +1674,7 @@
             "path": "transfer/channel-171/udarc"
           }
         }
-      ],
-      "coingeckoId": "darcmatter-coin"
+      ]
     },
     {
       "description": "The native token of Umee",
@@ -1895,8 +1893,7 @@
             "path": "transfer/channel-212/ucrbrus"
           }
         }
-      ],
-      "coingeckoId": "cerberus-2"
+      ]
     },
     {
       "description": "The native staking and governance token of the Fetch Hub.",
@@ -1967,8 +1964,7 @@
             "path": "transfer/channel-232/umntl"
           }
         }
-      ],
-      "coingeckoId": "assetmantle"
+      ]
     },
     {
       "description": "The native token cw20 for Neta on Juno Chain",
@@ -2158,8 +2154,7 @@
             "path": "transfer/channel-47/rowan"
           }
         }
-      ],
-      "coingeckoId": "sifchain"
+      ]
     },
     {
       "description": "The native token of Shentu",
@@ -2694,8 +2689,7 @@
             "path": "transfer/channel-238/umeme"
           }
         }
-      ],
-      "coingeckoId": "meme-network"
+      ]
     },
     {
       "description": "Profit sharing token for Another.Software validator. Hold and receive dividends from Another.Software validator commissions!",
@@ -9259,8 +9253,7 @@
             "path": "transfer/channel-874/factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt"
           }
         }
-      ],
-      "coingeckoId": "newt"
+      ]
     },
     {
       "description": "MilkyWay's liquid staked TIA",
@@ -9466,8 +9459,7 @@
             "path": "transfer/channel-122/factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism"
           }
         }
-      ],
-      "coingeckoId": "autism"
+      ]
     },
     {
       "description": "The PAGE token is used for actions in the PageDAO NFT literary ecosystem and for DAO governance.",
@@ -11244,8 +11236,7 @@
             "path": "transfer/channel-75030/udhp"
           }
         }
-      ],
-      "coingeckoId": "dhealth"
+      ]
     },
     {
       "description": "The native token of Furya",
@@ -11458,8 +11449,7 @@
             "path": "transfer/channel-122/factory/inj1h0ypsdtjfcjynqu3m75z2zwwz5mmrj8rtk2g52/uhava"
           }
         }
-      ],
-      "coingeckoId": "hava-coin"
+      ]
     },
     {
       "description": "OnE mEmEcOiN tO cOnNeCt oL ImBeCiles - aNd in Da Cosmos BiNd DeM",
@@ -15603,8 +15593,7 @@
             "path": "transfer/channel-199/factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata"
           }
         }
-      ],
-      "coingeckoId": "yield-gata"
+      ]
     },
     {
       "description": "Deprecated after hard fork: Dragon Token is the native staking and governance token of Dungeon Chain, serving as the backbone of the ecosystem. Its primary roles include staking, where users stake Dragon Tokens to secure the network, enhance its functionality, and earn rewards in return; governance, granting token holders voting rights to influence key decisions such as game onboarding, protocol updates, and community-driven initiatives; and ecosystem growth, facilitating transactions, incentivizing developers, and promoting the creation of new interchain games. Dragon Token ensures a decentralized, fair, and community-driven ecosystem, fostering the evolution of blockchain-based gaming. It plays a crucial role in driving the growth of Dungeon Chain by empowering both developers and players to participate actively in the ecosystem's governance and success.",
@@ -16883,8 +16872,7 @@
             "path": "transfer/channel-216/factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM"
           }
         }
-      ],
-      "coingeckoId": "sam-2"
+      ]
     },
     {
       "description": "Staking coin of Emporion",
@@ -16989,8 +16977,7 @@
             "path": "transfer/channel-75755/upryzm"
           }
         }
-      ],
-      "coingeckoId": "pryzm"
+      ]
     },
     {
       "description": "The community token for The Fortunate Few, a multi chain NFT community platform.",

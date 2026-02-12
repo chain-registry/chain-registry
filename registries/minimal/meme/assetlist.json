@@ -18,7 +18,6 @@
       "name": "MEME",
       "display": "meme",
       "symbol": "MEME",
-      "coingeckoId": "meme-network",
       "assetType": "sdk.coin"
     }
   ]

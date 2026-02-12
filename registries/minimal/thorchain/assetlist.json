@@ -93,8 +93,7 @@
       "base": "thor.nami",
       "name": "Nami Protocol",
       "display": "NAMI",
-      "symbol": "NAMI",
-      "coingeckoId": "nami-protocol"
+      "symbol": "NAMI"
     },
     {
       "description": "TCY is the THORChain Yield token to address the default of THORFi. 10% of all system income is paid to TCY stakers.",

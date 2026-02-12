@@ -18,7 +18,6 @@
       "name": "Digital Health Point",
       "display": "dhp",
       "symbol": "DHP",
-      "coingeckoId": "dhealth",
       "assetType": "sdk.coin"
     }
   ]
