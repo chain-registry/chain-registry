@@ -126,6 +126,9 @@
       },
       {
         "address": "https://rpc-gitopia.blockval.io/"
+      },
+      {
+        "address": "https://rpc-gitopia.onenov.xyz"
       }
     ],
     "rest": [
@@ -212,6 +215,9 @@
       },
       {
         "address": "https://api-gitopia.blockval.io"
+      },
+      {
+        "address": "https://api-gitopia.onenov.xyz"
       }
     ],
     "grpc": [
@@ -304,6 +310,9 @@
       },
       {
         "address": "grpc-gitopia.blockval.io:443"
+      },
+      {
+        "address": "grpc-gitopia.onenov.xyz:443"
       }
     ]
   },
@@ -409,6 +418,13 @@
       "url": "https://mainnet.whispernode.com/gitopia",
       "txPage": "https://mainnet.whispernode.com/gitopia/tx/${txHash}",
       "accountPage": "https://mainnet.whispernode.com/gitopia/account/${accountAddress}"
+    },
+    {
+      "kind": "OV Explorer",
+      "url": "https://ov-explorer.onenov.xyz/network/gitopia",
+      "txPage": "https://ov-explorer.onenov.xyz/network/gitopia/tx/${txHash}",
+      "accountPage": "https://ov-explorer.onenov.xyz/network/gitopia/account/${accountAddress}",
+      "validatorPage": "https://ov-explorer.onenov.xyz/network/gitopia/validator/${validatorAddress}"
     }
   ]
 }
