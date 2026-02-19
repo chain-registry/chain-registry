@@ -78,9 +78,6 @@
         "address": "https://umee-rpc.stake-town.com"
       },
       {
-        "address": "https://umee-rpc.highstakes.ch"
-      },
-      {
         "address": "https://umee.rpc.stakevillage.net:443"
       },
       {
@@ -129,9 +126,6 @@
       },
       {
         "address": "https://umee-api.stake-town.com"
-      },
-      {
-        "address": "https://umee-api.highstakes.ch"
       },
       {
         "address": "https://umee.api.stakevillage.net"
