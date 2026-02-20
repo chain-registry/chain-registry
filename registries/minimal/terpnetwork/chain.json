@@ -28,7 +28,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-terp.zenchainlabs.io/"
+        "address": "https://rpc-mainnet.terp.network:443"
       },
       {
         "address": "https://terp-mainnet-rpc.itrocket.net:443"
@@ -39,7 +39,7 @@
     ],
     "rest": [
       {
-        "address": "https://api-terp.zenchainlabs.io:443"
+        "address": "https://api-mainnet.terp.network.io:443"
       },
       {
         "address": "https://terp-mainnet-api.itrocket.net:443"
@@ -52,6 +52,9 @@
       }
     ],
     "grpc": [
+      {
+        "address": "grpc-mainnet.terp.network.io:443"
+      },
       {
         "address": "https://grpc.terp.nodestake.top:443"
       },
@@ -75,12 +78,6 @@
       "url": "https://explorer.nodestake.top",
       "txPage": "https://explorer.nodestake.top/terp/tx/${txHash}",
       "accountPage": "https://explorer.nodestake.top/terp/account/{$accountAddress}"
-    },
-    {
-      "kind": "ZenChainLabs",
-      "url": "https://terp.zenscan.io/",
-      "txPage": "https://terp.zenscan.io/transaction.php?hash=${txHash}",
-      "accountPage": "https://terp.zenscan.io/address.php?address=${accountAddress}"
     },
     {
       "kind": "🔥STAVR🔥",
