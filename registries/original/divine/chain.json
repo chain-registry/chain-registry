@@ -67,34 +67,34 @@
   "peers": {
     "seeds": [
       {
-        "id": "2df86e385153d18262f383f6ca649a1c093ce295",
+        "id": "71b652b977a688a723941a2f7607620bceb1b3f8",
         "address": "p2p-mainnet.divineray.ca:26656",
         "provider": "divineRay"
       },
       {
-        "id": "e4b233210fb058a8719d8a04defe537f8b191ba5",
+        "id": "5ee6a44bd0c5d86c0c97baafbeac3c79562653fc",
         "address": "p2p-mainnet-node2.divineray.ca:26656",
         "provider": "divineRay"
       },
       {
-        "id": "0dd0cc71f292e9c876d8e5097465213e450144ec",
+        "id": "a4f5f850de6cd1c7b163e9ed0c2018814de437ef",
         "address": "p2p-mainnet-node3.divineray.ca:26656",
         "provider": "divineRay"
       }
     ],
     "persistent_peers": [
       {
-        "id": "2df86e385153d18262f383f6ca649a1c093ce295",
+        "id": "71b652b977a688a723941a2f7607620bceb1b3f8",
         "address": "p2p-mainnet.divineray.ca:26656",
         "provider": "divineRay"
       },
       {
-        "id": "e4b233210fb058a8719d8a04defe537f8b191ba5",
+        "id": "5ee6a44bd0c5d86c0c97baafbeac3c79562653fc",
         "address": "p2p-mainnet-node2.divineray.ca:26656",
         "provider": "divineRay"
       },
       {
-        "id": "0dd0cc71f292e9c876d8e5097465213e450144ec",
+        "id": "a4f5f850de6cd1c7b163e9ed0c2018814de437ef",
         "address": "p2p-mainnet-node3.divineray.ca:26656",
         "provider": "divineRay"
       }
@@ -145,7 +145,11 @@
     ]
   },
   "explorers": [
-
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/divine",
+      "tx_page": "https://ping.pub/divine/tx/${txHash}"
+    }
   ],
   "images": [
     {

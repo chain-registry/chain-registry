@@ -74,7 +74,11 @@
     ]
   },
   "explorers": [
-
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/divine",
+      "txPage": "https://ping.pub/divine/tx/${txHash}"
+    }
   ],
   "images": [
     {
