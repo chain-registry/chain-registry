@@ -7,7 +7,13 @@
   "prettyName": "BitBadges",
   "chainId": "bitbadges-1",
   "bech32Prefix": "bb",
-  "slip44": 118,
+  "slip44": 60,
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
   "fees": {
     "feeTokens": [
       {
@@ -54,6 +60,11 @@
       {
         "address": "https://grpc.bitbadges.io"
       }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm-rpc.bitbadges.io"
+      }
     ]
   },
   "explorers": [
@@ -67,7 +78,7 @@
       "kind": "ping.pub",
       "url": "https://explorer.bitbadges.io/BitBadges%20Mainnet",
       "txPage": "https://explorer.bitbadges.io/BitBadges%20Mainnet/txs/${txHash}",
-      "accountPage": "https://explorer.bitbadges.io/BitBadBitBadges%20Mainnetges/account/${accountAddress}"
+      "accountPage": "https://explorer.bitbadges.io/BitBadges%20Mainnet/account/${accountAddress}"
     },
     {
       "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
