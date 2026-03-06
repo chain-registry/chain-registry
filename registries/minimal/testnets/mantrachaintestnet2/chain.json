@@ -104,7 +104,7 @@
     {
       "imageSync": {
         "chainName": "mantrachain",
-        "baseDenom": "uom"
+        "baseDenom": "amantra"
       },
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.svg",
