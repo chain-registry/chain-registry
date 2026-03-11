@@ -56,7 +56,6 @@
       "name": "Kava Swap",
       "display": "SWP",
       "symbol": "SWP",
-      "coingeckoId": "kava-swap",
       "assetType": "sdk.coin"
     },
     {

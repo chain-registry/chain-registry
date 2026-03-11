@@ -19,7 +19,6 @@
       "name": "Picasso",
       "display": "pica",
       "symbol": "PICA",
-      "coingeckoId": "picasso",
       "logoURIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg"
       },

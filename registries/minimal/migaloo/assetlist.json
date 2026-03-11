@@ -18,7 +18,6 @@
       "name": "Whale",
       "display": "whale",
       "symbol": "WHALE",
-      "coingeckoId": "white-whale",
       "assetType": "sdk.coin"
     },
     {
@@ -136,8 +135,7 @@
       "name": "Racoon",
       "display": "RAC",
       "symbol": "RAC",
-      "assetType": "sdk.coin",
-      "coingeckoId": "racoon"
+      "assetType": "sdk.coin"
     },
     {
       "description": "ASH",

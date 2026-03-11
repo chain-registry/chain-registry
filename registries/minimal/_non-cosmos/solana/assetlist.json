@@ -524,8 +524,7 @@
       "base": "5pPkhLEJDMFDHUuE1wW5os5YJeyNUDVmih1DKgMFpB38",
       "name": "ORACLER",
       "display": "oracler",
-      "symbol": "ORACLER",
-      "coingeckoId": "oracler-ai"
+      "symbol": "ORACLER"
     },
     {
       "description": "The monKEYS token",

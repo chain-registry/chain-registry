@@ -323,7 +323,6 @@
           "provider": "Stride"
         }
       ],
-      "coingeckoId": "stride-staked-umee",
       "assetType": "sdk.coin"
     },
     {

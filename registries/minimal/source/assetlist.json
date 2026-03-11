@@ -18,7 +18,6 @@
       "name": "Source",
       "display": "source",
       "symbol": "SOURCE",
-      "coingeckoId": "source",
       "assetType": "sdk.coin"
     },
     {

@@ -18,7 +18,6 @@
       "name": "Ki",
       "display": "xki",
       "symbol": "XKI",
-      "coingeckoId": "ki",
       "assetType": "sdk.coin"
     },
     {

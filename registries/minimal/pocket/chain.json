@@ -56,12 +56,36 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://shannon-grove-rpc.mainnet.poktroll.com"
+        "address": "https://sauron-rpc.infra.pocket.network:443"
+      },
+      {
+        "address": "https://pocket.api.pocket.network:443"
+      },
+      {
+        "address": "https://rpc-pocket.blockval.io:443"
+      },
+      {
+        "address": "https://pocket-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://rpc.pocket.chaintools.tech:443"
       }
     ],
     "rest": [
       {
-        "address": "https://shannon-grove-api.mainnet.poktroll.com"
+        "address": "https://sauron-api.infra.pocket.network:443"
+      },
+      {
+        "address": "https://pocket.api.pocket.network:443"
+      },
+      {
+        "address": "https://api-pocket.blockval.io:443"
+      },
+      {
+        "address": "https://pocket-api.polkachu.com:443"
+      },
+      {
+        "address": "https://api.pocket.chaintools.tech:443"
       }
     ]
   },

@@ -18,7 +18,6 @@
       "name": "Flix",
       "display": "flix",
       "symbol": "FLIX",
-      "coingeckoId": "omniflix-network",
       "assetType": "sdk.coin"
     },
     {

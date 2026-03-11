@@ -28,7 +28,6 @@
           "provider": "Ki Chain"
         }
       ],
-      "coingeckoId": "ki",
       "assetType": "sdk.coin"
     }
   ]

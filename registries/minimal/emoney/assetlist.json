@@ -37,7 +37,6 @@
       "name": "e-Money EUR",
       "display": "eur",
       "symbol": "EEUR",
-      "coingeckoId": "e-money-eur",
       "assetType": "sdk.coin"
     },
     {

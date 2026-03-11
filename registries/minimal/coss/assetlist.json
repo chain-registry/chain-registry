@@ -54,7 +54,6 @@
       "name": "CIAS",
       "display": "cias",
       "symbol": "CIAS",
-      "coingeckoId": "cias",
       "assetType": "sdk.coin"
     }
   ]

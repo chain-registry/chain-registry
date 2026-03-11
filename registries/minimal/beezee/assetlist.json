@@ -278,8 +278,7 @@
             "path": "transfer/channel-5/uflix"
           }
         }
-      ],
-      "coingeckoId": "omniflix-network"
+      ]
     },
     {
       "description": "The Sherpa memecoin",

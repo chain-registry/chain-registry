@@ -18,8 +18,7 @@
       "base": "Planck",
       "name": "Tinkernet",
       "display": "TNKR",
-      "symbol": "TNKR",
-      "coingeckoId": "tinkernet"
+      "symbol": "TNKR"
     }
   ]
 }
