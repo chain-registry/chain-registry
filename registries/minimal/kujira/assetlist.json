@@ -18,7 +18,6 @@
       "name": "Kujira",
       "display": "kuji",
       "symbol": "KUJI",
-      "coingeckoId": "kujira",
       "assetType": "sdk.coin"
     },
     {

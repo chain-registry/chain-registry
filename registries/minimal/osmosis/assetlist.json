@@ -1779,8 +1779,7 @@
             "path": "transfer/channel-181/udec"
           }
         }
-      ],
-      "coingeckoId": "decentr"
+      ]
     },
     {
       "description": "The native token cw20 for Marble DAO on Juno Chain",
@@ -3182,8 +3181,7 @@
             "path": "transfer/channel-259/ukuji"
           }
         }
-      ],
-      "coingeckoId": "kujira"
+      ]
     },
     {
       "description": "The native token of Tgrade",
@@ -10743,8 +10741,7 @@
             "path": "transfer/channel-258/udoki"
           }
         }
-      ],
-      "coingeckoId": "doki"
+      ]
     },
     {
       "description": "Sail DAO is a liquidity deployment and management DAO built as a collaboration between the Osmosis and Migaloo Blockchains.",

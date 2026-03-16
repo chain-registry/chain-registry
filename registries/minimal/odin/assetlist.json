@@ -54,7 +54,6 @@
       "name": "DOKI",
       "display": "doki",
       "symbol": "DOKI",
-      "coingeckoId": "doki",
       "assetType": "sdk.coin"
     },
     {
