@@ -32,6 +32,9 @@
       },
       {
         "address": "https://rpc.dungeon.chaintools.tech"
+      },
+      {
+        "address": "https://rpc.dungeongames.io"
       }
     ],
     "rest": [
@@ -49,6 +52,9 @@
       },
       {
         "address": "https://api.dungeon.chaintools.tech"
+      },
+      {
+        "address": "https://api.dungeongames.io"
       }
     ],
     "grpc": [
@@ -78,6 +84,12 @@
       "url": "https://explorer.chaintools.tech/Dungeon",
       "txPage": "https://explorer.chaintools.tech/Dungeon/tx/${txHash}",
       "accountPage": "https://explorer.chaintools.tech/Dungeon/account/${accountAddress}"
+    },
+    {
+      "kind": "Dungeon Games",
+      "url": "https://explorer.dungeongames.io",
+      "txPage": "https://explorer.dungeongames.io/tx/${txHash}",
+      "accountPage": "https://explorer.dungeongames.io/account/${accountAddress}"
     }
   ],
   "images": [

@@ -1,0 +1,74 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "provenancetestnet",
+  "networkType": "testnet",
+  "website": "https://provenance.io/",
+  "prettyName": "Provenance Testnet",
+  "chainType": "cosmos",
+  "chainId": "pio-testnet-1",
+  "bech32Prefix": "tp",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 1,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "nhash",
+        "fixedMinGasPrice": 1,
+        "lowGasPrice": 1,
+        "averageGasPrice": 1,
+        "highGasPrice": 1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "nhash"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.14"
+    },
+    "cosmwasm": {
+      "version": "0.52",
+      "enabled": true
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.test.provenance.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.test.provenance.io"
+      }
+    ],
+    "grpc": [
+
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Provenance",
+      "url": "https://explorer.test.provenance.io",
+      "txPage": "https://explorer.test.provenance.io/tx/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "imageSync": {
+        "chainName": "provenance",
+        "baseDenom": "nhash"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg"
+    }
+  ]
+}

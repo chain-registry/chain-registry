@@ -1,0 +1,53 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "lumiwaveprotocol",
+  "prettyName": "LumiWave Protocol",
+  "chainId": "lumiwaveprotocol",
+  "networkType": "mainnet",
+  "chainType": "cosmos",
+  "bech32Prefix": "lumi",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ulwp",
+        "fixedMinGasPrice": 0.005
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ulwp"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumiwaveprotocol/images/lumiwave.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumiwaveprotocol/images/lumiwave.svg"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://lwp-mainnet-rpc.lumiwavelab.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lwp-mainnet-api.lumiwavelab.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://ping.pub/LumiWave",
+      "txPage": "https://ping.pub/LumiWave/tx/${txHash}"
+    }
+  ]
+}
