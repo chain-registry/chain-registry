@@ -3,22 +3,22 @@
   "chainName": "coreum",
   "assets": [
     {
-      "description": "The native token of Coreum",
+      "description": "The native token of TX",
       "denomUnits": [
         {
           "denom": "ucore",
           "exponent": 0
         },
         {
-          "denom": "core",
+          "denom": "tx",
           "exponent": 6
         }
       ],
       "base": "ucore",
-      "name": "Coreum",
-      "display": "core",
-      "symbol": "COREUM",
-      "coingeckoId": "coreum",
+      "name": "TX",
+      "display": "tx",
+      "symbol": "TX",
+      "coingeckoId": "tx",
       "assetType": "sdk.coin"
     },
     {

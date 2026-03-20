@@ -8495,7 +8495,7 @@
       ]
     },
     {
-      "description": "The native token of Coreum",
+      "description": "The native token of TX",
       "denomUnits": [
         {
           "denom": "ibc/F3166F4D31D6BA1EC6C9F5536F5DDDD4CC93DBA430F7419E7CDC41C497944A65",
@@ -8505,15 +8505,15 @@
           ]
         },
         {
-          "denom": "core",
+          "denom": "tx",
           "exponent": 6
         }
       ],
       "assetType": "ics20",
       "base": "ibc/F3166F4D31D6BA1EC6C9F5536F5DDDD4CC93DBA430F7419E7CDC41C497944A65",
-      "name": "Coreum",
-      "display": "core",
-      "symbol": "COREUM",
+      "name": "TX",
+      "display": "tx",
+      "symbol": "TX",
       "traces": [
         {
           "type": "ibc",
@@ -8528,7 +8528,7 @@
           }
         }
       ],
-      "coingeckoId": "coreum"
+      "coingeckoId": "tx"
     },
     {
       "description": "The native token of the Celestia blockchain.",

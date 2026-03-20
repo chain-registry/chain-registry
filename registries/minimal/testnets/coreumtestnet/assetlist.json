@@ -3,21 +3,21 @@
   "chainName": "coreumtestnet",
   "assets": [
     {
-      "description": "The native token of Coreum",
+      "description": "The native token of TX",
       "denomUnits": [
         {
           "denom": "utestcore",
           "exponent": 0
         },
         {
-          "denom": "testcore",
+          "denom": "testtx",
           "exponent": 6
         }
       ],
       "base": "utestcore",
-      "name": "Coreum",
-      "display": "testcore",
-      "symbol": "TESTCORE",
+      "name": "TX",
+      "display": "testtx",
+      "symbol": "TESTTX",
       "traces": [
         {
           "type": "test-mintage",
@@ -25,10 +25,10 @@
             "chainName": "coreum",
             "baseDenom": "ucore"
           },
-          "provider": "Coreum"
+          "provider": "TX"
         }
       ],
-      "coingeckoId": "coreum",
+      "coingeckoId": "tx",
       "assetType": "sdk.coin"
     }
   ]
