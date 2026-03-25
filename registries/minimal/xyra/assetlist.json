@@ -1,0 +1,27 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "xyra",
+  "assets": [
+    {
+      "description": "The native token of Xyra Chain",
+      "denomUnits": [
+        {
+          "denom": "uXyrium",
+          "exponent": 0,
+          "aliases": [
+            "microxyrium"
+          ]
+        },
+        {
+          "denom": "XYRIUM",
+          "exponent": 6
+        }
+      ],
+      "base": "uXyrium",
+      "display": "XYRIUM",
+      "name": "Xyra",
+      "symbol": "XYR",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

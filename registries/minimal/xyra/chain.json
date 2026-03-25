@@ -1,0 +1,72 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "xyra",
+  "website": "https://www.xyra-mainnet.org",
+  "networkType": "mainnet",
+  "chainType": "cosmos",
+  "prettyName": "Xyra Chain",
+  "chainId": "xyra-2",
+  "bech32Prefix": "xyra",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uXyrium",
+        "fixedMinGasPrice": 0.0025,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uXyrium"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "version": "v0.50.0"
+    },
+    "cosmwasm": {
+      "enabled": false
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xyra/images/xrc.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xyra/images/xrc.svg"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.xyra-mainnet.org"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.xyra-mainnet.org"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.xyra-mainnet.org:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://explorer.xyra-mainnet.org",
+      "txPage": "https://explorer.xyra-mainnet.org/xyra/tx/${txHash}"
+    }
+  ]
+}
