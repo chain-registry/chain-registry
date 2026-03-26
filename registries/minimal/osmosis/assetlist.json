@@ -5301,8 +5301,7 @@
             "path": "transfer/channel-557/umars"
           }
         }
-      ],
-      "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+      ]
     },
     {
       "description": "Ciento Exchange Token",
@@ -14280,8 +14279,7 @@
             "path": "transfer/channel-874/factory/neutron1ndu2wvkrxtane8se2tr48gv7nsm46y5gcqjhux/MARS"
           }
         }
-      ],
-      "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+      ]
     },
     {
       "description": "The native token of TON",

@@ -884,7 +884,6 @@
       "name": "Mars Protocol",
       "display": "MARS",
       "symbol": "MARS",
-      "coingeckoId": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
       "assetType": "sdk.coin"
     },
     {
