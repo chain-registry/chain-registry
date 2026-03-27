@@ -126,9 +126,6 @@
         "address": "https://dymension-rpc.noders.services"
       },
       {
-        "address": "https://rpc.mainnet.dymension.aviaone.com"
-      },
-      {
         "address": "https://rpc.archive.dymension.mainnet.dteam.tech:443"
       },
       {
@@ -221,9 +218,6 @@
         "address": "https://dymension-api.noders.services"
       },
       {
-        "address": "https://api.mainnet.dymension.aviaone.com"
-      },
-      {
         "address": "https://api.archive.dymension.mainnet.dteam.tech:443"
       }
     ],
@@ -290,9 +284,6 @@
       },
       {
         "address": "dymension-grpc.noders.services:12090"
-      },
-      {
-        "address": "https://grpc.mainnet.dymension.aviaone.com:9092"
       },
       {
         "address": "grpc.archive.dymension.mainnet.dteam.tech:29090"
@@ -382,12 +373,6 @@
       "url": "https://explorer.posthuman.digital/dymension",
       "txPage": "https://explorer.posthuman.digital/dymension/tx/${txHash}",
       "accountPage": "https://explorer.posthuman.digital/dymension/account/${accountAddress}"
-    },
-    {
-      "kind": "AVIAONE 🟢",
-      "url": "https://mainnet.explorer.aviaone.com/dymension",
-      "txPage": "https://mainnet.explorer.aviaone.com/dymension/tx/${txHash}",
-      "accountPage": "https://mainnet.explorer.aviaone.com/dymension/account/${accountAddress}"
     },
     {
       "kind": "WhisperNode 🤐",
