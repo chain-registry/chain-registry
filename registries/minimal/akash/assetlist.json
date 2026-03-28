@@ -20,6 +20,28 @@
       "symbol": "AKT",
       "coingeckoId": "akash-network",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "Akash Compute Token (ACT) is the native utility token for compute on the Akash Network.",
+      "denomUnits": [
+        {
+          "denom": "uact",
+          "exponent": 0
+        },
+        {
+          "denom": "mact",
+          "exponent": 3
+        },
+        {
+          "denom": "act",
+          "exponent": 6
+        }
+      ],
+      "base": "uact",
+      "name": "Akash Compute Token",
+      "display": "act",
+      "symbol": "ACT",
+      "assetType": "sdk.coin"
     }
   ]
 }
