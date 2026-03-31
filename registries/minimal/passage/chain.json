@@ -47,9 +47,6 @@
         "address": "https://passage-rpc.staketab.org:443"
       },
       {
-        "address": "https://rpc-passage.ecostake.com"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/passage"
       },
       {
@@ -92,9 +89,6 @@
       },
       {
         "address": "https://passage-rest.staketab.org"
-      },
-      {
-        "address": "https://rest-passage.ecostake.com"
       },
       {
         "address": "https://rest.lavenderfive.com:443/passage"

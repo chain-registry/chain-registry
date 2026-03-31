@@ -43,9 +43,6 @@
         "address": "https://rpc.kyve.network"
       },
       {
-        "address": "https://rpc-kyve.ecostake.com"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/kyve"
       },
       {
@@ -85,9 +82,6 @@
       },
       {
         "address": "https://rest.lavenderfive.com:443/kyve"
-      },
-      {
-        "address": "https://rest-kyve.ecostake.com"
       },
       {
         "address": "https://lcd-kyve.imperator.co"

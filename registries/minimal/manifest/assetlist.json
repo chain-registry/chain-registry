@@ -39,6 +39,24 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "Manifest Power token",
+      "denomUnits": [
+        {
+          "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr",
+          "exponent": 0
+        },
+        {
+          "denom": "pwr",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr",
+      "name": "Manifest Power Token",
+      "display": "pwr",
+      "symbol": "PWR",
+      "assetType": "sdk.coin"
+    },
+    {
       "description": "The native token of Osmosis",
       "denomUnits": [
         {

@@ -16,6 +16,13 @@
         "lowGasPrice": 1.05,
         "averageGasPrice": 1.1,
         "highGasPrice": 3
+      },
+      {
+        "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/upwr",
+        "fixedMinGasPrice": 0.37,
+        "lowGasPrice": 0.4,
+        "averageGasPrice": 0.5,
+        "highGasPrice": 1
       }
     ]
   },
