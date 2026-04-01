@@ -873,8 +873,7 @@
       "base": "0x60e683C6514Edd5F758A55b6f393BeBBAfaA8d5e",
       "name": "Page",
       "display": "page",
-      "symbol": "PAGE",
-      "coingeckoId": "page"
+      "symbol": "PAGE"
     },
     {
       "description": "Gelotto blends gaming, DEFI, and fun Dapps in a unique Web3 ecosystem. Join us to become part of the house, earning from all Gelotto products. Our main goal? To bring the masses into Web3 with open, accessible, and enjoyable Dapps.",
