@@ -40,6 +40,12 @@
       },
       {
         "address": "https://public-zigchain-testnet-lcd.numia.xyz/"
+      },
+      {
+        "address": "https://zigchain-testnet-api.polkachu.com"
+      },
+      {
+        "address": "https://api-t.zigchain.nodestake.org"
       }
     ],
     "rpc": [
@@ -48,11 +54,23 @@
       },
       {
         "address": "https://public-zigchain-testnet-rpc.numia.xyz/"
+      },
+      {
+        "address": "https://zigchain-testnet-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://rpc-t.zigchain.nodestake.org:443"
       }
     ],
     "grpc": [
       {
         "address": "zigchain-grpc.327oz4i6b04df1e27394zieudsh.g.eu.link.numia.xyz:9090"
+      },
+      {
+        "address": "zigchain-testnet-grpc.polkachu.com:32890"
+      },
+      {
+        "address": "grpc-t.zigchain.nodestake.org:443"
       }
     ]
   },
@@ -78,6 +96,12 @@
       "url": "https://testnet.zigscan.org",
       "txPage": "https://testnet.zigscan.org/tx/${txHash}",
       "accountPage": "https://testnet.zigscan.org/address/${accountAddress}"
+    },
+    {
+      "kind": "nodestake",
+      "url": "https://explorer.nodestake.org/zigchain-testnet",
+      "txPage": "https://explorer.nodestake.org/zigchain-testnet/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/zigchain-testnet/account/${accountAddress}"
     }
   ],
   "images": [
