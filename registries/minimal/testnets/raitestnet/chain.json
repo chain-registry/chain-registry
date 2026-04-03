@@ -38,6 +38,9 @@
       },
       {
         "address": "https://rpc-t.republic.vinjan-inc.com"
+      },
+      {
+        "address": "https://rpc-republic.onenov.xyz"
       }
     ],
     "rest": [
@@ -46,6 +49,9 @@
       },
       {
         "address": "https://api-t.republic.vinjan-inc.com"
+      },
+      {
+        "address": "https://api-republic.onenov.xyz"
       }
     ],
     "evmHttpJsonrpc": [
@@ -60,6 +66,12 @@
       "url": "https://explorer.vinjan-inc.com/republic-testnet",
       "txPage": "https://explorer.vinjan-inc.com/republic-testnet/tx/${txHash}",
       "accountPage": "https://explorer.vinjan-inc.com/republic-testnet/accounts/${accountAddress}"
+    },
+    {
+      "kind": "OneNov",
+      "url": "https://republicai-explorer.onenov.xyz",
+      "txPage": "https://republicai-explorer.onenov.xyz/tx/${txHash}",
+      "accountPage": "https://republicai-explorer.onenov.xyz/validator/${accountAddress}"
     }
   ],
   "images": [
