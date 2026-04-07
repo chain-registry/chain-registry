@@ -40,21 +40,33 @@
     "rpc": [
       {
         "address": "https://rpc.kiivalidator.com"
+      },
+      {
+        "address": "https://rpc-kiichain-mainnet.onenov.xyz"
       }
     ],
     "rest": [
       {
         "address": "https://lcd.kiivalidator.com"
+      },
+      {
+        "address": "https://api-kiichain-mainnet.onenov.xyz"
       }
     ],
     "grpc": [
       {
         "address": "grpc.kiivalidator.com"
+      },
+      {
+        "address": "grpc-kiichain-mainnet.onenov.xyz:443"
       }
     ],
     "evmHttpJsonrpc": [
       {
         "address": "https://json-rpc.kiivalidator.com"
+      },
+      {
+        "address": "https://evm-kiichain-mainnet.onenov.xyz"
       }
     ]
   },
