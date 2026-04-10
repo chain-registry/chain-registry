@@ -35,9 +35,9 @@
       "tag": "v0.53.4"
     },
     "cosmwasm": {
-      "version": "v0.60.5",
+      "version": "v0.60.6",
       "repo": "https://github.com/CosmWasm/wasmd",
-      "tag": "v0.60.5"
+      "tag": "v0.60.6"
     }
   },
   "apis": {
