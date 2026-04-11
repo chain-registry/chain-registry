@@ -169,6 +169,9 @@
       },
       {
         "address": "https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://rpc.cosmos.cumulo.com.es"
       }
     ],
     "rest": [
@@ -276,6 +279,9 @@
       },
       {
         "address": "https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://api.cosmos.cumulo.com.es"
       }
     ],
     "grpc": [
@@ -353,6 +359,9 @@
       },
       {
         "address": "cosmoshub-mainnet.chain.whenmoonwhenlambo.money:443"
+      },
+      {
+        "address": "grpc.cosmos.cumulo.com.es:9790"
       }
     ]
   },
