@@ -18,7 +18,6 @@
       "name": "Joltify",
       "display": "jolt",
       "symbol": "JOLT",
-      "coingeckoId": "joltify",
       "assetType": "sdk.coin"
     },
     {

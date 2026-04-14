@@ -25,7 +25,6 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/joltify/images/jolt.svg"
         }
       ],
-      "coingeckoId": "joltify",
       "keywords": [
         "staking"
       ],

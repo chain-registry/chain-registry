@@ -11047,8 +11047,7 @@
       "base": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
       "name": "LAB",
       "display": "LAB",
-      "symbol": "LAB",
-      "coingeckoId": "mad-scientists"
+      "symbol": "LAB"
     },
     {
       "description": "BackBone Labs Liquid Staked OSMO",
