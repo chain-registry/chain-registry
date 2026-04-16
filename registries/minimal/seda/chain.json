@@ -84,6 +84,9 @@
       },
       {
         "address": "https://rpc.cros-nest.com/seda"
+      },
+      {
+        "address": "https://seda.api.pocket.network"
       }
     ],
     "rest": [
@@ -128,6 +131,9 @@
       },
       {
         "address": "https://rest.cros-nest.com/seda"
+      },
+      {
+        "address": "https://seda.api.pocket.network"
       }
     ],
     "grpc": [

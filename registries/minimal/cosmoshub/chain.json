@@ -172,6 +172,9 @@
       },
       {
         "address": "https://rpc.cosmos.cumulo.com.es"
+      },
+      {
+        "address": "https://cosmoshub.api.pocket.network"
       }
     ],
     "rest": [
@@ -282,6 +285,9 @@
       },
       {
         "address": "https://api.cosmos.cumulo.com.es"
+      },
+      {
+        "address": "https://cosmoshub.api.pocket.network"
       }
     ],
     "grpc": [

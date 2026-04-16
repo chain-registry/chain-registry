@@ -20,22 +20,32 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://thornode-mainnet-rpc.bryanlabs.net"
+        "address": "https://gateway.liquify.com/chain/thorchain_rpc"
+      },
+      {
+        "address": "https://rpc-thorchain.rorcual.xyz"
+      },
+      {
+        "address": "https://thorchain.ibs.team/rpc/"
       }
     ],
     "grpc": [
       {
-        "address": "thornode-mainnet-grpc.bryanlabs.net:443"
+        "address": "https://grpc-thorchain.rorcual.xyz"
+      },
+      {
+        "address": "https://thorchain.ibs.team:443"
       }
     ],
     "rest": [
       {
-        "address": "https://thornode-mainnet-rpc.bryanlabs.net"
-      }
-    ],
-    "wss": [
+        "address": "https://gateway.liquify.com/chain/thorchain_api"
+      },
       {
-        "address": "wss://thornode-mainnet-rpc.bryanlabs.net/websocket"
+        "address": "https://api-thorchain.rorcual.xyz"
+      },
+      {
+        "address": "https://thorchain.ibs.team/api/"
       }
     ]
   },
@@ -53,11 +63,6 @@
     {
       "kind": "THORChain Dashboard",
       "url": "https://thorchain.net/dashboard"
-    },
-    {
-      "kind": "Bryanlabs explorer",
-      "url": "https://explore.bryanlabs.net/thorchain",
-      "txPage": "https://explore.bryanlabs.net/thorchain/#/txs/${txHash}"
     }
   ]
 }
