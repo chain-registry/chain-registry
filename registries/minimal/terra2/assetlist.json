@@ -1287,8 +1287,7 @@
             "path": "transfer/channel-0/transfer/08-wasm-1369/0x45804880de22913dafe09f4980848ece6ecbaf78"
           }
         }
-      ],
-      "coingeckoId": "eureka-bridged-pax-gold-terra"
+      ]
     },
     {
       "description": "Tether Gold bridged via Eureka on Cosmos Hub and relayed to Terra (phoenix-1) over IBC.",
