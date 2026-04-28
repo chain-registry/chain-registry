@@ -154,7 +154,7 @@
     ],
     "grpc": [
       {
-        "address": "grpc-lb.neutron.org:80"
+        "address": "grpc-lb.neutron.org:443"
       },
       {
         "address": "grpc-kralum.neutron-1.neutron.org:80"

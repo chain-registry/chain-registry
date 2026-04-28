@@ -1,0 +1,59 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "hazinachain",
+  "networkType": "mainnet",
+  "chainType": "cosmos",
+  "prettyName": "HazinaChain",
+  "chainId": "hazinachain-1",
+  "bech32Prefix": "hazina",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uhzn",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.001,
+        "averageGasPrice": 0.0025,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uhzn"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.hazinachain.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.hazinachain.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "custom",
+      "url": "https://explorer.hazinachain.com",
+      "txPage": "https://explorer.hazinachain.com/tx/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hazinachain/images/hazinachain.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hazinachain/images/hazinachain.svg"
+    }
+  ]
+}
