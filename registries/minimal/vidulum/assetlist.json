@@ -18,7 +18,6 @@
       "name": "Vidulum",
       "display": "vdl",
       "symbol": "VDL",
-      "coingeckoId": "vidulum",
       "traces": [
         {
           "type": "legacy-mintage",

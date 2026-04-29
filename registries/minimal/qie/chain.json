@@ -1,0 +1,79 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "qie",
+  "website": "https://qie.digital",
+  "networkType": "mainnet",
+  "prettyName": "QIE",
+  "chainType": "cosmos",
+  "chainId": "qie_1990-1",
+  "bech32Prefix": "qie",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aqie",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 20000000000,
+        "averageGasPrice": 25000000000,
+        "highGasPrice": 40000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "aqie"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.qie.digital"
+      },
+      {
+        "address": "https://tendermint.qie.digital"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.qie.digital"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.qie.digital:443"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://rpc1mainnet.qie.digital"
+      },
+      {
+        "address": "https://rpc2mainnet.qie.digital"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "qie-explorer",
+      "url": "https://mainnet.qie.digital",
+      "txPage": "https://mainnet.qie.digital/tx/${txHash}",
+      "accountPage": "https://mainnet.qie.digital/address/${accountAddress}"
+    }
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qie/images/qie.png"
+    }
+  ]
+}

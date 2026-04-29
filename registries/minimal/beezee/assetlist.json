@@ -37,7 +37,6 @@
       "name": "Vidulum",
       "display": "vdl",
       "symbol": "VDL",
-      "coingeckoId": "vidulum",
       "assetType": "sdk.coin"
     },
     {

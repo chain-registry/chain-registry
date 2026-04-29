@@ -1,0 +1,28 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "qie",
+  "assets": [
+    {
+      "description": "QIE is the native gas and staking token of the QIE Blockchain, a high-performance Layer-1 EVM-compatible Cosmos SDK chain",
+      "denomUnits": [
+        {
+          "denom": "aqie",
+          "exponent": 0,
+          "aliases": [
+            "attoqie"
+          ]
+        },
+        {
+          "denom": "qie",
+          "exponent": 18
+        }
+      ],
+      "assetType": "evm-base",
+      "base": "aqie",
+      "name": "QIE",
+      "display": "qie",
+      "symbol": "QIE",
+      "coingeckoId": "qie"
+    }
+  ]
+}
