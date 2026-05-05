@@ -1506,7 +1506,6 @@
       "name": "maxBTC",
       "display": "maxBTC",
       "symbol": "maxBTC",
-      "coingeckoId": "maxbtc",
       "assetType": "sdk.coin"
     }
   ]

@@ -19741,7 +19741,6 @@
       "name": "maxBTC",
       "display": "maxBTC",
       "symbol": "maxBTC",
-      "coingeckoId": "maxbtc",
       "assetType": "ics20",
       "traces": [
         {
