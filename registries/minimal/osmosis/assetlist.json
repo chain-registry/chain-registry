@@ -1706,8 +1706,7 @@
             "path": "transfer/channel-184/uumee"
           }
         }
-      ],
-      "coingeckoId": "umee"
+      ]
     },
     {
       "description": "The native token of Gravity Bridge",

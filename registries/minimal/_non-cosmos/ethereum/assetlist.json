@@ -1547,8 +1547,7 @@
       "base": "0xbdf245957992bfbc62b07e344128a1eec7b7ee3f",
       "name": "mBTC",
       "display": "mbtc",
-      "symbol": "mBTC",
-      "coingeckoId": "babypie-wrapped-btc"
+      "symbol": "mBTC"
     },
     {
       "assetType": "erc20",

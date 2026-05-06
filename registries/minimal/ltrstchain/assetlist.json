@@ -1,0 +1,34 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "ltrstchain",
+  "assets": [
+    {
+      "description": "The native token of LTRST Chain. Used for transaction fees, staking, and governance. The chain is built for privacy-respecting estate and legal documents.",
+      "denomUnits": [
+        {
+          "denom": "ultrst",
+          "exponent": 0,
+          "aliases": [
+            "microltrst"
+          ]
+        },
+        {
+          "denom": "mltrst",
+          "exponent": 3,
+          "aliases": [
+            "milliltrst"
+          ]
+        },
+        {
+          "denom": "LTRST",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "ultrst",
+      "name": "LTRST",
+      "display": "LTRST",
+      "symbol": "LTRST"
+    }
+  ]
+}
