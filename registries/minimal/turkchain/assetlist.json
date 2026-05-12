@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "turkchain",
+  "assets": [
+    {
+      "description": "Native token of Turkchain",
+      "denomUnits": [
+        {
+          "denom": "lira",
+          "exponent": 0
+        },
+        {
+          "denom": "TURK",
+          "exponent": 18
+        }
+      ],
+      "base": "lira",
+      "name": "TC",
+      "display": "TURK",
+      "symbol": "TURK",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

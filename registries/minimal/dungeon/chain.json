@@ -3,7 +3,7 @@
   "chainName": "dungeon",
   "networkType": "mainnet",
   "chainType": "cosmos",
-  "website": "https://www.cryptodungeon.org",
+  "website": "https://dungeongames.io",
   "prettyName": "Dungeon Chain",
   "chainId": "dungeon-1",
   "bech32Prefix": "dungeon",
@@ -22,6 +22,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc.dungeongames.io"
+      },
+      {
         "address": "https://dungeon-wallet.rpc.quasarstaking.ai"
       },
       {
@@ -32,12 +35,12 @@
       },
       {
         "address": "https://rpc.dungeon.chaintools.tech"
-      },
-      {
-        "address": "https://rpc.dungeongames.io"
       }
     ],
     "rest": [
+      {
+        "address": "https://api.dungeongames.io"
+      },
       {
         "address": "https://dungeon-wallet.api.quasarstaking.ai"
       },
@@ -52,9 +55,6 @@
       },
       {
         "address": "https://api.dungeon.chaintools.tech"
-      },
-      {
-        "address": "https://api.dungeongames.io"
       }
     ],
     "grpc": [
