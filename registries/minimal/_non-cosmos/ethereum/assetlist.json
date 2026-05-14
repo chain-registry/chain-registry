@@ -1338,6 +1338,25 @@
       ]
     },
     {
+      "description": "EURC is a euro-backed stablecoin issued by Circle. EURC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+      "assetType": "erc20",
+      "address": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+      "denomUnits": [
+        {
+          "denom": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+          "exponent": 0
+        },
+        {
+          "denom": "eurc",
+          "exponent": 6
+        }
+      ],
+      "base": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+      "name": "Euro Coin",
+      "display": "eurc",
+      "symbol": "EURC"
+    },
+    {
       "description": "EURe is a Euro-backed stablecoin issued by Monerium.",
       "assetType": "erc20",
       "address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f",
