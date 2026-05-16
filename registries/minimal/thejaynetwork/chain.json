@@ -43,6 +43,9 @@
       },
       {
         "address": "http://34.67.101.201:26657"
+      },
+      {
+        "address": "https://rpc-jay.onenov.xyz"
       }
     ],
     "rest": [
@@ -51,6 +54,9 @@
       },
       {
         "address": "http://34.67.101.201:1317"
+      },
+      {
+        "address": "https://api-jay.onenov.xyz"
       }
     ],
     "grpc": [
@@ -68,6 +74,12 @@
       "url": "https://jayscan.duckdns.org",
       "txPage": "https://jayscan.duckdns.org/?tx=${txHash}",
       "accountPage": "https://jayscan.duckdns.org/?account=${accountAddress}"
+    },
+    {
+      "kind": "Jay Network Explorer",
+      "url": "https://jay-explorer.onenov.xyz",
+      "txPage": "https://jay-explorer.onenov.xyz/transactions/${txHash}",
+      "accountPage": "https://jay-explorer.onenov.xyz/accounts/${accountAddress}"
     }
   ],
   "images": [

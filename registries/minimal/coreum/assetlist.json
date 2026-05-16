@@ -130,7 +130,6 @@
       "name": "Sara",
       "display": "sara",
       "symbol": "SARA",
-      "coingeckoId": "pulsara",
       "assetType": "sdk.coin"
     },
     {
