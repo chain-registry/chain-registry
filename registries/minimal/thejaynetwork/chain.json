@@ -3,9 +3,9 @@
   "chainName": "thejaynetwork",
   "chainType": "cosmos",
   "chainId": "thejaynetwork",
+  "website": "https://thejaynetwork.com",
   "prettyName": "The Jay Network",
   "networkType": "mainnet",
-  "website": "https://jaynwk.gt.tc",
   "bech32Prefix": "yjay",
   "keyAlgos": [
     "secp256k1"
@@ -15,10 +15,10 @@
     "feeTokens": [
       {
         "denom": "ujay",
-        "fixedMinGasPrice": 0.0025,
-        "lowGasPrice": 0.0025,
+        "fixedMinGasPrice": 0.005,
+        "lowGasPrice": 0.01,
         "averageGasPrice": 0.025,
-        "highGasPrice": 0.04
+        "highGasPrice": 0.03
       }
     ]
   },
@@ -33,16 +33,21 @@
     "sdk": {
       "type": "cosmos",
       "version": "v0.53.6"
+    },
+    "cosmwasm": {
+      "version": "v0.61.10",
+      "repo": "https://github.com/CosmWasm/wasmd",
+      "tag": "v0.61.10"
     }
   },
-  "description": "The Jay Network is a Cosmos SDK-based blockchain providing fast, secure, and scalable infrastructure for decentralized applications.",
+  "description": "The Jay Network is a Cosmos SDK-based blockchain with IBC interoperability, CosmWasm smart contracts, and cross-chain connectivity to Cosmos Hub, Celestia, and Injective.",
   "apis": {
     "rpc": [
       {
-        "address": "https://jayscan.duckdns.org/rpc"
+        "address": "https://thejaynetwork.com/rpc"
       },
       {
-        "address": "http://34.67.101.201:26657"
+        "address": "http://152.53.195.74:26657"
       },
       {
         "address": "https://rpc-jay.onenov.xyz"
@@ -50,10 +55,10 @@
     ],
     "rest": [
       {
-        "address": "https://jayscan.duckdns.org/api"
+        "address": "https://thejaynetwork.com/rest"
       },
       {
-        "address": "http://34.67.101.201:1317"
+        "address": "http://152.53.195.74:1317"
       },
       {
         "address": "https://api-jay.onenov.xyz"
@@ -61,19 +66,16 @@
     ],
     "grpc": [
       {
-        "address": "34.67.101.201:9090"
-      },
-      {
-        "address": "34.171.203.84:9090"
+        "address": "152.53.195.74:9090"
       }
     ]
   },
   "explorers": [
     {
-      "kind": "Jayscan",
-      "url": "https://jayscan.duckdns.org",
-      "txPage": "https://jayscan.duckdns.org/?tx=${txHash}",
-      "accountPage": "https://jayscan.duckdns.org/?account=${accountAddress}"
+      "kind": "JayScan",
+      "url": "https://jayscan.thejaynetwork.com",
+      "txPage": "https://jayscan.thejaynetwork.com/tx/${txHash}",
+      "accountPage": "https://jayscan.thejaynetwork.com/account/${accountAddress}"
     },
     {
       "kind": "Jay Network Explorer",
@@ -84,7 +86,7 @@
   ],
   "images": [
     {
-      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/thejaynetwork.png"
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png"
     }
   ]
 }

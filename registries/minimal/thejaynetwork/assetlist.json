@@ -3,7 +3,7 @@
   "chainName": "thejaynetwork",
   "assets": [
     {
-      "description": "The native staking and governance token of The Jay Network.",
+      "description": "JAY is the native staking and governance token of The Jay Network.",
       "denomUnits": [
         {
           "denom": "ujay",
@@ -14,11 +14,11 @@
           "exponent": 6
         }
       ],
-      "assetType": "sdk.coin",
       "base": "ujay",
-      "name": "Jay Token",
+      "name": "Jay",
       "display": "jay",
-      "symbol": "JAY"
+      "symbol": "JAY",
+      "assetType": "sdk.coin"
     }
   ]
 }
