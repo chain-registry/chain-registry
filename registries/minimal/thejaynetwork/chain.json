@@ -51,6 +51,9 @@
       },
       {
         "address": "https://rpc-jay.onenov.xyz"
+      },
+      {
+        "address": "https://rpc-jaynetwork.vinjan-inc.com"
       }
     ],
     "rest": [
@@ -62,6 +65,9 @@
       },
       {
         "address": "https://api-jay.onenov.xyz"
+      },
+      {
+        "address": "https://api-jaynetwork.vinjan-inc.com"
       }
     ],
     "grpc": [
@@ -82,6 +88,12 @@
       "url": "https://jay-explorer.onenov.xyz",
       "txPage": "https://jay-explorer.onenov.xyz/transactions/${txHash}",
       "accountPage": "https://jay-explorer.onenov.xyz/accounts/${accountAddress}"
+    },
+    {
+      "kind": "Vinjan.Inc Explorer",
+      "url": "https://explorer.vinjan-inc.com/jaynetwork",
+      "txPage": "https://explorer.vinjan-inc.com/jaynetwork/tx/${txHash}",
+      "accountPage": "https://explorer.vinjan-inc.com/jaynetwork/account/${accountAddress}"
     }
   ],
   "images": [

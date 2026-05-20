@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "sunimatestnet",
+  "assets": [
+    {
+      "description": "The native staking and gas token of the Sunima Testnet.",
+      "denomUnits": [
+        {
+          "denom": "tsuna",
+          "exponent": 0
+        },
+        {
+          "denom": "tSUNA",
+          "exponent": 6
+        }
+      ],
+      "base": "tsuna",
+      "name": "Sunima Testnet",
+      "display": "tSUNA",
+      "symbol": "tSUNA",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

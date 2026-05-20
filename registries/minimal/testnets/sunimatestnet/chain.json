@@ -1,0 +1,52 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "sunimatestnet",
+  "website": "https://sunima.uk/",
+  "networkType": "testnet",
+  "prettyName": "Sunima Testnet",
+  "chainType": "cosmos",
+  "chainId": "sunima-testnet-1",
+  "bech32Prefix": "sunima",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "tsuna",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "tsuna"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://sunima.uk/chain-rpc/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://sunima.uk/chain-rest/"
+      }
+    ]
+  },
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/sunimatestnet/images/sunima.svg"
+    }
+  ]
+}
