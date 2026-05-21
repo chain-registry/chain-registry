@@ -942,7 +942,7 @@
       "coingeckoId": "dragon-coin-2"
     },
     {
-      "description": "Nether is a tokenfactory token on the Cosmos Hub.",
+      "description": "Nether (NTHR) is the utility token of the Underworld NFT ecosystem, issued via tokenfactory on the Cosmos Hub. NTHR powers the NecroVault, a soft-staking platform where holders of Underworld collections earn rewards while keeping their NFTs in their wallets. Fixed supply: 21,000.",
       "denomUnits": [
         {
           "denom": "factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether",

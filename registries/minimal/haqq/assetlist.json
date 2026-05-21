@@ -49,6 +49,25 @@
           "provider": "Deenar"
         }
       ]
+    },
+    {
+      "description": "HAQQ is the ecosystem token of the Haqq ecosystem",
+      "denomUnits": [
+        {
+          "denom": "aHAQQ",
+          "exponent": 0
+        },
+        {
+          "denom": "HAQQ",
+          "exponent": 18
+        }
+      ],
+      "base": "aHAQQ",
+      "name": "HAQQ Token",
+      "display": "HAQQ",
+      "address": "0x3af1695e3354Ec35F892b3d0880D4f7E12F4A172",
+      "symbol": "HAQQ",
+      "assetType": "sdk.coin"
     }
   ]
 }
