@@ -50,9 +50,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-juno.itastakers.com"
-      },
-      {
         "address": "https://juno.rpc.m.stavr.tech"
       },
       {
@@ -68,9 +65,6 @@
         "address": "https://juno-rpc.stakeandrelax.net"
       },
       {
-        "address": "https://rpc-juno-01.stakeflow.io"
-      },
-      {
         "address": "https://juno-rpc.publicnode.com:443"
       },
       {
@@ -81,12 +75,6 @@
       },
       {
         "address": "https://juno-rpc.cogwheel.zone"
-      },
-      {
-        "address": "https://juno.declab.pro:26610"
-      },
-      {
-        "address": "https://juno-rpc.chainroot.io"
       },
       {
         "address": "https://juno.api.pocket.network"
@@ -109,9 +97,6 @@
         "address": "https://juno-api.stakeandrelax.net"
       },
       {
-        "address": "https://api-juno-01.stakeflow.io"
-      },
-      {
         "address": "https://juno-rest.publicnode.com"
       },
       {
@@ -122,12 +107,6 @@
       },
       {
         "address": "https://juno-api.cogwheel.zone"
-      },
-      {
-        "address": "https://juno.declab.pro:443"
-      },
-      {
-        "address": "https://juno-api.chainroot.io"
       },
       {
         "address": "https://juno.api.pocket.network"
@@ -150,16 +129,10 @@
         "address": "juno.lavenderfive.com:443"
       },
       {
-        "address": "grpc-juno-01.stakeflow.io:2302"
-      },
-      {
         "address": "juno-grpc.publicnode.com:443"
       },
       {
         "address": "juno-grpc.cogwheel.zone:443"
-      },
-      {
-        "address": "juno-grpc.chainroot.io:443"
       },
       {
         "address": "grpc.juno.validatus.com:443"

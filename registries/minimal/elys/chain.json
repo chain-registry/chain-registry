@@ -77,34 +77,13 @@
         "address": "https://elys-mainnet-rpc.itrocket.net:443"
       },
       {
-        "address": "https://rpc.elys.nodestake.org:443"
-      },
-      {
-        "address": "https://elys.rpc.liveraven.net:443"
-      },
-      {
         "address": "https://community.nuxian-node.ch:6797/elys/trpc"
       },
       {
         "address": "https://elys-rpc.stake-town.com:443"
       },
       {
-        "address": "https://elys.rpc.m.stavr.tech:443"
-      },
-      {
         "address": "https://elys.ibs.team:443/rpc"
-      },
-      {
-        "address": "https://elys-rpc.cogwheel.zone:443"
-      },
-      {
-        "address": "https://rpc-elys.ottersync.io:443"
-      },
-      {
-        "address": "https://elys.rpc.quasarstaking.ai:443"
-      },
-      {
-        "address": "https://elys-rpc.moonbridge.org:443"
       },
       {
         "address": "https://elys_mainnet_rpc.chain.whenmoonwhenlambo.money"
@@ -113,16 +92,7 @@
         "address": "https://elys-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://elys-rpc.node39.top:443"
-      },
-      {
         "address": "https://elys.srvs.vnodesv.net/rpc"
-      },
-      {
-        "address": "https://elys-rpc.kleomedes.network/"
-      },
-      {
-        "address": "https://rpc.elys.node75.org:443"
       }
     ],
     "rest": [
@@ -139,34 +109,13 @@
         "address": "https://elys-mainnet-api.itrocket.net"
       },
       {
-        "address": "https://api.elys.nodestake.org"
-      },
-      {
-        "address": "https://elys.api.liveraven.net"
-      },
-      {
         "address": "https://community.nuxian-node.ch:6797/elys/crpc"
       },
       {
         "address": "https://elys-api.stake-town.com:443"
       },
       {
-        "address": "https://elys.api.m.stavr.tech"
-      },
-      {
         "address": "https://elys.ibs.team:443/api"
-      },
-      {
-        "address": "https://elys-api.cogwheel.zone:443"
-      },
-      {
-        "address": "https://api-elys.ottersync.io:443"
-      },
-      {
-        "address": "https://elys.api.quasarstaking.ai:443"
-      },
-      {
-        "address": "https://elys-api.moonbridge.org"
       },
       {
         "address": "https://elys_mainnet_api.chain.whenmoonwhenlambo.money"
@@ -175,16 +124,7 @@
         "address": "https://elys-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://elys-api.node39.top:443"
-      },
-      {
         "address": "https://rest.elys.srvs.vnodesv.net"
-      },
-      {
-        "address": "https://elys-api.kleomedes.network/"
-      },
-      {
-        "address": "https://api.elys.node75.org:443"
       }
     ],
     "grpc": [
@@ -198,37 +138,10 @@
         "address": "elys-mainnet-grpc.itrocket.net:443"
       },
       {
-        "address": "grpc.elys.nodestake.org:443"
-      },
-      {
-        "address": "elys.grpc.liveraven.net:443"
-      },
-      {
         "address": "elys-grpc.stake-town.com:443"
       },
       {
-        "address": "elys-grpc.cogwheel.zone:443"
-      },
-      {
-        "address": "https://grpc-elys.ottersync.io:443"
-      },
-      {
-        "address": "elys.grpc.quasarstaking.ai:443"
-      },
-      {
-        "address": "elys-grpc.moonbridge.org:443"
-      },
-      {
         "address": "elys-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "elys-grpc.node39.top:12090"
-      },
-      {
-        "address": "elys.grpc.kleomedes.network:443"
-      },
-      {
-        "address": "grpc.elys.node75.org:9210"
       },
       {
         "address": "https://elys.srvs.vnodesv.net/grpc"
