@@ -45,6 +45,9 @@
       },
       {
         "address": "https://assetmantle-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://mantle-rpc.dungeon.games"
       }
     ],
     "rest": [
@@ -62,6 +65,9 @@
       },
       {
         "address": "https://assetmantle-rest.publicnode.com"
+      },
+      {
+        "address": "https://mantle-lcd.dungeon.games"
       }
     ],
     "grpc": [

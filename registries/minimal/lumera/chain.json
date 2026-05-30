@@ -55,6 +55,9 @@
       },
       {
         "address": "https://lumera-rpc.linknode.org"
+      },
+      {
+        "address": "https://lumera-rpc.dungeon.games"
       }
     ],
     "rest": [
@@ -72,6 +75,9 @@
       },
       {
         "address": "https://lumera-api.linknode.org"
+      },
+      {
+        "address": "https://lumera-lcd.dungeon.games"
       }
     ],
     "grpc": [
