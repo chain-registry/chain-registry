@@ -1,0 +1,58 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "wolochain",
+  "networkType": "mainnet",
+  "website": "https://aoe2war.com",
+  "prettyName": "WoloChain",
+  "chainType": "cosmos",
+  "chainId": "wolo-1",
+  "bech32Prefix": "wolo",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uwolo",
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uwolo"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.53.3"
+    }
+  },
+  "description": "WoloChain is the Cosmos SDK chain powering WOLO, the fixed-supply token used by AoE2WAR for Age of Empires II betting, staking, rewards, and settlement.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://aoe2war.com/rpc-mainnet"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://aoe2war.com/rest-mainnet"
+      }
+    ]
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png",
+      "theme": {
+        "circle": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "wolochain",
+  "assets": [
+    {
+      "description": "WOLO is the fixed-supply native token of WoloChain.",
+      "denomUnits": [
+        {
+          "denom": "uwolo",
+          "exponent": 0,
+          "aliases": [
+            "microWOLO"
+          ]
+        },
+        {
+          "denom": "wolo",
+          "exponent": 6
+        }
+      ],
+      "base": "uwolo",
+      "name": "WOLO",
+      "display": "wolo",
+      "symbol": "WOLO",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
