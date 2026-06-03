@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "evmos",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://evmos.org/",
   "prettyName": "Evmos",

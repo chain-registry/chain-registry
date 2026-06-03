@@ -75,6 +75,12 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc.neutron.solva.solutions:443"
+      },
+      {
+        "address": "https://rpc-archive.neutron.solva.solutions:443"
+      },
+      {
         "address": "https://rpc-lb.neutron.org"
       },
       {
@@ -112,6 +118,12 @@
       }
     ],
     "rest": [
+      {
+        "address": "https://rest.neutron.solva.solutions:443"
+      },
+      {
+        "address": "https://rest-archive.neutron.solva.solutions:443"
+      },
       {
         "address": "https://rest-lb.neutron.org"
       },
@@ -153,6 +165,12 @@
       }
     ],
     "grpc": [
+      {
+        "address": "grpc.neutron.solva.solutions:443"
+      },
+      {
+        "address": "grpc-archive.neutron.solva.solutions:443"
+      },
       {
         "address": "grpc-lb.neutron.org:443"
       },
