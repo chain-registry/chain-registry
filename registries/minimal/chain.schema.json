@@ -186,6 +186,12 @@
       },
       "additionalProperties": false
     },
+    "snapshots": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/snapshot"
+      }
+    },
     "explorers": {
       "type": "array",
       "items": {
@@ -299,6 +305,60 @@
         "address": {
           "type": "string",
           "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "snapshot": {
+      "type": "object",
+      "required": [
+        "provider",
+        "url"
+      ],
+      "properties": {
+        "provider": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "pruned",
+            "archive"
+          ]
+        },
+        "frequency": {
+          "type": "string",
+          "minLength": 1
+        },
+        "compression": {
+          "type": "string",
+          "enum": [
+            "lz4",
+            "zstd",
+            "gzip",
+            "tar",
+            "none"
+          ]
+        },
+        "latestUrl": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dbBackend": {
+          "type": "string",
+          "enum": [
+            "goleveldb",
+            "pebbledb"
+          ]
+        },
+        "checksumAvailable": {
+          "type": "boolean",
+          "default": false
         }
       },
       "additionalProperties": false

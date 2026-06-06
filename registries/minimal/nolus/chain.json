@@ -84,7 +84,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "rpc.nolus.network"
+        "address": "https://rpc.nolus.network"
       },
       {
         "address": "https://nolus-mainnet-rpc.autostake.com:443"
@@ -116,7 +116,7 @@
     ],
     "rest": [
       {
-        "address": "lcd.nolus.network"
+        "address": "https://lcd.nolus.network"
       },
       {
         "address": "https://nolus-mainnet-lcd.autostake.com:443"
