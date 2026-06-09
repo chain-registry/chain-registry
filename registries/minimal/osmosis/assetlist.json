@@ -145,8 +145,7 @@
             "path": "transfer/channel-208/wbtc-satoshi"
           }
         }
-      ],
-      "coingeckoId": "axlwbtc"
+      ]
     },
     {
       "description": "Tether's USD stablecoin on Axelar",

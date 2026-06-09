@@ -1071,8 +1071,7 @@
             "path": "transfer/channel-2/wbtc-satoshi"
           }
         }
-      ],
-      "coingeckoId": "axlwbtc"
+      ]
     },
     {
       "description": "IBC Axelar weth-wei through axelar-dojo-1 transfer/channel-2",

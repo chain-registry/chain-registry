@@ -48,6 +48,11 @@
         "address": "https://api.turkscan.com"
       }
     ],
+    "grpc": [
+      {
+        "address": "grpc.turkscan.com:443"
+      }
+    ],
     "evmHttpJsonrpc": [
       {
         "address": "https://rpc.turkscan.com"

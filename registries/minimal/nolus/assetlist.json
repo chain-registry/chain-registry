@@ -330,8 +330,7 @@
             "path": "transfer/channel-0/transfer/channel-208/wbtc-satoshi"
           }
         }
-      ],
-      "coingeckoId": "axlwbtc"
+      ]
     },
     {
       "description": "AKT transferred from the Osmosis mainnet that is supported on the Nolus chain",
