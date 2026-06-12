@@ -50,9 +50,6 @@
         "address": "https://1rpc.io/scrt-rpc"
       },
       {
-        "address": "https://secretnetwork-rpc.highstakes.ch"
-      },
-      {
         "address": "https://rpc.mainnet.secretsaturn.net"
       },
       {
@@ -71,9 +68,6 @@
       },
       {
         "address": "https://1rpc.io/scrt-lcd"
-      },
-      {
-        "address": "https://secretnetwork-api.highstakes.ch"
       },
       {
         "address": "https://lcd.mainnet.secretsaturn.net"
