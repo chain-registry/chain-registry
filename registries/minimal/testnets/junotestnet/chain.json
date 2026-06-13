@@ -79,6 +79,12 @@
     {
       "kind": "Stake Hub by Kleomedes",
       "url": "https://www.stake-hub.xyz/junotestnet"
+    },
+    {
+      "kind": "Valopers",
+      "url": "https://testnet.juno.valopers.com/",
+      "txPage": "https://testnet.juno.valopers.com/transactions/${txHash}",
+      "accountPage": "https://testnet.juno.valopers.com/account/${accountAddress}"
     }
   ]
 }

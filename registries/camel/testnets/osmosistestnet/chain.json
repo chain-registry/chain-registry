@@ -141,6 +141,12 @@
       "url": "https://explorer.osmotest5.osmosis.zone",
       "txPage": "https://explorer.osmotest5.osmosis.zone/osmo-test-5/tx/${txHash}",
       "accountPage": "https://explorer.osmotest5.osmosis.zone/osmo-test-5/account/${accountAddress}"
+    },
+    {
+      "kind": "Valopers",
+      "url": "https://testnet.osmosis.valopers.com/",
+      "txPage": "https://testnet.osmosis.valopers.com/transactions/${txHash}",
+      "accountPage": "https://testnet.osmosis.valopers.com/account/${accountAddress}"
     }
   ],
   "keywords": [
