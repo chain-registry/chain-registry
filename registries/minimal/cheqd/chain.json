@@ -67,7 +67,7 @@
         "address": "https://cheq-rpc.kleomedes.network"
       },
       {
-        "address": "https://cheqd.srvs.vnodesv.net/rpc"
+        "address": "https://cheqd-rpc.vnodesv.net"
       },
       {
         "address": "https://cheqd-rpc.publicnode.com:443"
@@ -108,7 +108,7 @@
         "address": "https://cheq-api.kleomedes.network"
       },
       {
-        "address": "https://api.cheqd.srvs.vnodesv.net"
+        "address": "https://cheqd-api.vnodesv.net"
       },
       {
         "address": "https://cheqd-rest.publicnode.com"
@@ -140,7 +140,7 @@
         "address": "grpc-cheqd.blockval.io:9290"
       },
       {
-        "address": "https://cheqd.srvs.vnodesv.net/grpc"
+        "address": "https://cheqd.vnodesv.net/grpc"
       },
       {
         "address": "cheqd-grpc.publicnode.com:443"

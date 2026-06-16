@@ -902,7 +902,6 @@
       "name": "dNTRN",
       "display": "dNTRN",
       "symbol": "dNTRN",
-      "coingeckoId": "drop-staked-ntrn",
       "assetType": "sdk.coin"
     },
     {
