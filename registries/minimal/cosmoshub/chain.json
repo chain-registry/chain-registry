@@ -54,12 +54,6 @@
         "address": "https://cosmos-rpc.quickapi.com:443"
       },
       {
-        "address": "https://cosmos-rpc.onivalidator.com"
-      },
-      {
-        "address": "https://rpc-cosmoshub.whispernode.com:443"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/cosmoshub"
       },
       {
@@ -69,31 +63,16 @@
         "address": "https://go.getblock.io/17515cb3ec0e43b7817f182e5de6066a"
       },
       {
-        "address": "https://rpc-cosmoshub.pupmos.network"
-      },
-      {
-        "address": "https://rpc-cosmoshub.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://cosmos-rpc.polkachu.com"
       },
       {
         "address": "https://cosmos-rpc.staketab.org:443"
       },
       {
-        "address": "https://rpc-cosmoshub-ia.cosmosia.notional.ventures/"
-      },
-      {
-        "address": "https://rpc-cosmoshub.architectnodes.com"
-      },
-      {
         "address": "https://rpc.cosmos.dragonstake.io"
       },
       {
         "address": "https://cosmoshub.rpc.stakin-nodes.com"
-      },
-      {
-        "address": "https://rpc.cosmos.bh.rocks"
       },
       {
         "address": "https://cosmos-rpc.rockrpc.net"
@@ -108,9 +87,6 @@
         "address": "https://rpc.cosmos.nodestake.org"
       },
       {
-        "address": "https://cosmos.rpc.silknodes.io"
-      },
-      {
         "address": "https://cosmos-rpc.publicnode.com:443"
       },
       {
@@ -120,13 +96,7 @@
         "address": "https://rpc.cosmoshub.goldenratiostaking.net"
       },
       {
-        "address": "https://rpc-cosmos-hub-01.stakeflow.io"
-      },
-      {
         "address": "https://cosmos-rpc.w3coins.io"
-      },
-      {
-        "address": "https://rpc-cosmoshub.mms.team"
       },
       {
         "address": "https://community.nuxian-node.ch:6797/gaia/trpc"
@@ -142,9 +112,6 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/cosmoshub/rpc"
-      },
-      {
-        "address": "https://rpc-cosmos.kewrnode.com"
       },
       {
         "address": "https://rpc.cosmoshub-4.citizenweb3.com"
@@ -194,15 +161,6 @@
         "address": "https://rest.lavenderfive.com:443/cosmoshub"
       },
       {
-        "address": "https://api-cosmoshub.pupmos.network"
-      },
-      {
-        "address": "https://api-cosmoshub.cosmos-spaces.cloud"
-      },
-      {
-        "address": "https://api-cosmoshub-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://cosmos-rest.staketab.org"
       },
       {
@@ -212,13 +170,7 @@
         "address": "https://cosmoshub.rest.stakin-nodes.com"
       },
       {
-        "address": "https://rest-cosmoshub.architectnodes.com"
-      },
-      {
         "address": "https://rest-cosmoshub.ecostake.com"
-      },
-      {
-        "address": "https://lcd-cosmoshub.whispernode.com:443"
       },
       {
         "address": "https://cosmos-lcd.easy2stake.com"
@@ -236,13 +188,7 @@
         "address": "https://cosmoshub.api.kjnodes.com"
       },
       {
-        "address": "https://api-cosmos-hub-01.stakeflow.io"
-      },
-      {
         "address": "https://cosmos-api.w3coins.io"
-      },
-      {
-        "address": "https://api-cosmoshub.mms.team"
       },
       {
         "address": "https://community.nuxian-node.ch:6797/gaia/crpc"
@@ -258,9 +204,6 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/cosmoshub/rest"
-      },
-      {
-        "address": "https://rest-cosmos.kewrnode.com"
       },
       {
         "address": "https://cosmos-api.stakeandrelax.net"
@@ -301,16 +244,10 @@
         "address": "cosmoshub.lavenderfive.com:443"
       },
       {
-        "address": "grpc-cosmoshub-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "cosmos-grpc.polkachu.com:14990"
       },
       {
         "address": "grpc.cosmos.interbloc.org:443"
-      },
-      {
-        "address": "services.staketab.com:9030"
       },
       {
         "address": "grpc.cosmos.dragonstake.io:443"
@@ -325,28 +262,13 @@
         "address": "cosmos-grpc.publicnode.com:443"
       },
       {
-        "address": "grpc-cosmoshub.cosmos-spaces.cloud:3910"
-      },
-      {
         "address": "cosmoshub.grpc.kjnodes.com:11390"
-      },
-      {
-        "address": "grpc-cosmos-hub-01.stakeflow.io:9090"
-      },
-      {
-        "address": "grpc-cosmoshub.whispernode.com:443"
       },
       {
         "address": "cosmos-grpc.w3coins.io:14990"
       },
       {
-        "address": "grpc-cosmoshub.mms.team:443"
-      },
-      {
         "address": "cosmoshub-mainnet.grpc.l0vd.com:80"
-      },
-      {
-        "address": "https://grpc-cosmos.nodeist.net"
       },
       {
         "address": "cosmos-grpc.stakeandrelax.net:15090"

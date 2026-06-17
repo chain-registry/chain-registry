@@ -38,22 +38,10 @@
         "address": "https://kava-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc-kava-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://kava-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://kava.ibs.team:443/rpc"
-      },
-      {
-        "address": "https://rpc-kava-01.stakeflow.io"
-      },
-      {
         "address": "https://kava-rpc.publicnode.com:443"
-      },
-      {
-        "address": "https://kava.drpc.org"
       },
       {
         "address": "https://rpc.kava.nodestake.org"
@@ -67,19 +55,10 @@
         "address": "https://api.data.kava.io/"
       },
       {
-        "address": "https://api-kava-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://kava-api.polkachu.com"
       },
       {
         "address": "https://kava-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://kava.ibs.team:443/api"
-      },
-      {
-        "address": "https://api-kava-01.stakeflow.io"
       },
       {
         "address": "https://kava-rest.publicnode.com"
@@ -96,16 +75,10 @@
         "address": "grpc.data.kava.io:443"
       },
       {
-        "address": "grpc-kava-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "kava-grpc.polkachu.com:13990"
       },
       {
         "address": "kava-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "grpc-kava-01.stakeflow.io:1202"
       },
       {
         "address": "kava-grpc.publicnode.com:443"
