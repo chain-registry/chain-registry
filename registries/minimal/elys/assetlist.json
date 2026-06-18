@@ -269,7 +269,7 @@
       "coingeckoId": "celestia"
     },
     {
-      "description": "Xion Network Token",
+      "description": "Verona is the intelligence layer for AI.",
       "denomUnits": [
         {
           "denom": "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A",
@@ -279,15 +279,19 @@
           ]
         },
         {
-          "denom": "xion",
-          "exponent": 6
+          "denom": "XION",
+          "exponent": 6,
+          "aliases": [
+            "xion",
+            "VERONA"
+          ]
         }
       ],
       "assetType": "ics20",
       "base": "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A",
-      "name": "Xion",
-      "display": "xion",
-      "symbol": "XION",
+      "name": "Verona",
+      "display": "VERONA",
+      "symbol": "VERONA",
       "traces": [
         {
           "type": "ibc",

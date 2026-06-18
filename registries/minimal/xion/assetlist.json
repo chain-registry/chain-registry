@@ -3,7 +3,7 @@
   "chainName": "xion",
   "assets": [
     {
-      "description": "XION is the first walletless L1 blockchain purpose built for consumer adoption through chain abstraction.",
+      "description": "Verona is the intelligence layer for AI.",
       "denomUnits": [
         {
           "denom": "uxion",
@@ -16,14 +16,15 @@
           "denom": "XION",
           "exponent": 6,
           "aliases": [
-            "xion"
+            "xion",
+            "VERONA"
           ]
         }
       ],
       "base": "uxion",
-      "display": "XION",
-      "name": "xion",
-      "symbol": "XION",
+      "display": "VERONA",
+      "name": "Verona",
+      "symbol": "VERONA",
       "coingeckoId": "xion-2",
       "assetType": "sdk.coin"
     },

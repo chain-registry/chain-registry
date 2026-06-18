@@ -1,0 +1,60 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "skyzennet",
+  "chainType": "cosmos",
+  "description": "Skyzen Network is a Proof-of-Stake (PoS) blockchain.",
+  "networkType": "testnet",
+  "prettyName": "Skyzen Network Testnet",
+  "chainId": "skyzen-1",
+  "bech32Prefix": "skyz",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uskyz",
+        "fixedMinGasPrice": 0.0001,
+        "lowGasPrice": 0.0001,
+        "averageGasPrice": 0.0002,
+        "highGasPrice": 0.0005
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uskyz"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.skyzennet.xyz/"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.testnet.skyzennet.xyz/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://explorer.skyzennet.xyz",
+      "txPage": "https://explorer.skyzennet.xyz/skyzen/tx/${txHash}",
+      "accountPage": "https://explorer.skyzennet.xyz/skyzen/account/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/skyzennet/images/skyzen-main.png"
+    }
+  ]
+}

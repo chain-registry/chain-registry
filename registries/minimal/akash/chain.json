@@ -48,9 +48,6 @@
         "address": "https://akash-mainnet-rpc.cosmonautstakes.com:443"
       },
       {
-        "address": "https://akash-rpc.w3coins.io"
-      },
-      {
         "address": "https://akash-rpc.publicnode.com:443"
       },
       {
@@ -74,13 +71,7 @@
         "address": "https://akash-api.kleomedes.network"
       },
       {
-        "address": "https://api-akash-01.stakeflow.io"
-      },
-      {
         "address": "https://akash-mainnet-rest.cosmonautstakes.com:443"
-      },
-      {
-        "address": "https://akash-api.w3coins.io"
       },
       {
         "address": "https://akash-rest.publicnode.com"

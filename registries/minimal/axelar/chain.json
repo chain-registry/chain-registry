@@ -43,20 +43,12 @@
   },
   "description": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click.",
   "apis": {
-    "grpcWeb": [
-      {
-        "address": "axelar-grpcweb.chainode.tech"
-      }
-    ],
     "rpc": [
       {
         "address": "https://rpc-axelar.imperator.co:443"
       },
       {
         "address": "https://axelar-rpc.quickapi.com:443"
-      },
-      {
-        "address": "https://rpc-axelar.cosmos-spaces.cloud"
       },
       {
         "address": "https://axelar-rpc.pops.one:443"
@@ -68,22 +60,10 @@
         "address": "https://rpc-1.axelar.nodes.guru:443"
       },
       {
-        "address": "https://rpc-axelar-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://axelar-rpc.polkachu.com"
       },
       {
         "address": "https://axelar.rpc.stakin-nodes.com"
-      },
-      {
-        "address": "https://rpc.axelar.bh.rocks"
-      },
-      {
-        "address": "https://axelar-rpc.validatrium.club"
-      },
-      {
-        "address": "https://rpc-axelar.whispernode.com:443"
       },
       {
         "address": "https://axelar.rpc.quantnode.xyz/"
@@ -98,13 +78,7 @@
         "address": "https://axelar.ibs.team:443/rpc"
       },
       {
-        "address": "https://rpc-axelar-01.stakeflow.io"
-      },
-      {
         "address": "https://axelar-rpc.staketab.org:443"
-      },
-      {
-        "address": "https://axelar-rpc.w3coins.io"
       },
       {
         "address": "https://axelar-rpc.publicnode.com:443"
@@ -121,31 +95,16 @@
         "address": "https://axelar-lcd.quickapi.com:443"
       },
       {
-        "address": "https://api-axelar.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://axelar-lcd.qubelabs.io:443"
       },
       {
         "address": "https://api-1.axelar.nodes.guru:443"
       },
       {
-        "address": "https://api-axelar-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://axelar-api.polkachu.com"
       },
       {
         "address": "https://axelar.rest.stakin-nodes.com"
-      },
-      {
-        "address": "https://api.axelar.bh.rocks"
-      },
-      {
-        "address": "https://axelar-api.validatrium.club"
-      },
-      {
-        "address": "https://lcd-axelar.whispernode.com:443"
       },
       {
         "address": "https://axelar-mainnet-lcd.autostake.com:443"
@@ -157,13 +116,7 @@
         "address": "https://axelar.ibs.team:443/api"
       },
       {
-        "address": "https://api-axelar-01.stakeflow.io"
-      },
-      {
         "address": "https://axelar-rest.staketab.org"
-      },
-      {
-        "address": "https://axelar-api.w3coins.io"
       },
       {
         "address": "https://axelar-rest.publicnode.com"
@@ -177,15 +130,6 @@
         "address": "axelar.grpc.quantnode.xyz:21990"
       },
       {
-        "address": "services.staketab.com:9080"
-      },
-      {
-        "address": "grpc-axelar.cosmos-spaces.cloud:1590"
-      },
-      {
-        "address": "grpc-axelar-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "axelar-grpc.polkachu.com:15190"
       },
       {
@@ -193,15 +137,6 @@
       },
       {
         "address": "axelar-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "grpc-axelar-01.stakeflow.io:1602"
-      },
-      {
-        "address": "axelar-grpc.w3coins.io:15190"
-      },
-      {
-        "address": "grpc-axelar.whispernode.com:443"
       },
       {
         "address": "axelar-grpc.publicnode.com:443"

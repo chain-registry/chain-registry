@@ -910,7 +910,7 @@
       "coingeckoId": "nillion"
     },
     {
-      "description": "XION transferred from the Osmosis mainnet that is supported on the Nolus chain",
+      "description": "Verona transferred from the Osmosis mainnet that is supported on the Nolus chain",
       "denomUnits": [
         {
           "denom": "ibc/B8E95841C22213AC4E3EF000CB9D1D3B06FFAA1784FCE1169C6E92982BCC89B4",
@@ -920,18 +920,19 @@
           ]
         },
         {
-          "denom": "xion",
+          "denom": "XION",
           "exponent": 6,
           "aliases": [
-
+            "xion",
+            "VERONA"
           ]
         }
       ],
       "assetType": "ics20",
       "base": "ibc/B8E95841C22213AC4E3EF000CB9D1D3B06FFAA1784FCE1169C6E92982BCC89B4",
-      "name": "XION",
-      "display": "xion",
-      "symbol": "XION",
+      "name": "Verona",
+      "display": "VERONA",
+      "symbol": "VERONA",
       "traces": [
         {
           "type": "ibc",

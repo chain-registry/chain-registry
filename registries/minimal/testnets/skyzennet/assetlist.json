@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "skyzennet",
+  "assets": [
+    {
+      "description": "The native utility token of Skyzen Network",
+      "denomUnits": [
+        {
+          "denom": "uskyz",
+          "exponent": 0
+        },
+        {
+          "denom": "skyz",
+          "exponent": 6
+        }
+      ],
+      "base": "uskyz",
+      "name": "Skyzen",
+      "display": "skyz",
+      "symbol": "SKYZ",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
