@@ -92,7 +92,7 @@
         "address": "https://elys-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://elys.srvs.vnodesv.net/rpc"
+        "address": "https://elys-rpc.vnodesv.net"
       }
     ],
     "rest": [
@@ -124,7 +124,7 @@
         "address": "https://elys-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://rest.elys.srvs.vnodesv.net"
+        "address": "https://elys-api.vnodesv.net"
       }
     ],
     "grpc": [
@@ -144,7 +144,7 @@
         "address": "elys-mainnet-grpc.autostake.com:443"
       },
       {
-        "address": "https://elys.srvs.vnodesv.net/grpc"
+        "address": "https://elys.vnodesv.net/grpc"
       }
     ]
   },

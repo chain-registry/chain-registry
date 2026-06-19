@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "starname",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://www.starname.me/",
   "prettyName": "Starname",

@@ -96,12 +96,6 @@
         "address": "https://rpc.lavenderfive.com:443/neutron"
       },
       {
-        "address": "https://rpc-neutron.whispernode.com"
-      },
-      {
-        "address": "https://rpc-neutron.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://neutron-rpc.publicnode.com:443"
       },
       {
@@ -146,12 +140,6 @@
         "address": "https://rest.lavenderfive.com:443/neutron"
       },
       {
-        "address": "https://lcd-neutron.whispernode.com"
-      },
-      {
-        "address": "https://api-neutron.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://neutron-rest.publicnode.com"
       },
       {
@@ -178,16 +166,7 @@
         "address": "grpc-kralum.neutron-1.neutron.org:80"
       },
       {
-        "address": "neutron-grpc-pub.rpc.p2p.world:3001"
-      },
-      {
         "address": "neutron.lavenderfive.com:443"
-      },
-      {
-        "address": "grpc-neutron.whispernode.com:443"
-      },
-      {
-        "address": "grpc-neutron.cosmos-spaces.cloud:3090"
       },
       {
         "address": "neutron-grpc.publicnode.com:443"

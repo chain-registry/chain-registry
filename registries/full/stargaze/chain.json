@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "stargaze",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://stargaze.zone/",
   "prettyName": "Stargaze",

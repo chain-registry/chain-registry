@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "nillion",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "prettyName": "Nillion",
   "chainType": "cosmos",

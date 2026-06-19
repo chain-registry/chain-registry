@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "tgrade",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://tgrade.finance/",
   "prettyName": "Tgrade",

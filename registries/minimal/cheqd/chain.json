@@ -70,6 +70,9 @@
         "address": "https://cheqd-rpc.vnodesv.net"
       },
       {
+        "address": "https://cheqd2-rpc.vnodesv.net"
+      },
+      {
         "address": "https://cheqd-rpc.publicnode.com:443"
       },
       {
@@ -109,6 +112,9 @@
       },
       {
         "address": "https://cheqd-api.vnodesv.net"
+      },
+      {
+        "address": "https://cheqd2-api.vnodesv.net"
       },
       {
         "address": "https://cheqd-rest.publicnode.com"

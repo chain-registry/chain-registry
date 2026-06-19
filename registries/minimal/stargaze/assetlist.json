@@ -3,7 +3,7 @@
   "chainName": "stargaze",
   "assets": [
     {
-      "description": "Stargaze is a decentralized blockchain platform designed specifically for non-fungible tokens (NFTs), enabling creators to mint, trade, and interact with NFTs in a fully decentralized environment.",
+      "description": "(Deprecated) The original native STARS token of Stargaze. STARS has migrated to the Cosmos Hub as the tokenfactory denom factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars, convertible 1:1 via Osmosis. This asset is retained for historical reference.",
       "denomUnits": [
         {
           "denom": "ustars",
@@ -17,8 +17,17 @@
       "base": "ustars",
       "name": "Stargaze",
       "display": "stars",
-      "symbol": "STARS",
-      "coingeckoId": "stargaze",
+      "symbol": "STARS.legacy",
+      "traces": [
+        {
+          "type": "legacy-mintage",
+          "counterparty": {
+            "chainName": "cosmoshub",
+            "baseDenom": "factory/cosmos1s8qx0zvz8yd6e4x0mqmqf7fr9vvfn6226hkvrq/ustars"
+          },
+          "provider": "Stargaze"
+        }
+      ],
       "assetType": "sdk.coin"
     },
     {
