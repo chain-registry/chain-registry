@@ -4,7 +4,7 @@
   "chainType": "cosmos",
   "chainId": "router_9600-1",
   "prettyName": "Router Protocol",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://www.routerprotocol.com/",
   "bech32Prefix": "router",

@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "milkyway",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://milkyway.zone/",
   "prettyName": "MilkyWay",

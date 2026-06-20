@@ -18,7 +18,6 @@
       "name": "Comdex",
       "display": "cmdx",
       "symbol": "CMDX",
-      "coingeckoId": "comdex",
       "assetType": "sdk.coin"
     },
     {

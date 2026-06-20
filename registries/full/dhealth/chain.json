@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "dhealth",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://dhealth.com/",
   "prettyName": "dHealth",

@@ -1411,8 +1411,7 @@
             "path": "transfer/channel-87/ucmdx"
           }
         }
-      ],
-      "coingeckoId": "comdex"
+      ]
     },
     {
       "description": "Native token for the cheqd network",
@@ -15518,8 +15517,7 @@
             "path": "transfer/channel-85077/uom"
           }
         }
-      ],
-      "coingeckoId": "mantra-dao"
+      ]
     },
     {
       "description": "The native staking and governance token of AtomOne",

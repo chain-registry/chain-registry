@@ -47,8 +47,7 @@
           },
           "provider": "MANTRA"
         }
-      ],
-      "coingeckoId": "mantra-dao"
+      ]
     },
     {
       "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, with Circle as the first issuer.",

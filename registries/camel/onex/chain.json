@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "onex",
-  "status": "live",
+  "status": "killed",
   "website": "https://app.onomy.io/",
   "networkType": "mainnet",
   "prettyName": "ONEX",

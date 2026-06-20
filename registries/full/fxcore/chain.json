@@ -5,7 +5,7 @@
   "chainId": "fxcore",
   "website": "https://fx.pundi.ai",
   "prettyName": "Pundi AIFX",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "bech32Prefix": "fx",
   "daemonName": "fxcored",

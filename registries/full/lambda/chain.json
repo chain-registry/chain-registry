@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "lambda",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "prettyName": "Lambda",
   "chainType": "cosmos",

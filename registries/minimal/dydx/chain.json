@@ -54,22 +54,13 @@
         "address": "https://dydx-dao-rpc.polkachu.com"
       },
       {
-        "address": "https://dydx-mainnet-full-rpc.public.blastapi.io"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/dydx"
       },
       {
         "address": "https://dydx-mainnet-rpc.autostake.com:443"
       },
       {
-        "address": "https://rpc-dydx.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://dydx-rpc.publicnode.com:443"
-      },
-      {
-        "address": "https://rpc-dydx.cros-nest.com:443"
       },
       {
         "address": "https://dydx-rpc.enigma-validator.com"
@@ -79,9 +70,6 @@
       },
       {
         "address": "https://dydx-rpc.noders.services"
-      },
-      {
-        "address": "https://dydx.interstellar-lounge.org"
       }
     ],
     "rest": [
@@ -90,9 +78,6 @@
       },
       {
         "address": "https://dydx-dao-api.polkachu.com"
-      },
-      {
-        "address": "https://dydx-mainnet-full-lcd.public.blastapi.io"
       },
       {
         "address": "https://dydx-rest.kingnodes.com:443"
@@ -104,22 +89,13 @@
         "address": "https://dydx-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://api-dydx.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://dydx-rest.publicnode.com"
-      },
-      {
-        "address": "https://rest-dydx.cros-nest.com:443"
       },
       {
         "address": "https://dydx-lcd.enigma-validator.com"
       },
       {
         "address": "https://dydx-api.noders.services"
-      },
-      {
-        "address": "https://dydx-rest.interstellar-lounge.org"
       }
     ],
     "grpc": [
@@ -139,9 +115,6 @@
         "address": "dydx-dao-grpc-5.polkachu.com:23890"
       },
       {
-        "address": "dydx-mainnet-full-grpc.public.blastapi.io:443"
-      },
-      {
         "address": "https://dydx-grpc.kingnodes.com:443"
       },
       {
@@ -152,9 +125,6 @@
       },
       {
         "address": "dydx.grpc.kjnodes.com:443"
-      },
-      {
-        "address": "grpc-dydx.cosmos-spaces.cloud:4990"
       },
       {
         "address": "dydx-grpc.publicnode.com:443"

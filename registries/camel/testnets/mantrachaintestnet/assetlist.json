@@ -49,8 +49,7 @@
           }
         }
       ],
-      "typeAsset": "sdk.coin",
-      "coingeckoId": "mantra-dao"
+      "typeAsset": "sdk.coin"
     }
   ]
 }

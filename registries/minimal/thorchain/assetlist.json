@@ -56,8 +56,7 @@
       "base": "thor.auto",
       "name": "AutoRujira",
       "display": "AUTO",
-      "symbol": "AUTO",
-      "coingeckoId": "auto-2"
+      "symbol": "AUTO"
     },
     {
       "description": "Liquidy is a decentralized autonomous organization running a series of profitable on-chain revenue streams. The primary revenue streams are Market Making and a Swap Router.",

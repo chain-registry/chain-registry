@@ -867,8 +867,7 @@
             "path": "transfer/channel-0/transfer/channel-85077/uom"
           }
         }
-      ],
-      "coingeckoId": "mantra-dao"
+      ]
     },
     {
       "description": "NIL transferred from the Osmosis mainnet that is supported on the Nolus chain",
