@@ -142,6 +142,9 @@
       },
       {
         "address": "https://cosmoshub.api.pocket.network"
+      },
+      {
+        "address": "https://rpc.sbsconstrutionnconsultancy.com"
       }
     ],
     "rest": [

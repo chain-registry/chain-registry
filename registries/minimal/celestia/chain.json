@@ -44,9 +44,6 @@
         "address": "https://public-celestia-rpc.numia.xyz"
       },
       {
-        "address": "https://celestia-rpc.mesa.newmetric.xyz"
-      },
-      {
         "address": "https://rpc.lunaroasis.net"
       },
       {
@@ -54,15 +51,6 @@
       },
       {
         "address": "https://rpc.lavenderfive.com:443/celestia"
-      },
-      {
-        "address": "https://rpc-celestia-01.stakeflow.io"
-      },
-      {
-        "address": "https://rpc-celestia.cosmos-spaces.cloud"
-      },
-      {
-        "address": "http://celestia.rpc.nodersteam.com:29657"
       },
       {
         "address": "https://celestia.rpc.interchain.validao.xyz"
@@ -95,19 +83,10 @@
         "address": "https://rpc.celestia.validatus.com"
       },
       {
-        "address": "https://celestia-rpc.sr20de.xyz"
-      },
-      {
-        "address": "https://rpc-celestia-full.avril14th.org"
-      },
-      {
         "address": "https://rpc.freshstaking.com/celestia"
       },
       {
         "address": "https://celestia.cumulo.org.es/"
-      },
-      {
-        "address": "https://celestia-rpc.stake-town.com"
       },
       {
         "address": "https://rpc.celestia-app.bronbro.io"
@@ -139,12 +118,6 @@
         "address": "https://public-celestia-lcd.numia.xyz"
       },
       {
-        "address": "https://celestia-rest.mesa.newmetric.xyz"
-      },
-      {
-        "address": "http://celestia.rpc.nodersteam.com:1617"
-      },
-      {
         "address": "https://api.lunaroasis.net"
       },
       {
@@ -152,12 +125,6 @@
       },
       {
         "address": "https://rest.lavenderfive.com:443/celestia"
-      },
-      {
-        "address": "https://api-celestia-01.stakeflow.io"
-      },
-      {
-        "address": "https://api-celestia.cosmos-spaces.cloud"
       },
       {
         "address": "https://celestia.rest.interchain.validao.xyz"
@@ -184,19 +151,10 @@
         "address": "https://api.celestia.validatus.com"
       },
       {
-        "address": "https://celestia-api.sr20de.xyz"
-      },
-      {
         "address": "https://celestia-mainnet-lcd.autostake.com:443"
       },
       {
-        "address": "https://api-celestia-full.avril14th.org"
-      },
-      {
         "address": "https://celestia.api.cumulo.org.es"
-      },
-      {
-        "address": "https://celestia-api.stake-town.com"
       },
       {
         "address": "https://lcd.celestia-app.bronbro.io"
@@ -231,15 +189,6 @@
         "address": "celestia.lavenderfive.com:443"
       },
       {
-        "address": "celestia.grpc.nodersteam.com:9690"
-      },
-      {
-        "address": "grpc-celestia-01.stakeflow.io:15002"
-      },
-      {
-        "address": "grpc-celestia.cosmos-spaces.cloud:443"
-      },
-      {
         "address": "celestia.grpc.interchain.validao.xyz:443"
       },
       {
@@ -261,16 +210,7 @@
         "address": "grpc.celestia.validatus.com:443"
       },
       {
-        "address": "celestia-grpc.sr20de.xyz"
-      },
-      {
-        "address": "grpc-celestia-full.avril14th.org"
-      },
-      {
         "address": "celestia.grpc.cumulo.org.es"
-      },
-      {
-        "address": "https://celestia-grpc.stake-town.com"
       },
       {
         "address": "grpc.celestia-app.bronbro.io:443"
@@ -280,9 +220,6 @@
       },
       {
         "address": "celestia-mainnet-grpc.itrocket.net:443"
-      },
-      {
-        "address": "grpc.celestia.mainnet.dteam.tech:28090"
       },
       {
         "address": "http://celestia-grpc.stakeandrelax.net:11690"
