@@ -4796,7 +4796,7 @@
       ]
     },
     {
-      "description": "The native token cw20 for PHMN on Juno Chain",
+      "description": "(Deprecated) PHMN bridged from legacy Juno CW20. PHMN has migrated to the Cosmos Hub.",
       "denomUnits": [
         {
           "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
@@ -4814,7 +4814,7 @@
       "base": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
       "name": "POSTHUMAN",
       "display": "phmn",
-      "symbol": "PHMN",
+      "symbol": "PHMN.legacy",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4830,8 +4830,7 @@
             "path": "transfer/channel-169/cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
           }
         }
-      ],
-      "coingeckoId": "posthuman"
+      ]
     },
     {
       "description": "The native token cw20 for Amber on Secret Network",
