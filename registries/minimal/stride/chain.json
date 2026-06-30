@@ -139,6 +139,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://stride.rpc.uquad.org:443"
+      },
+      {
         "address": "https://stride-rpc.polkachu.com/"
       },
       {
@@ -197,6 +200,9 @@
       }
     ],
     "rest": [
+      {
+        "address": "https://stride.rpc.uquad.org:443"
+      },
       {
         "address": "https://stride-api.polkachu.com/"
       },

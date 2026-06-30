@@ -41,6 +41,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://celestia.rpc.uquad.org:443"
+      },
+      {
         "address": "https://public-celestia-rpc.numia.xyz"
       },
       {
@@ -114,6 +117,9 @@
       }
     ],
     "rest": [
+      {
+        "address": "https://celestia.rpc.uquad.org:443"
+      },
       {
         "address": "https://public-celestia-lcd.numia.xyz"
       },

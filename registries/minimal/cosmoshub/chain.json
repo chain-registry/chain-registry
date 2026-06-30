@@ -45,6 +45,9 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://cosmos.rpc.uquad.org:443"
+      },
+      {
         "address": "https://rpc.cosmoshub-main.ccvalidators.com:443"
       },
       {
@@ -148,6 +151,9 @@
       }
     ],
     "rest": [
+      {
+        "address": "https://cosmos.rpc.uquad.org:443"
+      },
       {
         "address": "https://rest.cosmoshub-main.ccvalidators.com:443"
       },
