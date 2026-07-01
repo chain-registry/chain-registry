@@ -998,6 +998,24 @@
       "name": "POSTHUMAN",
       "display": "phmn",
       "symbol": "PHMN"
+    },
+    {
+      "description": "POSTHUMAN Reputation (RESP) is the reputation token of the POSTHUMAN ecosystem, migrated from the legacy Juno RESP token to Cosmos Hub through TokenFactory.",
+      "denomUnits": [
+        {
+          "denom": "factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP",
+          "exponent": 0
+        },
+        {
+          "denom": "resp",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/cosmos1nxxz937qd6zqxllwplydy6hts97c4amaqj8jxa57nsme3dmckk4s3mqujr/RESP",
+      "name": "POSTHUMAN Reputation",
+      "display": "resp",
+      "symbol": "RESP"
     }
   ]
 }
