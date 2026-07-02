@@ -1,0 +1,102 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "safrochain",
+  "chainType": "cosmos",
+  "networkType": "mainnet",
+  "website": "https://safrochain.com",
+  "prettyName": "Safrochain",
+  "chainId": "safrochain-1",
+  "bech32Prefix": "addr_safro",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "usaf",
+        "fixedMinGasPrice": 0.05,
+        "lowGasPrice": 0.05,
+        "averageGasPrice": 0.0625,
+        "highGasPrice": 0.075
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "usaf"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.14"
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.svg"
+    }
+  ],
+  "description": "Safrochain is building a mobile-first, mobile-money-powered blockchain that connects blockchain infrastructure to mobile money networks—turning mobile wallets into gateways to stablecoins, programmable finance, cross-border settlement, and lower-cost interoperable transfers across operators and borders.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.safrochain.network"
+      },
+      {
+        "address": "https://rpc1.safrochain.network"
+      },
+      {
+        "address": "https://rpc2.safrochain.network"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.safrochain.network"
+      },
+      {
+        "address": "https://api1.safrochain.network"
+      },
+      {
+        "address": "https://api2.safrochain.network"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.safrochain.network:443"
+      },
+      {
+        "address": "https://grpc1.safrochain.network:443"
+      },
+      {
+        "address": "https://grpc2.safrochain.network:443"
+      }
+    ],
+    "grpcWeb": [
+      {
+        "address": "https://grpc-web.safrochain.network"
+      }
+    ],
+    "wss": [
+      {
+        "address": "wss://rpc.safrochain.network/websocket"
+      },
+      {
+        "address": "wss://rpc1.safrochain.network/websocket"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "safroexplorer",
+      "url": "https://explorer.safrochain.com/",
+      "txPage": "https://explorer.safrochain.com/tx/${txHash}",
+      "accountPage": "https://explorer.safrochain.com/address/${accountAddress}",
+      "validatorPage": "https://explorer.safrochain.com/validator/${validatorAddress}"
+    }
+  ]
+}

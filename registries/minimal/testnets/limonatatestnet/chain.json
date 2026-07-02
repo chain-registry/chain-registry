@@ -1,0 +1,60 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "limonatatestnet",
+  "chainType": "cosmos",
+  "chainId": "limonata_10777-1",
+  "prettyName": "Limonata Testnet",
+  "website": "https://limonata.xyz",
+  "networkType": "testnet",
+  "bech32Prefix": "cosmos",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aLIMO",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "aLIMO"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://cosmos-rpc.limonata.xyz"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.limonata.xyz"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Limonata Explorer",
+      "url": "https://explorer.limonata.xyz",
+      "txPage": "https://explorer.limonata.xyz/tx/${txHash}",
+      "accountPage": "https://explorer.limonata.xyz/address/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/limonatatestnet/images/limonatatestnet.png"
+    }
+  ]
+}

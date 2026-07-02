@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "limonatatestnet",
+  "assets": [
+    {
+      "description": "LIMO is the native gas and staking token of Limonata, an EVM Layer-1 on the Cosmos SDK.",
+      "denomUnits": [
+        {
+          "denom": "aLIMO",
+          "exponent": 0
+        },
+        {
+          "denom": "LIMO",
+          "exponent": 18
+        }
+      ],
+      "base": "aLIMO",
+      "name": "Limonata",
+      "display": "LIMO",
+      "symbol": "LIMO",
+      "assetType": "sdk.coin"
+    }
+  ]
+}
