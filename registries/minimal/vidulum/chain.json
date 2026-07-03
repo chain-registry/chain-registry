@@ -41,18 +41,12 @@
         "address": "https://vidulum.rpc.m.stavr.tech:443"
       },
       {
-        "address": "https://rpc-vidulum-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://vidulum.declab.pro:26619"
       }
     ],
     "rest": [
       {
         "address": "https://mainnet-lcd.vidulum.app"
-      },
-      {
-        "address": "https://api-vidulum-ia.cosmosia.notional.ventures/"
       },
       {
         "address": "https://vidulum.api.m.stavr.tech"
@@ -65,9 +59,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-vidulum-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "vidulum.grpc.m.stavr.tech:2040"
       },

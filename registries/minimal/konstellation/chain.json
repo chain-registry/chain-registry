@@ -32,24 +32,15 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-konstellation-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://konstellation-rpc.stakerhouse.com"
       }
     ],
     "rest": [
       {
-        "address": "https://api-konstellation-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://konstellation-rest.stakerhouse.com"
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-konstellation-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "konstellation-grpc.polkachu.com:13390"
       },

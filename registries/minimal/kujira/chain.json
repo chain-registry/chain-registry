@@ -157,9 +157,6 @@
         "address": "https://rpc.lavenderfive.com:443/kujira"
       },
       {
-        "address": "https://rpc-kujira-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://kujira.ibs.team:443/rpc"
       },
       {
@@ -207,9 +204,6 @@
         "address": "https://kujira-api.polkachu.com/"
       },
       {
-        "address": "https://api-kujira-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://kujira-lcd.wildsage.io/"
       },
       {
@@ -247,9 +241,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-kujira-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "kujira.lavenderfive.com:443"
       },

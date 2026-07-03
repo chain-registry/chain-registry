@@ -33,9 +33,6 @@
         "address": "https://rpc-fetchhub.fetch.ai:443"
       },
       {
-        "address": "https://rpc-fetchhub-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://fetch-rpc.polkachu.com"
       },
       {
@@ -86,9 +83,6 @@
         "address": "https://rest-fetchhub.fetch.ai"
       },
       {
-        "address": "https://api-fetchhub-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://fetch-api.polkachu.com"
       },
       {
@@ -137,9 +131,6 @@
     "grpc": [
       {
         "address": "grpc-fetchhub.fetch.ai:443"
-      },
-      {
-        "address": "grpc-fetchhub-ia.cosmosia.notional.ventures:443"
       },
       {
         "address": "fetch-grpc.polkachu.com:15290"

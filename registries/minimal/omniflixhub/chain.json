@@ -48,9 +48,6 @@
         "address": "https://rpc.omniflix.chaintools.tech/"
       },
       {
-        "address": "https://rpc-omniflixhub-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/omniflixhub"
       },
       {
@@ -90,9 +87,6 @@
     "rest": [
       {
         "address": "https://api.omniflix.nodestake.org"
-      },
-      {
-        "address": "https://api-omniflixhub-ia.cosmosia.notional.ventures/"
       },
       {
         "address": "https://rest.lavenderfive.com:443/omniflixhub"
@@ -140,9 +134,6 @@
       },
       {
         "address": "grpc.omniflix.nodestake.org:443"
-      },
-      {
-        "address": "grpc-omniflixhub-ia.cosmosia.notional.ventures:443"
       },
       {
         "address": "omniflixhub.lavenderfive.com:443"

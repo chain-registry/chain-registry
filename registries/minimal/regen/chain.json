@@ -53,9 +53,6 @@
         "address": "http://rpc.regen.forbole.com:80"
       },
       {
-        "address": "https://rpc-regen-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://regen-mainnet-rpc.autostake.com:443"
       },
       {
@@ -82,9 +79,6 @@
         "address": "https://regen.api.m.stavr.tech"
       },
       {
-        "address": "https://api-regen-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://regen-mainnet-lcd.autostake.com:443"
       },
       {
@@ -104,9 +98,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-regen-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "regen-mainnet-grpc.autostake.com:443"
       },

@@ -99,9 +99,6 @@
         "address": "https://neutron-rpc.publicnode.com:443"
       },
       {
-        "address": "https://community.nuxian-node.ch:6797/neutron/trpc"
-      },
-      {
         "address": "https://rpc.neutron.bronbro.io:443"
       },
       {
@@ -141,9 +138,6 @@
       },
       {
         "address": "https://neutron-rest.publicnode.com"
-      },
-      {
-        "address": "https://community.nuxian-node.ch:6797/neutron/crpc"
       },
       {
         "address": "https://lcd.neutron.bronbro.io:443"

@@ -38,9 +38,6 @@
     ],
     "grpc": [
       {
-        "address": "grpc-cerberus-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "cerberus-grpc.polkachu.com:13890"
       }
     ]

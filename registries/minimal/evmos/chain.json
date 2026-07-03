@@ -50,9 +50,6 @@
         "address": "https://tendermint.bd.evmos.org:26657"
       },
       {
-        "address": "https://rpc-evmos-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "https://rpc.evmos.testnet.run"
       },
       {
@@ -112,9 +109,6 @@
         "address": "https://rest.lavenderfive.com:443/evmos"
       },
       {
-        "address": "https://api-evmos-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://evmos-api.polkachu.com"
       },
       {
@@ -162,9 +156,6 @@
         "address": "grpc.bd.evmos.org:9090"
       },
       {
-        "address": "grpc-evmos-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "evmos.lavenderfive.com:443"
       },
       {
@@ -210,9 +201,6 @@
     "evmHttpJsonrpc": [
       {
         "address": "https://eth.bd.evmos.org:8545"
-      },
-      {
-        "address": "https://jsonrpc-evmos-ia.cosmosia.notional.ventures/"
       },
       {
         "address": "https://evmos-json-rpc.stakely.io"

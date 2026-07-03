@@ -130,9 +130,6 @@
     ],
     "grpc": [
       {
-        "address": "grpc-comdex-ia.cosmosia.notional.ventures:443"
-      },
-      {
         "address": "comdex-grpc.polkachu.com:13190"
       },
       {

@@ -45,9 +45,6 @@
         "address": "http://rpc.laozi1.bandchain.org:80"
       },
       {
-        "address": "https://rpc-bandchain-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://band.ibs.team:443/rpc"
       },
       {
@@ -86,9 +83,6 @@
         "address": "https://laozi1.bandchain.org/api"
       },
       {
-        "address": "https://api-bandchain-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://band.ibs.team:443/api"
       },
       {
@@ -123,9 +117,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-bandchain-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "bandchain-mainnet-grpc.autostake.com:443"
       },

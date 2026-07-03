@@ -66,9 +66,6 @@
         "address": "https://emoney.validator.network"
       },
       {
-        "address": "https://rpc-emoney-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://rpc.emoney.bh.rocks"
       }
     ],
@@ -77,16 +74,10 @@
         "address": "https://emoney.validator.network/api/"
       },
       {
-        "address": "https://api-emoney-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://api.emoney.bh.rocks"
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-emoney-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "emoney-mainnet-grpc.autostake.com:443"
       }

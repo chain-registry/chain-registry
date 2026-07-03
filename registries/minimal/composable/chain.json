@@ -41,9 +41,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-composable-ia.cosmosia.notional.ventures"
-      },
-      {
         "address": "https://composable-mainnet-rpc.autostake.com:443"
       },
       {
@@ -79,9 +76,6 @@
     ],
     "rest": [
       {
-        "address": "https://api-composable-ia.cosmosia.notional.ventures"
-      },
-      {
         "address": "https://composable-mainnet-lcd.autostake.com:443"
       },
       {
@@ -113,9 +107,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "https://grpc-composable-ia.cosmosia.notional.ventures"
-      },
       {
         "address": "grpc.composable.nodestake.top:9090"
       },

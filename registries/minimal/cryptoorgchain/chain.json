@@ -35,9 +35,6 @@
         "address": "https://rpc.mainnet.crypto.org/"
       },
       {
-        "address": "https://rpc-cryptoorgchain-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://rpc-cryptoorgchain.ecostake.com"
       },
       {
@@ -58,9 +55,6 @@
         "address": "https://rest.mainnet.crypto.org/"
       },
       {
-        "address": "https://api-cryptoorgchain-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://cryptocom-api.polkachu.com"
       },
       {
@@ -79,9 +73,6 @@
     "grpc": [
       {
         "address": "grpc.mainnet.crypto.org:443"
-      },
-      {
-        "address": "grpc-cryptoorgchain-ia.cosmosia.notional.ventures:443"
       },
       {
         "address": "cryptocom-grpc.polkachu.com:20290"

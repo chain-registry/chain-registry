@@ -46,9 +46,6 @@
         "address": "https://cheqd.rpc.m.stavr.tech:443"
       },
       {
-        "address": "https://rpc-cheqd-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://rpc.cheqd.nodestake.org"
       },
       {
@@ -85,9 +82,6 @@
       },
       {
         "address": "https://cheqd.api.m.stavr.tech"
-      },
-      {
-        "address": "https://api-cheqd-ia.cosmosia.notional.ventures/"
       },
       {
         "address": "https://cheqd-mainnet-lcd.autostake.com:443"
@@ -129,9 +123,6 @@
       },
       {
         "address": "cheqd-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "grpc-cheqd-ia.cosmosia.notional.ventures:443"
       },
       {
         "address": "grpc.cheqd.nodestake.org:443"

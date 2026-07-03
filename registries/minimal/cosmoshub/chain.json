@@ -102,9 +102,6 @@
         "address": "https://cosmos-rpc.w3coins.io"
       },
       {
-        "address": "https://community.nuxian-node.ch:6797/gaia/trpc"
-      },
-      {
         "address": "https://cosmos-rpc.highstakes.ch"
       },
       {
@@ -198,9 +195,6 @@
       },
       {
         "address": "https://cosmos-api.w3coins.io"
-      },
-      {
-        "address": "https://community.nuxian-node.ch:6797/gaia/crpc"
       },
       {
         "address": "https://cosmos-api.highstakes.ch"

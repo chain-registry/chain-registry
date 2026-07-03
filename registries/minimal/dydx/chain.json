@@ -66,16 +66,10 @@
         "address": "https://dydx-rpc.enigma-validator.com"
       },
       {
-        "address": "https://community.nuxian-node.ch:6797/dydx/trpc"
-      },
-      {
         "address": "https://dydx-rpc.noders.services"
       }
     ],
     "rest": [
-      {
-        "address": "https://community.nuxian-node.ch:6797/dydx/crpc"
-      },
       {
         "address": "https://dydx-dao-api.polkachu.com"
       },

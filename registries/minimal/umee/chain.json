@@ -42,9 +42,6 @@
         "address": "https://umee-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc-umee-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://umee-mainnet-rpc.autostake.com:443"
       },
       {
@@ -92,9 +89,6 @@
     ],
     "rest": [
       {
-        "address": "https://api-umee-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://umee.api.m.stavr.tech"
       },
       {
@@ -141,9 +135,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-umee-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "umee-grpc.polkachu.com:13690"
       },

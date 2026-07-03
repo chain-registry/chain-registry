@@ -45,9 +45,6 @@
     ],
     "rest": [
       {
-        "address": "https://api-sifchain-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://sifchain-api.polkachu.com"
       },
       {

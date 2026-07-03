@@ -52,9 +52,6 @@
         "address": "https://rpc.core.persistence.one"
       },
       {
-        "address": "https://rpc-persistent-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://persistence.rpc.m.stavr.tech"
       },
       {
@@ -120,9 +117,6 @@
         "address": "https://rest.core.persistence.one"
       },
       {
-        "address": "https://api-persistent-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://persistence.api.m.stavr.tech"
       },
       {
@@ -186,9 +180,6 @@
     "grpc": [
       {
         "address": "grpc.core.persistence.one:443"
-      },
-      {
-        "address": "grpc-persistent-ia.cosmosia.notional.ventures:443"
       },
       {
         "address": "persistence.grpc.m.stavr.tech:410"

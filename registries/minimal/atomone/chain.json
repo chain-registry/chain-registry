@@ -61,9 +61,6 @@
         "address": "https://rpc-atomone-1.cros-nest.com:443"
       },
       {
-        "address": "https://community.nuxian-node.ch:6797/atomone/trpc"
-      },
-      {
         "address": "https://atomone-rpc.publicnode.com:443"
       },
       {
@@ -157,9 +154,6 @@
       },
       {
         "address": "https://rest-atomone-1.cros-nest.com:443"
-      },
-      {
-        "address": "https://community.nuxian-node.ch:6797/atomone/crpc"
       },
       {
         "address": "https://atomone-rest.publicnode.com"

@@ -41,9 +41,6 @@
         "address": "https://rpc-sentinel.busurnode.com"
       },
       {
-        "address": "https://rpc-sentinel-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://rpc.sentinel.chaintools.tech/"
       },
       {
@@ -103,9 +100,6 @@
         "address": "https://api-sentinel.busurnode.com"
       },
       {
-        "address": "https://api-sentinel-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://api.sentinel.quokkastake.io"
       },
       {
@@ -152,9 +146,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-sentinel-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "sentinel.grpcui.chaintools.host:443"
       },

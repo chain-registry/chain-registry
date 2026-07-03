@@ -42,6 +42,11 @@
       {
         "address": "https://rest.limonata.xyz"
       }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://rpc.limonata.xyz"
+      }
     ]
   },
   "explorers": [

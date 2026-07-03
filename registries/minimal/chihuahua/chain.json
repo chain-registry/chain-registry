@@ -52,9 +52,6 @@
         "address": "https://chihuahua-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc-chihuahua-ia.cosmosia.notional.ventures"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/chihuahua"
       },
       {
@@ -93,9 +90,6 @@
         "address": "https://chihua.api.m.stavr.tech"
       },
       {
-        "address": "https://api-chihuahua-ia.cosmosia.notional.ventures"
-      },
-      {
         "address": "https://chihuahua-api.polkachu.com"
       },
       {
@@ -127,9 +121,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-chihuahua-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "chihuahua-grpc.polkachu.com:12990"
       },

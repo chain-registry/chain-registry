@@ -48,9 +48,6 @@
         "address": "https://rpc.provenance.io/"
       },
       {
-        "address": "https://rpc-provenance-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://provenance-mainnet-rpc.autostake.com:443"
       },
       {
@@ -89,9 +86,6 @@
         "address": "https://provenance.api.m.stavr.tech"
       },
       {
-        "address": "https://api-provenance-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://provenance.ibs.team:443/api"
       },
       {
@@ -119,9 +113,6 @@
       },
       {
         "address": "provenance-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "grpc-provenance-ia.cosmosia.notional.ventures:443"
       },
       {
         "address": "provenance-grpc.panthea.eu:16780"

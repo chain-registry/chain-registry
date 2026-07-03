@@ -52,9 +52,6 @@
         "address": "https://stargaze-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc-stargaze-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://stargaze.c29r3.xyz:443/rpc/"
       },
       {
@@ -114,9 +111,6 @@
         "address": "https://api-stargaze.ezstaking.dev"
       },
       {
-        "address": "https://api-stargaze-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://stargaze.c29r3.xyz:443/api/"
       },
       {
@@ -169,9 +163,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-stargaze-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "stargaze-grpc.polkachu.com:13790"
       },

@@ -35,9 +35,6 @@
         "address": "https://rpc.bostrom.cybernode.ai"
       },
       {
-        "address": "https://rpc-cyber-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://rpc.cyber.bronbro.io:443"
       }
     ],
@@ -46,16 +43,10 @@
         "address": "https://lcd.bostrom.cybernode.ai"
       },
       {
-        "address": "https://api-cyber-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://lcd.cyber.bronbro.io:443"
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-cyber-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "https://grpc.cyber.bronbro.io:443"
       }

@@ -67,9 +67,6 @@
         "address": "https://rpc.agoric.stakewith.us"
       },
       {
-        "address": "https://rpc-agoric-ia.cosmosia.notional.ventures"
-      },
-      {
         "address": "https://agoric-rpc.stakeandrelax.net"
       },
       {
@@ -105,9 +102,6 @@
         "address": "https://api.agoric.stakewith.us"
       },
       {
-        "address": "https://api-agoric-ia.cosmosia.notional.ventures"
-      },
-      {
         "address": "https://agoric-api.stakeandrelax.net"
       },
       {
@@ -135,9 +129,6 @@
       },
       {
         "address": "https://grpc.agoric.stakewith.us"
-      },
-      {
-        "address": "grpc-agoric-ia.cosmosia.notional.ventures:443"
       },
       {
         "address": "agoric-grpc.stakeandrelax.net:14490"

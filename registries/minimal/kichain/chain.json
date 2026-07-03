@@ -41,9 +41,6 @@
         "address": "https://kichain-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc-kichain-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://kichain-mainnet-rpc.autostake.com:443"
       },
       {
@@ -62,9 +59,6 @@
     "rest": [
       {
         "address": "https://api-mainnet.blockchain.ki"
-      },
-      {
-        "address": "https://api-kichain-ia.cosmosia.notional.ventures/"
       },
       {
         "address": "https://kichain.api.m.stavr.tech"
@@ -89,9 +83,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-kichain-ia.cosmosia.notional.ventures:443"
-      },
       {
         "address": "kichain-mainnet-grpc.autostake.com:443"
       },

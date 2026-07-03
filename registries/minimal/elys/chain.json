@@ -77,9 +77,6 @@
         "address": "https://elys-mainnet-rpc.itrocket.net:443"
       },
       {
-        "address": "https://community.nuxian-node.ch:6797/elys/trpc"
-      },
-      {
         "address": "https://elys-rpc.stake-town.com:443"
       },
       {
@@ -107,9 +104,6 @@
       },
       {
         "address": "https://elys-mainnet-api.itrocket.net"
-      },
-      {
-        "address": "https://community.nuxian-node.ch:6797/elys/crpc"
       },
       {
         "address": "https://elys-api.stake-town.com:443"

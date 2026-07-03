@@ -57,9 +57,6 @@
         "address": "https://gravity-rpc.polkachu.com"
       },
       {
-        "address": "https://rpc-gravitybridge-ia.cosmosia.notional.ventures/"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/gravitybridge"
       },
       {
@@ -90,9 +87,6 @@
     "rest": [
       {
         "address": "https://gravitychain.io:1317"
-      },
-      {
-        "address": "https://api-gravitybridge-ia.cosmosia.notional.ventures/"
       },
       {
         "address": "https://gravity-api.polkachu.com"
@@ -128,9 +122,6 @@
     "grpc": [
       {
         "address": "gravity-bridge-1-08.nodes.amhost.net:9090"
-      },
-      {
-        "address": "grpc-gravitybridge-ia.cosmosia.notional.ventures:443"
       },
       {
         "address": "gravity-grpc.polkachu.com:14290"

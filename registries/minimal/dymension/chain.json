@@ -93,9 +93,6 @@
         "address": "https://rpc-dymension.whispernode.com:443"
       },
       {
-        "address": "https://community.nuxian-node.ch:6797/dymension/trpc"
-      },
-      {
         "address": "https://dymension-rpc.enigma-validator.com"
       },
       {
@@ -183,9 +180,6 @@
       },
       {
         "address": "https://api-dymension.whispernode.com:443"
-      },
-      {
-        "address": "https://community.nuxian-node.ch:6797/dymension/crpc"
       },
       {
         "address": "https://dymension-lcd.enigma-validator.com"
