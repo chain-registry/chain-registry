@@ -106,6 +106,9 @@
       },
       {
         "address": "https://neutron.drpc.org"
+      },
+      {
+        "address": "https://neutron.rpc.uquad.org:443"
       }
     ],
     "rest": [
@@ -144,6 +147,9 @@
       },
       {
         "address": "https://api.neutron.quokkastake.io"
+      },
+      {
+        "address": "https://neutron.rpc.uquad.org:443"
       }
     ],
     "grpc": [

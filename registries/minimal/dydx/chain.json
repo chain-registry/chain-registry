@@ -67,6 +67,9 @@
       },
       {
         "address": "https://dydx-rpc.noders.services"
+      },
+      {
+        "address": "https://dydx.rpc.uquad.org:443"
       }
     ],
     "rest": [
@@ -90,6 +93,9 @@
       },
       {
         "address": "https://dydx-api.noders.services"
+      },
+      {
+        "address": "https://dydx.rpc.uquad.org:443"
       }
     ],
     "grpc": [

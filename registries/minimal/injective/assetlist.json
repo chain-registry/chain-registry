@@ -1056,6 +1056,24 @@
       "display": "AUSD",
       "symbol": "AUSD",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "HELIXPOINT is the points token on Injective, launched on Trippy Pump (SHROOM Pad)",
+      "denomUnits": [
+        {
+          "denom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_8_be9bddf36b94db69",
+          "exponent": 0
+        },
+        {
+          "denom": "HELIXPOINT",
+          "exponent": 18
+        }
+      ],
+      "base": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_8_be9bddf36b94db69",
+      "name": "HELIXPOINT",
+      "display": "HELIXPOINT",
+      "symbol": "HELIXPOINT",
+      "assetType": "sdk.coin"
     }
   ]
 }

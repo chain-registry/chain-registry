@@ -592,6 +592,9 @@
       },
       {
         "address": "https://osmosis.api.pocket.network"
+      },
+      {
+        "address": "https://osmosis.rpc.uquad.org:443"
       }
     ],
     "rest": [
@@ -639,6 +642,9 @@
       },
       {
         "address": "https://osmosis.api.pocket.network"
+      },
+      {
+        "address": "https://osmosis.rpc.uquad.org:443"
       }
     ],
     "grpc": [

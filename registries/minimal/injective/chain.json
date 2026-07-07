@@ -52,6 +52,9 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/injective/rpc"
+      },
+      {
+        "address": "https://injective.rpc.uquad.org:443"
       }
     ],
     "rest": [
@@ -69,6 +72,9 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/injective/rest"
+      },
+      {
+        "address": "https://injective.rpc.uquad.org:443"
       }
     ],
     "grpc": [
