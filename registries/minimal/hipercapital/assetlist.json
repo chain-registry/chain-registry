@@ -1,0 +1,27 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "hipercapital",
+  "assets": [
+    {
+      "description": "HIP is the native governance and gas token of the HiperCapital sovereign chain (hipcf_7777-1).",
+      "assetType": "sdk.coin",
+      "denomUnits": [
+        {
+          "denom": "ahip",
+          "exponent": 0,
+          "aliases": [
+            "attoahip"
+          ]
+        },
+        {
+          "denom": "hip",
+          "exponent": 18
+        }
+      ],
+      "base": "ahip",
+      "name": "HiperCapital Governance",
+      "display": "hip",
+      "symbol": "HIP"
+    }
+  ]
+}

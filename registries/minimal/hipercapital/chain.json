@@ -1,0 +1,63 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "hipercapital",
+  "networkType": "mainnet",
+  "prettyName": "Hipercapital Finance",
+  "chainType": "cosmos",
+  "chainId": "hipcf_7777-1",
+  "bech32Prefix": "cosmos",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ahip",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 1000000000,
+        "averageGasPrice": 5000000000,
+        "highGasPrice": 10000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "ahip"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-cosmos.hipercapitalfinance.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-cosmos.hipercapitalfinance.com"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm-cosmos.hipercapitalfinance.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "HiperCapital Explorer",
+      "url": "https://explorer.hipercapitalfinance.com"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hipercapital/images/hip.png"
+    }
+  ],
+  "website": "https://hipercapitalfinance.com"
+}
