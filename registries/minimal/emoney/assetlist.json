@@ -18,7 +18,6 @@
       "name": "e-Money",
       "display": "ngm",
       "symbol": "NGM",
-      "coingeckoId": "e-money",
       "assetType": "sdk.coin"
     },
     {

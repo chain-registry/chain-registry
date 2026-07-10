@@ -36,11 +36,17 @@
     "rpc": [
       {
         "address": "https://cosmos-rpc.limonata.xyz"
+      },
+      {
+        "address": "https://rpc-t.limonata.vinjan-inc.com"
       }
     ],
     "rest": [
       {
         "address": "https://rest.limonata.xyz"
+      },
+      {
+        "address": "https://api-t.limonata.vinjan-inc.com"
       }
     ],
     "evmHttpJsonrpc": [

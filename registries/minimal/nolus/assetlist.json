@@ -524,8 +524,7 @@
             "path": "transfer/channel-0/transfer/channel-4/stk/uatom"
           }
         }
-      ],
-      "coingeckoId": "stkatom"
+      ]
     },
     {
       "description": "SCRT transferred from the Osmosis mainnet that is supported on the Nolus chain",

@@ -96,8 +96,7 @@
       "base": "cw20:secret1fl449muk5yq8dlad7a22nje4p5d2pnsgymhjfd",
       "name": "Silk",
       "display": "silk",
-      "symbol": "SILK",
-      "coingeckoId": "silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2"
+      "symbol": "SILK"
     },
     {
       "description": "The native token cw20 for dSilk on Secret Network",
@@ -154,8 +153,7 @@
       "base": "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4",
       "name": "SCRT Staking Derivatives",
       "display": "stkd-scrt",
-      "symbol": "stkd-SCRT",
-      "coingeckoId": "stkd-scrt"
+      "symbol": "stkd-SCRT"
     },
     {
       "description": "The native token cw20 for Button on Secret Network",

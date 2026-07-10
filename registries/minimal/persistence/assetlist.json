@@ -53,7 +53,6 @@
           "provider": "pSTAKE"
         }
       ],
-      "coingeckoId": "stkatom",
       "assetType": "sdk.coin"
     },
     {

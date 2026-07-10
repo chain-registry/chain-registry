@@ -182,8 +182,7 @@
             "path": "transfer/channel-0/factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt"
           }
         }
-      ],
-      "coingeckoId": "collateralized-debt-token"
+      ]
     },
     {
       "description": "MBRN - Membrane's network token",
@@ -215,8 +214,7 @@
             "path": "transfer/channel-0/factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn"
           }
         }
-      ],
-      "coingeckoId": "membrane"
+      ]
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",

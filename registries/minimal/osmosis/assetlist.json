@@ -1095,8 +1095,7 @@
             "path": "transfer/channel-37/ungm"
           }
         }
-      ],
-      "coingeckoId": "e-money"
+      ]
     },
     {
       "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
@@ -1201,8 +1200,7 @@
             "path": "transfer/channel-38/uixo"
           }
         }
-      ],
-      "coingeckoId": "ixo"
+      ]
     },
     {
       "description": "The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.",
@@ -1553,8 +1551,7 @@
             "path": "transfer/channel-135/udsm"
           }
         }
-      ],
-      "coingeckoId": "desmos"
+      ]
     },
     {
       "description": "Native token of Dig Chain",
@@ -3963,8 +3960,7 @@
             "path": "transfer/channel-326/stustars"
           }
         }
-      ],
-      "coingeckoId": "stride-staked-stars"
+      ]
     },
     {
       "description": "Solarbank DAO Governance Token for speeding up the shift to renewable and green energy",
@@ -4356,8 +4352,7 @@
             "path": "transfer/channel-382/nund"
           }
         }
-      ],
-      "coingeckoId": "unification"
+      ]
     },
     {
       "description": "The native staking and governance token of Jackal.",
@@ -4578,8 +4573,7 @@
             "path": "transfer/channel-476/cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
           }
         }
-      ],
-      "coingeckoId": "stkd-scrt"
+      ]
     },
     {
       "description": "BeeZee native blockchain",
@@ -4940,8 +4934,7 @@
             "path": "transfer/channel-4/stk/uatom"
           }
         }
-      ],
-      "coingeckoId": "stkatom"
+      ]
     },
     {
       "description": "The native staking and governance token of the Dyson Protocol",
@@ -6019,8 +6012,7 @@
             "path": "transfer/channel-8/eco.uC.NCT"
           }
         }
-      ],
-      "coingeckoId": "toucan-protocol-nature-carbon-tonne"
+      ]
     },
     {
       "description": "Celestims",
@@ -6425,8 +6417,7 @@
             "path": "transfer/channel-476/cw20:secret1fl449muk5yq8dlad7a22nje4p5d2pnsgymhjfd"
           }
         }
-      ],
-      "coingeckoId": "silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2"
+      ]
     },
     {
       "description": "Mille: the 1000th token on osmosis",
@@ -8325,8 +8316,7 @@
       "base": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
       "name": "CDT Stablecoin",
       "display": "cdt",
-      "symbol": "CDT",
-      "coingeckoId": "collateralized-debt-token"
+      "symbol": "CDT"
     },
     {
       "description": "Membrane's protocol token",
@@ -8344,8 +8334,7 @@
       "base": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn",
       "name": "Membrane",
       "display": "mbrn",
-      "symbol": "MBRN",
-      "coingeckoId": "membrane"
+      "symbol": "MBRN"
     },
     {
       "description": "The native token of SGE Network",

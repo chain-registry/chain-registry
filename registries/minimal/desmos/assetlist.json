@@ -18,7 +18,6 @@
       "name": "Desmos",
       "display": "dsm",
       "symbol": "DSM",
-      "coingeckoId": "desmos",
       "assetType": "sdk.coin"
     }
   ]

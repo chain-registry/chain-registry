@@ -28,8 +28,7 @@
           "provider": "impacthub"
         }
       ],
-      "assetType": "sdk.coin",
-      "coingeckoId": "ixo"
+      "assetType": "sdk.coin"
     }
   ]
 }

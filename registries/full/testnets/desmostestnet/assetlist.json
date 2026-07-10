@@ -28,7 +28,6 @@
           "provider": "Desmos"
         }
       ],
-      "coingeckoId": "desmos",
       "assetType": "sdk.coin",
       "images": [
         {

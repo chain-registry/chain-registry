@@ -42,8 +42,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg"
       },
-      "assetType": "sdk.coin",
-      "coingeckoId": "unification"
+      "assetType": "sdk.coin"
     }
   ]
 }

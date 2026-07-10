@@ -316,7 +316,6 @@
       "name": "AQLA",
       "display": "AQLA",
       "symbol": "AQLA",
-      "coingeckoId": "aqualibre",
       "assetType": "sdk.coin"
     },
     {
@@ -821,8 +820,7 @@
             "path": "transfer/channel-158/stk/uatom"
           }
         }
-      ],
-      "coingeckoId": "stkatom"
+      ]
     },
     {
       "description": "BackBone Labs Liquid Staked KUJI",

@@ -18,7 +18,6 @@
       "name": "Pundi AI",
       "display": "pundiai",
       "symbol": "PUNDIAI",
-      "coingeckoId": "pundi-aifx",
       "assetType": "sdk.coin"
     },
     {

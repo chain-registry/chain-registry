@@ -18,7 +18,6 @@
       "name": "Heli",
       "display": "heli",
       "symbol": "HELI",
-      "coingeckoId": "helichain",
       "assetType": "sdk.coin"
     }
   ]

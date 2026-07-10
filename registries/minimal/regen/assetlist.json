@@ -37,7 +37,6 @@
       "name": "Nature Carbon Ton",
       "display": "nct",
       "symbol": "NCT",
-      "coingeckoId": "toucan-protocol-nature-carbon-tonne",
       "assetType": "sdk.coin"
     }
   ]
