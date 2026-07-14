@@ -85,6 +85,9 @@
       },
       {
         "address": "https://coreum-rpc.chainroot.io"
+      },
+      {
+        "address": "https://coreum-rpc.polkachu.com:443"
       }
     ],
     "grpc": [
@@ -108,6 +111,9 @@
       },
       {
         "address": "coreum-grpc.chainroot.io:443"
+      },
+      {
+        "address": "coreum-grpc.polkachu.com:24490"
       }
     ],
     "rest": [
@@ -143,6 +149,9 @@
       },
       {
         "address": "https://coreum-api.chainroot.io"
+      },
+      {
+        "address": "https://coreum-api.polkachu.com"
       }
     ]
   },

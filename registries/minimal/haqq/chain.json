@@ -74,6 +74,9 @@
       },
       {
         "address": "https://haqq.rpc.onenov.xyz"
+      },
+      {
+        "address": "https://haqq-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -109,6 +112,9 @@
       },
       {
         "address": "https://haqq.api.onenov.xyz"
+      },
+      {
+        "address": "https://haqq-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -144,6 +150,9 @@
       },
       {
         "address": "grpc-haqq.onenov.xyz:443"
+      },
+      {
+        "address": "haqq-grpc.polkachu.com:24090"
       }
     ],
     "evmHttpJsonrpc": [

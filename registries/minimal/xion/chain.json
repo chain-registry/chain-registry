@@ -51,9 +51,6 @@
         "address": "https://rpc-burnt.imperator.co:443"
       },
       {
-        "address": "https://xion-rpc.polkachu.com:443"
-      },
-      {
         "address": "https://xion-mainnet-rpc.autostake.com:443"
       },
       {
@@ -61,6 +58,9 @@
       },
       {
         "address": "https://xion-rpc.kingnodes.com:443"
+      },
+      {
+        "address": "https://verona-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -74,9 +74,6 @@
         "address": "https://lcd-burnt.imperator.co"
       },
       {
-        "address": "https://xion-api.polkachu.com"
-      },
-      {
         "address": "https://xion-mainnet-lcd.autostake.com"
       },
       {
@@ -84,6 +81,9 @@
       },
       {
         "address": "https://xion-rest.kingnodes.com"
+      },
+      {
+        "address": "https://verona-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -94,9 +94,6 @@
         "address": "xion-grpc.lavenderfive.com:443"
       },
       {
-        "address": "xion-grpc.polkachu.com:22390"
-      },
-      {
         "address": "xion-mainnet-grpc.autostake.com:443"
       },
       {
@@ -104,6 +101,9 @@
       },
       {
         "address": "xion-grpc.kingnodes.com:443"
+      },
+      {
+        "address": "verona-grpc.polkachu.com:22390"
       }
     ]
   },

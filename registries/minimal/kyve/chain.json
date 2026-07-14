@@ -74,6 +74,9 @@
       },
       {
         "address": "https://kyve-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://kyve-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -112,6 +115,9 @@
       },
       {
         "address": "https://kyve-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://kyve-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -141,6 +147,9 @@
       },
       {
         "address": "kyve-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "kyve-grpc.polkachu.com:11090"
       }
     ]
   },

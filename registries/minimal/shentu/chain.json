@@ -37,9 +37,6 @@
         "address": "https://rpc.shentu.org:443"
       },
       {
-        "address": "https://shentu-rpc.polkachu.com"
-      },
-      {
         "address": "https://shentu.rpc.m.stavr.tech:443"
       },
       {
@@ -71,6 +68,9 @@
       },
       {
         "address": "https://shentu.api.pocket.network"
+      },
+      {
+        "address": "https://shentu-rpc.polkachu.com:443"
       }
     ],
     "rest": [

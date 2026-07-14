@@ -32,9 +32,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://canto-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc.canto.silentvalidator.com/"
       },
       {
@@ -45,6 +42,9 @@
       },
       {
         "address": "https://rpc-canto.kewrnode.com"
+      },
+      {
+        "address": "https://canto-rpc.polkachu.com:443"
       }
     ],
     "rest": [

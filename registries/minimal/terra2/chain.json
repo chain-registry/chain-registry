@@ -45,9 +45,6 @@
         "address": "https://rpc.lavenderfive.com:443/terra2"
       },
       {
-        "address": "https://terra-rpc.polkachu.com"
-      },
-      {
         "address": "https://terra-rpc.stakely.io:443/"
       },
       {
@@ -73,6 +70,9 @@
       },
       {
         "address": "https://terra-m-rpc.onnode.org"
+      },
+      {
+        "address": "https://terra-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -99,6 +99,9 @@
       },
       {
         "address": "https://terra-m-api.onnode.org"
+      },
+      {
+        "address": "https://terra-api.polkachu.com"
       }
     ],
     "grpc": [

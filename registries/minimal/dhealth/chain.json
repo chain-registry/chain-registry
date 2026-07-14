@@ -48,6 +48,9 @@
       },
       {
         "address": "https://rpc.dhealth.nodestake.org"
+      },
+      {
+        "address": "https://dhealth-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -56,6 +59,9 @@
       },
       {
         "address": "https://api.dhealth.nodestake.org"
+      },
+      {
+        "address": "https://dhealth-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -64,6 +70,9 @@
       },
       {
         "address": "https://grpc.dhealth.nodestake.org:443"
+      },
+      {
+        "address": "dhealth-grpc.polkachu.com:28290"
       }
     ]
   },

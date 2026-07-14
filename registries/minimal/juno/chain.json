@@ -53,9 +53,6 @@
         "address": "https://juno.rpc.m.stavr.tech"
       },
       {
-        "address": "https://juno-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/juno"
       },
       {
@@ -78,6 +75,9 @@
       },
       {
         "address": "https://juno.api.pocket.network"
+      },
+      {
+        "address": "https://juno-rpc.polkachu.com:443"
       }
     ],
     "rest": [

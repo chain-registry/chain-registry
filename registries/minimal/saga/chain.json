@@ -72,6 +72,9 @@
       },
       {
         "address": "https://saga-rpc.chainroot.io"
+      },
+      {
+        "address": "https://saga-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -101,6 +104,9 @@
       },
       {
         "address": "https://saga-api.chainroot.io"
+      },
+      {
+        "address": "https://saga-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -127,6 +133,9 @@
       },
       {
         "address": "saga-grpc.chainroot.io:443"
+      },
+      {
+        "address": "saga-grpc.polkachu.com:24990"
       }
     ]
   },

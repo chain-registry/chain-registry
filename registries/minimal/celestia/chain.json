@@ -68,9 +68,6 @@
         "address": "https://celestia.rpc.kjnodes.com"
       },
       {
-        "address": "https://celestia-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc-celestia.mzonder.com"
       },
       {
@@ -114,6 +111,9 @@
       },
       {
         "address": "https://rpc.archive.celestia.validatus.com"
+      },
+      {
+        "address": "https://celestia-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -182,6 +182,9 @@
       },
       {
         "address": "https://api.archive.celestia.validatus.com"
+      },
+      {
+        "address": "https://celestia-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -235,6 +238,9 @@
       },
       {
         "address": "grpc.archive.celestia.validatus.com:2125"
+      },
+      {
+        "address": "celestia-grpc.polkachu.com:11690"
       }
     ]
   },

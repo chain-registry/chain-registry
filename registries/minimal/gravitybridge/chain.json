@@ -54,9 +54,6 @@
         "address": "http://gravity-bridge-1-08.nodes.amhost.net:26657"
       },
       {
-        "address": "https://gravity-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/gravitybridge"
       },
       {
@@ -82,6 +79,9 @@
       },
       {
         "address": "https://rpc.gravity.citizenweb3.com"
+      },
+      {
+        "address": "https://gravity-rpc.polkachu.com:443"
       }
     ],
     "rest": [

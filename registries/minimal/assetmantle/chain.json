@@ -35,9 +35,6 @@
         "address": "https://rpc.assetmantle.one"
       },
       {
-        "address": "https://assetmantle-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc.mantle.paranorm.pro:443"
       },
       {
@@ -45,6 +42,9 @@
       },
       {
         "address": "https://mantle-rpc.dungeon.games"
+      },
+      {
+        "address": "https://assetmantle-rpc.polkachu.com:443"
       }
     ],
     "rest": [

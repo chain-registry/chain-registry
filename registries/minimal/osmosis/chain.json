@@ -555,9 +555,6 @@
         "address": "https://rpc-osmosis.ecostake.com"
       },
       {
-        "address": "https://osmosis-rpc.polkachu.com"
-      },
-      {
         "address": "https://osmosis.rpc.stakin-nodes.com"
       },
       {
@@ -595,6 +592,9 @@
       },
       {
         "address": "https://osmosis.rpc.uquad.org:443"
+      },
+      {
+        "address": "https://osmosis-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -668,6 +668,9 @@
       },
       {
         "address": "grpc.osmosis.citizenweb3.com:443"
+      },
+      {
+        "address": "osmosis-grpc.polkachu.com:12590"
       }
     ]
   },

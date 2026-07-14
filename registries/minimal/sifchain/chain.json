@@ -31,9 +31,6 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://sifchain-rpc.polkachu.com"
-      },
-      {
         "address": "https://sifchain-mainnet-rpc.autostake.com:443"
       },
       {
@@ -41,6 +38,9 @@
       },
       {
         "address": "https://sifchain_mainnet_rpc.chain.whenmoonwhenlambo.money:443"
+      },
+      {
+        "address": "https://sifchain-rpc.polkachu.com:443"
       }
     ],
     "rest": [

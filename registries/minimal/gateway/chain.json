@@ -51,6 +51,9 @@
       },
       {
         "address": "https://wormchain-rpc.quickapi.com/"
+      },
+      {
+        "address": "https://wormchain-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -59,11 +62,17 @@
       },
       {
         "address": "https://wormchain-lcd.quickapi.com/"
+      },
+      {
+        "address": "https://wormchain-api.polkachu.com"
       }
     ],
     "grpc": [
       {
         "address": "http://wormchain-mainnet-1-full-grpc.tm.p2p.org"
+      },
+      {
+        "address": "wormchain-grpc.polkachu.com:25990"
       }
     ]
   },

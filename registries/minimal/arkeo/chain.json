@@ -59,6 +59,9 @@
       },
       {
         "address": "https://rpc.arkeo.validatus.com"
+      },
+      {
+        "address": "https://arkeo-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -76,6 +79,9 @@
       },
       {
         "address": "https://api.arkeo.validatus.com"
+      },
+      {
+        "address": "https://arkeo-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -87,6 +93,9 @@
       },
       {
         "address": "https://grpc.arkeo.validatus.com:443"
+      },
+      {
+        "address": "arkeo-grpc.polkachu.com:22890"
       }
     ]
   },

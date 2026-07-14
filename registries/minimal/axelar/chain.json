@@ -60,9 +60,6 @@
         "address": "https://rpc-1.axelar.nodes.guru:443"
       },
       {
-        "address": "https://axelar-rpc.polkachu.com"
-      },
-      {
         "address": "https://axelar.rpc.stakin-nodes.com"
       },
       {
@@ -85,6 +82,9 @@
       },
       {
         "address": "https://axelar.drpc.org"
+      },
+      {
+        "address": "https://axelar-rpc.polkachu.com:443"
       }
     ],
     "rest": [

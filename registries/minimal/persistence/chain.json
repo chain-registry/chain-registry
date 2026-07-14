@@ -55,9 +55,6 @@
         "address": "https://persistence.rpc.m.stavr.tech"
       },
       {
-        "address": "https://persistence-rpc.polkachu.com"
-      },
-      {
         "address": "https://persistence-rpc.kleomedes.network"
       },
       {
@@ -110,6 +107,9 @@
       },
       {
         "address": "https://persistence.api.pocket.network"
+      },
+      {
+        "address": "https://persistence-rpc.polkachu.com:443"
       }
     ],
     "rest": [

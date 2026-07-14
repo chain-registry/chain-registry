@@ -34,6 +34,9 @@
       },
       {
         "address": "https://cronos.drpc.org"
+      },
+      {
+        "address": "https://cronos-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -42,6 +45,9 @@
       },
       {
         "address": "https://cronos-rest.publicnode.com"
+      },
+      {
+        "address": "https://cronos-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -50,6 +56,9 @@
       },
       {
         "address": "cronos-grpc.publicnode.com:443"
+      },
+      {
+        "address": "cronos-grpc.polkachu.com:23690"
       }
     ],
     "evmHttpJsonrpc": [

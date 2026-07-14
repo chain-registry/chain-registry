@@ -78,6 +78,9 @@
       },
       {
         "address": "https://humans-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://humans-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -116,6 +119,9 @@
       },
       {
         "address": "https://humans-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://humans-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -148,6 +154,9 @@
       },
       {
         "address": "humans-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "humans-grpc.polkachu.com:18490"
       }
     ],
     "evmHttpJsonrpc": [

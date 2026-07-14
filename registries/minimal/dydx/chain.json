@@ -51,9 +51,6 @@
         "address": "https://dydx-rpc.kingnodes.com:443"
       },
       {
-        "address": "https://dydx-dao-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/dydx"
       },
       {
@@ -70,12 +67,12 @@
       },
       {
         "address": "https://dydx.rpc.uquad.org:443"
+      },
+      {
+        "address": "https://dydx-rpc.polkachu.com:443"
       }
     ],
     "rest": [
-      {
-        "address": "https://dydx-dao-api.polkachu.com"
-      },
       {
         "address": "https://dydx-rest.kingnodes.com:443"
       },
@@ -96,24 +93,12 @@
       },
       {
         "address": "https://dydx.rpc.uquad.org:443"
+      },
+      {
+        "address": "https://dydx-api.polkachu.com"
       }
     ],
     "grpc": [
-      {
-        "address": "dydx-dao-grpc-1.polkachu.com:23890"
-      },
-      {
-        "address": "dydx-dao-grpc-2.polkachu.com:23890"
-      },
-      {
-        "address": "dydx-dao-grpc-3.polkachu.com:23890"
-      },
-      {
-        "address": "dydx-dao-grpc-4.polkachu.com:23890"
-      },
-      {
-        "address": "dydx-dao-grpc-5.polkachu.com:23890"
-      },
       {
         "address": "https://dydx-grpc.kingnodes.com:443"
       },
@@ -131,6 +116,9 @@
       },
       {
         "address": "dydx-grpc.noders.services:37090"
+      },
+      {
+        "address": "dydx-grpc.polkachu.com:23890"
       }
     ]
   },

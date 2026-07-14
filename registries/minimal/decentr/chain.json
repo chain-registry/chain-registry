@@ -47,6 +47,9 @@
       },
       {
         "address": "https://rpc-decentr.mms.team/"
+      },
+      {
+        "address": "https://decentr-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -58,6 +61,9 @@
       },
       {
         "address": "https://api.decentr.chaintools.tech/"
+      },
+      {
+        "address": "https://decentr-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -75,6 +81,9 @@
       },
       {
         "address": "grpc-decentr.mms.team:443"
+      },
+      {
+        "address": "decentr-grpc.polkachu.com:23490"
       }
     ]
   },

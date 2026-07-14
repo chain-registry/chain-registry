@@ -35,9 +35,6 @@
         "address": "https://rpc.data.kava.io"
       },
       {
-        "address": "https://kava-rpc.polkachu.com"
-      },
-      {
         "address": "https://kava-mainnet-rpc.autostake.com:443"
       },
       {
@@ -48,6 +45,9 @@
       },
       {
         "address": "https://kava.api.pocket.network"
+      },
+      {
+        "address": "https://kava-rpc.polkachu.com:443"
       }
     ],
     "rest": [

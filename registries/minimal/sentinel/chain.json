@@ -90,6 +90,9 @@
       },
       {
         "address": "https://rpc.sentinel.validatus.com"
+      },
+      {
+        "address": "https://sentinel-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -143,6 +146,9 @@
       },
       {
         "address": "https://api.sentinel.validatus.com"
+      },
+      {
+        "address": "https://sentinel-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -184,6 +190,9 @@
       },
       {
         "address": "grpc.sentinel.validatus.com:443"
+      },
+      {
+        "address": "sentinel-grpc.polkachu.com:23990"
       }
     ]
   },

@@ -49,9 +49,6 @@
         "address": "https://chihua.rpc.m.stavr.tech"
       },
       {
-        "address": "https://chihuahua-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/chihuahua"
       },
       {
@@ -80,6 +77,9 @@
       },
       {
         "address": "https://chihuahua.api.pocket.network"
+      },
+      {
+        "address": "https://chihuahua-rpc.polkachu.com:443"
       }
     ],
     "rest": [

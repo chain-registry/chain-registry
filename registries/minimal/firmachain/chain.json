@@ -54,6 +54,9 @@
       },
       {
         "address": "https://firmachain_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://firmachain-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -77,6 +80,9 @@
       },
       {
         "address": "https://firmachain_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://firmachain-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -91,6 +97,9 @@
       },
       {
         "address": "firmachain.grpc.nodeshub.online"
+      },
+      {
+        "address": "firmachain-grpc.polkachu.com:16490"
       }
     ]
   },

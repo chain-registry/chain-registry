@@ -57,6 +57,9 @@
       },
       {
         "address": "https://ununifi-rpc.genznodes.dev"
+      },
+      {
+        "address": "https://ununifi-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -71,6 +74,9 @@
       },
       {
         "address": "https://ununifi-api.genznodes.dev"
+      },
+      {
+        "address": "https://ununifi-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -91,6 +97,9 @@
       },
       {
         "address": "ununifi-grpc.genznodes.dev:54090"
+      },
+      {
+        "address": "ununifi-grpc.polkachu.com:23290"
       }
     ]
   },

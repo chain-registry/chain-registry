@@ -82,10 +82,15 @@
         "address": "https://api-pocket.blockval.io:443"
       },
       {
-        "address": "https://pocket-api.polkachu.com:443"
+        "address": "https://api.pocket.chaintools.tech:443"
       },
       {
-        "address": "https://api.pocket.chaintools.tech:443"
+        "address": "https://pocket-api.polkachu.com"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "pocket-grpc.polkachu.com:33490"
       }
     ]
   },

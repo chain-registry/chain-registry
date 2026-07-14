@@ -1394,6 +1394,34 @@
           "provider": "Axelar"
         }
       ]
+    },
+    {
+      "description": "Coinbase Wrapped DOGE on Axelar",
+      "denomUnits": [
+        {
+          "denom": "cbdoge-satoshi",
+          "exponent": 0
+        },
+        {
+          "denom": "cbdoge",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "cbdoge-satoshi",
+      "name": "Coinbase Wrapped DOGE",
+      "display": "cbdoge",
+      "symbol": "axl-cbDOGE",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "base",
+            "baseDenom": "0xcbD06E5A2B0C65597161de254AA074E489dEb510"
+          },
+          "provider": "Axelar"
+        }
+      ]
     }
   ]
 }

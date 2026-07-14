@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "elys",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "prettyName": "Elys Network",
   "chainType": "cosmos",

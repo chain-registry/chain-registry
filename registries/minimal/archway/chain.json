@@ -122,6 +122,9 @@
       },
       {
         "address": "https://archway-rpc.chainroot.io"
+      },
+      {
+        "address": "https://archway-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -193,6 +196,9 @@
       },
       {
         "address": "https://archway-api.chainroot.io"
+      },
+      {
+        "address": "https://archway-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -258,6 +264,9 @@
       },
       {
         "address": "archway-grpc.chainroot.io:443"
+      },
+      {
+        "address": "archway-grpc.polkachu.com:11590"
       }
     ]
   },

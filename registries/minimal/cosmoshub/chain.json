@@ -66,9 +66,6 @@
         "address": "https://go.getblock.io/17515cb3ec0e43b7817f182e5de6066a"
       },
       {
-        "address": "https://cosmos-rpc.polkachu.com"
-      },
-      {
         "address": "https://cosmos-rpc.staketab.org:443"
       },
       {
@@ -145,6 +142,9 @@
       },
       {
         "address": "https://rpc.sbsconstrutionnconsultancy.com"
+      },
+      {
+        "address": "https://cosmos-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -234,6 +234,9 @@
       },
       {
         "address": "https://cosmoshub.api.pocket.network"
+      },
+      {
+        "address": "https://cosmos-api.polkachu.com"
       }
     ],
     "grpc": [

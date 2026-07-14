@@ -48,12 +48,6 @@
         "address": "https://babylon.nodes.guru/rpc"
       },
       {
-        "address": "https://babylon-rpc.polkachu.com"
-      },
-      {
-        "address": "https://babylon-archive-rpc.polkachu.com"
-      },
-      {
         "address": "https://babylon-rpc.publicnode.com:443"
       },
       {
@@ -61,6 +55,9 @@
       },
       {
         "address": "https://rpc.babylon.validatus.com"
+      },
+      {
+        "address": "https://babylon-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -69,9 +66,6 @@
       },
       {
         "address": "https://babylon-api.polkachu.com"
-      },
-      {
-        "address": "https://babylon-archive-api.polkachu.com"
       },
       {
         "address": "https://babylon-rest.publicnode.com"
@@ -89,9 +83,6 @@
       },
       {
         "address": "babylon-grpc.polkachu.com:20690"
-      },
-      {
-        "address": "babylon-archive-grpc.polkachu.com:20690"
       },
       {
         "address": "babylon-grpc.publicnode.com:443"

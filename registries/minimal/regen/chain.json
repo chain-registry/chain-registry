@@ -66,6 +66,9 @@
       },
       {
         "address": "https://regen-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://regen-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -95,6 +98,9 @@
       },
       {
         "address": "https://regen-rest.publicnode.com"
+      },
+      {
+        "address": "https://regen-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -109,6 +115,9 @@
       },
       {
         "address": "regen-grpc.publicnode.com:443"
+      },
+      {
+        "address": "regen-grpc.polkachu.com:22790"
       }
     ]
   },

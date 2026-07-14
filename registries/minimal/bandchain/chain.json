@@ -76,6 +76,9 @@
       },
       {
         "address": "https://band-rpc.noders.services"
+      },
+      {
+        "address": "https://band-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -114,6 +117,9 @@
       },
       {
         "address": "https://band-api.noders.services"
+      },
+      {
+        "address": "https://band-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -146,6 +152,9 @@
       },
       {
         "address": "band-grpc.noders.services:30090"
+      },
+      {
+        "address": "band-grpc.polkachu.com:22990"
       }
     ]
   },

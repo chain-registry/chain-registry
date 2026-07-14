@@ -51,6 +51,9 @@
       },
       {
         "address": "https://lumnetwork_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://lum-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -68,6 +71,9 @@
       },
       {
         "address": "https://lumnetwork_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://lum-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -82,6 +88,9 @@
       },
       {
         "address": "lum-grpc.stakerhouse.com:443"
+      },
+      {
+        "address": "lum-grpc.polkachu.com:16790"
       }
     ]
   },

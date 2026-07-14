@@ -69,6 +69,9 @@
       },
       {
         "address": "https://planq_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://planq-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -101,6 +104,9 @@
       },
       {
         "address": "https://planq_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://planq-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -139,6 +145,9 @@
       },
       {
         "address": "mainnet-planq.konsortech.xyz:10090"
+      },
+      {
+        "address": "planq-grpc.polkachu.com:20390"
       }
     ],
     "evmHttpJsonrpc": [

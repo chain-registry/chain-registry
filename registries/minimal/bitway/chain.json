@@ -75,6 +75,9 @@
       },
       {
         "address": "https://bitway.rpc.nodeshub.online:443"
+      },
+      {
+        "address": "https://bitway-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -104,6 +107,9 @@
       },
       {
         "address": "https://bitway.api.nodeshub.online"
+      },
+      {
+        "address": "https://bitway-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -130,6 +136,9 @@
       },
       {
         "address": "bitway.grpc.nodeshub.online"
+      },
+      {
+        "address": "bitway-grpc.polkachu.com:26390"
       }
     ]
   },

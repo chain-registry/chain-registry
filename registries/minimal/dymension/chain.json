@@ -127,6 +127,9 @@
       },
       {
         "address": "https://dymension.drpc.org"
+      },
+      {
+        "address": "https://dymension-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -213,6 +216,9 @@
       },
       {
         "address": "https://api.archive.dymension.mainnet.dteam.tech:443"
+      },
+      {
+        "address": "https://dymension-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -281,6 +287,9 @@
       },
       {
         "address": "grpc.archive.dymension.mainnet.dteam.tech:29090"
+      },
+      {
+        "address": "dymension-grpc.polkachu.com:20590"
       }
     ],
     "evmHttpJsonrpc": [

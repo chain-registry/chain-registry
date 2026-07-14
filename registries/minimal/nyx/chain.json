@@ -56,18 +56,18 @@
         "address": "https://nym-mainnet-rpc.commodum.io/"
       },
       {
-        "address": "https://nym-rpc.polkachu.com/"
+        "address": "https://nym-rpc.polkachu.com:443"
       }
     ],
     "rest": [
-      {
-        "address": "https://nym-api.polkachu.com/"
-      },
       {
         "address": "https://api.nyx.nodes.guru/"
       },
       {
         "address": "https://api.nymtech.net"
+      },
+      {
+        "address": "https://nym-api.polkachu.com"
       }
     ],
     "grpc": [

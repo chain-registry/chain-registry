@@ -56,6 +56,9 @@
       },
       {
         "address": "https://mantra.rpc.m.stavr.tech"
+      },
+      {
+        "address": "https://mantra-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -67,6 +70,9 @@
       },
       {
         "address": "https://mantra.api.m.stavr.tech"
+      },
+      {
+        "address": "https://mantra-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -78,6 +84,9 @@
       },
       {
         "address": "mantra.grpc.m.stavr.tech:3601"
+      },
+      {
+        "address": "mantra-grpc.polkachu.com:25190"
       }
     ],
     "evmHttpJsonrpc": [

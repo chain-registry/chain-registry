@@ -52,6 +52,9 @@
       },
       {
         "address": "https://hippo-mainnet-rpc.shazoes.xyz"
+      },
+      {
+        "address": "https://hippo-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -66,6 +69,9 @@
       },
       {
         "address": "https://hippo-mainnet-api.shazoes.xyz"
+      },
+      {
+        "address": "https://hippo-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -80,6 +86,9 @@
       },
       {
         "address": "hippo-mainnet-grpc.shazoes.xyz:30290"
+      },
+      {
+        "address": "hippo-grpc.polkachu.com:31890"
       }
     ]
   },

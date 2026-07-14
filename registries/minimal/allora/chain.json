@@ -36,16 +36,25 @@
     "rpc": [
       {
         "address": "https://allora-rpc.mainnet.allora.network"
+      },
+      {
+        "address": "https://allora-rpc.polkachu.com:443"
       }
     ],
     "rest": [
       {
         "address": "https://allora-api.mainnet.allora.network"
+      },
+      {
+        "address": "https://allora-api.polkachu.com"
       }
     ],
     "grpc": [
       {
         "address": "allora-grpc.mainnet.allora.network:443"
+      },
+      {
+        "address": "allora-grpc.polkachu.com:26790"
       }
     ]
   },

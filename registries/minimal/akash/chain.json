@@ -42,9 +42,6 @@
         "address": "https://rpc-akash.ecostake.com:443"
       },
       {
-        "address": "https://akash-rpc.polkachu.com"
-      },
-      {
         "address": "https://akash-rpc.kleomedes.network"
       },
       {
@@ -58,6 +55,9 @@
       },
       {
         "address": "https://akash.api.pocket.network"
+      },
+      {
+        "address": "https://akash-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -98,6 +98,9 @@
       },
       {
         "address": "akash-grpc.publicnode.com:443"
+      },
+      {
+        "address": "akash-grpc.polkachu.com:12890"
       }
     ]
   },

@@ -50,6 +50,9 @@
       },
       {
         "address": "https://rpc.dora.roomit.xyz:443"
+      },
+      {
+        "address": "https://dora-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -70,6 +73,9 @@
       },
       {
         "address": "https://api.dora.roomit.xyz:443"
+      },
+      {
+        "address": "https://dora-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -87,6 +93,9 @@
       },
       {
         "address": "grpc.dora.roomit.xyz:8443"
+      },
+      {
+        "address": "dora-grpc.polkachu.com:25390"
       }
     ]
   },

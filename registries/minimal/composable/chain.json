@@ -72,6 +72,9 @@
       },
       {
         "address": "https://composable_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://picasso-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -104,6 +107,9 @@
       },
       {
         "address": "https://composable_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://picasso-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -148,6 +154,9 @@
       },
       {
         "address": "composable.grpc.m.stavr.tech:9907"
+      },
+      {
+        "address": "picasso-grpc.polkachu.com:22290"
       }
     ]
   },

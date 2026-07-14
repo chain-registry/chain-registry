@@ -71,6 +71,9 @@
       },
       {
         "address": "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/"
+      },
+      {
+        "address": "https://shido-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -100,6 +103,9 @@
       },
       {
         "address": "https://shido-mainnet-archive-lb-nw5es9.zeeve.net/USjg7xqUmCZ4wCsqEOOE/"
+      },
+      {
+        "address": "https://shido-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -117,6 +123,9 @@
       },
       {
         "address": "https://grpc.kenseishido.com"
+      },
+      {
+        "address": "shido-grpc.polkachu.com:28690"
       }
     ],
     "evmHttpJsonrpc": [

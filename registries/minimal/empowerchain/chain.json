@@ -74,6 +74,9 @@
       },
       {
         "address": "https://empower-rpc.moonbridge.org"
+      },
+      {
+        "address": "https://empower-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -112,6 +115,9 @@
       },
       {
         "address": "https://empower-api.moonbridge.org"
+      },
+      {
+        "address": "https://empower-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -147,6 +153,9 @@
       },
       {
         "address": "empower-grpc.moonbridge.org:443"
+      },
+      {
+        "address": "empower-grpc.polkachu.com:17490"
       }
     ]
   },

@@ -142,9 +142,6 @@
         "address": "https://stride.rpc.uquad.org:443"
       },
       {
-        "address": "https://stride-rpc.polkachu.com/"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/stride"
       },
       {
@@ -161,14 +158,14 @@
       },
       {
         "address": "https://rpc.stride.citizenweb3.com"
+      },
+      {
+        "address": "https://stride-rpc.polkachu.com:443"
       }
     ],
     "rest": [
       {
         "address": "https://stride.rpc.uquad.org:443"
-      },
-      {
-        "address": "https://stride-api.polkachu.com/"
       },
       {
         "address": "https://rest.lavenderfive.com:443/stride"
@@ -187,6 +184,9 @@
       },
       {
         "address": "https://api.stride.citizenweb3.com"
+      },
+      {
+        "address": "https://stride-api.polkachu.com"
       }
     ],
     "grpc": [

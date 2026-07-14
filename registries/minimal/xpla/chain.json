@@ -56,6 +56,9 @@
       },
       {
         "address": "https://xpla.rpc.m.stavr.tech:443"
+      },
+      {
+        "address": "https://xpla-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -76,6 +79,9 @@
       },
       {
         "address": "https://xpla.api.m.stavr.tech"
+      },
+      {
+        "address": "https://xpla-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -84,6 +90,9 @@
       },
       {
         "address": "xpla.grpc.m.stavr.tech:112"
+      },
+      {
+        "address": "xpla-grpc.polkachu.com:20190"
       }
     ],
     "evmHttpJsonrpc": [

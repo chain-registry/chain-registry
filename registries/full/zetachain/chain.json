@@ -61,6 +61,11 @@
         "id": "20e1000e88125698264454a884812746c2eb4807",
         "address": "seeds.lavenderfive.com:22556",
         "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "seeds.polkachu.com:22556",
+        "provider": "Polkachu"
       }
     ],
     "persistentPeers": [
@@ -118,6 +123,10 @@
       {
         "address": "https://zetachain-mainnet-tendermint.reliableninjas.com",
         "provider": "Reliable Ninjas"
+      },
+      {
+        "address": "https://zetachain-rpc.polkachu.com:443",
+        "provider": "Polkachu"
       }
     ],
     "rest": [
@@ -152,6 +161,10 @@
       {
         "address": "https://zetachain-mainnet-cosmos.reliableninjas.com",
         "provider": "Reliable Ninjas"
+      },
+      {
+        "address": "https://zetachain-api.polkachu.com",
+        "provider": "Polkachu"
       }
     ],
     "grpc": [
@@ -174,6 +187,10 @@
       {
         "address": "zetachain-mainnet-grpc.cosmonautstakes.com:15190",
         "provider": "Cosmonaut Stakes"
+      },
+      {
+        "address": "zetachain-grpc.polkachu.com:22590",
+        "provider": "Polkachu"
       }
     ]
   },
@@ -216,6 +233,15 @@
       "url": "https://zetachain.valopers.com/",
       "txPage": "https://zetachain.valopers.com/transactions/${txHash}",
       "accountPage": "https://zetachain.valopers.com/account/${accountAddress}"
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://polkachu.com/tendermint_snapshots/zetachain",
+      "type": "pruned",
+      "compression": "lz4",
+      "checksumAvailable": false,
+      "provider": "Polkachu"
     }
   ]
 }

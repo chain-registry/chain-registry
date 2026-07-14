@@ -42,9 +42,6 @@
         "address": "https://injective-rpc.highstakes.ch"
       },
       {
-        "address": "https://injective-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc.lavenderfive.com:443/injective"
       },
       {
@@ -55,6 +52,9 @@
       },
       {
         "address": "https://injective.rpc.uquad.org:443"
+      },
+      {
+        "address": "https://injective-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -103,9 +103,6 @@
       },
       {
         "address": "https://sentry.evm-rpc.injective.network"
-      },
-      {
-        "address": "https://injectiveevm-rpc.polkachu.com"
       }
     ]
   },

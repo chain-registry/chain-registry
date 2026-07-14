@@ -133,9 +133,6 @@
     ],
     "rest": [
       {
-        "address": "https://gitopia-api.polkachu.com:443"
-      },
-      {
         "address": "https://rest.lavenderfive.com:443/gitopia"
       },
       {
@@ -218,6 +215,9 @@
       },
       {
         "address": "https://api-gitopia.onenov.xyz"
+      },
+      {
+        "address": "https://gitopia-api.polkachu.com"
       }
     ],
     "grpc": [

@@ -43,6 +43,9 @@
       },
       {
         "address": "https://bitbadges_mainnet_rpc.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://bitbadges-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -51,11 +54,17 @@
       },
       {
         "address": "https://bitbadges_mainnet_api.chain.whenmoonwhenlambo.money"
+      },
+      {
+        "address": "https://bitbadges-api.polkachu.com"
       }
     ],
     "grpc": [
       {
         "address": "https://grpc.bitbadges.io"
+      },
+      {
+        "address": "bitbadges-grpc.polkachu.com:32990"
       }
     ],
     "evmHttpJsonrpc": [

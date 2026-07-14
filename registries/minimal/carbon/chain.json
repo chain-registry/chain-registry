@@ -313,6 +313,9 @@
       },
       {
         "address": "https://rpc.carbon.blockhunters.org"
+      },
+      {
+        "address": "https://carbon-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -327,6 +330,9 @@
       },
       {
         "address": "https://rest.carbon.blockhunters.org"
+      },
+      {
+        "address": "https://carbon-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -335,6 +341,9 @@
       },
       {
         "address": "carbon-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "carbon-grpc.polkachu.com:19690"
       }
     ]
   },

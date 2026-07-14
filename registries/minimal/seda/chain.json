@@ -47,9 +47,6 @@
         "address": "https://rpc.mainnet.seda.xyz/"
       },
       {
-        "address": "https://seda-rpc.polkachu.com/"
-      },
-      {
         "address": "https://seda.rpc.kjnodes.com"
       },
       {
@@ -87,14 +84,14 @@
       },
       {
         "address": "https://seda.api.pocket.network"
+      },
+      {
+        "address": "https://seda-rpc.polkachu.com:443"
       }
     ],
     "rest": [
       {
         "address": "https://lcd.mainnet.seda.xyz/"
-      },
-      {
-        "address": "https://seda-api.polkachu.com/"
       },
       {
         "address": "https://seda.api.kjnodes.com"
@@ -134,6 +131,9 @@
       },
       {
         "address": "https://seda.api.pocket.network"
+      },
+      {
+        "address": "https://seda-api.polkachu.com"
       }
     ],
     "grpc": [

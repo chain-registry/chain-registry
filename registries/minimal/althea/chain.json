@@ -56,6 +56,9 @@
       },
       {
         "address": "https://api.althea-archive.citizenweb3.com"
+      },
+      {
+        "address": "https://althea-api.polkachu.com"
       }
     ],
     "rpc": [
@@ -76,6 +79,9 @@
       },
       {
         "address": "https://rpc.althea-archive.citizenweb3.com"
+      },
+      {
+        "address": "https://althea-rpc.polkachu.com:443"
       }
     ],
     "grpc": [
@@ -87,6 +93,9 @@
       },
       {
         "address": "grpc.althea-archive.citizenweb3.com:443"
+      },
+      {
+        "address": "althea-grpc.polkachu.com:12490"
       }
     ]
   },

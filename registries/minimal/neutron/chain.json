@@ -109,6 +109,9 @@
       },
       {
         "address": "https://neutron.rpc.uquad.org:443"
+      },
+      {
+        "address": "https://neutron-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -150,6 +153,9 @@
       },
       {
         "address": "https://neutron.rpc.uquad.org:443"
+      },
+      {
+        "address": "https://neutron-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -176,6 +182,9 @@
       },
       {
         "address": "rpc.neutron.quokkastake.io:9090"
+      },
+      {
+        "address": "neutron-grpc.polkachu.com:19190"
       }
     ]
   },

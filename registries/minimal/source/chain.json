@@ -97,6 +97,9 @@
       },
       {
         "address": "https://source-rpc.bluestake.net:443"
+      },
+      {
+        "address": "https://source-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -156,6 +159,9 @@
       },
       {
         "address": "https://source-api.bluestake.net"
+      },
+      {
+        "address": "https://source-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -200,6 +206,9 @@
       },
       {
         "address": "source-grpc.moonbridge.org:443"
+      },
+      {
+        "address": "source-grpc.polkachu.com:15890"
       }
     ]
   },

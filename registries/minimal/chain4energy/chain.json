@@ -129,6 +129,9 @@
       },
       {
         "address": "https://rpc.polcrypto.pl:443"
+      },
+      {
+        "address": "https://chain4energy-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -212,6 +215,9 @@
       },
       {
         "address": "https://rest.polcrypto.pl:443"
+      },
+      {
+        "address": "https://chain4energy-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -292,6 +298,9 @@
       },
       {
         "address": "grpc.polcrypto.pl:443"
+      },
+      {
+        "address": "chain4energy-grpc.polkachu.com:27290"
       }
     ]
   },

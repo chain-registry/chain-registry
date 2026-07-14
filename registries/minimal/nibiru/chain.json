@@ -94,6 +94,9 @@
       },
       {
         "address": "https://nibiru-rpc.node39.top:443"
+      },
+      {
+        "address": "https://nibiru-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -141,6 +144,9 @@
       },
       {
         "address": "https://nibiru-api.node39.top:443"
+      },
+      {
+        "address": "https://nibiru-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -185,6 +191,9 @@
       },
       {
         "address": "nibiru-grpc.node39.top:14090"
+      },
+      {
+        "address": "nibiru-grpc.polkachu.com:19890"
       }
     ]
   },

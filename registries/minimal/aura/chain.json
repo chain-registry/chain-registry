@@ -87,6 +87,9 @@
       },
       {
         "address": "https://aura-rpc.noders.services"
+      },
+      {
+        "address": "https://aura-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -131,6 +134,9 @@
       },
       {
         "address": "https://aura-api.noders.services"
+      },
+      {
+        "address": "https://aura-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -175,6 +181,9 @@
       },
       {
         "address": "aura-grpc.noders.services:17090"
+      },
+      {
+        "address": "aura-grpc.polkachu.com:21790"
       }
     ]
   },

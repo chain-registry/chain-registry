@@ -43,6 +43,9 @@
       },
       {
         "address": "https://initia-mainnet-rpc.autostake.com:443"
+      },
+      {
+        "address": "https://initia-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -54,6 +57,9 @@
       },
       {
         "address": "https://initia-mainnet-lcd.autostake.com:443"
+      },
+      {
+        "address": "https://initia-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -65,6 +71,9 @@
       },
       {
         "address": "initia-mainnet-grpc.autostake.com:443"
+      },
+      {
+        "address": "initia-grpc.polkachu.com:25790"
       }
     ]
   },

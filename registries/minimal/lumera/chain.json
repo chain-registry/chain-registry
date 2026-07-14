@@ -58,6 +58,9 @@
       },
       {
         "address": "https://lumera-rpc.dungeon.games"
+      },
+      {
+        "address": "https://lumera-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -78,6 +81,9 @@
       },
       {
         "address": "https://lumera-lcd.dungeon.games"
+      },
+      {
+        "address": "https://lumera-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -89,6 +95,9 @@
       },
       {
         "address": "lumera-grpc.linknode.org:443"
+      },
+      {
+        "address": "lumera-grpc.polkachu.com:30790"
       }
     ]
   },

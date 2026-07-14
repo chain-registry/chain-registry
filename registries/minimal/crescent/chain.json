@@ -37,9 +37,6 @@
         "address": "https://mainnet.crescent.network:26657"
       },
       {
-        "address": "https://crescent-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc-crescent.pupmos.network"
       },
       {
@@ -59,6 +56,9 @@
       },
       {
         "address": "https://rpc.crescent.bronbro.io:443"
+      },
+      {
+        "address": "https://crescent-rpc.polkachu.com:443"
       }
     ],
     "rest": [

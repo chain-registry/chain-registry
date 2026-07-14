@@ -79,6 +79,9 @@
       },
       {
         "address": "https://rpc.quicksilver.citizenweb3.com"
+      },
+      {
+        "address": "https://quicksilver-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -120,6 +123,9 @@
       },
       {
         "address": "https://api.quicksilver.citizenweb3.com"
+      },
+      {
+        "address": "https://quicksilver-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -149,6 +155,9 @@
       },
       {
         "address": "grpc.quicksilver.validatus.com:443"
+      },
+      {
+        "address": "quicksilver-grpc.polkachu.com:11190"
       }
     ]
   },

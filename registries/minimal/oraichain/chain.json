@@ -79,6 +79,9 @@
       },
       {
         "address": "https://oraichain-mainnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://orai-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -108,6 +111,9 @@
       },
       {
         "address": "https://oraichain-mainnet-api.itrocket.net"
+      },
+      {
+        "address": "https://orai-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -137,6 +143,9 @@
       },
       {
         "address": "oraichain-mainnet-grpc.itrocket.net:443"
+      },
+      {
+        "address": "orai-grpc.polkachu.com:23390"
       }
     ]
   },

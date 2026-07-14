@@ -64,6 +64,9 @@
       },
       {
         "address": "https://zetachain-mainnet-tendermint.reliableninjas.com"
+      },
+      {
+        "address": "https://zetachain-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -90,6 +93,9 @@
       },
       {
         "address": "https://zetachain-mainnet-cosmos.reliableninjas.com"
+      },
+      {
+        "address": "https://zetachain-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -107,6 +113,9 @@
       },
       {
         "address": "zetachain-mainnet-grpc.cosmonautstakes.com:15190"
+      },
+      {
+        "address": "zetachain-grpc.polkachu.com:22590"
       }
     ]
   },

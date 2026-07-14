@@ -110,6 +110,9 @@
       },
       {
         "address": "https://lava-rpc.linknode.org"
+      },
+      {
+        "address": "https://lava-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -169,6 +172,9 @@
       },
       {
         "address": "https://lava-api.linknode.org"
+      },
+      {
+        "address": "https://lava-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -216,6 +222,9 @@
       },
       {
         "address": "lava-grpc.linknode.org:443"
+      },
+      {
+        "address": "lava-grpc.polkachu.com:19990"
       }
     ]
   },

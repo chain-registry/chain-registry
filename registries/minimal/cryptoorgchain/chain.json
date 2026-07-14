@@ -38,9 +38,6 @@
         "address": "https://rpc-cryptoorgchain.ecostake.com"
       },
       {
-        "address": "https://cryptocom-rpc.polkachu.com"
-      },
-      {
         "address": "https://cryptocom-rpc.w3coins.io"
       },
       {
@@ -48,6 +45,9 @@
       },
       {
         "address": "https://cro-chain-rpc.publicnode.com:443"
+      },
+      {
+        "address": "https://cryptocom-rpc.polkachu.com:443"
       }
     ],
     "rest": [

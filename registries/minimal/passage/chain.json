@@ -53,9 +53,6 @@
         "address": "https://rpc-passage.cosmos-spaces.cloud"
       },
       {
-        "address": "https://passage-rpc.polkachu.com"
-      },
-      {
         "address": "https://rpc-passage.d-stake.xyz"
       },
       {
@@ -78,6 +75,9 @@
       },
       {
         "address": "https://passage-rpc.bluestake.net:443"
+      },
+      {
+        "address": "https://passage-rpc.polkachu.com:443"
       }
     ],
     "rest": [

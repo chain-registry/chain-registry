@@ -60,9 +60,6 @@
         "address": "https://rpc-jackal.nodeist.net"
       },
       {
-        "address": "https://jackal-rpc.polkachu.com"
-      },
-      {
         "address": "https://m-jackal.rpc.utsa.tech"
       },
       {
@@ -97,6 +94,9 @@
       },
       {
         "address": "https://jackal.api.pocket.network"
+      },
+      {
+        "address": "https://jackal-rpc.polkachu.com:443"
       }
     ],
     "rest": [

@@ -71,6 +71,9 @@
       },
       {
         "address": "https://cheqd.api.pocket.network"
+      },
+      {
+        "address": "https://cheqd-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -109,6 +112,9 @@
       },
       {
         "address": "https://cheqd.api.pocket.network"
+      },
+      {
+        "address": "https://cheqd-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -135,6 +141,9 @@
       },
       {
         "address": "cheqd-grpc.publicnode.com:443"
+      },
+      {
+        "address": "cheqd-grpc.polkachu.com:16190"
       }
     ]
   },

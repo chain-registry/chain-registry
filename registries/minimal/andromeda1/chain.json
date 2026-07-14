@@ -61,6 +61,9 @@
       },
       {
         "address": "https://nibiru.rpc.kjnodes.comv"
+      },
+      {
+        "address": "https://andromeda-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -93,6 +96,9 @@
       },
       {
         "address": "https://nibiru.api.kjnodes.com"
+      },
+      {
+        "address": "https://andromeda-api.polkachu.com"
       }
     ],
     "grpc": [
@@ -122,6 +128,9 @@
       },
       {
         "address": "nibiru.grpc.kjnodes.com:443"
+      },
+      {
+        "address": "andromeda-grpc.polkachu.com:21290"
       }
     ]
   },
