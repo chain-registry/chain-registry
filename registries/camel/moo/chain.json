@@ -4,7 +4,7 @@
   "chainType": "cosmos",
   "chainId": "moo-1",
   "prettyName": "MilkyWay",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://www.milkyway.zone",
   "bech32Prefix": "init",
