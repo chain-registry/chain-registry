@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "tail",
+  "assets": [
+    {
+      "description": "The native token of TAIL Network",
+      "denomUnits": [
+        {
+          "denom": "utail",
+          "exponent": 0
+        },
+        {
+          "denom": "TAIL",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "utail",
+      "name": "TAIL Network",
+      "display": "TAIL",
+      "symbol": "TAIL"
+    }
+  ]
+}

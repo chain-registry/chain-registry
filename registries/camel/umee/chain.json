@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "umee",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://www.ux.xyz",
   "prettyName": "UX Chain",
