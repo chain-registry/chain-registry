@@ -42,9 +42,6 @@
         "address": "https://iris-rpc.publicnode.com:443"
       },
       {
-        "address": "https://iris-rpc.highstakes.ch"
-      },
-      {
         "address": "https://mainnet-iris-rpc.konsortech.xyz"
       }
     ],
@@ -57,9 +54,6 @@
       },
       {
         "address": "https://iris-rest.publicnode.com"
-      },
-      {
-        "address": "https://iris-api.highstakes.ch"
       },
       {
         "address": "https://mainnet-iris-api.konsortech.xyz"
