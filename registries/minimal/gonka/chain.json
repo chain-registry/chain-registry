@@ -54,7 +54,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://gonka04.6block.com:8443/chain-rpc/"
+        "address": "https://gonka.hyperfusion.io/chain-rpc/"
       },
       {
         "address": "https://gonka03.6block.com:8443/chain-rpc/"
@@ -64,11 +64,14 @@
       },
       {
         "address": "https://node2.gonka.ai:8443/chain-rpc/"
+      },
+      {
+        "address": "https://rpc.gonka.gg/key/keplr/chain-rpc/"
       }
     ],
     "rest": [
       {
-        "address": "https://gonka04.6block.com:8443/chain-api/"
+        "address": "https://gonka.hyperfusion.io/chain-api/"
       },
       {
         "address": "https://gonka03.6block.com:8443/chain-api/"
@@ -78,11 +81,14 @@
       },
       {
         "address": "https://node2.gonka.ai:8443/chain-api/"
+      },
+      {
+        "address": "https://rpc.gonka.gg/key/keplr/chain-api/"
       }
     ],
     "grpc": [
       {
-        "address": "https://gonka04.6block.com:8443/chain-grpc/"
+        "address": "https://gonka.hyperfusion.io/chain-grpc/"
       },
       {
         "address": "https://gonka03.6block.com:8443/chain-grpc/"
@@ -92,15 +98,18 @@
       },
       {
         "address": "https://node2.gonka.ai:8443/chain-grpc/"
+      },
+      {
+        "address": "https://rpc.gonka.gg/key/keplr/chain-grpc/"
       }
     ]
   },
   "explorers": [
     {
       "kind": "ping.pub",
-      "url": "https://gonka04.6block.com:8443/dashboard",
-      "txPage": "https://gonka04.6block.com:8443/dashboard/gonka/txs/${txHash}",
-      "accountPage": "https://gonka04.6block.com:8443/dashboard/gonka/account/${accountAddress}"
+      "url": "https://gonka.hyperfusion.io/dashboard",
+      "txPage": "https://gonka.hyperfusion.io/dashboard/gonka/txs/${txHash}",
+      "accountPage": "https://gonka.hyperfusion.io/dashboard/gonka/account/${accountAddress}"
     },
     {
       "kind": "ping.pub",
