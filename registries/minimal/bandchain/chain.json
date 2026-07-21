@@ -155,6 +155,9 @@
       },
       {
         "address": "band-grpc.polkachu.com:22990"
+      },
+      {
+        "address": "https://bandprotocol-grpc.highstakes.ch"
       }
     ]
   },

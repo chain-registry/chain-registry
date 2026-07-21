@@ -1,0 +1,57 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "mucoin",
+  "website": "https://mucoin.org",
+  "networkType": "mainnet",
+  "prettyName": "MuCoin",
+  "chainType": "cosmos",
+  "chainId": "mucoin-1",
+  "bech32Prefix": "muc",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "description": "MuCoin is a Cosmos SDK blockchain created for the MuCoin ecosystem and inspired by the world of MU Online.",
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "umuc",
+        "fixedMinGasPrice": 0.0025,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.005,
+        "highGasPrice": 0.01
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "umuc"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "version": "v0.53.6"
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mucoin/images/mucoin.png"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.mucoin.org"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rest.mucoin.org"
+      }
+    ]
+  }
+}

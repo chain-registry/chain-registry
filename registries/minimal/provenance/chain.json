@@ -131,6 +131,9 @@
       },
       {
         "address": "provenance-grpc.polkachu.com:27090"
+      },
+      {
+        "address": "https://provenance-grpc.highstakes.ch"
       }
     ]
   },

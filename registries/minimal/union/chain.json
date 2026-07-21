@@ -121,6 +121,9 @@
       },
       {
         "address": "union-mainnet-grpc.shazoes.xyz:30990"
+      },
+      {
+        "address": "https://union-grpc.highstakes.ch"
       }
     ]
   },

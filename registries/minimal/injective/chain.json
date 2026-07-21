@@ -95,6 +95,9 @@
       },
       {
         "address": "injective-grpc.noders.services:33090"
+      },
+      {
+        "address": "https://injective-grpc.highstakes.ch"
       }
     ],
     "evmHttpJsonrpc": [

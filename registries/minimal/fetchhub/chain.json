@@ -158,6 +158,9 @@
       },
       {
         "address": "grpc.fetchhub-4.fetch.aviaone.com:9094"
+      },
+      {
+        "address": "https://fetch-grpc.highstakes.ch"
       }
     ]
   },

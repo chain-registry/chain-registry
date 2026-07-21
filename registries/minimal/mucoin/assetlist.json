@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "mucoin",
+  "assets": [
+    {
+      "description": "MUC is the native staking, governance and transaction fee token of the MuCoin blockchain.",
+      "denomUnits": [
+        {
+          "denom": "umuc",
+          "exponent": 0
+        },
+        {
+          "denom": "MUC",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "umuc",
+      "name": "MuCoin",
+      "display": "MUC",
+      "symbol": "MUC"
+    }
+  ]
+}
