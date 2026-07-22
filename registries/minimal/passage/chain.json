@@ -50,9 +50,6 @@
         "address": "https://rpc.lavenderfive.com:443/passage"
       },
       {
-        "address": "https://rpc-passage.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://rpc-passage.d-stake.xyz"
       },
       {
@@ -91,9 +88,6 @@
         "address": "https://rest.lavenderfive.com:443/passage"
       },
       {
-        "address": "https://api-passage.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://passage-api.polkachu.com"
       },
       {
@@ -127,9 +121,6 @@
       },
       {
         "address": "passage-grpc.polkachu.com:15690"
-      },
-      {
-        "address": "grpc-passage.cosmos-spaces.cloud:2320"
       },
       {
         "address": "passage-mainnet-grpc.autostake.com:443"

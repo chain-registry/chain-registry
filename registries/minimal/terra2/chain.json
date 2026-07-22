@@ -54,9 +54,6 @@
         "address": "https://rpc-terra-01.stakeflow.io"
       },
       {
-        "address": "https://rpc-terra.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://terra-phoenix-rpc.highstakes.ch"
       },
       {
@@ -122,9 +119,6 @@
       },
       {
         "address": "grpc-archive-terra.r93axnodes.cloud:443"
-      },
-      {
-        "address": "grpc-terra.cosmos-spaces.cloud:2690"
       },
       {
         "address": "grpc-terra-01.stakeflow.io:1102"

@@ -120,9 +120,6 @@
         "address": "composable-mainnet-grpc.autostake.com:443"
       },
       {
-        "address": "grpc-centauri.cosmos-spaces.cloud:1120"
-      },
-      {
         "address": "picasso.lavenderfive.com:443"
       },
       {

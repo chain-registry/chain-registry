@@ -63,9 +63,6 @@
         "address": "https://omniflix-rpc.staketab.org:443"
       },
       {
-        "address": "https://rpc-omniflixhub.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://omniflix-rpc.dakshavalidator.in"
       },
       {
@@ -90,9 +87,6 @@
       },
       {
         "address": "https://rest.lavenderfive.com:443/omniflixhub"
-      },
-      {
-        "address": "https://api-omniflixhub.cosmos-spaces.cloud"
       },
       {
         "address": "https://api.omniflix.silentvalidator.com/"
@@ -137,9 +131,6 @@
       },
       {
         "address": "omniflixhub.lavenderfive.com:443"
-      },
-      {
-        "address": "grpc-omniflixhub.cosmos-spaces.cloud:2230"
       },
       {
         "address": "omniflixhub-mainnet-grpc.autostake.com:443"

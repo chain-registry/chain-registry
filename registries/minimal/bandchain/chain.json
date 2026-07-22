@@ -57,9 +57,6 @@
         "address": "https://rpc-band-01.stakeflow.io"
       },
       {
-        "address": "https://rpc-band.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://band-rpc.w3coins.io"
       },
       {
@@ -87,9 +84,6 @@
       },
       {
         "address": "https://band.ibs.team:443/api"
-      },
-      {
-        "address": "https://api-band.cosmos-spaces.cloud"
       },
       {
         "address": "https://band.api.m.stavr.tech"
@@ -125,9 +119,6 @@
     "grpc": [
       {
         "address": "bandchain-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "grpc-band.cosmos-spaces.cloud:2240"
       },
       {
         "address": "grpc-band-01.stakeflow.io:2502"

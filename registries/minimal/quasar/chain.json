@@ -73,9 +73,6 @@
         "address": "https://quasar-rpc.enigma-validator.com"
       },
       {
-        "address": "https://rpc-quasar.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://quasar-mainnet-rpc.autostake.com:443"
       },
       {
@@ -106,9 +103,6 @@
       },
       {
         "address": "https://quasar-api.polkachu.com"
-      },
-      {
-        "address": "https://api-quasar.cosmos-spaces.cloud"
       },
       {
         "address": "https://quasar-lcd.enigma-validator.com"
@@ -144,9 +138,6 @@
       },
       {
         "address": "quasar-grpc.polkachu.com:18290"
-      },
-      {
-        "address": "grpc-quasar.cosmos-spaces.cloud:12890"
       },
       {
         "address": "quasar-mainnet-grpc.autostake.com:443"

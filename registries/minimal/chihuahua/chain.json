@@ -46,19 +46,7 @@
         "address": "https://rpc.chihuahua.wtf"
       },
       {
-        "address": "https://chihua.rpc.m.stavr.tech"
-      },
-      {
-        "address": "https://rpc.lavenderfive.com:443/chihuahua"
-      },
-      {
-        "address": "https://rpc.huahua.bh.rocks"
-      },
-      {
         "address": "https://chihuahua-rpc.kleomedes.network"
-      },
-      {
-        "address": "https://rpc-chihuahua.pupmos.network"
       },
       {
         "address": "https://chihuahua-mainnet-rpc.autostake.com:443"
@@ -68,12 +56,6 @@
       },
       {
         "address": "https://rpc.chihuahua.validatus.com"
-      },
-      {
-        "address": "https://chihuahua.rpc.nodeshub.online:443"
-      },
-      {
-        "address": "https://chihuahua-rpc.chainroot.io"
       },
       {
         "address": "https://chihuahua.api.pocket.network"
@@ -87,19 +69,10 @@
         "address": "https://api.chihuahua.wtf"
       },
       {
-        "address": "https://chihua.api.m.stavr.tech"
-      },
-      {
         "address": "https://chihuahua-api.polkachu.com"
       },
       {
-        "address": "https://rest.lavenderfive.com:443/chihuahua"
-      },
-      {
         "address": "https://chihuahua-api.kleomedes.network"
-      },
-      {
-        "address": "https://api-chihuahua.pupmos.network"
       },
       {
         "address": "https://chihuahua-mainnet-lcd.autostake.com:443"
@@ -109,12 +82,6 @@
       },
       {
         "address": "https://api.chihuahua.validatus.com"
-      },
-      {
-        "address": "https://chihuahua.api.nodeshub.online:443"
-      },
-      {
-        "address": "https://chihuahua-api.chainroot.io"
       },
       {
         "address": "https://chihuahua.api.pocket.network"
@@ -128,12 +95,6 @@
         "address": "chihuahua.lavenderfive.com:443"
       },
       {
-        "address": "chihua.grpc.m.stavr.tech:108"
-      },
-      {
-        "address": "grpc-chihuahua.cosmos-spaces.cloud:2290"
-      },
-      {
         "address": "chihuahua-mainnet-grpc.autostake.com:443"
       },
       {
@@ -141,12 +102,6 @@
       },
       {
         "address": "grpc.chihuahua.validatus.com:443"
-      },
-      {
-        "address": "chihuahua.grpc.nodeshub.online"
-      },
-      {
-        "address": "chihuahua-grpc.chainroot.io:443"
       }
     ]
   },

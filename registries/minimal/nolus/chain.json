@@ -108,9 +108,6 @@
         "address": "https://nolus-rpc.w3coins.io"
       },
       {
-        "address": "https://rpc-nolus.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://nolus-rpc.publicnode.com:443"
       },
       {
@@ -126,9 +123,6 @@
       },
       {
         "address": "https://rest.lavenderfive.com:443/nolus"
-      },
-      {
-        "address": "https://api-nolus.cosmos-spaces.cloud"
       },
       {
         "address": "https://nolus.api.liveraven.net"
@@ -167,9 +161,6 @@
       },
       {
         "address": "grpc-nolus.architectnodes.com:1443"
-      },
-      {
-        "address": "grpc-nolus.cosmos-spaces.cloud:1190"
       },
       {
         "address": "nolus.grpc.kjnodes.com:14390"

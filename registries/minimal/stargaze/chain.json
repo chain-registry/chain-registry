@@ -55,9 +55,6 @@
         "address": "https://stargaze.c29r3.xyz:443/rpc/"
       },
       {
-        "address": "https://rpc-stargaze.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://stargaze.ibs.team:443/rpc"
       },
       {
@@ -123,9 +120,6 @@
         "address": "https://api-stargaze.d-stake.xyz"
       },
       {
-        "address": "https://api-stargaze.cosmos-spaces.cloud"
-      },
-      {
         "address": "https://api.stargaze.silentvalidator.com/"
       },
       {
@@ -168,9 +162,6 @@
       },
       {
         "address": "stargaze-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "grpc-stargaze.cosmos-spaces.cloud:1150"
       },
       {
         "address": "https://stargaze-grpc.ramuchi.tech:9090"

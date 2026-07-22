@@ -159,9 +159,6 @@
         "address": "evmos.lavenderfive.com:443"
       },
       {
-        "address": "grpc-evmos.cosmos-spaces.cloud:1190"
-      },
-      {
         "address": "evmos-grpc.polkachu.com:13490"
       },
       {
