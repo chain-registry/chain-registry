@@ -73,6 +73,9 @@
       },
       {
         "address": "https://provenance-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://provenance-rpc.kleomedes.network"
       }
     ],
     "rest": [
@@ -111,6 +114,9 @@
       },
       {
         "address": "https://provenance-api.polkachu.com"
+      },
+      {
+        "address": "https://provenance-api.kleomedes.network"
       }
     ],
     "grpc": [

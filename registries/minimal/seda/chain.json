@@ -53,9 +53,6 @@
         "address": "https://rpc.lavenderfive.com:443/seda"
       },
       {
-        "address": "https://seda-rpc.kleomedes.network/"
-      },
-      {
         "address": "https://seda.ibs.team:443/rpc"
       },
       {
@@ -87,6 +84,9 @@
       },
       {
         "address": "https://seda-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://seda-rpc.kleomedes.network"
       }
     ],
     "rest": [
@@ -98,9 +98,6 @@
       },
       {
         "address": "https://rest.lavenderfive.com:443/seda"
-      },
-      {
-        "address": "https://seda-api.kleomedes.network/"
       },
       {
         "address": "https://seda.ibs.team:443/api"
@@ -134,6 +131,9 @@
       },
       {
         "address": "https://seda-api.polkachu.com"
+      },
+      {
+        "address": "https://seda-api.kleomedes.network"
       }
     ],
     "grpc": [
@@ -153,10 +153,10 @@
         "address": "seda-grpc.cosmos-apis.com:443"
       },
       {
-        "address": "seda.grpc.cumulo.org.es:443"
+        "address": "http://seda-grpc.stakeandrelax.net:25890"
       },
       {
-        "address": "http://seda-grpc.stakeandrelax.net:25890"
+        "address": "https://seda.grpc.cumulo.org.es"
       }
     ]
   },

@@ -411,6 +411,13 @@
       "compression": "lz4",
       "checksumAvailable": false,
       "provider": "Polkachu"
+    },
+    {
+      "url": "https://kleomedes.cloud/chains/akash",
+      "latestUrl": "https://api.kleomedes.network/api/v2/snapshots/akash/latest",
+      "type": "pruned",
+      "compression": "zstd",
+      "provider": "Kleomedes"
     }
   ]
 }

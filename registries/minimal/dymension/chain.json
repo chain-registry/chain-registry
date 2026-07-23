@@ -108,9 +108,6 @@
         "address": "https://dymension.0xwave.com:2053"
       },
       {
-        "address": "https://archive.rpc.dym.cumulo.com.es:443"
-      },
-      {
         "address": "https://rpc.dymension.posthuman.digital"
       },
       {
@@ -130,6 +127,9 @@
       },
       {
         "address": "https://dymension-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://rollapp.rpc.cumulo.com.es"
       }
     ],
     "rest": [
@@ -200,9 +200,6 @@
         "address": "https://dymension.0xwave.com"
       },
       {
-        "address": "https://api.dym.cumulo.com.es"
-      },
-      {
         "address": "https://rest.dymension.posthuman.digital"
       },
       {
@@ -219,6 +216,9 @@
       },
       {
         "address": "https://dymension-api.polkachu.com"
+      },
+      {
+        "address": "https://rollapp.rest.cumulo.com.es"
       }
     ],
     "grpc": [
@@ -274,9 +274,6 @@
         "address": "https://dymension.0xwave.com:2083"
       },
       {
-        "address": "grpc.dym.cumulo.com.es:443"
-      },
-      {
         "address": "https://grpc.dymension.posthuman.digital"
       },
       {
@@ -290,6 +287,9 @@
       },
       {
         "address": "dymension-grpc.polkachu.com:20590"
+      },
+      {
+        "address": "https://rollapp.grpc.cumulo.com.es"
       }
     ],
     "evmHttpJsonrpc": [
@@ -306,9 +306,6 @@
         "address": "https://dymension.0xwave.com:2087"
       },
       {
-        "address": "https://evm-rpc.dym.cumulo.com.es:443"
-      },
-      {
         "address": "https://evm-rpc.dymension.node75.org"
       },
       {
@@ -319,6 +316,9 @@
       },
       {
         "address": "https://evm.archive.dymension.mainnet.dteam.tech:443"
+      },
+      {
+        "address": "https://rollapp.jrpc.cumulo.com.es"
       }
     ]
   },

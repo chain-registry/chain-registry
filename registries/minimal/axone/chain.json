@@ -94,9 +94,6 @@
     ],
     "grpc": [
       {
-        "address": "grpc.axone.cumulo.com.es:443"
-      },
-      {
         "address": "axone.grpc.bccnodes.com:443"
       },
       {
@@ -113,6 +110,9 @@
       },
       {
         "address": "axone-mainnet-grpc.shazoes.xyz:30490"
+      },
+      {
+        "address": "https://grpc.axone.cumulo.com.es"
       }
     ]
   },

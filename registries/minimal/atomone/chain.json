@@ -137,6 +137,9 @@
       },
       {
         "address": "https://atomone-mainnet-rpc.oshvank.xyz"
+      },
+      {
+        "address": "https://atomone-rpc.kleomedes.network"
       }
     ],
     "rest": [
@@ -232,6 +235,9 @@
       },
       {
         "address": "https://atomone-mainnet-api.oshvank.xyz"
+      },
+      {
+        "address": "https://atomone-api.kleomedes.network"
       }
     ],
     "grpc": [

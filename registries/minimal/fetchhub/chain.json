@@ -33,9 +33,6 @@
         "address": "https://rpc-fetchhub.fetch.ai:443"
       },
       {
-        "address": "https://fetchai-rpc.kleomedes.network"
-      },
-      {
         "address": "https://fetch-rpc.antrixy.org"
       },
       {
@@ -76,6 +73,9 @@
       },
       {
         "address": "https://fetch-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://fetchhub-rpc.kleomedes.network"
       }
     ],
     "rest": [
@@ -84,9 +84,6 @@
       },
       {
         "address": "https://fetch-api.polkachu.com"
-      },
-      {
-        "address": "https://fetchai-api.kleomedes.network"
       },
       {
         "address": "https://fetch-rest.antrixy.org"
@@ -126,6 +123,9 @@
       },
       {
         "address": "https://fetch.api.pocket.network"
+      },
+      {
+        "address": "https://fetchhub-api.kleomedes.network"
       }
     ],
     "grpc": [

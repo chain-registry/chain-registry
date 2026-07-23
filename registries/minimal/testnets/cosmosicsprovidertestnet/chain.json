@@ -35,9 +35,9 @@
       "tag": "v0.53.4"
     },
     "cosmwasm": {
-      "version": "v0.60.7",
+      "version": "v0.60.8",
       "repo": "https://github.com/CosmWasm/wasmd",
-      "tag": "v0.60.7"
+      "tag": "v0.60.8"
     }
   },
   "apis": {
@@ -59,6 +59,9 @@
       },
       {
         "address": "https://cosmos-testnet-rpc.ibs.team"
+      },
+      {
+        "address": "https://cosmos.rpc.testnet.cumulo.me"
       }
     ],
     "rest": [
@@ -79,6 +82,9 @@
       },
       {
         "address": "https://cosmos-testnet-api.ibs.team"
+      },
+      {
+        "address": "https://cosmos.api.testnet.cumulo.me"
       }
     ],
     "grpc": [
@@ -96,6 +102,14 @@
       },
       {
         "address": "cosmos-testnet-grpc.itrocket.net:443"
+      },
+      {
+        "address": "https://cosmos.grpc.testnet.cumulo.me"
+      }
+    ],
+    "wss": [
+      {
+        "address": "wss://cosmos.rpc.testnet.cumulo.me/websocket"
       }
     ]
   },

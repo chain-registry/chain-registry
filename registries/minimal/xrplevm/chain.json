@@ -84,6 +84,11 @@
       {
         "address": "https://json-rpc.xrpl.cumulo.org.es"
       }
+    ],
+    "wss": [
+      {
+        "address": "wss://rpc.xrpl.cumulo.org.es/websocket"
+      }
     ]
   },
   "explorers": [

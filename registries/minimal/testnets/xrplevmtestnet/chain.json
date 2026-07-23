@@ -125,9 +125,6 @@
         "address": "https://polkachu.com/testnet_public_grpc"
       },
       {
-        "address": "grpc.xrpl.cumulo.com.es"
-      },
-      {
         "address": "xrplevm-testnet-grpc.itrocket.net:443"
       },
       {
@@ -144,6 +141,9 @@
       },
       {
         "address": "http://xrplevm-testnet-grpc.blockitize.com/"
+      },
+      {
+        "address": "https://grpc.xrpl.cumulo.com.es"
       }
     ],
     "evmHttpJsonrpc": [
@@ -212,6 +212,11 @@
       },
       {
         "address": "https://evmrpc-t.archive.xrp.nodestake.org"
+      }
+    ],
+    "wss": [
+      {
+        "address": "wss://rpc.xrpl.cumulo.com.es/websocket"
       }
     ]
   },

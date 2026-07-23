@@ -43,16 +43,30 @@
     "rpc": [
       {
         "address": "https://rpc.wardenprotocol.org"
+      },
+      {
+        "address": "https://rpc.warden.cumulo.org.es"
       }
     ],
     "rest": [
       {
         "address": "https://api.wardenprotocol.org"
+      },
+      {
+        "address": "https://api.warden.cumulo.org.es"
       }
     ],
     "grpc": [
       {
         "address": "https://grpc.wardenprotocol.org"
+      },
+      {
+        "address": "https://grpc.warden.cumulo.org.es"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://json-rpc.warden.cumulo.org.es"
       }
     ]
   },

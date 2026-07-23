@@ -63,9 +63,6 @@
     "grpc": [
       {
         "address": "juno-testnet-grpc.polkachu.com:12690"
-      },
-      {
-        "address": "junotestnet.gprc.kleomedes.network"
       }
     ]
   },

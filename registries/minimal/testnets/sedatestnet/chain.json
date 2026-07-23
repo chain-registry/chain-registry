@@ -54,6 +54,9 @@
       },
       {
         "address": "https://seda-testnet-rpc.synergynodes.com/"
+      },
+      {
+        "address": "https://seda-testnet.rpc.cumulo.org.es"
       }
     ],
     "rest": [
@@ -65,11 +68,17 @@
       },
       {
         "address": "https://seda-testnet.api.kjnodes.com"
+      },
+      {
+        "address": "https://seda-testnet.api.cumulo.org.es"
       }
     ],
     "grpc": [
       {
         "address": "seda-testnet-grpc.polkachu.com:25890"
+      },
+      {
+        "address": "https://seda-testnet.grpc.cumulo.org.es"
       }
     ]
   },
