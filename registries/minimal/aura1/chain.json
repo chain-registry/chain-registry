@@ -151,9 +151,6 @@
         "address": "auranetwork-mainnet-grpc.autostake.com:443"
       },
       {
-        "address": "aura.mainnet.grpc.nodersteam.com:9100/"
-      },
-      {
         "address": "https://aura-grpc.ramuchi.tech:15000"
       },
       {

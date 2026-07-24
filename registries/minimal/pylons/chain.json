@@ -36,9 +36,6 @@
     "rpc": [
       {
         "address": "https://rpc.nodejumper.io:443/pylons"
-      },
-      {
-        "address": "https:/pylons-rpc.noders.services"
       }
     ],
     "rest": [

@@ -148,7 +148,7 @@
     ],
     "grpc": [
       {
-        "address": "grpc.nolus.network"
+        "address": "https://grpc.nolus.network"
       },
       {
         "address": "nolus-mainnet-grpc.autostake.com:443"

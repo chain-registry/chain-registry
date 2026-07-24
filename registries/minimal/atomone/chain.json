@@ -248,9 +248,6 @@
         "address": "atomone-grpc.cogwheel.zone:443"
       },
       {
-        "address": "atomone.grpc.nodeshub.online"
-      },
-      {
         "address": "https://grpc-atomone.nodeist.net"
       },
       {
@@ -284,7 +281,7 @@
         "address": "atomone-mainnet-grpc.shazoes.xyz:12090"
       },
       {
-        "address": "grpc-atomone.22node.xyz"
+        "address": "https://grpc-atomone.22node.xyz"
       },
       {
         "address": "m-atomone-grpc.ruangnode.com:12090"
@@ -299,7 +296,7 @@
         "address": "grpc.atomone-archive.citizenweb3.com:443"
       },
       {
-        "address": "atomone-grpc.nyan-cat.net"
+        "address": "https://atomone-grpc.nyan-cat.net"
       },
       {
         "address": "atomone-grpc.blocksync.me:443"

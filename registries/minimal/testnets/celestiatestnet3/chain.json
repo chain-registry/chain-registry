@@ -82,9 +82,6 @@
         "address": "celestia-testnet-grpc.publicnode.com:443"
       },
       {
-        "address": "grpc-mocha-full.avril14th.org"
-      },
-      {
         "address": "celestia-testnet-grpc.itrocket.net:443"
       },
       {

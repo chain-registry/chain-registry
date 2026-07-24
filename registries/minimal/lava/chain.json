@@ -206,9 +206,6 @@
         "address": "grpc-lava.r93axnodes.cloud:443"
       },
       {
-        "address": "grpc.lava-mainnet-1.lava.aviaone.com:9104/"
-      },
-      {
         "address": "grpc-lava.maouam.xyz:443"
       },
       {
@@ -288,6 +285,12 @@
       "url": "https://stake.astrostake.xyz/lava",
       "txPage": "https://stake.astrostake.xyz/lava/tx/${txHash}",
       "accountPage": "https://stake.astrostake.xyz/lava/address/${accountAddress}"
+    },
+    {
+      "kind": "moon-runners",
+      "url": "https://moon-runners.net/lava/mainnet",
+      "txPage": "https://moon-runners.net/lava/mainnet/finder?search=${txHash}",
+      "accountPage": "https://moon-runners.net/lava/mainnet/finder?search=${accountAddress}"
     }
   ]
 }

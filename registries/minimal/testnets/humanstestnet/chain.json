@@ -47,9 +47,7 @@
       }
     ],
     "evmHttpJsonrpc": [
-      {
-        "address": "humans-testnet-evm.cosmonautstakes.com"
-      }
+
     ]
   },
   "explorers": [

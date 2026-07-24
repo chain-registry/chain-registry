@@ -55,7 +55,7 @@
     ],
     "grpc": [
       {
-        "address": "grpc.kiivalidator.com"
+        "address": "https://grpc.kiivalidator.com"
       },
       {
         "address": "grpc-kiichain-mainnet.onenov.xyz:443"

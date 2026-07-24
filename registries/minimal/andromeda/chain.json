@@ -67,9 +67,6 @@
         "address": "https://andromeda.rpc.kjnodes.com"
       },
       {
-        "address": "andromeda-rpc.noders.services"
-      },
-      {
         "address": "https://andromeda.rpc.liveraven.net"
       }
     ],
@@ -97,9 +94,6 @@
       },
       {
         "address": "https://andromeda.api.kjnodes.com"
-      },
-      {
-        "address": "andromeda-api.noders.services"
       },
       {
         "address": "https://andromeda.api.liveraven.net"

@@ -62,9 +62,6 @@
       },
       {
         "address": "https://fx-grpc.portfolio-x.xyz:9090"
-      },
-      {
-        "address": "functionx.grpc.nodeshub.online"
       }
     ],
     "evmHttpJsonrpc": [

@@ -41,9 +41,7 @@
       }
     ],
     "evmHttpJsonrpc": [
-      {
-        "address": "_"
-      }
+
     ]
   },
   "explorers": [

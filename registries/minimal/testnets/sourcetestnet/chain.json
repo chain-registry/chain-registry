@@ -74,9 +74,7 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-testnet-source.sr20de.xyz/"
-      }
+
     ]
   },
   "explorers": [

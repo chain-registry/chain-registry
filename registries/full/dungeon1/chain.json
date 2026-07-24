@@ -54,10 +54,7 @@
       }
     ],
     "grpc": [
-      {
-        "address": "dungeon.grpc.quasarstaking.ai",
-        "provider": "Quasar"
-      }
+
     ]
   },
   "explorers": [

@@ -54,9 +54,6 @@
     ],
     "evmHttpJsonrpc": [
       {
-        "address": "pell-testnet-evm.cosmonautstakes.com:443"
-      },
-      {
         "address": "https://evmrpc-t.pell.nodestake.org"
       }
     ]

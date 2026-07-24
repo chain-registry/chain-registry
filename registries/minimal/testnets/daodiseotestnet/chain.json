@@ -50,9 +50,6 @@
         "address": "https://odiseo-testnet.rpc.stakevillage.net:443"
       },
       {
-        "address": "https://rpc.odiseo-testnet.irynamcc.co.uk:443 "
-      },
-      {
         "address": "https://daodiseo-testnet.rpc.mrsml.fun:443"
       },
       {
@@ -133,9 +130,6 @@
       },
       {
         "address": "daodiseo-testnet-grpc.stakerhouse.com:443"
-      },
-      {
-        "address": " grpc.odiseo-testnet.irynamcc.co.uk:443"
       },
       {
         "address": "odiseo-testnet.grpc.stakevillage.net:443"

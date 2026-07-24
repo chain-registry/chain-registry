@@ -244,7 +244,7 @@
         "address": "grpc.cosmoshub-main.ccvalidators.com:443"
       },
       {
-        "address": "cosmoshub.grpc.lava.build"
+        "address": "https://cosmoshub.grpc.lava.build"
       },
       {
         "address": "cosmoshub.lavenderfive.com:443"
@@ -283,7 +283,7 @@
         "address": "cosmoshub-mainnet-grpc.itrocket.net:443"
       },
       {
-        "address": "cosmoshub.grpc.quasarstaking.ai"
+        "address": "https://cosmoshub.grpc.quasarstaking.ai"
       },
       {
         "address": "grpc.cosmoshub-4-archive.citizenweb3.com:443"
@@ -430,6 +430,12 @@
       "validatorPage": "https://explorer.whenmoonwhenlambo.money/cosmos/staking/${validatorAddress}",
       "proposalPage": "https://explorer.whenmoonwhenlambo.money/cosmos/gov/${proposalId}",
       "blockPage": "https://explorer.whenmoonwhenlambo.money/cosmos/block/${blockHeight}"
+    },
+    {
+      "kind": "moon-runners",
+      "url": "https://moon-runners.net/cosmoshub/mainnet",
+      "txPage": "https://moon-runners.net/cosmoshub/mainnet/finder?search=${txHash}",
+      "accountPage": "https://moon-runners.net/cosmoshub/mainnet/finder?search=${accountAddress}"
     }
   ],
   "images": [

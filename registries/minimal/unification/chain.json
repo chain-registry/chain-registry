@@ -72,9 +72,6 @@
     "grpc": [
       {
         "address": "grpc.unification.io:443"
-      },
-      {
-        "address": "grpc.unification.chainmasters.info"
       }
     ]
   },

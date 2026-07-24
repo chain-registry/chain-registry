@@ -82,10 +82,7 @@
       }
     ],
     "grpc": [
-      {
-        "address": "terp-testnet-grpc.itrocket.net/",
-        "provider": "itrocket"
-      }
+
     ]
   },
   "explorers": [

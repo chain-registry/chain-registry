@@ -172,10 +172,7 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc.mainnet.milkyway.zone",
-        "provider": "MilkyWay Labs"
-      }
+
     ]
   },
   "explorers": [

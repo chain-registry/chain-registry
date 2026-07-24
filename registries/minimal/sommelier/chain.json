@@ -99,7 +99,7 @@
         "address": "sommelier-grpc.w3coins.io:14190"
       },
       {
-        "address": "grpc.sommelier.validatus.com"
+        "address": "https://grpc.sommelier.validatus.com"
       }
     ]
   },

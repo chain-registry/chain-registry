@@ -80,7 +80,7 @@
     ],
     "grpc": [
       {
-        "address": "cosmoshubt.grpc.lava.build"
+        "address": "https://cosmoshubt.grpc.lava.build"
       },
       {
         "address": "https://grpc.sentry-01.theta-testnet.polypore.xyz"

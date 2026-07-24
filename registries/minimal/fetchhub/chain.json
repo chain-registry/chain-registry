@@ -154,9 +154,6 @@
         "address": "fetch-grpc.publicnode.com:443"
       },
       {
-        "address": "fetch.grpc.nodeshub.online"
-      },
-      {
         "address": "grpc.fetchhub-4.fetch.aviaone.com:9094"
       },
       {

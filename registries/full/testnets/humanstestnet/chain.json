@@ -63,10 +63,7 @@
       }
     ],
     "evmHttpJsonrpc": [
-      {
-        "address": "humans-testnet-evm.cosmonautstakes.com",
-        "provider": "Cosmonaut Stakes"
-      }
+
     ]
   },
   "explorers": [

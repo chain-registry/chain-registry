@@ -132,16 +132,10 @@
         "address": "grpc-composable.vinjan.xyz:36090"
       },
       {
-        "address": "composable.grpc.skynodejs.net"
-      },
-      {
         "address": "composable.grpc.stakevillage.net:16190"
       },
       {
         "address": "picasso-rpc.stakeandrelax.net:22290"
-      },
-      {
-        "address": "grpc.composable.validatus.com"
       },
       {
         "address": "https://grpc.centauri.bronbro.io:443"

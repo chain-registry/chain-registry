@@ -77,10 +77,7 @@
       }
     ],
     "evmHttpJsonrpc": [
-      {
-        "address": "_",
-        "provider": "bfhlabs"
-      }
+
     ]
   },
   "explorers": [

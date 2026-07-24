@@ -79,9 +79,6 @@
         "address": "ibc-grpc.hippo-protocol.com:443"
       },
       {
-        "address": "hippo.grpc.nodeshub.online"
-      },
-      {
         "address": "hippo-grpc.node39.top:443"
       },
       {

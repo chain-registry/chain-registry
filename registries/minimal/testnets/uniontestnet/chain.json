@@ -46,9 +46,7 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc.testnet-9.union.build"
-      }
+
     ]
   },
   "explorers": [

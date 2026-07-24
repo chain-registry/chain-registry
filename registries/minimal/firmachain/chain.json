@@ -96,7 +96,7 @@
         "address": "https://firmachain-grpc.ramuchi.tech:1390"
       },
       {
-        "address": "firmachain.grpc.nodeshub.online"
+        "address": "https://firmachain.grpc.nodeshub.online"
       },
       {
         "address": "firmachain-grpc.polkachu.com:16490"

@@ -119,7 +119,7 @@
         "address": "http://cosmos.testnet.xrplevm.org:9090"
       },
       {
-        "address": "grpc-xrp.kintsugi-nodes.com"
+        "address": "https://grpc-xrp.kintsugi-nodes.com"
       },
       {
         "address": "https://polkachu.com/testnet_public_grpc"

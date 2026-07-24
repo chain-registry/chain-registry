@@ -79,7 +79,7 @@
     ],
     "grpc": [
       {
-        "address": "babylon.nodes.guru:443/grpc"
+        "address": "https://babylon.nodes.guru:443/grpc"
       },
       {
         "address": "babylon-grpc.polkachu.com:20690"
