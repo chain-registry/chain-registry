@@ -61,9 +61,6 @@
         "address": "https://public.stakewolle.com/cosmos/cheqd/rpc"
       },
       {
-        "address": "https://cheq-rpc.kleomedes.network"
-      },
-      {
         "address": "https://cheqd-srvs.vnodesv.net/rpc"
       },
       {
@@ -100,9 +97,6 @@
       },
       {
         "address": "https://public.stakewolle.com/cosmos/cheqd/rest"
-      },
-      {
-        "address": "https://cheq-api.kleomedes.network"
       },
       {
         "address": "https://cheqd-srvs.vnodesv.net/api"
