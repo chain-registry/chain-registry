@@ -1016,6 +1016,24 @@
       "name": "POSTHUMAN Reputation",
       "display": "resp",
       "symbol": "RESP"
+    },
+    {
+      "description": "pARTy (ART) - where art meets party in the interchain. A fair-launched community art token minted natively on Cosmos Hub via tokenfactory.",
+      "denomUnits": [
+        {
+          "denom": "factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art",
+          "exponent": 0
+        },
+        {
+          "denom": "art",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "factory/cosmos1w9ee57gnduzm4l9h6xwn9tee9pyh8wlr4r9r35/art",
+      "name": "pARTy",
+      "display": "art",
+      "symbol": "ART"
     }
   ]
 }
