@@ -1,0 +1,34 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "zerone",
+  "assets": [
+    {
+      "description": "The native staking and governance token of Zerone",
+      "denomUnits": [
+        {
+          "denom": "uzrn",
+          "exponent": 0,
+          "aliases": [
+            "microzrn"
+          ]
+        },
+        {
+          "denom": "mzrn",
+          "exponent": 3,
+          "aliases": [
+            "millizrn"
+          ]
+        },
+        {
+          "denom": "zrn",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "uzrn",
+      "name": "Zerone",
+      "display": "zrn",
+      "symbol": "ZRN"
+    }
+  ]
+}

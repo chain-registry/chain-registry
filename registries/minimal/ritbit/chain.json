@@ -3,19 +3,22 @@
   "chainName": "ritbit",
   "website": "https://rubin.trade/",
   "networkType": "mainnet",
-  "prettyName": "RITBIT",
+  "prettyName": "Rubin",
   "chainType": "cosmos",
   "chainId": "ritbit-mainnet",
   "bech32Prefix": "rit",
+  "keyAlgos": [
+    "secp256k1"
+  ],
   "slip44": 118,
   "fees": {
     "feeTokens": [
       {
         "denom": "urit",
-        "fixedMinGasPrice": 12500000000,
-        "lowGasPrice": 12500000000,
-        "averageGasPrice": 12500000000,
-        "highGasPrice": 20000000000
+        "fixedMinGasPrice": 25000000000,
+        "lowGasPrice": 25000000000,
+        "averageGasPrice": 25000000000,
+        "highGasPrice": 40000000000
       },
       {
         "denom": "uusdc",
@@ -33,7 +36,13 @@
       }
     ]
   },
-  "description": "RITBIT is the network that powers Rubin Trade — a self-custody decentralized exchange for crypto perpetual futures and spot trading.",
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.54.3"
+    }
+  },
+  "description": "Rubin is a self-custody decentralized exchange for crypto perpetual futures and spot trading.",
   "apis": {
     "rpc": [
       {
