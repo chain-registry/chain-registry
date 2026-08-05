@@ -28,7 +28,7 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.46.15"
+      "version": "0.50.6"
     }
   },
   "description": "GenesisL1 is a public distributed ledger for decentralized scientific data, assets, applications, and protocols, with a focus on bioinformatics, biotechnology, medicine, and machine learning.",
@@ -36,9 +36,6 @@
     "rpc": [
       {
         "address": "https://26657.genesisl1.org"
-      },
-      {
-        "address": "https://genesisl1-rpc.zenode.app"
       }
     ],
     "rest": [
@@ -57,20 +54,34 @@
   },
   "explorers": [
     {
+      "kind": "GenesisL1",
+      "url": "https://explorer.genesisl1.org",
+      "txPage": "https://explorer.genesisl1.org/tx/${txHash}",
+      "accountPage": "https://explorer.genesisl1.org/address/${accountAddress}"
+    },
+    {
+      "kind": "GenesisL1",
+      "url": "https://l1coin.com/explorer.html",
+      "txPage": "https://l1coin.com/explorer.html#/tx/${txHash}",
+      "accountPage": "https://l1coin.com/explorer.html#/address/${accountAddress}"
+    },
+    {
       "kind": "ping.pub",
       "url": "https://ping.pub/genesisL1",
-      "txPage": "https://ping.pub/genesisL1/tx/${txHash}"
+      "txPage": "https://ping.pub/genesisL1/tx/${txHash}",
+      "accountPage": "https://ping.pub/genesisL1/account/${accountAddress}"
     },
     {
       "kind": "ping.pub",
       "url": "https://exp.utsa.tech/genesis",
-      "txPage": "https://exp.utsa.tech/genesis/tx/${txHash}"
+      "txPage": "https://exp.utsa.tech/genesis/tx/${txHash}",
+      "accountPage": "https://exp.utsa.tech/genesis/account/${accountAddress}"
     },
     {
-      "kind": "🔥STAVR🔥",
+      "kind": "ping.pub",
       "url": "https://explorer.stavr.tech/Genesisl1",
       "txPage": "https://explorer.stavr.tech/Genesisl1/tx/${txHash}",
-      "accountPage": "https://explorer.stavr.tech/Genesisl1/accounts/${accountAddress}"
+      "accountPage": "https://explorer.stavr.tech/Genesisl1/account/${accountAddress}"
     },
     {
       "kind": "atomscan",

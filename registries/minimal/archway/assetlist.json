@@ -154,8 +154,7 @@
           },
           "provider": "Astrovault"
         }
-      ],
-      "coingeckoId": "astrovault"
+      ]
     },
     {
       "description": "Wrapped ARCH",
