@@ -33,59 +33,18 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-irisnet-01.stakeflow.io"
-      },
-      {
-        "address": "https://irisnet-rpc.w3coins.io"
-      },
-      {
-        "address": "https://iris-rpc.publicnode.com:443"
-      },
-      {
         "address": "https://mainnet-iris-rpc.konsortech.xyz"
       }
     ],
     "rest": [
       {
-        "address": "https://api-irisnet-01.stakeflow.io"
-      },
-      {
-        "address": "https://irisnet-api.w3coins.io"
-      },
-      {
-        "address": "https://iris-rest.publicnode.com"
-      },
-      {
         "address": "https://mainnet-iris-api.konsortech.xyz"
       }
     ],
     "grpc": [
-      {
-        "address": "grpc-irisnet-01.stakeflow.io:1902"
-      },
-      {
-        "address": "irisnet-grpc.w3coins.io:22690"
-      },
-      {
-        "address": "iris-grpc.publicnode.com:443"
-      },
-      {
-        "address": "iris.grpc.kjnodes.com:443"
-      },
-      {
-        "address": "https://grpc-irisnet.nodeist.net"
-      },
-      {
-        "address": "iris-mainnet.grpc.l0vd.com:80"
-      },
-      {
-        "address": "mainnet-iris.konsortech.xyz:30090"
-      }
+
     ],
     "evmHttpJsonrpc": [
-      {
-        "address": "https://iris-evm.publicnode.com"
-      },
       {
         "address": "https://mainnet-iris-evm.konsortech.xyz"
       }

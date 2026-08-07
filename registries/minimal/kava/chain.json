@@ -48,6 +48,9 @@
       },
       {
         "address": "https://kava-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://rpc.jjozzietech.com.au:9443/kava/tendermint/"
       }
     ],
     "rest": [
@@ -68,6 +71,9 @@
       },
       {
         "address": "https://kava.api.pocket.network"
+      },
+      {
+        "address": "https://rpc.jjozzietech.com.au:9443/kava/rest/"
       }
     ],
     "grpc": [
@@ -85,6 +91,9 @@
       },
       {
         "address": "https://grpc.kava.nodestake.org"
+      },
+      {
+        "address": "rpc.jjozzietech.com.au:9444"
       }
     ],
     "evmHttpJsonrpc": [
