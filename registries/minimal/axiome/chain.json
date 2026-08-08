@@ -1,0 +1,60 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "axiome",
+  "networkType": "mainnet",
+  "website": "https://axiome.pro/",
+  "prettyName": "Axiome",
+  "chainType": "cosmos",
+  "chainId": "axiome-1",
+  "bech32Prefix": "axm",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 546,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uaxm",
+        "fixedMinGasPrice": 1,
+        "lowGasPrice": 1,
+        "averageGasPrice": 1.65,
+        "highGasPrice": 7.4
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.50.3"
+    },
+    "cosmwasm": {
+      "version": "v0.50.0",
+      "enabled": true
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://api-chain.axiomechain.org"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://axm-lcd.trickle.pro"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Axiome Explorer",
+      "url": "https://axiomechain.pro",
+      "txPage": "https://axiomechain.pro/transactions/${txHash}",
+      "accountPage": "https://axiomechain.pro/address/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axiome/images/axiome.png"
+    }
+  ]
+}
