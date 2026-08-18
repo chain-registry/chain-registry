@@ -63,7 +63,7 @@
         "address": "https://terra-rpc.cosmosrescue.dev:8443"
       },
       {
-        "address": "https://terra-rpc.node39.top"
+        "address": "https://terra2-rpc.meshrpc.com"
       },
       {
         "address": "https://terra-m-rpc.onnode.org"
@@ -92,7 +92,7 @@
         "address": "https://terra-api.chainroot.io"
       },
       {
-        "address": "https://terra-api.node39.top"
+        "address": "https://terra2-api.meshrpc.com"
       },
       {
         "address": "https://terra-m-api.onnode.org"
@@ -130,7 +130,7 @@
         "address": "terra-grpc.chainroot.io:443"
       },
       {
-        "address": "terra-grpc.node39.top:443"
+        "address": "https://terra2-grpc.meshrpc.com"
       },
       {
         "address": "https://terra-phoenix-grpc.highstakes.ch"

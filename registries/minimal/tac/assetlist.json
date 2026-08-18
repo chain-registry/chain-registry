@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "tac",
+  "assets": [
+    {
+      "description": "The native staking and fee token of TAC.",
+      "denomUnits": [
+        {
+          "denom": "utac",
+          "exponent": 0
+        },
+        {
+          "denom": "tac",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "utac",
+      "name": "TAC Token",
+      "display": "tac",
+      "symbol": "TAC",
+      "coingeckoId": "tac"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "tac",
+  "website": "https://tac.build/",
+  "networkType": "mainnet",
+  "prettyName": "TAC",
+  "chainType": "cosmos",
+  "chainId": "tacchain_239-1",
+  "bech32Prefix": "tac",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utac",
+        "fixedMinGasPrice": 25000000000,
+        "lowGasPrice": 320000000000,
+        "averageGasPrice": 400000000000,
+        "highGasPrice": 800000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "utac"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "version": "v0.53.6"
+    }
+  },
+  "description": "TAC is a Cosmos SDK-based EVM Layer 1 that lets Ethereum applications serve Telegram users through the TON ecosystem.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.ankr.com/http/tac_tendermint"
+      },
+      {
+        "address": "https://rpc.tac.nodestake.org"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://rpc.ankr.com/http/tac_cosmos"
+      },
+      {
+        "address": "https://api.tac.nodestake.org"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.rpc.tac.build:443"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://rpc.tac.build"
+      },
+      {
+        "address": "https://rpc.ankr.com/tac"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.org/tac",
+      "txPage": "https://explorer.nodestake.org/tac/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/tac/account/${accountAddress}"
+    },
+    {
+      "kind": "blockscout",
+      "url": "https://evm.explorer.tac.build/",
+      "txPage": "https://evm.explorer.tac.build/tx/${txHash}",
+      "accountPage": "https://evm.explorer.tac.build/address/${accountAddress}",
+      "blockPage": "https://evm.explorer.tac.build/block/${blockHeight}"
+    }
+  ],
+  "images": [
+    {
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tac/images/tac.svg"
+    }
+  ]
+}
