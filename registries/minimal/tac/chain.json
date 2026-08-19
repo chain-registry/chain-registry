@@ -47,6 +47,9 @@
       },
       {
         "address": "https://rpc.tac.nodestake.org"
+      },
+      {
+        "address": "https://tacchain-rpc.polkachu.com:443"
       }
     ],
     "rest": [
@@ -55,11 +58,17 @@
       },
       {
         "address": "https://api.tac.nodestake.org"
+      },
+      {
+        "address": "https://tacchain-api.polkachu.com"
       }
     ],
     "grpc": [
       {
         "address": "grpc.rpc.tac.build:443"
+      },
+      {
+        "address": "tacchain-grpc.polkachu.com:32190"
       }
     ],
     "evmHttpJsonrpc": [

@@ -35,9 +35,9 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.53.3",
+      "version": "0.53.5",
       "repo": "https://github.com/cosmos/cosmos-sdk",
-      "tag": "v0.53.3"
+      "tag": "v0.53.5-0.20251030204916-768cb210885c"
     }
   },
   "images": [
@@ -52,6 +52,9 @@
         "address": "https://rpc.gnodi.zone:443"
       },
       {
+        "address": "https://rpc.gnodipowered.com"
+      },
+      {
         "address": "https://rpc-gnodi.vinjan-inc.com"
       }
     ],
@@ -60,12 +63,28 @@
         "address": "https://api.gnodi.zone:443"
       },
       {
+        "address": "https://api.gnodipowered.com"
+      },
+      {
         "address": "https://api-gnodi.vinjan-inc.com"
       }
     ],
     "grpc": [
       {
         "address": "grpc.gnodi.zone:443"
+      },
+      {
+        "address": "grpc-native.gnodipowered.com:443"
+      }
+    ],
+    "wss": [
+      {
+        "address": "wss://rpc.gnodipowered.com/websocket"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm.gnodipowered.com"
       }
     ]
   },
@@ -81,6 +100,28 @@
       "url": "https://explorer.vinjan-inc.com/gnodi",
       "txPage": "https://explorer.vinjan-inc.com/gnodi/tx/${txHash}",
       "accountPage": "https://explorer.vinjan-inc.com/gnodi/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake",
+      "url": "https://explorer.nodestake.org/gnodi",
+      "txPage": "https://explorer.nodestake.org/gnodi/tx/${txHash}",
+      "accountPage": "https://explorer.nodestake.org/gnodi/account/${accountAddress}"
+    },
+    {
+      "kind": "GnodiScan",
+      "url": "https://gnodiscanner.com",
+      "txPage": "https://gnodiscanner.com/txs/${txHash}",
+      "accountPage": "https://gnodiscanner.com/account/${accountAddress}",
+      "validatorPage": "https://gnodiscanner.com/validators/${validatorAddress}",
+      "proposalPage": "https://gnodiscanner.com/governance/${proposalId}",
+      "blockPage": "https://gnodiscanner.com/blocks/${blockHeight}"
+    },
+    {
+      "kind": "GnodiScan EVM",
+      "url": "https://evm.gnodiscanner.com",
+      "txPage": "https://evm.gnodiscanner.com/tx/${txHash}",
+      "accountPage": "https://evm.gnodiscanner.com/address/${accountAddress}",
+      "blockPage": "https://evm.gnodiscanner.com/block/${blockHeight}"
     }
   ]
 }
