@@ -3709,8 +3709,7 @@
             "path": "transfer/channel-143/usdx"
           }
         }
-      ],
-      "coingeckoId": "usdx"
+      ]
     },
     {
       "description": "BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.",

@@ -74,7 +74,6 @@
       "name": "Kava USDX",
       "display": "USDX",
       "symbol": "USDX",
-      "coingeckoId": "usdx",
       "assetType": "sdk.coin"
     },
     {

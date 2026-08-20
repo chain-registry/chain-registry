@@ -1,0 +1,75 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "sovr",
+  "chainType": "cosmos",
+  "chainId": "sovr-1",
+  "prettyName": "Sovren",
+  "networkType": "mainnet",
+  "bech32Prefix": "sovr",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "usovr",
+        "fixedMinGasPrice": 0.001,
+        "lowGasPrice": 0.025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "usovr"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.53.8"
+    },
+    "cosmwasm": {
+      "version": "v0.60.7",
+      "enabled": true
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.sovrchain.net"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.sovrchain.net"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.sovrchain.net:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "sovrscan",
+      "url": "https://sovrscan.com",
+      "txPage": "https://sovrscan.com/transactions/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sovr/images/sovr.svg"
+    }
+  ],
+  "website": "https://sovrentech.io"
+}

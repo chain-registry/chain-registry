@@ -4,7 +4,7 @@
   "chainType": "cosmos",
   "chainId": "theta-testnet-001",
   "prettyName": "[DEPRECATED] Cosmos Hub Public Testnet, will be sunset 2024-12-01",
-  "status": "live",
+  "status": "killed",
   "networkType": "testnet",
   "bech32Prefix": "cosmos",
   "daemonName": "gaiad",
