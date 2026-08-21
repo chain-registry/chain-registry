@@ -897,6 +897,39 @@
       "assetType": "sdk.coin"
     },
     {
+      "description": "USD Coin issued natively on Injective by Circle",
+      "denomUnits": [
+        {
+          "denom": "ibc/E8481AD838C31D4FC12A504B10F9B4E2F830F8818D2735C2FFC707579B5FA60B",
+          "exponent": 0
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/E8481AD838C31D4FC12A504B10F9B4E2F830F8818D2735C2FFC707579B5FA60B",
+      "name": "Injective USDC",
+      "display": "usdc",
+      "symbol": "USDC.inj",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+            "channelId": "channel-151"
+          },
+          "chain": {
+            "channelId": "channel-255",
+            "path": "transfer/channel-255/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a"
+          }
+        }
+      ],
+      "assetType": "ics20",
+      "coingeckoId": "usd-coin"
+    },
+    {
       "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
       "denomUnits": [
         {
