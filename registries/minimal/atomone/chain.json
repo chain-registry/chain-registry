@@ -85,7 +85,7 @@
         "address": "https://atomone-mainnet-rpc.itrocket.net:443"
       },
       {
-        "address": "https://rpc-atone.vinjan.xyz"
+        "address": "https://rpc-m.atomone.vinjan-inc.com"
       },
       {
         "address": "https://rpc-atomone.ecostake.com"
@@ -183,7 +183,7 @@
         "address": "https://atomone-mainnet-api.itrocket.net"
       },
       {
-        "address": "https://api-atone.vinjan.xyz"
+        "address": "https://api-m.atomone.vinjan-inc.com"
       },
       {
         "address": "https://rest-atomone.ecostake.com"

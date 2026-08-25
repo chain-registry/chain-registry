@@ -27,16 +27,10 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-mocha.pops.one"
-      },
-      {
         "address": "https://celestia-testnet-rpc.publicnode.com:443"
       },
       {
         "address": "https://rpc-mocha-full.avril14th.org"
-      },
-      {
-        "address": "https://celestia-testnet-rpc.itrocket.net"
       },
       {
         "address": "https://rpc-celestia-testnet.cryptech.com.ua"
@@ -53,16 +47,10 @@
     ],
     "rest": [
       {
-        "address": "https://api-mocha.pops.one"
-      },
-      {
         "address": "https://celestia-testnet-rest.publicnode.com"
       },
       {
         "address": "https://api-mocha-full.avril14th.org"
-      },
-      {
-        "address": "https://celestia-testnet-api.itrocket.net"
       },
       {
         "address": "https://api-celestia-testnet.cryptech.com.ua"
@@ -80,9 +68,6 @@
     "grpc": [
       {
         "address": "celestia-testnet-grpc.publicnode.com:443"
-      },
-      {
-        "address": "celestia-testnet-grpc.itrocket.net:443"
       },
       {
         "address": "https://grpc-celestia-testnet.cryptech.com.ua"

@@ -87,28 +87,7 @@
         "address": "https://rpc.nolus.network"
       },
       {
-        "address": "https://nolus-mainnet-rpc.autostake.com:443"
-      },
-      {
-        "address": "https://rpc.lavenderfive.com:443/nolus"
-      },
-      {
         "address": "https://nolus.rpc.liveraven.net"
-      },
-      {
-        "address": "https://rpc-nolus.architectnodes.com"
-      },
-      {
-        "address": "https://nolus.rpc.kjnodes.com"
-      },
-      {
-        "address": "https://nolus-rpc.enigma-validator.com/"
-      },
-      {
-        "address": "https://nolus-rpc.w3coins.io"
-      },
-      {
-        "address": "https://nolus-rpc.publicnode.com:443"
       },
       {
         "address": "https://nolus-rpc.polkachu.com:443"
@@ -119,28 +98,7 @@
         "address": "https://lcd.nolus.network"
       },
       {
-        "address": "https://nolus-mainnet-lcd.autostake.com:443"
-      },
-      {
-        "address": "https://rest.lavenderfive.com:443/nolus"
-      },
-      {
         "address": "https://nolus.api.liveraven.net"
-      },
-      {
-        "address": "https://rest-nolus.architectnodes.com"
-      },
-      {
-        "address": "https://nolus.api.kjnodes.com"
-      },
-      {
-        "address": "https://nolus-lcd.enigma-validator.com/"
-      },
-      {
-        "address": "https://nolus-api.w3coins.io"
-      },
-      {
-        "address": "https://nolus-rest.publicnode.com"
       },
       {
         "address": "https://nolus-api.polkachu.com"
@@ -151,25 +109,7 @@
         "address": "https://grpc.nolus.network"
       },
       {
-        "address": "nolus-mainnet-grpc.autostake.com:443"
-      },
-      {
-        "address": "nolus.lavenderfive.com:443"
-      },
-      {
         "address": "https://nolus.grpc.liveraven.net"
-      },
-      {
-        "address": "grpc-nolus.architectnodes.com:1443"
-      },
-      {
-        "address": "nolus.grpc.kjnodes.com:14390"
-      },
-      {
-        "address": "nolus-grpc.w3coins.io:19790"
-      },
-      {
-        "address": "nolus-grpc.publicnode.com:443"
       },
       {
         "address": "nolus-grpc.polkachu.com:19790"
@@ -177,24 +117,6 @@
     ]
   },
   "explorers": [
-    {
-      "kind": "Nolus Explorer",
-      "url": "https://explorer.nolus.io/pirin-1",
-      "txPage": "https://explorer.nolus.io/pirin-1/tx/${txHash}",
-      "accountPage": "https://explorer.nolus.io/pirin-1/account/${accountAddress}"
-    },
-    {
-      "kind": "ping.pub",
-      "url": "https://ping.pub/nolus",
-      "txPage": "https://ping.pub/nolus/tx/${txHash}",
-      "accountPage": "https://ping.pub/nolus/account/${accountAddress}"
-    },
-    {
-      "kind": "NODEXPLORER",
-      "url": "https://explorer.nodexcapital.com/nolus",
-      "txPage": "https://explorer.nodexcapital.com/nolus/tx/${txHash}",
-      "accountPage": "https://explorer.nodexcapital.com/nolus/account/${accountAddress}"
-    },
     {
       "kind": "Nodes Guru Explorer",
       "url": "https://nolus.explorers.guru",

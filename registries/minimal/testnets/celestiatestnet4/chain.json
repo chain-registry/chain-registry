@@ -1,0 +1,96 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "celestiatestnet4",
+  "chainType": "cosmos",
+  "chainId": "mocha-5",
+  "prettyName": "Mocha Testnet",
+  "networkType": "testnet",
+  "bech32Prefix": "celestia",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "utia",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.02,
+        "highGasPrice": 0.1
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "utia"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "repo": "https://github.com/celestiaorg/cosmos-sdk",
+      "version": "v0.52.8",
+      "tag": "v0.52.8"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-mocha.pops.one"
+      },
+      {
+        "address": "https://rpc-1.testnet.celestia.nodes.guru"
+      },
+      {
+        "address": "https://rpc-2.testnet.celestia.nodes.guru"
+      },
+      {
+        "address": "https://celestia-testnet-rpc.itrocket.net"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-mocha.pops.one"
+      },
+      {
+        "address": "https://api-1.testnet.celestia.nodes.guru"
+      },
+      {
+        "address": "https://api-2.testnet.celestia.nodes.guru"
+      },
+      {
+        "address": "https://celestia-testnet-api.itrocket.net"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-mocha.pops.one:9090"
+      },
+      {
+        "address": "grpc-1.testnet.celestia.nodes.guru:10790"
+      },
+      {
+        "address": "grpc-2.testnet.celestia.nodes.guru:10790"
+      },
+      {
+        "address": "celestia-testnet-grpc.itrocket.net:443"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "Valopers",
+      "url": "https://testnet.celestia.valopers.com/",
+      "txPage": "https://testnet.celestia.valopers.com/transactions/${txHash}",
+      "accountPage": "https://testnet.celestia.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeStake Explorer",
+      "url": "https://explorer.nodestake.org/celestia-testnet",
+      "txPage": "https://explorer.nodestake.org/celestia-testnet/tx/${txHash}"
+    }
+  ]
+}
