@@ -86,9 +86,6 @@
         "address": "https://rpc-sentinel.chainvibes.com:443"
       },
       {
-        "address": "https://sentinel.rpc.quasarstaking.ai:443"
-      },
-      {
         "address": "https://rpc.sentinel.validatus.com"
       },
       {
@@ -142,9 +139,6 @@
         "address": "https://api-sentinel.chainvibes.com:443"
       },
       {
-        "address": "https://sentinel.api.quasarstaking.ai:443"
-      },
-      {
         "address": "https://api.sentinel.validatus.com"
       },
       {
@@ -184,9 +178,6 @@
       },
       {
         "address": "https://grpc.noncompliant.network:9090"
-      },
-      {
-        "address": "sentinel.grpc.quasarstaking.ai:80"
       },
       {
         "address": "grpc.sentinel.validatus.com:443"

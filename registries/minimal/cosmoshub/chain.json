@@ -123,9 +123,6 @@
         "address": "https://cosmoshub-mainnet-rpc.itrocket.net"
       },
       {
-        "address": "https://cosmoshub.rpc.quasarstaking.ai"
-      },
-      {
         "address": "https://cosmos.ibs.team:443/rpc"
       },
       {
@@ -215,9 +212,6 @@
         "address": "https://cosmoshub-mainnet-api.itrocket.net"
       },
       {
-        "address": "https://cosmoshub.api.quasarstaking.ai"
-      },
-      {
         "address": "https://cosmos.ibs.team:443/api"
       },
       {
@@ -281,9 +275,6 @@
       },
       {
         "address": "cosmoshub-mainnet-grpc.itrocket.net:443"
-      },
-      {
-        "address": "https://cosmoshub.grpc.quasarstaking.ai"
       },
       {
         "address": "grpc.cosmoshub-4-archive.citizenweb3.com:443"

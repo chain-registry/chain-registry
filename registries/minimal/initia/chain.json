@@ -39,9 +39,6 @@
         "address": "https://rpc.initia.xyz"
       },
       {
-        "address": "https://initia.rpc.quasarstaking.ai:443"
-      },
-      {
         "address": "https://initia-mainnet-rpc.autostake.com:443"
       },
       {
@@ -53,9 +50,6 @@
         "address": "https://rest.initia.xyz"
       },
       {
-        "address": "https://initia.api.quasarstaking.ai:443"
-      },
-      {
         "address": "https://initia-mainnet-lcd.autostake.com:443"
       },
       {
@@ -65,9 +59,6 @@
     "grpc": [
       {
         "address": "grpc.initia.xyz:443"
-      },
-      {
-        "address": "initia.grpc.quasarstaking.ai:80"
       },
       {
         "address": "initia-mainnet-grpc.autostake.com:443"

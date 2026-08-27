@@ -83,9 +83,6 @@
       },
       {
         "address": "https://kopi-rpc.node39.top:443"
-      },
-      {
-        "address": "https://kopi.rpc.quasarstaking.ai:443"
       }
     ],
     "rest": [
@@ -127,9 +124,6 @@
       },
       {
         "address": "https://kopi-api.node39.top:443"
-      },
-      {
-        "address": "https://kopi.api.quasarstaking.ai:443"
       }
     ],
     "grpc": [
@@ -156,9 +150,6 @@
       },
       {
         "address": "https://kopi-grpc.node39.top:15090"
-      },
-      {
-        "address": "kopi.grpc.quasarstaking.ai:80"
       }
     ]
   },

@@ -25,9 +25,6 @@
         "address": "https://rpc.dungeongames.io"
       },
       {
-        "address": "https://dungeon-wallet.rpc.quasarstaking.ai"
-      },
-      {
         "address": "https://rpc-dungeon-1.seraphim.zone"
       },
       {
@@ -40,9 +37,6 @@
     "rest": [
       {
         "address": "https://api.dungeongames.io"
-      },
-      {
-        "address": "https://dungeon-wallet.api.quasarstaking.ai"
       },
       {
         "address": "https://api-dungeon-1.seraphim.zone"
@@ -58,9 +52,6 @@
       }
     ],
     "grpc": [
-      {
-        "address": "dungeon.grpc.quasarstaking.ai:80"
-      },
       {
         "address": "grpc.dungeon.chaintools.tech:443"
       }

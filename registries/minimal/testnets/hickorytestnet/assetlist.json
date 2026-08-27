@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "hickorytestnet",
+  "assets": [
+    {
+      "description": "The native staking, governance and utility token of the Hickory Blockchain testnet.",
+      "denomUnits": [
+        {
+          "denom": "uhic",
+          "exponent": 0
+        },
+        {
+          "denom": "HIC",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "uhic",
+      "name": "Hickory",
+      "display": "HIC",
+      "symbol": "HIC"
+    }
+  ]
+}
