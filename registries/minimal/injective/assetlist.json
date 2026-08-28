@@ -1104,6 +1104,24 @@
       "display": "HELIXPOINT",
       "symbol": "HELIXPOINT",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "MOTION is the token of Motionism on Injective, launched on Trippy Pump (SHROOM Pad). Nothing happens until something moves.",
+      "denomUnits": [
+        {
+          "denom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db",
+          "exponent": 0
+        },
+        {
+          "denom": "MOTION",
+          "exponent": 18
+        }
+      ],
+      "base": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db",
+      "name": "Motion",
+      "display": "MOTION",
+      "symbol": "MOTION",
+      "assetType": "sdk.coin"
     }
   ]
 }

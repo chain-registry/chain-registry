@@ -61,14 +61,15 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "repo": "https://github.com/neutron-org/cosmos-sdk",
-      "version": "v0.50.10",
-      "tag": "v0.50.10-neutron"
+      "repo": "https://github.com/solva-solutions/neutron-cosmos-sdk",
+      "version": "v0.53.4",
+      "tag": "v0.53.4-neutron"
     },
     "cosmwasm": {
-      "version": "v0.53.0",
-      "repo": "https://github.com/neutron-org/wasmd",
-      "enabled": true
+      "version": "v0.61.14",
+      "repo": "https://github.com/solva-solutions/neutron-wasmd",
+      "enabled": true,
+      "tag": "v0.61.14-neutron"
     }
   },
   "description": "The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.",
@@ -79,18 +80,6 @@
       },
       {
         "address": "https://rpc-archive.neutron.solva.solutions:443"
-      },
-      {
-        "address": "https://rpc-lb.neutron.org"
-      },
-      {
-        "address": "https://rpc-solara.neutron-1.neutron.org"
-      },
-      {
-        "address": "https://rpc-vertexa.neutron-1.neutron.org"
-      },
-      {
-        "address": "https://rpc.novel.remedy.tm.p2p.org"
       },
       {
         "address": "https://rpc.lavenderfive.com:443/neutron"

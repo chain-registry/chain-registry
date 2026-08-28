@@ -44,17 +44,12 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.sandbox.nymtech.net"
+        "address": "https://validator-sandbox-1.nymtech.net"
       }
     ],
     "rest": [
       {
-        "address": "https://api.sandbox.nymtech.net"
-      }
-    ],
-    "grpc": [
-      {
-        "address": "grpc.sandbox.nymtech.net:443"
+        "address": "https://validator-sandbox-1.nymtech.net/api"
       }
     ]
   },

@@ -49,6 +49,9 @@
       },
       {
         "address": "https://celestia-testnet-rpc.itrocket.net"
+      },
+      {
+        "address": "https://mocha5.celestia.rpc.cumulo.me"
       }
     ],
     "rest": [
@@ -63,6 +66,9 @@
       },
       {
         "address": "https://celestia-testnet-api.itrocket.net"
+      },
+      {
+        "address": "https://mocha5.celestia.api.cumulo.me"
       }
     ],
     "grpc": [
@@ -77,6 +83,14 @@
       },
       {
         "address": "celestia-testnet-grpc.itrocket.net:443"
+      },
+      {
+        "address": "https://mocha5.celestia.grpc.cumulo.me"
+      }
+    ],
+    "wss": [
+      {
+        "address": "wss://mocha5.celestia.rpc.cumulo.me/websocket"
       }
     ]
   },
