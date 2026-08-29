@@ -290,7 +290,7 @@
       "base": "ibc/DE6792CF9E521F6AD6E9A4BDF6225C9571A3B74ACC0A529F92BC5122A39D2E58",
       "name": "USD Coin",
       "display": "usdc",
-      "symbol": "USDC",
+      "symbol": "USDC.n",
       "traces": [
         {
           "type": "synthetic",

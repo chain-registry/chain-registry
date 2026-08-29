@@ -41,7 +41,7 @@
       "base": "ibc/616E26A85AD20A3DDEAEBDDE7262E3BA9356C557BC15CACEA86768D7D51FA703",
       "name": "USDC",
       "display": "usdc",
-      "symbol": "USDC",
+      "symbol": "USDC.n",
       "coingeckoId": "usd-coin",
       "traces": [
         {

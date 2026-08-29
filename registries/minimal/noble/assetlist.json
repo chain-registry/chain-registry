@@ -99,7 +99,7 @@
       "base": "uusdc",
       "display": "usdc",
       "name": "USDC",
-      "symbol": "USDC",
+      "symbol": "USDC.n",
       "coingeckoId": "usd-coin",
       "traces": [
         {

@@ -278,7 +278,7 @@
       "base": "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4",
       "name": "USDC",
       "display": "USDC",
-      "symbol": "USDC",
+      "symbol": "USDC.n",
       "traces": [
         {
           "type": "synthetic",
