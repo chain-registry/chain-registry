@@ -1121,6 +1121,7 @@
       "name": "Motion",
       "display": "MOTION",
       "symbol": "MOTION",
+      "coingeckoId": "motion-6",
       "assetType": "sdk.coin"
     }
   ]
