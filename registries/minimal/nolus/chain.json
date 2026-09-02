@@ -91,6 +91,9 @@
       },
       {
         "address": "https://nolus-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://nolus-rpc.cogwheel.zone"
       }
     ],
     "rest": [
@@ -102,6 +105,9 @@
       },
       {
         "address": "https://nolus-api.polkachu.com"
+      },
+      {
+        "address": "https://nolus-api.cogwheel.zone"
       }
     ],
     "grpc": [
@@ -113,6 +119,9 @@
       },
       {
         "address": "nolus-grpc.polkachu.com:19790"
+      },
+      {
+        "address": "nolus-grpc.cogwheel.zone:443"
       }
     ]
   },

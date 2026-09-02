@@ -114,6 +114,9 @@
       },
       {
         "address": "https://celestia.cumulo.org.es"
+      },
+      {
+        "address": "https://celestia-rpc.cogwheel.zone"
       }
     ],
     "rest": [
@@ -185,6 +188,9 @@
       },
       {
         "address": "https://celestia-api.polkachu.com"
+      },
+      {
+        "address": "https://celestia-api.cogwheel.zone"
       }
     ],
     "grpc": [
@@ -241,11 +247,17 @@
       },
       {
         "address": "https://celestia.grpc.cumulo.org.es"
+      },
+      {
+        "address": "celestia-grpc.cogwheel.zone:443"
       }
     ],
     "wss": [
       {
         "address": "wss://celestia.cumulo.org.es/websocket"
+      },
+      {
+        "address": "wss://celestia-rpc.cogwheel.zone/websocket"
       }
     ]
   },

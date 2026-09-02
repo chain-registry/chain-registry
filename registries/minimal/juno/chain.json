@@ -71,9 +71,6 @@
         "address": "https://rpc.juno.validatus.com"
       },
       {
-        "address": "https://juno-rpc.cogwheel.zone"
-      },
-      {
         "address": "https://juno.api.pocket.network"
       },
       {
@@ -106,9 +103,6 @@
         "address": "https://api.juno.validatus.com"
       },
       {
-        "address": "https://juno-api.cogwheel.zone"
-      },
-      {
         "address": "https://juno.api.pocket.network"
       }
     ],
@@ -127,9 +121,6 @@
       },
       {
         "address": "juno-grpc.publicnode.com:443"
-      },
-      {
-        "address": "juno-grpc.cogwheel.zone:443"
       },
       {
         "address": "grpc.juno.validatus.com:443"
