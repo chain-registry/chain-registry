@@ -70,9 +70,6 @@
     "grpc": [
       {
         "address": "http://wormchain-mainnet-1-full-grpc.tm.p2p.org"
-      },
-      {
-        "address": "wormchain-grpc.polkachu.com:25990"
       }
     ]
   },

@@ -1,0 +1,80 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "nvnmchaintestnet",
+  "chainType": "cosmos",
+  "chainId": "nvnm-testnet-1",
+  "prettyName": "NVNM Chain Testnet",
+  "networkType": "testnet",
+  "website": "https://nvnmchain.io",
+  "bech32Prefix": "nvnm",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "ibc/00E24F149F01782E2C423BDB114C98D6C657DFC583124389192187BF8DC3A1AD",
+        "fixedMinGasPrice": 40000000000,
+        "lowGasPrice": 40000000000,
+        "averageGasPrice": 80000000000,
+        "highGasPrice": 120000000000
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.53.6",
+      "repo": "https://github.com/MANTRA-Chain/cosmos-sdk",
+      "tag": "v0.53.8-v8-mantra-1"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.testnet.nvnmchain.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.testnet.nvnmchain.io"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm.testnet.nvnmchain.io"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://explorer.nvnmchain.io/NVNM%20Testnet",
+      "txPage": "https://explorer.nvnmchain.io/NVNM%20Testnet/tx/${txHash}",
+      "accountPage": "https://explorer.nvnmchain.io/NVNM%20Testnet/account/${accountAddress}"
+    },
+    {
+      "kind": "blockscout",
+      "url": "https://explorer.evm.testnet.nvnmchain.io",
+      "txPage": "https://explorer.evm.testnet.nvnmchain.io/tx/${txHash}",
+      "accountPage": "https://explorer.evm.testnet.nvnmchain.io/address/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "imageSync": {
+        "chainName": "nvnmchain",
+        "baseDenom": "anvnm"
+      },
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nvnmchain/images/nvnm-token-primary.svg",
+      "theme": {
+        "circle": true
+      }
+    }
+  ]
+}

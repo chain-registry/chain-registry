@@ -1,0 +1,59 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "nvnmchain",
+  "assets": [
+    {
+      "description": "Governance and utility token for NVNM Chain.",
+      "denomUnits": [
+        {
+          "denom": "anvnm",
+          "exponent": 0
+        },
+        {
+          "denom": "nvnm",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "anvnm",
+      "name": "NVNM",
+      "display": "nvnm",
+      "symbol": "NVNM"
+    },
+    {
+      "description": "The wrapped version of mantraUSD, which is the ERC20 token bridged from the provider chain and used as the gas token on the consumer chain.",
+      "denomUnits": [
+        {
+          "denom": "ibc/93575DF9D4BC5B2C85D967DE020E5DEA1863FDD108AD509A36DA6C83E3398227",
+          "exponent": 0,
+          "aliases": [
+            "erc20:0x5EB619e3dcA586c321Bb83282D2916577B5c383d"
+          ]
+        },
+        {
+          "denom": "wmantrausd",
+          "exponent": 18
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/93575DF9D4BC5B2C85D967DE020E5DEA1863FDD108AD509A36DA6C83E3398227",
+      "name": "Wrapped mantraUSD",
+      "display": "wmantrausd",
+      "symbol": "wmantraUSD",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "mantrachain",
+            "baseDenom": "erc20:0x5EB619e3dcA586c321Bb83282D2916577B5c383d",
+            "channelId": "channel-9"
+          },
+          "chain": {
+            "channelId": "channel-1",
+            "path": "transfer/channel-1/erc20:0x5EB619e3dcA586c321Bb83282D2916577B5c383d"
+          }
+        }
+      ]
+    }
+  ]
+}
