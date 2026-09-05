@@ -47,7 +47,7 @@
         "address": "https://rpc-epix.onenov.xyz"
       },
       {
-        "address": "https://rpc-m.epix.vinjan-inc.com"
+        "address": "https://rpc-epix.vinjan-inc.com"
       },
       {
         "address": "https://rpc-epix.dnsarz.net:443"
@@ -61,7 +61,7 @@
         "address": "https://api-epix.onenov.xyz"
       },
       {
-        "address": "https://api-m.epix.vinjan-inc.com"
+        "address": "https://api-epix.vinjan-inc.com"
       },
       {
         "address": "https://api-epix.dnsarz.net"
@@ -72,7 +72,7 @@
         "address": "grpc.epix.zone:15067"
       },
       {
-        "address": "grpc-m.epix.vinjan-inc.com:39990"
+        "address": "grpc-epix.vinjan-inc.com:39990"
       },
       {
         "address": "grpc-epix.dnsarz.net:443"
