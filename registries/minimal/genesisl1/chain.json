@@ -36,6 +36,12 @@
     "rpc": [
       {
         "address": "https://26657.genesisl1.org"
+      },
+      {
+        "address": "https://rpc.gl1infra.online"
+      },
+      {
+        "address": "https://rpc.vicky.gl1infra.online"
       }
     ],
     "rest": [
@@ -44,11 +50,23 @@
       },
       {
         "address": "https://1317.genesisl1.org"
+      },
+      {
+        "address": "https://api.gl1infra.online"
+      },
+      {
+        "address": "https://api.vicky.gl1infra.online"
       }
     ],
     "evmHttpJsonrpc": [
       {
         "address": "https://rpc.genesisl1.org"
+      },
+      {
+        "address": "https://evm.gl1infra.online"
+      },
+      {
+        "address": "https://evm.vicky.gl1infra.online"
       }
     ]
   },
