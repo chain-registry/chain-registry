@@ -15,18 +15,18 @@
   "fees": {
     "feeTokens": [
       {
-        "denom": "uzig",
-        "fixedMinGasPrice": 0.0025,
-        "lowGasPrice": 0.0025,
-        "averageGasPrice": 0.025,
-        "highGasPrice": 0.05
+        "denom": "azig",
+        "fixedMinGasPrice": 2500000000,
+        "lowGasPrice": 2500000000,
+        "averageGasPrice": 25000000000,
+        "highGasPrice": 50000000000
       }
     ]
   },
   "staking": {
     "stakingTokens": [
       {
-        "denom": "uzig"
+        "denom": "azig"
       }
     ],
     "lockDuration": {
@@ -77,7 +77,7 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.53.5"
+      "version": "0.53.8"
     },
     "cosmwasm": {
       "version": "0.55.1",
@@ -108,7 +108,7 @@
     {
       "imageSync": {
         "chainName": "zigchaintestnet",
-        "baseDenom": "uzig"
+        "baseDenom": "azig"
       },
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
       "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg"

@@ -53,9 +53,6 @@
         "address": "https://rpc.lavenderfive.com:443/seda"
       },
       {
-        "address": "https://seda.ibs.team:443/rpc"
-      },
-      {
         "address": "https://rpc.seda.bronbro.io:443"
       },
       {
@@ -98,9 +95,6 @@
       },
       {
         "address": "https://rest.lavenderfive.com:443/seda"
-      },
-      {
-        "address": "https://seda.ibs.team:443/api"
       },
       {
         "address": "https://lcd.seda.bronbro.io:443"
