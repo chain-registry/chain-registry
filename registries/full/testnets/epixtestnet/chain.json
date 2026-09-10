@@ -1,7 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "epixtestnet",
-  "status": "live",
+  "status": "killed",
   "networkType": "testnet",
   "website": "https://epix.zone/",
   "prettyName": "Epix Testnet",

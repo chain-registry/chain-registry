@@ -18,6 +18,7 @@
       "name": "Epix",
       "display": "epix",
       "symbol": "EPIX",
+      "coingeckoId": "epix",
       "assetType": "sdk.coin"
     }
   ]

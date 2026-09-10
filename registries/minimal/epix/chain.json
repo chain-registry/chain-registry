@@ -18,10 +18,10 @@
     "feeTokens": [
       {
         "denom": "aepix",
-        "fixedMinGasPrice": 1000000000000,
-        "lowGasPrice": 1000000000000,
-        "averageGasPrice": 2000000000000,
-        "highGasPrice": 3000000000000
+        "fixedMinGasPrice": 20000000000,
+        "lowGasPrice": 20000000000,
+        "averageGasPrice": 25000000000,
+        "highGasPrice": 30000000000
       }
     ]
   },
@@ -35,9 +35,13 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.46"
+      "version": "v0.54.3"
+    },
+    "cosmwasm": {
+      "enabled": false
     }
   },
+  "description": "Epix is designed to power a completely decentralized internet, where websites are hosted by everyone and controlled by no one, making the web unstoppable.",
   "apis": {
     "rpc": [
       {
@@ -69,13 +73,7 @@
     ],
     "grpc": [
       {
-        "address": "grpc.epix.zone:15067"
-      },
-      {
         "address": "grpc-epix.vinjan-inc.com:39990"
-      },
-      {
-        "address": "grpc-epix.dnsarz.net:443"
       }
     ],
     "evmHttpJsonrpc": [
@@ -86,19 +84,25 @@
   },
   "explorers": [
     {
-      "kind": "L1",
+      "kind": "Epix",
       "url": "https://explorer.epix.zone/",
-      "txPage": "https://explorer.epix.zone/epix/tx/${txHash}"
+      "txPage": "https://explorer.epix.zone/#/tx/${txHash}",
+      "accountPage": "https://explorer.epix.zone/#/account/${accountAddress}",
+      "blockPage": "https://explorer.epix.zone/#/block/${blockHeight}",
+      "proposalPage": "https://explorer.epix.zone/#/gov/${proposalId}"
     },
     {
       "kind": "OneNov",
-      "url": "https://explorer.onenov.xyz",
-      "txPage": "https://explorer.onenov.xyz/epix/tx/${txHash}"
+      "url": "https://explorer.onenov.xyz/epix",
+      "txPage": "https://explorer.onenov.xyz/epix/tx/${txHash}",
+      "accountPage": "https://explorer.onenov.xyz/epix/account/${accountAddress}"
     },
     {
-      "kind": "EVM",
+      "kind": "Blockscout",
       "url": "https://scan.epix.zone/",
-      "txPage": "https://scan.epix.zone/tx/${txHash}"
+      "txPage": "https://scan.epix.zone/tx/${txHash}",
+      "accountPage": "https://scan.epix.zone/address/${accountAddress}",
+      "blockPage": "https://scan.epix.zone/block/${blockHeight}"
     }
   ],
   "images": [
