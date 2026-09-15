@@ -74,11 +74,20 @@
     "grpc": [
       {
         "address": "grpc-epix.vinjan-inc.com:39990"
+      },
+      {
+        "address": "grpc-epix.dnsarz.net:443"
+      },
+      {
+        "address": "grpc-epix.onenov.xyz:443"
       }
     ],
     "evmHttpJsonrpc": [
       {
         "address": "https://evmrpc.epix.zone/"
+      },
+      {
+        "address": "https://evm-epix.onenov.xyz"
       }
     ]
   },

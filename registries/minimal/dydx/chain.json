@@ -41,7 +41,7 @@
       "type": "cosmos",
       "repo": "https://github.com/dydxprotocol/cosmos-sdk",
       "version": "v0.50.11",
-      "tag": "v0.50.6-0.20260126162345-69ba38d4ae69"
+      "tag": "v0.50.6-0.20260428191449-a212821dc2c3"
     }
   },
   "description": "Our goal is to build open source code that can power a first class product and trading experience.",
@@ -158,6 +158,12 @@
       "url": "https://dydx.valopers.com/",
       "txPage": "https://dydx.valopers.com/transactions/${txHash}",
       "accountPage": "https://dydx.valopers.com/account/${accountAddress}"
+    },
+    {
+      "kind": "moon-runners",
+      "url": "https://moon-runners.net/dydx/mainnet",
+      "txPage": "https://moon-runners.net/dydx/mainnet/finder?search=${txHash}",
+      "accountPage": "https://moon-runners.net/dydx/mainnet/finder?search=${accountAddress}"
     }
   ],
   "images": [

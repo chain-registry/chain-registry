@@ -8,7 +8,15 @@
   "bech32Prefix": "terp",
   "slip44": 118,
   "codebase": {
-
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.55.0"
+    },
+    "cosmwasm": {
+      "version": "0.70.3",
+      "enabled": true,
+      "path": "$HOME/.terpd/data/wasm"
+    }
   },
   "fees": {
     "feeTokens": [

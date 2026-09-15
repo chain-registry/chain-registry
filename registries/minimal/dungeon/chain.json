@@ -25,27 +25,12 @@
         "address": "https://rpc.dungeongames.io"
       },
       {
-        "address": "https://rpc-dungeon-1.seraphim.zone"
-      },
-      {
-        "address": "https://dungeon_mainnet_rpc.chain.whenmoonwhenlambo.money"
-      },
-      {
         "address": "https://rpc.dungeon.chaintools.tech"
       }
     ],
     "rest": [
       {
         "address": "https://api.dungeongames.io"
-      },
-      {
-        "address": "https://api-dungeon-1.seraphim.zone"
-      },
-      {
-        "address": "https://api-archive-dungeonchain.apeironnodes.com"
-      },
-      {
-        "address": "https://dungeon_mainnet_api.chain.whenmoonwhenlambo.money"
       },
       {
         "address": "https://api.dungeon.chaintools.tech"
