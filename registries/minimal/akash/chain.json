@@ -58,6 +58,9 @@
       },
       {
         "address": "https://akash-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://akash-mainnet-rpc.crouton.digital"
       }
     ],
     "rest": [
@@ -90,6 +93,9 @@
       },
       {
         "address": "https://akash.api.pocket.network"
+      },
+      {
+        "address": "https://akash-mainnet-api.crouton.digital"
       }
     ],
     "grpc": [
@@ -101,6 +107,9 @@
       },
       {
         "address": "akash-grpc.polkachu.com:12890"
+      },
+      {
+        "address": "akash-mainnet-grpc.crouton.digital:12890"
       }
     ]
   },
@@ -166,6 +175,12 @@
       "url": "https://moon-runners.net/akash/mainnet",
       "txPage": "https://moon-runners.net/akash/mainnet/finder?search=${txHash}",
       "accountPage": "https://moon-runners.net/akash/mainnet/finder?search=${accountAddress}"
+    },
+    {
+      "kind": "Crouton Digital",
+      "url": "https://explorer.crouton.digital/mainnets/akash/overview",
+      "txPage": "https://explorer.crouton.digital/mainnets/akash/transactions/${txHash}",
+      "accountPage": "https://explorer.crouton.digital/mainnets/akash/account/${accountAddress}"
     }
   ],
   "images": [

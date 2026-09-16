@@ -231,6 +231,9 @@
       },
       {
         "address": "https://cosmos-api.polkachu.com"
+      },
+      {
+        "address": "https://cosmoshub-rest.stakerhouse.com"
       }
     ],
     "grpc": [
