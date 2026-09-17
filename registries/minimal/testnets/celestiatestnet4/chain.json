@@ -52,6 +52,9 @@
       },
       {
         "address": "https://mocha5.celestia.rpc.cumulo.me"
+      },
+      {
+        "address": "https://celestia-testnet-rpc.crouton.digital"
       }
     ],
     "rest": [
@@ -69,6 +72,9 @@
       },
       {
         "address": "https://mocha5.celestia.api.cumulo.me"
+      },
+      {
+        "address": "https://celestia-testnet-api.crouton.digital"
       }
     ],
     "grpc": [
@@ -86,6 +92,9 @@
       },
       {
         "address": "https://mocha5.celestia.grpc.cumulo.me"
+      },
+      {
+        "address": "celestia-testnet-grpc.crouton.digital:28690"
       }
     ],
     "wss": [
@@ -105,6 +114,12 @@
       "kind": "NodeStake Explorer",
       "url": "https://explorer.nodestake.org/celestia-testnet",
       "txPage": "https://explorer.nodestake.org/celestia-testnet/tx/${txHash}"
+    },
+    {
+      "kind": "Crouton Digital",
+      "url": "https://explorer.crouton.digital/testnets/celestia/overview",
+      "txPage": "https://explorer.crouton.digital/testnets/celestia/transactions/${txHash}",
+      "accountPage": "https://explorer.crouton.digital/testnets/celestia/account/${accountAddress}"
     }
   ]
 }

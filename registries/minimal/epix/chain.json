@@ -55,6 +55,12 @@
       },
       {
         "address": "https://rpc-epix.dnsarz.net:443"
+      },
+      {
+        "address": "https://epix-rpc.linknode.org"
+      },
+      {
+        "address": "https://mainnet-epix-rpc.konsortech.xyz:443"
       }
     ],
     "rest": [
@@ -69,6 +75,12 @@
       },
       {
         "address": "https://api-epix.dnsarz.net"
+      },
+      {
+        "address": "https://epix-api.linknode.org"
+      },
+      {
+        "address": "https://mainnet-epix-api.konsortech.xyz:443"
       }
     ],
     "grpc": [
@@ -80,6 +92,12 @@
       },
       {
         "address": "grpc-epix.onenov.xyz:443"
+      },
+      {
+        "address": "epix-grpc.linknode.org:443"
+      },
+      {
+        "address": "mainnet-epix.konsortech.xyz:37090"
       }
     ],
     "evmHttpJsonrpc": [
@@ -91,6 +109,12 @@
       },
       {
         "address": "https://evm-epix.vinjan-inc.com"
+      },
+      {
+        "address": "https://epix-evmrpc.linknode.org"
+      },
+      {
+        "address": "https://mainnet-epix-evm.konsortech.xyz/"
       }
     ]
   },
@@ -115,6 +139,19 @@
       "txPage": "https://scan.epix.zone/tx/${txHash}",
       "accountPage": "https://scan.epix.zone/address/${accountAddress}",
       "blockPage": "https://scan.epix.zone/block/${blockHeight}"
+    },
+    {
+      "kind": "AstroStake",
+      "url": "https://stake.astrostake.xyz",
+      "txPage": "https://stake.astrostake.xyz/epix/tx/${txHash}",
+      "accountPage": "https://stake.astrostake.xyz/epix/address/${accountAddress}",
+      "blockPage": "https://stake.astrostake.xyz/epix/block/${blockHeight}"
+    },
+    {
+      "kind": "KonsorTech",
+      "url": "https://explorer.konsortech.xyz/epix/",
+      "txPage": "https://explorer.konsortech.xyz/epix/tx/${txHash}",
+      "accountPage": "https://explorer.konsortech.xyz/epix/account/${accountAddress}"
     }
   ],
   "images": [
