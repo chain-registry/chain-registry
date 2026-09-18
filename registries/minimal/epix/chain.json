@@ -61,6 +61,9 @@
       },
       {
         "address": "https://mainnet-epix-rpc.konsortech.xyz:443"
+      },
+      {
+        "address": "https://rpc.nodesafe-app.xyz/epix/"
       }
     ],
     "rest": [
@@ -81,6 +84,9 @@
       },
       {
         "address": "https://mainnet-epix-api.konsortech.xyz:443"
+      },
+      {
+        "address": "https://api.nodesafe-app.xyz/epix/"
       }
     ],
     "grpc": [
@@ -98,6 +104,9 @@
       },
       {
         "address": "mainnet-epix.konsortech.xyz:37090"
+      },
+      {
+        "address": "grpc-epix.nodesafe-app.xyz:443"
       }
     ],
     "evmHttpJsonrpc": [
@@ -115,6 +124,9 @@
       },
       {
         "address": "https://mainnet-epix-evm.konsortech.xyz/"
+      },
+      {
+        "address": "https://json-rpc.nodesafe-app.xyz/epix/"
       }
     ]
   },
@@ -152,6 +164,12 @@
       "url": "https://explorer.konsortech.xyz/epix/",
       "txPage": "https://explorer.konsortech.xyz/epix/tx/${txHash}",
       "accountPage": "https://explorer.konsortech.xyz/epix/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeSafe",
+      "url": "https://explorer.nodesafe-app.xyz/epix/",
+      "txPage": "https://explorer.nodesafe-app.xyz/epix/tx/${txHash}",
+      "accountPage": "https://explorer.nodesafe-app.xyz/epix/account/${accountAddress}"
     }
   ],
   "images": [

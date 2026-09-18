@@ -21,7 +21,8 @@
       "base": "usovr",
       "display": "sovr",
       "name": "Sovren",
-      "symbol": "SOVR"
+      "symbol": "SOVR",
+      "coingeckoId": "sovren"
     }
   ]
 }
