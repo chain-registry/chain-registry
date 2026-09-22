@@ -64,6 +64,9 @@
       },
       {
         "address": "https://rpc.nodesafe-app.xyz/epix/"
+      },
+      {
+        "address": "https://epix.rpc.m.anode.team"
       }
     ],
     "rest": [
@@ -87,6 +90,9 @@
       },
       {
         "address": "https://api.nodesafe-app.xyz/epix/"
+      },
+      {
+        "address": "https://epix.api.m.anode.team"
       }
     ],
     "grpc": [
@@ -107,6 +113,9 @@
       },
       {
         "address": "grpc-epix.nodesafe-app.xyz:443"
+      },
+      {
+        "address": "epix.grpc.m.anode.team:443"
       }
     ],
     "evmHttpJsonrpc": [
@@ -118,6 +127,9 @@
       },
       {
         "address": "https://evm-epix.vinjan-inc.com"
+      },
+      {
+        "address": "https://evmrpc-epix.dnsarz.net"
       },
       {
         "address": "https://epix-evmrpc.linknode.org"
@@ -170,6 +182,12 @@
       "url": "https://explorer.nodesafe-app.xyz/epix/",
       "txPage": "https://explorer.nodesafe-app.xyz/epix/tx/${txHash}",
       "accountPage": "https://explorer.nodesafe-app.xyz/epix/account/${accountAddress}"
+    },
+    {
+      "kind": "AlxVoy ⚡ ANODE.TEAM",
+      "url": "https://explorer.anode.team/main/epix/",
+      "txPage": "https://explorer.anode.team/main/epix/tx/${txHash}",
+      "accountPage": "https://explorer.anode.team/main/epix/account/${accountAddress}"
     }
   ],
   "images": [
