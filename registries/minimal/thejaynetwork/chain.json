@@ -44,7 +44,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://thejaynetwork.com/rpc"
+        "address": "https://thejaynetwork.com/rpc/"
       },
       {
         "address": "http://152.53.195.74:26657"
@@ -54,6 +54,9 @@
       },
       {
         "address": "https://rpc-jaynetwork.vinjan-inc.com"
+      },
+      {
+        "address": "https://rpc.nodesafe-app.xyz/jayn/"
       }
     ],
     "rest": [
@@ -68,11 +71,17 @@
       },
       {
         "address": "https://api-jaynetwork.vinjan-inc.com"
+      },
+      {
+        "address": "https://api.nodesafe-app.xyz/jayn"
       }
     ],
     "grpc": [
       {
         "address": "152.53.195.74:9090"
+      },
+      {
+        "address": "grpc-jayn.nodesafe-app.xyz:443"
       }
     ]
   },
@@ -94,6 +103,12 @@
       "url": "https://explorer.vinjan-inc.com/jaynetwork",
       "txPage": "https://explorer.vinjan-inc.com/jaynetwork/tx/${txHash}",
       "accountPage": "https://explorer.vinjan-inc.com/jaynetwork/account/${accountAddress}"
+    },
+    {
+      "kind": "NodeSafe",
+      "url": "https://explorer.nodesafe-app.xyz/jaynetwork/staking",
+      "txPage": "https://explorer.nodesafe-app.xyz/jaynetwork/tx/${txHash}",
+      "accountPage": "https://explorer.nodesafe-app.xyz/jaynetwork/account/${accountAddress}"
     }
   ],
   "images": [

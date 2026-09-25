@@ -46,12 +46,29 @@
     "rpc": [
       {
         "address": "https://rpc.mucoin.org"
+      },
+      {
+        "address": "https://rpc.nodesafe-app.xyz/mucoin/"
       }
     ],
     "rest": [
       {
         "address": "https://rest.mucoin.org"
+      },
+      {
+        "address": "https://api.nodesafe-app.xyz/mucoin"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc-mucoin.nodesafe-app.xyz:443"
       }
     ]
-  }
+  },
+  "explorers": [
+    {
+      "kind": "NodeSafe",
+      "url": "https://explorer.nodesafe-app.xyz/mucoin/staking"
+    }
+  ]
 }

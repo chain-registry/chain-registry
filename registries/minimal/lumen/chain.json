@@ -52,6 +52,9 @@
       },
       {
         "address": "https://m-lumen.rpc.utsa.tech/"
+      },
+      {
+        "address": "https://rpc.nodesafe-app.xyz/lumen/"
       }
     ],
     "rest": [
@@ -69,6 +72,9 @@
       },
       {
         "address": "https://m-lumen.api.utsa.tech/"
+      },
+      {
+        "address": "https://api.nodesafe-app.xyz/lumen"
       }
     ],
     "grpc": [
@@ -80,6 +86,9 @@
       },
       {
         "address": "lumen-mainnet-grpc.mekonglabs.tech:35090"
+      },
+      {
+        "address": "grpc-lumen.nodesafe-app.xyz:443"
       }
     ]
   },
@@ -139,6 +148,10 @@
     {
       "kind": "NodeGod20",
       "url": "https://explorer.nodegod20.cloud/lumen-mainnet"
+    },
+    {
+      "kind": "NodeSafe",
+      "url": "https://explorer.nodesafe-app.xyz/lumen/staking"
     }
   ],
   "images": [
