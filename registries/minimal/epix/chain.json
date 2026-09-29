@@ -67,6 +67,9 @@
       },
       {
         "address": "https://epix.rpc.m.anode.team"
+      },
+      {
+        "address": "https://epix-rpc.tintonode.win"
       }
     ],
     "rest": [
@@ -93,6 +96,9 @@
       },
       {
         "address": "https://epix.api.m.anode.team"
+      },
+      {
+        "address": "https://epix-api.tintonode.win"
       }
     ],
     "grpc": [
@@ -116,6 +122,9 @@
       },
       {
         "address": "epix.grpc.m.anode.team:443"
+      },
+      {
+        "address": "epix-grpc.tintonode.win:443"
       }
     ],
     "evmHttpJsonrpc": [
@@ -139,6 +148,9 @@
       },
       {
         "address": "https://json-rpc.nodesafe-app.xyz/epix/"
+      },
+      {
+        "address": "https://epix-evm.tintonode.win"
       }
     ]
   },
