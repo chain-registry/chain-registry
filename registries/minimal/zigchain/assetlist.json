@@ -6,6 +6,35 @@
       "description": "The native token of ZIGChain",
       "denomUnits": [
         {
+          "denom": "azig",
+          "exponent": 0
+        },
+        {
+          "denom": "zig",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "azig",
+      "name": "ZIG",
+      "display": "zig",
+      "symbol": "ZIG",
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chainName": "ethereum",
+            "baseDenom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+          },
+          "provider": "ZIGChain"
+        }
+      ],
+      "coingeckoId": "zignaly"
+    },
+    {
+      "description": "Legacy pre-v5 base denomination of ZIG (6 decimals), retained only as IBC escrow backing after the uzig to azig redenomination.",
+      "denomUnits": [
+        {
           "denom": "uzig",
           "exponent": 0,
           "aliases": [
@@ -28,18 +57,17 @@
       "base": "uzig",
       "name": "ZIG",
       "display": "zig",
-      "symbol": "ZIG",
+      "symbol": "ZIG.legacy",
       "traces": [
         {
-          "type": "additional-mintage",
+          "type": "legacy-mintage",
           "counterparty": {
-            "chainName": "ethereum",
-            "baseDenom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+            "chainName": "zigchain",
+            "baseDenom": "azig"
           },
           "provider": "ZIGChain"
         }
-      ],
-      "coingeckoId": "zignaly"
+      ]
     },
     {
       "description": "Staked Zig Token by Valdora Finance - Decentralized staking with stZIG",

@@ -68,6 +68,17 @@
       {
         "address": "https://evm.vicky.gl1infra.online"
       }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc.lcserve.net"
+      },
+      {
+        "address": "https://grpc.vicky.gl1infra.online"
+      },
+      {
+        "address": "https://grpc.gl1infra.online"
+      }
     ]
   },
   "explorers": [

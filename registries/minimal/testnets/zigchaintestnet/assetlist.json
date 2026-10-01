@@ -23,7 +23,7 @@
           "type": "test-mintage",
           "counterparty": {
             "chainName": "zigchain",
-            "baseDenom": "uzig"
+            "baseDenom": "azig"
           },
           "provider": "ZIGChain"
         }

@@ -39,6 +39,39 @@
       "symbol": "IST",
       "coingeckoId": "inter-stable-token",
       "assetType": "sdk.coin"
+    },
+    {
+      "description": "USD Coin issued natively on Injective by Circle",
+      "denomUnits": [
+        {
+          "denom": "ibc/A7BE5E1F50DE0393383EC287BDD0FDAA9B546736F7511F8E494ECB05533DAAE8",
+          "exponent": 0
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/A7BE5E1F50DE0393383EC287BDD0FDAA9B546736F7511F8E494ECB05533DAAE8",
+      "name": "Injective USDC",
+      "display": "usdc",
+      "symbol": "USDC.inj",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+            "channelId": "channel-454"
+          },
+          "chain": {
+            "channelId": "channel-492",
+            "path": "transfer/channel-492/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a"
+          }
+        }
+      ],
+      "coingeckoId": "usd-coin"
     }
   ]
 }
