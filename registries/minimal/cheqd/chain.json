@@ -71,6 +71,9 @@
       },
       {
         "address": "https://cheqd-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://cheqd-mainnet-rpc.crouton.digital"
       }
     ],
     "rest": [
@@ -109,6 +112,9 @@
       },
       {
         "address": "https://cheqd-api.polkachu.com"
+      },
+      {
+        "address": "https://cheqd-mainnet-api.crouton.digital"
       }
     ],
     "grpc": [
@@ -138,6 +144,9 @@
       },
       {
         "address": "cheqd-grpc.polkachu.com:16190"
+      },
+      {
+        "address": "cheqd-mainnet-grpc.crouton.digital:16190"
       }
     ]
   },
@@ -197,6 +206,12 @@
       "url": "https://moon-runners.net/cheqd/mainnet",
       "txPage": "https://moon-runners.net/cheqd/mainnet/finder?search=${txHash}",
       "accountPage": "https://moon-runners.net/cheqd/mainnet/finder?search=${accountAddress}"
+    },
+    {
+      "kind": "Crouton Digital",
+      "url": "https://explorer.crouton.digital/mainnets/cheqd/overview",
+      "txPage": "https://explorer.crouton.digital/mainnets/cheqd/transactions/${txHash}",
+      "accountPage": "https://explorer.crouton.digital/mainnets/cheqd/account/${accountAddress}"
     }
   ],
   "images": [

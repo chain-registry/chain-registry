@@ -140,6 +140,9 @@
       },
       {
         "address": "https://atomone-rpc.kleomedes.network"
+      },
+      {
+        "address": "https://atomone-mainnet-rpc.crouton.digital"
       }
     ],
     "rest": [
@@ -238,6 +241,9 @@
       },
       {
         "address": "https://atomone-api.kleomedes.network"
+      },
+      {
+        "address": "https://atomone-mainnet-api.crouton.digital"
       }
     ],
     "grpc": [
@@ -303,6 +309,9 @@
       },
       {
         "address": "atomone-mainnet-grpc.oshvank.xyz:443"
+      },
+      {
+        "address": "atomone-mainnet-grpc.crouton.digital:30690"
       }
     ]
   },
@@ -432,6 +441,12 @@
       "url": "https://moon-runners.net/atomone/mainnet",
       "txPage": "https://moon-runners.net/atomone/mainnet/finder?search=${txHash}",
       "accountPage": "https://moon-runners.net/atomone/mainnet/finder?search=${accountAddress}"
+    },
+    {
+      "kind": "Crouton Digital",
+      "url": "https://explorer.crouton.digital/mainnets/atomone/overview",
+      "txPage": "https://explorer.crouton.digital/mainnets/atomone/transactions/${txHash}",
+      "accountPage": "https://explorer.crouton.digital/mainnets/atomone/account/${accountAddress}"
     }
   ],
   "images": [

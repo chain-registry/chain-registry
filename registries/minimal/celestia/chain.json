@@ -117,6 +117,9 @@
       },
       {
         "address": "https://celestia-rpc.cogwheel.zone"
+      },
+      {
+        "address": "https://celestia-mainnet-rpc.crouton.digital"
       }
     ],
     "rest": [
@@ -191,6 +194,9 @@
       },
       {
         "address": "https://celestia-api.cogwheel.zone"
+      },
+      {
+        "address": "https://celestia-mainnet-api.crouton.digital"
       }
     ],
     "grpc": [
@@ -250,6 +256,9 @@
       },
       {
         "address": "celestia-grpc.cogwheel.zone:443"
+      },
+      {
+        "address": "celestia-mainnet-grpc.crouton.digital:11690"
       }
     ],
     "wss": [
@@ -350,6 +359,12 @@
       "url": "https://moon-runners.net/celestia/mainnet",
       "txPage": "https://moon-runners.net/celestia/mainnet/finder?search=${txHash}",
       "accountPage": "https://moon-runners.net/celestia/mainnet/finder?search=${accountAddress}"
+    },
+    {
+      "kind": "Crouton Digital",
+      "url": "https://explorer.crouton.digital/mainnets/celestia/overview",
+      "txPage": "https://explorer.crouton.digital/mainnets/celestia/transactions/${txHash}",
+      "accountPage": "https://explorer.crouton.digital/mainnets/celestia/account/${accountAddress}"
     }
   ],
   "images": [
