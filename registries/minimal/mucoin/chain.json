@@ -49,6 +49,9 @@
       },
       {
         "address": "https://rpc.nodesafe-app.xyz/mucoin/"
+      },
+      {
+        "address": "https://rpc-mucoin.onenov.xyz"
       }
     ],
     "rest": [
@@ -57,6 +60,9 @@
       },
       {
         "address": "https://api.nodesafe-app.xyz/mucoin"
+      },
+      {
+        "address": "https://api-mucoin.onenov.xyz"
       }
     ],
     "grpc": [
@@ -69,6 +75,10 @@
     {
       "kind": "NodeSafe",
       "url": "https://explorer.nodesafe-app.xyz/mucoin/staking"
+    },
+    {
+      "kind": "UTSA Explorer",
+      "url": "https://explorer.utsa.tech/networks/mucoin-mainnet"
     }
   ]
 }

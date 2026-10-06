@@ -55,6 +55,9 @@
       },
       {
         "address": "https://rpc.nodesafe-app.xyz/lumen/"
+      },
+      {
+        "address": "https://lumen-rpc.tintonode.win"
       }
     ],
     "rest": [
@@ -75,6 +78,9 @@
       },
       {
         "address": "https://api.nodesafe-app.xyz/lumen"
+      },
+      {
+        "address": "https://lumen-api.tintonode.win"
       }
     ],
     "grpc": [
@@ -89,6 +95,9 @@
       },
       {
         "address": "grpc-lumen.nodesafe-app.xyz:443"
+      },
+      {
+        "address": "lumen-grpc.tintonode.win:443"
       }
     ]
   },
@@ -122,8 +131,8 @@
       "url": "https://ov-explorer.onenov.xyz/network/lumen"
     },
     {
-      "kind": "UTSA",
-      "url": "https://exp.utsa.tech/lumen/staking"
+      "kind": "UTSA Explorer",
+      "url": "https://explorer.utsa.tech/networks/lumen-mainnet"
     },
     {
       "kind": "Stavr",

@@ -2,7 +2,7 @@
   "$schema": "../chain.schema.json",
   "chainName": "dyson",
   "website": "https://dysonprotocol.com/",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "prettyName": "Dyson Protocol",
   "chainType": "cosmos",

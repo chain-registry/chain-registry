@@ -142,6 +142,9 @@
       },
       {
         "address": "https://cosmos-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://cosmos-mainnet-rpc.crouton.digital"
       }
     ],
     "rest": [
@@ -234,6 +237,9 @@
       },
       {
         "address": "https://cosmoshub-rest.stakerhouse.com"
+      },
+      {
+        "address": "https://cosmos-mainnet-api.crouton.digital"
       }
     ],
     "grpc": [
@@ -293,6 +299,9 @@
       },
       {
         "address": "https://grpc.cosmos.cumulo.com.es"
+      },
+      {
+        "address": "cosmos-mainnet-grpc.crouton.digital:14990"
       }
     ],
     "wss": [

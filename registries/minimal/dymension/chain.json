@@ -127,6 +127,9 @@
       },
       {
         "address": "https://rollapp.rpc.cumulo.com.es"
+      },
+      {
+        "address": "https://dymension-mainnet-rpc.crouton.digital"
       }
     ],
     "rest": [
@@ -213,6 +216,9 @@
       },
       {
         "address": "https://rollapp.rest.cumulo.com.es"
+      },
+      {
+        "address": "https://dymension-mainnet-api.crouton.digital"
       }
     ],
     "grpc": [
@@ -284,6 +290,9 @@
       },
       {
         "address": "https://rollapp.grpc.cumulo.com.es"
+      },
+      {
+        "address": "dymension-mainnet-grpc.crouton.digital:20590"
       }
     ],
     "evmHttpJsonrpc": [
@@ -397,6 +406,12 @@
       "url": "https://moon-runners.net/dymension/mainnet",
       "txPage": "https://moon-runners.net/dymension/mainnet/finder?search=${txHash}",
       "accountPage": "https://moon-runners.net/dymension/mainnet/finder?search=${accountAddress}"
+    },
+    {
+      "kind": "Crouton Digital",
+      "url": "https://explorer.crouton.digital/mainnets/dymension/overview",
+      "txPage": "https://explorer.crouton.digital/mainnets/dymension/transactions/${txHash}",
+      "accountPage": "https://explorer.crouton.digital/mainnets/dymension/account/${accountAddress}"
     }
   ]
 }

@@ -113,6 +113,9 @@
       },
       {
         "address": "https://lava-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://lava-mainnet-rpc.crouton.digital"
       }
     ],
     "rest": [
@@ -175,6 +178,9 @@
       },
       {
         "address": "https://lava-api.polkachu.com"
+      },
+      {
+        "address": "https://lava-mainnet-api.crouton.digital"
       }
     ],
     "grpc": [
@@ -222,6 +228,9 @@
       },
       {
         "address": "lava-grpc.polkachu.com:19990"
+      },
+      {
+        "address": "lava-mainnet-grpc.crouton.digital:29190"
       }
     ]
   },
@@ -291,6 +300,12 @@
       "url": "https://moon-runners.net/lava/mainnet",
       "txPage": "https://moon-runners.net/lava/mainnet/finder?search=${txHash}",
       "accountPage": "https://moon-runners.net/lava/mainnet/finder?search=${accountAddress}"
+    },
+    {
+      "kind": "Crouton Digital",
+      "url": "https://explorer.crouton.digital/mainnets/lava/overview",
+      "txPage": "https://explorer.crouton.digital/mainnets/lava/transactions/${txHash}",
+      "accountPage": "https://explorer.crouton.digital/mainnets/lava/account/${accountAddress}"
     }
   ]
 }
