@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "quasar",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://www.quasar.fi/",
   "prettyName": "Quasar",

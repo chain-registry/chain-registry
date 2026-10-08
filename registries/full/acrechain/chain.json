@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "acrechain",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://arable.finance/",
   "prettyName": "Acrechain",

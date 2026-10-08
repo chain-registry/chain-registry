@@ -2,7 +2,7 @@
   "$schema": "../chain.schema.json",
   "chainName": "rebus",
   "website": "https://www.rebuschain.com/",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "prettyName": "Rebus",
   "chainType": "cosmos",

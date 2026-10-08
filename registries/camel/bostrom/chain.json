@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "bostrom",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "prettyName": "bostrom",
   "chainType": "cosmos",

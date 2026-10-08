@@ -5,7 +5,7 @@
   "chainId": "stafihub-1",
   "website": "https://stafihub.io/",
   "prettyName": "StaFi Hub",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "bech32Prefix": "stafi",
   "daemonName": "stafihubd",

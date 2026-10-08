@@ -4,7 +4,7 @@
   "chainType": "cosmos",
   "chainId": "int3face-1",
   "prettyName": "Int3face",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://int3face.zone/",
   "bech32Prefix": "int3",

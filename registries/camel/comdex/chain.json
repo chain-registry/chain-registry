@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "comdex",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://comdex.one/",
   "prettyName": "Comdex",

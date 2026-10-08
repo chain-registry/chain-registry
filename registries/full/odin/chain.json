@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chainName": "odin",
-  "status": "live",
+  "status": "killed",
   "networkType": "mainnet",
   "website": "https://odinprotocol.io/",
   "prettyName": "Odin Protocol",
