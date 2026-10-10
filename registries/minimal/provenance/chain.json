@@ -32,23 +32,17 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.50.14"
+      "version": "0.53.8"
     },
     "cosmwasm": {
-      "version": "0.52",
+      "version": "0.61.15",
       "enabled": true
     }
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc-provenance.takeshi.team/"
-      },
-      {
         "address": "https://rpc.provenance.io/"
-      },
-      {
-        "address": "https://provenance-mainnet-rpc.autostake.com:443"
       },
       {
         "address": "https://provenance.ibs.team:443/rpc"
@@ -58,15 +52,6 @@
       },
       {
         "address": "https://provenance-rpc.panthea.eu"
-      },
-      {
-        "address": "https://provenance_mainnet_rpc.chain.whenmoonwhenlambo.money"
-      },
-      {
-        "address": "https://rpc.pio-mainnet-1.provenance.aviaone.com"
-      },
-      {
-        "address": "https://provenance-mainnet-rpc.shazoes.xyz"
       },
       {
         "address": "https://provenance.api.pocket.network"
@@ -79,12 +64,6 @@
       }
     ],
     "rest": [
-      {
-        "address": "https://api-provenance.takeshi.team"
-      },
-      {
-        "address": "https://provenance-mainnet-lcd.autostake.com:443"
-      },
       {
         "address": "https://api.provenance.io"
       },
@@ -101,15 +80,6 @@
         "address": "https://provenance-api.panthea.eu"
       },
       {
-        "address": "https://provenance_mainnet_api.chain.whenmoonwhenlambo.money"
-      },
-      {
-        "address": "https://api.pio-mainnet-1.provenance.aviaone.com"
-      },
-      {
-        "address": "https://provenance-mainnet-api.shazoes.xyz"
-      },
-      {
         "address": "https://provenance.api.pocket.network"
       },
       {
@@ -121,19 +91,7 @@
     ],
     "grpc": [
       {
-        "address": "grpc-provenance.takeshi.team:443"
-      },
-      {
-        "address": "provenance-mainnet-grpc.autostake.com:443"
-      },
-      {
         "address": "provenance-grpc.panthea.eu:16780"
-      },
-      {
-        "address": "grpc.pio-mainnet-1.provenance.aviaone.com:9231"
-      },
-      {
-        "address": "provenance-mainnet-grpc.shazoes.xyz:12090"
       },
       {
         "address": "provenance-grpc.polkachu.com:27090"
@@ -145,30 +103,21 @@
   },
   "explorers": [
     {
-      "kind": "Provenance",
-      "url": "https://explorer.provenance.io",
-      "txPage": "https://explorer.provenance.io/tx/${txHash}"
-    },
-    {
-      "kind": "hubble",
-      "url": "https://hubble.figment.io/provenance/chains/pio-mainnet-1",
-      "txPage": "https://hubble.figment.io/provenance/chains/pio-mainnet-1/${block}/transactions/${txHash}"
-    },
-    {
-      "kind": "ping.pub",
-      "url": "https://ping.pub/provenance",
-      "txPage": "https://ping.pub/provenance/tx/${txHash}"
+      "kind": "Zonescan",
+      "url": "https://zonescan.io/provenance",
+      "txPage": "https://zonescan.io/provenance/transactions/${txHash}",
+      "accountPage": "https://zonescan.io/provenance/accounts/${accountAddress}"
     },
     {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/provenance",
-      "txPage": "https://www.mintscan.io/provenance/transactions/${txHash}",
-      "accountPage": "https://www.mintscan.io/provenance/accounts/${accountAddress}"
+      "txPage": "https://www.mintscan.io/provenance/tx/${txHash}",
+      "accountPage": "https://www.mintscan.io/provenance/address/${accountAddress}"
     },
     {
       "kind": "🔥STAVR🔥",
       "url": "https://explorer.stavr.tech/Provenance",
-      "txPage": "https://explorer.stavr.tech/Provenance/txs/${txHash}",
+      "txPage": "https://explorer.stavr.tech/Provenance/tx/${txHash}",
       "accountPage": "https://explorer.stavr.tech/Provenance/account/${accountAddress}"
     },
     {
@@ -182,24 +131,6 @@
       "url": "https://atomscan.com/provenance",
       "txPage": "https://atomscan.com/provenance/transactions/${txHash}",
       "accountPage": "https://atomscan.com/provenance/accounts/${accountAddress}"
-    },
-    {
-      "kind": "staking-explorer.com",
-      "url": "https://staking-explorer.com/explorer/provenance",
-      "txPage": "https://staking-explorer.com/transaction.php?chain=provenance&tx=${txHash}",
-      "accountPage": "https://staking-explorer.com/account.php?chain=provenance&addr=${accountAddress}"
-    },
-    {
-      "kind": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
-      "url": "https://explorer.whenmoonwhenlambo.money/provenance",
-      "txPage": "https://explorer.whenmoonwhenlambo.money/provenance/tx/${txHash}",
-      "accountPage": "https://explorer.whenmoonwhenlambo.money/provenance/account/${accountAddress}"
-    },
-    {
-      "kind": "AVIAONE 🟢",
-      "url": "https://mainnet.explorer.aviaone.com/provenance",
-      "txPage": "https://mainnet.explorer.aviaone.com/provenance/tx/${txHash}",
-      "accountPage": "https://mainnet.explorer.aviaone.com/provenance/account/${accountAddress}"
     },
     {
       "kind": "moon-runners",
