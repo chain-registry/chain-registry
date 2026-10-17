@@ -3,7 +3,7 @@
   "chainName": "cosmosicsprovidertestnet",
   "chainType": "cosmos",
   "chainId": "provider",
-  "prettyName": "Cosmos ICS Provider Testnet",
+  "prettyName": "Cosmos Hub Testnet",
   "networkType": "testnet",
   "bech32Prefix": "cosmos",
   "keyAlgos": [
@@ -31,13 +31,13 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.53.4",
-      "tag": "v0.53.4"
+      "version": "v0.53.8",
+      "tag": "v0.53.8"
     },
     "cosmwasm": {
-      "version": "v0.60.8",
+      "version": "v0.60.9",
       "repo": "https://github.com/CosmWasm/wasmd",
-      "tag": "v0.60.8"
+      "tag": "v0.60.9"
     }
   },
   "apis": {
