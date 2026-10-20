@@ -87,9 +87,6 @@
         "address": "https://rpc.jackal.mathnodes.com"
       },
       {
-        "address": "https://jackal-rpc.kleomedes.network"
-      },
-      {
         "address": "https://jackal-rpc.noders.services"
       },
       {
@@ -144,9 +141,6 @@
       },
       {
         "address": "https://api.jackal.mathnodes.com"
-      },
-      {
-        "address": "https://jackal-api.kleomedes.network"
       },
       {
         "address": "https://jackal-api.noders.services"
