@@ -1,0 +1,57 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "neutronx",
+  "assets": [
+    {
+      "description": "NTX staking and governance token",
+      "denomUnits": [
+        {
+          "denom": "untx",
+          "exponent": 0
+        },
+        {
+          "denom": "ntx",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "untx",
+      "name": "NeutronX",
+      "display": "ntx",
+      "symbol": "NTX"
+    },
+    {
+      "description": "Injective USDC on NeutronX.",
+      "denomUnits": [
+        {
+          "denom": "ibc/ED4C195406CEFBAC6CF3AA64BBF84292910D27B51C78D81374101F9424BC1EC1",
+          "exponent": 0
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/ED4C195406CEFBAC6CF3AA64BBF84292910D27B51C78D81374101F9424BC1EC1",
+      "name": "Injective USDC",
+      "display": "usdc",
+      "symbol": "USDC.inj",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "injective",
+            "baseDenom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+            "channelId": "channel-503"
+          },
+          "chain": {
+            "channelId": "channel-1",
+            "path": "transfer/channel-1/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a"
+          }
+        }
+      ],
+      "coingeckoId": "usd-coin"
+    }
+  ]
+}
