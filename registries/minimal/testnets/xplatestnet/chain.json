@@ -1,9 +1,9 @@
 {
   "$schema": "../../chain.schema.json",
   "chainName": "xplatestnet",
-  "website": "https://xpla.io",
+  "website": "https://conx.xyz",
   "networkType": "testnet",
-  "prettyName": "XPLA Testnet",
+  "prettyName": "CONX Testnet",
   "chainType": "cosmos",
   "chainId": "cube_47-5",
   "bech32Prefix": "xpla",
@@ -15,10 +15,10 @@
     "feeTokens": [
       {
         "denom": "axpla",
-        "fixedMinGasPrice": 280000000000,
-        "lowGasPrice": 280000000000,
-        "averageGasPrice": 280000000000,
-        "highGasPrice": 280000000000
+        "fixedMinGasPrice": 1200000000000,
+        "lowGasPrice": 1200000000000,
+        "averageGasPrice": 1200000000000,
+        "highGasPrice": 1200000000000
       }
     ]
   },
@@ -33,11 +33,11 @@
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/xpladev/cosmos-sdk",
-      "version": "v0.53.4",
-      "tag": "v0.53.4-xpla"
+      "version": "v0.53.6",
+      "tag": "v0.53.6-xpla-2"
     },
     "cosmwasm": {
-      "version": "v0.60.1"
+      "version": "v0.60.9"
     }
   },
   "apis": {
@@ -59,9 +59,9 @@
   },
   "explorers": [
     {
-      "kind": "explorer.xpla",
-      "url": "https://explorer.xpla.io/testnet",
-      "txPage": "https://explorer.xpla.io/testnet/mainnet/tx/${txHash}"
+      "kind": "explorer.conx",
+      "url": "https://explorer.conx.xyz/testnet",
+      "txPage": "https://explorer.conx.xyz/testnet/tx/${txHash}"
     },
     {
       "kind": "finder",

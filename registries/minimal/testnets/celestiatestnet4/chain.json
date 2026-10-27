@@ -55,6 +55,9 @@
       },
       {
         "address": "https://celestia-testnet-rpc.crouton.digital"
+      },
+      {
+        "address": "https://celestia-testnet-rpc.kynraze.com"
       }
     ],
     "rest": [
@@ -75,6 +78,9 @@
       },
       {
         "address": "https://celestia-testnet-api.crouton.digital"
+      },
+      {
+        "address": "https://celestia-testnet-api.kynraze.com"
       }
     ],
     "grpc": [
@@ -95,6 +101,9 @@
       },
       {
         "address": "celestia-testnet-grpc.crouton.digital:28690"
+      },
+      {
+        "address": "celestia-testnet-grpc.kynraze.com:443"
       }
     ],
     "wss": [
