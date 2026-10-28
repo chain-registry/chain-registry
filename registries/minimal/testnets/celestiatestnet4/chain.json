@@ -32,8 +32,8 @@
     "sdk": {
       "type": "cosmos",
       "repo": "https://github.com/celestiaorg/cosmos-sdk",
-      "version": "v0.52.11",
-      "tag": "v0.52.11"
+      "version": "v0.52.12",
+      "tag": "v0.52.12"
     }
   },
   "apis": {

@@ -43,11 +43,17 @@
     "rpc": [
       {
         "address": "https://rpc.luxaecosystem.xyz"
+      },
+      {
+        "address": "https://rpc.nodesafe-app.xyz/luxa/"
       }
     ],
     "rest": [
       {
         "address": "https://api.luxaecosystem.xyz"
+      },
+      {
+        "address": "https://api.nodesafe-app.xyz/luxa"
       }
     ]
   },
