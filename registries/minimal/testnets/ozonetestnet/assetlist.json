@@ -1,0 +1,34 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "ozonetestnet",
+  "assets": [
+    {
+      "description": "The native EVM gas token of Ozone Chain testnet.",
+      "denomUnits": [
+        {
+          "denom": "aphoton",
+          "exponent": 0
+        },
+        {
+          "denom": "tozone",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "aphoton",
+      "name": "Ozone Testnet",
+      "display": "tozone",
+      "symbol": "tOZONE",
+      "traces": [
+        {
+          "type": "test-mintage",
+          "counterparty": {
+            "chainName": "ozone",
+            "baseDenom": "aphoton"
+          },
+          "provider": "Ozone"
+        }
+      ]
+    }
+  ]
+}

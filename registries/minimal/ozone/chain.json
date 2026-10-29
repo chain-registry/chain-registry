@@ -1,0 +1,70 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "ozone",
+  "website": "https://ozonechain.com",
+  "networkType": "mainnet",
+  "prettyName": "Ozone",
+  "chainType": "cosmos",
+  "chainId": "os_10121-1",
+  "bech32Prefix": "ethm",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "aphoton",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 7,
+        "averageGasPrice": 7,
+        "highGasPrice": 10
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "aphoton"
+      }
+    ]
+  },
+  "codebase": {
+
+  },
+  "description": "Ozone Chain is a public EVM-compatible blockchain built with Cosmos SDK and CometBFT. OZONE is used for gas, staking, and governance.",
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/ozone/images/ozone.png",
+      "theme": {
+        "circle": true
+      }
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://cosmos.ozonescan.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://cosmos.ozonescan.com/api"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://chain.ozonescan.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ozonescan",
+      "url": "https://ozonescan.com"
+    }
+  ]
+}

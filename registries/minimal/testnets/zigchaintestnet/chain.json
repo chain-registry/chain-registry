@@ -8,9 +8,13 @@
   "chainId": "zig-test-2",
   "bech32Prefix": "zig",
   "keyAlgos": [
+    "ethsecp256k1",
     "secp256k1"
   ],
-  "slip44": 118,
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
   "description": "ZIGChain (ZIG) is a Layer 1 blockchain focused on unlocking financial opportunities for everyone - regardless of their income, location, or level of knowledge.",
   "fees": {
     "feeTokens": [
@@ -71,6 +75,11 @@
       },
       {
         "address": "grpc-t.zigchain.nodestake.org:443"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://public-zigchain-testnet-evm-rpc.numia.xyz"
       }
     ]
   },

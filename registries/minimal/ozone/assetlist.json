@@ -1,0 +1,25 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "ozone",
+  "assets": [
+    {
+      "description": "The native EVM, governance and staking token of Ozone Chain.",
+      "denomUnits": [
+        {
+          "denom": "aphoton",
+          "exponent": 0
+        },
+        {
+          "denom": "ozone",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "aphoton",
+      "name": "Ozone",
+      "display": "ozone",
+      "symbol": "OZONE",
+      "coingeckoId": "ozonechain"
+    }
+  ]
+}
