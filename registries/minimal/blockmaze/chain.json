@@ -1,0 +1,80 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "blockmaze",
+  "chainType": "cosmos",
+  "chainId": "blockmaze_6165-1",
+  "prettyName": "Blockmaze",
+  "networkType": "mainnet",
+  "website": "https://blockmaze.com",
+  "bech32Prefix": "bmz",
+  "keyAlgos": [
+    "ethsecp256k1"
+  ],
+  "extraCodecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "Rho18",
+        "fixedMinGasPrice": 150000000000,
+        "lowGasPrice": 150000000000,
+        "averageGasPrice": 175000000000,
+        "highGasPrice": 200000000000
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "Rho18"
+      }
+    ],
+    "lockDuration": {
+      "time": "604800s"
+    }
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.53.4"
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/blockmaze/images/bmz.png"
+    }
+  ],
+  "description": "Blockmaze is a Layer 1 blockchain for regulated real-world assets (RWAs). It is EVM-compatible and built on the Cosmos SDK, with BMZ as its native staking and gas token.",
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://native-rpc.blockmaze.org"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.blockmaze.org"
+      }
+    ],
+    "wss": [
+      {
+        "address": "wss://native-rpc.blockmaze.org/websocket"
+      }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://rpc.blockmaze.org"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "bmzscan",
+      "url": "https://bmzscan.com",
+      "txPage": "https://bmzscan.com/native/tx/${txHash}",
+      "accountPage": "https://bmzscan.com/native/address/${accountAddress}"
+    }
+  ]
+}
