@@ -35,7 +35,7 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "0.53.4"
+      "version": "0.54.4"
     },
     "cosmwasm": {
       "enabled": false
