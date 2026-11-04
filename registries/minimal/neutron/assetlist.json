@@ -1569,6 +1569,39 @@
           }
         }
       ]
+    },
+    {
+      "description": "Stride Staked ATOM on Neutron",
+      "denomUnits": [
+        {
+          "denom": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+          "exponent": 0
+        },
+        {
+          "denom": "statom",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/B7864B03E1B9FD4F049243E92ABD691586F682137037A9F3FCA5222815620B3C",
+      "name": "Stride Staked ATOM",
+      "display": "statom",
+      "symbol": "stATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "stride",
+            "baseDenom": "stuatom",
+            "channelId": "channel-123"
+          },
+          "chain": {
+            "channelId": "channel-8",
+            "path": "transfer/channel-8/stuatom"
+          }
+        }
+      ],
+      "coingeckoId": "stride-staked-atom"
     }
   ]
 }
