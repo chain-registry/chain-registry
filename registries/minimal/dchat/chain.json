@@ -1,0 +1,68 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "dchat",
+  "chainType": "cosmos",
+  "networkType": "mainnet",
+  "website": "https://dchat.online",
+  "prettyName": "DChat",
+  "chainId": "messaging",
+  "bech32Prefix": "dc",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "description": "DChat is an end-to-end encrypted messenger whose chain holds identities and payments. SHH is its native token.",
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "udchat",
+        "fixedMinGasPrice": 0.0001,
+        "lowGasPrice": 0.0025,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "udchat"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.50.13"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://dchat.online/rpc"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://dchat.online/rest"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "dchat",
+      "url": "https://dchat.online/explorer",
+      "txPage": "https://dchat.online/explorer/tx/${txHash}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dchat/images/shh.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dchat/images/shh.svg",
+      "theme": {
+        "circle": true,
+        "darkMode": false
+      }
+    }
+  ]
+}

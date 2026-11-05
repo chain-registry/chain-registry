@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "dchat",
+  "assets": [
+    {
+      "description": "Shh (SHH) is the native token of the DChat chain. It pays network fees, is staked to secure the chain and pays for DChat services.",
+      "denomUnits": [
+        {
+          "denom": "udchat",
+          "exponent": 0
+        },
+        {
+          "denom": "shh",
+          "exponent": 6
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "udchat",
+      "name": "Shh",
+      "display": "shh",
+      "symbol": "SHH"
+    }
+  ]
+}
