@@ -1,0 +1,24 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "piotestnet",
+  "assets": [
+    {
+      "description": "The native coin of PIO Testnet, used for fees, staking and mining rewards. Testnet coins have no monetary value.",
+      "denomUnits": [
+        {
+          "denom": "spio",
+          "exponent": 0
+        },
+        {
+          "denom": "tpio",
+          "exponent": 18
+        }
+      ],
+      "base": "spio",
+      "name": "PIO Testnet",
+      "display": "tpio",
+      "symbol": "tPIO",
+      "assetType": "sdk.coin"
+    }
+  ]
+}

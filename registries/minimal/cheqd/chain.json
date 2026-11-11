@@ -137,7 +137,7 @@
         "address": "grpc-cheqd.blockval.io:9290"
       },
       {
-        "address": "https://cheqd-srvs.vnodesv.net/grpc"
+        "address": "cheqd-grpc.vnodesv.net:443"
       },
       {
         "address": "cheqd-grpc.publicnode.com:443"

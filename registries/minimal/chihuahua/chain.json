@@ -62,6 +62,9 @@
       },
       {
         "address": "https://chihuahua-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://huahua-srvs.vnodesv.net/rpc"
       }
     ],
     "rest": [
@@ -85,6 +88,9 @@
       },
       {
         "address": "https://chihuahua.api.pocket.network"
+      },
+      {
+        "address": "https://huahua-srvs.vnodesv.net/api"
       }
     ],
     "grpc": [
@@ -102,6 +108,9 @@
       },
       {
         "address": "grpc.chihuahua.validatus.com:443"
+      },
+      {
+        "address": "huahua-grpc.vnodesv.net:443"
       }
     ]
   },
