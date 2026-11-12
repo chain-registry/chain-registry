@@ -69,9 +69,6 @@
       },
       {
         "address": "https://rpc.pocket.chaintools.tech:443"
-      },
-      {
-        "address": "https://pocket-rpc.kleomedes.network"
       }
     ],
     "rest": [
@@ -89,9 +86,6 @@
       },
       {
         "address": "https://pocket-api.polkachu.com"
-      },
-      {
-        "address": "https://pocket-api.kleomedes.network"
       }
     ],
     "grpc": [

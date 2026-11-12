@@ -53,6 +53,9 @@
       },
       {
         "address": "https://xrp-rpc.polkachu.com:443"
+      },
+      {
+        "address": "https://rpc.xrpl.archive.cumulo.me"
       }
     ],
     "rest": [
@@ -64,6 +67,9 @@
       },
       {
         "address": "https://xrp-api.polkachu.com"
+      },
+      {
+        "address": "https://api.xrpl.archive.cumulo.me"
       }
     ],
     "grpc": [
@@ -75,6 +81,9 @@
       },
       {
         "address": "xrp-grpc.polkachu.com:30090"
+      },
+      {
+        "address": "https://grpc.xrpl.archive.cumulo.me"
       }
     ],
     "evmHttpJsonrpc": [
@@ -83,6 +92,9 @@
       },
       {
         "address": "https://json-rpc.xrpl.cumulo.org.es"
+      },
+      {
+        "address": "https://json-rpc.xrpl.archive.cumulo.me"
       }
     ],
     "wss": [

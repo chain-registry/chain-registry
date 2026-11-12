@@ -83,6 +83,9 @@
       },
       {
         "address": "https://xrpl-testnet-rpc.cosmonautstakes.com"
+      },
+      {
+        "address": "https://rpc-xrplevm-testnet.archive.cumulo.com.es"
       }
     ],
     "rest": [
@@ -112,6 +115,9 @@
       },
       {
         "address": "https://api-t.xrp.nodestake.org"
+      },
+      {
+        "address": "https://api-xrplevm-testnet.archive.cumulo.com.es"
       }
     ],
     "grpc": [
@@ -144,6 +150,9 @@
       },
       {
         "address": "https://grpc.xrpl.cumulo.com.es"
+      },
+      {
+        "address": "https://grpc-xrplevm-testnet.archive.cumulo.com.es"
       }
     ],
     "evmHttpJsonrpc": [
@@ -212,6 +221,9 @@
       },
       {
         "address": "https://evmrpc-t.archive.xrp.nodestake.org"
+      },
+      {
+        "address": "https://jsonrpc-xrplevm-testnet.archive.cumulo.com.es"
       }
     ],
     "wss": [
