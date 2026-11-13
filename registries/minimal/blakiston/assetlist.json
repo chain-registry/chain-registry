@@ -1,0 +1,20 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "blakiston",
+  "assets": [
+    {
+      "description": "Talon (TLN) is the native staking and fee token of the Blakiston chain. Fixed supply of 2,100,000,000 TLN with 0% inflation.",
+      "denomUnits": [
+        {
+          "denom": "tln",
+          "exponent": 0
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "tln",
+      "name": "Talon",
+      "display": "tln",
+      "symbol": "TLN"
+    }
+  ]
+}
