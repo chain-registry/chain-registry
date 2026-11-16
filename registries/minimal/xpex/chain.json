@@ -1,0 +1,65 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "xpex",
+  "chainType": "cosmos",
+  "website": "https://xpexpex.com",
+  "networkType": "mainnet",
+  "prettyName": "XPEX",
+  "chainId": "xpex-2",
+  "bech32Prefix": "xpex",
+  "keyAlgos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "uxpx",
+        "fixedMinGasPrice": 0,
+        "lowGasPrice": 0,
+        "averageGasPrice": 0,
+        "highGasPrice": 0
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "uxpx"
+      }
+    ]
+  },
+  "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "0.54.4",
+      "repo": "https://github.com/cosmos/cosmos-sdk",
+      "tag": "v0.54.4"
+    }
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.xpexpex.com"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.xpexpex.com"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "xpex",
+      "url": "https://xpexpex.com/explorer",
+      "txPage": "https://xpexpex.com/explorer/tx/${txHash}",
+      "accountPage": "https://xpexpex.com/explorer/address/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpex/images/xpx.png"
+    }
+  ]
+}
