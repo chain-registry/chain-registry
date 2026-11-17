@@ -204,7 +204,6 @@
       "address": "orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge",
       "base": "cw20:orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge",
       "name": "Oraix",
-      "coingeckoId": "oraidex",
       "display": "oraix",
       "symbol": "ORAIX"
     },
@@ -407,8 +406,7 @@
       "base": "cw20:orai1hn8w33cqvysun2aujk5sv33tku4pgcxhhnsxmvnkfvdxagcx0p8qa4l98q",
       "name": "Och",
       "display": "och",
-      "symbol": "OCH",
-      "coingeckoId": "och"
+      "symbol": "OCH"
     },
     {
       "description": "The TON native token of Oraichain",

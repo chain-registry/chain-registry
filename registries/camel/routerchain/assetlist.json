@@ -19,7 +19,6 @@
       "name": "Router Chain",
       "display": "ROUTE",
       "symbol": "ROUTE",
-      "coingeckoId": "router-protocol-2",
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.svg"

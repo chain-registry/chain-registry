@@ -827,8 +827,7 @@
           },
           "provider": "Persistence"
         }
-      ],
-      "coingeckoId": "pstake-finance"
+      ]
     },
     {
       "description": "The OCC token acts as the fuel for the OccamRazer launchpad and it is indirectly used as well on the DAO governance layer.",
@@ -1518,8 +1517,7 @@
       "base": "0x9356f6d95b8e109f4b7ce3e49d672967d3b48383",
       "name": "Kinza Babylon Staked BTC",
       "display": "kbtc",
-      "symbol": "kBTC",
-      "coingeckoId": "kintsugi-btc"
+      "symbol": "kBTC"
     },
     {
       "assetType": "erc20",
@@ -1594,8 +1592,7 @@
           },
           "provider": "pumpBTC"
         }
-      ],
-      "coingeckoId": "pumpbtc"
+      ]
     },
     {
       "assetType": "erc20",

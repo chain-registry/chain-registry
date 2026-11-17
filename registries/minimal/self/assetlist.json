@@ -18,7 +18,6 @@
       "name": "Self",
       "display": "slf",
       "symbol": "SLF",
-      "coingeckoId": "self-chain",
       "assetType": "sdk.coin"
     }
   ]

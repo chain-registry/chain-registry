@@ -55,9 +55,6 @@
         "address": "https://persistence.rpc.m.stavr.tech"
       },
       {
-        "address": "https://persistence-rpc.kleomedes.network"
-      },
-      {
         "address": "https://rpc-persistence.architectnodes.com"
       },
       {
@@ -118,9 +115,6 @@
       },
       {
         "address": "https://persistence-api.polkachu.com"
-      },
-      {
-        "address": "https://persistence-api.kleomedes.network"
       },
       {
         "address": "https://rest-persistence.architectnodes.com"

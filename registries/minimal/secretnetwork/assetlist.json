@@ -76,8 +76,7 @@
       "base": "cw20:secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm",
       "name": "Shade",
       "display": "shd",
-      "symbol": "SHD",
-      "coingeckoId": "shade-protocol"
+      "symbol": "SHD"
     },
     {
       "description": "The native token cw20 for Silk on Secret Network",

@@ -131,6 +131,10 @@
       {
         "address": "https://axone-mainnet-rpc.shazoes.xyz",
         "provider": "Shazoes"
+      },
+      {
+        "address": "https://rpc.axone.indonode.net",
+        "provider": "Indonode"
       }
     ],
     "rest": [
@@ -165,6 +169,10 @@
       {
         "address": "https://axone-mainnet-api.shazoes.xyz",
         "provider": "Shazoes"
+      },
+      {
+        "address": "https://api.axone.indonode.net",
+        "provider": "Indonode"
       }
     ],
     "grpc": [

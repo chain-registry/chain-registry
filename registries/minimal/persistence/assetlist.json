@@ -418,8 +418,7 @@
             "path": "transfer/channel-159/cw20:secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm"
           }
         }
-      ],
-      "coingeckoId": "shade-protocol"
+      ]
     },
     {
       "description": "(Deprecated) PSTAKE Liquid-Staked HUAHUA",

@@ -2026,8 +2026,7 @@
             "path": "transfer/channel-169/cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr"
           }
         }
-      ],
-      "coingeckoId": "neta"
+      ]
     },
     {
       "description": "The INJ token is the native governance token for the Injective chain.",
@@ -2893,8 +2892,7 @@
             "path": "transfer/channel-143/hard"
           }
         }
-      ],
-      "coingeckoId": "kava-lend"
+      ]
     },
     {
       "description": "Governance token of Kava Swap Protocol",
@@ -4716,8 +4714,7 @@
             "path": "transfer/channel-87/ucmst"
           }
         }
-      ],
-      "coingeckoId": "composite"
+      ]
     },
     {
       "description": "The native EVM, governance and staking token of the Imversed",
@@ -6600,8 +6597,7 @@
             "path": "transfer/channel-476/cw20:secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm"
           }
         }
-      ],
-      "coingeckoId": "shade-protocol"
+      ]
     },
     {
       "description": "The native token of Bluzelle",
@@ -10334,8 +10330,7 @@
             "path": "transfer/channel-21671/cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
           }
         }
-      ],
-      "coingeckoId": "astroport-fi"
+      ]
     },
     {
       "description": "A clan of 11y bad kids crafting chaos on the Cosmos eco. One bad memecoin to rule them all  $BADKID. Airdropped to Badkids NFT holders and $STARS stakers. It's so bad, your wallet's throwing a tantrum for it.",
@@ -11573,8 +11568,7 @@
             "path": "transfer/channel-874/factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
           }
         }
-      ],
-      "coingeckoId": "astroport-fi"
+      ]
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -13874,8 +13868,7 @@
             "path": "transfer/channel-79180/route"
           }
         }
-      ],
-      "coingeckoId": "router-protocol-2"
+      ]
     },
     {
       "description": "An alloy of OP asset variants on Osmosis.",
@@ -15853,8 +15846,7 @@
             "path": "transfer/channel-874/factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
           }
         }
-      ],
-      "coingeckoId": "drop-staked-atom"
+      ]
     },
     {
       "description": "The Sherpa memecoin",
@@ -20051,6 +20043,76 @@
           "chain": {
             "channelId": "channel-0",
             "path": "transfer/channel-0/transfer/08-wasm-1369/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The native sovereign currency and governance token of the LUXA Layer 1 blockchain.",
+      "denomUnits": [
+        {
+          "denom": "ibc/8965A5F178427372659F3DD28D1F40770A905038A48DFB5D9C3800A5D81BE5DD",
+          "exponent": 0,
+          "aliases": [
+            "uluxa"
+          ]
+        },
+        {
+          "denom": "LUXA",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/8965A5F178427372659F3DD28D1F40770A905038A48DFB5D9C3800A5D81BE5DD",
+      "name": "LUXA",
+      "display": "LUXA",
+      "symbol": "LUXA",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "luxa",
+            "baseDenom": "uluxa",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-111100",
+            "path": "transfer/channel-111100/uluxa"
+          }
+        }
+      ]
+    },
+    {
+      "description": "The utility and energy token of the LUXA Network ecosystem.",
+      "denomUnits": [
+        {
+          "denom": "ibc/542571FE2192CC1A704752965330FE63DAE9BA85E1B9E6E9B79912F62E1A2203",
+          "exponent": 0,
+          "aliases": [
+            "ushard"
+          ]
+        },
+        {
+          "denom": "SHARD",
+          "exponent": 6
+        }
+      ],
+      "assetType": "ics20",
+      "base": "ibc/542571FE2192CC1A704752965330FE63DAE9BA85E1B9E6E9B79912F62E1A2203",
+      "name": "LUXA Shard",
+      "display": "SHARD",
+      "symbol": "SHARD",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "luxa",
+            "baseDenom": "ushard",
+            "channelId": "channel-1"
+          },
+          "chain": {
+            "channelId": "channel-111100",
+            "path": "transfer/channel-111100/ushard"
           }
         }
       ]

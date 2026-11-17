@@ -57,8 +57,7 @@
           },
           "provider": "Moonbeam"
         }
-      ],
-      "coingeckoId": "wrapped-moonbeam"
+      ]
     },
     {
       "description": "Polkadot is a blockchain network designed to support various interconnected, application-specific sub-chains. Each chain built within Polkadot uses Parity Technologies' Substrate modular framework, which allows developers to select specific components that suit their application-specific chain best.",

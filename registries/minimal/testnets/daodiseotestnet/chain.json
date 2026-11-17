@@ -62,7 +62,7 @@
         "address": "https://rpc-test.odiseo.vinjan.xyz"
       },
       {
-        "address": "https://rpc.odiseo-testnet.liora.fun:443"
+        "address": "https://rpc.odiseo-testnet.liorafusion.org:443"
       },
       {
         "address": "https://odiseo-rpctest.codeblocklabs.com"
@@ -109,7 +109,7 @@
         "address": "https://api-test.odiseo.vinjan.xyz"
       },
       {
-        "address": "https://api.odiseo-testnet.liora.fun"
+        "address": "https://api.odiseo-testnet.liorafusion.org"
       },
       {
         "address": "https://api.odiseo-t.nodevism.com"
@@ -141,7 +141,7 @@
         "address": "odiseo-testnet.grpc.sbgid.com:443"
       },
       {
-        "address": "https://grpc.odiseo-testnet.liora.fun:443"
+        "address": "grpc.odiseo-testnet.liorafusion.org:443"
       },
       {
         "address": "grpc-test.odiseo.vinjan.xyz:28090"

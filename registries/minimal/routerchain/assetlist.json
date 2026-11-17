@@ -18,7 +18,6 @@
       "name": "Router Chain",
       "display": "ROUTE",
       "symbol": "ROUTE",
-      "coingeckoId": "router-protocol-2",
       "assetType": "sdk.coin"
     },
     {

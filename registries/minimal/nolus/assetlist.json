@@ -1169,8 +1169,7 @@
             "path": "transfer/channel-3839/factory/neutron1k6hr0f83e7un2wjf29cspk7j69jrnskk65k3ek2nj9dztrlzpj6q00rtsa/udatom"
           }
         }
-      ],
-      "coingeckoId": "drop-staked-atom"
+      ]
     },
     {
       "description": "Noble USDC transferred from the Neutron mainnet that is supported on the Nolus chain",

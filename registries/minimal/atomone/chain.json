@@ -312,6 +312,9 @@
       },
       {
         "address": "atomone-mainnet-grpc.crouton.digital:30690"
+      },
+      {
+        "address": "grpc.atomone.indonode.net:443"
       }
     ]
   },

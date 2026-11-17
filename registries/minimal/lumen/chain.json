@@ -58,6 +58,9 @@
       },
       {
         "address": "https://lumen-rpc.tintonode.win"
+      },
+      {
+        "address": "https://rpc.lumen.indonode.net"
       }
     ],
     "rest": [
@@ -81,6 +84,9 @@
       },
       {
         "address": "https://lumen-api.tintonode.win"
+      },
+      {
+        "address": "https://api.lumen.indonode.net"
       }
     ],
     "grpc": [

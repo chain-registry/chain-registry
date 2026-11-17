@@ -54,7 +54,6 @@
       "name": "CMST",
       "display": "cmst",
       "symbol": "CMST",
-      "coingeckoId": "composite",
       "assetType": "sdk.coin"
     }
   ]

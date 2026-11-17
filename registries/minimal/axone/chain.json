@@ -64,6 +64,9 @@
       },
       {
         "address": "https://axone-mainnet-rpc.shazoes.xyz"
+      },
+      {
+        "address": "https://rpc.axone.indonode.net"
       }
     ],
     "rest": [
@@ -90,6 +93,9 @@
       },
       {
         "address": "https://axone-mainnet-api.shazoes.xyz"
+      },
+      {
+        "address": "https://api.axone.indonode.net"
       }
     ],
     "grpc": [

@@ -70,8 +70,7 @@
       "base": "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
       "name": "Neta",
       "display": "neta",
-      "symbol": "NETA",
-      "coingeckoId": "neta"
+      "symbol": "NETA"
     },
     {
       "description": "The native token cw20 for Marble DAO on Juno Chain",

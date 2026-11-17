@@ -286,7 +286,6 @@
       "name": "Astroport token",
       "display": "astro",
       "symbol": "ASTRO",
-      "coingeckoId": "astroport-fi",
       "assetType": "sdk.coin"
     },
     {
@@ -355,8 +354,7 @@
             "port": "transfer"
           }
         }
-      ],
-      "coingeckoId": "astroport-fi"
+      ]
     },
     {
       "description": "Baby Corgi is the real doggo of Neutron!",
@@ -953,7 +951,6 @@
       "name": "dATOM",
       "display": "dATOM",
       "symbol": "dATOM",
-      "coingeckoId": "drop-staked-atom",
       "traces": [
         {
           "type": "liquid-stake",

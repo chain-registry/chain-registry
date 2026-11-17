@@ -18,7 +18,6 @@
       "name": "Cacao",
       "display": "CACAO",
       "symbol": "CACAO",
-      "coingeckoId": "cacao",
       "assetType": "sdk.coin"
     },
     {

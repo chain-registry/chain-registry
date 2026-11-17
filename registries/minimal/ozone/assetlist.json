@@ -18,8 +18,7 @@
       "base": "aphoton",
       "name": "Ozone",
       "display": "ozone",
-      "symbol": "OZONE",
-      "coingeckoId": "ozonechain"
+      "symbol": "OZONE"
     }
   ]
 }

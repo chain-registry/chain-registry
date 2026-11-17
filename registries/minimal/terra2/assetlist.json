@@ -48,8 +48,7 @@
           },
           "provider": "Astroport"
         }
-      ],
-      "coingeckoId": "astroport-fi"
+      ]
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -84,8 +83,7 @@
             "path": "transfer/channel-229/factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro"
           }
         }
-      ],
-      "coingeckoId": "astroport-fi"
+      ]
     },
     {
       "description": "Dinheiros is the reserve currency of dioalma.protocol, an undivisible and rare token.",
