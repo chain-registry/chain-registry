@@ -15,9 +15,9 @@
     "feeTokens": [
       {
         "denom": "uaxone",
-        "lowGasPrice": 0.001,
-        "averageGasPrice": 0.005,
-        "highGasPrice": 0.01
+        "lowGasPrice": 0.01,
+        "averageGasPrice": 0.025,
+        "highGasPrice": 0.03
       }
     ]
   },

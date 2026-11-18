@@ -1,0 +1,62 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "steemvm",
+  "assets": [
+    {
+      "description": "STEEM bridged 1:1 from the Steem blockchain. The gas and staking token of SteemVM.",
+      "denomUnits": [
+        {
+          "denom": "asteem",
+          "exponent": 0
+        },
+        {
+          "denom": "steem",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "asteem",
+      "name": "Steem",
+      "display": "steem",
+      "symbol": "STEEM",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "steem",
+            "baseDenom": "@@000000021"
+          },
+          "provider": "SteemVM"
+        }
+      ]
+    },
+    {
+      "description": "SBD bridged 1:1 from the Steem blockchain.",
+      "denomUnits": [
+        {
+          "denom": "asbd",
+          "exponent": 0
+        },
+        {
+          "denom": "sbd",
+          "exponent": 18
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "asbd",
+      "name": "Steem Dollars",
+      "display": "sbd",
+      "symbol": "SBD",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chainName": "steem",
+            "baseDenom": "@@000000013"
+          },
+          "provider": "SteemVM"
+        }
+      ]
+    }
+  ]
+}

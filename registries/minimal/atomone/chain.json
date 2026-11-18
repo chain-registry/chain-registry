@@ -17,8 +17,8 @@
         "denom": "uphoton",
         "fixedMinGasPrice": 0.225,
         "lowGasPrice": 0.225,
-        "averageGasPrice": 0.3,
-        "highGasPrice": 0.5
+        "averageGasPrice": 0.36,
+        "highGasPrice": 0.72
       },
       {
         "denom": "uatone",

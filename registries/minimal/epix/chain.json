@@ -21,7 +21,7 @@
         "fixedMinGasPrice": 20000000000,
         "lowGasPrice": 20000000000,
         "averageGasPrice": 25000000000,
-        "highGasPrice": 30000000000
+        "highGasPrice": 40000000000
       }
     ]
   },

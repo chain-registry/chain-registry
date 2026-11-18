@@ -136,7 +136,8 @@
       "txPage": "https://bitbasic.com/celestia-mocha/tx/${txHash}",
       "accountPage": "https://bitbasic.com/celestia-mocha/accounts/${accountAddress}",
       "validatorPage": "https://bitbasic.com/celestia-mocha/validators/${validatorAddress}",
-      "proposalPage": "https://bitbasic.com/celestia-mocha/proposals/${proposalId}"
+      "proposalPage": "https://bitbasic.com/celestia-mocha/proposals/${proposalId}",
+      "blockPage": "https://bitbasic.com/celestia-mocha/blocks/${blockHeight}"
     }
   ]
 }

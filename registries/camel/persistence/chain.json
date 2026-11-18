@@ -22,7 +22,7 @@
       {
         "denom": "uxprt",
         "fixedMinGasPrice": 0,
-        "lowGasPrice": 0,
+        "lowGasPrice": 0.01,
         "averageGasPrice": 0.025,
         "highGasPrice": 0.04
       }

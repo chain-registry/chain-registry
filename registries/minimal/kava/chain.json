@@ -164,7 +164,8 @@
       "txPage": "https://bitbasic.com/kava/tx/${txHash}",
       "accountPage": "https://bitbasic.com/kava/accounts/${accountAddress}",
       "validatorPage": "https://bitbasic.com/kava/validators/${validatorAddress}",
-      "proposalPage": "https://bitbasic.com/kava/proposals/${proposalId}"
+      "proposalPage": "https://bitbasic.com/kava/proposals/${proposalId}",
+      "blockPage": "https://bitbasic.com/kava/blocks/${blockHeight}"
     }
   ],
   "images": [

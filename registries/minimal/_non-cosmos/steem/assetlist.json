@@ -1,0 +1,44 @@
+{
+  "$schema": "../../assetlist.schema.json",
+  "chainName": "steem",
+  "assets": [
+    {
+      "description": "The native token of the Steem blockchain.",
+      "denomUnits": [
+        {
+          "denom": "@@000000021",
+          "exponent": 0
+        },
+        {
+          "denom": "steem",
+          "exponent": 3
+        }
+      ],
+      "assetType": "unknown",
+      "base": "@@000000021",
+      "name": "Steem",
+      "display": "steem",
+      "symbol": "STEEM",
+      "coingeckoId": "steem"
+    },
+    {
+      "description": "Steem Dollars, the debt token of the Steem blockchain, convertible to STEEM at the witness price feed.",
+      "denomUnits": [
+        {
+          "denom": "@@000000013",
+          "exponent": 0
+        },
+        {
+          "denom": "sbd",
+          "exponent": 3
+        }
+      ],
+      "assetType": "unknown",
+      "base": "@@000000013",
+      "name": "Steem Dollars",
+      "display": "sbd",
+      "symbol": "SBD",
+      "coingeckoId": "steem-dollars"
+    }
+  ]
+}
