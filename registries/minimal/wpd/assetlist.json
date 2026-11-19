@@ -1,0 +1,24 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chainName": "wpd",
+  "assets": [
+    {
+      "description": "PEACEISM ECOSYSTEM COINS",
+      "denomUnits": [
+        {
+          "denom": "pcsm",
+          "exponent": 0
+        },
+        {
+          "denom": "PCSM",
+          "exponent": 8
+        }
+      ],
+      "assetType": "sdk.coin",
+      "base": "pcsm",
+      "name": "PEACEISM ECOSYSTEM COINS",
+      "display": "PCSM",
+      "symbol": "PCSM"
+    }
+  ]
+}

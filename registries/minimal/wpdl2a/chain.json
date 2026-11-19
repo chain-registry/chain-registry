@@ -1,0 +1,46 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "wpdl2a",
+  "networkType": "mainnet",
+  "website": "https://www.peaceism.io/",
+  "prettyName": "wpd-l2a-mainnet-1",
+  "chainType": "cosmos",
+  "chainId": "wpd-l2a-mainnet-1",
+  "bech32Prefix": "poa",
+  "slip44": 118,
+  "description": "Community and social development. Basic needs, services, and governance.",
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "poatoken"
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "poatoken"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wpdl2a/images/leea.png"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-l2a.peaceism.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-l2a.peaceism.io"
+      }
+    ]
+  }
+}

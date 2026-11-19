@@ -1,0 +1,51 @@
+{
+  "$schema": "../chain.schema.json",
+  "chainName": "wpd",
+  "networkType": "mainnet",
+  "website": "https://www.peaceism.io/",
+  "prettyName": "WPD Mainnet",
+  "chainType": "cosmos",
+  "chainId": "wpd-mainnet-1",
+  "bech32Prefix": "wpd",
+  "slip44": 118,
+  "fees": {
+    "feeTokens": [
+      {
+        "denom": "pcsm"
+      }
+    ]
+  },
+  "staking": {
+    "stakingTokens": [
+      {
+        "denom": "pcsm"
+      }
+    ],
+    "lockDuration": {
+      "time": "1814400s"
+    }
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wpd/images/wpd.png"
+    }
+  ],
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc.peaceism.io"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api.peaceism.io"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "WPD Explorer",
+      "url": "https://explorer.peaceism.io"
+    }
+  ]
+}
