@@ -8,9 +8,12 @@
   "networkType": "testnet",
   "bech32Prefix": "lumera",
   "keyAlgos": [
-    "secp256k1"
+    "ethsecp256k1"
   ],
-  "slip44": 118,
+  "slip44": 60,
+  "extraCodecs": [
+    "ethermint"
+  ],
   "fees": {
     "feeTokens": [
       {
@@ -32,10 +35,10 @@
   "codebase": {
     "sdk": {
       "type": "cosmos",
-      "version": "v0.50.13"
+      "version": "v0.53.8"
     },
     "cosmwasm": {
-      "version": "v0.53.0",
+      "version": "v0.61.15",
       "enabled": true
     }
   },
@@ -54,14 +57,19 @@
       {
         "address": "https://grpc.testnet.lumera.io:443"
       }
+    ],
+    "evmHttpJsonrpc": [
+      {
+        "address": "https://evm-rpc.testnet.lumera.io:443"
+      }
     ]
   },
   "explorers": [
     {
       "kind": "ping.pub",
-      "url": "https://portal.testnet.lumera.io/lumera-testnet-1/",
-      "txPage": "https://portal.testnet.lumera.io/lumera-testnet-1/tx/${txHash}",
-      "accountPage": "https://portal.testnet.lumera.io/lumera-testnet-1/account/${accountAddress}"
+      "url": "https://portal.testnet.lumera.io/lumera-testnet-2/",
+      "txPage": "https://portal.testnet.lumera.io/lumera-testnet-2/tx/${txHash}",
+      "accountPage": "https://portal.testnet.lumera.io/lumera-testnet-2/account/${accountAddress}"
     }
   ],
   "images": [
